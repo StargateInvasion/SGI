@@ -1,0 +1,76 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Ability"
+			abilityIndex 1
+		smallEffectName "Ability_DebrisVacuum-Buff"
+		mediumEffectName "Ability_DebrisVacuum-Buff"
+		largeEffectName "Ability_DebrisVacuum-Buff"
+		soundID "EFFECT_DEBRISVACUUM"
+numPeriodicActions 2
+periodicAction
+	actionCountType "Infinite"
+	actionIntervalTime
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 0.000000
+	buffInstantActionType "AttractDebris"
+	instantActionTriggerType "AlwaysPerform"
+	range
+		Level:0 7000.000000
+		Level:1 10000.000000
+		Level:2 0.000000
+		Level:3 0.000000
+	travelSpeed 175.000000
+periodicAction
+	actionCountType "Infinite"
+	actionIntervalTime
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 0.000000
+	buffInstantActionType "ConvertNearbyDebrisToHull"
+	instantActionTriggerType "AlwaysPerform"
+	range
+		Level:0 100.000000
+		Level:1 100.000000
+		Level:2 0.000000
+		Level:3 0.000000
+	hullPerDebris
+		Level:0 12.000000
+		Level:1 18.000000
+		Level:2 0.000000
+		Level:3 0.000000
+	debrisCleanupSounds
+		soundCount 4
+		sound "EFFECT_DEBRISDISAPPEAR"
+		sound "EFFECT_DEBRISDISAPPEAR_ALT1"
+		sound "EFFECT_DEBRISDISAPPEAR_ALT2"
+		sound "EFFECT_DEBRISDISAPPEAR_ALT3"
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 45.000000
+		Level:1 60.000000
+		Level:2 0.000000
+		Level:3 0.000000
+finishCondition
+	finishConditionType "OwnerChanged"

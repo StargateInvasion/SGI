@@ -1,0 +1,48 @@
+TXT
+backdropDimPercentage 0.7
+backdropBrush "DialogBackdrop"
+titleOverlayBrush "DialogTitleOverlay"
+size [556 , 517]
+contentRefArea [90, 130, 371, 207]
+titleRefArea [90, 40, 371, 30]
+titleOverlayRefArea [0, 0, 556, 90]
+cancelButton
+	area [250, 400, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"		
+	icon "DialogScreenCloseButton"
+	text "IDS_DIALOGWINDOW_CANCELBUTTON"
+titleTextId "IDSICOLoginScreenManageAccountDialogWindowTitle"
+passwordTextEntry
+	area [0, 0, 380, 30]
+	labelWidth 160
+	labelText "IDSICOLoginScreenManageAccountDialogWindowPasswordLabel"
+confirmPasswordTextEntry
+	area [0, 40, 380, 30]
+	labelWidth 160
+	labelText "IDSICOLoginScreenManageAccountDialogWindowConfirmPasswordLabel"
+emailTextEntry
+	area [0, 160, 380, 30]
+	labelWidth 160
+	labelText "IDSICOLoginScreenManageAccountDialogWindowEmailLabel"
+changePasswordButton
+	area [160, 80, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"	
+	icon "DialogScreenCloseButton"
+	text "IDSICOLoginScreenManageAccountDialogWindowChangePasswordButton"
+changeEmailButton
+	area [160, 200, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"	
+	icon "DialogScreenCloseButton"
+	text "IDSICOLoginScreenManageAccountDialogWindowChangeEmailButton"

@@ -1,0 +1,114 @@
+TXT
+versionNumber 5
+isBrowsable TRUE
+browsePictureName "ScenarioPicture-RandomMedium"
+browseName "IDS_CUSTOMGALAXY_NAME_RANDOMMEDIUMLARGE"
+browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_RANDOMMEDIUMLARGE"
+isFirstCapitalShipIsFlagship TRUE
+randomizeStartingPositions TRUE
+planetArtifactDensity 0.45
+planetBonusDensity 0.60
+normalStartHomePlanetUpgradeLevel:Population 3
+normalStartHomePlanetUpgradeLevel:CivilianModules 1
+normalStartHomePlanetUpgradeLevel:TacticalModules 0
+normalStartHomePlanetUpgradeLevel:Home 1
+normalStartHomePlanetUpgradeLevel:ArtifactLevel 10
+normalStartHomePlanetUpgradeLevel:Infrastructure 2
+quickStartHomePlanetUpgradeLevel:Population 4
+quickStartHomePlanetUpgradeLevel:CivilianModules 1
+quickStartHomePlanetUpgradeLevel:TacticalModules 0
+quickStartHomePlanetUpgradeLevel:Home 1
+quickStartHomePlanetUpgradeLevel:ArtifactLevel 10
+quickStartHomePlanetUpgradeLevel:Infrastructure 2
+recommendedGameTypeCount 1
+recommendedGameType "FFA"
+metersPerGalaxyUnit 25000.000000
+pixelsPerGalaxyUnit 1
+useRandomGenerator TRUE
+randomizerParams
+	starPosOffsetRange
+		minPercentage 10.0
+		maxPercentage 15.0
+	playerParams
+		startingCredits 3000
+		startingMetal 800
+		startingCrystal 250	
+		homePlanetType "TerranHome"
+		homePlanetStarRadiusRange
+			minPercentage 1
+			maxPercentage 1.1		
+		areExtraPlanetsColonized FALSE	
+		extraPlanetsMaxRadius 15
+		extraPlanetsRadiusRange
+			minPercentage 0.9
+			maxPercentage 1.0		
+		extraPlanetGroupCount 3
+		extraPlanetGroup
+			minCount 1
+			maxCount 1
+			planetTypeCount 1
+			planetType "Asteroid"
+		extraPlanetGroup
+			minCount 1
+			maxCount 1
+			planetTypeCount 1
+			planetType "Moon"
+		extraPlanetGroup
+			minCount 1
+			maxCount 1
+			planetTypeCount 1
+			planetType "RandomIceVolcanic"
+starCount 1
+	star
+		type "RandomStar"
+		radius 100
+		connectionStarRadiusRange .7
+		connectionChance .75
+		maxPlayerCount 6
+		ringCount 4
+		ring
+			starRadiusRange
+				minPercentage 0.2
+				maxPercentage 0.3
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 1
+				maxCount 1
+				planetTypeCount 1
+				planetType "PirateBase"				
+		ring
+			starRadiusRange
+				minPercentage 0.3
+				maxPercentage 0.7
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 12
+				maxCount 15
+				planetTypeCount 1
+				planetType "WeightedRandom"
+		ring
+			starRadiusRange
+				minPercentage 0.7
+				maxPercentage 1.0
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 12
+				maxCount 15
+				planetTypeCount 1
+				planetType "WeightedRandom"				
+		ring
+			starRadiusRange
+				minPercentage 0.3
+				maxPercentage 1.0
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 1
+				maxCount 1
+				planetTypeCount 1
+				planetType "Wormhole"		
+				
+

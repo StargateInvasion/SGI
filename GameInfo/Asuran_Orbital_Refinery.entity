@@ -1,0 +1,78 @@
+﻿TXT
+entityType "PlanetModuleRefinery"
+minZoomDistanceMult 2.000000
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
+numRandomDebrisLarge 4
+numRandomDebrisSmall 16
+numSpecificDebris 0
+armorType "Module"
+hudIcon "HUDICON_ASURAN_ORBITAL_REFINERY"
+smallHudIcon "HUDICONSMALL_PLANETMODULE_PHASEORBITALREFINERY"
+infoCardIcon "INFOCARDICON_PLANETMODULE_PHASEORBITALREFINERY"
+planetUpgradeSlotType "Civilian"
+planetUpgradeSlotCount 4.000000
+basePrice
+	credits 1500.000000
+	metal 125.000000
+	crystal 175.000000
+NameStringID "IDS_ASURAN_ORBITAL_REFINERY_NAME"
+DescriptionStringID "IDS_ASURAN_ORBITAL_REFINERY_DESCRIPTION"
+planetModuleRoleType "REFINERY"
+statCountType "ModuleRefinery"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_Orbital_Refinery"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MaxHullPoints 6500.000000
+HullPointRestoreRate 3.000000
+BaseArmorPoints 5.000000
+MaxShieldPoints 0.000000
+ShieldPointRestoreRate 0.000000
+maxShieldMitigation 0.000000
+ExperiencePointsForDestroying 25.000000
+resourceExtractionType "Invalid"
+cultureSpreadRate 0.000000
+isAffectedBySimilarModuleCostResearch FALSE
+placementRadius 1050.000000
+nearPlacementDistOffset 0.000000
+farPlacementDistOffset 9000.000000
+spawnCount 1
+swapMineType ""
+angularSpeed 0.000000
+rotateSoundName ""
+rotateFacingType "None"
+rotateConstantly FALSE
+ShieldMeshName ""
+renderShield TRUE
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 0
+NumSoundsFor:ONSELECTED 1
+SoundID "PLANETMODULE_PHASEORBITALREFINERY_ONSELECTION_0"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Asuran_Orbital_Refinery"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExplosionName "PlanetModuleLarge"
+mainViewIcon "MAINVIEWICON_PLANETMODULE_PHASEORBITALREFINERY"
+picture "PLANETMODULEPICTURE_PHASEORBITALREFINERY"
+minShadow 0.100000
+maxShadow 0.800000
+formationRank 3
+baseBuildTime 90.000000
+buildEffectName ""
+cargoShipType "Asuran_ModuleRefineryShip_Servile"
+maxCargoShipCount 10
+cargoShipRespawnTime 30.000000

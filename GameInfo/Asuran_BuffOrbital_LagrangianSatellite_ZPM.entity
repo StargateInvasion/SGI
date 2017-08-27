@@ -1,0 +1,85 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 5
+instantAction
+	buffInstantActionType "RestoreAntiMatter"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	antiMatter
+		Level:0 200.000000
+		Level:1 200.000000
+		Level:2 200.000000
+		Level:3 200.000000
+instantAction
+	buffInstantActionType "RestoreAntiMatter"
+	instantActionTriggerType "OnDelay"
+	delayTime 1.000000
+	antiMatter
+		Level:0 200.000000
+		Level:1 200.000000
+		Level:2 200.000000
+		Level:3 200.000000
+instantAction
+	buffInstantActionType "RestoreAntiMatter"
+	instantActionTriggerType "OnDelay"
+	delayTime 2.000000
+	antiMatter
+		Level:0 200.000000
+		Level:1 200.000000
+		Level:2 200.000000
+		Level:3 200.000000
+instantAction
+	buffInstantActionType "RestoreAntiMatter"
+	instantActionTriggerType "OnDelay"
+	delayTime 3.000000
+	antiMatter
+		Level:0 200.000000
+		Level:1 200.000000
+		Level:2 200.000000
+		Level:3 200.000000
+instantAction
+	buffInstantActionType "RestoreAntiMatter"
+	instantActionTriggerType "OnDelay"
+	delayTime 4.000000
+	antiMatter
+		Level:0 200.000000
+		Level:1 200.000000
+		Level:2 200.000000
+		Level:3 200.000000
+numPeriodicActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "DrainAntiMatter"
+	drainAntiMatterRate
+		Level:0 0.400000
+		Level:1 0.400000
+		Level:2 0.400000
+		Level:3 0.400000
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "AbilityCooldownRate"
+	value
+		Level:0 6.000000
+		Level:1 6.000000
+		Level:2 6.000000
+		Level:3 6.000000
+numEntityBoolModifiers 0
+numFinishConditions 3
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 75.000000
+		Level:1 75.000000
+		Level:2 75.000000
+		Level:3 75.000000
+finishCondition
+	finishConditionType "AntiMatterDepleted"
+finishCondition
+	finishConditionType "OwnerChanged"

@@ -1,0 +1,2201 @@
+﻿TXT
+onlyLoadOnDemand FALSE
+brushCount 161
+brush
+	name "RebellionResearchOverlay"
+	content "Simple"
+	fileName "Animation_PreRec_White"
+	pixelBox [ 158 , 68 , 74 , 62 ]
+brush
+	name "MicBrush"
+	content "Simple"
+	fileName "SkinTech"
+	pixelBox [ 0 , 0 , 64 , 64 ]
+brush
+	name "DebugOverlay"
+	content "Simple"
+	fileName "DebugOverlay"
+	pixelBox [ 0 , 0 , 1024 , 768 ]
+brush
+	name "ActionGridSlotBackdropTech"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 584 , 54 , 38 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 674 , 54 , 38 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 629 , 54 , 38 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 539 , 54 , 38 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 494 , 54 , 38 ]
+brush
+	name "ActionGridSlotBackdropPsi"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 584 , 54 , 38 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 674 , 54 , 38 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 629 , 54 , 38 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 539 , 54 , 38 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 494 , 54 , 38 ]
+brush
+	name "ActionGridSlotBackdropPhase"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 584 , 54 , 38 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 674 , 54 , 38 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 629 , 54 , 38 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 539 , 54 , 38 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 494 , 54 , 38 ]
+brush
+	name "ActionGridSlotPassiveAbilityOverlay"
+	content "Simple"
+	fileName "Interface0"
+	pixelBox [ 827 , 2 , 50 , 36 ]
+brush
+	name "BANDBOX"
+	content "Margins"
+	stretchMargins
+		left 10
+		right 10
+		top 10
+		bottom 10
+	contentMargins
+		left 10
+		right 10
+		top 10
+		bottom 10
+	fileName "Interface0"
+	pixelBox [ 521 , 38 , 71 , 71 ]
+brush
+	name "FogOfWar"
+	content "Simple"
+	fileName "fog"
+	pixelBox [ 0 , 0 , 512 , 384 ]
+brush
+	name "BottomWindowBackdropTech"
+	content "Simple"
+	fileName "Human_GUI_Skin"
+	pixelBox [ 0 , 384 , 1024 , 128 ]
+brush
+	name "BottomWindowBackdropPsi"
+	content "Simple"
+	fileName "Skin_Psi"
+	pixelBox [ 0 , 384 , 1024 , 128 ]
+brush
+	name "BottomWindowBackdropPhase"
+	content "Simple"
+	fileName "Asuran_GUI_Skin"
+	pixelBox [ 0 , 384 , 1024 , 128 ]
+brush
+	name "BottomWindowOverlayTech"
+	content "Simple"
+	fileName "Human_GUI_Skin"
+	pixelBox [ 0 , 255 , 1024 , 128 ]
+brush
+	name "BottomWindowOverlayPsi"
+	content "Simple"
+	fileName "Skin_Psi"
+	pixelBox [ 0 , 255 , 1024 , 128 ]
+brush
+	name "BottomWindowOverlayPhase"
+	content "Simple"
+	fileName "Asuran_GUI_Skin"
+	pixelBox [ 0 , 255 , 1024 , 128 ]
+brush
+	name "BottomWindowButtonZoomIn"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 223 , 66 , 31 , 16 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 157 , 66 , 31 , 16 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 124 , 66 , 31 , 16 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 91 , 66 , 31 , 16 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 91 , 66 , 31 , 16 ]
+brush
+	name "BottomWindowButtonZoomOut"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 223 , 86 , 31 , 16 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 157 , 86 , 31 , 16 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 124 , 86 , 31 , 16 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 91 , 86 , 31 , 16 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 91 , 86 , 31 , 16 ]
+brush
+	name "BottomWindowButtonToggleZoomToCursorOn"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 68 , 102 , 43 , 19 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 68 , 162 , 43 , 19 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 68 , 132 , 43 , 19 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 68 , 72 , 43 , 19 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 68 , 72 , 43 , 19 ]
+brush
+	name "BottomWindowButtonToggleZoomToCursorOff"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 123 , 102 , 43 , 19 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 123 , 162 , 43 , 19 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 123 , 132 , 43 , 19 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 123 , 72 , 43 , 19 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 123 , 72 , 43 , 19 ]
+brush
+	name "BottomWindowButtonToggleScreenShotModeOn"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 178 , 102 , 43 , 19 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 178 , 162 , 43 , 19 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 178 , 132 , 43 , 19 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 178 , 72 , 43 , 19 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 178 , 72 , 43 , 19 ]
+brush
+	name "BottomWindowButtonToggleScreenShotModeOff"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 233 , 102 , 43 , 19 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 233 , 162 , 43 , 19 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 233 , 132 , 43 , 19 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 233 , 72 , 43 , 19 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 233 , 72 , 43 , 19 ]
+brush
+	name "BottomWindowButtonToggleFreeLookOn"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 223 , 126 , 31 , 16 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 157 , 126 , 31 , 16 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 190 , 126 , 31 , 16 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 157 , 126 , 31 , 16 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 157 , 126 , 31 , 16 ]
+brush
+	name "BottomWindowButtonToggleFreeLookOff"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 223 , 126 , 31 , 16 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 157 , 126 , 31 , 16 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 124 , 126 , 31 , 16 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 91 , 126 , 31 , 16 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 91 , 126 , 31 , 16 ]
+brush
+	name "BottomWindowButtonOpenRenameWindow"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 86 , 0 , 59 , 18 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 228 , 0 , 59 , 18 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 157 , 0 , 59 , 18 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 15 , 0 , 59 , 18 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 15 , 0 , 59 , 18 ]
+brush
+	name "BottomWindowButtonToggleScuttleOn"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 86 , 21 , 61 , 13 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 228 , 21 , 61 , 13 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 157 , 21 , 61 , 13 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 15 , 21 , 61 , 13 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 15 , 21 , 61 , 13 ]
+brush
+	name "BottomWindowButtonToggleScuttleOff"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 86 , 43 , 61 , 13 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 228 , 43 , 61 , 13 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 157 , 43 , 61 , 13 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 15 , 43 , 61 , 13 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 15 , 43 , 61 , 13 ]
+brush
+	name "BottomWindowButtonPing"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 383 , 219 , 50 , 36 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 383 , 293 , 50 , 36 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 383 , 256 , 50 , 36 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 383 , 182 , 50 , 36 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 383 , 182 , 50 , 36 ]
+brush
+	name "BottomWindowButtonIncreaseGameSpeed"
+	content "States"
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 375 , 393 , 42 , 18 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 375 , 435 , 42 , 18 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 375 , 414 , 42 , 18 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 375 , 414 , 42 , 18 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 375 , 372 , 42 , 18 ]
+brush
+	name "BottomWindowButtonDecreaseGameSpeed"
+	content "States"
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 328 , 393 , 42 , 18 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 328 , 435 , 42 , 18 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 328 , 414 , 42 , 18 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 328 , 414 , 42 , 18 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 328 , 372 , 42 , 18 ]
+brush
+	name "BottomWindowButtonIncreaseGameSpeed_Off"
+	content "Simple"
+	fileName "Buttons_Interface"
+	pixelBox [ 0 , 0 , 0 , 0 ]
+brush
+	name "BottomWindowButtonDecreaseGameSpeed_Off"
+	content "Simple"
+	fileName "Buttons_Interface"
+	pixelBox [ 0 , 0 , 0 , 0 ]
+brush
+	name "BottomWindowButtonToggleConnectionsOn"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 222 , 178 , 37 , 23 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 222 , 234 , 37 , 23 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 222 , 152 , 37 , 23 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 222 , 234 , 37 , 23 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 222 , 234 , 37 , 23 ]
+brush
+	name "BottomWindowButtonToggleConnectionsOff"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 222 , 178 , 37 , 23 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 222 , 234 , 37 , 23 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 222 , 206 , 37 , 23 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 222 , 262 , 37 , 23 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 222 , 262 , 37 , 23 ]
+brush
+	name "BottomWindowButtonToggleShowInfoCardsOn"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 37 , 178 , 37 , 23 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 37 , 234 , 37 , 23 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 37 , 152 , 37 , 23 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 37 , 234 , 37 , 23 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 37 , 234 , 37 , 23 ]
+brush
+	name "BottomWindowButtonToggleShowInfoCardsOff"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 37 , 178 , 37 , 23 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 37 , 234 , 37 , 23 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 37 , 206 , 37 , 23 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 37 , 262 , 37 , 23 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 37 , 262 , 37 , 23 ]
+brush
+	name "BottomWindowButtonToggleShowNamesOn"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 148 , 178 , 37 , 23 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 148 , 234 , 37 , 23 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 148 , 152 , 37 , 23 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 148 , 234 , 37 , 23 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 148 , 234 , 37 , 23 ]
+brush
+	name "BottomWindowButtonToggleShowNamesOff"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 148 , 178 , 37 , 23 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 148 , 234 , 37 , 23 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 148 , 206 , 37 , 23 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 148 , 262 , 37 , 23 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 148 , 262 , 37 , 23 ]
+brush
+	name "BottomWindowButtonToggleTeamColorsOn"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 74 , 178 , 37 , 23 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 74 , 234 , 37 , 23 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 74 , 152 , 37 , 23 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 74 , 234 , 37 , 23 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 74 , 234 , 37 , 23 ]
+brush
+	name "BottomWindowButtonToggleTeamColorsOff"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 74 , 178 , 37 , 23 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 74 , 234 , 37 , 23 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 74 , 206 , 37 , 23 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 74 , 262 , 37 , 23 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 74 , 262 , 37 , 23 ]
+brush
+	name "BottomWindowButtonToggleIsAutoPlaceModuleActiveOn"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 327 , 219 , 50 , 36 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 327 , 293 , 50 , 36 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 327 , 330 , 50 , 36 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 327 , 293 , 50 , 36 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 327 , 293 , 50 , 36 ]
+brush
+	name "BottomWindowButtonToggleIsAutoPlaceModuleActiveOff"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 327 , 219 , 50 , 36 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 327 , 293 , 50 , 36 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 327 , 256 , 50 , 36 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 327 , 182 , 50 , 36 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 327 , 182 , 50 , 36 ]
+brush
+	name "HUDIconResearch"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 65 , 33 , 22 , 22 ]
+brush
+	name "HUDIconFlagship"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 155 , 61 , 22 , 22 ]
+brush
+	name "HUDIconCapital"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 125 , 61 , 22 , 22 ]
+brush
+	name "BottomEntityInfoIconHull"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 5 , 1 , 22 , 22 ]
+brush
+	name "BottomEntityInfoIconShield"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 35 , 1 , 22 , 22 ]
+brush
+	name "BottomEntityInfoIconAntiMatter"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 65 , 1 , 22 , 22 ]
+brush
+	name "BottomDiplomaticPlayerRankingLargeIcon"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 182 , 192 , 32 , 30 ]
+brush
+	name "BottomMilitaryPlayerRankingSmallIcon"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 95 , 91 , 22 , 22 ]
+brush
+	name "BottomMilitaryPlayerRankingLargeIcon"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 183 , 224 , 32 , 30 ]
+brush
+	name "BottomCivilianPlayerRankingSmallIcon"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 65 , 91 , 22 , 22 ]
+brush
+	name "BottomCivilianPlayerRankingLargeIcon"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 149 , 224 , 32 , 30 ]
+brush
+	name "BottomEconomyPlayerRankingSmallIcon"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 35 , 91 , 22 , 22 ]
+brush
+	name "BottomEconomyPlayerRankingLargeIcon"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 115 , 224 , 32 , 30 ]
+brush
+	name "BottomEntityInfoIconPlanetAllegiance"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 95 , 1 , 22 , 22 ]
+brush
+	name "BottomEntityInfoIconPlanetBonus"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 5 , 61 , 22 , 22 ]
+brush
+	name "BottomEntityInfoIconPlanetHealth"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 5 , 1 , 22 , 22 ]
+brush
+	name "InfoCardAttachedToBottomBackdropTech"
+	content "Margins"
+	stretchMargins
+		left 0
+		right 0
+		top 20
+		bottom 10
+	contentMargins
+		left 32
+		right 32
+		top 14
+		bottom 14
+	fileName "Human_GUI_Skin"
+	pixelBox [ 716 , 225 , 297 , 29 ]
+brush
+	name "InfoCardAttachedToScreenEdgeBackdropTech"
+	content "Margins"
+	stretchMargins
+		left 10
+		right 20
+		top 20
+		bottom 20
+	contentMargins
+		left 32
+		right 32
+		top 14
+		bottom 22
+	fileName "BackdropInGame"
+	pixelBox [ 2016 , 11 , 29 , 295 ]
+brush
+	name "InfoCardAttachedToBottomBackdropPsi"
+	content "Margins"
+	stretchMargins
+		left 0
+		right 0
+		top 20
+		bottom 10
+	contentMargins
+		left 32
+		right 32
+		top 14
+		bottom 14
+	fileName "Skin_Psi"
+	pixelBox [ 716 , 225 , 297 , 29 ]
+brush
+	name "InfoCardAttachedToScreenEdgeBackdropPsi"
+	content "Margins"
+	stretchMargins
+		left 10
+		right 20
+		top 20
+		bottom 20
+	contentMargins
+		left 32
+		right 32
+		top 14
+		bottom 22
+	fileName "BackdropInGame"
+	pixelBox [ 2016 , 11 , 29 , 295 ]
+brush
+	name "InfoCardAttachedToBottomBackdropPhase"
+	content "Margins"
+	stretchMargins
+		left 0
+		right 0
+		top 20
+		bottom 10
+	contentMargins
+		left 32
+		right 32
+		top 14
+		bottom 14
+	fileName "Asuran_GUI_Skin"
+	pixelBox [ 716 , 225 , 297 , 29 ]
+brush
+	name "InfoCardAttachedToScreenEdgeBackdropPhase"
+	content "Margins"
+	stretchMargins
+		left 10
+		right 20
+		top 20
+		bottom 20
+	contentMargins
+		left 32
+		right 32
+		top 14
+		bottom 22
+	fileName "BackdropInGame"
+	pixelBox [ 2016 , 11 , 29 , 295 ]
+brush
+	name "EmpireWindowHyperspaceNodeIcon"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 451 , 271 , 28 , 28 ]
+brush
+	name "EmpireWindowToggleChildrenVisibleOn"
+	content "States"
+	Disabled
+		fileName "Buttons_Main_Disabled"
+		pixelBox [ 487 , 18 , 16 , 11 ]
+	Pressed
+		fileName "Buttons_Main_Normal"
+		pixelBox [ 487 , 3 , 16 , 11 ]
+	CursorOver
+		fileName "Buttons_Main_Normal"
+		pixelBox [ 487 , 3 , 16 , 11 ]
+	Focused
+		fileName "Buttons_Main_Normal"
+		pixelBox [ 487 , 18 , 16 , 11 ]
+	Normal
+		fileName "Buttons_Main_Normal"
+		pixelBox [ 487 , 18 , 16 , 11 ]
+brush
+	name "EmpireWindowToggleChildrenVisibleOff"
+	content "States"
+	Disabled
+		fileName "Buttons_Main_Disabled"
+		pixelBox [ 468 , 18 , 16 , 11 ]
+	Pressed
+		fileName "Buttons_Main_Normal"
+		pixelBox [ 468 , 3 , 16 , 11 ]
+	CursorOver
+		fileName "Buttons_Main_Normal"
+		pixelBox [ 468 , 3 , 16 , 11 ]
+	Focused
+		fileName "Buttons_Main_Normal"
+		pixelBox [ 468 , 18 , 16 , 11 ]
+	Normal
+		fileName "Buttons_Main_Normal"
+		pixelBox [ 468 , 18 , 16 , 11 ]
+brush
+	name "EmpireWindowIsPinnedIconOverlay"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 35 , 61 , 22 , 22 ]
+brush
+	name "EmpireWindowToggleChildrenStackedOn"
+	content "States"
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 0 , 318 , 37 , 23 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 0 , 374 , 37 , 23 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 0 , 292 , 37 , 23 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 0 , 374 , 37 , 23 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 0 , 374 , 37 , 23 ]
+brush
+	name "EmpireWindowToggleChildrenStackedOff"
+	content "States"
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 0 , 318 , 37 , 23 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 0 , 374 , 37 , 23 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 0 , 346 , 37 , 23 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 0 , 402 , 37 , 23 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 0 , 402 , 37 , 23 ]
+brush
+	name "EmpireWindowSmallIconShip"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 33 , 103 , 4 , 4 ]
+brush
+	name "EmpireWindowSmallIconShipOverlay"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 26 , 109 , 4 , 4 ]
+brush
+	name "EmpireWindowPipCloudCursorOverBackdrop"
+	content "Margins"
+	stretchMargins
+		left 3
+		right 3
+		top 3
+		bottom 3
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+	fileName "Unit_Main"
+	pixelBox [ 331 , 421 , 30 , 30 ]
+brush
+	name "EmpireWindowPipCloudSelectedBackdrop"
+	content "Margins"
+	stretchMargins
+		left 3
+		right 3
+		top 3
+		bottom 3
+	contentMargins
+		left 0
+		right 0
+		top 0
+		bottom 0
+	fileName "Unit_Main"
+	pixelBox [ 331 , 391 , 30 , 30 ]
+brush
+	name "EmpireWindowHotKeyGroup1"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 482 , 696 , 29 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 696 , 29 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 482 , 696 , 29 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 696 , 29 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 696 , 29 , 30 ]
+brush
+	name "EmpireWindowHotKeyGroup2"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 482 , 729 , 29 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 729 , 29 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 482 , 729 , 29 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 729 , 29 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 729 , 29 , 30 ]
+brush
+	name "EmpireWindowHotKeyGroup3"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 482 , 762 , 29 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 762 , 29 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 482 , 762 , 29 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 762 , 29 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 762 , 29 , 30 ]
+brush
+	name "EmpireWindowHotKeyGroup4"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 482 , 795 , 29 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 795 , 29 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 482 , 795 , 29 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 795 , 29 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 795 , 29 , 30 ]
+brush
+	name "EmpireWindowHotKeyGroup5"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 482 , 828 , 29 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 828 , 29 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 482 , 828 , 29 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 828 , 29 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 828 , 29 , 30 ]
+brush
+	name "EmpireWindowHotKeyGroup6"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 482 , 531 , 29 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 531 , 29 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 482 , 531 , 29 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 531 , 29 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 531 , 29 , 30 ]
+brush
+	name "EmpireWindowHotKeyGroup7"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 482 , 564 , 29 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 564 , 29 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 482 , 564 , 29 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 564 , 29 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 564 , 29 , 30 ]
+brush
+	name "EmpireWindowHotKeyGroup8"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 482 , 597 , 29 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 597 , 29 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 482 , 597 , 29 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 597 , 29 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 597 , 29 , 30 ]
+brush
+	name "EmpireWindowHotKeyGroup9"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 482 , 630 , 29 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 630 , 29 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 482 , 630 , 29 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 630 , 29 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 630 , 29 , 30 ]
+brush
+	name "EmpireWindowHotKeyGroup0"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 482 , 663 , 29 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 663 , 29 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 482 , 663 , 29 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 663 , 29 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 482 , 663 , 29 , 30 ]
+brush
+	name "EmpireWindowIconEntityOverlayHomePlanet"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 61 , 451 , 35 , 34 ]
+brush
+	name "EmpireWindowIconEntityOverlayArtifact"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 61 , 391 , 35 , 34 ]
+brush
+	name "EmpireWindowIconEntityOverlayResourceExtractorMetal"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 301 , 271 , 28 , 28 ]
+brush
+	name "EmpireWindowIconEntityOverlayResourceExtractorCrystal"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 331 , 271 , 28 , 28 ]
+brush
+	name "EmpireWindowIconEntityOverlayResourceExtractorMetalDepleted"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 361 , 271 , 28 , 28 ]
+brush
+	name "EmpireWindowIconEntityOverlayResourceExtractorCrystalDepleted"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 391 , 271 , 28 , 28 ]
+brush
+	name "EmpireWindowOptionsWindowBackdropTech"
+	content "Simple"
+	fileName "Human_GUI_Skin"
+	pixelBox [ 294 , 216 , 228 , 39 ]
+brush
+	name "EmpireWindowOptionsWindowHighResBackdropTech"
+	content "Simple"
+	fileName "Human_GUI_Skin"
+	pixelBox [ 0 , 216 , 228 , 39 ]
+brush
+	name "EmpireWindowOptionsWindowBackdropPsi"
+	content "Simple"
+	fileName "Skin_Psi"
+	pixelBox [ 294 , 216 , 228 , 39 ]
+brush
+	name "EmpireWindowOptionsWindowHighResBackdropPsi"
+	content "Simple"
+	fileName "Skin_Psi"
+	pixelBox [ 0 , 216 , 228 , 39 ]
+brush
+	name "EmpireWindowOptionsWindowBackdropPhase"
+	content "Simple"
+	fileName "Asuran_GUI_Skin"
+	pixelBox [ 294 , 216 , 228 , 39 ]
+brush
+	name "EmpireWindowOptionsWindowHighResBackdropPhase"
+	content "Simple"
+	fileName "Asuran_GUI_Skin"
+	pixelBox [ 0 , 216 , 228 , 39 ]
+brush
+	name "EmpireWindowOptionsWindowSelectionMenuOpenButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 149 , 218 , 111 , 23 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 150 , 275 , 111 , 23 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 149 , 192 , 111 , 23 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 149 , 274 , 111 , 23 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 149 , 274 , 111 , 23 ]
+brush
+	name "EmpireWindowOptionsWindowSelectionMenuClosedButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 149 , 218 , 111 , 23 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 150 , 275 , 111 , 23 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 149 , 246 , 111 , 23 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 149 , 302 , 111 , 23 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 149 , 302 , 111 , 23 ]
+brush
+	name "EmpireWindowOptionsWindowSelectionMenuInfoCardIcon"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 65 , 61 , 22 , 22 ]
+brush
+	name "EmpireWindowOptionsWindowToggleIsPinnedButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 0 , 218 , 36 , 23 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 1 , 275 , 36 , 23 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 0 , 246 , 36 , 23 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 0 , 302 , 36 , 23 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 0 , 302 , 36 , 23 ]
+brush
+	name "EmpireWindowOptionsWindowIsStackedButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 261 , 218 , 36 , 23 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 262 , 275 , 36 , 23 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 260 , 191 , 38 , 25 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 261 , 274 , 36 , 23 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 260 , 273 , 38 , 25 ]
+brush
+	name "EmpireWindowOptionsWindowIsNotStackedButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Interface"
+		pixelBox [ 261 , 218 , 36 , 23 ]
+	Pressed
+		fileName "Buttons_Interface"
+		pixelBox [ 262 , 275 , 36 , 23 ]
+	CursorOver
+		fileName "Buttons_Interface"
+		pixelBox [ 261 , 246 , 36 , 23 ]
+	Focused
+		fileName "Buttons_Interface"
+		pixelBox [ 261 , 302 , 36 , 23 ]
+	Normal
+		fileName "Buttons_Interface"
+		pixelBox [ 261 , 302 , 36 , 23 ]
+brush
+	name "EmpireWindowSelectionWindowBackdrop"
+	content "Simple"
+	fileName "Buttons_Backgrounds2"
+	pixelBox [ 5 , -38 , 244 , 674 ]
+brush
+	name "EmpireWindowFindIconOwnedColonyShipsTech"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 4 , 618 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 618 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 4 , 618 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 618 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 618 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedScoutShipsTech"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 4 , 659 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 659 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 4 , 659 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 659 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 659 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedCapitalShipsTech"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 4 , 700 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 700 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 4 , 700 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 700 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 700 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedStarbasesTech"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled"
+		pixelBox [ 180 , 331 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 180 , 331 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver"
+		pixelBox [ 180 , 331 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 180 , 331 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 180 , 331 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedEnvoysTech"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled"
+		pixelBox [ 447 , 185 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 447 , 185 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver"
+		pixelBox [ 447 , 185 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 447 , 185 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 447 , 185 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedPlanetsWithResourceAsteroidsTech"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 4 , 454 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 454 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 4 , 454 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 454 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 454 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedPlanetsWithFactoriesTech"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 4 , 741 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 741 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 4 , 741 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 741 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 741 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedPlanetsWithUpgradesTech"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 4 , 536 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 536 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 4 , 536 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 536 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 536 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedPlanetsWithCivilianSlotsTech"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 4 , 495 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 495 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 4 , 495 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 495 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 495 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconPlanetsWithArtifactsTech"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 4 , 577 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 577 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 4 , 577 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 577 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 577 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedColonyShipsPsi"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 4 , 782 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 782 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 4 , 782 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 782 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 782 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedScoutShipsPsi"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 4 , 823 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 823 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 4 , 823 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 823 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 823 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedCapitalShipsPsi"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 4 , 864 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 864 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 4 , 864 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 864 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 864 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedStarbasesPsi"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled"
+		pixelBox [ 180 , 290 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 180 , 290 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver"
+		pixelBox [ 180 , 290 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 180 , 290 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 180 , 290 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedEnvoysPsi"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled"
+		pixelBox [ 447 , 103 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 447 , 103 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver"
+		pixelBox [ 447 , 103 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 447 , 103 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 447 , 103 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedPlanetsWithResourceAsteroidsPsi"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 4 , 454 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 454 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 4 , 454 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 454 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 454 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedPlanetsWithFactoriesPsi"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 4 , 905 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 905 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 4 , 905 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 905 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 905 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedPlanetsWithUpgradesPsi"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 4 , 536 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 536 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 4 , 536 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 536 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 536 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedPlanetsWithCivilianSlotsPsi"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 4 , 495 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 495 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 4 , 495 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 495 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 495 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconPlanetsWithArtifactsPsi"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 4 , 577 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 577 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 4 , 577 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 577 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 577 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedColonyShipsPhase"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 92 , 618 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 92 , 618 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 92 , 618 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 92 , 618 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 92 , 618 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedScoutShipsPhase"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 92 , 659 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 92 , 659 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 92 , 659 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 92 , 659 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 92 , 659 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedCapitalShipsPhase"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 92 , 700 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 92 , 700 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 92 , 700 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 92 , 700 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 92 , 700 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedStarbasesPhase"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled"
+		pixelBox [ 180 , 249 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 180 , 249 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver"
+		pixelBox [ 180 , 249 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 180 , 249 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 180 , 249 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedEnvoysPhase"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled"
+		pixelBox [ 445 , 144 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 445 , 144 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver"
+		pixelBox [ 445 , 144 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 445 , 144 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 445 , 144 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedPlanetsWithResourceAsteroidsPhase"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 4 , 454 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 454 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 4 , 454 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 454 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 454 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedPlanetsWithFactoriesPhase"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 92 , 741 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 92 , 741 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 92 , 741 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 92 , 741 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 92 , 741 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedPlanetsWithUpgradesPhase"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 4 , 536 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 536 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 4 , 536 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 536 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 536 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconOwnedPlanetsWithCivilianSlotsPhase"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 4 , 495 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 495 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 4 , 495 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 495 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 495 , 65 , 38 ]
+brush
+	name "EmpireWindowFindIconPlanetsWithArtifactsPhase"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 4 , 577 , 65 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 577 , 65 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 4 , 577 , 65 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 577 , 65 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 577 , 65 , 38 ]
+brush
+	name "TopWindowBackdropTech"
+	content "Simple"
+	fileName "Human_GUI_Skin"
+	pixelBox [ 0 , 0 , 1024 , 50 ]
+brush
+	name "TopWindowBackdropPsi"
+	content "Simple"
+	fileName "Skin_Psi"
+	pixelBox [ 0 , 0 , 1024 , 50 ]
+brush
+	name "TopWindowBackdropPhase"
+	content "Simple"
+	fileName "Asuran_GUI_Skin"
+	pixelBox [ 0 , 0 , 1024 , 50 ]
+brush
+	name "TopWindowOverlayTech"
+	content "Simple"
+	fileName "Human_GUI_Skin"
+	pixelBox [ 0 , 51 , 1024 , 50 ]
+brush
+	name "TopWindowOverlayPsi"
+	content "Simple"
+	fileName "Skin_Psi"
+	pixelBox [ 0 , 51 , 1024 , 50 ]
+brush
+	name "TopWindowOverlayPhase"
+	content "Simple"
+	fileName "Asuran_GUI_Skin"
+	pixelBox [ 0 , 51 , 1024 , 50 ]
+brush
+	name "TopWindowLeftCapLowResTech"
+	content "Simple"
+	fileName "Human_GUI_Skin"
+	pixelBox [ 0 , 101 , 300 , 39 ]
+brush
+	name "TopWindowLeftCapHighResTech"
+	content "Simple"
+	fileName "Human_GUI_Skin"
+	pixelBox [ 0 , 146 , 224 , 39 ]
+brush
+	name "TopWindowRightCapLowResTech"
+	content "Simple"
+	fileName "Human_GUI_Skin"
+	pixelBox [ 713 , 101 , 310 , 39 ]
+brush
+	name "TopWindowRightCapHighResTech"
+	content "Simple"
+	fileName "Human_GUI_Skin"
+	pixelBox [ 979 , 146 , 45 , 39 ]
+brush
+	name "TopWindowLeftCapLowResPsi"
+	content "Simple"
+	fileName "Skin_Psi"
+	pixelBox [ 0 , 101 , 300 , 39 ]
+brush
+	name "TopWindowLeftCapHighResPsi"
+	content "Simple"
+	fileName "Skin_Psi"
+	pixelBox [ 0 , 146 , 224 , 39 ]
+brush
+	name "TopWindowRightCapLowResPsi"
+	content "Simple"
+	fileName "Skin_Psi"
+	pixelBox [ 713 , 101 , 310 , 39 ]
+brush
+	name "TopWindowRightCapHighResPsi"
+	content "Simple"
+	fileName "Skin_Psi"
+	pixelBox [ 979 , 146 , 45 , 39 ]
+brush
+	name "TopWindowLeftCapLowResPhase"
+	content "Simple"
+	fileName "Asuran_GUI_Skin"
+	pixelBox [ 0 , 101 , 300 , 39 ]
+brush
+	name "TopWindowLeftCapHighResPhase"
+	content "Simple"
+	fileName "Asuran_GUI_Skin"
+	pixelBox [ 0 , 146 , 224 , 39 ]
+brush
+	name "TopWindowRightCapLowResPhase"
+	content "Simple"
+	fileName "Asuran_GUI_Skin"
+	pixelBox [ 713 , 101 , 310 , 39 ]
+brush
+	name "TopWindowRightCapHighResPhase"
+	content "Simple"
+	fileName "Asuran_GUI_Skin"
+	pixelBox [ 979 , 146 , 45 , 39 ]
+brush
+	name "QuickMarketBuyButtonMetal"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled"
+		pixelBox [ 447 , 3 , 64 , 30 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 447 , 3 , 64 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver"
+		pixelBox [ 447 , 3 , 64 , 30 ]
+	Focused
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 447 , 3 , 64 , 30 ]
+	Normal
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 447 , 3 , 64 , 30 ]
+brush
+	name "QuickMarketSellButtonMetal"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled"
+		pixelBox [ 447 , 69 , 64 , 30 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 447 , 69 , 64 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver"
+		pixelBox [ 447 , 69 , 64 , 30 ]
+	Focused
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 447 , 69 , 64 , 30 ]
+	Normal
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 447 , 69 , 64 , 30 ]
+brush
+	name "QuickMarketBuyButtonCrystal"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled"
+		pixelBox [ 447 , 36 , 64 , 30 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 447 , 36 , 64 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver"
+		pixelBox [ 447 , 36 , 64 , 30 ]
+	Focused
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 447 , 36 , 64 , 30 ]
+	Normal
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 447 , 36 , 64 , 30 ]
+brush
+	name "QuickMarketSellButtonCrystal"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled"
+		pixelBox [ 447 , 69 , 64 , 30 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 447 , 69 , 64 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver"
+		pixelBox [ 447 , 69 , 64 , 30 ]
+	Focused
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 447 , 69 , 64 , 30 ]
+	Normal
+		fileName "Buttons_Screens2_Normal"
+		pixelBox [ 447 , 69 , 64 , 30 ]
+brush
+	name "QuickMarketBackdropTech"
+	content "Simple"
+	fileName "Buttons_Interface"
+	pixelBox [ 5 , 337 , 279 , 171 ]
+brush
+	name "QuickMarketBackdropNoPiratesTech"
+	content "Simple"
+	fileName "Buttons_Interface"
+	pixelBox [ 5 , 337 , 279 , 102 ]
+brush
+	name "QuickMarketBackdropPsi"
+	content "Simple"
+	fileName "Buttons_Interface_Psi_Phase"
+	pixelBox [ 5 , 337 , 279 , 171 ]
+brush
+	name "QuickMarketBackdropNoPiratesPsi"
+	content "Simple"
+	fileName "Buttons_Interface_Psi_Phase"
+	pixelBox [ 5 , 337 , 279 , 102 ]
+brush
+	name "QuickMarketBackdropPhase"
+	content "Simple"
+	fileName "Buttons_Interface_Psi_Phase"
+	pixelBox [ 5 , 156 , 279 , 171 ]
+brush
+	name "QuickMarketBackdropNoPiratesPhase"
+	content "Simple"
+	fileName "Buttons_Interface_Psi_Phase"
+	pixelBox [ 5 , 156 , 279 , 102 ]
+brush
+	name "QuickPirateIncreaseBountyOnHighestEnemyButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 447 , 960 , 64 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 447 , 960 , 64 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 447 , 960 , 64 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 447 , 960 , 64 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 447 , 960 , 64 , 30 ]

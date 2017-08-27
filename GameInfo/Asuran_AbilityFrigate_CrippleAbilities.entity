@@ -1,0 +1,65 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTarget"
+instantActionTriggerType "AlwaysPerform"
+buffType "Asuran_BuffFrigate_CrippleAbilities"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 2
+	object "Frigate"
+	object "PlanetModule"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "HasAntiMatterPool"
+range
+	Level:0 6000.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "Ability_CrippleAbilitiesActivate"
+	mediumEffectName "Ability_CrippleAbilitiesActivate"
+	largeEffectName "Ability_CrippleAbilitiesActivate"
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "Asuran_Research_Ability_CrippleAbilities"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 8.000000
+	Level:1 8.000000
+	Level:2 8.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_Ability_CrippleAbilities"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ASURAN_ABILITYFRIGATE_CRIPPLEABILITIES_NAME"
+descStringID "IDS_ASURAN_ABILITYFRIGATE_CRIPPLEABILITIES_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_CRIPPLEABILITIES"
+smallHudIcon "HUDICON_ABILITY_CRIPPLEABILITIES"
+infoCardIcon ""

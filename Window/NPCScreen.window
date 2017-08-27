@@ -1,0 +1,497 @@
+TXT
+tabWindow
+	topLeftOffset [0, 39]
+	buttonTopLeftOffset [33, 90]
+	buttonSize [ 170 , 52 ]
+	buttonIndicatorArea [148, -2, 72, 52]
+	buttonIndicatorBackdrop "TabWindowButtonIndicatorBackdrop"
+	titleStringId "IDSNPCScreenTitle"
+	titleFontId "TabbedScreenTitle"
+	titleArea [20, 20, 190, 40]
+	titleOverlayArea [12, 4, 208 , 59]
+	titleOverlay "TabWindowTitleOverlay"
+	buttonsBackdropArea [0, 0, 210, 749]
+	buttonsBackdropDetailArea [0, 0, 210, 749]
+	contentArea [230, 0, 814, 749]
+	buttonsBackdrop "TabWindowButtonBackdropInGame"
+	buttonsBackdropDetail ""
+	contentBackdrop "TabWindowContentBackdropInGame"
+	nonActiveButtonInternals
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 40
+		textOffsetFromLeft 50
+		underlay "TabButtonUnderlayNonActive"
+		overlay "TabButtonOverlayNonActive"						
+	activeButtonInternals
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 40
+		textOffsetFromLeft 50
+		underlay "TabButtonUnderlayActive"
+		overlay "TabButtonOverlayActive"		
+	closeButton
+		area [33, 665, 170 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 40
+		textOffsetFromLeft 50
+		underlay "TabButtonUnderlayNonActive"
+		overlay "TabButtonOverlayNonActive"						
+		icon "NPCScreenCloseButton"
+		text "IDSNPCScreenCloseButton"
+pirateContentWindow
+	tabButtonIcon "NPCScreenPirateTabButton"
+	tabButtonText "IDSNPCScreenPirateTabButton"
+	portraitFrameArea [12, 60, 304, 279]
+	portraitPictureArea [66, 117, 195 , 219]
+	portraitUnderlay "PirateScreenPortraitUnderlay"
+	portraitOverlay "PirateScreenPortraitOverlay"
+	portraitOverlayWhenPiratesDead "PirateScreenPortraitOverlayWhenPiratesDead"
+	strengthWindowDef
+		area [12, 339, 304, 110]
+		textArea [110, 17, 100, 30]
+		textFont "Label"
+		backdrop "PirateScreenStrengthBackdrop"
+		overlay "PirateScreenStrengthOverlay"
+		level-0
+			brush "PirateScreenStrength0"
+			text "IDSPirateScreenStrength0"
+		level-1
+			brush "PirateScreenStrength1"
+			text "IDSPirateScreenStrength1"
+		level-2
+			brush "PirateScreenStrength2"
+			text "IDSPirateScreenStrength2"
+		level-3
+			brush "PirateScreenStrength3"
+			text "IDSPirateScreenStrength3"
+		level-4
+			brush "PirateScreenStrength4"
+			text "IDSPirateScreenStrength4"
+		levelDefWhenDead
+			brush "PirateScreenStrengthWhenDead"
+			text "IDSPirateScreenStrengthWhenDead"
+	targetWindowDef
+		area [12, 408,304, 213]
+		wantedTextArea [155, 53, 75, 30]
+		bountyAmountAreas
+			area [132, 88, 100, 30]
+			textOffsetFromLeft 30
+		playerNameAndIconAreas
+			area [70, 118, 150, 30]
+			textOffsetFromLeft 35
+		playerPortraitArea [72, 46, 56, 67]
+		backdrop "PirateScreenTargetBackdrop"
+		overlay "PirateScreenTargetOverlay"
+		wantedTextString "IDSPirateScreenTargetWanted"
+		bountyAmountFont "Label"
+		wantedTextFont "Label"
+		playerNameFont "Label"
+	bountyWindowDef
+		area [293, 86, 461, 506]
+		activePlayerBountyWindowArea [25, 29, 600, 30]
+		changeBountyWindowsFirstArea [25, 75, 600, 30]
+		changeBountyWindowsStride [0, 46]
+		backdrop "PirateScreenBountyBackdrop"
+		changeBountyWindowDef
+			changeBountyButtonPressAmount
+				smallAmount 250
+				largeAmount 500
+			underAttackIconId "PirateScreenAttackingPlayerIcon"
+			underAttackIconArea [375, 0, 30, 30]
+			playerIconArea [0, 0, 30, 30]
+			playerNameArea [40, 0, 130, 30]
+			totalBountyArea [285, 0, 85, 30]
+			changeBountyButtonIcon "PirateScreenChangeBountyButtonIcon"
+			changeBountyButtonTextFormat "IDSPirateScreenChangeBountyButtonTextFormat"
+			changeBountyButtonInternals
+				area [180, 3, 100, 30]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 24
+				textOffsetFromLeft 40
+				underlay "ScreenButtonUnderlaySmall"
+				overlay "ScreenButtonOverlaySmall"			
+		countdownWindowDef
+			area [32, 585, 733, 73]
+			timeArea [45, 25, 60, 30]
+			barArea [134, 32, 490, 13]
+			warningIndicatorArea [646, 1, 63, 73]
+			timeFont "Label"
+			backdrop "PirateScreenCountdownBackdrop"
+			overlay "PirateScreenCountdownOverlay"
+			endPiece "PirateScreenCountdownEndPiece"
+			barColor0 ff8fd81d
+			barColor1 ffffc705
+			barColor2 ffff0000
+	createMissionWindowDef
+		area [0, 0, 788 , 719]
+		buttonsBackdrop "PlayerScreenAlliancesBackdrop"
+		buttonsArea [400,300,0,0]
+		labelFont "Label"
+		strengthFont "Label"
+		typeLabelArea [70,185,0,0]
+		targetLabelArea [290,185,0,0]
+		durationLabelArea [510,185,0,0]
+		amountLabelArea [70,260,0,0]
+		rewardLabelArea [70,335,0,0]
+		pirateFleetTextArea [290, 420, 0, 0]
+		starLabelArea [70,260,0,0]
+		planetTypeLabelArea [290,260,0,0]
+		planetNameLabelArea [510,260,0,0]
+		cancelOfferMissionDef
+			area [290, 500, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 22
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+			buttonIcon "PlayerScreenCloseButton"
+			buttonTextId "IDSPlayerScreenCancelOfferMissionButton"
+		submitOfferMissionDef
+			area [510, 500, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 5
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+			buttonIcon "DialogScreenAcceptButton"
+			buttonTextId "IDSPlayerScreenSubmitOfferMissionButton"
+		changeMissionTypeDef
+			area [70, 200, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 22
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+			BombAnyPlanet
+				icon "BombPlanetMission"
+				text "IDSCreateMissionBombPlanetLabel"
+			GiveResources
+				icon "GiveResourcesMission"
+				text "IDSCreateMissionGiveResourcesLabel"
+			KillShips
+				icon "KillShipsMission"
+				text "IDSCreateMissionKillShipsLabel"
+			KillCapitalShips
+				icon "KillCapitalShipsMission"
+				text "IDSCreateMissionKillCapitalShipsLabel"
+			KillCivilianStructures
+				icon "KillCivilianMission"
+				text "IDSCreateMissionKillCivStructuresLabel"
+			KillTacticalStructures
+				icon "KillTacticalMission"
+				text "IDSCreateMissionKillTactStructuresLabel"
+			SendEnvoy
+				icon "SendEnvoyMission"
+				text "IDSCreateMissionSendEnvoyLabel"
+		playerTargetDef
+			area [290, 200, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft -25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		quantityButtonSharedDef
+			TimeLimit
+				label "IDSPlayerScreenDurationButton"
+				brush "PlayerScreenCreateMissionDuration"
+			PriceCredits
+				label "IDSPlayerScreenPriceCreditsButton"
+				brush "PlayerScreenCreateMissionCredits"
+			PriceMetal
+				label "IDSPlayerScreenPriceMetalButton"
+				brush "PlayerScreenCreateMissionMetal"
+			PriceCrystal
+				label "IDSPlayerScreenPriceCrystalButton"
+				brush "PlayerScreenCreateMissionCrystal"
+			RewardCredits
+				label "IDSPlayerScreenRewardCreditsButton"
+				brush "PlayerScreenCreateMissionCredits"
+			RewardMetal
+				label "IDSPlayerScreenRewardMetalButton"
+				brush "PlayerScreenCreateMissionMetal"
+			RewardCrystal
+				label "IDSPlayerScreenRewardCrystalButton"
+				brush "PlayerScreenCreateMissionCrystal"
+			KillShips
+				label "IDSPlayerScreenKillShipsButton"
+				brush "PlayerScreenCreateMissionKillNumber"
+			KillCapitalShips
+				label "IDSPlayerScreenKillCapitalShipsButton"
+				brush "PlayerScreenCreateMissionKillNumber"
+			KillTacticalStructures
+				label "IDSPlayerScreenKillTacticalStructuresButton"
+				brush "PlayerScreenCreateMissionKillNumber"
+			KillCivilianStructures
+				label "IDSPlayerScreenKillCivilianStructuresButton"
+				brush "PlayerScreenCreateMissionKillNumber"
+		timeLimitDef
+			area [510, 200, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		priceCreditsDef
+			area [70, 275, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		priceMetalDef
+			area [290, 275, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		priceCrystalDef
+			area [510, 275, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		rewardCreditsDef
+			area [70, 350, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		rewardMetalDef
+			area [290, 350, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		rewardCrystalDef
+			area [510, 350, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		killShipsDef
+			area [70, 275, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		killCapitalShipsDef
+			area [70, 275, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		killTacticalStructuresDef
+			area [70, 275, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		killCivilianStructuresDef
+			area [70, 275, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		planetStarDef
+			area [70, 275, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft -25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		planetTypeDef
+			area [290, 275, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft -25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		planetNameDef
+			area [510, 275, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft -25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		changeLevelDef
+			area [70, 375, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 0
+				textOffsetFromLeft 0
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+			buttonIcon ""
+			buttonTextId "IDSPlayerScreenChangeMissionLevel"
+	offerMissionWindowDef
+		area [415, 658, 220, 46]
+		buttonInternals
+			area [0, 0, 220, 46]
+			fontId "ButtonLabel"
+			iconOffsetFromLeft 22
+			textOffsetFromLeft 70
+			underlay "ScreenButtonUnderlayLarge"
+			overlay "ScreenButtonOverlayLarge"
+		buttonIcon "PlayerScreenOfferMission"
+		buttonTextId "IDSPlayerScreenOfferMissionButton"
+		statusArea [230, 0, 95, 44]
+		noMissionStatusIcon "PlayerScreenPeaceTreatyCooldownTimeUnderlay"
+		missionOfferedStatusIcon "PlayerScreenMissionOffered"
+marketContentWindow
+	tabButtonIcon "NPCScreenMarketTabButton"
+	tabButtonText "IDSNPCScreenMarketTabButton"
+	metalPictureArea [5, 60, 263, 288]
+	crystalPictureArea [525, 60, 263, 288]
+	titleArea [268, 60, 257, 153]
+	titleTextArea [268, 80, 257, 153]
+	metalPictureBrush "MarketScreenMetalPicture"
+	crystalPictureBrush "MarketScreenCrystalPicture"
+	titleBackdrop "MarketScreenTitleBackdrop"
+	titleOverlay "MarketScreenTitleOverlay"
+	titleFont "TabbedScreenTitle"
+	titleString "IDSMarketScreenTitle"
+	sharedResourceWindowDef
+		bucketQuantityButtonPressAmount
+			smallAmount 100
+			largeAmount 500
+		bucketPriceButtonPressAmount
+			smallAmount .02
+			largeAmount .10
+		buyButtonPressAmount
+			smallAmount 100
+			largeAmount 500
+		sellButtonPressAmount
+			smallAmount 100
+			largeAmount 500		
+		bucketQuantityButtonInternals
+			area [118, 104, 105, 38]
+			fontId "ButtonLabel"
+			iconOffsetFromLeft 18
+			textOffsetFromLeft 50
+			underlay "ScreenButtonUnderlaySmall"
+			overlay "ScreenButtonOverlaySmall"				
+		bucketPriceButtonInternals
+			area [3, 104, 105, 38]
+			fontId "ButtonLabel"
+			iconOffsetFromLeft 18
+			textOffsetFromLeft 50
+			underlay "ScreenButtonUnderlaySmall"
+			overlay "ScreenButtonOverlaySmall"				
+		sellButtonInternals
+			area [0, 52, 220, 46]
+			fontId "ButtonLabel"
+			iconOffsetFromLeft 22
+			textOffsetFromLeft 70
+			underlay "ScreenButtonUnderlayLarge"
+			overlay "ScreenButtonOverlayLarge"						
+		buyButtonInternals
+			area [0, 0, 220, 46]
+			fontId "ButtonLabel"
+			iconOffsetFromLeft 22
+			textOffsetFromLeft 70
+			underlay "ScreenButtonUnderlayLarge"
+			overlay "ScreenButtonOverlayLarge"		
+		priceFont "Label"				
+	metalWindowDef
+		area [62, 466, 220 , 150]
+		backdropArea [-55 , -56 , 392 , 257]
+		backdropBrush "MarketScreenButtonsBackdropMetal"
+		buyButtonIcon "MarketScreenBuyButtonIconMetal"
+		sellButtonIcon "MarketScreenSellButtonIconMetal"
+		bucketQuantityButtonIcon "MarketScreenBucketQuantityButtonIconMetal"
+		bucketPriceButtonIcon "MarketScreenBucketPriceButtonIconMetal"
+		bucketPriceButtonIconWhenLowest "MarketScreenBucketPriceButtonIconWhenLowestMetal"
+		priceBackdrop "MarketScreenBuySellButtonPriceBackdropMetal"
+		priceOverlay "MarketScreenBuySellButtonPriceOverlayMetal"
+		buyPriceArea [230 , 0 , 95 , 46]
+		sellPriceArea [230, 52 , 95 , 46]
+		buyButtonFormat "IDSMarketScreenBuyButtonFormat"
+		sellButtonFormat "IDSMarketScreenSellButtonFormat"
+		bucketQuantityButtonFormat "IDSBucketQuantityButtonFormat"
+		bucketPriceButtonFormat "IDSBucketPriceButtonFormat"
+	crystalWindowDef
+		area [502, 466, 220 , 150]
+		backdropArea [-103 , -56 , 392 , 257]
+		backdropBrush "MarketScreenButtonsBackdropCrystal"
+		buyButtonIcon "MarketScreenBuyButtonIconCrystal"
+		sellButtonIcon "MarketScreenSellButtonIconCrystal"
+		bucketQuantityButtonIcon "MarketScreenBucketQuantityButtonIconCrystal"
+		bucketPriceButtonIcon "MarketScreenBucketPriceButtonIconCrystal"
+		bucketPriceButtonIconWhenLowest "MarketScreenBucketPriceButtonIconWhenLowestCrystal"
+		priceBackdrop "MarketScreenBuySellButtonPriceBackdropCrystal"
+		priceOverlay "MarketScreenBuySellButtonPriceOverlayCrystal"
+		buyPriceArea [-105, 0 , 95 , 46]
+		sellPriceArea [-105, 52 , 95 , 46]
+		buyButtonFormat "IDSMarketScreenBuyButtonFormat"
+		sellButtonFormat "IDSMarketScreenSellButtonFormat"
+		bucketQuantityButtonFormat "IDSBucketQuantityButtonFormat"
+		bucketPriceButtonFormat "IDSBucketPriceButtonFormat"
+	graphWindowDef
+		area [268, 213, 257, 236]
+		graphArea [38, 19, 183, 90]
+		backdrop "MarketScreenGraphBackdrop"		
+		overlay "MarketScreenGraphOverlay"		
+		metalLineColor ffffc705
+		crystalLineColor ffff87ff
+	sharedPriceWindowDef
+		buyPriceArea [10, 15, 50, 30]
+		sellPriceArea [140, 15, 50, 30]
+		fontId "Label"
+	metalPriceWindowDef
+		area [65, 348, 200, 75]
+		backdropArea [-60,0,263, 101]]
+		backdrop "MarketScreenPriceBackdropMetal"
+		overlay "MarketScreenPriceOverlayMetal"
+	crystalPriceWindowDef
+		area [530, 348, 200, 75]
+		backdropArea [-5,0,263, 101]
+		backdrop "MarketScreenPriceBackdropCrystal"
+		overlay "MarketScreenPriceOverlayCrystal"
+	bucketDescArea [300, 548, 190, 75]
+	bucketDescText "IDSMarketScreenBucketDesc"
+	bucketDescFont "Label"

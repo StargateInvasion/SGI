@@ -1,0 +1,94 @@
+﻿TXT
+entityType "Fighter"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+numRandomDebrisLarge 0
+numRandomDebrisSmall 0
+numSpecificDebris 0
+armorType "Light"
+hudIcon "HUDICON_SQUADPSIBOMBER"
+smallHudIcon "HUDICONSMALL_SQUADPSIBOMBER"
+infoCardIcon "INFOCARDICON_SQUADPSIBOMBER"
+minZoomDistanceMult 8.000000
+nameStringID "IDS_FIGHTERPSIBOMBER_NAME"
+counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_BOMBER"
+statCountType "FighterBomber"
+formationOffsetDistance 50.000000
+mass 150.000000
+maxAccelerationLinear 200.000000
+maxAccelerationStrafe 100.000000
+maxDecelerationLinear 1000.000000
+maxAccelerationAngular 49.999992
+maxDecelerationAngular 99.999985
+maxSpeedLinear 1500.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+NumWeapons 1
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTIVERYHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "BEAM"
+	DamagePerBank:FRONT 34.410000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 2400.000000
+	PreBuffCooldownTime 13.500000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.000000
+	TravelSpeed 0.000000
+	Duration 0.750000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_BeamFighter_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Weapon_Psi_BeamFighter_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "WEAPON_PSISUPPORTBEAMLIGHT_TRAVEL"
+		beamGlowTextureName "PsiSupportBeam_Glow"
+		beamCoreTextureName "PsiSupportBeam_Core"
+		beamWidth 10.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+meshName "SupportShip_PsiBomber"
+exhaustParticleSystemName "ExhaustSmall"
+ExplosionName "Fighter0"
+exhaustTrailTextureName "ExhaustTrail"
+exhaustTrailWidth 8.000000
+engineSoundID "ENGINE_PSISUPPORTSHIP"
+maxHullPoints 75.000000
+hullPointRestoreRate 0.365000
+armorPoints 1.000000
+maxMitigation 0.600000
+experiencePointsForDestroying 6.500000
+minShadow 0.000000
+maxShadow 0.500000

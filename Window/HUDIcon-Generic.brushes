@@ -1,0 +1,575 @@
+﻿TXT
+onlyLoadOnDemand FALSE
+brushCount 91
+brush
+	name "HUDIconAllianceTypeTrade"
+	content "Simple"
+	fileName "Buttons_Screens_Normal"
+	pixelBox [ 4 , 167 , 55 , 38 ]
+brush
+	name "HUDIconAllianceTypeExternalVision"
+	content "Simple"
+	fileName "Buttons_Screens_Normal"
+	pixelBox [ 4 , 44 , 55 , 38 ]
+brush
+	name "HUDIconAllianceTypeInternalVision"
+	content "Simple"
+	fileName "Buttons_Screens_Normal"
+	pixelBox [ 4 , 85 , 55 , 38 ]
+brush
+	name "HUDIconAllianceTypeCeaseFire"
+	content "Simple"
+	fileName "Buttons_Screens_Normal"
+	pixelBox [ 4 , 3 , 55 , 38 ]
+brush
+	name "HUDIconAllianceTypePeaceTreaty"
+	content "Simple"
+	fileName "Buttons_Screens_Normal"
+	pixelBox [ 4 , 126 , 55 , 38 ]
+brush
+	name "HUDIconAllianceTypeResearchPact"
+	content "Simple"
+	fileName "Buttons_Screens2_Normal"
+	pixelBox [ 92 , 413 , 85 , 38 ]
+brush
+	name "HUDIconAllianceTypeCrystalPact"
+	content "Simple"
+	fileName "Buttons_Screens2_Normal"
+	pixelBox [ 4 , 413 , 85 , 38 ]
+brush
+	name "HUDIconAllianceTypeEfficiencyPact"
+	content "Simple"
+	fileName "Buttons_Screens2_Normal"
+	pixelBox [ 4 , 455 , 85 , 38 ]
+brush
+	name "HUDICON_SOLARSYSTEM_YELLOW"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 370 , 946 , 69 , 69 ]
+brush
+	name "HUDICON_SOLARSYSTEM_BLUE"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 634 , 946 , 69 , 69 ]
+brush
+	name "HUDICON_SOLARSYSTEM_GREEN"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 458 , 946 , 69 , 69 ]
+brush
+	name "HUDICON_SOLARSYSTEM_RED"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 546 , 946 , 69 , 69 ]
+brush
+	name "HUDICON_STAR_YELLOW"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 370 , 946 , 69 , 69 ]
+brush
+	name "HUDICON_STAR_BLUE"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 634 , 946 , 69 , 69 ]
+brush
+	name "HUDICON_STAR_PULSAR"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 932 , 1113 , 69 , 69 ]
+brush
+	name "HUDICON_STAR_BLACK_HOLE"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 932 , 1036 , 69 , 69 ]
+brush
+	name "HUDICON_STAR_NEUTRON"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 827 , 1467 , 69 , 69 ]
+brush
+	name "HUDICON_STAR_GREEN"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 458 , 946 , 69 , 69 ]
+brush
+	name "HUDICON_STAR_RED"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 546 , 946 , 69 , 69 ]
+brush
+	name "HUDICONSMALL_STAR_YELLOW"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 370 , 946 , 69 , 69 ]
+brush
+	name "HUDICONSMALL_STAR_BLUE"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 634 , 946 , 69 , 69 ]
+brush
+	name "HUDICONSMALL_STAR_GREEN"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 458 , 946 , 69 , 69 ]
+brush
+	name "HUDICONSMALL_STAR_RED"
+	content "Simple"
+	fileName "Icons_planets"
+	pixelBox [ 546 , 946 , 69 , 69 ]
+brush
+	name "HUDIconCannonShellTech"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 447 , 224 , 47 , 33 ]
+	Pressed
+		fileName "Unit_Hud_Pressed"
+		pixelBox [ 447 , 224 , 47 , 33 ]
+	CursorOver
+		fileName "Unit_Hud_CursorOver"
+		pixelBox [ 447 , 224 , 47 , 33 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 447 , 224 , 47 , 33 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 447 , 224 , 47 , 33 ]
+brush
+	name "HUDIconCoronalMassEjection"
+	content "States"
+	Disabled
+		fileName "Unit_Hud2_Disabled"
+		pixelBox [ 250 , 5 , 47 , 33 ]
+	Pressed
+		fileName "Unit_Hud2_Pressed"
+		pixelBox [ 250 , 5 , 47 , 33 ]
+	CursorOver
+		fileName "Unit_Hud2_CursorOver"
+		pixelBox [ 250 , 5 , 47 , 33 ]
+	Focused
+		fileName "Unit_Hud2_Normal"
+		pixelBox [ 250 , 5 , 47 , 33 ]
+	Normal
+		fileName "Unit_Hud2_Normal"
+		pixelBox [ 250 , 5 , 47 , 33 ]
+brush
+	name "HUDIconGammaRayBurst"
+	content "States"
+	Disabled
+		fileName "Unit_Hud2_Disabled"
+		pixelBox [ 250 , 40 , 47 , 33 ]
+	Pressed
+		fileName "Unit_Hud2_Pressed"
+		pixelBox [ 250 , 40 , 47 , 33 ]
+	CursorOver
+		fileName "Unit_Hud2_CursorOver"
+		pixelBox [ 250 , 40 , 47 , 33 ]
+	Focused
+		fileName "Unit_Hud2_Normal"
+		pixelBox [ 250 , 40 , 47 , 33 ]
+	Normal
+		fileName "Unit_Hud2_Normal"
+		pixelBox [ 250 , 40 , 47 , 33 ]
+brush
+	name "HUDIconCannonShellPsi"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 447 , 259 , 47 , 33 ]
+	Pressed
+		fileName "Unit_Hud_Pressed"
+		pixelBox [ 447 , 259 , 47 , 33 ]
+	CursorOver
+		fileName "Unit_Hud_CursorOver"
+		pixelBox [ 447 , 259 , 47 , 33 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 447 , 259 , 47 , 33 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 447 , 259 , 47 , 33 ]
+brush
+	name "HUDIconCannonShellPhase"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 447 , 294 , 47 , 33 ]
+	Pressed
+		fileName "Unit_Hud_Pressed"
+		pixelBox [ 447 , 294 , 47 , 33 ]
+	CursorOver
+		fileName "Unit_Hud_CursorOver"
+		pixelBox [ 447 , 294 , 47 , 33 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 447 , 294 , 47 , 33 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 447 , 294 , 47 , 33 ]
+brush
+	name "HUDIconSmallCannonShellTech"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 481 , 1 , 28 , 28 ]
+brush
+	name "HUDIconSmallCannonShellPsi"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 481 , 31 , 28 , 28 ]
+brush
+	name "HUDIconSmallCannonShellPhase"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 481 , 61 , 28 , 28 ]
+brush
+	name "HUDIconEntityOverlayHomePlanet"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 1 , 451 , 55 , 55 ]
+brush
+	name "HUDIconEntityOverlayArtifact"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 1 , 391 , 55 , 55 ]
+brush
+	name "HUDIconEntityOverlayUnspentAbilityPointsAndUnassignedSquads"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 241 , 331 , 28 , 29 ]
+brush
+	name "HUDIconEntityOverlayUnspentAbilityPoints"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 301 , 331 , 28 , 29 ]
+brush
+	name "HUDIconEntityOverlayUnassignedSquads"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 271 , 331 , 28 , 29 ]
+brush
+	name "HUDIconEntityOverlayPartiallyStacked"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 241 , 361 , 28 , 30 ]
+brush
+	name "HUDIconEntityOverlayAlmostFullyStacked"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 271 , 361 , 28 , 30 ]
+brush
+	name "HUDIconEntityOverlayFullyStacked"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 301 , 361 , 28 , 30 ]
+brush
+	name "HUDIconEntityOverlayFleetLeader"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 331 , 331 , 28 , 30 ]
+brush
+	name "HUDIconEntityUnderlayUnderCursorFrame"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 331 , 421 , 30 , 30 ]
+brush
+	name "HUDIconEntityUnderlaySubSelectedFrame"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 331 , 451 , 30 , 30 ]
+brush
+	name "HUDIconEntityUnderlaySelectedFrame"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 331 , 391 , 30 , 30 ]
+brush
+	name "HUDIconEntityWithAntiMatterUnderlaySubSelectedFill"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 241 , 451 , 30 , 30 ]
+brush
+	name "HUDIconEntityWithAntiMatterUnderlaySelectedFill"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 241 , 391 , 30 , 30 ]
+brush
+	name "HUDIconEntityUnderlaySubSelectedFill"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 301 , 451 , 30 , 30 ]
+brush
+	name "HUDIconEntityUnderlaySelectedFill"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 301 , 391 , 30 , 30 ]
+brush
+	name "HUDIconEntityUnderlaySubSelectedFillNoBars"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 271 , 451 , 30 , 30 ]
+brush
+	name "HUDIconEntityUnderlaySelectedFillNoBars"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 271 , 391 , 30 , 30 ]
+brush
+	name "HUDIconEntityUnderlayIsBusyFill"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 241 , 481 , 30 , 30 ]
+brush
+	name "HUDIconHappinessGained"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 185 , 31 , 22 , 22 ]
+brush
+	name "HUDIconHappinessLost"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 215 , 31 , 22 , 22 ]
+brush
+	name "HUDIconCredits"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 5 , 31 , 22 , 22 ]
+brush
+	name "HUDIconPopulation"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 35 , 31 , 22 , 22 ]
+brush
+	name "HUDIconMetal"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 125 , 31 , 22 , 22 ]
+brush
+	name "HUDIconCrystal"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 155 , 31 , 22 , 22 ]
+brush
+	name "HUDIconQuest"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 217 , 219 , 39 , 37 ]
+brush
+	name "HUDIconQuestBombAnyPlanet"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 125 , 61 , 22 , 22 ]
+brush
+	name "HUDIconQuestKillShips"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 155 , 61 , 22 , 22 ]
+brush
+	name "HUDIconQuestKillCapitalShips"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 155 , 61 , 22 , 22 ]
+brush
+	name "HUDIconQuestKillCivilianStructures"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 125 , 91 , 22 , 22 ]
+brush
+	name "HUDIconQuestKillTacticalStructures"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 155 , 91 , 22 , 22 ]
+brush
+	name "HUDIconQuestSendEnvoy"
+	content "Simple"
+	fileName "smallicons"
+	pixelBox [ 155 , 61 , 22 , 22 ]
+brush
+	name "HUDIconOverlayNotEnoughCredits"
+	content "Simple"
+	fileName "Interface0"
+	pixelBox [ 761 , 388 , 50 , 36 ]
+brush
+	name "HUDIconOverlayNotEnoughMetal"
+	content "Simple"
+	fileName "Interface0"
+	pixelBox [ 761 , 314 , 50 , 36 ]
+brush
+	name "HUDIconOverlayNotEnoughCrystal"
+	content "Simple"
+	fileName "Interface0"
+	pixelBox [ 761 , 351 , 50 , 36 ]
+brush
+	name "HUDIconOverlayNotResearched"
+	content "Simple"
+	fileName "Interface0"
+	pixelBox [ 812 , 351 , 50 , 36 ]
+brush
+	name "HUDIconOverlayPlanetUpgradePathLastStageUpgraded"
+	content "Simple"
+	fileName "Interface0"
+	pixelBox [ 827 , 2 , 50 , 36 ]
+brush
+	name "HUDIconOverlayPlanetModuleNoAvailableResourceAsteroids"
+	content "Simple"
+	fileName "Interface0"
+	pixelBox [ 0 , 0 , 0 , 0 ]
+brush
+	name "HUDIconOverlayPlanetModuleNoTacticalSlotsAvailable"
+	content "Simple"
+	fileName "Interface0"
+	pixelBox [ 812 , 388 , 50 , 36 ]
+brush
+	name "HUDIconOverlayPlanetModuleNoCivilianSlotsAvailable"
+	content "Simple"
+	fileName "Interface0"
+	pixelBox [ 812 , 388 , 50 , 36 ]
+brush
+	name "HUDIconOverlayPlanetBuildShipNoFrigateFactories"
+	content "Simple"
+	fileName "Interface0"
+	pixelBox [ 863 , 314 , 50 , 36 ]
+brush
+	name "HUDIconOverlayPlanetBuildShipNoCapitalShipFactories"
+	content "Simple"
+	fileName "Interface0"
+	pixelBox [ 863 , 314 , 50 , 36 ]
+brush
+	name "HUDIconOverlayPlanetBuildShipNotEnoughShipSlotsTech"
+	content "Simple"
+	fileName "Interface0"
+	pixelBox [ 914 , 314 , 50 , 36 ]
+brush
+	name "HUDIconOverlayPlanetBuildShipNotEnoughCapitalShipSlotsTech"
+	content "Simple"
+	fileName "Interface0"
+	pixelBox [ 863 , 388 , 50 , 36 ]
+brush
+	name "HUDIconOverlayPlanetBuildShipNotEnoughShipSlotsPsi"
+	content "Simple"
+	fileName "Interface0"
+	pixelBox [ 914 , 351 , 50 , 36 ]
+brush
+	name "HUDIconOverlayPlanetBuildShipNotEnoughCapitalShipSlotsPsi"
+	content "Simple"
+	fileName "Interface0"
+	pixelBox [ 914 , 388 , 50 , 36 ]
+brush
+	name "HUDIconOverlayPlanetBuildShipNotEnoughShipSlotsPhase"
+	content "Simple"
+	fileName "Interface0"
+	pixelBox [ 965 , 351 , 50 , 36 ]
+brush
+	name "HUDIconOverlayPlanetBuildShipNotEnoughCapitalShipSlotsPhase"
+	content "Simple"
+	fileName "Interface0"
+	pixelBox [ 965 , 388 , 50 , 36 ]
+brush
+	name "HUDIconOverlayStarBaseUpgradeNotEnoughUpgradePoints"
+	content "Simple"
+	fileName "Interface0"
+	pixelBox [ 827 , 2 , 50 , 36 ]
+brush
+	name "HUDIconOverlayStarBaseUpgradePathLastStageUpgraded"
+	content "Simple"
+	fileName "Interface0"
+	pixelBox [ 827 , 2 , 50 , 36 ]
+brush
+	name "HUDIconOverlayInFleet"
+	content "Simple"
+	fileName "Interface0"
+	pixelBox [ 863 , 351 , 50 , 36 ]
+brush
+	name "PipIconCombatShip"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 397 , 416 , 3 , 3 ]
+brush
+	name "HUDIconSpaceMineTech"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 153 , 14 , 47 , 33 ]
+	Pressed
+		fileName "Unit_Hud_Pressed"
+		pixelBox [ 153 , 14 , 47 , 33 ]
+	CursorOver
+		fileName "Unit_Hud_CursorOver"
+		pixelBox [ 153 , 14 , 47 , 33 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 153 , 14 , 47 , 33 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 153 , 14 , 47 , 33 ]
+brush
+	name "HUDIconSpaceMinePsi"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 153 , 49 , 47 , 33 ]
+	Pressed
+		fileName "Unit_Hud_Pressed"
+		pixelBox [ 153 , 49 , 47 , 33 ]
+	CursorOver
+		fileName "Unit_Hud_CursorOver"
+		pixelBox [ 153 , 49 , 47 , 33 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 153 , 49 , 47 , 33 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 153 , 49 , 47 , 33 ]
+brush
+	name "HUDIconSpaceMinePhaseExplosive"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 153 , 84 , 47 , 33 ]
+	Pressed
+		fileName "Unit_Hud_Pressed"
+		pixelBox [ 153 , 84 , 47 , 33 ]
+	CursorOver
+		fileName "Unit_Hud_CursorOver"
+		pixelBox [ 153 , 84 , 47 , 33 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 153 , 84 , 47 , 33 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 153 , 84 , 47 , 33 ]
+brush
+	name "HUDIconSpaceMinePhaseGravity"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 398 , 469 , 47 , 33 ]
+	Pressed
+		fileName "Unit_Hud_Pressed"
+		pixelBox [ 398 , 469 , 47 , 33 ]
+	CursorOver
+		fileName "Unit_Hud_CursorOver"
+		pixelBox [ 398 , 469 , 47 , 33 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 398 , 469 , 47 , 33 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 398 , 469 , 47 , 33 ]
+brush
+	name "HUDIconSmallSpaceMineTech"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 301 , 1 , 28 , 28 ]
+brush
+	name "HUDIconSmallSpaceMinePsi"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 301 , 31 , 28 , 28 ]
+brush
+	name "HUDIconSmallSpaceMinePhaseExplosive"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 301 , 61 , 28 , 28 ]
+brush
+	name "HUDIconSmallSpaceMinePhaseGravity"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 451 , 241 , 28 , 28 ]

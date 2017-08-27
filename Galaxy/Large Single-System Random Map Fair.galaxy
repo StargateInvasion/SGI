@@ -1,0 +1,123 @@
+TXT
+versionNumber 5
+isBrowsable TRUE
+browsePictureName "ScenarioPicture-RandomLargeSingleCompetitive"
+browseName "IDS_CUSTOMGALAXY_NAME_RANDOMLARGESINGLEFair"
+browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_RANDOMLARGESINGLEFair"
+isFirstCapitalShipIsFlagship TRUE
+randomizeStartingPositions TRUE
+planetArtifactDensity 0.3
+planetBonusDensity 0.3
+normalStartHomePlanetUpgradeLevel:Population 3
+normalStartHomePlanetUpgradeLevel:CivilianModules 1
+normalStartHomePlanetUpgradeLevel:TacticalModules 0
+normalStartHomePlanetUpgradeLevel:Home 1
+normalStartHomePlanetUpgradeLevel:ArtifactLevel 10
+normalStartHomePlanetUpgradeLevel:Infrastructure 2
+quickStartHomePlanetUpgradeLevel:Population 4
+quickStartHomePlanetUpgradeLevel:CivilianModules 1
+quickStartHomePlanetUpgradeLevel:TacticalModules 0
+quickStartHomePlanetUpgradeLevel:Home 1
+quickStartHomePlanetUpgradeLevel:ArtifactLevel 10
+quickStartHomePlanetUpgradeLevel:Infrastructure 2
+recommendedGameTypeCount 1
+recommendedGameType "FFA"
+metersPerGalaxyUnit 25000.000000
+pixelsPerGalaxyUnit 1
+useRandomGenerator TRUE
+randomizerParams
+	starPosOffsetRange
+		minPercentage 10.0
+		maxPercentage 15.0
+	playerParams
+		startingCredits 3000
+		startingMetal 800
+		startingCrystal 250	
+		homePlanetType "TerranHome"
+		homePlanetStarRadiusRange
+			minPercentage 1
+			maxPercentage 1.1		
+		areExtraPlanetsColonized FALSE	
+		extraPlanetsMaxRadius 15
+		extraPlanetsRadiusRange
+			minPercentage 0.9
+			maxPercentage 1.0		
+		extraPlanetGroupCount 3
+		extraPlanetGroup
+			minCount 1
+			maxCount 1
+			planetTypeCount 1
+			planetType "AsteroidFair"
+		extraPlanetGroup
+			minCount 1
+			maxCount 1
+			planetTypeCount 1
+			planetType "MoonFair"
+		extraPlanetGroup
+			minCount 1
+			maxCount 1
+			planetTypeCount 1
+			planetType "VolcanicFair"
+starCount 1
+	star
+		type "RandomStar"
+		radius 110
+		connectionStarRadiusRange .65
+		connectionChance .75		
+		maxPlayerCount 8
+		ringCount 5
+		ring
+			starRadiusRange
+				minPercentage 0.2
+				maxPercentage 0.3
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 1
+				maxCount 1
+				planetTypeCount 1
+				planetType "PirateBase"			
+		ring
+			starRadiusRange
+				minPercentage 0.3
+				maxPercentage 0.7
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 8
+				maxCount 15
+				planetTypeCount 1
+				planetType "WeightedRandomFair"
+		ring
+			starRadiusRange
+				minPercentage 0.7
+				maxPercentage 1.0
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 7
+				maxCount 12
+				planetTypeCount 1
+				planetType "WeightedRandomFair"		
+		ring
+			starRadiusRange
+				minPercentage 0.1
+				maxPercentage 1.0
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 7
+				maxCount 12
+				planetTypeCount 1
+				planetType "RandomFair"						
+		ring
+			starRadiusRange
+				minPercentage 0.3
+				maxPercentage 1.0
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 1
+				maxCount 1
+				planetTypeCount 1
+				planetType "Wormhole"						

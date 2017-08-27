@@ -1,0 +1,327 @@
+﻿TXT
+entityType "StarBase"
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+defaultAutoAttackRange "None"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+numRandomDebrisLarge 12
+numRandomDebrisSmall 24
+numSpecificDebris 0
+armorType "Module"
+hudIcon "HUDICON_STARBASE_PSI"
+smallHudIcon "HUDICONSMALL_STARBASE_PSI"
+infoCardIcon "INFOCARDICON_STARBASE_PSI"
+minZoomDistanceMult 1.750000
+NumWeapons 3
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 146.000000
+	DamagePerBank:BACK 146.000000
+	DamagePerBank:LEFT 146.000000
+	DamagePerBank:RIGHT 146.000000
+	Range 8000.000000
+	PreBuffCooldownTime 5.500000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.400000
+	TravelSpeed 2000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 2
+		burstDelay 0.600000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_PlasmaStarbase_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE"
+			sound "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE_ALT1"
+			sound "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE_ALT2"
+		hitEffectName "Weapon_Psi_PlasmaStarbase_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Psi_PlasmaStarbase_Travel"
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "SPIRITBLADE"
+	DamagePerBank:FRONT 300.000000
+	DamagePerBank:BACK 300.000000
+	DamagePerBank:LEFT 300.000000
+	DamagePerBank:RIGHT 300.000000
+	Range 10500.000000
+	PreBuffCooldownTime 10.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.080000
+	TravelSpeed 1000.000000
+	Duration 0.000000
+	fireConstraintType "StarBaseUpgradeLevel"
+	requiredStarBaseWeaponLevel 2
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.600000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PsiSpirit_Muzzle"
+		muzzleSoundMinRespawnTime 0.500000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_PSICAPITALSPIRIT_MUZZLE"
+		hitEffectName "Weapon_PsiSpirit_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPON_PSICAPITALSPIRIT_IMPACT"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPON_PSICAPITALSPIRIT_IMPACT"
+		missileTravelEffectName "Weapon_PsiSpirit_Travel"
+		missileStartTurningDistance 250.000000
+		missileSlowTurnRate 1.708997
+		missileMaxSlowTurnTime 6.000000
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "LASERPSI"
+	DamagePerBank:FRONT 192.000000
+	DamagePerBank:BACK 192.000000
+	DamagePerBank:LEFT 192.000000
+	DamagePerBank:RIGHT 192.000000
+	Range 6500.000000
+	PreBuffCooldownTime 6.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.200000
+	TravelSpeed 4000.000000
+	Duration 0.000000
+	fireConstraintType "StarBaseUpgradeLevel"
+	requiredStarBaseWeaponLevel 1
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 2
+		burstDelay 0.500000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_LaserCapital_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PSICAPITALLASERHEAVY_MUZZLE"
+			sound "WEAPON_PSICAPITALLASERHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_Psi_LaserCapital_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Psi_LaserCapital_Travel"
+m_weaponIndexForRange 1
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 4
+TargetCountPerBank:BACK 4
+TargetCountPerBank:LEFT 4
+TargetCountPerBank:RIGHT 4
+canOnlyTargetStructures FALSE
+ShieldMeshName "Shield_PsiStarBase"
+renderShield TRUE
+squadTypeEntityDef:0 "SquadPsiCombat"
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 "SquadPsiBomber"
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+mainViewIcon "MainViewIconStarBasePsi"
+experiencePointsForDestroying 150.000000
+nameStringID ""
+picture "PICTURE_STARBASEPSI"
+statCountType "StarBase"
+creationSourceAbility ""
+maxUpgradeLevelCount 8
+UpgradeTypeCount 9
+UpgradeType "StarBaseUpgradePsiWeapons"
+UpgradeType "StarBaseUpgradePsiToughness"
+UpgradeType "StarBaseUpgradePsiHangar"
+UpgradeType "StarBaseUpgradePsiTradePort"
+UpgradeType "StarBaseUpgradePsiBlockColonize"
+UpgradeType "StarBaseUpgradePsiCulture"
+UpgradeType "StarBaseUpgradePsiMaxAllegiance"
+UpgradeType "StarBaseUpgradePsiMassDisorientation"
+UpgradeType "StarBaseUpgradePsiControlMeteoroids"
+MeshNameInfoCount 12
+MeshNameInfo
+	meshName "StarBasePsi"
+	criteriaType "None"
+MeshNameInfo
+	meshName "StarBasePsi-Trade"
+	criteriaType "StarBaseUpgradeLevel"
+	levelRequirements
+		levelRequirementCount 1
+		levelRequirement
+			upgradePropertyType "TradePortMeshLevel"
+			upgradeLevel 1
+MeshNameInfo
+	meshName "StarBasePsi-Culture"
+	criteriaType "StarBaseUpgradeLevel"
+	levelRequirements
+		levelRequirementCount 1
+		levelRequirement
+			upgradePropertyType "CultureMeshLevel"
+			upgradeLevel 1
+MeshNameInfo
+	meshName "StarBasePsi-Weapon1"
+	criteriaType "StarBaseUpgradeLevel"
+	levelRequirements
+		levelRequirementCount 1
+		levelRequirement
+			upgradePropertyType "WeaponUpgradeLevel"
+			upgradeLevel 1
+MeshNameInfo
+	meshName "StarBasePsi-TradeWeapon1"
+	criteriaType "StarBaseUpgradeLevel"
+	levelRequirements
+		levelRequirementCount 2
+		levelRequirement
+			upgradePropertyType "TradePortMeshLevel"
+			upgradeLevel 1
+		levelRequirement
+			upgradePropertyType "WeaponUpgradeLevel"
+			upgradeLevel 1
+MeshNameInfo
+	meshName "StarBasePsi-CultureWeapon1"
+	criteriaType "StarBaseUpgradeLevel"
+	levelRequirements
+		levelRequirementCount 2
+		levelRequirement
+			upgradePropertyType "WeaponUpgradeLevel"
+			upgradeLevel 1
+		levelRequirement
+			upgradePropertyType "CultureMeshLevel"
+			upgradeLevel 1
+MeshNameInfo
+	meshName "StarBasePsi-TradeCulture"
+	criteriaType "StarBaseUpgradeLevel"
+	levelRequirements
+		levelRequirementCount 2
+		levelRequirement
+			upgradePropertyType "TradePortMeshLevel"
+			upgradeLevel 1
+		levelRequirement
+			upgradePropertyType "CultureMeshLevel"
+			upgradeLevel 1
+MeshNameInfo
+	meshName "StarBasePsi-Weapon2"
+	criteriaType "StarBaseUpgradeLevel"
+	levelRequirements
+		levelRequirementCount 1
+		levelRequirement
+			upgradePropertyType "WeaponUpgradeLevel"
+			upgradeLevel 2
+MeshNameInfo
+	meshName "StarBasePsi-CultureWeapon2"
+	criteriaType "StarBaseUpgradeLevel"
+	levelRequirements
+		levelRequirementCount 2
+		levelRequirement
+			upgradePropertyType "WeaponUpgradeLevel"
+			upgradeLevel 2
+		levelRequirement
+			upgradePropertyType "CultureMeshLevel"
+			upgradeLevel 1
+MeshNameInfo
+	meshName "StarBasePsi-TradeWeapon2"
+	criteriaType "StarBaseUpgradeLevel"
+	levelRequirements
+		levelRequirementCount 2
+		levelRequirement
+			upgradePropertyType "TradePortMeshLevel"
+			upgradeLevel 1
+		levelRequirement
+			upgradePropertyType "WeaponUpgradeLevel"
+			upgradeLevel 2
+MeshNameInfo
+	meshName "StarBasePsi-TradeCultureWeapon1"
+	criteriaType "StarBaseUpgradeLevel"
+	levelRequirements
+		levelRequirementCount 3
+		levelRequirement
+			upgradePropertyType "TradePortMeshLevel"
+			upgradeLevel 1
+		levelRequirement
+			upgradePropertyType "WeaponUpgradeLevel"
+			upgradeLevel 1
+		levelRequirement
+			upgradePropertyType "CultureMeshLevel"
+			upgradeLevel 1
+MeshNameInfo
+	meshName "StarBasePsi-TradeCultureWeapon2"
+	criteriaType "StarBaseUpgradeLevel"
+	levelRequirements
+		levelRequirementCount 3
+		levelRequirement
+			upgradePropertyType "TradePortMeshLevel"
+			upgradeLevel 1
+		levelRequirement
+			upgradePropertyType "WeaponUpgradeLevel"
+			upgradeLevel 2
+		levelRequirement
+			upgradePropertyType "CultureMeshLevel"
+			upgradeLevel 1
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 0
+NumSoundsFor:ONSELECTED 1
+SoundID "STARBASE_PSI_ONSELECTED"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+ExplosionName "StarBase1"
+formationRank 3
+minShadow 0.000000
+maxShadow 0.300000
+cargoShipType "FrigatePsiTradeShip"
+maxCargoShipCount 5
+cargoShipRespawnTime 25.000000
+baseBuildTime 120.000000
+buildEffectName ""
+angularSpeed 0.500000
+rotateSoundName ""
+rotateFacingType "AwayFromOrbitBody"
+rotateConstantly FALSE
+maxAccelerationLinear 0.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 1.000000
+maxDecelerationAngular 9.999996
+maxSpeedLinear -1.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+mass 10000.000000
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"

@@ -1,0 +1,48 @@
+﻿TXT
+entityType "TitanUpgrade"
+stageCount 3
+stage
+	nameStringID "IDS_ASURAN_TITANUPGRADE_EPHEUS_ABILITYD_NAME"
+	descStringID "IDS_ASURAN_TITANUPGRADE_EPHEUS_ABILITYD_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement -1
+	hudIcon "HUDICON_ABILITY_ATLANTISZPM"
+	smallHudIcon "HUDICON_ABILITY_ATLANTISZPM"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_ASURAN_TITANUPGRADE_EPHEUS_ABILITYD_NAME"
+	descStringID "IDS_ASURAN_TITANUPGRADE_EPHEUS_ABILITYD_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 4
+	hudIcon "HUDICON_ABILITY_ATLANTISZPM"
+	smallHudIcon "HUDICON_ABILITY_ATLANTISZPM"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "AbilityDLevel"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_ASURAN_TITANUPGRADE_EPHEUS_ABILITYD_NAME"
+	descStringID "IDS_ASURAN_TITANUPGRADE_EPHEUS_ABILITYD_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 8
+	hudIcon "HUDICON_ABILITY_ATLANTISZPM"
+	smallHudIcon "HUDICON_ABILITY_ATLANTISZPM"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "AbilityDLevel"
+		value 2.000000
+	upgradeBoolPropertyCount 0

@@ -1,0 +1,56 @@
+TXT
+fontId "Label"
+pictureDef
+	pictureArea [-21, -16, 264, 188]
+	pictureTextureArea [23, 28, 177, 92]
+	pictureUnderlay "GalaxyScenarioPictureUnderlay"
+	pictureOverlay "GalaxyScenarioPictureOverlay"
+scenarioContentDef
+	descArea [0, 158, 455, 94]
+	descAreaForRequiredDLC [0, 250, 455, 94]
+	scenarioNameDef
+		area [235, 25, 220, 20]
+		valueOffsetFromLeft 0
+		labelStringId "IDSGalaxyInfoWindowScenarioNameLabel"
+	playerCountDef
+		area [235, 54, 220, 18]
+		valueOffsetFromLeft 85
+		labelStringId "IDSGalaxyInfoWindowScenarioPlayerCountLabel"
+	planetCountDef
+		area [235, 102, 220, 18]
+		valueOffsetFromLeft 85
+		labelStringId "IDSGalaxyInfoWindowScenarioPlanetCountLabel"	
+	starCountDef
+		area [235, 78, 220, 18]
+		valueOffsetFromLeft 85
+		labelStringId "IDSGalaxyInfoWindowScenarioStarCountLabel"	
+	recommendedGameTypesDef
+		area [235, 126, 220, 18]
+		valueOffsetFromLeft 85
+		labelStringId "IDSGalaxyInfoWindowScenarioRecommendedGameTypesLabel"			
+	invalidScenarioMessageArea [235, 158, 455, 94]
+	invalidScenarioMessageString "IDSGalaxyInfoWindowInvalidScenario"
+	scenarioRequiredDLCString "IDSGalaxyInfoWindowScenarioRequiredDLC"
+	scenarioMissingDLCString "IDSGalaxyInfoWindowScenarioMissingDLC"
+savedFileContentDef
+	fileNameDef
+		area [235, 25, 220, 20]
+		valueOffsetFromLeft 0
+		labelStringId "IDSGalaxyInfoWindowSavedFileName"	
+	playerCountDef
+		area [235, 54, 60, 18]
+		valueOffsetFromLeft 85
+		labelStringId "IDSGalaxyInfoWindowSavedFilePlayerCount"	
+	gameTimeDef
+		area [235, 78, 60, 18]
+		valueOffsetFromLeft 85
+		labelStringId "IDSGalaxyInfoWindowSavedFileGameTime"	
+	saveTimeDef
+		area [235, 102, 60, 18]
+		valueOffsetFromLeft 85
+		labelStringId "IDSGalaxyInfoWindowSavedFileSaveTime"		
+	saveDateArea [320, 116, 200, 30]
+	invalidSaveFileMessageArea [235, 58, 225, 94]
+	invalidSaveFileMessageString "IDSGalaxyInfoWindowInvalidSaveFile"
+	saveFileMissingDLCString "IDSGalaxyInfoWindowSaveFileMissingDLC"
+	

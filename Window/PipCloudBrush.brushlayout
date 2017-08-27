@@ -1,0 +1,61 @@
+TXT
+pipCloud(Modules)
+	segmentCount 10
+	segmentLayout
+		textureName "Unit_Main"
+		startTopLeft [394,318]
+		width 7
+		height 7
+		rowItemCount 1
+		horizontalStride 0
+		verticalStride 8	
+	segmentOffset [7, 5]
+	segmentOffset [10, 7]
+	segmentOffset [13, 9]
+	segmentOffset [17, 10]
+	segmentOffset [21, 10]
+	segmentOffset [24, 10]
+	segmentOffset [28, 10]
+	segmentOffset [31, 9]
+	segmentOffset [34, 7]
+	segmentOffset [37, 6]
+pipCloud(FriendlyShips)
+	segmentCount 10
+	segmentLayout
+		textureName "Unit_Main"
+		startTopLeft [384,318]
+		width 7
+		height 7
+		rowItemCount 1
+		horizontalStride 0
+		verticalStride 8	
+	segmentOffset [9, 9]
+	segmentOffset [8, 11]
+	segmentOffset [6, 15]
+	segmentOffset [5, 18]
+	segmentOffset [4, 22]
+	segmentOffset [4, 25]
+	segmentOffset [4, 29]
+	segmentOffset [5, 32]
+	segmentOffset [6, 35]
+	segmentOffset [8, 39]
+pipCloud(EnemyShips)
+	segmentCount 10
+	segmentLayout
+		textureName "Unit_Main"
+		startTopLeft [404,318]
+		width 7
+		height 7
+		rowItemCount 1
+		horizontalStride 0
+		verticalStride 8
+	segmentOffset [9, 9]
+	segmentOffset [10, 11]
+	segmentOffset [12, 15]
+	segmentOffset [13, 18]
+	segmentOffset [14, 22]
+	segmentOffset [14, 25]
+	segmentOffset [14, 29]
+	segmentOffset [13, 32]
+	segmentOffset [12, 35]
+	segmentOffset [10, 39]

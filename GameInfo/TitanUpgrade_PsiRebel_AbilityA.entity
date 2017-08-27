@@ -1,0 +1,80 @@
+﻿TXT
+entityType "TitanUpgrade"
+stageCount 5
+stage
+	nameStringID "IDS_ABILITY_PURIFICATION_NAME"
+	descStringID "IDS_ABILITY_PURIFICATION_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement -1
+	hudIcon "HUDICON_ABILITY_PURIFICATION"
+	smallHudIcon "HUDICON_ABILITY_PURIFICATION"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_ABILITY_PURIFICATION_NAME"
+	descStringID "IDS_ABILITY_PURIFICATION_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 0
+	hudIcon "HUDICON_ABILITY_PURIFICATION"
+	smallHudIcon "HUDICON_ABILITY_PURIFICATION"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "AbilityALevel"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_ABILITY_PURIFICATION_NAME"
+	descStringID "IDS_ABILITY_PURIFICATION_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 2
+	hudIcon "HUDICON_ABILITY_PURIFICATION"
+	smallHudIcon "HUDICON_ABILITY_PURIFICATION"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "AbilityALevel"
+		value 2.000000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_ABILITY_PURIFICATION_NAME"
+	descStringID "IDS_ABILITY_PURIFICATION_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 4
+	hudIcon "HUDICON_ABILITY_PURIFICATION"
+	smallHudIcon "HUDICON_ABILITY_PURIFICATION"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "AbilityALevel"
+		value 3.000000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_ABILITY_PURIFICATION_NAME"
+	descStringID "IDS_ABILITY_PURIFICATION_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 6
+	hudIcon "HUDICON_ABILITY_PURIFICATION"
+	smallHudIcon "HUDICON_ABILITY_PURIFICATION"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "AbilityALevel"
+		value 4.000000
+	upgradeBoolPropertyCount 0

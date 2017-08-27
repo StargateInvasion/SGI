@@ -1,0 +1,45 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 3
+entityModifier
+	buffEntityModifierType "ArmorAsDamageTarget"
+	value
+		Level:0 -5.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+entityModifier
+	buffEntityModifierType "ChanceToIgnoreShieldsAsDamageDealer"
+	value
+		Level:0 0.200000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+entityModifier
+	buffEntityModifierType "PlanetPopulationGrowthRate"
+	value
+		Level:0 -0.500000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "EnterHyperspace"
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 10.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000

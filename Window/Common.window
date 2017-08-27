@@ -1,0 +1,34 @@
+TXT
+textEntryDef
+	caretWidth 2
+	selectionAreaShrinkWidth 2
+	backdropBrush "TEXTENTRY"
+textListDef
+	itemTextOffsetFromLeft 5
+	contentMarginTop 10
+	contentMarginBottom 10
+	contentMarginLeft 10
+	contentMarginRight 2
+	scrollBarWidth 19
+	scrollWheelPositionMovement 10
+	backdropBrush "ListWindowBackdrop"
+	itemSelectedBackdropBrush "ListWindowSelectedItem"
+screenButtonDef
+	offsetWhenPressed [1, 1]	
+	textColorWhenDisabled ff555555
+horizontalScrollBarDef
+	backdrop "ScrollBarHorizontal"
+	thumb "ScrollBarHorizontalThumb"
+	thumbDragging "ScrollBarHorizontalThumbDragging"
+	thumbOverlay "ScrollBarHorizontalThumbOverlay"
+	thumbOverlayDragging "ScrollBarHorizontalThumbOverlayDragging"
+	beginArrow "ScrollBarHorizontalBeginArrow"
+	endArrow "ScrollBarHorizontalEndArrow"
+verticalScrollBarDef
+	backdrop "ScrollBarVertical"
+	thumb "ScrollBarVerticalThumb"
+	thumbDragging "ScrollBarVerticalThumbDragging"
+	thumbOverlay "ScrollBarVerticalThumbOverlay"
+	thumbOverlayDragging "ScrollBarVerticalThumbOverlayDragging"
+	beginArrow "ScrollBarVerticalBeginArrow"
+	endArrow "ScrollBarVerticalEndArrow"

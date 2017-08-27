@@ -1,0 +1,165 @@
+﻿TXT
+versionNumber 5
+isBrowsable TRUE
+browsePictureName "ScenarioPicture-RandomVast"
+browseName "IDS_CUSTOMGALAXY_NAME_RANDOMVAST"
+browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_RANDOMVAST"
+isFirstCapitalShipIsFlagship TRUE
+randomizeStartingPositions TRUE
+planetArtifactDensity 0.350000
+planetBonusDensity 0.600000
+normalStartHomePlanetUpgradeLevel:Population 3
+normalStartHomePlanetUpgradeLevel:CivilianModules 1
+normalStartHomePlanetUpgradeLevel:TacticalModules 0
+normalStartHomePlanetUpgradeLevel:Home 1
+normalStartHomePlanetUpgradeLevel:ArtifactLevel 10
+normalStartHomePlanetUpgradeLevel:Infrastructure 2
+quickStartHomePlanetUpgradeLevel:Population 4
+quickStartHomePlanetUpgradeLevel:CivilianModules 1
+quickStartHomePlanetUpgradeLevel:TacticalModules 0
+quickStartHomePlanetUpgradeLevel:Home 1
+quickStartHomePlanetUpgradeLevel:ArtifactLevel 10
+quickStartHomePlanetUpgradeLevel:Infrastructure 2
+recommendedGameTypeCount 1
+recommendedGameType "FFA"
+metersPerGalaxyUnit 25000.000000
+pixelsPerGalaxyUnit 1.000000
+useRandomGenerator TRUE
+randomizerParams
+	starPosOffsetRange
+		minPercentage 10.000000
+		maxPercentage 15.000000
+	playerParams
+		startingCredits 3000
+		startingMetal 800
+		startingCrystal 250
+		homePlanetType "TerranHome"
+		homePlanetStarRadiusRange
+			minPercentage 1.250000
+			maxPercentage 1.350000
+		areExtraPlanetsColonized FALSE
+		extraPlanetsMaxRadius 6.000000
+		extraPlanetsRadiusRange
+			minPercentage 0.940000
+			maxPercentage 1.000000
+		extraPlanetGroupCount 3
+		extraPlanetGroup
+			minCount 1
+			maxCount 1
+			planetTypeCount 1
+			planetType "Asteroid"
+		extraPlanetGroup
+			minCount 1
+			maxCount 1
+			planetTypeCount 1
+			planetType "Moon"
+		extraPlanetGroup
+			minCount 1
+			maxCount 1
+			planetTypeCount 1
+			planetType "RandomIceVolcanic"
+	starCount 1
+	star
+		type "RandomStar"
+		radius 110.000000
+		connectionStarRadiusRange 0.500000
+		connectionChance 0.850000
+		maxPlayerCount 10
+		ringCount 7
+		ring
+			starRadiusRange
+				minPercentage 0.100000
+				maxPercentage 0.200000
+			militiaColonizationPerc 0.000000
+			planetGroupCount 1
+			planetGroup
+				minCount 1
+				maxCount 1
+				planetTypeCount 1
+				planetType "PirateBase"
+		ring
+			starRadiusRange
+				minPercentage 0.200000
+				maxPercentage 0.600000
+			militiaColonizationPerc 0.000000
+			planetGroupCount 1
+			planetGroup
+				minCount 10
+				maxCount 12
+				planetTypeCount 1
+				planetType "WeightedRandom"
+		ring
+			starRadiusRange
+				minPercentage 0.600000
+				maxPercentage 0.800000
+			militiaColonizationPerc 0.000000
+			planetGroupCount 1
+			planetGroup
+				minCount 7
+				maxCount 10
+				planetTypeCount 1
+				planetType "WeightedRandom"
+		ring
+			starRadiusRange
+				minPercentage 0.800000
+				maxPercentage 1.000000
+			militiaColonizationPerc 0.000000
+			planetGroupCount 1
+			planetGroup
+				minCount 12
+				maxCount 14
+				planetTypeCount 1
+				planetType "WeightedRandom"
+		ring
+			starRadiusRange
+				minPercentage 0.200000
+				maxPercentage 1.000000
+			militiaColonizationPerc 0.000000
+			planetGroupCount 1
+			planetGroup
+				minCount 10
+				maxCount 14
+				planetTypeCount 1
+				planetType "Random"
+		ring
+			starRadiusRange
+				minPercentage 1.000000
+				maxPercentage 1.200000
+			militiaColonizationPerc 0.000000
+			planetGroupCount 5
+			planetGroup
+				minCount 6
+				maxCount 8
+				planetTypeCount 1
+				planetType "Asteroid"
+			planetGroup
+				minCount 5
+				maxCount 7
+				planetTypeCount 1
+				planetType "Moon"
+			planetGroup
+				minCount 7
+				maxCount 9
+				planetTypeCount 1
+				planetType "AsteroidOrDead"
+			planetGroup
+				minCount 12
+				maxCount 14
+				planetTypeCount 1
+				planetType "RandomTrueNonTerran"
+			planetGroup
+				minCount 12
+				maxCount 14
+				planetTypeCount 1
+				planetType "RandomUncolonizableNonMagnetic"
+		ring
+			starRadiusRange
+				minPercentage 0.500000
+				maxPercentage 1.000000
+			militiaColonizationPerc 0.000000
+			planetGroupCount 1
+			planetGroup
+				minCount 2
+				maxCount 2
+				planetTypeCount 1
+				planetType "Wormhole"

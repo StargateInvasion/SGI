@@ -1,0 +1,41 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Asuran_BuffCruiser_DiplomaticImmunity"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName "DiplomaticImmunity"
+	mediumEffectName "DiplomaticImmunity"
+	largeEffectName "DiplomaticImmunity"
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyWhenTakingDamage"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "None"
+cooldownTime
+	Level:0 90.000000
+	Level:1 90.000000
+	Level:2 90.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ASURAN_ABILITYCRUISER_DIPLOMATICIMMUNITY_NAME"
+descStringID "IDS_ASURAN_ABILITYCRUISER_DIPLOMATICIMMUNITY_DESCRIPTION"
+hudIcon "HUDICON_RESEARCHSUBJECT_DIPLOMATIC_IMMUNITY"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_DIPLOMATIC_IMMUNITY"
+infoCardIcon ""

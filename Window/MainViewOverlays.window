@@ -1,0 +1,41 @@
+TXT
+iconSizes
+	capitalShip [20, 20]
+	cannonShell [20, 20]
+	frigate [20, 20]
+	squad [15, 15]
+	module [20, 20]
+	spaceMine [10, 10]
+	planet [20, 20]
+	resourceAsteroid [20, 20]
+	starBase [20, 20]
+	star [30, 30]
+	solarSystem [50, 50]
+	solarSystemPlanet [10, 10]
+	fleet [40, 40]
+planetPlayerThemeOffsetFromCenter -43
+planetNameOffsetFromTop -28
+planetNameFontId "PlanetNameMainView"
+meshBarsMinWidth 10
+meshBarsMaxWidth 60
+capitalShipLevelOffset [-30, -11]
+tacticalGridLineSpacing 2000
+iconOverlayDef
+	homePlanet "MainViewIconEntityOverlayHomePlanet"
+	artifactPlanet "MainViewIconEntityOverlayArtifact"
+	resourceAsteroidMetal "MainViewIconEntityOverlayResourceExtractorMetal"
+	resourceAsteroidCrystal "MainViewIconEntityOverlayResourceExtractorCrystal"
+	unspentAbilityPointsAndUnassignedSquads ""
+	unspentAbilityPoints ""
+	unassignedSquads ""	
+	partiallyStacked ""
+	almostFullyStacked ""
+	fullyStacked ""	
+	fleetLeader ""
+solarSystemIconPlanet "MAINVIEWICON_SOLARSYSTEM_PLANET"
+solarSystemIconCapitalShip ""
+solarSystemIconFrigate ""
+farStarCloudFadeInBeginPerc 0.7
+farStarCloudFadeInEndPerc 1.4
+fleetLeaderIconOffset [0, -40, 0, 0]
+

@@ -1,0 +1,35 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_ASURAN_CRUISERHEAVY_ATROPOS"
+smallHudIcon "MAINVIEWICON_ASURAN_CRUISERHEAVY_ATROPOS"
+infoCardIcon ""
+NameStringID "IDS_ASURAN_RESEARCH_CRUISERHEAVY_ATROPOS_NAME"
+DescriptionStringID "IDS_ASURAN_RESEARCH_CRUISERHEAVY_ATROPOS_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 4 , 1 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 75.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1200.000000
+	metal 200.000000
+	crystal 325.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 4
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

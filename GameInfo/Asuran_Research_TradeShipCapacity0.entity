@@ -1,0 +1,42 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_TRADESHIPCAPACITY0"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_TRADESHIPCAPACITY0"
+infoCardIcon ""
+NameStringID "IDS_ASURAN_RESEARCH_TRADESHIPCAPACITY0_NAME"
+DescriptionStringID "IDS_ASURAN_RESEARCH_TRADESHIPCAPACITY0_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 4 , 2 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_Orbital_TradePort"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 75.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1200.000000
+	metal 200.000000
+	crystal 325.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 4
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "TradeGoodsValueAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.075000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

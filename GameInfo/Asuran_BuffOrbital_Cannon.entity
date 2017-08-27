@@ -1,0 +1,48 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling TRUE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Ability"
+			abilityIndex 0
+		smallEffectName "Ability_OrbitalCannonPhaseChargeUp"
+		mediumEffectName "Ability_OrbitalCannonPhaseChargeUp"
+		largeEffectName "Ability_OrbitalCannonPhaseChargeUp"
+		soundID "WEAPON_PHASEORBITALCANNON_CHARGE"
+instantAction
+	buffInstantActionType "CreateCannonShell"
+	instantActionTriggerType "OnBuffFinish"
+	cannonShellType "Asuran_CannonShell"
+	effectInfo
+		effectAttachInfo
+			attachType "Ability"
+			abilityIndex 0
+		smallEffectName "Ability_OrbitalCannonPhaseMuzzle"
+		mediumEffectName "Ability_OrbitalCannonPhaseMuzzle"
+		largeEffectName "Ability_OrbitalCannonPhaseMuzzle"
+		soundID "WEAPON_PHASEORBITALCANNON_MUZZLE"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 6.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+finishCondition
+	finishConditionType "OwnerChanged"

@@ -1,0 +1,52 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "CreateFrigate"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	frigateType "Asuran_CruiserHeavy_Atropos"
+	numFrigates
+		Level:0 1.000000
+		Level:1 3.000000
+		Level:2 5.000000
+		Level:3 0.000000
+	matchOwnerDamageState TRUE
+	impulse 1000000.000000
+	expiryTime
+		Level:0 60.000000
+		Level:1 70.000000
+		Level:2 75.000000
+		Level:3 0.000000
+	spawnFrigateSoundID ""
+	postSpawnBuff "Asuran_BuffCruiser_HologramProjectionClone"
+instantAction
+	buffInstantActionType "ForceAttackersToRepickAttackTarget"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "ChanceToBeNotOptimallyTargetted"
+	value
+		Level:0 0.500000
+		Level:1 0.750000
+		Level:2 0.850000
+		Level:3 0.000000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 60.000000
+		Level:1 70.000000
+		Level:2 75.000000
+		Level:3 0.000000

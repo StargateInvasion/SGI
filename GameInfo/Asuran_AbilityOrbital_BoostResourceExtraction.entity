@@ -1,0 +1,53 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyOrRemoveBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Asuran_BuffOrbital_BoostResourceExtractionSelf"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+toggleStateOnNameStringID "IDS_ABILITY_BOOSTRESOURCEEXTRACTIONACTIVE_NAME"
+toggleStateOnDescStringID "IDS_ABILITY_BOOSTRESOURCEEXTRACTIONACTIVE_DESCRIPTION"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithBase"
+baseSourceResearchSubject "Asuran_Research_Orbital_Refinery"
+improveSourceResearchSubject "Asuran_Research_Orbital_Refinery"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_Orbital_Refinery"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ASURAN_ABILITYORBITAL_BOOSTRESOURCEEXTRACTION_NAME"
+descStringID "IDS_ASURAN_ABILITYORBITAL_BOOSTRESOURCEEXTRACTION_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_BOOSTRESOURCEEXTRACTION"
+smallHudIcon "HUDICON_ABILITY_BOOSTRESOURCEEXTRACTION_ACTIVE"
+infoCardIcon ""

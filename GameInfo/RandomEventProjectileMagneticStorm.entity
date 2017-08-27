@@ -1,0 +1,25 @@
+﻿TXT
+entityType "CannonShell"
+acceleration 300.000000
+startingSpeed 500.000000
+maxSpeed 10000.000000
+buffToApplyOnImpact "RandomEventMagneticStorm"
+planetImpactEffectName "MagneticStorm_Impact"
+planetImpactSounds
+	soundCount 1
+	sound "EFFECT_MAGNETICSTORMIMPACT"
+planetImpactCameraShakeMaxSize 980000.000000
+planetImpactCameraShakeStrength 1.500000
+planetImpactCameraShakeDuration 0.000000
+meshName "MagneticStorm_Mesh"
+mainViewIcon "MainViewIconRandomEventStorm"
+picture "PICTURE_PLANET_MAGNETICCLOUD"
+nameStringID "IDS_RANDOMEVENT_MAGNETICSTORM_NAME"
+descStringID "IDS_RANDOMEVENT_MAGNETICSTORM_DESC"
+renderMesh FALSE
+minZoomDistanceMult 7.500000
+hudIcon "HUDICON_PLANET_MAGNETICCLOUD"
+smallHudIcon "HUDICONSMALL_PLANET_MAGNETICCLOUD"
+infoCardIcon "INFOCARDICON_PLANET_MAGNETICCLOUD"
+minShadow 0.000000
+maxShadow 0.500000

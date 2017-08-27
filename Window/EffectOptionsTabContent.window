@@ -1,0 +1,216 @@
+TXT
+tabButtonIcon "OptionsScreenEffectOptionsTabButton"
+tabButtonText "IDSOptionsScreenEffectOptionsTabButton"
+resetButton
+	area [50, 620, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"
+	icon "OptionsScreenEffectOptionsReset"
+	text "IDSOptionsScreenEffectOptionsReset"	
+applyChangesButton
+	area [520, 620, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	icon "OptionsScreenVideoOptionsApplyChanges"
+	text "IDSOptionsScreenVideoOptionsApplyChanges"	
+showAsteroidsCheckBox
+	area [49, 100, 220, 30]
+	text "IDSOptionsScreenEffectOptionsShowAsteroids"	
+showDustCloudsCheckBox
+	area [49, 136, 220, 30]
+	text "IDSOptionsScreenEffectOptionsShowDustClouds"	
+showElevatorsCheckBox
+	area [49, 172, 220, 30]
+	text "IDSOptionsScreenEffectOptionsShowElevators"	
+showPlanetRingsCheckBox
+	area [49, 208, 220, 30]
+	text "IDSOptionsScreenEffectOptionsShowPlanetRings"	
+showDebrisCheckBox
+	area [50, 352, 220, 30]
+	text "IDSOptionsScreenEffectOptionsShowDebris"	
+useColoredSkyboxesCheckBox
+	area [49, 244, 220, 30]
+	text "IDSOptionsScreenEffectOptionsUseColoredSkyboxes"	
+useDeepSpaceSkyboxesCheckBox
+	area [49, 280, 220, 30]
+	text "IDSOptionsScreenEffectOptionsUseDeepSpaceSkyboxes"	
+shakeCameraCheckBox
+	area [49, 316, 220, 30]
+	text "IDSOptionsScreenEffectOptionsShakeCamera"	
+isPostProcessSceneEnabledCheckBox
+	area [284, 100, 220, 30]
+	text "IDSOptionsScreenEffectOptionsIsPostProcessSceneEnabled"	
+isShipBrighteningEnabledCheckBox
+	area [284, 136, 220, 30]
+	text "IDSOptionsScreenEffectOptionsIsShipBrighteningEnabled"
+showMeshTeamColorCheckBox
+	area [284, 172, 220, 30]
+	text "IDSOptionsScreenEffectOptionsShowMeshTeamColor"	
+exhaustTrailDetailScrollBar
+	area [284, 352, 350, 30]
+	text "IDSOptionsScreenEffectOptionsExhaustTrailDetail"	
+planetColorTextureQualityButton
+	area [50, 412, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 35
+	textOffsetFromLeft 57
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	textureQualityInfo-Low
+		text "IDSOptionsScreenTextureQualityLowPlanetColor"
+		icon "OptionsScreenTextureQualityLowPlanet"
+	textureQualityInfo-Medium
+		text "IDSOptionsScreenTextureQualityMediumPlanetColor"
+		icon "OptionsScreenTextureQualityMediumPlanet"
+	textureQualityInfo-High
+		text "IDSOptionsScreenTextureQualityHighPlanetColor"
+		icon "OptionsScreenTextureQualityHighPlanet"
+	textureQualityInfo-Highest
+		text "IDSOptionsScreenTextureQualityHighestPlanetColor"
+		icon "OptionsScreenTextureQualityHighestPlanet"
+	textureQualityInfo-Extreme
+		text "IDSOptionsScreenTextureQualityExtremePlanetColor"
+		icon "OptionsScreenTextureQualityExtremePlanet"
+shipColorTextureQualityButton
+	area [284, 412, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 35
+	textOffsetFromLeft 57
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	textureQualityInfo-Low
+		text "IDSOptionsScreenTextureQualityLowShipColor"
+		icon "OptionsScreenTextureQualityLowShip"
+	textureQualityInfo-Medium
+		text "IDSOptionsScreenTextureQualityMediumShipColor"
+		icon "OptionsScreenTextureQualityMediumShip"
+	textureQualityInfo-High
+		text "IDSOptionsScreenTextureQualityHighShipColor"
+		icon "OptionsScreenTextureQualityHighShip"
+	textureQualityInfo-Highest
+		text "IDSOptionsScreenTextureQualityHighestShipColor"
+		icon "OptionsScreenTextureQualityHighestShip"
+	textureQualityInfo-Extreme
+		text "IDSOptionsScreenTextureQualityExtremeShipColor"
+		icon "OptionsScreenTextureQualityExtremeShip"
+shipDataTextureQualityButton
+	area [284, 464, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 35
+	textOffsetFromLeft 57
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	textureQualityInfo-Low
+		text "IDSOptionsScreenTextureQualityLowShipData"
+		icon "OptionsScreenTextureQualityLowShip"
+	textureQualityInfo-Medium
+		text "IDSOptionsScreenTextureQualityMediumShipData"
+		icon "OptionsScreenTextureQualityMediumShip"
+	textureQualityInfo-High
+		text "IDSOptionsScreenTextureQualityHighShipData"
+		icon "OptionsScreenTextureQualityHighShip"
+	textureQualityInfo-Highest
+		text "IDSOptionsScreenTextureQualityHighestShipData"
+		icon "OptionsScreenTextureQualityHighestShip"
+	textureQualityInfo-Extreme
+		text "IDSOptionsScreenTextureQualityExtremeShipData"
+		icon "OptionsScreenTextureQualityExtremeShip"
+shipBumpTextureQualityButton
+	area [284, 516, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 35
+	textOffsetFromLeft 57
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	textureQualityInfo-Low
+		text "IDSOptionsScreenTextureQualityLowShipBump"
+		icon "OptionsScreenTextureQualityLowShip"
+	textureQualityInfo-Medium
+		text "IDSOptionsScreenTextureQualityMediumShipBump"
+		icon "OptionsScreenTextureQualityMediumShip"
+	textureQualityInfo-High
+		text "IDSOptionsScreenTextureQualityHighShipBump"
+		icon "OptionsScreenTextureQualityHighShip"
+	textureQualityInfo-Highest
+		text "IDSOptionsScreenTextureQualityHighestShipBump"
+		icon "OptionsScreenTextureQualityHighestShip"
+	textureQualityInfo-Extreme
+		text "IDSOptionsScreenTextureQualityExtremeShipBump"
+		icon "OptionsScreenTextureQualityExtremeShip"		
+moduleColorTextureQualityButton
+	area [520, 412, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 35
+	textOffsetFromLeft 57
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	textureQualityInfo-Low
+		text "IDSOptionsScreenTextureQualityLowModuleColor"
+		icon "OptionsScreenTextureQualityLowModule"
+	textureQualityInfo-Medium
+		text "IDSOptionsScreenTextureQualityMediumModuleColor"
+		icon "OptionsScreenTextureQualityMediumModule"
+	textureQualityInfo-High
+		text "IDSOptionsScreenTextureQualityHighModuleColor"
+		icon "OptionsScreenTextureQualityHighModule"
+	textureQualityInfo-Highest
+		text "IDSOptionsScreenTextureQualityHighestModuleColor"
+		icon "OptionsScreenTextureQualityHighestModule"
+	textureQualityInfo-Extreme
+		text "IDSOptionsScreenTextureQualityExtremeModuleColor"
+		icon "OptionsScreenTextureQualityExtremeModule"
+moduleDataTextureQualityButton
+	area [520, 464, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 35
+	textOffsetFromLeft 57
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	textureQualityInfo-Low
+		text "IDSOptionsScreenTextureQualityLowModuleData"
+		icon "OptionsScreenTextureQualityLowModule"
+	textureQualityInfo-Medium
+		text "IDSOptionsScreenTextureQualityMediumModuleData"
+		icon "OptionsScreenTextureQualityMediumModule"
+	textureQualityInfo-High
+		text "IDSOptionsScreenTextureQualityHighModuleData"
+		icon "OptionsScreenTextureQualityHighModule"
+	textureQualityInfo-Highest
+		text "IDSOptionsScreenTextureQualityHighestModuleData"
+		icon "OptionsScreenTextureQualityHighestModule"
+	textureQualityInfo-Extreme
+		text "IDSOptionsScreenTextureQualityExtremeModuleData"
+		icon "OptionsScreenTextureQualityExtremeModule"
+moduleBumpTextureQualityButton
+	area [520, 516, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 35
+	textOffsetFromLeft 57
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	textureQualityInfo-Low
+		text "IDSOptionsScreenTextureQualityLowModuleBump"
+		icon "OptionsScreenTextureQualityLowModule"
+	textureQualityInfo-Medium
+		text "IDSOptionsScreenTextureQualityMediumModuleBump"
+		icon "OptionsScreenTextureQualityMediumModule"
+	textureQualityInfo-High
+		text "IDSOptionsScreenTextureQualityHighModuleBump"
+		icon "OptionsScreenTextureQualityHighModule"
+	textureQualityInfo-Highest
+		text "IDSOptionsScreenTextureQualityHighestModuleBump"
+		icon "OptionsScreenTextureQualityHighestModule"	
+	textureQualityInfo-Extreme
+		text "IDSOptionsScreenTextureQualityExtremeModuleBump"
+		icon "OptionsScreenTextureQualityExtremeModule"		
+shadowQualityListLabel
+	area [520, 100, 220, 30]
+	fontId "Label"
+	text "IDSOptionsScreenEffectOptionsShadowQuality"
+shadowQualityListArea [520, 130, 220, 186]

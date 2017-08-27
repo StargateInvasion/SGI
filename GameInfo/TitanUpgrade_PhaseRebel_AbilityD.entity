@@ -1,0 +1,48 @@
+﻿TXT
+entityType "TitanUpgrade"
+stageCount 3
+stage
+	nameStringID "IDS_ABILITY_DISSEVER_NAME"
+	descStringID "IDS_ABILITY_DISSEVER_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement -1
+	hudIcon "HUDICON_ABILITY_DISSEVER"
+	smallHudIcon "HUDICON_ABILITY_DISSEVER"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_ABILITY_DISSEVER_NAME"
+	descStringID "IDS_ABILITY_DISSEVER_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 5
+	hudIcon "HUDICON_ABILITY_DISSEVER"
+	smallHudIcon "HUDICON_ABILITY_DISSEVER"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "AbilityDLevel"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_ABILITY_DISSEVER_NAME"
+	descStringID "IDS_ABILITY_DISSEVER_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 7
+	hudIcon "HUDICON_ABILITY_DISSEVER"
+	smallHudIcon "HUDICON_ABILITY_DISSEVER"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "AbilityDLevel"
+		value 2.000000
+	upgradeBoolPropertyCount 0

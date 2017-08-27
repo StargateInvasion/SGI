@@ -1,0 +1,44 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "CapitalBuff_TargetingUplink"
+		mediumEffectName "CapitalBuff_TargetingUplinkLarge"
+		largeEffectName "CapitalBuff_TargetingUplinkLarge"
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 2
+entityModifier
+	buffEntityModifierType "ChanceToHitAsDamageDealer"
+	value
+		Level:0 0.150000
+		Level:1 0.300000
+		Level:2 0.500000
+		Level:3 0.000000
+entityModifier
+	buffEntityModifierType "WeaponRange"
+	value
+		Level:0 0.083333
+		Level:1 0.151389
+		Level:2 0.219444
+		Level:3 0.000000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "OutOfRange"
+finishCondition
+	finishConditionType "OwnerChanged"

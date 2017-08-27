@@ -1,0 +1,54 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Asuran_BuffTitan_SpawnAntiFighter"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityBLevel"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveShipSlots"
+resourceCost
+	credits 500.000000
+	metal 100.000000
+	crystal 50.000000
+requiredShipSlots
+	Level:0 10.000000
+	Level:1	20.000000
+	Level:2	30.000000
+	Level:3 30.000000
+cooldownTime
+	Level:0 150.000000
+	Level:1 125.000000
+	Level:2 100.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_FrigateAntiFighter_Ogen"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ASURAN_ABILITYTITAN_SPAWNANTIFIGHTER_NAME"
+descStringID "IDS_ASURAN_ABILITYTITAN_SPAWNANTIFIGHTER_DESCRIPTION"
+hudIcon "HUDICON_ASURAN_FRIGATEANTIFIGHTER_OGEN"
+smallHudIcon "HUDICONSMALL_ASURAN_FRIGATEANTIFIGHTER_OGEN"
+infoCardIcon "INFOCARDICON_ASURAN_FRIGATEANTIFIGHTER_OGEN"

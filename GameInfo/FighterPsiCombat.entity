@@ -1,0 +1,88 @@
+﻿TXT
+entityType "Fighter"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+numRandomDebrisLarge 0
+numRandomDebrisSmall 0
+numSpecificDebris 0
+armorType "VeryLight"
+hudIcon "HUDICON_SQUADPSICOMBAT"
+smallHudIcon "HUDICONSMALL_SQUADPSICOMBAT"
+infoCardIcon "INFOCARDICON_SQUADPSICOMBAT"
+minZoomDistanceMult 8.000000
+nameStringID "IDS_FIGHTERPSICOMBAT_NAME"
+counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_COMBAT"
+statCountType "FighterCombat"
+formationOffsetDistance 50.000000
+mass 100.000000
+maxAccelerationLinear 250.000000
+maxAccelerationStrafe 100.000000
+maxDecelerationLinear 1000.000000
+maxAccelerationAngular 49.999992
+maxDecelerationAngular 99.999985
+maxSpeedLinear 2700.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+NumWeapons 1
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTILIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "LASERPSI"
+	DamagePerBank:FRONT 16.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 2400.000000
+	PreBuffCooldownTime 10.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.000000
+	TravelSpeed 3000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 4
+		burstDelay 0.200000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_LaserFighter_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_PSISUPPORTLASERLIGHT_MUZZLE"
+			sound "WEAPON_PSISUPPORTLASERLIGHT_MUZZLE_ALT1"
+			sound "WEAPON_PSISUPPORTLASERLIGHT_MUZZLE_ALT2"
+		hitEffectName "Weapon_Psi_LaserFighter_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Psi_LaserFighter_Travel"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+meshName "SupportShip_PsiFighter"
+exhaustParticleSystemName "ExhaustSmall"
+ExplosionName "Fighter0"
+exhaustTrailTextureName "ExhaustTrail"
+exhaustTrailWidth 8.000000
+engineSoundID "ENGINE_PSISUPPORTSHIP"
+maxHullPoints 40.000000
+hullPointRestoreRate 0.221000
+armorPoints 1.000000
+maxMitigation 0.600000
+experiencePointsForDestroying 2.500000
+minShadow 0.000000
+maxShadow 0.500000

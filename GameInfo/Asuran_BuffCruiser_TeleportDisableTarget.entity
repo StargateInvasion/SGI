@@ -1,0 +1,43 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "CapitalBuff_IonDisableSmall"
+		mediumEffectName "CapitalBuff_IonDisableLarge"
+		largeEffectName "CapitalBuff_IonDisableLarge"
+		soundID "EFFECT_TELEPORTDISABLE"
+instantAction
+	buffInstantActionType "DoInterrupt"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 8
+entityBoolModifier "DisableAbilities"
+entityBoolModifier "DisableConstruction"
+entityBoolModifier "DisableModuleFunctionality"
+entityBoolModifier "DisablePhaseJump"
+entityBoolModifier "DisableLinearEngines"
+entityBoolModifier "DisableAngularEngines"
+entityBoolModifier "DisableRegeneration"
+entityBoolModifier "DisableWeapons"
+numFinishConditions 2
+finishCondition
+	finishConditionType "FirstSpawnerNoLongerHasBuff"
+	buffTypeToQuery "Asuran_BuffCruiser_TeleportDisableCaster"
+finishCondition
+	finishConditionType "OwnerChanged"

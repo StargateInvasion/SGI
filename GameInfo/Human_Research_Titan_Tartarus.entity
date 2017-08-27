@@ -1,0 +1,39 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_HUMAN_TITANOFFENSE_TARTARUS"
+smallHudIcon "MAINVIEWICON_HUMAN_TITANOFFENSE_TARTARUS"
+infoCardIcon ""
+NameStringID "IDS_HUMAN_RESEARCH_TITAN_TARTARUS1_NAME"
+DescriptionStringID "IDS_HUMAN_RESEARCH_TITAN_TARTARUS1_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 7 , 3 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 120.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1800.000000
+	metal 350.000000
+	crystal 550.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 7
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 4
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "TitanConstructionCap"
+	baseValue 0.000000
+	perLevelValue 0.250000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

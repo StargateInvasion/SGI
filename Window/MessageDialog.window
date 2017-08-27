@@ -1,0 +1,17 @@
+TXT
+backdropDimPercentage 0.7
+backdropBrush "DialogBackdrop"
+titleOverlayBrush "DialogTitleOverlay"
+size [556 , 517]
+contentRefArea [90, 130, 371, 207]
+titleRefArea [90, 40, 371, 30]
+titleOverlayRefArea [0, 0, 556, 90]
+acceptButton
+	area [295, 400, 170, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 30
+	textOffsetFromLeft 60
+	underlay "TabButtonUnderlayActive"
+	overlay "TabButtonOverlayActive"		
+	icon "DialogScreenAcceptButton"
+	text "IDS_DIALOGWINDOW_ACCEPTBUTTON"

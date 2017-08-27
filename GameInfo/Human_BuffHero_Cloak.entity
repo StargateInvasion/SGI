@@ -1,0 +1,41 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "DrainAntiMatter"
+	drainAntiMatterRate
+		Level:0 3.000000
+		Level:1 2.000000
+		Level:2 1.000000
+		Level:3 0.000000
+numEntityModifiers 0
+numEntityBoolModifiers 4
+entityBoolModifier "IsInvisible"
+entityBoolModifier "DisableWeapons"
+entityBoolModifier "CannotBeDamaged"
+entityBoolModifier "DisableRegeneration"
+numFinishConditions 2
+finishCondition
+	finishConditionType "AntiMatterDepleted"
+finishCondition
+	finishConditionType "OwnerChanged"

@@ -1,0 +1,64 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffTechModuleConstruction"
+targetFilter
+	numOwnerships 1
+	ownership "Player"
+	numObjects 4
+	object "PlanetModule"
+	object "PlaceHolderPlanetModule"
+	object "SpaceMine"
+	object "PlaceHolderSpaceMine"
+	numSpaces 1
+	space "Normal"
+	numConstraints 2
+	constraint "ModuleUnderConstruction"
+	constraint "NotActivelyBeingConstructed"
+range
+	Level:0 60.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_TECHMODULECONSTRUCTION_NAME"
+descStringID "IDS_ABILITY_TECHMODULECONSTRUCTION_DESC"
+hudIcon "HUDICON_ABILITY_TECHMODULECONSTRUCTION"
+smallHudIcon "HUDICON_ABILITY_TECHMODULECONSTRUCTION"
+infoCardIcon ""

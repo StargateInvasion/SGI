@@ -1,0 +1,54 @@
+TXT
+scenarioListLabel
+	area [0, -20, 220, 30]
+	fontId "WindowSubTitle"
+scenarioListLabelTextId-BuiltInSmall "IDSGalaxySetupWindowScenerioListLabelBuiltInSmall"
+scenarioListLabelTextId-BuiltInMedium "IDSGalaxySetupWindowScenerioListLabelBuiltInMedium"
+scenarioListLabelTextId-BuiltInLarge "IDSGalaxySetupWindowScenerioListLabelBuiltInLarge"
+scenarioListLabelTextId-UserGenerated "IDSGalaxySetupWindowScenerioListLabelUserGenerated"
+scenarioListLabelTextId-GalaxyForge "IDSGalaxySetupWindowScenerioListLabelGalaxyForge"
+scenarioList
+	area [0, 22, 220, 510]
+	itemGap 3
+galaxyInfoWindow
+	area [235, 22, 455, 254]
+scenarioFileLocationButton
+	area [0, 542, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	BuiltInSmall
+		icon "ChangeMapTypeButton"
+		text "IDSGalaxySetupWindowChangeMapTypeButton"
+	BuiltInMedium
+		icon "ChangeMapTypeButton"
+		text "IDSGalaxySetupWindowChangeMapTypeButton"
+	BuiltInLarge
+		icon "ChangeMapTypeButton"
+		text "IDSGalaxySetupWindowChangeMapTypeButton"
+	UserGenerated
+		icon "ChangeMapTypeButton"
+		text "IDSGalaxySetupWindowChangeMapTypeButton"
+	GalaxyForge
+		icon "ChangeMapTypeButton"
+		text "IDSGalaxySetupWindowChangeMapTypeButton"		
+openGameOptionsDialogButton
+	area [0, 600, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	icon "OpenGameOptionsDialog"
+	text "IDSGalaxySetupWindowOpenGameOptionsDialog"
+openVictoryOptionsDialogButton
+	area [236, 600, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	icon "OpenGameOptionsDialog"
+	text "IDSGalaxySetupWindowOpenVictoryOptionsDialog"

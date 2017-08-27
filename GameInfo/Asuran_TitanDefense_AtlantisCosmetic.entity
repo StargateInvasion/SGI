@@ -1,0 +1,215 @@
+﻿TXT
+entityType "Cosmetic"
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+mainViewIcon "MAINVIEWICON_ASURAN_TITANDEFENSE_ATLANTIS"
+basePrice
+	credits 9500.000000
+	metal 1200.000000
+	crystal 750.000000
+slotCount 150.000000
+BuildTime 450.000000
+MaxHullPoints
+	StartValue 3976.875000
+	ValueIncreasePerLevel 459.375000
+MaxShieldPoints
+	StartValue 2126.250000
+	ValueIncreasePerLevel 532.875000
+HullPointRestoreRate
+	StartValue 2.700000
+	ValueIncreasePerLevel 0.330000
+ShieldPointRestoreRate
+	StartValue 4.300000
+	ValueIncreasePerLevel 0.950000
+ArmorPointsFromExperience
+	StartValue 8.500000
+	ValueIncreasePerLevel 0.510000
+maxMitigation
+	StartValue 0.650000
+	ValueIncreasePerLevel 0.011110
+MaxAntiMatter
+	StartValue 285.000000
+	ValueIncreasePerLevel 40.000000
+AntiMatterRestoreRate
+	StartValue 0.750000
+	ValueIncreasePerLevel 0.100000
+CultureProtectRate
+	StartValue 0.300000
+	ValueIncreasePerLevel 0.050000
+NameStringID "IDS_ASURAN_TITANDEFENSE_ATLANTIS_NAME"
+DescriptionStringID "IDS_ASURAN_TITANDEFENSE_ATLANTIS_DESCRIPTION"
+picture "TITANPICTURE_PHASELOYALIST"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+statCountType "Titan"
+UpgradeTypeCount 7
+UpgradeType "TitanUpgrade_PhaseLoyalist_AbilityA"
+UpgradeType "TitanUpgrade_PhaseLoyalist_AbilityB"
+UpgradeType "TitanUpgrade_PhaseLoyalist_AbilityC"
+UpgradeType "TitanUpgrade_PhaseLoyalist_AbilityD"
+UpgradeType "TitanUpgrade_PhaseLoyalist_Durability"
+UpgradeType "TitanUpgrade_PhaseLoyalist_Weapons"
+UpgradeType "TitanUpgrade_PhaseLoyalist_Abilities"
+numRandomDebrisLarge 80
+numRandomDebrisSmall 30
+numSpecificDebris 0
+armorType "Titan"
+hudIcon "HUDICON_ASURAN_TITANDEFENSE_ATLANTIS"
+smallHudIcon "HUDICONSMALL_ASURAN_TITANDEFENSE_ATLANTIS"
+infoCardIcon "INFOCARDICON_ASURAN_TITANDEFENSE_ATLANTIS"
+minZoomDistanceMult 1.250000
+NumWeapons 2
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "TITAN"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PULSEGUN"
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 125.000000
+	DamagePerBank:RIGHT 125.000000
+	Range 8000.000000
+	PreBuffCooldownTime 4.500000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.250000
+	TravelSpeed 3000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalPulseGunHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALPULSEGUNHEAVY_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalPulseGunHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+		projectileTravelEffectName "Weapon_PhaseCapitalPulseGunHeavy_Travel"
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTILIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "FLASHBEAM"
+	DamagePerBank:FRONT 43.000000
+	DamagePerBank:BACK 43.000000
+	DamagePerBank:LEFT 43.000000
+	DamagePerBank:RIGHT 43.000000
+	Range 4500.000000
+	PreBuffCooldownTime 5.500000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.250000
+	TravelSpeed 0.000000
+	Duration 0.160000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 3
+		burstDelay 0.250000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalFlashBeamTitan_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Weapon_PhaseCapitalFlashBeamCapShip_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALFLASHBEAMMEDIUM_TRAVEL"
+			sound "WEAPON_PHASECAPITALFLASHBEAMMEDIUM_TRAVEL_ALT1"
+		beamGlowTextureName "PhaseCapitalBeam_Glow"
+		beamCoreTextureName "PhaseCapitalBeam_Core_Medium"
+		beamWidth 15.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 4
+TargetCountPerBank:BACK 3
+TargetCountPerBank:LEFT 3
+TargetCountPerBank:RIGHT 3
+canOnlyTargetStructures FALSE
+mass 100000.000000
+ShieldMeshName "Asuran_Shield_TitanDefense_Atlantis"
+renderShield TRUE
+maxAccelerationLinear 80.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 0.900000
+maxDecelerationAngular 9.999996
+maxSpeedLinear 450.000000
+maxRollRate 1.650000
+maxRollAngle 35.000000
+NumSoundsFor:ONATTACKORDERISSUED 4
+SoundID "TITAN_PHASELOYALIST_ONATTACKORDERISSUED_0"
+SoundID "TITAN_PHASELOYALIST_ONATTACKORDERISSUED_1"
+SoundID "TITAN_PHASELOYALIST_ONATTACKORDERISSUED_2"
+SoundID "TITAN_PHASELOYALIST_ONATTACKORDERISSUED_3"
+NumSoundsFor:ONCREATION 1
+SoundID "TITAN_PHASELOYALIST_ONCREATION_0"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "TITAN_PHASELOYALIST_ONGENERALORDERISSUED_0"
+SoundID "TITAN_PHASELOYALIST_ONGENERALORDERISSUED_1"
+SoundID "TITAN_PHASELOYALIST_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "TITAN_PHASELOYALIST_ONSELECTED_0"
+SoundID "TITAN_PHASELOYALIST_ONSELECTED_1"
+SoundID "TITAN_PHASELOYALIST_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "TITAN_PHASELOYALIST_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Asuran_TitanDefense_Atlantis"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_PhaseBattleship"
+ExplosionName "StarBase1"
+CommandPoints
+	StartValue 2.600000
+	ValueIncreasePerLevel 0.200000
+weaponCooldownDecreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.030000
+weaponDamageIncreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.050000
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_TECHCAPITALSHIP"
+formationRank 0
+minShadow 0.000000
+maxShadow 1.000000

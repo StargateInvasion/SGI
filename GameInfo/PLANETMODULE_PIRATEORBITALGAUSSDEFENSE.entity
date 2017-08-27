@@ -1,0 +1,122 @@
+﻿TXT
+entityType "PlanetModuleWeaponDefense"
+minZoomDistanceMult 3.500000
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 300.000000
+AntiMatterRestoreRate 2.000000
+numRandomDebrisLarge 4
+numRandomDebrisSmall 19
+numSpecificDebris 0
+armorType "Module"
+hudIcon "HUDICON_PLANETMODULE_PIRATEORBITALGAUSSDEFENSE"
+smallHudIcon "HUDICONSMALL_PLANETMODULE_PIRATEORBITALGAUSSDEFENSE"
+infoCardIcon "INFOCARDICON_PLANETMODULE_PIRATEORBITALGAUSSDEFENSE"
+planetUpgradeSlotType "Tactical"
+planetUpgradeSlotCount 1.000000
+basePrice
+	credits 250.000000
+	metal 75.000000
+	crystal 35.000000
+NameStringID "IDS_PLANETMODULE_PIRATEORBITALGAUSSDEFENSE_NAME"
+DescriptionStringID "IDS_PLANETMODULE_PIRATEORBITALGAUSSDEFENSE_DESCRIPTION"
+planetModuleRoleType "WEAPONDEFENSE"
+statCountType "ModulePointDefense"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MaxHullPoints 3500.000000
+HullPointRestoreRate 6.000000
+BaseArmorPoints 16.000000
+MaxShieldPoints 0.000000
+ShieldPointRestoreRate 0.000000
+maxShieldMitigation 0.000000
+ExperiencePointsForDestroying 50.000000
+resourceExtractionType "Invalid"
+cultureSpreadRate 0.000000
+isAffectedBySimilarModuleCostResearch FALSE
+placementRadius 360.000000
+nearPlacementDistOffset 0.000000
+farPlacementDistOffset 9000.000000
+spawnCount 1
+swapMineType ""
+angularSpeed 19.999992
+rotateSoundName ""
+rotateFacingType "None"
+rotateConstantly FALSE
+ShieldMeshName ""
+renderShield TRUE
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 0
+NumSoundsFor:ONSELECTED 1
+SoundID "PLANETMODULE_TECHORBITALGAUSSDEFENSE_ONSELECTION_0"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "PlanetModule_PirateOrbitalGaussDefense"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExplosionName "PlanetModuleSmall"
+mainViewIcon "MAINVIEWICON_PLANETMODULE_PIRATEORBITALGAUSSDEFENSE"
+picture "PLANETMODULEPICTURE_PIRATEORBITALGAUSSDEFENSE"
+minShadow 0.000000
+maxShadow 0.600000
+formationRank 3
+baseBuildTime 55.000000
+buildEffectName ""
+defaultAutoAttackRange "None"
+defaultAutoAttackOn TRUE
+prefersToFocusFire FALSE
+usesFighterAttack FALSE
+NumWeapons 1
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "GAUSS"
+	DamagePerBank:FRONT 140.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 10700.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.000000
+	TravelSpeed 6000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_OrbitalDefense_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_TECH_GAUSSCANNON_MUZZLE"
+		hitEffectName "Weapon_Tech_OrbitalDefense_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Tech_OrbitalDefense_Bullet"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE

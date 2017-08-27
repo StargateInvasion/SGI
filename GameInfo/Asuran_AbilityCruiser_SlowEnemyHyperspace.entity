@@ -1,0 +1,50 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Asuran_BuffCruiser_SlowEnemyHyperspaceCaster"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "Asuran_Research_Ability_SlowEnemyHyperspace"
+aiUseTime "OnlyWhenManyTargetsHyperspacingTowardsMyGravityWell"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 100.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 30.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_Ability_SlowEnemyHyperspace"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ASURAN_ABILITYCRUISER_SLOWENEMYHYPERSPACE_NAME"
+descStringID "IDS_ASURAN_ABILITYCRUISER_SLOWENEMYHYPERSPACE_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_SLOWENEMYHYPERSPACE"
+smallHudIcon "HUDICON_ABILITY_SLOWENEMYHYPERSPACE"
+infoCardIcon ""

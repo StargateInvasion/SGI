@@ -1,0 +1,127 @@
+TXT
+tabWindow
+	topLeftOffset [0, -20]
+	buttonTopLeftOffset [33, 97]
+	buttonSize [ 170 , 52 ]
+	buttonIndicatorArea [148, -2, 72, 52]
+	buttonIndicatorBackdrop "TabWindowButtonIndicatorBackdrop"
+	titleStringId "IDSMultiPlayerSetupScreenTitle"
+	titleFontId "TabbedScreenTitle"
+	titleArea [20, 40, 190, 40]
+	titleOverlayArea [21, 33, 190, 40]
+	titleOverlay "TabWindowTitleOverlay"
+	buttonsBackdropArea [0, 0, 210, 808]
+	buttonsBackdropDetailArea [0, 0, 210, 749]
+	contentArea [230, 0, 814, 808]
+	buttonsBackdrop "TabWindowButtonBackdropFrontEnd"
+	buttonsBackdropDetail ""
+	contentBackdrop "TabWindowContentBackdropFrontEnd"
+	nonActiveButtonInternals
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 40
+		textOffsetFromLeft 50
+		underlay "TabButtonUnderlayNonActive"
+		overlay "TabButtonOverlayNonActive"						
+	activeButtonInternals
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 40
+		textOffsetFromLeft 50
+		underlay "TabButtonUnderlayActive"
+		overlay "TabButtonOverlayActive"						
+	closeButton
+		area [33, 724, 170 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 40
+		textOffsetFromLeft 50
+		underlay "TabButtonUnderlayNonActive"
+		overlay "TabButtonOverlayNonActive"				
+		icon "ScreenBackButton"
+  		text "IDSMultiPlayerSetupScreenBackButton"
+sharedScreenTextEntryDef
+	labelFontId "Label"
+	textEntryFontId "TextEntry"
+newGameContentWindow
+	tabButtonIcon "MultiPlayerSetupScreenNewGameTabButton"
+	tabButtonText "IDSMultiPlayerSetupScreenNewGameTabButton"
+	gameNameAndPasswordEntryWindow
+		area [285, 418, 455, 66]
+	galaxySetupWindow
+		area [50, 100, 700, 700]
+	playNewGameButton
+		area [520, 700, 220 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"			
+		icon "MultiPlayerSetupScreenPlayNewGameButton"
+		text "IDSMultiPlayerSetupScreenPlayNewGameButton"	
+loadGameContentWindow
+	tabButtonIcon "MultiPlayerSetupScreenLoadGameTabButton"
+	tabButtonText "IDSMultiPlayerSetupScreenLoadGameTabButton"
+	gameNameAndPasswordEntryWindow
+		area [285, 600, 455, 66]
+	fileNameListLabel
+		area [50, 110, 220, 30]
+		fontId "WindowSubTitle"
+	fileNameList
+		area [50, 152, 220, 510]
+		itemGap 3
+	selectGameSaveTypeWindow
+		area [50, 673, 220, 46]
+	loadButton
+		area [520, 672, 220 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "MultiPlayerSetupScreenLoadGameButton"
+		text "IDSMultiPlayerSetupScreenLoadGameButton"	
+	galaxyInfoWindow
+		area [285, 152, 455, 254]	
+joinGameContentWindow
+	tabButtonIcon "MultiPlayerSetupScreenJoinGameTabButton"
+	tabButtonText "IDSMultiPlayerSetupScreenJoinGameTabButton"
+	hostAddressTextEntry	
+		area [285, 600, 455, 30]
+		labelWidth 110
+		labelText "IDSMultiPlayerSetupScreenHostAddress"
+	hostPortTextEntry
+		area [285, 636, 220, 30]
+		labelWidth 110
+		labelText "IDSMultiPlayerSetupScreenHostPort"
+	gameBroadcastResponseLabel
+		area [50, 110, 100, 30]
+		fontId "WindowSubTitle"
+		text "IDSMultiPlayerSetupScreenGameBroadcastResponseList"
+	gameBroadcastResponseList
+		area [50, 152, 220, 510]
+		itemGap 3
+	resetGameBroadcastButton
+		area [50, 672, 220, 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"					
+		icon "MultiPlayerSetupScreenGameResetGameBroadcast"
+		text "IDSMultiPlayerSetupScreenGameResetGameBroadcast"
+	joinGameButton
+		area [520, 672, 220 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "MultiPlayerSetupScreenJoinGameButton"
+		text "IDSMultiPlayerSetupScreenJoinGameButton"	
+playerSetupContentWindow
+	tabButtonIcon "MultiPlayerSetupScreenPlayerSetupTabButton"
+	tabButtonText "IDSMultiPlayerSetupScreenPlayerSetupTabButton"
+galaxyRandomizer
+	tabButtonIcon "MultiPlayerSetupScreenGalaxyRandomizerTabButton"
+	tabButtonText "IDSSinglePlayerSetupScreenGalaxyRandomizerTabButton"
+	galaxyRandomizerWindow
+		area [50, 48, 700, 700]
+

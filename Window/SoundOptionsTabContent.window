@@ -1,0 +1,34 @@
+TXT
+tabButtonIcon "OptionsScreenSoundOptionsTabButton"
+tabButtonText "IDSOptionsScreenSoundOptionsTabButton"
+resetButton
+	area [50, 620, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	icon "OptionsScreenSoundOptionsReset"
+	text "IDSOptionsScreenSoundOptionsReset"
+stopSoundsWhenWindowLosesFocusCheckBox
+	area [50, 276, 200, 30]
+	text "IDSOptionsScreenSoundOptionsStopSoundsWhenWindowLosesFocus"	
+changeMusicVolumeInBattleCheckBox
+	area [50, 312, 200, 30]
+	text "IDSOptionsScreenSoundOptionsChangeMusicVolumeInBattle"	
+musicVolumeScrollBar
+	area [50, 96, 450, 30]
+	text "IDSOptionsScreenSoundOptionsMusicVolumeScrollBar"	
+effectVolumeScrollBar
+	area [50, 132, 450, 30]
+	text "IDSOptionsScreenSoundOptionsEffectVolumeScrollBar"	
+dialogueVolumeScrollBar
+	area [50, 168, 450, 30]
+	text "IDSOptionsScreenSoundOptionsDialogueVolumeScrollBar"	
+uiVolumeScrollBar
+	area [50, 204, 450, 30]	
+	text "IDSOptionsScreenSoundOptionsUIVolumeScrollBar"
+voiceChatScrollBar
+	area [50, 240, 450, 30]	
+	text "IDSOptionsScreenSoundOptionsVoiceChatScrollBar"
+	

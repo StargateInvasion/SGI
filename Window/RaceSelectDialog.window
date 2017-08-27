@@ -1,0 +1,484 @@
+TXT
+backdropDimPercentage 0.90
+backdropBrush "ICOGameLobbyScreenBackdrop"
+titleOverlayBrush ""
+size [1064 , 808]
+contentRefArea [0, 0, 1064, 808]
+titleRefArea [90, 40, 508, 30]
+titleOverlayRefArea [0, 0, 693, 90]
+numFactionWindows 5
+	factionSelectWindowDef
+		backdropBrush "RaceSelectDialogBackground"
+		backdropArea [22,12,974,743]
+		smallFactionPortraitOverlay "RaceSelectSmallPortraitOverlay"
+		smallFactionPortraitOffset [0,0]
+		previousFactionPortraitBrush "RaceSelectDialogAsuransPortraitSmall"
+		previousFactionPortraitArea [688, 469, 120 , 190]
+		nextFactionPortraitBrush "RaceSelectDialogGoauldPortraitSmall"
+		nextFactionPortraitArea [844, 469, 120 , 190]
+		leftPlayer "PlayerHuman"
+		rightPlayer "PlayerHuman"
+		raceNameFont "WindowTitle"
+		raceNameID "IDS_GALAXY_MILKYWAY"
+		raceNameArea [435,38,0,0]
+		raceDescriptionFont "ListItemSmall"
+		raceDescriptionID "IDS_RACESELECTDIALOG_MILKYWAY_DESCRIPTION"
+		raceDescriptionArea [350,-30,400,190]
+		leftPlayerNameArea [660,125,0,0]
+		rightPlayerNameArea [-9999,309,0,0]
+		playerDescriptionFont "ButtonLabel"
+		leftPlayerDescriptionID "IDS_RACESELECTDIALOG_HUMAN_DESCRIPTION"
+		leftPlayerDescriptionArea [365,-82,600,500]
+		rightPlayerDescriptionID "IDS_RACESELECTDIALOG_GOAULD_DESCRIPTION"
+		rightPlayerDescriptionArea [-9560,140,400,500]
+		portraitOverlayBrush "PlayerScreenPortraitOverlay"
+		portraitUnderlayBrush "PlayerScreenPortraitUnderlay"
+		portraitBackdropBrush "PlayerScreenHappinessBackdropForHumanPlayer"
+		frameOffset [0,-26]
+		backdropOffset [0,168]
+		leftPlayerPortraitBrush "RaceSelectDialogTauri"
+		leftPlayerPortraitArea [30,20,300,690]
+		rightPlayerPortraitBrush "RaceSelectDialogTauriShip"
+		rightPlayerPortraitArea [348, 245, 325 , 200]
+		techButtonDef
+			backdrop "ResearchWindowButtonBackdrop"
+			overlay ""
+		sharedTechsStartPosition [587,280]
+		spaceBetweenSharedTechs 5
+			sharedTechOne "Human_Research_Titan_Tartarus"
+			sharedTechTwo "Human_Research_PlanetModule_Cannon"
+			sharedTechThree "Human_Research_PlanetModule_Stargate"
+			sharedTechFour "Human_Research_Titan_Hephestus"
+		sharedCapitalShipsStartPosition [684,316]
+		spaceBetweenSharedCapitalShips 5
+			sharedCapitalShipOne "Human_CapitalBattleship_Achilles"
+			sharedCapitalShipTwo "Human_CapitalCarrier_Poseidon"
+			sharedCapitalShipThree "Human_CapitalColony_Destiny"
+			sharedCapitalShipFour "Human_CapitalSiege_Excalibur"
+			sharedCapitalShipFive "Human_CapitalSupport_Scorpion"
+			sharedCapitalShipSix "Human_CapitalTransport_Concordia"
+		spaceBetweenFactionTechs 5
+		leftFactionTechsStartPosition [852, 280]
+			leftFactionTechOne "Human_Research_CruiserDaedalus"
+			leftFactionTechTwo "Human_Research_CruiserCerberus"
+			leftFactionTechThree "Human_Research_CruiserNyx"
+			leftFactionTechFour "Human_Research_CruiserPhoenix"
+			leftFactionTechFive "Human_Research_CruiserAres"
+			leftFactionTechSix "Human_Research_CorvetteValkyrie"
+		rightFactionTechsStartPosition [-9553, 583]
+			rightFactionTechOne "RESEARCHSUBJECT_PIRATE_ARMOR1"
+			rightFactionTechTwo "RESEARCHSUBJECT_PIRATE_ARMOR2"
+			rightFactionTechThree "RESEARCHSUBJECT_PIRATE_ARMOR3"
+			rightFactionTechFour "RESEARCHSUBJECT_PIRATE_ARMOR4"
+			rightFactionTechFive "RESEARCHSUBJECT_PIRATE_HYPERSPACE_CHARGEUPTIMEDECREASE"
+			rightFactionTechSix "RESEARCHSUBJECT_PIRATE_WEAPONRANGE"
+		selectLeftButton
+			area [778, 377, 200 , 80]
+			underlayBrush "RaceSelectButton"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [-9999,2,80,50]
+		selectRightButton
+			area [-9730, 585, 230 , 105]
+			underlayBrush "RaceSelectButton"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [-9999,2,80,50]
+		selectRandomButton
+			area [454, 711, 100, 50]
+			underlayBrush "RaceSelectRandom"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [15,2,80,50]
+		previousRaceButton
+			area [682, 663, 132, 50]
+			underlayBrush "RaceSelectLeftButton"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [-9999,2,80,50]
+		nextRaceButton
+			area [838, 663, 132, 50]
+			underlayBrush "RaceSelectRightButton"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [-9999,2,80,50]
+	factionSelectWindowDef
+		backdropBrush "RaceSelectDialogBackground"
+		backdropArea [22,12,974,743]
+		smallFactionPortraitOverlay "RaceSelectSmallPortraitOverlay"
+		smallFactionPortraitOffset [0,0]
+		previousFactionPortraitBrush "RaceSelectDialogTauriPortraitSmall"
+		previousFactionPortraitArea [688, 469, 120 , 190]
+		nextFactionPortraitBrush "RaceSelectDialogWraithPortraitSmall"
+		nextFactionPortraitArea [844, 469, 120 , 190]
+		leftPlayer "PlayerTechRebel"
+		rightPlayer "PlayerTechRebel"
+		raceNameFont "WindowTitle"
+		raceNameID "IDS_GALAXY_MILKYWAY"
+		raceNameArea [435,38,0,0]
+		raceDescriptionFont "ListItemSmall"
+		raceDescriptionID "IDS_RACESELECTDIALOG_MILKYWAY_DESCRIPTION"
+		raceDescriptionArea [350,-30,400,190]
+		leftPlayerNameArea [660,125,0,0]
+		rightPlayerNameArea [-9999,309,0,0]
+		playerDescriptionFont "ButtonLabel"
+		leftPlayerDescriptionID "IDS_RACESELECTDIALOG_GOAULD_DESCRIPTION"
+		leftPlayerDescriptionArea [365,-82,600,500]
+		rightPlayerDescriptionID "IDS_RACESELECTDIALOG_GOAULD_DESCRIPTION"
+		rightPlayerDescriptionArea [-9560,140,400,500]
+		portraitOverlayBrush "PlayerScreenPortraitOverlay"
+		portraitUnderlayBrush "PlayerScreenPortraitUnderlay"
+		portraitBackdropBrush "PlayerScreenHappinessBackdropForHumanPlayer"
+		frameOffset [0,-26]
+		backdropOffset [0,168]
+		leftPlayerPortraitBrush "RaceSelectDialogGoauld"
+		leftPlayerPortraitArea [30,20,300,690]
+		rightPlayerPortraitBrush "RaceSelectDialogGoauldShip"
+		rightPlayerPortraitArea [348, 245, 325 , 200]
+		techButtonDef
+			backdrop "ResearchWindowButtonBackdrop"
+			overlay ""
+		sharedTechsStartPosition [587,280]
+		spaceBetweenSharedTechs 5
+			sharedTechOne "Human_Research_Titan_Tartarus"
+			sharedTechTwo "Human_Research_GdoCode"
+			sharedTechThree "Human_Research_Rebbelion"
+			sharedTechFour "Human_Research_Titan_Hephestus"
+		sharedCapitalShipsStartPosition [684,316]
+		spaceBetweenSharedCapitalShips 5
+			sharedCapitalShipOne "Human_CapitalBattleship_Achilles"
+			sharedCapitalShipTwo "Human_CapitalCarrier_Poseidon"
+			sharedCapitalShipThree "Human_CapitalColony_Destiny"
+			sharedCapitalShipFour "Human_CapitalSiege_Excalibur"
+			sharedCapitalShipFive "Human_CapitalSupport_Scorpion"
+			sharedCapitalShipSix "Human_CapitalTransport_Concordia"
+		spaceBetweenFactionTechs 5
+		leftFactionTechsStartPosition [852, 280]
+			leftFactionTechOne "Human_Research_CruiserDaedalus"
+			leftFactionTechTwo "Human_Research_CruiserCerberus"
+			leftFactionTechThree "Human_Research_CruiserNyx"
+			leftFactionTechFour "Human_Research_CruiserPhoenix"
+			leftFactionTechFive "Human_Research_CruiserAres"
+			leftFactionTechSix "Human_Research_CorvetteValkyrie"
+		rightFactionTechsStartPosition [-9553, 583]
+			rightFactionTechOne "RESEARCHSUBJECT_PIRATE_ARMOR1"
+			rightFactionTechTwo "RESEARCHSUBJECT_PIRATE_ARMOR2"
+			rightFactionTechThree "RESEARCHSUBJECT_PIRATE_ARMOR3"
+			rightFactionTechFour "RESEARCHSUBJECT_PIRATE_ARMOR4"
+			rightFactionTechFive "RESEARCHSUBJECT_PIRATE_HYPERSPACE_CHARGEUPTIMEDECREASE"
+			rightFactionTechSix "RESEARCHSUBJECT_PIRATE_WEAPONRANGE"
+		selectLeftButton
+			area [-778, 377, 200 , 80]
+			underlayBrush "RaceSelectButtonDisabled"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [-9999,2,80,50]
+		selectRightButton
+			area [-9730, 585, 230 , 105]
+			underlayBrush "RaceSelectButton"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [-9999,2,80,50]
+		selectRandomButton
+			area [455, 712, 100, 50]
+			underlayBrush "RaceSelectRandom"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [15,2,80,50]
+		previousRaceButton
+			area [682, 663, 132, 50]
+			underlayBrush "RaceSelectLeftButton"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [-9999,2,80,50]
+		nextRaceButton
+			area [838, 663, 132, 50]
+			underlayBrush "RaceSelectRightButton"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [-9999,2,80,50]
+	factionSelectWindowDef
+		backdropBrush "RaceSelectDialogBackground"
+		backdropArea [22,12,974,743]
+		smallFactionPortraitOverlay "RaceSelectSmallPortraitOverlay"
+		smallFactionPortraitOffset [0,0]
+		previousFactionPortraitBrush "RaceSelectDialogGoauldPortraitSmall"
+		previousFactionPortraitArea [688, 469, 120 , 190]
+		nextFactionPortraitBrush "RaceSelectDialogAsgardPortraitSmall"
+		nextFactionPortraitArea [844, 469, 120 , 190]
+		leftPlayer "PlayerPhaseLoyalist"
+		rightPlayer "PlayerPhaseLoyalist"
+		raceNameFont "WindowTitle"
+		raceNameID "IDS_GALAXY_PEGASUS"
+		raceNameArea [430,38,0,0]
+		raceDescriptionFont "ListItemSmall"
+		raceDescriptionID "IDS_RACESELECTDIALOG_PEGASUS_DESCRIPTION"
+		raceDescriptionArea [350,-30,400,190]
+		leftPlayerNameArea [660,125,0,0]
+		rightPlayerNameArea [-9999,309,0,0]
+		playerDescriptionFont "ButtonLabel"
+		leftPlayerDescriptionID "IDS_RACESELECTDIALOG_WRAITH_DESCRIPTION"
+		leftPlayerDescriptionArea [365,-82,600,500]
+		rightPlayerDescriptionID "IDS_RACESELECTDIALOG_WRAITH_DESCRIPTION"
+		rightPlayerDescriptionArea [-9560,140,400,500]
+		portraitOverlayBrush "PlayerScreenPortraitOverlay"
+		portraitUnderlayBrush "PlayerScreenPortraitUnderlay"
+		portraitBackdropBrush "PlayerScreenHappinessBackdropForHumanPlayer"
+		frameOffset [0,-26]
+		backdropOffset [0,168]
+		leftPlayerPortraitBrush "RaceSelectDialogWraith"
+		leftPlayerPortraitArea [30,20,300,690]
+		rightPlayerPortraitBrush "RaceSelectDialogWraithShip"
+		rightPlayerPortraitArea [348, 245, 325 , 200]
+		techButtonDef
+			backdrop "ResearchWindowButtonBackdrop"
+			overlay ""
+		sharedTechsStartPosition [587,280]
+		spaceBetweenSharedTechs 5
+			sharedTechOne "Human_Research_Titan_Tartarus"
+			sharedTechTwo "Human_Research_GdoCode"
+			sharedTechThree "Human_Research_Rebbelion"
+			sharedTechFour "Human_Research_Titan_Hephestus"
+		sharedCapitalShipsStartPosition [684,316]
+		spaceBetweenSharedCapitalShips 5
+			sharedCapitalShipOne "Human_CapitalBattleship_Achilles"
+			sharedCapitalShipTwo "Human_CapitalCarrier_Poseidon"
+			sharedCapitalShipThree "Human_CapitalColony_Destiny"
+			sharedCapitalShipFour "Human_CapitalSiege_Excalibur"
+			sharedCapitalShipFive "Human_CapitalSupport_Scorpion"
+			sharedCapitalShipSix "Human_CapitalTransport_Concordia"
+		spaceBetweenFactionTechs 5
+		leftFactionTechsStartPosition [852, 280]
+			leftFactionTechOne "Human_Research_CruiserDaedalus"
+			leftFactionTechTwo "Human_Research_CruiserCerberus"
+			leftFactionTechThree "Human_Research_CruiserNyx"
+			leftFactionTechFour "Human_Research_CruiserPhoenix"
+			leftFactionTechFive "Human_Research_CruiserAres"
+			leftFactionTechSix "Human_Research_CorvetteValkyrie"
+		rightFactionTechsStartPosition [-9553, 583]
+			rightFactionTechOne "RESEARCHSUBJECT_PIRATE_ARMOR1"
+			rightFactionTechTwo "RESEARCHSUBJECT_PIRATE_ARMOR2"
+			rightFactionTechThree "RESEARCHSUBJECT_PIRATE_ARMOR3"
+			rightFactionTechFour "RESEARCHSUBJECT_PIRATE_ARMOR4"
+			rightFactionTechFive "RESEARCHSUBJECT_PIRATE_HYPERSPACE_CHARGEUPTIMEDECREASE"
+			rightFactionTechSix "RESEARCHSUBJECT_PIRATE_WEAPONRANGE"
+		selectLeftButton
+			area [-778, 377, 200 , 80]
+			underlayBrush "RaceSelectButtonDisabled"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [-9999,2,80,50]
+		selectRightButton
+			area [-9730, 585, 230 , 105]
+			underlayBrush "RaceSelectButton"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [-9999,2,80,50]
+		selectRandomButton
+			area [455, 712, 100, 50]
+			underlayBrush "RaceSelectRandom"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [15,2,80,50]
+		previousRaceButton
+			area [682, 663, 132, 50]
+			underlayBrush "RaceSelectLeftButton"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [-9999,2,80,50]
+		nextRaceButton
+			area [838, 663, 132, 50]
+			underlayBrush "RaceSelectRightButton"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [-9999,2,80,50]
+	factionSelectWindowDef
+		backdropBrush "RaceSelectDialogBackground"
+		backdropArea [22,12,974,743]
+		smallFactionPortraitOverlay "RaceSelectSmallPortraitOverlay"
+		smallFactionPortraitOffset [0,0]
+		previousFactionPortraitBrush "RaceSelectDialogWraithPortraitSmall"
+		previousFactionPortraitArea [688, 469, 120 , 190]
+		nextFactionPortraitBrush "RaceSelectDialogAsuransPortraitSmall"
+		nextFactionPortraitArea [844, 469, 120 , 190]
+		leftPlayer "PlayerPsiRebel"
+		rightPlayer "PlayerPsiRebel"
+		raceNameFont "WindowTitle"
+		raceNameID "IDS_GALAXY_IDA"
+		raceNameArea [400,38,0,0]
+		raceDescriptionFont "ListItemSmall"
+		raceDescriptionID "IDS_RACESELECTDIALOG_IDA_DESCRIPTION"
+		raceDescriptionArea [350,-30,400,190]
+		leftPlayerNameArea [660,125,0,0]
+		rightPlayerNameArea [-9999,309,0,0]
+		playerDescriptionFont "ButtonLabel"
+		leftPlayerDescriptionID "IDS_RACESELECTDIALOG_ASGARD_DESCRIPTION"
+		leftPlayerDescriptionArea [365,-82,600,500]
+		rightPlayerDescriptionID "IDS_RACESELECTDIALOG_ASGARD_DESCRIPTION"
+		rightPlayerDescriptionArea [-9560,140,400,500]
+		portraitOverlayBrush "PlayerScreenPortraitOverlay"
+		portraitUnderlayBrush "PlayerScreenPortraitUnderlay"
+		portraitBackdropBrush "PlayerScreenHappinessBackdropForHumanPlayer"
+		frameOffset [0,-26]
+		backdropOffset [0,168]
+		leftPlayerPortraitBrush "RaceSelectDialogAsgard"
+		leftPlayerPortraitArea [30,20,300,690]
+		rightPlayerPortraitBrush "RaceSelectDialogAsgardShip"
+		rightPlayerPortraitArea [348, 245, 325 , 200]
+		techButtonDef
+			backdrop "ResearchWindowButtonBackdrop"
+			overlay ""
+		sharedTechsStartPosition [587,280]
+		spaceBetweenSharedTechs 5
+			sharedTechOne "Human_Research_Titan_Tartarus"
+			sharedTechTwo "Human_Research_GdoCode"
+			sharedTechThree "Human_Research_Rebbelion"
+			sharedTechFour "Human_Research_Titan_Hephestus"
+		sharedCapitalShipsStartPosition [684,316]
+		spaceBetweenSharedCapitalShips 5
+			sharedCapitalShipOne "Human_CapitalBattleship_Achilles"
+			sharedCapitalShipTwo "Human_CapitalCarrier_Poseidon"
+			sharedCapitalShipThree "Human_CapitalColony_Destiny"
+			sharedCapitalShipFour "Human_CapitalSiege_Excalibur"
+			sharedCapitalShipFive "Human_CapitalSupport_Scorpion"
+			sharedCapitalShipSix "Human_CapitalTransport_Concordia"
+		spaceBetweenFactionTechs 5
+		leftFactionTechsStartPosition [852, 280]
+			leftFactionTechOne "Human_Research_CruiserDaedalus"
+			leftFactionTechTwo "Human_Research_CruiserCerberus"
+			leftFactionTechThree "Human_Research_CruiserNyx"
+			leftFactionTechFour "Human_Research_CruiserPhoenix"
+			leftFactionTechFive "Human_Research_CruiserAres"
+			leftFactionTechSix "Human_Research_CorvetteValkyrie"
+		rightFactionTechsStartPosition [-9553, 583]
+			rightFactionTechOne "RESEARCHSUBJECT_PIRATE_ARMOR1"
+			rightFactionTechTwo "RESEARCHSUBJECT_PIRATE_ARMOR2"
+			rightFactionTechThree "RESEARCHSUBJECT_PIRATE_ARMOR3"
+			rightFactionTechFour "RESEARCHSUBJECT_PIRATE_ARMOR4"
+			rightFactionTechFive "RESEARCHSUBJECT_PIRATE_HYPERSPACE_CHARGEUPTIMEDECREASE"
+			rightFactionTechSix "RESEARCHSUBJECT_PIRATE_WEAPONRANGE"
+		selectLeftButton
+			area [-778, 377, 200 , 80]
+			underlayBrush "RaceSelectButtonDisabled"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [-9999,2,80,50]
+		selectRightButton
+			area [-9730, 585, 230 , 105]
+			underlayBrush "RaceSelectButton"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [-9999,2,80,50]
+		selectRandomButton
+			area [455, 712, 100, 50]
+			underlayBrush "RaceSelectRandom"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [15,2,80,50]
+		previousRaceButton
+			area [682, 663, 132, 50]
+			underlayBrush "RaceSelectLeftButton"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [-9999,2,80,50]
+		nextRaceButton
+			area [838, 663, 132, 50]
+			underlayBrush "RaceSelectRightButton"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [-9999,2,80,50]
+	factionSelectWindowDef
+		backdropBrush "RaceSelectDialogBackground"
+		backdropArea [22,12,974,743]
+		smallFactionPortraitOverlay "RaceSelectSmallPortraitOverlay"
+		smallFactionPortraitOffset [0,0]
+		previousFactionPortraitBrush "RaceSelectDialogAsgardPortraitSmall"
+		previousFactionPortraitArea [688, 469, 120 , 190]
+		nextFactionPortraitBrush "RaceSelectDialogTauriPortraitSmall"
+		nextFactionPortraitArea [844, 469, 120 , 190]
+		leftPlayer "PlayerAsurans"
+		rightPlayer "PlayerAsurans"
+		raceNameFont "WindowTitle"
+		raceNameID "IDS_GALAXY_PEGASUS"
+		raceNameArea [430,38,0,0]
+		raceDescriptionFont "ListItemSmall"
+		raceDescriptionID "IDS_RACESELECTDIALOG_PEGASUS_DESCRIPTION"
+		raceDescriptionArea [350,-30,400,190]
+		leftPlayerNameArea [660,125,0,0]
+		rightPlayerNameArea [-9999,309,0,0]
+		playerDescriptionFont "ButtonLabel"
+		leftPlayerDescriptionID "IDS_RACESELECTDIALOG_ASURAN_DESCRIPTION"
+		leftPlayerDescriptionArea [365,-82,600,500]
+		rightPlayerDescriptionID "IDS_RACESELECTDIALOG_ASURAN_DESCRIPTION"
+		rightPlayerDescriptionArea [-9560,140,400,500]
+		portraitOverlayBrush "PlayerScreenPortraitOverlay"
+		portraitUnderlayBrush "PlayerScreenPortraitUnderlay"
+		portraitBackdropBrush "PlayerScreenHappinessBackdropForHumanPlayer"
+		frameOffset [0,-26]
+		backdropOffset [0,168]
+		leftPlayerPortraitBrush "RaceSelectDialogAsuran"
+		leftPlayerPortraitArea [30,20,300,690]
+		rightPlayerPortraitBrush "RaceSelectDialogAsuranShip"
+		rightPlayerPortraitArea [348, 245, 325 , 200]
+		techButtonDef
+			backdrop "ResearchWindowButtonBackdrop"
+			overlay ""
+		sharedTechsStartPosition [587,280]
+		spaceBetweenSharedTechs 5
+			sharedTechOne "Asuran_Research_TitanDefense_Atlantis"
+			sharedTechTwo "Asuran_Research_Orbital_Cannon"
+			sharedTechThree "Asuran_Research_FrigateSiege_GateSatellite"
+			sharedTechFour "Asuran_Research_TitanOffense_Epheus"
+		sharedCapitalShipsStartPosition [684,316]
+		spaceBetweenSharedCapitalShips 5
+			sharedCapitalShipOne "Asuran_CapitalBattleship_Orion"
+			sharedCapitalShipTwo "Asuran_CapitalCarrier_Alastor"
+			sharedCapitalShipThree "Asuran_CapitalColony_Destiny"
+			sharedCapitalShipFour "Asuran_CapitalSiege_Anteus"
+			sharedCapitalShipFive "Asuran_CapitalSupport_Origin"
+			sharedCapitalShipSix "Asuran_CapitalTransport_Romulus"
+		spaceBetweenFactionTechs 5
+		leftFactionTechsStartPosition [852, 280]
+			leftFactionTechOne "Asuran_Research_CruiserAntiModule_Typhaon"
+			leftFactionTechTwo "Asuran_Research_CruiserCarrier_Caelus"
+			leftFactionTechThree "Asuran_Research_CruiserHeavy_Atropos"
+			leftFactionTechFour "Asuran_Research_CruiserEnvoy_Mercury"
+			leftFactionTechFive "Asuran_Research_FrigateLongRange_Erinyes"
+			leftFactionTechSix "Asuran_Research_FrigateAntiFighter_Ogen"
+		rightFactionTechsStartPosition [-9553, 583]
+			rightFactionTechOne "Asuran_Research_Armor0"
+			rightFactionTechTwo "Asuran_Research_Armor0"
+			rightFactionTechThree "Asuran_Research_Armor0"
+			rightFactionTechFour "Asuran_Research_Armor0"
+			rightFactionTechFive "Asuran_Research_Armor0"
+			rightFactionTechSix "Asuran_Research_TitanOffense_Epheus"
+		selectLeftButton
+			area [778, 377, 200 , 80]
+			underlayBrush "RaceSelectButton"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [-9999,2,80,50]
+		selectRightButton
+			area [-9730, 585, 230 , 105]
+			underlayBrush "RaceSelectButton"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [-9999,2,80,50]
+		selectRandomButton
+			area [455, 712, 100, 50]
+			underlayBrush "RaceSelectRandom"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [15,2,80,50]
+		previousRaceButton
+			area [682, 663, 132, 50]
+			underlayBrush "RaceSelectLeftButton"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [-9999,2,80,50]
+		nextRaceButton
+			area [838, 663, 132, 50]
+			underlayBrush "RaceSelectRightButton"
+			buttonTextFont "TextEntry"
+			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
+			buttonTextArea [-9999,2,80,50]

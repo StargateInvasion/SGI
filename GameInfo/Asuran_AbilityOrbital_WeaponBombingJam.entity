@@ -1,0 +1,75 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadius"
+instantActionTriggerType "AlwaysPerform"
+buffType "Asuran_BuffOrbital_WeaponBombingJam"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 2
+	object "CapitalShip"
+	object "Frigate"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 25000.000000
+	Level:1 25000.000000
+	Level:2 25000.000000
+	Level:3 0.000000
+maxTargetCount
+	Level:0 15.000000
+	Level:1 15.000000
+	Level:2 25.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID "EFFECT_NANOWEAPONJAM"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "ResearchWithBase"
+baseSourceResearchSubject "Asuran_Research_Orbital_NanoWeaponJammer"
+improveSourceResearchSubject "Asuran_Research_Orbital_ImprovementNanoWeaponJammer"
+aiUseTime "OnlyWhenManyTargetsInRange"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 5.000000
+	Level:1 5.000000
+	Level:2 5.000000
+	Level:3 0.000000
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 40.000000
+	Level:1 40.000000
+	Level:2 40.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 10.000000
+	Level:1 10.000000
+	Level:2 10.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_Orbital_NanoWeaponJammer"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ASURAN_ABILITYORBITAL_WEAPONBOMBINGJAM_NAME"
+descStringID "IDS_ASURAN_ABILITYORBITAL_WEAPONBOMBINGJAM_DESCRIPTION"
+hudIcon "HUDICON_SUPPORTABILITY_WEAPONJAM"
+smallHudIcon "HUDICON_SUPPORTABILITY_WEAPONJAM"
+infoCardIcon ""

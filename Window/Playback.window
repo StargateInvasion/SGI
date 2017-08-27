@@ -1,0 +1,30 @@
+TXT
+topRightRefArea [-200, 40, 200, 200]
+checkBoxDef
+	boxWidth 33
+	textFontId "Label"
+	textLeftOffset 40
+	boxBackdrop "CheckBoxBackdrop"
+	boxOverlayWhenOn "CheckBoxCheckStateTrue"
+	boxOverlayWhenOff ""
+toggleIsAllVisibleCheckBox
+	area [25, 109, 170, 30]
+	text "IDS_PLAYBACKWINDOW_TOGGLEISALLVISIBLECHECKBOX"
+playerButton
+	area [25, 5, 170 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 0
+	textOffsetFromLeft 50
+	underlay "TabButtonUnderlayActive"
+	overlay "TabButtonOverlayActive"			
+timeButton
+	area [25, 57, 170 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 0
+	textOffsetFromLeft 0
+	underlay "TabButtonUnderlayActive"
+	overlay "TabButtonOverlayActive"			
+timeStatusWindow
+	area [25, 139, 170, 30]
+	
+

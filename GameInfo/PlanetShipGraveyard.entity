@@ -1,0 +1,235 @@
+﻿TXT
+entityType "Planet"
+meshInfoCount 1
+meshInfo
+	typeNameStringID "IDS_PLANETTYPE_SHIP_GRAVEYARD"
+	asteroidTemplate "Graveyard"
+	dustCloudTemplate "PuffyDense"
+	meshName "Outpost"
+	cloudColor 0
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "MAINVIEWICON_PLANET_SHIP_GRAVEYARD"
+	smallHudIcon "HUDICONSMALL_PLANET_SHIP_GRAVEYARD"
+	infoCardIcon "INFOCARDICON_PLANET_SHIP_GRAVEYARD"
+	mainViewIcon "MAINVIEWICON_PLANET_SHIP_GRAVEYARD"
+	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_SHIP_GRAVEYARD"
+	picture "PICTURE_PLANET_SHIP_GRAVEYARD"
+	shouldPrefer FALSE
+minZoomDistanceMult 3.200000
+glowColor 0
+ringColor 0
+cloudLayerTextureName ""
+planetResourceSetupInfo
+	asteroidSpawnAngleVariance 3.141593
+	totalMaxResourceAsteroids 3
+	metalResourceAsteroidSetup
+		minCount 1
+		maxCount 2
+		extractionRate 0.650000
+		refineryRate 0.085000
+		maxRefineryCount 3
+	crystalResourceAsteroidSetup
+		minCount 0
+		maxCount 1
+		extractionRate 0.650000
+		refineryRate 0.085000
+		maxRefineryCount 3
+	neutralMetalResourceAsteroidSetup
+		minCount 0
+		maxCount 0
+		extractionRate 0.000000
+		refineryRate 0.000000
+		maxRefineryCount 0
+	neutralCrystalResourceAsteroidSetup
+		minCount 0
+		maxCount 0
+		extractionRate 0.000000
+		refineryRate 0.000000
+		maxRefineryCount 0
+isAsteroid TRUE
+healthRegenRate 6.000000
+planetUpgradeDef
+	path:Population
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 0.000000
+			populationGrowthRate 0.000000
+			developmentTaxPenalty 0.000000
+	path:CivilianModules
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxModuleSlotCount:Civilian 0.000000
+			maxModuleConstructorCount 1
+	path:TacticalModules
+		stageCount 3
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxModuleSlotCount:Tactical 5.000000
+			maxModuleConstructorCount 1
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+			maxModuleSlotCount:Tactical 15.000000
+			maxModuleConstructorCount 2
+		stage
+			price
+				credits 550.000000
+				metal 175.000000
+				crystal 125.000000
+			upgradeTime 60.000000
+			maxModuleSlotCount:Tactical 25.000000
+			maxModuleConstructorCount 2
+	path:Home
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			isHomePlanet FALSE
+			homePlanetTaxRateBonus 0.000000
+			homePlanetMetalIncomeBonus 0.000000
+			homePlanetCrystalIncomeBonus 0.000000
+	path:ArtifactLevel
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+	path:Infrastructure
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxHealth 1000.000000
+	path:Social
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 0.000000
+			populationGrowthRate 0.000000
+			tradeIncomeModifier 0.000000
+			shipBuildRateModifier 0.000000
+			cultureSpreadRateModifier 0.000000
+	path:Industry
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 0.000000
+			tradeIncomeModifier 0.000000
+			shipBuildRateModifier 0.000000
+			cultureSpreadRateModifier 0.000000
+	path:Smuggler
+		stageCount 4
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			corruptionPercent 0.000000
+			smugglingPercent 0.000000
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+			corruptionPercent 0.250000
+			smugglingPercent 0.015000
+		stage
+			price
+				credits 550.000000
+				metal 175.000000
+				crystal 125.000000
+			upgradeTime 60.000000
+			corruptionPercent 0.500000
+			smugglingPercent 0.030000
+		stage
+			price
+				credits 650.000000
+				metal 200.000000
+				crystal 175.000000
+			upgradeTime 75.000000
+			corruptionPercent 0.750000
+			smugglingPercent 0.045000
+ringsChance 0.000000
+isColonizable TRUE
+planetTypeForResearch "Moon"
+skyboxScalarsCount 5
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 1.000000
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 1.000000
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 1.000000
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 1.000000
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 1.000000
+requiredPlanetBonusesCount 0
+possibleRandomPlanetBonusesCount 0
+ambienceSoundID ""
+renderAsVolcanic FALSE
+planetRuinDef
+	ruinPlanetType "PlanetDeadAsteroid"
+	attachType "Center"
+	effectName "StripToTheCore_Planet_Moon"
+	startTime 9.000000
+	soundID "EFFECT_STRIPPEDTOTHECORE"
+	creditsOnStrippedToTheCore 2000.000000
+	metalOnStrippedToTheCore 750.000000
+	crystalOnStrippedToTheCore 250.000000
+	extraScuttleTimeOnStrip 30.000000
+dlcId 255910
+ShieldMeshName "Shield_PlanetAsteroid"
+renderShield TRUE
+moveAreaRadius 35000.000000
+hyperspaceExitRadius 25000.000000
+isWormhole FALSE
+maxStarBaseCountPerPlayer 1
+maxSpaceMineCountPerPlayer 150
+minShadow 0.000000
+maxShadow 0.000000
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""

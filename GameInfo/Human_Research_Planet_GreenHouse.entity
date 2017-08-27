@@ -1,0 +1,38 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_PLANETACCESS_GREENHOUSE"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_PLANETACCESS_GREENHOUSE"
+infoCardIcon ""
+NameStringID "IDS_HUMAN_RESEARCH_PLANET_GREENHOUSE_NAME"
+DescriptionStringID "IDS_HUMAN_RESEARCH_PLANET_GREENHOUSE_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 4 , 0 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 75.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1200.000000
+	metal 200.000000
+	crystal 325.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 4
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 0.000000
+researchBoolModifiers 1
+researchModifier
+	modifierType "PlanetIsColonizable"
+	linkedPlanetType "Greenhouse"
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 228601

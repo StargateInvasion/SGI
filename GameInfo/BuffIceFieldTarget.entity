@@ -1,0 +1,58 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 3
+instantAction
+	buffInstantActionType "RecordDamage"
+	instantActionTriggerType "OnDamageTaken"
+instantAction
+	buffInstantActionType "PropagateWeaponDamageReceivedToTargetsInRadius"
+	instantActionTriggerType "OnDamageTaken"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 6
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "StarBase"
+		object "Titan"
+		object "Corvette"
+		numSpaces 1
+		space "Normal"
+		numConstraints 2
+		constraint "CanSpreadWeaponDamage"
+		constraint "NotSelf"
+	range
+		Level:0 5000.000000
+		Level:1 5000.000000
+		Level:2 5000.000000
+		Level:3 5000.000000
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+instantAction
+	buffInstantActionType "ClearRecordedDamage"
+	instantActionTriggerType "OnDamageTaken"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "PropagateWeaponDamagePerc"
+	value
+		Level:0 0.500000
+		Level:1 0.500000
+		Level:2 0.500000
+		Level:3 0.500000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "EnterHyperspace"

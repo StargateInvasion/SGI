@@ -1,0 +1,241 @@
+﻿TXT
+entityType "CapitalShip"
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 50.000000
+basePopulationKilled 1.950000
+bombingFreqTime 10.000000
+baseRange 5000.000000
+bombTransitTime 12.000000
+bombEffectCount 3
+bombEffectAngleVariance 15.000000
+bombEffectsDef
+	weaponType "Projectile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_PsiCapitalPlanetBombing_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "WEAPON_PSI_PLANETBOMB_MUZZLE"
+	hitEffectName "Weapon_PsiCapitalPlanetBombing_Hit"
+	hitHullEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	hitShieldsEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	projectileTravelEffectName "Weapon_PsiCapitalPlanetBombing_Travel"
+mainViewIcon "MAINVIEWICON_CAPITALSHIP_PSIPLANETPSIONIC"
+basePrice
+	credits 3000.000000
+	metal 400.000000
+	crystal 250.000000
+slotCount 50.000000
+BuildTime 75.000000
+MaxHullPoints
+	StartValue 2178.750000
+	ValueIncreasePerLevel 89.250000
+MaxShieldPoints
+	StartValue 1575.000000
+	ValueIncreasePerLevel 183.750000
+HullPointRestoreRate
+	StartValue 1.575000
+	ValueIncreasePerLevel 0.105000
+ShieldPointRestoreRate
+	StartValue 3.150000
+	ValueIncreasePerLevel 0.210000
+ArmorPointsFromExperience
+	StartValue 4.000000
+	ValueIncreasePerLevel 0.320000
+maxMitigation
+	StartValue 0.650000
+	ValueIncreasePerLevel 0.011110
+MaxAntiMatter
+	StartValue 235.000000
+	ValueIncreasePerLevel 25.000000
+AntiMatterRestoreRate
+	StartValue 0.900000
+	ValueIncreasePerLevel 0.100000
+CultureProtectRate
+	StartValue 0.300000
+	ValueIncreasePerLevel 0.050000
+NameStringID ""
+DescriptionStringID ""
+picture "CAPITALSHIPPICTURE_PSIPLANETPSIONIC"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+roleType "Invalid"
+statCountType "CapitalShipUtility2"
+numRandomDebrisLarge 3
+numRandomDebrisSmall 15
+numSpecificDebris 1
+specificDebrisMeshName "DebrisAdventLarge"
+armorType "CapitalShip"
+hudIcon "HUDICON_CAPITALSHIP_PSIPLANETPSIONIC"
+smallHudIcon "HUDICONSMALL_CAPITALSHIP_PSIPLANETPSIONIC"
+infoCardIcon "INFOCARDICON_CAPITALSHIP_PSIPLANETPSIONIC"
+minZoomDistanceMult 1.800000
+NumWeapons 2
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 182.399994
+	DamagePerBank:BACK 26.400000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 5000.000000
+	PreBuffCooldownTime 6.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.200000
+	TravelSpeed 4000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.300000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_PlasmaCapital_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE"
+			sound "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE_ALT1"
+			sound "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE_ALT2"
+		hitEffectName "Weapon_Psi_PlasmaCapital_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Psi_PlasmaCapital_Travel"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "LASERPSI"
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 54.000000
+	DamagePerBank:RIGHT 54.000000
+	Range 5000.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.500000
+	TravelSpeed 4000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 6
+		burstDelay 0.200000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_LaserCapital_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PSICAPITALLASERLIGHT_MUZZLE"
+			sound "WEAPON_PSICAPITALLASERLIGHT_MUZZLE_ALT1"
+		hitEffectName "Weapon_Psi_LaserCapital_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Psi_LaserCapital_Travel"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 1
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+mass 10000.000000
+ShieldMeshName "Shield_PsiPlanetPsionic"
+renderShield TRUE
+maxAccelerationLinear 100.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 1.000000
+maxDecelerationAngular 9.999996
+maxSpeedLinear 525.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+squadTypeEntityDef:0 "SquadPsiCombat"
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 "SquadPsiBomber"
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+NumSoundsFor:ONATTACKORDERISSUED 4
+SoundID "CAPITALSHIP_PSIPLANETPSIONIC_ONATTACKORDERISSUED_0"
+SoundID "CAPITALSHIP_PSIPLANETPSIONIC_ONATTACKORDERISSUED_1"
+SoundID "CAPITALSHIP_PSIPLANETPSIONIC_ONATTACKORDERISSUED_2"
+SoundID "CAPITALSHIP_PSIPLANETPSIONIC_ONATTACKORDERISSUED_3"
+NumSoundsFor:ONCREATION 1
+SoundID "CAPITALSHIP_PSIPLANETPSIONIC_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "CAPITALSHIP_PSIPLANETPSIONIC_ONGENERALORDERISSUED_0"
+SoundID "CAPITALSHIP_PSIPLANETPSIONIC_ONGENERALORDERISSUED_1"
+SoundID "CAPITALSHIP_PSIPLANETPSIONIC_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "CAPITALSHIP_PSIPLANETPSIONIC_ONSELECTED_0"
+SoundID "CAPITALSHIP_PSIPLANETPSIONIC_ONSELECTED_1"
+SoundID "CAPITALSHIP_PSIPLANETPSIONIC_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "CAPITALSHIP_PSIPLANETPSIONIC_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "CapitalShip_PsiPlanetPsionic"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_PsiPlanetPsionic"
+ExplosionName "CapitalShip0"
+CommandPoints
+	StartValue 1.300000
+	ValueIncreasePerLevel 0.150000
+weaponCooldownDecreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.024000
+weaponDamageIncreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.072000
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_PSICAPITALSHIP"
+formationRank 2
+minShadow 0.000000
+maxShadow 0.500000

@@ -1,0 +1,61 @@
+﻿TXT
+entityType "StarBaseUpgrade"
+stageCount 3
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "IDS_STARBASEUPGRADEPSIWEAPONS_NAME"
+	descStringID "IDS_STARBASEUPGRADEPSIWEAPONS_DESC0"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradePsiWeapons0"
+	smallHudIcon "HUDIconStarBaseUpgradePsiWeapons0"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1800.000000
+		metal 275.000000
+		crystal 150.000000
+	upgradeTime 60.000000
+	nameStringID "IDS_STARBASEUPGRADEPSIWEAPONS_NAME"
+	descStringID "IDS_STARBASEUPGRADEPSIWEAPONS_DESC0"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradePsiWeapons0"
+	smallHudIcon "HUDIconStarBaseUpgradePsiWeapons0"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "WeaponUpgradeLevel"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1800.000000
+		metal 275.000000
+		crystal 150.000000
+	upgradeTime 60.000000
+	nameStringID "IDS_STARBASEUPGRADEPSIWEAPONS_NAME"
+	descStringID "IDS_STARBASEUPGRADEPSIWEAPONS_DESC1"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradePsiWeapons1"
+	smallHudIcon "HUDIconStarBaseUpgradePsiWeapons1"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "WeaponUpgradeLevel"
+		value 2.000000
+	upgradeBoolPropertyCount 0
+xpModifier 75.000000

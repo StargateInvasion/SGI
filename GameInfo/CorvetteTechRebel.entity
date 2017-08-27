@@ -1,0 +1,235 @@
+﻿TXT
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Corvette"
+statCountType "FrigateCorvette"
+mainViewIcon "MAINVIEWICON_CORVETTE_TECH"
+picture "CORVETTEPICTURE_TECH_LOYALIST"
+NameStringID ""
+DescriptionStringID ""
+counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
+basePrice
+	credits 190.000000
+	metal 20.000000
+	crystal 10.000000
+slotCount 3.000000
+BuildTime 15.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 8.000000
+MaxHullPoints 350.000000
+MaxShieldPoints 130.000000
+HullPointRestoreRate 0.800000
+ShieldPointRestoreRate 0.500000
+BaseArmorPoints 1.000000
+maxMitigation 0.600000
+Prerequisites
+    NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 10
+numSpecificDebris 0
+armorType "VeryLight"
+hudIcon "HUDICON_CORVETTE_TECH"
+smallHudIcon "MAINVIEWICON_CORVETTE_TECH"
+infoCardIcon "INFOCARDICON_CORVETTE_TECH"
+minZoomDistanceMult 5.000000
+NumWeapons 3
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CORVETTE"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "LASERTECH"
+	DamagePerBank:FRONT 33.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 3000.000000
+	PreBuffCooldownTime 12.500000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.300000
+	TravelSpeed 4000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 4
+		burstDelay 0.250000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_FrigateLaser_Muzzle"
+		muzzleSoundMinRespawnTime 0.400000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_TECHCAPITALLASERLIGHT_MUZZLE"
+			sound "WEAPON_TECHCAPITALLASERLIGHT_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALLASERLIGHT_MUZZLE_ALT2"
+		hitEffectName "Weapon_Tech_FrigateLaser_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Tech_FrigateLaser_Travel"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTILIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "AUTOCANNON"
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 20.000000
+	DamagePerBank:RIGHT 20.000000
+	Range 3000.000000
+	PreBuffCooldownTime 10.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.300000
+	TravelSpeed 4000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 4
+		burstDelay 0.100000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_AutoCannonFighter_Muzzle"
+		muzzleSoundMinRespawnTime 10.000000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_TECHCAPITALAUTOCANNONLIGHT_MUZZLE"
+			sound "WEAPON_TECHCAPITALAUTOCANNONLIGHT_MUZZLE_ALT1"
+		hitEffectName "Weapon_Tech_AutoCannonFighter_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Tech_AutoCannonFighter_Travel"
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "CORVETTE"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 25.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 3500.000000
+	PreBuffCooldownTime 15.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.150000
+	TravelSpeed 1300.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 3
+		burstDelay 0.250000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_MissileFighter_Muzzle"
+		muzzleSoundMinRespawnTime 0.500000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE"
+			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE_ALT2"
+		hitEffectName "Weapon_Tech_MissileFighter_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_MISSILEHEAVY_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_MISSILEHEAVY_HITGENERIC"
+		missileTravelEffectName "Weapon_Tech_MissileFighter_Travel"
+		missileStartTurningDistance 150.000000
+		missileSlowTurnRate 3.141593
+		missileMaxSlowTurnTime 6.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 1
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 800.000000
+ShieldMeshName "Corvette_TechLoyalist_Shield"
+renderShield TRUE
+maxAccelerationLinear 500.000000
+maxAccelerationStrafe 150.000000
+maxDecelerationLinear 1000.000000
+maxAccelerationAngular 50.000000
+maxDecelerationAngular 75.000000
+maxSpeedLinear 900.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "CORVETTE_TECHREBEL_ONATTACKORDERISSUED_0"
+SoundID "CORVETTE_TECHREBEL_ONATTACKORDERISSUED_1"
+SoundID "CORVETTE_TECHREBEL_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 3
+SoundID "CORVETTE_TECHREBEL_ONCREATION_0"
+SoundID "ONCREATION_TECHCORVETTE_ALT1"
+SoundID "ONCREATION_TECHCORVETTE_ALT2"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "CORVETTE_TECHREBEL_ONGENERALORDERISSUED_0"
+SoundID "CORVETTE_TECHREBEL_ONGENERALORDERISSUED_1"
+SoundID "CORVETTE_TECHREBEL_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "CORVETTE_TECHREBEL_ONSELECTED_0"
+SoundID "CORVETTE_TECHREBEL_ONSELECTED_1"
+SoundID "CORVETTE_TECHREBEL_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "CORVETTE_TECHREBEL_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Corvette_TechRebel"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_TechCorvette"
+ExplosionName "Frigate0"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_TECHCAPITALSHIP"
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 0
+minShadow 0.100000
+maxShadow 0.800000
+allegianceDecreasePerRoundtrip 0.000000

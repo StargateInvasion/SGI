@@ -1,0 +1,425 @@
+TXT
+meshGroupCount 10
+meshGroup
+	name "ShatteredMoon"
+	meshNameCount 8
+	meshName "AsteroidSmall00"
+	meshName "AsteroidSmall04"
+	meshName "AsteroidSmall05"
+	meshName "AsteroidSmall06"
+	meshName "AsteroidSmall06"
+	meshName "AsteroidSmall03"
+	meshName "AsteroidSmall02"
+	meshName "AsteroidSmall01"
+meshGroup
+	name "RandomSpherical"
+	meshNameCount 3
+	meshName "AsteroidSmall00"
+	meshName "AsteroidSmall04"
+	meshName "AsteroidSmall05"
+meshGroup
+	name "RandomElongated"
+	meshNameCount 5
+	meshName "AsteroidSmall06"
+	meshName "AsteroidSmall06"
+	meshName "AsteroidSmall03"
+	meshName "AsteroidSmall02"
+	meshName "AsteroidSmall01"
+meshGroup
+	name "RandomSmall"
+	meshNameCount 2
+	meshName "AsteroidSmall02"
+	meshName "AsteroidSmall05"
+meshGroup
+	name "DebrisTechGeneric"
+	meshNameCount 3
+	meshName "DebrisTechGenericLarge0"
+	meshName "DebrisTechGenericLarge1"
+	meshName "DebrisTechGenericLarge2"
+meshGroup
+	name "DebrisVasariGeneric"
+	meshNameCount 8
+	meshName "DebrisPhaseGenericLarge0"
+	meshName "DebrisPhaseGenericLarge1"
+	meshName "DebrisPhaseGenericLarge2"
+	meshName "DebrisPhaseGenericSmall0"
+	meshName "DebrisPhaseGenericSmall1"
+	meshName "DebrisPhaseGenericSmall2"
+	meshName "DebrisPhaseGenericSmall3"
+	meshName "DebrisPhaseGenericSmall4"
+meshGroup
+	name "DebrisVasariSpecific"
+	meshNameCount 3
+	meshName "DebrisPhaseCapitalShipBattleship"
+	meshName "DebrisPhaseCapitalShipCarrier"
+	meshName "DebrisPhaseCapitalShipColony"
+meshGroup
+	name "ShipDebris"
+	meshNameCount 14
+	meshName "Frigate_PhaseLight"
+	meshName "Frigate_TurretCombat"
+	meshName "RefineryShip_Tech"
+	meshName "Corvette_PhaseLoyalist"
+	meshName "Corvette_PsiRebel"
+	meshName "Corvette_TechLoyalist"
+	meshName "Frigate_PhaseAntiFighter"
+	meshName "Frigate_PhaseColony"
+	meshName "Frigate_PsiEnvoy"
+	meshName "Frigate_PsiSiege"
+	meshName "Frigate_TechHeavy"
+	meshName "Frigate_TechUtility0"
+	meshName "Frigate_PirateAntifighter"
+	meshName "Frigate_PirateMedium"
+meshGroup
+	name "CapShipDebris"
+	meshNameCount 8
+	meshName "CapitalShip_TechBattleship"
+	meshName "CapitalShip_PsiBattleship"
+	meshName "CapitalShip_TechSupport"
+	meshName "CapitalShip_PsiBattlePsionic"
+	meshName "CapitalShip_PsiCarrier"
+	meshName "CapitalShip_PsiPlanetPsionic"
+	meshName "CapitalShip_TechCarrier"
+	meshName "CapitalShip_TechSiege"
+meshGroup
+	name "DebrisLarge"
+	meshNameCount 5
+	meshName "DebrisPhaseCapitalShipBattleship"
+	meshName "DebrisPhaseCapitalShipCarrier"
+	meshName "DebrisPhaseCapitalShipColony"
+	meshName "DebrisAdventLarge"
+	meshName "DebrisTechLarge"
+templateCount 14
+template
+	name "Shattered"
+	clusterCount 1
+	cluster
+		meshGroupName "ShatteredMoon"
+		asteroidCount 125
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 0.9
+		minAngle 0
+		maxAngle 75
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.9
+template
+	name "Graveyard"
+	clusterCount 4
+	cluster
+		meshGroupName "DebrisTechGeneric"
+		asteroidCount 100
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 1.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "DebrisVasariGeneric"
+		asteroidCount 50
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 0.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "ShipDebris"
+		asteroidCount 75
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 0.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.4
+	cluster
+		meshGroupName "CapShipDebris"
+		asteroidCount 50
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 0.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.01
+		maxAngularSpeed 0.09
+template
+	name "DenseDebris"
+	clusterCount 2
+	cluster
+		meshGroupName "DebrisLarge"
+		asteroidCount 200
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 1.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+	cluster
+		meshGroupName "DebrisVasariGeneric"
+		asteroidCount 50
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 0.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.7
+template
+	name "Empty"
+	clusterCount 0
+template
+	name "Sparse"
+	clusterCount 2
+	cluster
+		meshGroupName "RandomSpherical"
+		asteroidCount 5
+		minDistance 0.4
+		maxDistance 1.0
+		maxZOffset 4.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.2
+	cluster
+		meshGroupName "RandomElongated"
+		asteroidCount 4
+		minDistance 0.6
+		maxDistance 3.0
+		maxZOffset 4.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.2
+template
+	name "Dense"
+	clusterCount 2
+	cluster
+		meshGroupName "RandomSpherical"
+		asteroidCount 13
+		minDistance 0.5
+		maxDistance 1.0
+		maxZOffset 4.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.2
+	cluster
+		meshGroupName "RandomElongated"
+		asteroidCount 13
+		minDistance 0.6
+		maxDistance 2.0
+		maxZOffset 4.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.2
+template
+	name "Ring"
+	clusterCount 2
+	cluster
+		meshGroupName "RandomSpherical"
+		asteroidCount 11
+		minDistance 1.0
+		maxDistance 1.2
+		maxZOffset 1.1
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.05
+		maxAngularSpeed 0.25
+	cluster
+		meshGroupName "RandomElongated"
+		asteroidCount 11
+		minDistance 1.0
+		maxDistance 1.2
+		maxZOffset 1.1
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.05
+		maxAngularSpeed 0.25
+template
+	name "Wall"
+	clusterCount 2
+	cluster
+		meshGroupName "RandomSpherical"
+		asteroidCount 21
+		minDistance 0.8
+		maxDistance 1.0
+		maxZOffset 1.3
+		minAngle 0
+		maxAngle 65
+		minAngularSpeed 0.05
+		maxAngularSpeed 0.25
+	cluster
+		meshGroupName "RandomElongated"
+		asteroidCount 6
+		minDistance 0.8
+		maxDistance 1.0
+		maxZOffset 0.4
+		minAngle 0
+		maxAngle 90
+		minAngularSpeed 0.05
+		maxAngularSpeed 0.25	
+template
+	name "SpaceJunk"
+	clusterCount 3
+	cluster
+		meshGroupName "DebrisTechGeneric"
+		asteroidCount 85
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 0.3
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.1
+		maxAngularSpeed 0.3
+	cluster
+		meshGroupName "RandomSmall"
+		asteroidCount 15
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 0.3
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.01
+		maxAngularSpeed 0.2
+	cluster
+		meshGroupName "RandomSpherical"
+		asteroidCount 7
+		minDistance 0.0
+		maxDistance 0.5
+		maxZOffset 0.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.01
+		maxAngularSpeed 0.2
+template
+	name "AlienRuins"
+	clusterCount 3
+	cluster
+		meshGroupName "DebrisVasariGeneric"
+		asteroidCount 50
+		minDistance 0.0
+		maxDistance 0.2
+		maxZOffset 0.2
+		minAngle 0
+		maxAngle 30
+		minAngularSpeed 0.1
+		maxAngularSpeed 0.3
+	cluster
+		meshGroupName "DebrisVasariSpecific"
+		asteroidCount 3
+		minDistance 0.0
+		maxDistance 0.3
+		maxZOffset 0.3
+		minAngle 0
+		maxAngle 40
+		minAngularSpeed 0.01
+		maxAngularSpeed 0.1
+	cluster
+		meshGroupName "RandomSmall"
+		asteroidCount 10
+		minDistance 0.0
+		maxDistance 0.2
+		maxZOffset 0.3
+		minAngle 0
+		maxAngle 40
+		minAngularSpeed 0.01
+		maxAngularSpeed 0.1
+template
+	name "Field"
+	clusterCount 2
+	cluster
+		meshGroupName "RandomSpherical"
+		asteroidCount 60
+		minDistance 0.0
+		maxDistance 0.6
+		maxZOffset 1.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.1
+		maxAngularSpeed 0.3
+	cluster
+		meshGroupName "RandomElongated"
+		asteroidCount 60
+		minDistance 0.0
+		maxDistance 1.0
+		maxZOffset 0.5
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.1
+		maxAngularSpeed 0.3
+template
+	name "Belt"
+	clusterCount 2
+	cluster
+		meshGroupName "RandomSpherical"
+		asteroidCount 90
+		minDistance 0.5
+		maxDistance 0.9
+		maxZOffset 1.0
+		minAngle 0
+		maxAngle 360
+		minAngularSpeed 0.1
+		maxAngularSpeed 0.3
+	cluster
+		meshGroupName "RandomElongated"
+		asteroidCount 40
+		minDistance 0.6
+		maxDistance 0.9
+		maxZOffset 1.0
+		minAngle 0
+		maxAngle 300
+		minAngularSpeed 0.15
+		maxAngularSpeed 0.35
+template
+	name "Crescent"
+	clusterCount 2
+	cluster
+		meshGroupName "RandomSpherical"
+		asteroidCount 80
+		minDistance 0.5
+		maxDistance 1.0
+		maxZOffset 1.0
+		minAngle 0
+		maxAngle 150
+		minAngularSpeed 0.0
+		maxAngularSpeed 0.25
+	cluster
+		meshGroupName "RandomElongated"
+		asteroidCount 30
+		minDistance 0.7
+		maxDistance 0.9
+		maxZOffset 0.5
+		minAngle 10
+		maxAngle 180
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.35
+template
+	name "Line"
+	clusterCount 2
+	cluster
+		meshGroupName "RandomElongated"
+		asteroidCount 50
+		minDistance -0.5
+		maxDistance 0.5
+		maxZOffset 1.5
+		minAngle -10
+		maxAngle 10
+		minAngularSpeed 0.1
+		maxAngularSpeed 0.2
+	cluster
+		meshGroupName "RandomSpherical"
+		asteroidCount 50
+		minDistance -1.2
+		maxDistance 1.0
+		maxZOffset 1.0
+		minAngle -10
+		maxAngle 10
+		minAngularSpeed 0.2
+		maxAngularSpeed 0.35
+		

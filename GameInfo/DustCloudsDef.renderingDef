@@ -1,0 +1,180 @@
+TXT
+fullVisibilityDistance 2.0
+fullAlphaDistance 10.0
+textureGroupCount 4
+textureGroup
+	name "Default"
+	textureNameCount 4
+	textureName "smoke1"
+	textureName "smoke2"
+	textureName "smoke3"
+	textureName "smoke4"
+textureGroup
+	name "Galaxy"
+	textureNameCount 3
+	textureName "smoke2"
+	textureName "galaxyspiral2"
+	textureName "galaxyspiral3"
+textureGroup
+	name "Puffy"
+	textureNameCount 1
+	textureName "smokeblack"
+textureGroup
+	name "test"
+	textureNameCount 1
+	textureName "ionshockwave"
+templateCount 11
+template
+	name "Shattered"
+	clumpCount 3
+	clump
+		instanceCount 3
+		textureGroupName "Default"
+		minDistance 0.2
+		maxDistance 0.9
+		radius 10000
+		minParticleWidth 5000
+		maxParticleWidth 50000
+		minParticles 1
+		maxParticles 3
+	clump
+		instanceCount 1
+		textureGroupName "Puffy"
+		minDistance 0.2
+		maxDistance 0.9
+		radius 10000
+		minParticleWidth 5000
+		maxParticleWidth 50000
+		minParticles 1
+		maxParticles 3
+	clump
+		instanceCount 1
+		textureGroupName "test"
+		minDistance 0.2
+		maxDistance 0.9
+		radius 10000
+		minParticleWidth 5000
+		maxParticleWidth 50000
+		minParticles 1
+		maxParticles 3
+template
+	name "Empty"
+	clumpCount 0
+template
+	name "Sparse"
+	clumpCount 1
+	clump
+		instanceCount 3
+		textureGroupName "Default"
+		minDistance 0.6
+		maxDistance 4.0
+		radius 60000
+		minParticleWidth 5000
+		maxParticleWidth 50000
+		minParticles 2
+		maxParticles 4
+template
+	name "Dense"
+	clumpCount 1
+	clump
+		instanceCount 6
+		textureGroupName "Default"
+		minDistance .6
+		maxDistance 4.0
+		radius 65000
+		minParticleWidth 5000
+		maxParticleWidth 50000
+		minParticles 2
+		maxParticles 6
+template
+	name "VeryDense"
+	clumpCount 1
+	clump
+		instanceCount 6
+		textureGroupName "Default"
+		minDistance .3
+		maxDistance 0.9
+		radius 30000
+		minParticleWidth 5000
+		maxParticleWidth 40000
+		minParticles 6
+		maxParticles 9
+template
+	name "GrittySparse"
+	clumpCount 1
+	clump
+		instanceCount 3
+		textureGroupName "Galaxy"
+		minDistance 0.6
+		maxDistance 4.0
+		radius 60000
+		minParticleWidth 5000
+		maxParticleWidth 50000
+		minParticles 2
+		maxParticles 4
+template
+	name "GrittyDense"
+	clumpCount 1
+	clump
+		instanceCount 6
+		textureGroupName "Galaxy"
+		minDistance .6
+		maxDistance 4.0
+		radius 65000
+		minParticleWidth 2000
+		maxParticleWidth 20000
+		minParticles 2
+		maxParticles 6
+template
+	name "GrittyDump"
+	clumpCount 1
+	clump
+		instanceCount 1
+		textureGroupName "Galaxy"
+		minDistance 0.0
+		maxDistance 1.0
+		radius 60000
+		minParticleWidth 5000
+		maxParticleWidth 30000
+		minParticles 3
+		maxParticles 8
+template
+	name "PuffySparse"
+	clumpCount 1
+	clump
+		instanceCount 3
+		textureGroupName "Puffy"
+		minDistance 0.6
+		maxDistance 4.0
+		radius 60000
+		minParticleWidth 5000
+		maxParticleWidth 50000
+		minParticles 2
+		maxParticles 4
+template
+	name "PuffyDense"
+	clumpCount 1
+	clump
+		instanceCount 6
+		textureGroupName "Puffy"
+		minDistance .6
+		maxDistance 5.0
+		radius 65000
+		minParticleWidth 5000
+		maxParticleWidth 50000
+		minParticles 2
+		maxParticles 6
+template
+	name "IceSafe"
+	clumpCount 1
+	clump
+		instanceCount 2
+		textureGroupName "Default"
+		minDistance 1.0
+		maxDistance 5.0
+		radius 65000
+		minParticleWidth 5000
+		maxParticleWidth 50000
+		minParticles 2
+		maxParticles 4
+		

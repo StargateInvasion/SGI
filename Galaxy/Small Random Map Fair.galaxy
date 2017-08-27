@@ -1,0 +1,111 @@
+TXT
+versionNumber 5
+isBrowsable TRUE
+browsePictureName "ScenarioPicture-RandomSmallCompetitive"
+browseName "IDS_CUSTOMGALAXY_NAME_RANDOMSMALLFair"
+browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_RANDOMSMALLFair"
+isFirstCapitalShipIsFlagship TRUE
+randomizeStartingPositions TRUE
+planetArtifactDensity 0.3
+planetBonusDensity 0.4
+normalStartHomePlanetUpgradeLevel:Population 3
+normalStartHomePlanetUpgradeLevel:CivilianModules 1
+normalStartHomePlanetUpgradeLevel:TacticalModules 0
+normalStartHomePlanetUpgradeLevel:Home 1
+normalStartHomePlanetUpgradeLevel:ArtifactLevel 10
+normalStartHomePlanetUpgradeLevel:Infrastructure 2
+quickStartHomePlanetUpgradeLevel:Population 4
+quickStartHomePlanetUpgradeLevel:CivilianModules 1
+quickStartHomePlanetUpgradeLevel:TacticalModules 0
+quickStartHomePlanetUpgradeLevel:Home 1
+quickStartHomePlanetUpgradeLevel:ArtifactLevel 10
+quickStartHomePlanetUpgradeLevel:Infrastructure 2
+recommendedGameTypeCount 1
+recommendedGameType "Solo"
+metersPerGalaxyUnit 25000.000000
+pixelsPerGalaxyUnit 1
+useRandomGenerator TRUE
+randomizerParams
+	starPosOffsetRange
+		minPercentage 10.0
+		maxPercentage 15.0
+	playerParams
+		startingCredits 3000
+		startingMetal 800
+		startingCrystal 250	
+		homePlanetType "TerranHome"
+		homePlanetStarRadiusRange
+			minPercentage 1.0
+			maxPercentage 1.1		
+		areExtraPlanetsColonized FALSE	
+		extraPlanetsMaxRadius 15
+		extraPlanetsRadiusRange
+			minPercentage 0.9
+			maxPercentage 1.0		
+		extraPlanetGroupCount 3
+		extraPlanetGroup
+			minCount 1
+			maxCount 1
+			planetTypeCount 1
+			planetType "AsteroidFair"
+		extraPlanetGroup
+			minCount 1
+			maxCount 1
+			planetTypeCount 1
+			planetType "MoonFair"
+		extraPlanetGroup
+			minCount 1
+			maxCount 1
+			planetTypeCount 1
+			planetType "RandomIceVolcanicFair"
+starCount 1
+	star
+		type "RandomStar"
+		radius 100
+		connectionStarRadiusRange .75
+		connectionChance .7
+		maxPlayerCount 2
+		ringCount 3
+		ring
+			starRadiusRange
+				minPercentage 0.15
+				maxPercentage 0.25
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 1
+				maxCount 1
+				planetTypeCount 1
+				planetType "PirateBase"
+		ring
+			starRadiusRange
+				minPercentage 0.3
+				maxPercentage 0.7
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 5
+				maxCount 5
+				planetTypeCount 1
+				planetType "WeightedRandomFair"		
+		ring
+			starRadiusRange
+				minPercentage 0.7
+				maxPercentage 1.0
+			militiaColonizationPerc 0
+			planetGroupCount 3
+			planetGroup
+				minCount 4
+				maxCount 4
+				planetTypeCount 1
+				planetType "RandomTrueFair"
+			planetGroup
+				minCount 1
+				maxCount 1
+				planetTypeCount 1
+				planetType "RandomUncolonizableFair"
+			planetGroup
+				minCount 3
+				maxCount 3
+				planetTypeCount 1
+				planetType "AsteroidFair"

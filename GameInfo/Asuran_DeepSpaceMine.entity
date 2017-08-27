@@ -1,0 +1,54 @@
+﻿TXT
+entityType "SpaceMine"
+ability:0 "Human_AbilityOrbital_SpaceMineDetonate"
+ability:1 "Human_AbilityOrbital_HideMines"
+ability:2 ""
+ability:3 ""
+ability:4 ""
+numRandomDebrisLarge 0
+numRandomDebrisSmall 3
+numSpecificDebris 0
+armorType "Module"
+hudIcon "HUDICON_ASURAN_ORBITAL_MINE"
+smallHudIcon "HUDICON_ASURAN_ORBITAL_MINE"
+infoCardIcon "INFOCARDICON_ASURAN_ORBITAL_MINE"
+picture "PictureSpaceMineTech"
+mainViewIcon "MAINVIEWICON_ASURAN_ORBITAL_MINE"
+minZoomDistanceMult 8.000000
+MeshName "Asuran_Orbital_Mine"
+spawnActivationDelay 30.000000
+targetStartFollowRange 0.000000
+targetMaxFollowRange 0.000000
+nameStringID "IDS_ASURAN_DEEPSPACEMINE_NAME"
+scuttleValue
+	credits 85.000000
+	metal 21.500000
+	crystal 8.500000
+baseScuttleTime 6.000000
+ExplosionName "TechSpaceMine"
+minShadow 0.000000
+maxShadow 0.600000
+mass 200.000000
+maxAccelerationLinear 0.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 0.000000
+maxDecelerationAngular 9.999996
+maxSpeedLinear 0.000000
+maxRollRate 0.000000
+maxRollAngle 0.000000
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 0
+NumSoundsFor:ONSELECTED 1
+SoundID "MINE_TECH_ONSELECTED"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+maxHullPoints 25.000000
+hullPointRestoreRate 0.000000
+maxShieldPoints 0.000000
+shieldPointRestoreRate 0.000000
+maxShieldMitigation 0.000000
+armorPoints 0.000000
+experiencePointsForDestroying 10.000000
+baseMaxAntiMatter 0.000000
+baseAntiMatterRestoreRate 0.000000

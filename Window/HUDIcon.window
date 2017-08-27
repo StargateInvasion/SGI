@@ -1,0 +1,50 @@
+TXT
+barsOffsetFromIconBottom 2
+barsOffsetFromIconEdge 4
+barHeight 2
+barVerticalGap 1
+barHorizontalGap 1
+playerThemeIconOffsetFromIconCenter  [-13, -13]
+playerThemeIconSize [9,	11]
+numberOffsetFromIconCorner [8, 4]
+numberOffsetFromSmallIconCorner [2, 2]
+smallIconWidth 30
+frameDefUnderCursor
+	hudIconUnderlay "HUDIconEntityUnderlayUnderCursorFrame"
+	mainViewIconUnderlayOther "MainViewIconEntityUnderlayUnderCursorFrame"
+	mainViewIconUnderlayStar "MainViewIconStarUnderlayUnderCursorFrame"
+	mainViewIconUnderlayStarBase "MainViewIconStarBaseUnderlayUnderCursorFrame"
+frameDefSubSelected
+	hudIconUnderlay "HUDIconEntityUnderlaySubSelectedFrame"
+	mainViewIconUnderlayOther "MainViewIconEntityUnderlaySubSelectedFrame"
+	mainViewIconUnderlayStar "MainViewIconStarUnderlaySubSelectedFrame"
+	mainViewIconUnderlayStarBase "MainViewIconStarBaseUnderlaySubSelectedFrame"
+frameDefSelected
+	hudIconUnderlay "HUDIconEntityUnderlaySelectedFrame"
+	mainViewIconUnderlayOther "MainViewIconEntityUnderlaySelectedFrame"
+	mainViewIconUnderlayStar "MainViewIconStarUnderlaySelectedFrame"
+	mainViewIconUnderlayStarBase "MainViewIconStarBaseUnderlaySelectedFrame"
+fillDefSubSelected
+	hudIconUnderlayWithAntiMatter "HUDIconEntityWithAntiMatterUnderlaySubSelectedFill"
+	hudIconUnderlayWithoutAntiMatter "HUDIconEntityUnderlaySubSelectedFill"
+	hudIconUnderlayNoBars "HUDIconEntityUnderlaySubSelectedFillNoBars"
+	mainViewIconUnderlayOther "MainViewIconEntityUnderlaySubSelectedFill"
+	mainViewIconUnderlayStar "MainViewIconStarUnderlaySubSelectedFill"
+	mainViewIconUnderlayStarBase "MainViewIconStarBaseUnderlaySubSelectedFill"
+fillDefSelected
+	hudIconUnderlayWithAntiMatter "HUDIconEntityWithAntiMatterUnderlaySelectedFill"
+	hudIconUnderlayWithoutAntiMatter "HUDIconEntityUnderlaySelectedFill"
+	hudIconUnderlayNoBars "HUDIconEntityUnderlaySelectedFillNoBars"
+	mainViewIconUnderlayOther "MainViewIconEntityUnderlaySelectedFill"
+	mainViewIconUnderlayStar "MainViewIconStarUnderlaySelectedFill"
+	mainViewIconUnderlayStarBase "MainViewIconStarBaseUnderlaySelectedFill"
+isBusyDef
+	hudIconUnderlay "HUDIconEntityUnderlayIsBusyFill"
+	mainViewIconUnderlayPlanet "MainViewPlanetIconEntityUnderlayIsBusyFill"
+	mainViewIconUnderlayStarBase "MainViewPlanetIconEntityUnderlayIsBusyFill"
+	mainViewIconUnderlayOther "MainViewNonPlanetIconEntityUnderlayIsBusyFill"
+	
+
+
+	
+	

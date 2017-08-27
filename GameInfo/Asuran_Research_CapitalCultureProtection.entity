@@ -1,0 +1,42 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_CAPITALSHIP_CULTUREPROTECTION"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_CAPITALSHIP_CULTUREPROTECTION"
+infoCardIcon ""
+NameStringID "IDS_ASURAN_RESEARCH_CAPITALCULTUREPROTECTION_NAME"
+DescriptionStringID "IDS_ASURAN_RESEARCH_CAPITALCULTUREPROTECTION_DESCRIPTION"
+researchWindowLocation
+	block 2
+	pos [ 4 , 3 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_CultureRate0"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 75.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1200.000000
+	metal 200.000000
+	crystal 325.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 4
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "CapitalShipCultureProtectRateAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.200000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

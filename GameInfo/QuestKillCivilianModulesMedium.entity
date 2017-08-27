@@ -1,0 +1,37 @@
+﻿TXT
+entityType "Quest"
+titleStringId "IDSQuestKillCivilianModules"
+infoCardDescStringId "IDSQuestInfoCardDescKillCivilianModules"
+questType "KillCivilianStructures"
+duration 2160.000000
+relationshipDecayRate 0.000000
+happinessChangeForSuccess 0.750000
+happinessChangeForFailure -0.380000
+reward
+	credits 675.000000
+	metal 165.000000
+	crystal 120.000000
+priceDemanded
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+valueToKill 3.000000
+numReceiverConstraints 1
+ReceiverConstraint
+	type "TargetHappiness"
+	min 2.500000
+	max 7.000000
+numTargetConstraints 3
+TargetConstraint
+	type "TargetHappiness"
+	min 0.000000
+	max 5.900000
+TargetConstraint
+	type "TargetDist"
+	min 0.000000
+	max 2.000000
+TargetConstraint
+	type "TargetCivilianSlots"
+	min 3.000000
+	max 99999.000000
+weight 5.000000

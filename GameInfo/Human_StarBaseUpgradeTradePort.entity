@@ -1,0 +1,70 @@
+﻿TXT
+entityType "StarBaseUpgrade"
+stageCount 3
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "IDS_HUMAN_STARBASEUPGRADETRADEPORT_NAME"
+	descStringID "IDS_HUMAN_STARBASEUPGRADETRADEPORT_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradeTechTradePort0"
+	smallHudIcon "HUDIconStarBaseUpgradeTechTradePort0"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1000.000000
+		metal 150.000000
+		crystal 75.000000
+	upgradeTime 60.000000
+	nameStringID "IDS_HUMAN_STARBASEUPGRADETRADEPORT_NAME"
+	descStringID "IDS_HUMAN_STARBASEUPGRADETRADEPORT_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "Human_Research_StarBaseUpgradeAccess_TradePort"
+			Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradeTechTradePort0"
+	smallHudIcon "HUDIconStarBaseUpgradeTechTradePort0"
+	infoCardIcon ""
+	upgradePropertyCount 2
+	upgradeProperty
+		propertyType "BaseTradeIncomeRate"
+		value 1.250000
+	upgradeProperty
+		propertyType "TradePortMeshLevel"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1800.000000
+		metal 275.000000
+		crystal 150.000000
+	upgradeTime 60.000000
+	nameStringID "IDS_HUMAN_STARBASEUPGRADETRADEPORT_NAME"
+	descStringID "IDS_HUMAN_STARBASEUPGRADETRADEPORT_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradeTechTradePort1"
+	smallHudIcon "HUDIconStarBaseUpgradeTechTradePort1"
+	infoCardIcon ""
+	upgradePropertyCount 2
+	upgradeProperty
+		propertyType "BaseTradeIncomeRate"
+		value 3.000000
+	upgradeProperty
+		propertyType "TradePortMeshLevel"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+xpModifier 25.000000

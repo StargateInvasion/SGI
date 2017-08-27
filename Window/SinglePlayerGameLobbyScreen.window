@@ -1,0 +1,42 @@
+TXT
+backdrop "SinglePlayerGameLobbyScreenBackdrop"
+backButton
+	area [59, 651, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	icon "ScreenBackButton"
+	text "IDSSinglePlayerGameLobbyScreenBackButton"
+startGameButton
+	area [749, 651, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	icon "SinglePlayerGameLobbyScreenStartGameButton"
+	text "IDSSinglePlayerGameLobbyScreenStartGameButton"
+openGameOptionsDialogButton
+	area [290, 651, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	icon "OpenGameOptionsDialog"
+	text "IDSGalaxySetupWindowOpenGameOptionsDialog"
+openVictoryOptionsDialogButton
+	area [520, 651, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	icon "OpenGameOptionsDialog"
+	text "IDSGalaxySetupWindowOpenVictoryOptionsDialog"
+playerSetupWindow
+	area [60, 230, 600, 500]
+galaxyInfoWindow
+	area [60, 62, 500, 500]

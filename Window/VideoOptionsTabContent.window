@@ -1,0 +1,50 @@
+TXT
+tabButtonIcon "OptionsScreenVideoOptionsTabButton"
+tabButtonText "IDSOptionsScreenVideoOptionsTabButton"
+resolutionListArea [50, 100, 220, 406]
+refreshRateListArea [285, 100, 220, 406]
+multiSampleTypeListArea [520, 100, 220, 186]
+anisotropyLevelListArea [520, 320, 220, 186]
+resetButton
+	area [50, 620, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	icon "OptionsScreenVideoOptionsReset"
+	text "IDSOptionsScreenVideoOptionsReset"
+applyChangesButton
+	area [520, 620, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	icon "OptionsScreenVideoOptionsApplyChanges"
+	text "IDSOptionsScreenVideoOptionsApplyChanges"
+resolutionListLabel
+	area [50, 70, 220, 30]
+	fontId "Label"
+	text "IDSOptionsScreenVideoOptionsResolutionList"
+refreshRateListLabel
+	area [285, 70, 220, 30]
+	fontId "Label"
+	text "IDSOptionsScreenVideoOptionsRefreshRateList"
+multiSampleTypeListLabel
+	area [520, 70, 220, 30]
+	fontId "Label"
+	text "IDSOptionsScreenVideoOptionsMultiSampleTypeList"
+anisotropyLevelListLabel
+	area [520, 290, 220, 30]
+	fontId "Label"
+	text "IDSOptionsScreenVideoOptionsAnisotorpyLevelList"
+isWindowedCheckBox
+	area [49, 568, 220, 30]
+	text "IDSOptionsScreenVideoOptionsIsWindowed"
+gammaScrollBar
+	area [50, 520, 350, 30]
+	text "IDSOptionsScreenVideoOptionsGamma"
+useSystemCursorCheckBox
+	area [249, 568, 220, 30]
+	text "IDSOptionsScreenVideoOptionsUseSystemCursor"

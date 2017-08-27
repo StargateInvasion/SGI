@@ -1,0 +1,62 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTarget"
+instantActionTriggerType "AlwaysPerform"
+buffType "Asuran_BuffFrigate_CaptureNeutralEntity"
+targetFilter
+	numOwnerships 2
+	ownership "Enemy"
+	ownership "NoOwner"
+	numObjects 2
+	object "PlanetModule"
+	object "Frigate"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "CanBeCaptured"
+range
+	Level:0 1000.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 40.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 60.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ASURAN_ABILITYFRIGATE_CAPTURENEUTRALENTITY_NAME"
+descStringID "IDS_ASURAN_ABILITYFRIGATE_CAPTURENEUTRALENTITY_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_CAPTURENEUTRALENTITY"
+smallHudIcon "HUDICON_ABILITY_CAPTURENEUTRALENTITY"
+infoCardIcon ""

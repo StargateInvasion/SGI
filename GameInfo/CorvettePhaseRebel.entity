@@ -1,0 +1,241 @@
+﻿TXT
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Corvette"
+statCountType "FrigateCorvette"
+mainViewIcon "MAINVIEWICON_CORVETTE_PHASE"
+picture "CORVETTEPICTURE_PHASE_LOYALIST"
+NameStringID ""
+DescriptionStringID ""
+counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_PHASE"
+basePrice
+	credits 220.000000
+	metal 20.000000
+	crystal 25.000000
+slotCount 4.000000
+BuildTime 15.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 12.000000
+MaxHullPoints 390.000000
+MaxShieldPoints 160.000000
+HullPointRestoreRate 0.900000
+ShieldPointRestoreRate 0.600000
+BaseArmorPoints 1.250000
+maxMitigation 0.600000
+Prerequisites
+    NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 1
+numRandomDebrisSmall 10
+numSpecificDebris 0
+armorType "VeryLight"
+hudIcon "HUDICON_CORVETTE_PHASE"
+smallHudIcon "MAINVIEWICON_CORVETTE_PHASE"
+infoCardIcon "INFOCARDICON_CORVETTE_PHASE"
+minZoomDistanceMult 6.000000
+NumWeapons 3
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CORVETTE"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PULSEGUN"
+	DamagePerBank:FRONT 35.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 3000.000000
+	PreBuffCooldownTime 12.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.200000
+	TravelSpeed 3600.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 2
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_NaniteCombatPulseGun_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALPULSEGUNLIGHT_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNLIGHT_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalPulseGunLight_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_NaniteCombatPulseGun_Travel"
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "CORVETTE"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "PHASEMISSILE"
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 30.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 3500.000000
+	PreBuffCooldownTime 13.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.000000
+	TravelSpeed 1200.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 2
+		burstDelay 0.600000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalMissileBomber_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASESUPPORTMISSILEMEDIUM_MUZZLE"
+			sound "WEAPON_PHASESUPPORTMISSILEMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalMissileBomber_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEMEDIUM_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEMEDIUM_HITGENERIC"
+		missileTravelEffectName "Weapon_PhaseCapitalMissileBomber_Travel"
+		missileStartTurningDistance 10.000000
+		missileSlowTurnRate 3.141593
+		missileMaxSlowTurnTime 1.000000
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTILIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "FLASHBEAM"
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 23.000000
+	DamagePerBank:RIGHT 23.000000
+	Range 3000.000000
+	PreBuffCooldownTime 9.500000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.250000
+	TravelSpeed 0.000000
+	Duration 0.100000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 3
+		burstDelay 0.200000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalFlashBeamFighter_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Weapon_PhaseCapitalFlashBeamFighter_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALFLASHBEAMHEAVY_TRAVEL"
+			sound "WEAPON_PHASECAPITALFLASHBEAMHEAVY_TRAVEL_ALT1"
+		beamGlowTextureName "PhaseCapitalBeam_Glow"
+		beamCoreTextureName "PhaseCapitalBeam_Core_Light"
+		beamWidth 10.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 1
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 800.000000
+ShieldMeshName "Corvette_PhaseLoyalist_Shield"
+renderShield TRUE
+maxAccelerationLinear 500.000000
+maxAccelerationStrafe 150.000000
+maxDecelerationLinear 1000.000000
+maxAccelerationAngular 50.000000
+maxDecelerationAngular 75.000000
+maxSpeedLinear 900.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "CORVETTE_PHASEREBEL_ONATTACKORDERISSUED_0"
+SoundID "CORVETTE_PHASEREBEL_ONATTACKORDERISSUED_1"
+SoundID "CORVETTE_PHASEREBEL_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 3
+SoundID "CORVETTE_PHASEREBEL_ONCREATION_0"
+SoundID "ONCREATION_PHASECORVETTE_ALT1"
+SoundID "ONCREATION_PHASECORVETTE_ALT2"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "CORVETTE_PHASEREBEL_ONGENERALORDERISSUED_0"
+SoundID "CORVETTE_PHASEREBEL_ONGENERALORDERISSUED_1"
+SoundID "CORVETTE_PHASEREBEL_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "CORVETTE_PHASEREBEL_ONSELECTED_0"
+SoundID "CORVETTE_PHASEREBEL_ONSELECTED_1"
+SoundID "CORVETTE_PHASEREBEL_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "CORVETTE_PHASEREBEL_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Corvette_PhaseRebel"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_CorvettePhase"
+ExplosionName "Frigate0"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_PHASECAPITALSHIP"
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 0
+minShadow 0.100000
+maxShadow 0.800000
+allegianceDecreasePerRoundtrip 0.000000

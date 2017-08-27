@@ -1,0 +1,65 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTarget"
+instantActionTriggerType "AlwaysPerform"
+buffType "Asuran_BuffCapital_ReplicateForces"
+targetFilter
+	numOwnerships 2
+	ownership "Player"
+	ownership "Friendly"
+	numObjects 1
+	object "Frigate"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "NotSelf"
+range
+	Level:0 3000.000000
+	Level:1 5000.000000
+	Level:2 7000.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "Ability_CloneFrigateActivate"
+	mediumEffectName "Ability_CloneFrigateActivate"
+	largeEffectName "Ability_CloneFrigateActivate"
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility TRUE
+maxNumLevels 3
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 1.000000
+	Level:2 2.000000
+	Level:3 0.000000
+aiUseTime "OnlyWhenEnemyFleetWillPrevail"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Resources"
+resourceCost
+	credits 2000.000000
+	metal 1000.000000
+	crystal 1000.000000
+cooldownTime
+	Level:0 500.000000
+	Level:1 350.000000
+	Level:2 250.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ASURAN_ABILITYCAPITAL_REPLICATEFORCES_NAME"
+descStringID "IDS_ASURAN_ABILITYCAPITAL_REPLICATEFORCES_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_CLONEFRIGATE"
+smallHudIcon "HUDICON_ABILITY_CLONEFRIGATE"
+infoCardIcon ""

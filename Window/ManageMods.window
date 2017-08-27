@@ -1,0 +1,80 @@
+TXT
+tabButtonIcon "OptionsScreenManageModsTabButton"
+tabButtonText "IDSOptionsScreenManageModsTabButton"
+availableModNameList
+	area [50, 152, 220, 566]
+	itemGap 3
+enabledModNameList
+	area [285, 152, 220, 566]
+	itemGap 3
+enableModButton
+	area [520, 305, 220, 52]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"		
+	icon "ManageModsEnableModButton"
+	text "IDSManageModsEnableModButton"	
+disableModButton
+	area [520, 357, 220, 52]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"		
+	icon "ManageModsDisableModButton"
+	text "IDSManageModsDisableModButton"	
+increaseModPriorityButton
+	area [520, 409, 220, 52]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"		
+	icon "ManageModsIncreaseModPriorityButton"
+	text "IDSManageModsIncreaseModPriorityButton"	
+decreaseModPriorityButton
+	area [520, 461, 220, 52]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"		
+	icon "ManageModsDecreaseModPriorityButton"
+	text "IDSManageModsDecreaseModPriorityButton"	
+showModPathButton
+	area [520, 253, 220, 52]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"		
+	icon "ManageModsShowModPathButton"
+	text "IDSManageModsShowModPathButton"		
+applyModChangesButton
+	area [520, 669, 220, 52]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"		
+	icon "ApplyModChangesButton"
+	text "IDSApplyModChangesButton"			
+availableModNameListLabel
+	area [50, 120, 60, 18]
+	fontId "WindowSubTitle"
+	text "IDSManageModsAvailableModNameListLabel"
+enabledModNameListLabel
+	area [285, 120, 60, 18]
+	fontId "WindowSubTitle"
+	text "IDSManageModsEnabledModNameListLabel"
+enabledModChecksumHeaderLabel
+	area [520, 149, 220, 30]
+	fontId "WindowSubTitle2"
+	text "IDSManageModsEnabledModChecksum"
+enabledModChecksumValueLabel
+	area [520, 201, 220, 30]
+	fontId "WindowSubTitle2"
+showModPathDialogTitleStringId "IDSManageModsShowModPathDialogTitle"
+showModPathDialogContentFontId "Label"

@@ -1,0 +1,2242 @@
+TXT
+resetSelectedGameEventTime 8
+showNewGameEventTime 30
+fadeGameEventTime 4
+removeExpiredGameEventTime 1200
+GameEventDef:AllianceCeaseFireBroken
+	categoryId "Alliance"
+	hudButtonBrush "GameEventButtonAllianceEmptyFrame"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllianceCeaseFireFormed
+	categoryId "Alliance"
+	hudButtonBrush "GameEventButtonAllianceEmptyFrame"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE	
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllianceCeaseFireOffered
+	categoryId "Alliance"
+	hudButtonBrush "GameEventButtonAllianceEmptyFrame"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE	
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllianceOtherBroken
+	categoryId "Alliance"
+	hudButtonBrush "GameEventButtonAllianceEmptyFrame"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllianceOtherFormed
+	categoryId "Alliance"
+	hudButtonBrush "GameEventButtonAllianceEmptyFrame"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllianceOtherOffered
+	categoryId "Alliance"
+	hudButtonBrush "GameEventButtonAllianceEmptyFrame"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllyBackUpArrived
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 30.0
+	globalSoundThrottleTime 30.0
+	thottleSharedGameEventId "AllyFleetArrived"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllyBackUpEnRoute
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 30.0
+	globalSoundThrottleTime 30.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllyTitanQueued
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonPlayerTitanCreated"
+	entityThrottleTime 30.0
+	globalSoundThrottleTime 30.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllyTitanCompleted
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonPlayerTitanCreated"
+	entityThrottleTime 30.0
+	globalSoundThrottleTime 30.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:EnemyTitanQueued
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonPlayerTitanCreated"
+	entityThrottleTime 30.0
+	globalSoundThrottleTime 30.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:EnemyTitanCompleted
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonPlayerTitanCreated"
+	entityThrottleTime 30.0
+	globalSoundThrottleTime 30.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllyTitanLost
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonAllyCapitalShipLost"
+	entityThrottleTime 30.0
+	globalSoundThrottleTime 30.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllyCapitalShipLost
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonAllyCapitalShipLost"
+	entityThrottleTime 30.0
+	globalSoundThrottleTime 30.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllyFleetArrived
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 30.0
+	globalSoundThrottleTime 30.0
+	thottleSharedGameEventId "AllyBackUpArrived"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllyPlanetLost
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonAllyPlanetLost"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllyPlanetUnderAttack
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonAllyPlanetUnderAttack"
+	entityThrottleTime 180.0
+	globalSoundThrottleTime 180.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused TRUE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView TRUE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllyRequestAttackPlanet
+	categoryId "Alliance"
+	hudButtonBrush "GameEventButtonAllianceEmptyFrame"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllyRequestDefendPlanet
+	categoryId "Alliance"
+	hudButtonBrush "GameEventButtonAllianceEmptyFrame"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllyUnitUnderAttack
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonAllyUnitUnderAttack"
+	entityThrottleTime 120.0
+	globalSoundThrottleTime 120.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused TRUE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView TRUE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:BountyAllDepleted
+	categoryId "Default"
+	hudButtonBrush "GameEventButtonBountyAllDepleted"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:BountyIncreasedOther
+	categoryId "Default"
+	hudButtonBrush "GameEventButtonBountyIncreasedOther"
+	entityThrottleTime 120.0
+	globalSoundThrottleTime 120.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:BountyIncreasedPlayer
+	categoryId "Alliance"
+	hudButtonBrush "GameEventButtonBountyIncreasedPlayer"
+	entityThrottleTime 120.0
+	globalSoundThrottleTime 120.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:BuyNoCommand
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:BuyNoCredits
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:BuyNoMetal
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:BuyNoCrystal
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:BuyNoFrigateFactory
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:BuyNoCapitalShipFactory
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:BuyNoTitanFactory
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:BuyNoAvailableShipSlots
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:BuyNoAvailableCapitalShipSlots
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:BuyAlreadyHasTitan
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:CannonShellDetected
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonCannonShellDetected"
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:RandomEventDetected
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonRandomEventDetected"
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:CannonUnderConstruction
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonCannonUnderConstruction"
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:ColonizePlanetAlreadyOwned
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:ColonizePlanetNotColonizable
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:ColonizePlanetAlreadyBeingColonized
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:ColonizeNeedPrerequisiteResearch
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:ColonizePlanetHasTakeoverCulture
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE	
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:ColonizePlanetHasDebuff
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE	
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:ColonizePlanetBlockedByEnemyStarBase
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE	
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:RuinPlanetNotRuinable
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE	
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PirateFleetArrived
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonPirateFleetArrived"
+	entityThrottleTime 30.0
+	globalSoundThrottleTime 30.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PirateRaidImminent
+	categoryId "Alliance" 
+	hudButtonBrush "GameEventButtonPirateRaidImminent"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PirateRaidLaunched
+	categoryId "Alliance"
+	hudButtonBrush "GameEventButtonPirateRaidLaunched"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE	
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:HostileFleetArrived
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonHostileFleetArrived"
+	entityThrottleTime 30.0
+	globalSoundThrottleTime 30.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:HostileFleetEnRoute
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonHostileFleetEnRoute"
+	entityThrottleTime 45.0
+	globalSoundThrottleTime 45.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:HostilePlanetDestroyed
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:ModuleComplete
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:MoveCannotTravelBetweenPlanets
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:NoValidPath
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:NoValidPathObserved
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:NoValidPathBetweenStars
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:NoValidPathDueToBuff	
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:Ping
+	categoryId "Ping"
+	hudButtonBrush "GameEventButtonPing"
+	entityThrottleTime 5.0
+	globalSoundThrottleTime 5.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlanetUpgradeAlreadyMaxLevel
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlanetUpgradeComplete
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonPlanetUpgradeComplete"
+	entityThrottleTime 30.0
+	globalSoundThrottleTime 30.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlanetUpgradeMaxLevelQueued
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:NewPlanetDiscovered
+	categoryId "Ping"
+	hudButtonBrush "GameEventButtonNewPlanetDiscovered"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:ArtifactDiscovered
+	categoryId "Ping"
+	hudButtonBrush "GameEventButtonArtifactDiscovered"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:ArtifactDiscoveredOther
+	categoryId "Ping"
+	hudButtonBrush "GameEventButtonArtifactDiscoveredOther"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents FALSE
+GameEventDef:BonusDiscovered
+	categoryId "Ping"
+	hudButtonBrush "GameEventButtonBonusDiscovered"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:NothingDiscovered
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:LaunchSquadsDisabledByDebuff	
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerBackUpArrived
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 30.0
+	globalSoundThrottleTime 30.0
+	thottleSharedGameEventId "PlayerFleetArrived"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView TRUE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerTitanCreated
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonPlayerTitanCreated"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerTitanLost
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonPlayerCapitalShipLost"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerCapitalShipCreated
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonPlayerCapitalShipCreated"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerCapitalShipLost
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonPlayerCapitalShipLost"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerStarbaseLost
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonPlayerStarbaseLost"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE	
+GameEventDef:PlayerFleetArrived
+	categoryId "Default"
+	hudButtonBrush "GameEventButtonHostileFleetEnRoute"
+	entityThrottleTime 300.0
+	globalSoundThrottleTime 300.0
+	thottleSharedGameEventId "PlayerBackUpArrived"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerFleetArrivedToFleetBeacon
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonPlayerFleetArrivedToFleetBeacon"
+	entityThrottleTime 30.0
+	globalSoundThrottleTime 30.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerFleetDeparted
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 20.0
+	globalSoundThrottleTime 20.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected TRUE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerFrigateCreated
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonPlayerFrigateCreated"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerPlanetColonized
+	categoryId "Ping"
+	hudButtonBrush "GameEventButtonPlayerPlanetColonized"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerCapitalPlanetChanged
+	categoryId "Ping"
+	hudButtonBrush "GameEventButtonPlayerCapitalPlanetChanged"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerCapitalPlanetLost
+	categoryId "Ping"
+	hudButtonBrush "GameEventButtonCapitalVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllyCapitalPlanetLost
+	categoryId "Ping"
+	hudButtonBrush "GameEventButtonCapitalVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:EnemyCapitalPlanetLost
+	categoryId "Ping"
+	hudButtonBrush "GameEventButtonCapitalVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerPlanetLost
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonPlayerPlanetLost"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerPlanetLostToCulture
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonPlayerPlanetLostToCulture"
+	entityThrottleTime 30.0
+	globalSoundThrottleTime 30.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerPlanetSoonLostToCulture
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonPlayerPlanetSoonLostToCulture"
+	entityThrottleTime 30.0
+	globalSoundThrottleTime 30.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerPlanetUnderAttack
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonPlayerPlanetUnderAttack"
+	entityThrottleTime 120.0
+	globalSoundThrottleTime 120.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused TRUE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView TRUE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerReceivedResourcesFromAlly
+	categoryId "Alliance"
+	hudButtonBrush "GameEventButtonPlayerReceivedResourcesFromAlly"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerUnitUnderAttack
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonPlayerUnitUnderAttack"
+	entityThrottleTime 160.0
+	globalSoundThrottleTime 160.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused TRUE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView TRUE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerFlagshipUnderAttack
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonFlagshipVictory"
+	entityThrottleTime 160.0
+	globalSoundThrottleTime 160.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused TRUE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView TRUE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerFlagshipShieldsDown
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonFlagshipVictory"
+	entityThrottleTime 160.0
+	globalSoundThrottleTime 160.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerFlagshipHullSeverelyDamaged
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonFlagshipVictory"
+	entityThrottleTime 160.0
+	globalSoundThrottleTime 160.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerFlagshipDestroyed
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonFlagshipVictory"
+	entityThrottleTime 160.0
+	globalSoundThrottleTime 160.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllyFlagshipDestroyed
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonFlagshipVictory"
+	entityThrottleTime 160.0
+	globalSoundThrottleTime 160.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:EnemyFlagshipDestroyed
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonFlagshipVictory"
+	entityThrottleTime 160.0
+	globalSoundThrottleTime 160.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerTitanShieldsDown
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonPlayerCapitalShipShieldsDown"
+	entityThrottleTime 160.0
+	globalSoundThrottleTime 160.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerTitanHullSeverelyDamaged
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonPlayerCapitalShipHullSeverelyDamaged"
+	entityThrottleTime 160.0
+	globalSoundThrottleTime 160.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerCapitalShipShieldsDown
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonPlayerCapitalShipShieldsDown"
+	entityThrottleTime 160.0
+	globalSoundThrottleTime 160.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerCapitalShipHullSeverelyDamaged
+	categoryId "Threat"
+	hudButtonBrush "GameEventButtonPlayerCapitalShipHullSeverelyDamaged"
+	entityThrottleTime 160.0
+	globalSoundThrottleTime 160.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AchievementCompleted
+	categoryId "Ping"
+	hudButtonBrush "GameEventButtonAchievementCompleted"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents FALSE
+GameEventDef:QuestAdded
+	categoryId "Alliance"
+	hudButtonBrush "GameEventButtonAllianceEmptyFrame"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:QuestCompleted
+	categoryId "Alliance"
+	hudButtonBrush "GameEventButtonAllianceEmptyFrame"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:QuestFailed
+	categoryId "Alliance"
+	hudButtonBrush "GameEventButtonAllianceEmptyFrame"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:QuestEnded
+	categoryId "Alliance"
+	hudButtonBrush "GameEventButtonAllianceEmptyFrame"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:QuestRejected
+	categoryId "Alliance"
+	hudButtonBrush "GameEventButtonAllianceEmptyFrame"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerQuestAdded
+	categoryId "Alliance"
+	hudButtonBrush "GameEventButtonAllianceEmptyFrame"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerQuestCompleted
+	categoryId "Alliance"
+	hudButtonBrush "GameEventButtonAllianceEmptyFrame"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:PlayerQuestFailed
+	categoryId "Alliance"
+	hudButtonBrush "GameEventButtonAllianceEmptyFrame"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:DiplomaticVictoryHalfway	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonDiplomacyVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:DiplomaticVictoryComplete	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonDiplomacyVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllyDiplomaticVictoryHalfway	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonDiplomacyVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllyDiplomaticVictoryComplete	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonDiplomacyVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:EnemyDiplomaticVictoryHalfway	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonDiplomacyVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:EnemyDiplomaticVictoryComplete	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonDiplomacyVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:OccupationVictoryStarted	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonOccupationVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:OccupationVictoryHalfway	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonOccupationVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:OccupationVictoryComplete	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonOccupationVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllyOccupationVictoryStarted	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonOccupationVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllyOccupationVictoryHalfway	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonOccupationVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllyOccupationVictoryComplete	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonOccupationVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:EnemyOccupationVictoryStarted	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonOccupationVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:EnemyOccupationVictoryHalfway	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonOccupationVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:EnemyOccupationVictoryComplete	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonOccupationVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:ResearchVictoryStarted	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonResearchVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:ResearchVictoryHalfway	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonResearchVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:ResearchVictoryComplete	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonResearchVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:ResearchComplete	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonResearchComplete"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllyResearchVictoryStarted	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonResearchVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllyResearchVictoryHalfway	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonResearchVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllyResearchVictoryComplete	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonResearchVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:EnemyResearchVictoryStarted	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonResearchVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:EnemyResearchVictoryHalfway	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonResearchVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:EnemyResearchVictoryComplete	
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonResearchVictory"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:ResearchAlreadyMaxLevel
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:ResearchMaxLevelQueued
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:ResearchNotEnoughPointsInTier
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:ResearchNeedMoreLabModules
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:ResearchNeedPrerequisite
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:MoreModuleSlotsNeeded
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:SpaceMineLimitReached
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:StarBaseUpgradeNotEnoughUpgradePoints
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:StarBaseUpgradeAlreadyMaxLevel
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:StarBaseUpgradeMaxLevelQueued
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:TitanUpgradeNotEnoughUpgradePoints
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:TitanUpgradeAlreadyMaxLevel
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:InvalidModulePlacementPosition
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AbilityUpgradeAlreadyMaxLevel
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AbilityUpgradeRequiresHigherLevel
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AbilityUpgradeNoUnspentPoints
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:ShipUpgradeAlreadyMaxLevel
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:ShipUpgradeAlreadyQueuedMaxLevel
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityCooldownNotExpired
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityDisabledByDebuff		
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityNoAntimatter
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityNoUndockedSquadMembers
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityNotEnoughRoomForStarBase
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityCannotUseAbitraryLocationOnEntity
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityTooManyStarBases
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityMineIsNotActivated
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime -1.0
+	globalSoundThrottleTime -1.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityTargetNotInRange
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityNoValidObjectType
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityPhaseSpaceTarget
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityNormalSpaceTarget
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintCanBeCaptured
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintCanHaveFighters
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintCanHaveShields
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintCanSpreadWeaponDamage
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintCanPhaseDodge
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintHasAbilityWithCooldown
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintHasAntimatter
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintHasPhaseMissiles
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintHasPopulation
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintHasEnergyWeapons
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintHasHullDamage
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintHasShieldDamage
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintHasAntiMatterShortage
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintHasWeapons
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintIsCargoShip
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintIsExplored
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintIsResourceExtractor
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintIsMovingToLocalOrbitBody
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintIsPsi
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintLinkedCargoShip
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintLinkedSquad
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintNotSelf
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintWithinSolarSystem
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintModuleUnderConstruction
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintModuleIsActivelyBeingConstructed
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintModuleNotActivelyBeingConstructed
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintIsNotHomeworld
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintNotInvulnerable
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintIsInFriendlyGravityWell
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintIsInNonFriendlyGravityWell
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetOwnerLinked
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetOwnerPlayer
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetOwnerFriendly
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetOwnerHostile
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetOwnerNoOwner
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetOwnerAlliedOrEnemy
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:GameStart
+	categoryId "Ping"
+	hudButtonBrush "GameEventButtonGameStart"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:GameWin
+	categoryId "Ping"
+	hudButtonBrush "GameEventButtonGameStart"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AllyGameWin
+	categoryId "Ping"
+	hudButtonBrush "GameEventButtonGameStart"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:CapitalShipLevelUp
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonCapitalShipLevelUp"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AttackTargetInvalidWithNoReason
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AttackTargetInvalidAsNotDamagableDueToBuffs
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AttackTargetInvalidAsNotEnemy
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AttackTargetInvalidAsCantFireAtFighters
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AttackTargetInvalidAsCantMoveAndTargetNotInRange
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AttackTargetInvalidAsCantMoveToTarget
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AttackTargetInvalidAsCanOnlyAttackStructures
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AttackTargetInvalidAsMustBeInSameOrbitWell
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AttackTargetInvalidAsNoWeaponsToBombPlanet
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:AttackTargetInvalidAsPlanetCantBeBombed
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:ScuttleShipStarted
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonScuttleShipStarted"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents FALSE
+GameEventDef:ScuttleShipStopped
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:ScuttlePlanetStarted
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonScuttlePlanetStarted"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents FALSE
+GameEventDef:ScuttlePlanetStopped
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE	
+GameEventDef:MarketBoom
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonMarketBoom"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE	
+GameEventDef:MarketCrash
+	categoryId "Production"
+	hudButtonBrush "GameEventButtonMarketCrash"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE	
+GameEventDef:PlayerCultureFlippedEnemyPlanet
+	categoryId "Ping"
+	hudButtonBrush "GameEventButtonPlayerCultureFlippedEnemyPlanet"
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:EnvoyTargetPlanetIsNowInvalid
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE	
+GameEventDef:OffensiveMissionDiscovered
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents FALSE
+GameEventDef:MissionDiscovered
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents FALSE
+cullLists 6
+	cullList
+		maxCount 3
+		eventTypeCount 1
+			event "ResearchComplete"
+	cullList
+		maxCount 3
+		eventTypeCount 1
+			event "NewPlanetDiscovered"
+	cullList
+		maxCount 2
+		eventTypeCount 1
+			event "AllyUnitUnderAttack"		
+	cullList
+		maxCount 2
+		eventTypeCount 1
+			event "BountyIncreasedOther"	
+	cullList
+		maxCount 2
+		eventTypeCount 1
+			event "BountyIncreasedPlayer"	
+	cullList
+		maxCount 1
+		eventTypeCount 1
+			event "PirateRaidImminent"										
+
+		

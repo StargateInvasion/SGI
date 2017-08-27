@@ -1,0 +1,153 @@
+﻿TXT
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault FALSE
+canBomb FALSE
+typeCount 1
+frigateRoleType "AntiModule"
+statCountType "FrigateAntiModule"
+mainViewIcon "MAINVIEWICON_FRIGATE_PSIANTIMODULE"
+picture "PICTURE_FRIGATE_PSIANTIMODULE"
+NameStringID "IDS_FRIGATE_PSIANTIMODULE_NAME"
+DescriptionStringID "IDS_FRIGATE_PSIANTIMODULE_DESCRIPTION"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIMODULE"
+basePrice
+	credits 1050.000000
+	metal 175.000000
+	crystal 140.000000
+slotCount 18.000000
+BuildTime 65.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 54.000000
+MaxHullPoints 980.000000
+MaxShieldPoints 560.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 1.000000
+BaseArmorPoints 1.000000
+maxMitigation 0.600000
+Prerequisites
+    NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 1
+numRandomDebrisSmall 9
+numSpecificDebris 0
+armorType "Light"
+hudIcon "HUDICON_FRIGATE_PSIANTIMODULE"
+smallHudIcon "HUDICONSMALL_FRIGATE_PSIANTIMODULE"
+infoCardIcon "INFOCARDICON_FRIGATE_PSIANTIMODULE"
+minZoomDistanceMult 2.500000
+NumWeapons 1
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTIMODULE"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 70.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 12000.000000
+	PreBuffCooldownTime 4.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.300000
+	TravelSpeed 1100.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 4
+		burstDelay 0.950000
+		fireDelay 0.000000
+		muzzleEffectName ""
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Ability_PlasmaBombardment-Impact"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		missileTravelEffectName "Ability_PlasmaBombardment-Travel"
+		missileStartTurningDistance 50.000000
+		missileSlowTurnRate 0.508997
+		missileMaxSlowTurnTime 10.000000
+m_weaponIndexForRange 0
+firingAlignmentType "TiltForward"
+firingTiltAngle 30.000000
+TargetCountPerBank:FRONT 4
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures TRUE
+hasWeaponLevels FALSE
+mass 2000.000000
+ShieldMeshName "Shield_FrigatePsiAntiModule"
+renderShield TRUE
+maxAccelerationLinear 100.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 1.650000
+maxDecelerationAngular 9.999996
+maxSpeedLinear 500.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "FRIGATE_PSIANTIMODULE_ONATTACKORDERISSUED_0"
+SoundID "FRIGATE_PSIANTIMODULE_ONATTACKORDERISSUED_1"
+SoundID "FRIGATE_PSIANTIMODULE_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 1
+SoundID "FRIGATE_PSIANTIMODULE_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "FRIGATE_PSIANTIMODULE_ONGENERALORDERISSUED_0"
+SoundID "FRIGATE_PSIANTIMODULE_ONGENERALORDERISSUED_1"
+SoundID "FRIGATE_PSIANTIMODULE_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "FRIGATE_PSIANTIMODULE_ONSELECTED_0"
+SoundID "FRIGATE_PSIANTIMODULE_ONSELECTED_1"
+SoundID "FRIGATE_PSIANTIMODULE_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "FRIGATE_PSIANTIMODULE_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Frigate_PsiAntiModule"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_FrigatePsiAntiModule"
+ExplosionName "Frigate0"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_PSICAPITALSHIP"
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 2
+minShadow 0.000000
+maxShadow 0.400000
+allegianceDecreasePerRoundtrip 0.000000

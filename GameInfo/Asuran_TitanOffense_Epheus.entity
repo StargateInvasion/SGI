@@ -1,0 +1,253 @@
+﻿TXT
+entityType "Titan"
+ability:0 "Asuran_AbilityTitan_DroneFrenzy"
+ability:1 "Asuran_AbilityTitan_DeployLaserTurret"
+ability:2 "Asuran_AbilityTitan_MegaBeam"
+ability:3 "Asuran_AbilityTitan_MatterBridge"
+ability:4 "Asuran_AbilityTitanOffense_Epheus_Upkeep"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 90.000000
+basePopulationKilled 2.000000
+bombingFreqTime 10.000000
+baseRange 3000.000000
+bombTransitTime 4.000000
+bombEffectCount 2
+bombEffectAngleVariance 2.500000
+bombEffectsDef
+	weaponType "Beam"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_PhaseCapitalPlanetBombing_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound ""
+	hitEffectName "Weapon_PhaseCapitalPlanetBombing_Hit"
+	hitHullEffectSounds
+		soundCount 1
+		sound ""
+	hitShieldsEffectSounds
+		soundCount 1
+		sound ""
+	beamEffectSounds
+		soundCount 1
+		sound "WEAPON_PHASEPLANETBOMB_LOOP"
+	beamGlowTextureName "PhaseCapitalBombingBeam_Glow"
+	beamCoreTextureName "PhaseCapitalBombingBeam_Core"
+	beamWidth 30.000000
+	beamGlowColor ffffffff
+	beamCoreColor ffffffff
+	beamTilingRate 3.000000
+mainViewIcon "MAINVIEWICON_ASURAN_TITANOFFENSE_EPHEUS"
+basePrice
+	credits 15000.000000
+	metal 1900.000000
+	crystal 1200.000000
+slotCount 150.000000
+BuildTime 450.000000
+MaxHullPoints
+	StartValue 10000.180176
+	ValueIncreasePerLevel 436.406311
+MaxShieldPoints
+	StartValue 35000.819092
+	ValueIncreasePerLevel 506.531250
+HullPointRestoreRate
+	StartValue 2.700000
+	ValueIncreasePerLevel 0.330000
+ShieldPointRestoreRate
+	StartValue 4.300000
+	ValueIncreasePerLevel 0.950000
+ArmorPointsFromExperience
+	StartValue 9.500000
+	ValueIncreasePerLevel 0.510000
+maxMitigation
+	StartValue 0.450000
+	ValueIncreasePerLevel 0.011110
+MaxAntiMatter
+	StartValue 285.000000
+	ValueIncreasePerLevel 40.000000
+AntiMatterRestoreRate
+	StartValue 0.750000
+	ValueIncreasePerLevel 0.100000
+CultureProtectRate
+	StartValue 0.300000
+	ValueIncreasePerLevel 0.050000
+NameStringID "IDS_ASURAN_TITANOFFENSE_EPHEUS_NAME"
+DescriptionStringID "IDS_ASURAN_TITANOFFENSE_EPHEUS_DESCRIPTION"
+picture "TITANPICTURE_PHASEREBEL"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_TitanOffense_Epheus"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+statCountType "Titan"
+UpgradeTypeCount 7
+UpgradeType "Asuran_TitanUpgrade_Epheus_AbilityA"
+UpgradeType "Asuran_TitanUpgrade_Epheus_AbilityB"
+UpgradeType "Asuran_TitanUpgrade_Epheus_AbilityC"
+UpgradeType "Asuran_TitanUpgrade_Epheus_AbilityD"
+UpgradeType "Asuran_TitanUpgrade_Epheus_Durability"
+UpgradeType "Asuran_TitanUpgrade_Epheus_Weapons"
+UpgradeType "Asuran_TitanUpgrade_Epheus_Abilities"
+numRandomDebrisLarge 80
+numRandomDebrisSmall 30
+numSpecificDebris 1
+specificDebrisMeshName "DebrisPhaseCapitalShipBattleship"
+armorType "Titan"
+hudIcon "HUDICON_ASURAN_TITANOFFENSE_EPHEUS"
+smallHudIcon "HUDICONSMALL_ASURAN_TITANOFFENSE_EPHEUS"
+infoCardIcon "INFOCARDICON_ASURAN_TITANOFFENSE_EPHEUS"
+minZoomDistanceMult 1.650000
+NumWeapons 2
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "PHASEMISSILE"
+	DamagePerBank:FRONT 450.000000
+	DamagePerBank:BACK 450.000000
+	DamagePerBank:LEFT 450.000000
+	DamagePerBank:RIGHT 450.000000
+	Range 5500.000000
+	PreBuffCooldownTime 5.500000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.080000
+	TravelSpeed 900.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 10
+		burstDelay 0.100000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalMissileHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		missileTravelEffectName "Weapon_AsuranCapitalDroneUltra_Travel"
+		missileStartTurningDistance 30.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 3.000000
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "WAVE"
+	DamagePerBank:FRONT 75.000000
+	DamagePerBank:BACK 75.000000
+	DamagePerBank:LEFT 75.000000
+	DamagePerBank:RIGHT 75.000000
+	Range 5000.000000
+	PreBuffCooldownTime 5.500000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.300000
+	TravelSpeed 1200.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Human_Muzzle"
+		muzzleSoundMinRespawnTime 0.770000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE"
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT2"
+		hitEffectName "Weapon_HumanRailguns_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_AsuranCapitalLaserLight_Travel"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 4
+TargetCountPerBank:BACK 2
+TargetCountPerBank:LEFT 3
+TargetCountPerBank:RIGHT 3
+canOnlyTargetStructures FALSE
+mass 100000.000000
+ShieldMeshName "Asuran_Shield_TitanOffense_Epheus"
+renderShield TRUE
+maxAccelerationLinear 80.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 0.900000
+maxDecelerationAngular 9.999996
+maxSpeedLinear 450.000000
+maxRollRate 1.650000
+maxRollAngle 35.000000
+squadTypeEntityDef:0 "Asuran_SquadCombat_Jumper"
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 "Asuran_SquadBomber_Raptor"
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+NumSoundsFor:ONATTACKORDERISSUED 1
+SoundID "Asuran_TitanOffenceAttack"
+NumSoundsFor:ONCREATION 1
+SoundID "Asuran_TitanOffenceCreation"
+NumSoundsFor:ONGENERALORDERISSUED 1
+SoundID "Asuran_TitanOffenceGeneral"
+NumSoundsFor:ONSELECTED 1
+SoundID "Asuran_TitanOffenceSelection"
+NumSoundsFor:ONSTARTPHASEJUMP 3
+SoundID "Asuran_Hyperspace_engaging0"
+SoundID "Asuran_Hyperspace_engaging1"
+SoundID "Asuran_Hyperspace_engaging2"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Asuran_TitanOffense_Epheus"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_TechBattleship"
+ExplosionName "StarBase1"
+CommandPoints
+	StartValue 2.600000
+	ValueIncreasePerLevel 0.200000
+weaponCooldownDecreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.030000
+weaponDamageIncreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.050000
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_TECHCAPITALSHIP"
+formationRank 0
+minShadow 0.000000
+maxShadow 1.000000

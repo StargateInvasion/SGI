@@ -1,0 +1,171 @@
+TXT
+tabWindow
+	topLeftOffset [0, -20]
+	buttonTopLeftOffset [33, 97]
+	buttonSize [ 170 , 52 ]
+	buttonIndicatorArea [148, -2, 72, 52]
+	buttonIndicatorBackdrop "TabWindowButtonIndicatorBackdrop"
+	titleStringId "IDSSinglePlayerSetupScreenTitle"
+	titleFontId "TabbedScreenTitle"
+	titleArea [20, 40, 190, 40]	
+	titleOverlayArea [21, 33, 190, 40]
+	titleOverlay "TabWindowTitleOverlay"
+	buttonsBackdropArea [0, 0, 210, 808]
+	buttonsBackdropDetailArea [0, 0, 210, 749]
+	contentArea [230, 0, 814, 808]
+	buttonsBackdrop "TabWindowButtonBackdropFrontEnd"
+	buttonsBackdropDetail ""
+	contentBackdrop "TabWindowContentBackdropFrontEnd"
+	nonActiveButtonInternals
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 40
+		textOffsetFromLeft 50
+		underlay "TabButtonUnderlayNonActive"
+		overlay "TabButtonOverlayNonActive"						
+	activeButtonInternals
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 40
+		textOffsetFromLeft 50
+		underlay "TabButtonUnderlayActive"
+		overlay "TabButtonOverlayActive"						
+	closeButton
+		area [33, 724, 170 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 40
+		textOffsetFromLeft 50
+		underlay "TabButtonUnderlayNonActive"
+		overlay "TabButtonOverlayNonActive"				
+		icon "ScreenBackButton"
+		text "IDSSinglePlayerSetupScreenBackButton"
+newGame
+	tabButtonIcon "SinglePlayerSetupScreenNewGameTabButton"
+	tabButtonText "IDSSinglePlayerSetupScreenNewGameTabButton"
+	galaxySetupWindow
+		area [50, 100, 700, 700]
+	playNewGameButton
+		area [520, 700, 220 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "SinglePlayerSetupScreenPlayNewGameButton"
+		text "IDSSinglePlayerSetupScreenPlayNewGameButton"	
+loadSavedGame
+	tabButtonIcon "SinglePlayerSetupScreenLoadSavedGameTabButton"
+	tabButtonText "IDSSinglePlayerSetupScreenLoadSavedGameTabButton"
+	fileNameListLabel
+		area [50, 110 , 220, 30]
+		fontId "WindowSubTitle"
+	fileNameList
+		area [50 , 152 , 220, 510]
+		itemGap 3
+	selectGameSaveTypeWindow
+		area [50, 673, 220, 46]
+	loadButton
+		area [520, 672, 220 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "SinglePlayerSetupScreenLoadGameButton"
+		text "IDSSinglePlayerSetupScreenLoadGameButton"	
+	galaxyInfoWindow
+		area [285, 152, 455, 254]
+loadRecordedGame
+	tabButtonIcon "SinglePlayerSetupScreenLoadRecordedGameTabButton"
+	tabButtonText "IDSSinglePlayerSetupScreenLoadRecordedGameTabButton"
+	fileNameListLabel
+		area [50, 110, 220, 30]
+		fontId "WindowSubTitle"
+	fileNameList
+		area [50 ,152, 220, 510]
+		itemGap 3
+	selectGameSaveTypeWindow
+		area [50, 673, 220, 46]
+	loadButton
+		area [520, 672, 220 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "SinglePlayerSetupScreenWatchGameButton"
+		text "IDSSinglePlayerSetupScreenWatchGameButton"	
+	galaxyInfoWindow
+		area [285, 152, 455, 254]			
+tutorial
+	tabButtonIcon "SinglePlayerSetupScreenTutorialTabButton"
+	tabButtonText "IDSSinglePlayerSetupScreenTutorialTabButton"
+	titleLabel
+		area [50, 110, 220, 30]
+		fontId "WindowSubTitle"
+		text "IDSSinglePlayerSetupScreenTutorialTitle"
+	basicGameplayButton
+		area [50, 152, 220 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 32
+		textOffsetFromLeft 60
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "GalaxyTutorialTypeButtonBasicGameplay"
+		text "IDSGalaxyTutorialTypeButtonBasicGameplay"			
+	resourcingButton
+		area [50, 204, 220 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 32
+		textOffsetFromLeft 60
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "GalaxyTutorialTypeButtonResourcing"
+		text "IDSGalaxyTutorialTypeButtonResourcing"			
+	advancedInterfaceButton
+		area [50, 258, 220 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 32
+		textOffsetFromLeft 60
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"		
+		icon "GalaxyTutorialTypeButtonAdvancedInterface"
+		text "IDSGalaxyTutorialTypeButtonAdvancedInterface"			
+	advancedLogisticsButton
+		area [50, 310, 220 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 32
+		textOffsetFromLeft 60
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "GalaxyTutorialTypeButtonAdvancedResourcing"
+		text "IDSGalaxyTutorialTypeButtonAdvancedResourcing"
+	advancedDefenseButton
+		area [50, 364, 220 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 32
+		textOffsetFromLeft 60
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "GalaxyTutorialTypeButtonAdvancedDefense"
+		text "IDSGalaxyTutorialTypeButtonAdvancedDefense"
+	diplomacyButton
+		area [50, 416, 220 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 32
+		textOffsetFromLeft 60
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "GalaxyTutorialTypeButtonAdvancedDiplomacy"
+		text "IDSGalaxyTutorialTypeButtonDiplomacy"
+playerSetup
+	tabButtonIcon "SinglePlayerSetupScreenPlayerSetupTabButton"
+	tabButtonText "IDSSinglePlayerSetupScreenPlayerSetupTabButton"
+galaxyRandomizer
+	tabButtonIcon "SinglePlayerSetupScreenGalaxyRandomizerTabButton"
+	tabButtonText "IDSSinglePlayerSetupScreenGalaxyRandomizerTabButton"
+	galaxyRandomizerWindow
+		area [50, 48, 700, 700]
+achievements
+	tabButtonIcon "SinglePlayerSetupScreenAchievementsTabButton"
+	tabButtonText "IDSSinglePlayerSetupScreenAchievementsTabButton"
+	achievementsWindow
+		area [50, 48, 700, 700]

@@ -1,0 +1,53 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyArbitraryTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Asuran_BuffTitan_WormholeDriveSelf"
+range
+	Level:0 10000.000000
+	Level:1 16000.000000
+	Level:2 23000.000000
+	Level:3 30000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "Ability_MicroPhaseJump"
+	mediumEffectName "Ability_MicroPhaseJump"
+	largeEffectName "Ability_MicroPhaseJump"
+	soundID "EFFECT_MICROPHASEJUMP"
+needsToFaceTarget FALSE
+canCollideWithTarget FALSE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityCLevel"
+aiUseTime "OnlyWhenMovingThresholdDistance"
+thresholdDistance 9000.000000
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 150.000000
+	Level:1 130.000000
+	Level:2 110.000000
+	Level:3 90.000000
+cooldownTime
+	Level:0 60.000000
+	Level:1 50.000000
+	Level:2 40.000000
+	Level:3 30.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ASURAN_ABILITYTITAN_WORMHOLEDRIVE_NAME"
+descStringID "IDS_ASURAN_ABILITYTITAN_WORMHOLEDRIVE_DESCRIPTION"
+hudIcon "HUDICON_RESEARCHSUBJECT_HYPERSPACE_WORMHOLETRAVELPHASE"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_HYPERSPACE_WORMHOLETRAVELPHASE"
+infoCardIcon ""

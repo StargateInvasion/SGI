@@ -1,0 +1,108 @@
+﻿TXT
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn FALSE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault FALSE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Envoy"
+statCountType "FrigateEnvoy"
+mainViewIcon "HUDICONSMALL_FRIGATE_PSIENVOY"
+picture "PICTURE_FRIGATE_PSIENVOY"
+NameStringID ""
+DescriptionStringID ""
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
+basePrice
+	credits 550.000000
+	metal 70.000000
+	crystal 10.000000
+slotCount 4.000000
+BuildTime 63.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 4.000000
+MaxHullPoints 850.000000
+MaxShieldPoints 500.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 1.000000
+BaseArmorPoints 0.000000
+maxMitigation 0.600000
+Prerequisites
+    NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 4
+numSpecificDebris 0
+armorType "Light"
+hudIcon "HUDICON_FRIGATE_PSIENVOY"
+smallHudIcon "HUDICONSMALL_FRIGATE_PSIENVOY"
+infoCardIcon "INFOCARDICON_FRIGATE_PSIENVOY"
+minZoomDistanceMult 5.000000
+NumWeapons 0
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 0
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 10000.000000
+ShieldMeshName "Shield_PsiEnvoy"
+renderShield TRUE
+maxAccelerationLinear 340.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 13.000000
+maxDecelerationAngular 9.999996
+maxSpeedLinear 500.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 1
+SoundID "FRIGATE_PSIENVOY_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "FRIGATE_PSIENVOY_ONGENERALORDERISSUED_0"
+SoundID "FRIGATE_PSIENVOY_ONGENERALORDERISSUED_1"
+SoundID "FRIGATE_PSIENVOY_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "FRIGATE_PSIENVOY_ONSELECTED_0"
+SoundID "FRIGATE_PSIENVOY_ONSELECTED_1"
+SoundID "FRIGATE_PSIENVOY_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "FRIGATE_PSIENVOY_ONSTARTPHASEJUMP"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Frigate_PsiEnvoy"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_FrigateTechModuleConstructor"
+ExplosionName "Frigate1"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_TECHSUPPORTSHIP"
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 2
+minShadow 0.000000
+maxShadow 0.600000
+allegianceDecreasePerRoundtrip 0.050000

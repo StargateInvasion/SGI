@@ -1,0 +1,130 @@
+﻿TXT
+entityType "PlanetModuleWeaponDefense"
+minZoomDistanceMult 1.250000
+ability:0 "Asuran_AbilityOrbital_LagrangianBeam"
+ability:1 "Asuran_AbilityOrbital_LagrangianSatellite_ZPM"
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 500.000000
+AntiMatterRestoreRate 0.30000
+numRandomDebrisLarge 3
+numRandomDebrisSmall 18
+numSpecificDebris 0
+armorType "Module"
+hudIcon "HUDICON_ASURAN_ORBITAL_CANNON"
+smallHudIcon "HUDICONSMALL_ASURAN_ORBITAL_CANNON"
+infoCardIcon "INFOCARDICON_ASURAN_ORBITAL_CANNON"
+planetUpgradeSlotType "Tactical"
+planetUpgradeSlotCount 4.000000
+basePrice
+	credits 2000.000000
+	metal 600.000000
+	crystal 500.000000
+NameStringID "IDS_ASURAN_ORBITAL_CANNON_NAME"
+DescriptionStringID "IDS_ASURAN_ORBITAL_CANNON_DESCRIPTION"
+planetModuleRoleType "WEAPONDEFENSE"
+statCountType "ModulePointDefense"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_Orbital_Cannon"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MaxHullPoints 4000.000000
+HullPointRestoreRate 2.000000
+BaseArmorPoints 5.000000
+MaxShieldPoints 0.000000
+ShieldPointRestoreRate 0.000000
+maxShieldMitigation 0.000000
+ExperiencePointsForDestroying 150.000000
+resourceExtractionType "Invalid"
+cultureSpreadRate 0.000000
+isAffectedBySimilarModuleCostResearch FALSE
+placementRadius 2350.000000
+nearPlacementDistOffset 0.000000
+farPlacementDistOffset 9000.000000
+spawnCount 1
+swapMineType ""
+angularSpeed 1.000000
+rotateSoundName "WEAPON_PHASEORBITALCANNONROTATE_LOOP"
+rotateFacingType "None"
+rotateConstantly FALSE
+ShieldMeshName "Asuran_Shield_Orbital_LagrangianSatellite"
+renderShield TRUE
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 0
+NumSoundsFor:ONSELECTED 1
+SoundID "PLANETMODULE_PHASEORBITALCANNON_ONSELECTION_0"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Asuran_Orbital_LagrangianSatellite"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExplosionName "PlanetModuleLarge"
+mainViewIcon "MAINVIEWICON_ASURAN_ORBITAL_CANNON"
+picture "PLANETMODULEPICTURE_PHASEORBITALCANNON"
+minShadow 0.000000
+maxShadow 1.000000
+formationRank 3
+baseBuildTime 150.000000
+buildEffectName ""
+defaultAutoAttackRange "None"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+NumWeapons 1
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "PHASEMISSILE"
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 13000.000000
+	PreBuffCooldownTime 5.50000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.080000
+	TravelSpeed 1000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 10
+		burstDelay 0.300000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalMissileHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		missileTravelEffectName "Weapon_AsuranCapitalDroneUltra_Travel"
+		missileStartTurningDistance 30.000000
+		missileSlowTurnRate 1.708997
+		missileMaxSlowTurnTime 6.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 0
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+

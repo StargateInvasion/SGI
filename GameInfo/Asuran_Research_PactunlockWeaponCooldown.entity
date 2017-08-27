@@ -1,0 +1,42 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_PACTUNLOCK_WEAPONCOOLDOWN"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_PACTUNLOCK_WEAPONCOOLDOWN"
+infoCardIcon ""
+NameStringID "IDS_ASURAN_RESEARCH_PACTUNLOCKWEAPONCOOLDOWN_NAME"
+DescriptionStringID "IDS_ASURAN_RESEARCH_PACTUNLOCKWEAPONCOOLDOWN_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 7 , 2 ]
+ResearchField "Diplomacy"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_PactunlockEnergyWeaponCooldown"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 120.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1800.000000
+	metal 350.000000
+	crystal 550.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 0.000000
+	crystal 25.000000
+Tier 7
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 1
+researchModifier
+	modifierType "UnlockPact"
+	allianceType "WeaponCooldownPact"
+	pactUnlockEntityDefName "RESEARCHSUBJECT_PACTBONUS_WEAPONCOOLDOWN"
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

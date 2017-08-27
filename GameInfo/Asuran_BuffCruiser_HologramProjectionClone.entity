@@ -1,0 +1,18 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusivePerPlayer"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 3
+entityBoolModifier "IsIllusionShip"
+entityBoolModifier "WeaponsDealNoDamage"
+entityBoolModifier "DisableAbilities"
+numFinishConditions 0

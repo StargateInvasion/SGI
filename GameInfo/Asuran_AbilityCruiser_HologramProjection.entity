@@ -1,0 +1,51 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Asuran_BuffCruiser_HologramProjectionSelf"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "Ability_IllusionSelfCopyActivate"
+	mediumEffectName "Ability_IllusionSelfCopyActivate"
+	largeEffectName "Ability_IllusionSelfCopyActivate"
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 0.000000
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 125.000000
+	Level:1 110.000000
+	Level:2 100.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 160.000000
+	Level:1 150.000000
+	Level:2 140.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ASURAN_ABILITYCRUISER_HOLOGRAMPROJECTION_NAME"
+descStringID "IDS_ASURAN_ABILITYCRUISER_HOLOGRAMPROJECTION_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_ILLUSIONSELFCOPY"
+smallHudIcon "HUDICON_ABILITY_ILLUSIONSELFCOPY"
+infoCardIcon ""

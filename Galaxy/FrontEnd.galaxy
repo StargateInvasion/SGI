@@ -1,0 +1,86 @@
+TXT
+versionNumber 5
+isBrowsable FALSE
+browsePictureName ""
+browseName ""
+browseDescription ""
+isFirstCapitalShipIsFlagship FALSE
+randomizeStartingPositions TRUE
+planetArtifactDensity 0.35
+planetBonusDensity 0.60
+normalStartHomePlanetUpgradeLevel:Population 3
+normalStartHomePlanetUpgradeLevel:CivilianModules 1
+normalStartHomePlanetUpgradeLevel:TacticalModules 0
+normalStartHomePlanetUpgradeLevel:Home 1
+normalStartHomePlanetUpgradeLevel:ArtifactLevel 10
+normalStartHomePlanetUpgradeLevel:Infrastructure 2
+quickStartHomePlanetUpgradeLevel:Population 4
+quickStartHomePlanetUpgradeLevel:CivilianModules 1
+quickStartHomePlanetUpgradeLevel:TacticalModules 0
+quickStartHomePlanetUpgradeLevel:Home 1
+quickStartHomePlanetUpgradeLevel:ArtifactLevel 10
+quickStartHomePlanetUpgradeLevel:Infrastructure 2
+recommendedGameTypeCount 1
+recommendedGameType "FFA"
+metersPerGalaxyUnit 20000.000000
+pixelsPerGalaxyUnit 1
+useRandomGenerator TRUE
+randomizerParams
+	starPosOffsetRange
+		minPercentage 1.5
+		maxPercentage 2.0
+	playerParams
+		startingCredits 3000
+		startingMetal 800
+		startingCrystal 250	
+		homePlanetType ""
+		homePlanetStarRadiusRange
+			minPercentage 1
+			maxPercentage 1			
+		areExtraPlanetsColonized FALSE
+		extraPlanetsMaxRadius 10
+		extraPlanetsRadiusRange
+			minPercentage 1
+			maxPercentage 1
+		extraPlanetGroupCount 0
+starCount 1
+	star
+		type "RandomNonGreenStar"
+		radius 75
+		connectionStarRadiusRange .5
+		connectionChance .75
+		maxPlayerCount 0
+		ringCount 3
+		ring
+			starRadiusRange
+				minPercentage 0.5
+				maxPercentage 0.7
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 7
+				maxCount 7
+				planetTypeCount 1
+				planetType "RandomTrue"
+		ring
+			starRadiusRange
+				minPercentage 0.2
+				maxPercentage 0.4
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 7
+				maxCount 7
+				planetTypeCount 1
+				planetType "RandomTrue"
+		ring
+			starRadiusRange
+				minPercentage 0.7
+				maxPercentage 1.0
+			militiaColonizationPerc 0
+			planetGroupCount 1
+			planetGroup
+				minCount 7
+				maxCount 7
+				planetTypeCount 1
+				planetType "RandomTrue"								

@@ -1,0 +1,45 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "CreateFrigate"
+	instantActionTriggerType "OnDelay"
+	delayTime 1.500000
+	frigateType "Asuran_FrigateAntiFighter_Ogen"
+	numFrigates
+		Level:0 1.000000
+		Level:1 2.000000
+		Level:2 3.000000
+		Level:3 3.000000
+	matchOwnerDamageState TRUE
+	impulse 1000000.000000
+	expiryTime
+		Level:0 60.000000
+		Level:1 85.000000
+		Level:2 110.000000
+		Level:3 0.000000
+	spawnFrigateSoundID ""
+	postSpawnBuff ""
+instantAction
+	buffInstantActionType "ForceAttackersToRepickAttackTarget"
+	instantActionTriggerType "OnDelay"
+	delayTime 1.600000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 5.000000
+		Level:1 7.000000
+		Level:2 9.000000
+		Level:3 0.000000

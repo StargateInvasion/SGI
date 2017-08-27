@@ -1,0 +1,47 @@
+TXT
+tabWindow
+	topLeftOffset [80, 39]
+	contentSize [814 , 749 ]
+	buttonSize [150, 30]
+	buttonIconArea [10, 0, 30, 30]
+	buttonTextArea [50, 0, 100, 30]
+	closeButton
+		area [0, 694, 150, 30]
+		icon "ScreenBackButton"
+		text "IDSMultiPlayerSetupScreenBackButton"
+	closeButtonDef
+		iconArea [10, 0, 30, 30]
+		textArea [50, 0, 100, 30]	
+sharedScreenButtonDef
+	iconArea [10, 0, 30, 30]
+	textArea [50, 0, 100, 30]	
+sharedScreenTextEntryDef
+	fontId "TextEntry"
+sharedScreenLabelDef
+	fontId "Label"
+newGameContentWindow
+	tabButtonIcon "MultiPlayerSetupScreenNewGameTabButton"
+	tabButtonText "IDSMultiPlayerSetupScreenNewGameTabButton"
+	gameNameAndPasswordEntryWindow
+		area [5, 5, 500, 30]
+		gameNameLabel
+			area [0, 0, 100, 30]
+			text "IDSGameNameAndPasswordEntryGameNameLabel"
+		gameNameTextEntry
+			area [110, 0, 100, 30]
+		gamePasswordLabel
+			area [230, 0, 100, 30]
+			text "IDSGameNameAndPasswordEntryGamePasswordLabel"
+		gamePasswordTextEntry
+			area [340, 0, 100, 30]
+	galaxySetupWindow
+		area [5, 55, 500, 500]
+		scenerioListArea [100, 100, 250, 400]
+		scenerioInfoArea [390, 300, 200, 200]
+		lockTeamsButtonArea [400, 100, 150, 30]
+		gameSpeedButtonArea [400, 135, 150, 30]
+	playNewGameButton
+		area [600, 650, 150, 30]
+		icon "MultiPlayerSetupScreenPlayNewGameButton"
+		text "IDSMultiPlayerSetupScreenPlayNewGameButton"	
+			

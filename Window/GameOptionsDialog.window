@@ -1,0 +1,213 @@
+TXT
+backdropDimPercentage 0.7
+backdropBrush "GameOptionsScreenBackdrop"
+titleOverlayBrush "GameOptionsScreenTitleOverlay"
+size [693 , 645]
+contentRefArea [90, 100, 508, 335]
+titleRefArea [90, 40, 508, 30]
+titleOverlayRefArea [0, 0, 693, 90]
+acceptButton
+	area [347, 548, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"		
+	icon "DialogScreenAcceptButton"
+	text "IDS_DIALOGWINDOW_ACCEPTBUTTON"
+titleStringId "IDSGameOptionsDialogTitle"
+areTeamsLockedButton
+	area [25, 16, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	true
+		icon "GameOptionsAreTeamsLockedTrue"
+		text "IDSGameOptionsAreTeamsLockedTrue"
+	false
+		icon "GameOptionsAreTeamsLockedFalse"
+		text "IDSGameOptionsAreTeamsLockedFalse"
+arePiratesActiveButton
+	area [25, 120, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	true
+		icon "GameOptionsArePiratesActiveTrue"
+		text "IDSGameOptionsArePiratesActiveTrue"
+	false
+		icon "GameOptionsArePiratesActiveFalse"
+		text "IDSGameOptionsArePiratesActiveFalse"
+areOutlawSectorsActiveButton
+	area [25, 172, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	true
+		icon "GameOptionsAreOutlawSectorsActiveTrue"
+		text "IDSGameOptionsAreOutlawSectorsActiveTrue"
+	false
+		icon "GameOptionsAreOutlawSectorsActiveFalse"
+		text "IDSGameOptionsAreOutlawSectorsActiveFalse"
+useQuickStartButton
+	area [25, 224, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	true
+		icon "GameOptionsUseQuickStartTrue"
+		text "IDSGameOptionsUseQuickStartTrue"
+	false
+		icon "GameOptionsUseQuickStartFalse"
+		text "IDSGameOptionsUseQuickStartFalse"
+randomEventsEnabledButton
+	area [25, 276, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	true
+		icon "GameOptionsUseQuickStartTrue"
+		text "IDSGameOptionsAreRandomEventsEnabledTrue"
+	false
+		icon "GameOptionsUseQuickStartFalse"
+		text "IDSGameOptionsAreRandomEventsEnabledFalse"
+buildSpeedButton
+	area [257, 68, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	Slow
+		icon "GameOptionsBuildSpeedSlow"
+		text "IDSGameOptionsBuildSpeedSlow"
+	Normal
+		icon "GameOptionsBuildSpeedNormal"
+		text "IDSGameOptionsBuildSpeedNormal"
+	Fast
+		icon "GameOptionsBuildSpeedFast"
+		text "IDSGameOptionsBuildSpeedFast"
+	Faster
+		icon "GameOptionsBuildSpeedFaster"
+		text "IDSGameOptionsBuildSpeedFaster"
+cultureSpeedButton
+	area [257, 224, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	Slow
+		icon "GameOptionsCultureSpeedSlow"
+		text "IDSGameOptionsCultureSpeedSlow"
+	Normal
+		icon "GameOptionsCultureSpeedNormal"
+		text "IDSGameOptionsCultureSpeedNormal"
+	Fast
+		icon "GameOptionsCultureSpeedFast"
+		text "IDSGameOptionsCultureSpeedFast"
+	Faster
+		icon "GameOptionsCultureSpeedFaster"
+		text "IDSGameOptionsCultureSpeedFaster"
+researchSpeedButton
+	area [257, 172, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	Slow
+		icon "GameOptionsResearchSpeedSlow"
+		text "IDSGameOptionsResearchSpeedSlow"
+	Normal
+		icon "GameOptionsResearchSpeedNormal"
+		text "IDSGameOptionsResearchSpeedNormal"
+	Fast
+		icon "GameOptionsResearchSpeedFast"
+		text "IDSGameOptionsResearchSpeedFast"
+	Faster
+		icon "GameOptionsResearchSpeedFaster"
+		text "IDSGameOptionsResearchSpeedFaster"
+incomeSpeedButton
+	area [257, 16, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	Slow
+		icon "GameOptionsIncomeSpeedSlow"
+		text "IDSGameOptionsIncomeSpeedSlow"
+	Normal
+		icon "GameOptionsIncomeSpeedNormal"
+		text "IDSGameOptionsIncomeSpeedNormal"
+	Fast
+		icon "GameOptionsIncomeSpeedFast"
+		text "IDSGameOptionsIncomeSpeedFast"
+	Faster
+		icon "GameOptionsIncomeSpeedFaster"
+		text "IDSGameOptionsIncomeSpeedFaster"
+shipPhysicsSpeedButton
+	area [257, 120, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	Slow
+		icon "GameOptionsShipPhysicsSpeedSlow"
+		text "IDSGameOptionsShipPhysicsSpeedSlow"
+	Normal
+		icon "GameOptionsShipPhysicsSpeedNormal"
+		text "IDSGameOptionsShipPhysicsSpeedNormal"
+	Fast
+		icon "GameOptionsShipPhysicsSpeedFast"
+		text "IDSGameOptionsShipPhysicsSpeedFast"
+	Faster
+		icon "GameOptionsShipPhysicsSpeedFaster"
+		text "IDSGameOptionsShipPhysicsSpeedFaster"
+fleetSupplyScalarButton
+	area [25, 68, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	Small
+		icon "GameOptionsFleetSupplyScalarSmall"
+		text "IDSGameOptionsFleetSupplyScalarSmall"
+	Normal
+		icon "GameOptionsFleetSupplyScalarNormal"
+		text "IDSGameOptionsFleetSupplyScalarNormal"
+	Large
+		icon "GameOptionsFleetSupplyScalarLarge"
+		text "IDSGameOptionsFleetSupplyScalarLarge"		
+victorySpeedButton
+	area [257, 276, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	Slow
+		icon "GameOptionsVictorySpeedSlow"
+		text "IDSGameOptionsVictorySpeedSlow"
+	Normal
+		icon "GameOptionsVictorySpeedNormal"
+		text "IDSGameOptionsVictorySpeedNormal"
+	Fast
+		icon "GameOptionsVictorySpeedFast"
+		text "IDSGameOptionsVictorySpeedFast"
+	Faster
+		icon "GameOptionsVictorySpeedFaster"
+		text "IDSGameOptionsVictorySpeedFaster"

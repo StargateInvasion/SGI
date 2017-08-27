@@ -1,0 +1,90 @@
+﻿TXT
+entityType "Fighter"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+numRandomDebrisLarge 0
+numRandomDebrisSmall 0
+numSpecificDebris 0
+armorType "VeryLight"
+hudIcon "HUDICON_ASURAN_FIGHTERSQUAD_JUMPER"
+smallHudIcon "HUDICONSMALL_ASURAN_FIGHTERSQUAD_JUMPER"
+infoCardIcon "INFOCARDICON_ASURAN_FIGHTERSQUAD_JUMPER"
+minZoomDistanceMult 7.000000
+nameStringID "IDS_ASURAN_FIGHTERCOMBAT_JUMPER_NAME"
+counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_COMBAT"
+statCountType "FighterCombat"
+formationOffsetDistance 50.000000
+mass 100.000000
+maxAccelerationLinear 200.000000
+maxAccelerationStrafe 100.000000
+maxDecelerationLinear 1400.000000
+maxAccelerationAngular 49.999992
+maxDecelerationAngular 165.999985
+maxSpeedLinear 2300.000000
+maxRollRate 50.000000
+maxRollAngle 165.000000
+NumWeapons 1
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTILIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "PHASEMISSILE"
+	DamagePerBank:FRONT 45.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 2400.000000
+	PreBuffCooldownTime 11.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.200000
+	TravelSpeed 1750.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 3
+		burstDelay 0.005000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_TechSupportMissileLight_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_TECHSUPPORTMISSILELIGHT_MUZZLE"
+			sound "WEAPON_TECHSUPPORTMISSILELIGHT_MUZZLE_ALT1"
+		hitEffectName "Weapon_TechSupportMissileLight_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_MISSILELIGHT_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_MISSILELIGHT_HITGENERIC"
+		missileTravelEffectName "Weapon_AsuranCapitalDroneLight_Travel"
+		missileStartTurningDistance 10.000000
+		missileSlowTurnRate 3.141593
+		missileMaxSlowTurnTime 1.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+meshName "Asuran_FighterCombat_Jumper"
+exhaustParticleSystemName "ExhaustSmall"
+ExplosionName "Fighter0"
+exhaustTrailTextureName "ExhaustTrail"
+exhaustTrailWidth 2.000000
+engineSoundID "ENGINE_PHASESUPPORTSHIP"
+maxHullPoints 90.000000
+hullPointRestoreRate 1.000000
+armorPoints 3.000000
+maxMitigation 0.000000
+experiencePointsForDestroying 5.000000
+minShadow 0.000000
+maxShadow 0.500000

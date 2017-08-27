@@ -1,0 +1,54 @@
+TXT
+picturePreviewWindow
+	area [5, 235, 784 , 589]
+	backdrop "PlayerSetupPicturePreviewWindowBackdrop"
+	overlay "PlayerSetupPicturePreviewWindowOverlay"
+	racePictureArea-0 [63, 22, 195 , 219]
+	racePictureArea-1 [296, 22, 195 , 219]
+	racePictureArea-2 [529, 22, 195 , 219]
+changeNameButton
+	area [60, 125, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"		
+	icon "PlayerSetupChangeNameButton"
+	text "IDSPlayerSetupChangeNameButton"	
+changeThemeButton
+	area [58, 180, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"		
+	icon "PlayerSetupChangeThemeButton"
+	text "IDSPlayerSetupChangeThemeButton"
+changePictureButton
+	area [540, 180, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"		
+	icon "PlayerSetupChangePictureButton"
+	text "IDSPlayerSetupChangePictureButton"
+bigNameAndIconWindow
+	area [50, 133, 410, 100
+	iconBackdropArea [215, -188, 268 , 311 ]
+	iconArea [296, -103, 106, 106]
+	nameArea [0, -108, 300, 106]
+	nameFont "TabbedScreenTitle"
+	iconBackdropDefCount 3
+	iconBackdropDef
+		backdropBrush "PlayerSetupThemeBackdropTech"
+		themeIndexStart 28
+		themeIndexStop 41	
+	iconBackdropDef
+		backdropBrush "PlayerSetupThemeBackdropPsi"
+		themeIndexStart 0
+		themeIndexStop 13	
+	iconBackdropDef
+		backdropBrush "PlayerSetupThemeBackdropPhase"
+		themeIndexStart 14
+		themeIndexStop 27

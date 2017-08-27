@@ -1,0 +1,1026 @@
+TXT
+GameplayConstants
+	pingTime 10
+	zoomDistanceLevel0ScalarForPlanets 1.5
+	zoomDistanceLevel0ScalarForNonPlanets 5.0
+	zoomDistanceLevel0 1000
+	zoomDistanceLevel1 65000
+	zoomDistanceLevel2 4000000
+	nearFarThreshold 180000
+	baseHyperspaceRange 1000000.0
+	jumpAngle 45
+	timeForPeaceTreatyCooldown 100
+	defaultGravWellColor FFFFFFFF
+	phaseLaneWidth 2.2
+	unexploredPhaseLaneWidth 0.5
+	gravWellThickness 1.0
+	cannonsPerGravityWellRatio 1
+	cannonGravityWellRatioDenominator 4
+	preferNewAssetsGameCountThreshold 5
+	EconomyData
+		DefaultSalvageRefundPercent 0.30
+		bountyPerExperiencePointMin 6
+		bountyPerExperiencePointMax 41
+		bountyThresholdMin 3000
+		bountyThresholdMax 63000
+		percOfBuildTimeForScuttleTime .5
+		buildCountSmallPerButtonPress 1
+		buildCountLargePerButtonPress 5
+		minTimeBetweenResourcePickUps 90.0
+	PlanetData
+		allegiancePassiveGainRate 0.000347222
+		allegiancePassiveLossRate -0.000347222
+		allegianceFriendlyMaxGainRate 0.000694444
+		allegianceEnemyMaxLossRate -0.000694444
+		allegianceGainFromCultureMax 0.1
+		startingPopulationPercOfMax 0.5
+		healthOnColonize 200.0
+		healthRegenRatePercWhenBombed .000
+		considerBeingBombedTimeForHealthRegen 20
+		considerBeingBombedTimeForPopulationGrowth 240
+		populationGrowthPercWhenBombed 0.50
+		moduleConstructorRespawnTime 30
+		moduleConstructorRespawnTimeWithEnemies 300
+		baseTaxRatePerPopulation 0.025
+		planetBaseAllegianceAtDistanceCount 11
+		allegiance 1.00
+		allegiance 0.90
+		allegiance 0.80
+		allegiance 0.70
+		allegiance 0.55
+		allegiance 0.40
+		allegiance 0.35
+		allegiance 0.30
+		allegiance 0.25
+		allegiance 0.25
+		allegiance 0.25
+		planetCultureTakeOverPercWarning 0.15
+		experienceGainedForDestroying 400.0
+		scuttleTime 60.0
+		stripTime 9.1
+	CapitalShipData
+		ExperienceLevelData:0
+			ExperienceNeededForNextLevel 200.0
+			ExperienceGainedForDestroying 100.0
+			UpgradePriceForNextLevel 1250.0
+		ExperienceLevelData:1
+			ExperienceNeededForNextLevel 500.0
+			ExperienceGainedForDestroying 120.0
+			UpgradePriceForNextLevel 1500.0
+		ExperienceLevelData:2
+			ExperienceNeededForNextLevel 900.0
+			ExperienceGainedForDestroying 150.0
+			UpgradePriceForNextLevel 1750.0
+		ExperienceLevelData:3
+			ExperienceNeededForNextLevel 1500.0
+			ExperienceGainedForDestroying 190.0
+			UpgradePriceForNextLevel 2000.0
+		ExperienceLevelData:4
+			ExperienceNeededForNextLevel 2300.0
+			ExperienceGainedForDestroying 240.0
+			UpgradePriceForNextLevel 4000.0
+		ExperienceLevelData:5
+			ExperienceNeededForNextLevel 3300.0
+			ExperienceGainedForDestroying 300.0
+			UpgradePriceForNextLevel 2400.0
+		ExperienceLevelData:6
+			ExperienceNeededForNextLevel 4500.0
+			ExperienceGainedForDestroying 370.0
+			UpgradePriceForNextLevel 2600.0
+		ExperienceLevelData:7
+			ExperienceNeededForNextLevel 6000.0
+			ExperienceGainedForDestroying 450.0
+			UpgradePriceForNextLevel 2800.0
+		ExperienceLevelData:8
+			ExperienceNeededForNextLevel 7800.0
+			ExperienceGainedForDestroying 540.0
+			UpgradePriceForNextLevel 3000.0
+		ExperienceLevelData:9
+			ExperienceNeededForNextLevel 0.0
+			ExperienceGainedForDestroying 640.0
+			UpgradePriceForNextLevel 0.0
+		LevelUpEffectName "CapitalShip_LevelUp"
+		LevelUpEffectSoundID "CAPITALSHIP_LEVELUP"
+		PurchaseNextLevelTime 90
+	TitanData
+		ExperienceLevelData:0
+			ExperienceNeededForNextLevel 500.0
+			ExperienceGainedForDestroying 350.0
+		ExperienceLevelData:1
+			ExperienceNeededForNextLevel 1250.0
+			ExperienceGainedForDestroying 420.0
+		ExperienceLevelData:2
+			ExperienceNeededForNextLevel 2250.0
+			ExperienceGainedForDestroying 525.0
+		ExperienceLevelData:3
+			ExperienceNeededForNextLevel 3750.0
+			ExperienceGainedForDestroying 665.0
+		ExperienceLevelData:4
+			ExperienceNeededForNextLevel 5750.0
+			ExperienceGainedForDestroying 840.0
+		ExperienceLevelData:5
+			ExperienceNeededForNextLevel 8250.0
+			ExperienceGainedForDestroying 1050.0
+		ExperienceLevelData:6
+			ExperienceNeededForNextLevel 11250.0
+			ExperienceGainedForDestroying 1295.0
+		ExperienceLevelData:7
+			ExperienceNeededForNextLevel 15000.0
+			ExperienceGainedForDestroying 1575.0
+		ExperienceLevelData:8
+			ExperienceNeededForNextLevel 19500.0
+			ExperienceGainedForDestroying 1890.0
+		ExperienceLevelData:9
+			ExperienceNeededForNextLevel 0.0
+			ExperienceGainedForDestroying 2240.0
+		LevelUpEffectName "Titan_LevelUp"
+		LevelUpEffectSoundID "CAPITALSHIP_LEVELUP"
+		AdditionalPriceModifierPerLevel 0.10
+		AdditionalBuildTimeModifierPerLevel 0.10
+	cultureData
+		minPropagatedCultureRate 0.005
+		culturePropagationPerc .5
+		cultureDecayRate -0.4
+		neutralOrbitBodyCultureRepelRateMultiplier 0.5
+		enemyOrbitBodyCultureRepelRateMultiplier 0.0
+	effectData
+		pingEffect "ping"
+		rallyPointEffect "rallypoint"
+	OrbitBodyData
+		MinStarToPlanetGravityDistance 270000.0
+		MinInterPlanetGravityDistance 50000.0
+		MaxInterPlanetGravityDistance 100000.0
+	StarBaseData
+		friendlyOrbitBodyBuildTimeScalar 1.0
+		neutralOrbitBodyBuildTimeScalar 1.5
+		enemyOrbitBodyBuildTimeScalar 2.25
+	DamageData
+		ChanceToHitTargetType:ANTIVERYLIGHT
+			CAPITALSHIP 1.00000
+			INTERCEPTOR 0.750000
+			BOMBER 0.750000
+		ChanceToHitTargetType:ANTILIGHT
+			CAPITALSHIP 1.00000
+			INTERCEPTOR 0.650000
+			BOMBER 0.75
+		ChanceToHitTargetType:ANTIMEDIUM
+			CAPITALSHIP 1.00000
+			INTERCEPTOR 0.1000000
+			BOMBER 0.1000000
+		ChanceToHitTargetType:ANTIHEAVY
+			CAPITALSHIP 1.00000
+			INTERCEPTOR 0.100
+			BOMBER 0.100000
+		ChanceToHitTargetType:ANTIVERYHEAVY
+			CAPITALSHIP 1.00000
+			INTERCEPTOR 0.100
+			BOMBER 0.200000
+		ChanceToHitTargetType:ANTIMODULE
+			CAPITALSHIP 1.00000
+			INTERCEPTOR 0.100
+			BOMBER 0.100000
+		ChanceToHitTargetType:COMPOSITE
+			CAPITALSHIP 1.00000
+			INTERCEPTOR 0.100
+			BOMBER 0.100000
+		ChanceToHitTargetType:CAPITALSHIP
+			CAPITALSHIP 1.00000
+			INTERCEPTOR 0.100
+			BOMBER 0.100000
+		ChanceToHitTargetType:CAPITALABILITY
+			CAPITALSHIP 1.000000
+			INTERCEPTOR 1.000000
+			BOMBER 1.000000
+		ChanceToHitTargetType:TITAN
+			CAPITALSHIP 1.000000
+			INTERCEPTOR 0.100000
+			BOMBER 0.100000
+		ChanceToHitTargetType:CORVETTE
+			CAPITALSHIP 1.000000
+			INTERCEPTOR 0.650000
+			BOMBER 0.750000
+		DamagePercentBonus:ANTIVERYLIGHT:CapitalShip 0.5
+		DamagePercentBonus:ANTIVERYLIGHT:VeryLight 1.33333
+		DamagePercentBonus:ANTIVERYLIGHT:Light 0.75
+		DamagePercentBonus:ANTIVERYLIGHT:Medium 0.5
+		DamagePercentBonus:ANTIVERYLIGHT:Heavy 0.5
+		DamagePercentBonus:ANTIVERYLIGHT:VeryHeavy 0.5
+		DamagePercentBonus:ANTIVERYLIGHT:Module 0.35
+		DamagePercentBonus:ANTIVERYLIGHT:Pirate 0.25
+		DamagePercentBonus:ANTIVERYLIGHT:Titan 0.45	
+		DamagePercentBonus:ANTILIGHT:CapitalShip 0.5
+		DamagePercentBonus:ANTILIGHT:VeryLight 1.0
+		DamagePercentBonus:ANTILIGHT:Light 2.0
+		DamagePercentBonus:ANTILIGHT:Medium 0.5
+		DamagePercentBonus:ANTILIGHT:Heavy 0.5
+		DamagePercentBonus:ANTILIGHT:VeryHeavy 0.5
+		DamagePercentBonus:ANTILIGHT:Module 0.35
+		DamagePercentBonus:ANTILIGHT:Pirate 0.50		
+		DamagePercentBonus:ANTILIGHT:Titan 0.45		
+		DamagePercentBonus:ANTIMEDIUM:CapitalShip 0.75
+		DamagePercentBonus:ANTIMEDIUM:VeryLight 1.0
+		DamagePercentBonus:ANTIMEDIUM:Light 1.0
+		DamagePercentBonus:ANTIMEDIUM:Medium 1.5
+		DamagePercentBonus:ANTIMEDIUM:Heavy 0.75
+		DamagePercentBonus:ANTIMEDIUM:VeryHeavy 0.75
+		DamagePercentBonus:ANTIMEDIUM:Module 0.50	
+		DamagePercentBonus:ANTIMEDIUM:Pirate 0.65	
+		DamagePercentBonus:ANTIMEDIUM:Titan 0.70	
+		DamagePercentBonus:ANTIHEAVY:CapitalShip 0.5
+		DamagePercentBonus:ANTIHEAVY:VeryLight 1.0
+		DamagePercentBonus:ANTIHEAVY:Light 0.75
+		DamagePercentBonus:ANTIHEAVY:Medium 1.0
+		DamagePercentBonus:ANTIHEAVY:Heavy 1.5
+		DamagePercentBonus:ANTIHEAVY:VeryHeavy 0.5
+		DamagePercentBonus:ANTIHEAVY:Module 0.5
+		DamagePercentBonus:ANTIHEAVY:Pirate 0.60
+		DamagePercentBonus:ANTIHEAVY:Titan 0.45	
+		DamagePercentBonus:ANTIVERYHEAVY:CapitalShip 0.6
+		DamagePercentBonus:ANTIVERYHEAVY:VeryLight 0.5
+		DamagePercentBonus:ANTIVERYHEAVY:Light 0.5
+		DamagePercentBonus:ANTIVERYHEAVY:Medium 0.5
+		DamagePercentBonus:ANTIVERYHEAVY:Heavy 0.5
+		DamagePercentBonus:ANTIVERYHEAVY:VeryHeavy 1.0
+		DamagePercentBonus:ANTIVERYHEAVY:Module 0.65
+		DamagePercentBonus:ANTIVERYHEAVY:Pirate 0.50
+		DamagePercentBonus:ANTIVERYHEAVY:Titan 0.55	
+		DamagePercentBonus:ANTIMODULE:CapitalShip 1.0
+		DamagePercentBonus:ANTIMODULE:VeryLight 0.25
+		DamagePercentBonus:ANTIMODULE:Light 0.25
+		DamagePercentBonus:ANTIMODULE:Medium 0.5
+		DamagePercentBonus:ANTIMODULE:Heavy 0.75
+		DamagePercentBonus:ANTIMODULE:VeryHeavy 1.0
+		DamagePercentBonus:ANTIMODULE:Module 2.0
+		DamagePercentBonus:ANTIMODULE:Pirate 0.30
+		DamagePercentBonus:ANTIMODULE:Titan 1.0	
+		DamagePercentBonus:COMPOSITE:CapitalShip 0.75
+		DamagePercentBonus:COMPOSITE:VeryLight 1.0
+		DamagePercentBonus:COMPOSITE:Light 1.5
+		DamagePercentBonus:COMPOSITE:Medium 1.25
+		DamagePercentBonus:COMPOSITE:Heavy 1.0
+		DamagePercentBonus:COMPOSITE:VeryHeavy 1.0
+		DamagePercentBonus:COMPOSITE:Module 0.75
+		DamagePercentBonus:COMPOSITE:Pirate 1.2
+		DamagePercentBonus:COMPOSITE:Titan 0.70
+		DamagePercentBonus:CAPITALSHIP:CapitalShip 1.0
+		DamagePercentBonus:CAPITALSHIP:VeryLight 0.25
+		DamagePercentBonus:CAPITALSHIP:Light 0.75
+		DamagePercentBonus:CAPITALSHIP:Medium 1.0
+		DamagePercentBonus:CAPITALSHIP:Heavy 1.0
+		DamagePercentBonus:CAPITALSHIP:VeryHeavy 1.0
+		DamagePercentBonus:CAPITALSHIP:Module 0.75
+		DamagePercentBonus:CAPITALSHIP:Pirate 0.90		
+		DamagePercentBonus:CAPITALSHIP:Titan 0.95		
+		DamagePercentBonus:CAPITALABILITY:CapitalShip 0.75
+		DamagePercentBonus:CAPITALABILITY:VeryLight 1.0
+		DamagePercentBonus:CAPITALABILITY:Light 1.0
+		DamagePercentBonus:CAPITALABILITY:Medium 1.0
+		DamagePercentBonus:CAPITALABILITY:Heavy 1.0
+		DamagePercentBonus:CAPITALABILITY:VeryHeavy 1.0
+		DamagePercentBonus:CAPITALABILITY:Module 1.0
+		DamagePercentBonus:CAPITALABILITY:Pirate 0.75
+		DamagePercentBonus:CAPITALABILITY:Titan 0.75
+		DamagePercentBonus:TITAN:CapitalShip 1.0
+		DamagePercentBonus:TITAN:VeryLight 0.25
+		DamagePercentBonus:TITAN:Light 0.75
+		DamagePercentBonus:TITAN:Medium 1.0
+		DamagePercentBonus:TITAN:Heavy 1.0
+		DamagePercentBonus:TITAN:VeryHeavy 1.0
+		DamagePercentBonus:TITAN:Module 0.75
+		DamagePercentBonus:TITAN:Pirate 0.90
+		DamagePercentBonus:TITAN:Titan 1.0
+		DamagePercentBonus:CORVETTE:CapitalShip 0.65
+		DamagePercentBonus:CORVETTE:VeryLight 0.50
+		DamagePercentBonus:CORVETTE:Light 1.5
+		DamagePercentBonus:CORVETTE:Medium 0.6
+		DamagePercentBonus:CORVETTE:Heavy 0.5
+		DamagePercentBonus:CORVETTE:VeryHeavy 0.55
+		DamagePercentBonus:CORVETTE:Module 0.35
+		DamagePercentBonus:CORVETTE:Pirate 0.50
+		DamagePercentBonus:CORVETTE:Titan 0.7		
+		HullPointPercentageIncreasePerArmorPoint 0.05
+		NumCriticalHitEffectNames 3
+		EffectName "Explosion_CriticalHit0"
+		EffectName "Explosion_CriticalHit1"
+		EffectName "Explosion_CriticalHit2"
+		NumCriticalHitEffectSoundIDs 3
+		SoundID "EXPLOSION_CRITICALHIT0"
+		SoundID "EXPLOSION_CRITICALHIT1"
+		SoundID "EXPLOSION_CRITICALHIT2"
+		NumPersistentHullDamageEffects 5
+		Definition
+			effectName "DamageEffect_Fire1"
+			maxNumEffects 1
+			minHullDamagePercentage .5
+		Definition
+			effectName "DamageEffect_Fire2"
+			maxNumEffects 3
+			minHullDamagePercentage .7
+		Definition
+			effectName "DamageEffect_Electrical1"
+			maxNumEffects 3
+			minHullDamagePercentage .4
+		Definition
+			effectName "DamageEffect_Smoke1"
+			maxNumEffects 3
+			minHullDamagePercentage .9
+		Definition
+			effectName "DamageEffect_Steam1"
+			maxNumEffects 3
+			minHullDamagePercentage .9
+		InCombatHullRegenerationPenalty 0.5
+		InCombatFighterBuildRatePenalty -1.0
+		considerBeingDamagedTime 10.0
+		enemyDPSInOrbitBodyISquadOwnerBuildRateScalar -.111111
+	ResearchData
+		tierLabCount-0 1
+		tierLabCount-1 2
+		tierLabCount-2 3
+		tierLabCount-3 4
+		tierLabCount-4 5
+		tierLabCount-5 6
+		tierLabCount-6 7
+		tierLabCount-7 8
+		rebellionInfoCount 2
+		rebellionInfo
+			minTimeBetweenAttacks 480
+			maxTimeBetweenAttacks 600
+			arrivalDelayTime 20
+			spawnShips
+				minFleetPoints 20
+				maxFleetPoints 25
+				requiredShipCount 0
+				randomShipCount 5
+				randomShip
+					type "Human_FrigateLight_X303"
+					weight 2
+				randomShip
+					type "Human_FrigateLongRange_Tempest"
+					weight 6
+				randomShip
+					type "Human_CruiserHeavy_BC304"
+					weight 8
+				randomShip
+					type "Human_FrigateAntiFighter_Claudius"
+					weight 3
+				randomShip
+					type "Human_FrigateSiege_Zephyr"
+					weight 3
+		rebellionInfo
+			minTimeBetweenAttacks 450
+			maxTimeBetweenAttacks 570
+			arrivalDelayTime 15
+			spawnShips
+				minFleetPoints 40
+				maxFleetPoints 50
+				requiredShipCount 0
+				randomShipCount 5
+				randomShip
+					type "Human_FrigateLight_X303"
+					weight 2
+				randomShip
+					type "Human_FrigateLongRange_Tempest"
+					weight 6
+				randomShip
+					type "Human_CruiserHeavy_BC304"
+					weight 8
+				randomShip
+					type "Human_FrigateAntiFighter_Claudius"
+					weight 3
+				randomShip
+					type "Human_FrigateSiege_Zephyr"
+					weight 3
+		pirateMercenariesInfo
+			minTimeBetweenAttacks 450
+			maxTimeBetweenAttacks 570
+			arrivalDelayTime 15
+			spawnShips
+				minFleetPoints 200
+				maxFleetPoints 300
+				requiredShipCount 0
+				randomShipCount 5
+				randomShip
+					type "FrigatePirateScout"
+					weight 3
+				randomShip
+					type "FrigatePirateMedium"
+					weight 3
+				randomShip
+					type "FrigatePirateHeavy"
+					weight 3
+				randomShip
+					type "FrigatePirateAntiFighter"
+					weight 3
+				randomShip
+					type "FrigatePirateSiege"
+					weight 3
+	VisibilityDistanceData
+		capitalShipRadiusMultiplier 100
+		entryVehicleRadiusMultiplier 50000
+		frigateRadiusMultiplier 180
+		planetRadiusMultiplier 130
+		asteroidRadiusMultiplier 200
+		resourceAsteroidRadiusMultiplier 200
+		debrisRadiusMultiplier 600
+		cannonShellRadiusMultiplier 600
+		starRadiusMultiplier 60
+		planetModuleRadiusMultiplier 60
+		starBaseRadiusMultiplier 60
+		spaceMineRadiusMultiplier 60
+		fighterRadiusMultiplier 1000
+		maxFighterMeshDistanceToCamera 4000
+		mainViewIconChildrenPlanetRadiusMultiplier 130
+		mainViewIconChildrenAsteroidRadiusMultiplier 200
+		mainViewIconChildrenStarRadiusMultiplier 60
+		veryDistantIconFadeNearThresholdDistance 100000
+		veryDistantIconFadeFarThresholdDistance 10000000
+	PhysicsData
+		shipLinearMaxSpeedWhileSafeScalar 0.0
+		shipLinearAccelerationWhileSafeScalar 0.0
+		shipLinearDecelerationWhileSafeScalar 0.0
+	pirateRaidDef
+		arrivalDelayTime 6.0
+		minSupply 10000
+		maxSupply 10000
+		strengthPerOwnedPlanet .06
+		strengthPerCargoShip .0025
+		strengthPerBounty .00003
+		firstWarningTime 900
+		normalWarningTime 780
+		minSendRaidTime 30
+		maxSendRaidTime 90
+		pirateQuestCooldownTime 300
+		minQuestCredits 500
+		maxQuestCredits 40000
+		maxNumUpgradesPerRaid 2
+		juicyPlanetModuleThreshold 2
+		raidStrengthThreshold:0 0
+		raidStrengthThreshold:1 .20
+		raidStrengthThreshold:2 .40
+		raidStrengthThreshold:3 .7
+		raidStrengthThreshold:4 .9
+		pirateRaidComposition:0
+			requiredShipCount 3
+			requiredShip
+				type "FrigatePirateAntiFighter"
+				minCount 1
+				maxCount 2
+			requiredShip				
+				type "FrigatePirateScout"
+				minCount 5
+				maxCount 6
+			requiredShip
+				type "FrigatePirateMedium"
+				minCount 5
+				maxCount 6
+			randomShipCount 0
+		pirateRaidComposition:1
+			requiredShipCount 3
+			requiredShip
+				type "FrigatePirateScout"
+				minCount 10
+				maxCount 11
+			requiredShip
+				type "FrigatePirateMedium"
+				minCount 10
+				maxCount 11
+			requiredShip
+				type "FrigatePirateAntiFighter"
+				minCount 2
+				maxCount 3
+			randomShipCount 0
+		pirateRaidComposition:2
+			requiredShipCount 5
+			requiredShip
+				type "FrigatePirateScout"
+				minCount 12
+				maxCount 13
+			requiredShip
+				type "FrigatePirateMedium"
+				minCount 11
+				maxCount 12
+			requiredShip
+				type "FrigatePirateHeavy"
+				minCount 5
+				maxCount 6
+			requiredShip
+				type "FrigatePirateAntiFighter"
+				minCount 4
+				maxCount 5
+			requiredShip
+				type "FrigatePirateSiege"
+				minCount 3
+				maxCount 4
+			randomShipCount 0
+		pirateRaidComposition:3
+			requiredShipCount 5
+			requiredShip
+				type "FrigatePirateScout"
+				minCount 18
+				maxCount 19
+			requiredShip
+				type "FrigatePirateMedium"
+				minCount 15
+				maxCount 16
+			requiredShip
+				type "FrigatePirateHeavy"
+				minCount 7
+				maxCount 8
+			requiredShip
+				type "FrigatePirateAntiFighter"
+				minCount 8
+				maxCount 9
+			requiredShip
+				type "FrigatePirateSiege"
+				minCount 5
+				maxCount 6
+			randomShipCount 0
+		pirateRaidComposition:4
+			requiredShipCount 5
+			requiredShip
+				type "FrigatePirateScout"
+				minCount 18
+				maxCount 19
+			requiredShip
+				type "FrigatePirateMedium"
+				minCount 19
+				maxCount 20
+			requiredShip
+				type "FrigatePirateHeavy"
+				minCount 10
+				maxCount 11
+			requiredShip
+				type "FrigatePirateAntiFighter"
+				minCount 12
+				maxCount 13
+			requiredShip
+				type "FrigatePirateSiege"
+				minCount 8
+				maxCount 9
+			randomShipCount 0
+		fleetStrengthLevel:Weak 0
+		fleetStrengthLevel:Moderate 1500
+		fleetStrengthLevel:Strong 4000
+		fleetStrengthLevel:Massive 10000
+		fleetStrengthLevel:Overwhelming 20000
+		raidCost:0 1600
+		raidCost:1 3200
+		raidCost:2 6600
+		raidCost:3 10100
+		raidCost:4 13600
+	buildSpeedData-Slow
+		shipBuildRateGameSpeedScalar 0.0
+		moduleBuildRateGameSpeedScalar 0.0
+	buildSpeedData-Normal
+		shipBuildRateGameSpeedScalar 0.10
+		moduleBuildRateGameSpeedScalar 0.10
+	buildSpeedData-Fast
+		shipBuildRateGameSpeedScalar 0.20
+		moduleBuildRateGameSpeedScalar 0.20
+	buildSpeedData-Faster
+		shipBuildRateGameSpeedScalar 0.40
+		moduleBuildRateGameSpeedScalar 0.40
+	cultureSpeedData-Slow
+		cultureConnectionReferenceLength 250000
+		allegianceShiftRateScalar 0.75
+	cultureSpeedData-Normal
+		cultureConnectionReferenceLength 500000
+		allegianceShiftRateScalar 1.0
+	cultureSpeedData-Fast
+		cultureConnectionReferenceLength 750000
+		allegianceShiftRateScalar 1.25
+	cultureSpeedData-Faster
+		cultureConnectionReferenceLength 850000
+		allegianceShiftRateScalar 1.45
+	researchSpeedData-Slow
+		researchRateGameSpeedScalar -4.75
+	researchSpeedData-Normal
+		researchRateGameSpeedScalar -1.3
+	researchSpeedData-Fast
+		researchRateGameSpeedScalar -0.15
+	researchSpeedData-Faster
+		researchRateGameSpeedScalar -0.05
+	incomeSpeedData-Slow
+		incomeRateGameSpeedScalar 0.0
+	incomeSpeedData-Normal
+		incomeRateGameSpeedScalar 0.15
+	incomeSpeedData-Fast
+		incomeRateGameSpeedScalar 0.30
+	incomeSpeedData-Faster
+		incomeRateGameSpeedScalar 0.75
+	fleetSupplyData-Small
+		fleetSupplyScalar 0.75
+	fleetSupplyData-Normal
+		fleetSupplyScalar 1.0
+	fleetSupplyData-Large
+		fleetSupplyScalar 1.25
+	shipPhysicsSpeedData-Slow
+		shipLinearMaxSpeedGameSpeedScalar 0.0
+		shipLinearAccelerationGameSpeedScalar 0.0
+		shipLinearDecelerationGameSpeedScalar 0.0
+	shipPhysicsSpeedData-Normal
+		shipLinearMaxSpeedGameSpeedScalar 0.30
+		shipLinearAccelerationGameSpeedScalar 0.30
+		shipLinearDecelerationGameSpeedScalar 0.30
+	shipPhysicsSpeedData-Fast
+		shipLinearMaxSpeedGameSpeedScalar 0.45
+		shipLinearAccelerationGameSpeedScalar 0.45
+		shipLinearDecelerationGameSpeedScalar 0.45
+	shipPhysicsSpeedData-Faster
+		shipLinearMaxSpeedGameSpeedScalar 0.6
+		shipLinearAccelerationGameSpeedScalar 0.6
+		shipLinearDecelerationGameSpeedScalar 0.6
+	victorySpeedData-Slow
+		diplomaticPointsRateSpeedScalar 0.66
+		occupyVictoryTimeScalar 1.5
+	victorySpeedData-Normal 
+		diplomaticPointsRateSpeedScalar 1.0
+		occupyVictoryTimeScalar 1.0
+	victorySpeedData-Fast
+		diplomaticPointsRateSpeedScalar 1.33
+		occupyVictoryTimeScalar 0.75
+	victorySpeedData-Faster
+		diplomaticPointsRateSpeedScalar 2.0
+		occupyVictoryTimeScalar 0.5
+	marketDef
+		sellPrice 2.0
+		buyPrice 4.0
+		priceIncreaseAtMaxShift 2.22
+		minTimeForMarketChange 10.0
+		maxTimeForMarketChange 30.0
+		minTimeToCrashOrBoom 2.0
+		maxTimeToCrashOrBoom 10.0
+		minLengthOfCrashOrBoom 20.0
+		maxLengthOfCrashOrBoom 200.0
+		normalMarketMinShift 0.2
+		normalMarketMaxShift 0.5
+		boomThresholdPerPlayer 400
+		crashThresholdPerPlayer -400
+		boomMinShift 0.8
+		crashMaxShift 0.2
+		netChangeForCrash -0.2
+		netChangeForBoom 0.3
+	playerAISharedDef
+		table-Aggressive
+			BuildShip 27
+			BuildModuleTactical 5
+			BuildModuleCivilian 3
+			BuildModuleResearch 800
+			UpgradeResearch 1000
+			UpgradePlanetArtifactLevel 1
+			UpgradePlanetPopulation 1
+			UpgradePlanetInfastructure 1
+			UpgradePlanetSocial 1
+			UpgradePlanetIndustry 3
+			MaxBountyBidCount 3
+			UpgradeStarBase 2
+			BuildMines 1
+		table-Defensive
+			BuildShip 23
+			BuildModuleTactical 10
+			BuildModuleCivilian 4
+			BuildModuleResearch 800
+			UpgradeResearch 1000
+			UpgradePlanetArtifactLevel 0
+			UpgradePlanetPopulation 1
+			UpgradePlanetInfastructure 2
+			UpgradePlanetSocial 2
+			UpgradePlanetIndustry 2
+			MaxBountyBidCount 3
+			UpgradeStarBase 3
+			BuildMines 3
+		table-Research
+			BuildShip 23
+			BuildModuleTactical 2
+			BuildModuleCivilian 2
+			BuildModuleResearch 800
+			UpgradeResearch 1000
+			UpgradePlanetArtifactLevel 2
+			UpgradePlanetPopulation 1
+			UpgradePlanetInfastructure 1
+			UpgradePlanetSocial 2
+			UpgradePlanetIndustry 2
+			MaxBountyBidCount 3
+			UpgradeStarBase 1
+			BuildMines 1
+		table-Economic
+			BuildShip 24
+			BuildModuleTactical 2
+			BuildModuleCivilian 3
+			BuildModuleResearch 800
+			UpgradeResearch 1000
+			UpgradePlanetArtifactLevel 2
+			UpgradePlanetPopulation 3
+			UpgradePlanetInfastructure 3
+			UpgradePlanetSocial 0
+			UpgradePlanetIndustry 3
+			MaxBountyBidCount 3
+			UpgradeStarBase 1
+			BuildMines 1
+	playerDiplomacyAIDef
+		breakRelationshipThreshold:Trade 1.0
+		breakRelationshipThreshold:ExternalVision 5.0
+		breakRelationshipThreshold:InternalVision 7.5
+		breakRelationshipThreshold:CeaseFire 2.5
+		breakRelationshipThreshold:PeaceTreaty 3.0
+		breakRelationshipThreshold:ResearchPact 6.0
+		breakRelationshipThreshold:EfficiencyPact 6.0
+		breakRelationshipThreshold:AntimatterPact 10.0 
+		breakRelationshipThreshold:ArmorPact 9.0
+		breakRelationshipThreshold:BeamWeaponPact 13.0
+		breakRelationshipThreshold:CulturePact 9.0
+		breakRelationshipThreshold:MetalCrystalPact 5.0
+		breakRelationshipThreshold:ThrusterPact 13.0
+		breakRelationshipThreshold:PhaseJumpPact 9.0
+		breakRelationshipThreshold:PlanetBombingPact 11.0
+		breakRelationshipThreshold:ShieldPact 11.0
+		breakRelationshipThreshold:MarketPact 5.0
+		breakRelationshipThreshold:EnergyWeaponCooldownPact 14.0
+		breakRelationshipThreshold:MassReductionPact 12.0
+		breakRelationshipThreshold:SupplyPact 14.0
+		breakRelationshipThreshold:TacticalSlotsPact 10.0
+		breakRelationshipThreshold:WeaponCooldownPact 15.0
+		breakRelationshipThreshold:TradeIncomePact 6.0
+		relationshipRequirement:Trade 2.5
+		relationshipRequirement:ExternalVision 8.0
+		relationshipRequirement:InternalVision 9.5
+		relationshipRequirement:CeaseFire 4.5
+		relationshipRequirement:PeaceTreaty 9.0
+		relationshipRequirement:ResearchPact 10.5
+		relationshipRequirement:EfficiencyPact 11.0
+		relationshipRequirement:AntimatterPact 13.0
+		relationshipRequirement:ArmorPact 13.0
+		relationshipRequirement:BeamWeaponPact 17.5
+		relationshipRequirement:CulturePact 11.5
+		relationshipRequirement:MetalCrystalPact 11.0
+		relationshipRequirement:ThrusterPact 16.0
+		relationshipRequirement:PhaseJumpPact 14.0
+		relationshipRequirement:PlanetBombingPact 14.5
+		relationshipRequirement:ShieldPact 18.0
+		relationshipRequirement:MarketPact 12.0
+		relationshipRequirement:EnergyWeaponCooldownPact 18.0
+		relationshipRequirement:MassReductionPact 15.0
+		relationshipRequirement:SupplyPact 18.0
+		relationshipRequirement:TacticalSlotsPact 15.0
+		relationshipRequirement:WeaponCooldownPact 19.0
+		relationshipRequirement:TradeIncomePact 10.5
+		breakRelationshipPenalty:Trade 0.0
+		breakRelationshipPenalty:ExternalVision 0.0
+		breakRelationshipPenalty:InternalVision 0.0
+		breakRelationshipPenalty:CeaseFire -2.0
+		breakRelationshipPenalty:PeaceTreaty -2.0
+		breakRelationshipPenalty:ResearchPact -3.0
+		breakRelationshipPenalty:EfficiencyPact -3.0
+		breakRelationshipPenalty:AntimatterPact -3.0
+		breakRelationshipPenalty:ArmorPact -3.0
+		breakRelationshipPenalty:BeamWeaponPact -3.0
+		breakRelationshipPenalty:CulturePact -3.0
+		breakRelationshipPenalty:MetalCrystalPact -3.0
+		breakRelationshipPenalty:ThrusterPact -3.0
+		breakRelationshipPenalty:PhaseJumpPact -3.0
+		breakRelationshipPenalty:PlanetBombingPact -3.0
+		breakRelationshipPenalty:ShieldPact -3.0
+		breakRelationshipPenalty:MarketPact -3.0
+		breakRelationshipPenalty:EnergyWeaponCooldownPact -3.0
+		breakRelationshipPenalty:MassReductionPact -3.0
+		breakRelationshipPenalty:SupplyPact -3.0
+		breakRelationshipPenalty:TacticalSlotsPact -3.0
+		breakRelationshipPenalty:WeaponCooldownPact -3.0
+		breakRelationshipPenalty:TradeIncomePact -3.0
+		diplomacyPointsForRelationship:Trade 0.000050
+		diplomacyPointsForRelationship:ExternalVision 0.000150
+		diplomacyPointsForRelationship:InternalVision 0.000170
+		diplomacyPointsForRelationship:CeaseFire 0.000130
+		diplomacyPointsForRelationship:PeaceTreaty 0.000200
+		diplomacyPointsForPactCount:1 0.001000
+		diplomacyPointsForPactCount:2 0.001300
+		diplomacyPointsForPactCount:3 0.001600
+		diplomacyPointsForPactCount:4 0.001900
+		diplomacyPointsForPactCount:5 0.002200
+		diplomacyPointsForPactCount:6 0.002500
+		diplomacyPointsForPactCount:7 0.002500
+		diplomacyPointsForPactCount:8 0.002500
+		diplomacyPointsForPactCount:9 0.002500
+		diplomacyPointsForPactCount:10 0.002500
+		diplomacyPointsForPactCount:11 0.002500
+		diplomacyPointsForPactCount:12 0.002500
+		diplomaticVictoryForPlayerCount:2 50
+		diplomaticVictoryForPlayerCount:3 50
+		diplomaticVictoryForPlayerCount:4 75
+		diplomaticVictoryForPlayerCount:5 75
+		diplomaticVictoryForPlayerCount:6 75
+		diplomaticVictoryForPlayerCount:7 100
+		diplomaticVictoryForPlayerCount:8 100
+		diplomaticVictoryForPlayerCount:9 100
+		diplomaticVictoryForPlayerCount:10 100
+		aiDiplomaticPointBonusScalar:Easy 0.0
+		aiDiplomaticPointBonusScalar:Medium 0.0
+		aiDiplomaticPointBonusScalar:Hard 0.0
+		aiDiplomaticPointBonusScalar:Unfair 0.0
+		aiDiplomaticPointBonusScalar:Nightmare 0.0
+		aiDiplomaticPointBonusScalar:Impossible 0.0
+		timeBetweenTreatyOffers 300
+		timeBetweenQuests 300
+		maxRelationship 10.0
+		rejectMissionsPenalty -0.10
+		rejectMissionsMin -1.5
+		militaryActionsMin -10.0
+		militaryActionsMax 3.0
+		militaryActionsDecayRate -0.0009
+		KilledShip
+			AllyKilled 0.0
+			EnemyKilled 0.0
+		KilledCivilianStructure
+			AllyKilled -0.05
+			EnemyKilled 0.05
+		KilledTacticalStructure
+			AllyKilled -0.1
+			EnemyKilled 0.1
+		KilledPlanet
+			AllyKilled -1.0
+			EnemyKilled 1.0
+		KilledStarbase
+			AllyKilled -0.5
+			EnemyKilled 0.5
+		adjacentTerritoryModifiers 2
+			modifier -0.5
+			modifier -0.2
+		aggressivenessModifierMax 0.25
+		aggressivenessModifierMin -0.10
+		aggressivenessModifierIncrement 0.05
+		raceRelationsIncrement 0.05
+		factionRelationsIncrement 0.05
+		militaryPresenceMin -1.0
+		militaryPresenceMax 1.0
+		allyTreatyRelationshipChanges
+			Trade 0.05
+			ExternalVision 0.5
+			InternalVision 0.5
+			CeaseFire 0.25
+			PeaceTreaty 1.0
+		enemyTreatyRelationshipChanges
+			Trade -0.05
+			ExternalVision -0.5
+			InternalVision -0.5
+			CeaseFire -0.25
+			PeaceTreaty -1.0
+		allyPactCountRelationshipChanges 13
+			modifier 0.0
+			modifier 0.2
+			modifier 0.4
+			modifier 0.6
+			modifier 0.8
+			modifier 1.0
+			modifier 1.2
+			modifier 1.4
+			modifier 1.6
+			modifier 1.8
+			modifier 2.0
+			modifier 2.2
+			modifier 2.4
+		enemyPactCountRelationshipChanges 13
+			modifier 0.0
+			modifier -0.5
+			modifier -1.0
+			modifier -1.5
+			modifier -2.0
+			modifier -2.5
+			modifier -3.0
+			modifier -3.5
+			modifier -4.0
+			modifier -4.5
+			modifier -5.0
+			modifier -5.5
+			modifier -6.0
+		creditsGivenRelationshipRatio 0.001
+		metalGivenRelationshipRatio 0.0015
+		crystalGivenRelationshipRatio 0.002
+		resourceGivenMax 3.0
+		resourceGivenChangeRate -0.002
+		tradeBonusRatePerTrip 0.01
+		tradeBonusCap 2.0
+		tradeBonusDecayRate -0.01
+		planetaryEnvoyBonusDecayRate -0.009
+		planetaryEnvoyBonusMax 2.0
+		planetaryEnvoyBonusTimeout 60.0
+		questTimeoutRatio 0.5
+		flavorTextLevel:Hateful 0.0
+		flavorTextLevel:Abysmal 1.0
+		flavorTextLevel:Warming 2.5
+		flavorTextLevel:Neutral 3.5
+		flavorTextLevel:Friendly 6.0
+		flavorTextLevel:Peaceful 9.0
+		flavorTextLevel:Cooperative 12.0
+		flavorTextLevel:Beneficial 16.0
+		flavorTextLevel:Symbiotic 18.0
+		flavorTextLevel:Devoted 20.0
+		relationshipLevelMissionBonus:Hateful 1.00
+		relationshipLevelMissionBonus:Abysmal 1.00
+		relationshipLevelMissionBonus:Warming 1.02
+		relationshipLevelMissionBonus:Neutral 1.05
+		relationshipLevelMissionBonus:Friendly 1.06
+		relationshipLevelMissionBonus:Peaceful 1.12
+		relationshipLevelMissionBonus:Cooperative 1.18
+		relationshipLevelMissionBonus:Beneficial 1.24
+		relationshipLevelMissionBonus:Symbiotic 1.32
+		relationshipLevelMissionBonus:Devoted 1.37
+		aiBonusMax 2.0
+		aiBonusRate 0.0002
+		QuestTypeBombAnyPlanetLevelInfos
+			QuestDefNameCount 1
+				QuestDefName "QuestBombPlanet"
+		QuestTypeGiveResourcesLevelInfos
+			QuestDefNameCount 12
+				QuestDefName "QuestGiveCreditsLow"
+				QuestDefName "QuestGiveMetalLow"
+				QuestDefName "QuestGiveCrystalLow"
+				QuestDefName "QuestGiveCreditsMedium"
+				QuestDefName "QuestGiveMetalMedium"
+				QuestDefName "QuestGiveCrystalMedium"
+				QuestDefName "QuestGiveCreditsMaintain"
+				QuestDefName "QuestGiveMetalMaintain"
+				QuestDefName "QuestGiveCrystalMaintain"
+				QuestDefName "QuestGiveCreditsHigh"
+				QuestDefName "QuestGiveMetalHigh"
+				QuestDefName "QuestGiveCrystalHigh"
+		QuestTypeKillShipsLevelInfos
+			QuestDefNameCount 4
+				QuestDefName "QuestKillShipsLow"
+				QuestDefName "QuestKillShipsMedium"
+				QuestDefName "QuestKillShipsMaintain"
+				QuestDefName "QuestKillShipsHigh"
+		QuestTypeKillCapitalShipsLevelInfos
+			QuestDefNameCount 2
+				QuestDefName "QuestKillCapitalShipsMaintain"
+				QuestDefName "QuestKillCapitalShipsHigh"
+		QuestTypeKillCivilianStructuresLevelInfos
+			QuestDefNameCount 4
+				QuestDefName "QuestKillCivilianModulesLow"
+				QuestDefName "QuestKillCivilianModulesMedium"
+				QuestDefName "QuestKillCivilianModulesMaintain"
+				QuestDefName "QuestKillCivilianModulesHigh"
+		QuestTypeKillTacticalStructuresLevelInfos
+			QuestDefNameCount 3
+				QuestDefName "QuestKillTacticalModulesMedium"
+				QuestDefName "QuestKillTacticalModulesMaintain"
+				QuestDefName "QuestKillTacticalModulesHigh"
+		QuestTypeSendEnvoyLevelInfos
+			QuestDefNameCount 1
+				QuestDefName "QuestSendEnvoyLow"
+		FactionCount 3
+			FactionName "IDS_PLAYERFACTIONNAME_NEUTRAL"
+			FactionName "IDS_PLAYERFACTIONNAME_REBEL"
+			FactionName "IDS_PLAYERFACTIONNAME_LOYALIST"
+	playerTradeNetworkDef
+		incomeRateBonusPerLongestNodeDistanceNode .075
+	targetTypeCounterData
+	aiData
+		aiRetreatThreshold 0.05
+	victoryData
+		occupationVictoryStarType "STAR_RED"
+		occupationVictoryStarName "OccupationStar"
+		occupationVictoryPlanetType "OccupiedPlanet"
+		occupationVictoryPlanetName "Occupation"
+		occupationVictoryPlanetTemplate "Template:OccupiedPlanet"
+		occupationVictoryTime 1200
+	outlawSectorsData
+		militiaMainViewXOffsetScalar 0
+		militiaMainViewYOffsetScalar -.75		
+		militiaMainViewIconSizeScalar .55
+		militiaMainViewIconXOffsetScalar 0.0
+		militiaMainViewIconYOffsetScalar -.4		
+		militiaHUDIconSizeScalar .4
+		militiaHUDIconXOffsetScalar 0.0
+		militiaHUDIconYOffsetScalar .05
+		spawnShips
+			minFleetPoints 20.000000
+			maxFleetPoints 20.000000
+			requiredShipCount 0
+			randomShipCount 4
+			randomShip
+				type "FrigatePirateScout"
+				weight 4
+			randomShip
+				type "FrigatePirateMedium"
+				weight 5
+			randomShip
+				type "FrigatePirateHeavy"
+				weight 6
+			randomShip
+				type "FrigatePirateAntiFighter"
+				weight 3
+		baseFleetCapacity 20.0
+		maxFleetSupplyPerPlanetPopulation .025
+		fleetSupplyMin 100.0
+		fleetSupplyMax 2000.0
+		fleetSupplyScalarAtMinFleetSupply 1.0
+		fleetSupplyScalarAtMaxFleetSupply 3.75
+		timeBetweenSpawnShipsAtMinFleetSupply 600.0
+		timeBetweenSpawnShipsAtMaxFleetSupply 240.0
+		timeBetweenSpawnShipsVariancePercent .25
+		planetsAtMinFleetSupplyScalar 15
+		planetsAtMaxFleetSupplyScalar 100
+		minPlanetsFleetSupplyScalar 1		
+		maxPlanetsFleetSupplyScalar .15
+		pirateBountyBonusScalar 1.25
+		pirateRaidRaidTimeScalar .85

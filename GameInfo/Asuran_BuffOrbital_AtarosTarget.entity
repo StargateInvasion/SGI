@@ -1,0 +1,50 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusivePerPlayer"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "DoDamagePercOfCurrentHull"
+	instantActionTriggerType "OnHyperspaceExit"
+	hullDamagePerc
+		Level:0 0.600000
+		Level:1 0.500000
+		Level:2 0.500000
+		Level:3 0.000000
+	damageAffectType "AFFECTS_ONLY_HULL"
+	damageType "ENERGY"
+	isDamageShared TRUE
+instantAction
+	buffInstantActionType "RemoveAntiMatterPerc"
+	instantActionTriggerType "OnHyperspaceExit"
+	antiMatterPerc
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 0.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "HyperspaceChargeUpRate"
+	value
+		Level:0 -7.000000
+		Level:1 -9.000000
+		Level:2 -99.000000
+		Level:3 0.000000
+numEntityBoolModifiers 2
+entityBoolModifier "HasDestabilizedHyperspaceEffect"
+entityBoolModifier "ForceIsDamagedOverlayInHyperspace"
+numFinishConditions 3
+finishCondition
+	finishConditionType "FirstSpawnerNoLongerHasBuff"
+	buffTypeToQuery "Asuran_BuffOrbital_AtarosSpawner"
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "ExitHyperspace"

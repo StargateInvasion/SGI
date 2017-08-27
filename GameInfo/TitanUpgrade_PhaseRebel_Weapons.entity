@@ -1,0 +1,80 @@
+﻿TXT
+entityType "TitanUpgrade"
+stageCount 5
+stage
+	nameStringID "IDS_TITANUPGRADE_PHASEREBEL_WEAPONS_NAME"
+	descStringID "IDS_TITANUPGRADE_PHASEREBEL_WEAPONS_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement -1
+	hudIcon "HUDIconTitanPhaseRebelWeaponUpgrade0"
+	smallHudIcon "HUDIconTitanPhaseRebelWeaponUpgrade0"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_PHASEREBEL_WEAPONS_NAME"
+	descStringID "IDS_TITANUPGRADE_PHASEREBEL_WEAPONS_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 0
+	hudIcon "HUDIconTitanPhaseRebelWeaponUpgrade0"
+	smallHudIcon "HUDIconTitanPhaseRebelWeaponUpgrade0"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "WeaponDamage"
+		value 0.150000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_PHASEREBEL_WEAPONS_NAME"
+	descStringID "IDS_TITANUPGRADE_PHASEREBEL_WEAPONS_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 2
+	hudIcon "HUDIconTitanPhaseRebelWeaponUpgrade1"
+	smallHudIcon "HUDIconTitanPhaseRebelWeaponUpgrade1"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "WeaponDamage"
+		value 0.250000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_PHASEREBEL_WEAPONS_NAME"
+	descStringID "IDS_TITANUPGRADE_PHASEREBEL_WEAPONS_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 4
+	hudIcon "HUDIconTitanPhaseRebelWeaponUpgrade2"
+	smallHudIcon "HUDIconTitanPhaseRebelWeaponUpgrade2"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "WeaponDamage"
+		value 0.350000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_PHASEREBEL_WEAPONS_NAME"
+	descStringID "IDS_TITANUPGRADE_PHASEREBEL_WEAPONS_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 6
+	hudIcon "HUDIconTitanPhaseRebelWeaponUpgrade3"
+	smallHudIcon "HUDIconTitanPhaseRebelWeaponUpgrade3"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "WeaponDamage"
+		value 0.450000
+	upgradeBoolPropertyCount 0

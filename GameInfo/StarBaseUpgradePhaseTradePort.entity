@@ -1,0 +1,44 @@
+﻿TXT
+entityType "StarBaseUpgrade"
+stageCount 2
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "IDS_ASURAN_RESEARCH_STARBASEUPGRADEACCESSTRADEPORT_NAME"
+	descStringID "IDS_ASURAN_RESEARCH_STARBASEUPGRADEACCESSTRADEPORT_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradePhaseTradePort0"
+	smallHudIcon "HUDIconStarBaseUpgradePhaseTradePort0"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1000.000000
+		metal 150.000000
+		crystal 75.000000
+	upgradeTime 60.000000
+	nameStringID "IDS_ASURAN_RESEARCH_STARBASEUPGRADEACCESSTRADEPORT_NAME"
+	descStringID "IDS_ASURAN_RESEARCH_STARBASEUPGRADEACCESSTRADEPORT_DESCRIPTION"
+	researchPrerequisites
+    NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradePhaseTradePort0"
+	smallHudIcon "HUDIconStarBaseUpgradePhaseTradePort0"
+	infoCardIcon ""
+	upgradePropertyCount 2
+	upgradeProperty
+		propertyType "BaseTradeIncomeRate"
+		value 1.250000
+	upgradeProperty
+		propertyType "TradePortMeshLevel"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+xpModifier 20.000000

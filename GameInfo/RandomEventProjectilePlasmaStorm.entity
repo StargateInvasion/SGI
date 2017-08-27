@@ -1,0 +1,25 @@
+﻿TXT
+entityType "CannonShell"
+acceleration 300.000000
+startingSpeed 500.000000
+maxSpeed 10000.000000
+buffToApplyOnImpact "RandomEventPlasmaStorm"
+planetImpactEffectName "PlasmaStorm_Impact"
+planetImpactSounds
+	soundCount 1
+	sound "EFFECT_PLASMASTORMIMPACT"
+planetImpactCameraShakeMaxSize 980000.000000
+planetImpactCameraShakeStrength 1.500000
+planetImpactCameraShakeDuration 0.000000
+meshName "PlasmaStorm_Mesh"
+mainViewIcon "MainViewIconRandomEventStorm"
+picture "PICTURE_PLANET_PLASMASTORM"
+nameStringID "IDS_RANDOMEVENT_PLASMASTORM_NAME"
+descStringID "IDS_RANDOMEVENT_PLASMASTORM_DESC"
+renderMesh FALSE
+minZoomDistanceMult 7.500000
+hudIcon "HUDICON_PLANET_PLASMASTORM"
+smallHudIcon "HUDICONSMALL_PLANET_PLASMASTORM"
+infoCardIcon "INFOCARDICON_PLANET_PLASMASTORM"
+minShadow 0.000000
+maxShadow 0.500000

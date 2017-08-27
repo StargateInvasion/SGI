@@ -1,0 +1,102 @@
+﻿TXT
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "StarBaseConstructor"
+statCountType "FrigateStarBaseConstructor"
+mainViewIcon "MAINVIEWICON_FRIGATE_PSISTARBASECONSTRUCTOR"
+picture "PICTURE_FRIGATE_PSISTARBASECONSTRUCTOR"
+NameStringID ""
+DescriptionStringID ""
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
+basePrice
+	credits 2000.000000
+	metal 350.000000
+	crystal 250.000000
+slotCount 10.000000
+BuildTime 25.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 30.000000
+MaxHullPoints 1100.000000
+MaxShieldPoints 425.000000
+HullPointRestoreRate 2.000000
+ShieldPointRestoreRate 1.000000
+BaseArmorPoints 3.000000
+maxMitigation 0.600000
+Prerequisites
+    NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 2
+numRandomDebrisSmall 6
+numSpecificDebris 0
+armorType "Heavy"
+hudIcon "HUDICON_FRIGATE_PSISTARBASECONSTRUCTOR"
+smallHudIcon "HUDICONSMALL_FRIGATE_PSISTARBASECONSTRUCTOR"
+infoCardIcon "INFOCARDICON_FRIGATE_PSISTARBASECONSTRUCTOR"
+minZoomDistanceMult 2.500000
+NumWeapons 0
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 0
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 2000.000000
+ShieldMeshName "Shield_FrigatePsiStarBaseConstructor"
+renderShield TRUE
+maxAccelerationLinear 100.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 1.650000
+maxDecelerationAngular 9.999996
+maxSpeedLinear 500.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 1
+SoundID "FRIGATE_PSISTARBASECONSTRUCTOR_ONSELECTED"
+NumSoundsFor:ONSELECTED 1
+SoundID "FRIGATE_PSISTARBASECONSTRUCTOR_ONSELECTED"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Frigate_PsiStarBaseConstructor"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_TechTradeShip"
+ExplosionName "Frigate1"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_PSICAPITALSHIP"
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 0
+minShadow 0.100000
+maxShadow 0.800000
+allegianceDecreasePerRoundtrip 0.000000

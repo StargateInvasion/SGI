@@ -1,0 +1,25 @@
+TXT
+entityType "CannonShell"
+acceleration 500.000000
+startingSpeed 9999999.000000
+maxSpeed 9999999.000000
+buffToApplyOnImpact "BuffFleetHyperDriveWindowForming"
+planetImpactEffectName "Ability_OrbitalCannonPsiSurfaceImpact"
+planetImpactSounds
+	soundCount 1
+	sound "EXPLOSION_CANNONSHELLPHASE"
+planetImpactCameraShakeMaxSize 100.000000
+planetImpactCameraShakeStrength 50.000000
+planetImpactCameraShakeDuration 20.000000
+meshName "CannonShellPhase"
+mainViewIcon "MainViewIconCannonShellAsuran"
+picture "PictureCannonShellAsuran"
+nameStringID "IDS_CANNONSHELLPHASE_NAME"
+descStringID "IDS_CANNONSHELLPHASE_DESC"
+renderMesh TRUE
+minZoomDistanceMult 4.500000
+hudIcon "HUDIconCannonShellAsuran"
+smallHudIcon "HUDIconSmallCannonShellAsuran"
+infoCardIcon "HUDIconSmallCannonShellAsuran"
+minShadow 0.000000
+maxShadow 0.500000

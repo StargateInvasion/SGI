@@ -1,0 +1,181 @@
+﻿TXT
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault FALSE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 31.000000
+basePopulationKilled 2.800000
+bombingFreqTime 10.000000
+baseRange 3000.000000
+bombTransitTime 12.000000
+bombEffectCount 3
+bombEffectAngleVariance 15.000000
+bombEffectsDef
+	weaponType "Projectile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_PiratePlanetBombing_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE"
+	hitEffectName "Weapon_PiratePlanetBombing_Hit"
+	hitHullEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	hitShieldsEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	projectileTravelEffectName "Weapon_PiratePlanetBombing_Travel"
+typeCount 1
+frigateRoleType "Siege"
+statCountType "FrigateSiege"
+mainViewIcon "MAINVIEWICON_FRIGATE_PIRATESIEGE"
+picture "PICTURE_FRIGATE_PIRATESIEGE"
+NameStringID "IDS_HUMAN_FRIGATESIEGE_ZEPHYR_NAME"
+DescriptionStringID "IDS_HUMAN_FRIGATESIEGE_ZEPHYR_DESCRIPTION"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
+basePrice
+	credits 1315.000000
+	metal 0.000000
+	crystal 0.000000
+slotCount 13.000000
+BuildTime 50.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 19.500000
+MaxHullPoints 870.000000
+MaxShieldPoints 0.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 0.000000
+BaseArmorPoints 3.000000
+maxMitigation 0.600000
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 8
+numSpecificDebris 0
+armorType "Pirate"
+hudIcon "HUDICON_FRIGATE_PIRATESIEGE"
+smallHudIcon "HUDICONSMALL_FRIGATE_PIRATESIEGE"
+infoCardIcon "INFOCARDICON_FRIGATE_PIRATESIEGE"
+minZoomDistanceMult 4.000000
+NumWeapons 1
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIMODULE"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "LASERTECH"
+	DamagePerBank:FRONT 22.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 7500.000000
+	PreBuffCooldownTime 2.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.000000
+	TravelSpeed 4000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.500000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_FrigateLaser_Muzzle"
+		muzzleSoundMinRespawnTime 0.300000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE"
+			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE_ALT2"
+		hitEffectName "Weapon_Tech_FrigateLaser_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Tech_FrigateLaser_Travel"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 2000.000000
+ShieldMeshName ""
+renderShield TRUE
+maxAccelerationLinear 130.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 2.300000
+maxDecelerationAngular 9.999996
+maxSpeedLinear 525.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 4
+SoundID "PIRATE_ONATTACKORDERISSUED_0"
+SoundID "PIRATE_ONATTACKORDERISSUED_1"
+SoundID "PIRATE_ONATTACKORDERISSUED_2"
+SoundID "PIRATE_ONATTACKORDERISSUED_3"
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "PIRATE_ONGENERALORDERISSUED_0"
+SoundID "PIRATE_ONGENERALORDERISSUED_1"
+SoundID "PIRATE_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "PIRATE_ONSELECTED_0"
+SoundID "PIRATE_ONSELECTED_1"
+SoundID "PIRATE_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "PIRATE_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Human_FrigateSiege_Zephyr"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_FrigateTechSiege"
+ExplosionName "Frigate0"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_TECHCAPITALSHIP"
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 100.000000
+AntiMatterRestoreRate 0.500000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 1
+minShadow 0.000000
+maxShadow 0.600000
+allegianceDecreasePerRoundtrip 0.000000

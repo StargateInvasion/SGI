@@ -1,0 +1,55 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "CreateSpaceMine"
+instantActionTriggerType "AlwaysPerform"
+spaceMineType "Asuran_DeepSpaceMine"
+numMines
+	Level:0 10.000000
+	Level:1 10.000000
+	Level:2 10.000000
+	Level:3 0.000000
+impulse 560000.000000
+angleVariance 180.000000
+expiryTime
+	Level:0 -1.000000
+	Level:1 -1.000000
+	Level:2 -1.000000
+	Level:3 0.000000
+spawnMineSoundID "EFFECT_LAYMINEPHASE"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "Asuran_Research_Ability_DeploySpaceMineGravity"
+aiUseTime "OnlyWithNoOrder"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Resources"
+resourceCost
+	credits 570.000000
+	metal 135.000000
+	crystal 70.000000
+cooldownTime
+	Level:0 15.000000
+	Level:1 15.000000
+	Level:2 15.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_Ability_DeploySpaceMineGravity"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ASURAN_ABILITYFRIGATE_DEPLOYSPACEMINEGRAVITY_NAME"
+descStringID "IDS_ASURAN_ABILITYFRIGATE_DEPLOYSPACEMINEGRAVITY_DESCRIPTION"
+hudIcon "HUDICON_ASURAN_ORBITAL_MINE"
+smallHudIcon "HUDICON_ASURAN_ORBITAL_MINE"
+infoCardIcon ""

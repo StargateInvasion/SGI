@@ -1,0 +1,69 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "SpawnShipsAtPlanet"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	spawnShipsLevelCount 1
+	spawnShips
+		minFleetPoints 150.000000
+		maxFleetPoints 350.000000
+		requiredShipCount 7
+		requiredShip
+			type "FrigatePsiAntiFighter"
+			minCount 2
+			maxCount 3
+		requiredShip
+			type "FrigatePsiCarrier"
+			minCount 2
+			maxCount 3
+		requiredShip
+			type "CorvettePsiRebel"
+			minCount 5
+			maxCount 6
+		requiredShip
+			type "FrigatePsiHeavy"
+			minCount 3
+			maxCount 6
+		requiredShip
+			type "FrigatePsiLight"
+			minCount 5
+			maxCount 10
+		requiredShip
+			type "FrigatePsiLongRange"
+			minCount 2
+			maxCount 6
+		requiredShip
+			type "FrigatePsiSiege"
+			minCount 2
+			maxCount 2
+		randomShipCount 4
+		randomShip
+			type "CAPITALSHIP_PSIBATTLESHIP"
+			weight 1
+		randomShip
+			type "CAPITALSHIP_PSIBATTLEPSIONIC"
+			weight 1
+		randomShip
+			type "CAPITALSHIP_PSICARRIER"
+			weight 1
+		randomShip
+			type "CAPITALSHIP_PSIBATTLESHIP2"
+			weight 1
+	spawnShipsArrivalDelayTime 7.000000
+	spawnShipsHyperspaceSpawnType "FleetBeacon"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

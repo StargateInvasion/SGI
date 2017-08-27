@@ -1,0 +1,768 @@
+﻿TXT
+versionNumber 5
+isBrowsable TRUE
+browsePictureName "ScenarioPicture-TheVoid"
+browseName "IDS_CUSTOMGALAXY_NAME_THEVOID"
+browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_THEVOID"
+isFirstCapitalShipIsFlagship TRUE
+randomizeStartingPositions TRUE
+planetArtifactDensity 0.250000
+planetBonusDensity 0.000000
+normalStartHomePlanetUpgradeLevel:Population 1
+normalStartHomePlanetUpgradeLevel:CivilianModules 0
+normalStartHomePlanetUpgradeLevel:TacticalModules 0
+normalStartHomePlanetUpgradeLevel:Home 1
+normalStartHomePlanetUpgradeLevel:ArtifactLevel 10
+normalStartHomePlanetUpgradeLevel:Infrastructure 1
+quickStartHomePlanetUpgradeLevel:Population 1
+quickStartHomePlanetUpgradeLevel:CivilianModules 0
+quickStartHomePlanetUpgradeLevel:TacticalModules 0
+quickStartHomePlanetUpgradeLevel:Home 1
+quickStartHomePlanetUpgradeLevel:ArtifactLevel 10
+quickStartHomePlanetUpgradeLevel:Infrastructure 1
+recommendedGameTypeCount 1
+recommendedGameType "Solo"
+metersPerGalaxyUnit 20000.000000
+pixelsPerGalaxyUnit 3.679999
+useRandomGenerator FALSE
+galaxyWidth 1280.000000
+galaxyHeight 1300.000000
+nextStarNameUniqueId 1
+nextPlanetNameUniqueId 20
+triggerCount 0
+starCount 1
+star
+	designName "Star0"
+	inGameName "Stagittarius"
+	type "RandomStar"
+	pos [ 200 , 200 ]
+	radius 100.000000
+	planetCount 6
+	planet
+		designName "Planet4"
+		inGameName ""
+		type "DeadAsteroid"
+		pos [ 250 , 230 ]
+		owner "NewPlayer1"
+		isHomePlanet TRUE
+		normalStartUpgradeLevelForPopulation 1
+		normalStartUpgradeLevelForCivilianModules 0
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 2
+		normalStartUpgradeLevelForInfrastructure 0
+		quickStartUpgradeLevelForPopulation 1
+		quickStartUpgradeLevelForCivilianModules 0
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 2
+		quickStartUpgradeLevelForInfrastructure 0
+		planetItems
+			templateName ""
+			subTemplates 1
+			template "Stuff"
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate FALSE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet5"
+		inGameName ""
+		type "DeadAsteroid"
+		pos [ 163 , 222 ]
+		owner "NewPlayer0"
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 1
+		normalStartUpgradeLevelForCivilianModules 0
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 2
+		normalStartUpgradeLevelForInfrastructure 1
+		quickStartUpgradeLevelForPopulation 1
+		quickStartUpgradeLevelForCivilianModules 0
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 2
+		quickStartUpgradeLevelForInfrastructure 1
+		planetItems
+			templateName ""
+			subTemplates 1
+			template "Stuff2"
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate FALSE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet6"
+		inGameName ""
+		type "DeadAsteroid"
+		pos [ 237 , 222 ]
+		owner "NewPlayer1"
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 1
+		normalStartUpgradeLevelForCivilianModules 0
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 2
+		normalStartUpgradeLevelForInfrastructure 1
+		quickStartUpgradeLevelForPopulation 1
+		quickStartUpgradeLevelForCivilianModules 0
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 2
+		quickStartUpgradeLevelForInfrastructure 1
+		planetItems
+			templateName ""
+			subTemplates 1
+			template "Stuff2"
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate FALSE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet7"
+		inGameName ""
+		type "DeadAsteroid"
+		pos [ 150 , 230 ]
+		owner "NewPlayer0"
+		isHomePlanet TRUE
+		normalStartUpgradeLevelForPopulation 1
+		normalStartUpgradeLevelForCivilianModules 0
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 2
+		normalStartUpgradeLevelForInfrastructure 0
+		quickStartUpgradeLevelForPopulation 1
+		quickStartUpgradeLevelForCivilianModules 0
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 2
+		quickStartUpgradeLevelForInfrastructure 0
+		planetItems
+			templateName ""
+			subTemplates 1
+			template "Stuff"
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate FALSE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet15"
+		inGameName ""
+		type "DeadAsteroid"
+		pos [ 200 , 215 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 0
+		normalStartUpgradeLevelForCivilianModules 0
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 2
+		normalStartUpgradeLevelForInfrastructure 0
+		quickStartUpgradeLevelForPopulation 0
+		quickStartUpgradeLevelForCivilianModules 0
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 2
+		quickStartUpgradeLevelForInfrastructure 0
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 1
+			group
+				condition
+					type "Always"
+					param ""
+				owner "NoOwner"
+				colonizeChance 0.000000
+				items 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet19"
+		inGameName ""
+		type "DeadAsteroid"
+		pos [ 200 , 233 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 3
+		normalStartUpgradeLevelForCivilianModules 1
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 10
+		normalStartUpgradeLevelForInfrastructure 2
+		quickStartUpgradeLevelForPopulation 4
+		quickStartUpgradeLevelForCivilianModules 1
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 10
+		quickStartUpgradeLevelForInfrastructure 2
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 1
+			group
+				condition
+					type "Always"
+					param ""
+				owner "NoOwner"
+				colonizeChance 0.000000
+				items 0
+		spawnProbability 1.000000
+		useDefaultTemplate FALSE
+		entityCount 0
+		asteroidCount 0
+	connectionCount 8
+	connection
+		planetIndexA 0
+		planetIndexB 2
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 3
+		planetIndexB 1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 1
+		planetIndexB 4
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 4
+		planetIndexB 2
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 4
+		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 4
+		planetIndexB 5
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 5
+		planetIndexB 0
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 5
+		planetIndexB 3
+		spawnProbability 1.000000
+		type "PhaseLane"
+	entityCount 0
+	spawnProbability 1.000000
+interStarConnectionCount 0
+playerCount 2
+player
+	designName "NewPlayer0"
+	inGameName "NewPlayer0"
+	overrideRaceName ""
+	teamIndex -1
+	startingCredits 30000
+	startingMetal 7500
+	startingCrystal 7500
+	isNormalPlayer TRUE
+	isRaidingPlayer FALSE
+	isInsurgentPlayer FALSE
+	isOccupationPlayer FALSE
+	isMadVasariPlayer FALSE
+	themeGroup ""
+	themeIndex 0
+	pictureGroup ""
+	pictureIndex 0
+player
+	designName "NewPlayer1"
+	inGameName "NewPlayer1"
+	overrideRaceName ""
+	teamIndex -1
+	startingCredits 30000
+	startingMetal 7500
+	startingCrystal 7500
+	isNormalPlayer TRUE
+	isRaidingPlayer FALSE
+	isInsurgentPlayer FALSE
+	isOccupationPlayer FALSE
+	isMadVasariPlayer FALSE
+	themeGroup ""
+	themeIndex 0
+	pictureGroup ""
+	pictureIndex 0
+templates 4
+template
+	templateName "Stuff"
+	subTemplates 0
+	groups 13
+	group
+		condition
+			type "PlanetOwnerIsRaceNormalStart"
+			param "TechRebel"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 4
+		item "Tech:Module:FrigateFactory"
+		item "Tech:Module:FrigateFactory"
+		item "Tech:Module:FrigateFactory"
+		item "Tech:Module:CapitalShipFactory"
+	group
+		condition
+			type "PlanetOwnerIsRaceNormalStart"
+			param "TechLoyalist"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 4
+		item "Tech:Module:CapitalShipFactory"
+		item "Tech:Module:FrigateFactory"
+		item "Tech:Module:FrigateFactory"
+		item "Tech:Module:FrigateFactory"
+	group
+		condition
+			type "PlanetOwnerIsRaceNormalStart"
+			param "PsiLoyalist"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 4
+		item "Psi:Module:FrigateFactory"
+		item "Psi:Module:FrigateFactory"
+		item "Psi:Module:FrigateFactory"
+		item "Psi:Module:CapitalShipFactory"
+	group
+		condition
+			type "PlanetOwnerIsRaceNormalStart"
+			param "PsiRebel"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 4
+		item "Psi:Module:CapitalShipFactory"
+		item "Psi:Module:FrigateFactory"
+		item "Psi:Module:FrigateFactory"
+		item "Psi:Module:FrigateFactory"
+	group
+		condition
+			type "PlanetOwnerIsRaceNormalStart"
+			param "PhaseRebel"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 4
+		item "Phase:Module:FrigateFactory"
+		item "Phase:Module:FrigateFactory"
+		item "Phase:Module:FrigateFactory"
+		item "Phase:Module:CapitalShipFactory"
+	group
+		condition
+			type "PlanetOwnerIsRaceNormalStart"
+			param "PhaseLoyalist"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 4
+		item "Phase:Module:CapitalShipFactory"
+		item "Phase:Module:FrigateFactory"
+		item "Phase:Module:FrigateFactory"
+		item "Phase:Module:FrigateFactory"
+	group
+		condition
+			type "PlanetOwnerIsRaceQuickStart"
+			param "TechLoyalist"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 6
+		item "Tech:Module:FrigateFactory"
+		item "Tech:Module:FrigateFactory"
+		item "Tech:Module:FrigateFactory"
+		item "Tech:Module:CapitalShipFactory"
+		item "Tech:Frigate:Scout"
+		item "Tech:Frigate:Scout"
+	group
+		condition
+			type "PlanetOwnerIsRaceQuickStart"
+			param "TechRebel"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 6
+		item "Tech:Module:CapitalShipFactory"
+		item "Tech:Module:FrigateFactory"
+		item "Tech:Module:FrigateFactory"
+		item "Tech:Module:FrigateFactory"
+		item "Tech:Frigate:Scout"
+		item "Tech:Frigate:Scout"
+	group
+		condition
+			type "PlanetOwnerIsRaceQuickStart"
+			param "PsiLoyalist"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 6
+		item "Psi:Module:FrigateFactory"
+		item "Psi:Module:FrigateFactory"
+		item "Psi:Module:FrigateFactory"
+		item "Psi:Module:CapitalShipFactory"
+		item "Psi:Frigate:Scout"
+		item "Psi:Frigate:Scout"
+	group
+		condition
+			type "PlanetOwnerIsRaceQuickStart"
+			param "PsiRebel"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 6
+		item "Psi:Module:CapitalShipFactory"
+		item "Psi:Module:FrigateFactory"
+		item "Psi:Module:FrigateFactory"
+		item "Psi:Module:FrigateFactory"
+		item "Psi:Frigate:Scout"
+		item "Psi:Frigate:Scout"
+	group
+		condition
+			type "PlanetOwnerIsRaceQuickStart"
+			param "PhaseRebel"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 6
+		item "Phase:Module:FrigateFactory"
+		item "Phase:Module:FrigateFactory"
+		item "Phase:Module:FrigateFactory"
+		item "Phase:Module:CapitalShipFactory"
+		item "Phase:Frigate:Scout"
+		item "Phase:Frigate:Scout"
+	group
+		condition
+			type "PlanetOwnerIsRaceQuickStart"
+			param "PhaseLoyalist"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 6
+		item "Phase:Module:CapitalShipFactory"
+		item "Phase:Module:FrigateFactory"
+		item "Phase:Module:FrigateFactory"
+		item "Phase:Module:FrigateFactory"
+		item "Phase:Frigate:Scout"
+		item "Phase:Frigate:Scout"
+	group
+		condition
+			type "Always"
+			param ""
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 1
+		item "Artifact:BuildTimeReduction"
+template
+	templateName "Stuff2"
+	subTemplates 0
+	groups 13
+	group
+		condition
+			type "PlanetOwnerIsRaceQuickStart"
+			param "TechLoyalist"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 17
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:CultureCenter"
+	group
+		condition
+			type "PlanetOwnerIsRaceQuickStart"
+			param "TechRebel"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 17
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:CultureCenter"
+	group
+		condition
+			type "PlanetOwnerIsRaceQuickStart"
+			param "PsiLoyalist"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 17
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:CultureCenter"
+	group
+		condition
+			type "PlanetOwnerIsRaceQuickStart"
+			param "PhaseLoyalist"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 17
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:CultureCenter"
+	group
+		condition
+			type "PlanetOwnerIsRaceQuickStart"
+			param "PsiRebel"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 17
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:CultureCenter"
+	group
+		condition
+			type "PlanetOwnerIsRaceQuickStart"
+			param "PhaseRebel"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 17
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:CultureCenter"
+	group
+		condition
+			type "PlanetOwnerIsRaceNormalStart"
+			param "TechLoyalist"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 17
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:CultureCenter"
+	group
+		condition
+			type "PlanetOwnerIsRaceNormalStart"
+			param "TechRebel"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 17
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:NonCombatLab"
+		item "Tech:Module:CultureCenter"
+	group
+		condition
+			type "PlanetOwnerIsRaceNormalStart"
+			param "PsiLoyalist"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 17
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:CultureCenter"
+	group
+		condition
+			type "PlanetOwnerIsRaceNormalStart"
+			param "PsiRebel"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 17
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:NonCombatLab"
+		item "Psi:Module:CultureCenter"
+	group
+		condition
+			type "PlanetOwnerIsRaceNormalStart"
+			param "PhaseLoyalist"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 17
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:CultureCenter"
+	group
+		condition
+			type "PlanetOwnerIsRaceNormalStart"
+			param "PhaseRebel"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 17
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:NonCombatLab"
+		item "Phase:Module:CultureCenter"
+	group
+		condition
+			type "Always"
+			param ""
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 1
+		item "Artifact:ResearchArchive"
+template
+	templateName "ArtifactVolc"
+	subTemplates 0
+	groups 1
+	group
+		condition
+			type "Always"
+			param ""
+		owner "NoOwner"
+		colonizeChance 0.000000
+		items 1
+		item "Artifact:WeaponBoost"
+template
+	templateName "Artifactice"
+	subTemplates 0
+	groups 1
+	group
+		condition
+			type "Always"
+			param ""
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 1
+		item "Artifact:AntimatterRegen"

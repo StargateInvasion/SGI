@@ -1,0 +1,38 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_ABILITYACCESS_CHARGEDMISSILES"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_ABILITYACCESS_CHARGEDMISSILES"
+infoCardIcon ""
+NameStringID "IDS_ASURAN_RESEARCH_ABILITY_CHARGEDMISSILES_NAME"
+DescriptionStringID "IDS_ASURAN_RESEARCH_ABILITY_CHARGEDMISSILES_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 3 , 1 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_FrigateLongRange_Erinyes"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 60.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 1000.000000
+	metal 150.000000
+	crystal 250.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 3
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

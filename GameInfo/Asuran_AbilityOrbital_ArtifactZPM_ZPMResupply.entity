@@ -1,0 +1,60 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadius"
+instantActionTriggerType "AlwaysPerform"
+buffType "Asuran_BuffOrbital_ArtifactZPM_ZPMResupply"
+targetFilter
+	numOwnerships 1
+	ownership "Player"
+	numObjects 3
+	object "Frigate"
+	object "Titan"
+	object "CapitalShip"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 100000.000000
+	Level:1 100000.000000
+	Level:2 100000.000000
+	Level:3 100000.000000
+maxTargetCount
+	Level:0 -1.000000
+	Level:1 -1.000000
+	Level:2 -1.000000
+	Level:3 -1.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithBase"
+baseSourceResearchSubject "Asuran_Research_ZpmResearch"
+improveSourceResearchSubject ""
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Passive"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_ZpmResearch"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ASURAN_ABILITYORBITAL_ARTIFACTZPM_ZPMRESUPPLY_NAME"
+descStringID "IDS_ASURAN_ABILITYORBITAL_ARTIFACTZPM_ZPMRESUPPLY_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_ZPMRESUPPLY"
+smallHudIcon "HUDICON_ABILITY_ZPMRESUPPLY"
+infoCardIcon ""

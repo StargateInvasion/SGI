@@ -1,0 +1,38 @@
+TXT
+backdropDimPercentage 0.7
+backdropBrush ""
+titleOverlayBrush ""
+size [1024 , 768]
+contentRefArea [0, 0, 1024, 768]
+titleRefArea [0, 0, 1024 , 768]
+titleOverlayRefArea [0, 0, 1024 , 768]
+cancelButton
+	area [334, 213, 170, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 0
+	textOffsetFromLeft 0
+	underlay "TabButtonUnderlayActive"
+	overlay "TabButtonOverlayActive"		
+	icon ""
+	text "IDSGameOverDialogCancelButton"
+acceptButton
+	area [518, 213, 170, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 0
+	textOffsetFromLeft 0
+	underlay "TabButtonUnderlayActive"
+	overlay "TabButtonOverlayActive"		
+	icon ""
+	text "IDSGameOverDialogAcceptButton"
+pictureArea [0, 0, 1024, 768]
+themeBackdropArea [0, 0, 0, 0]
+themeIconArea [220 , 103, 80, 80]
+textBackdropArea [316 , 97, 390 , 179]
+playerStatusTextArea [415 , 110, 220, 70]
+playerPhraseTextArea [336 , 175, 350, 30]
+playerStatusTextFont "GameOverTitle"
+playerPhraseTextFont "Label"
+textBackdropBrush "GameOverDialogTextBackdrop"
+textOverlayBrush "GameOverDialogTextOverlay"
+pictureOverlayBrush "GameOverDialogPictureOverlay"
+

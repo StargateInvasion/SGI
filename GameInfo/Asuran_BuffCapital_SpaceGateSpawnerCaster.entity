@@ -1,0 +1,56 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling TRUE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "CapitalBuff_PhaseGate"
+		mediumEffectName "CapitalBuff_PhaseGate"
+		largeEffectName "CapitalBuff_PhaseGate"
+		soundID "EFFECT_PHASEGATECAPITAL_LOOP"
+instantAction
+	buffInstantActionType "ApplyBuffToLocalOrbitBody"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "Asuran_BuffCapital_SpaceGateTarget"
+	targetFilter
+		numOwnerships 3
+		ownership "Friendly"
+		ownership "Enemy"
+		ownership "NoOwner"
+		numObjects 2
+		object "Planet"
+		object "Star"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 75.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000

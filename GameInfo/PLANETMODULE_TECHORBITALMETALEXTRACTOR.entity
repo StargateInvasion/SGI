@@ -1,0 +1,72 @@
+﻿TXT
+entityType "PlanetModuleStandard"
+minZoomDistanceMult 6.000000
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
+numRandomDebrisLarge 4
+numRandomDebrisSmall 14
+numSpecificDebris 0
+armorType "Module"
+hudIcon "HUDICON_PLANETMODULE_TECHORBITALMETALEXTRACTOR"
+smallHudIcon "HUDICONSMALL_PLANETMODULE_TECHORBITALMETALEXTRACTOR"
+infoCardIcon "INFOCARDICON_PLANETMODULE_TECHORBITALMETALEXTRACTOR"
+planetUpgradeSlotType "Civilian"
+planetUpgradeSlotCount 0.000000
+basePrice
+	credits 250.000000
+	metal 0.000000
+	crystal 0.000000
+NameStringID "IDS_PLANETMODULE_TECHORBITALMETALEXTRACTOR_NAME"
+DescriptionStringID "IDS_PLANETMODULE_TECHORBITALMETALEXTRACTOR_DESC"
+planetModuleRoleType "METALEXTRACTOR"
+statCountType "ModuleMetalExtractor"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MaxHullPoints 2500.000000
+HullPointRestoreRate 2.000000
+BaseArmorPoints 4.000000
+MaxShieldPoints 0.000000
+ShieldPointRestoreRate 0.000000
+maxShieldMitigation 0.000000
+ExperiencePointsForDestroying 20.000000
+resourceExtractionType "Metal"
+cultureSpreadRate 0.000000
+isAffectedBySimilarModuleCostResearch TRUE
+placementRadius 500.000000
+nearPlacementDistOffset 0.000000
+farPlacementDistOffset 9000.000000
+spawnCount 1
+swapMineType ""
+angularSpeed 0.000000
+rotateSoundName ""
+rotateFacingType "None"
+rotateConstantly FALSE
+ShieldMeshName ""
+renderShield TRUE
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 0
+NumSoundsFor:ONSELECTED 1
+SoundID "PLANETMODULE_TECHORBITALEXTRACTOR_ONSELECTION_0"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "PlanetModule_TechOrbitalExtractor"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExplosionName "PlanetModuleSmall"
+mainViewIcon "MAINVIEWICON_PLANETMODULE_TECHORBITALMETALEXTRACTOR"
+picture "PLANETMODULEPICTURE_TECHORBITALMETALEXTRACTOR"
+minShadow 0.000000
+maxShadow 0.600000
+formationRank 3
+baseBuildTime 40.000000
+buildEffectName ""

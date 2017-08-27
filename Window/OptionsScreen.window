@@ -1,0 +1,54 @@
+TXT
+tabWindow
+	topLeftOffset [0, -20]
+	buttonTopLeftOffset [33, 97]
+	buttonSize [ 170 , 52 ]
+	buttonIndicatorArea [148, -2, 72, 52]
+	buttonIndicatorBackdrop "TabWindowButtonIndicatorBackdrop"
+	titleStringId "IDSOptionsScreenTitle"
+	titleFontId "TabbedScreenTitle"
+	titleArea [20, 40, 190, 40]	
+	titleOverlayArea [21, 33, 190, 40]
+	titleOverlay "TabWindowTitleOverlay"
+	buttonsBackdropArea [0, 0, 210, 808]
+	buttonsBackdropDetailArea [0, 0, 210, 749]
+	contentArea [230, 0, 814, 808]
+	buttonsBackdrop "TabWindowButtonBackdropFrontEnd"
+	buttonsBackdropDetail ""
+	contentBackdrop "TabWindowContentBackdropFrontEnd"
+	nonActiveButtonInternals
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 40
+		textOffsetFromLeft 50
+		underlay "TabButtonUnderlayNonActive"
+		overlay "TabButtonOverlayNonActive"						
+	activeButtonInternals
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 40
+		textOffsetFromLeft 50
+		underlay "TabButtonUnderlayActive"
+		overlay "TabButtonOverlayActive"						
+	closeButton
+		area [33, 724, 170 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 40
+		textOffsetFromLeft 50
+		underlay "TabButtonUnderlayNonActive"
+		overlay "TabButtonOverlayNonActive"					
+		icon "ScreenBackButton"
+		text "IDSOptionsScreenBackButton"
+sharedDef
+	screenCheckBoxDef
+		boxWidth 33
+		textFontId "Label"
+		textLeftOffset 40
+		boxBackdrop "CheckBoxBackdrop"
+		boxOverlayWhenOn "CheckBoxCheckStateTrue"
+		boxOverlayWhenOff ""
+	screenScrollBarDef
+		labelFontId "Label"
+		labelWidth 150
+	anchorOffset [0, 52]
+	textEntryDef
+		labelFontId "Label"
+		textEntryFontId "TextEntry"

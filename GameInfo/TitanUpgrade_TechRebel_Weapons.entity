@@ -1,0 +1,80 @@
+﻿TXT
+entityType "TitanUpgrade"
+stageCount 5
+stage
+	nameStringID "IDS_TITANUPGRADE_TECHREBEL_WEAPONS_NAME"
+	descStringID "IDS_TITANUPGRADE_TECHREBEL_WEAPONS_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement -1
+	hudIcon "HUDIconTitanTechRebelWeaponUpgrade0"
+	smallHudIcon "HUDIconTitanTechRebelWeaponUpgrade0"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_TECHREBEL_WEAPONS_NAME"
+	descStringID "IDS_TITANUPGRADE_TECHREBEL_WEAPONS_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 0
+	hudIcon "HUDIconTitanTechRebelWeaponUpgrade0"
+	smallHudIcon "HUDIconTitanTechRebelWeaponUpgrade0"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "WeaponDamage"
+		value 0.150000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_TECHREBEL_WEAPONS_NAME"
+	descStringID "IDS_TITANUPGRADE_TECHREBEL_WEAPONS_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 2
+	hudIcon "HUDIconTitanTechRebelWeaponUpgrade1"
+	smallHudIcon "HUDIconTitanTechRebelWeaponUpgrade1"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "WeaponDamage"
+		value 0.250000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_TECHREBEL_WEAPONS_NAME"
+	descStringID "IDS_TITANUPGRADE_TECHREBEL_WEAPONS_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 4
+	hudIcon "HUDIconTitanTechRebelWeaponUpgrade2"
+	smallHudIcon "HUDIconTitanTechRebelWeaponUpgrade2"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "WeaponDamage"
+		value 0.350000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_TECHREBEL_WEAPONS_NAME"
+	descStringID "IDS_TITANUPGRADE_TECHREBEL_WEAPONS_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 6
+	hudIcon "HUDIconTitanTechRebelWeaponUpgrade3"
+	smallHudIcon "HUDIconTitanTechRebelWeaponUpgrade3"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "WeaponDamage"
+		value 0.450000
+	upgradeBoolPropertyCount 0

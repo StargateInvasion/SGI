@@ -1,0 +1,231 @@
+TXT
+tabWindow
+	topLeftOffset [0, 39]
+	buttonTopLeftOffset [33, 90]
+	buttonSize [ 170 , 52 ]
+	buttonIndicatorArea [148, -2, 72, 52]
+	buttonIndicatorBackdrop "TabWindowButtonIndicatorBackdrop"
+	titleStringId "IDSEscapeMenuScreenTitle"
+	titleFontId "TabbedScreenTitle"
+	titleArea [20, 20, 190, 40]
+	titleOverlayArea [12, 4, 208 , 59]
+	titleOverlay "TabWindowTitleOverlay"
+	buttonsBackdropArea [0, 0, 210, 749]
+	buttonsBackdropDetailArea [0, 0, 210, 749]
+	contentArea [230, 0, 814, 749]
+	buttonsBackdrop "TabWindowButtonBackdropInGame"
+	buttonsBackdropDetail ""
+	contentBackdrop "TabWindowContentBackdropInGame"
+	nonActiveButtonInternals
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 40
+		textOffsetFromLeft 50
+		underlay "TabButtonUnderlayNonActive"
+		overlay "TabButtonOverlayNonActive"						
+	activeButtonInternals
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 40
+		textOffsetFromLeft 50
+		underlay "TabButtonUnderlayActive"
+		overlay "TabButtonOverlayActive"		
+	closeButton
+		area [33, 665, 170 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 40
+		textOffsetFromLeft 50
+		underlay "TabButtonUnderlayNonActive"
+		overlay "TabButtonOverlayNonActive"				
+		icon "EscapeMenuScreenCloseButton"
+		text "IDSEscapeMenuScreenCloseButton"
+sharedScreenTextEntryDef
+	labelFontId "Label"
+	textEntryFontId "TextEntry"
+quitGame
+	tabButtonIcon "EscapeMenuScreenQuitGameTabButton"
+	tabButtonText "IDSEscapeMenuScreenQuitGameTabButton"
+	quitGameButton
+		area [50, 93, 220, 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "EscapeMenuScreenQuitGameButton"
+		text "IDSEscapeMenuScreenQuitGameButton"
+	surrenderButton
+		area [50, 145, 220, 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "EscapeMenuScreenSurrenderButton"
+		text "IDSEscapeMenuScreenSurrenderButton"
+saveGame
+	tabButtonIcon "EscapeMenuScreenSaveGameTabButton"
+	tabButtonText "IDSEscapeMenuScreenSaveGameTabButton"
+	fileNameTextEntry
+		area [50, 561, 220, 42]
+		labelWidth 0
+		labelText ""
+	fileNameListLabel
+		area [50, 55, 220, 30]
+		fontId "WindowSubTitle"
+		text "IDSEscapeMenuScreenSaveGameFileNameListLabel"
+	fileNameList
+		area [50, 93, 220, 458]
+		itemGap 3
+	saveButton
+		area [540, 561, 220, 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "EscapeMenuScreenSaveGameButton"
+		text "IDSEscapeMenuScreenSaveGameButton"
+	autoSaveCheckBoxDef
+		boxWidth 33
+		textFontId "Label"
+		textLeftOffset 40
+		boxBackdrop "CheckBoxBackdrop"
+		boxOverlayWhenOn "CheckBoxCheckStateTrue"
+		boxOverlayWhenOff ""	
+	autoSaveCheckBox
+		area [284, 568, 100, 30]
+		text "IDSOptionsScreenUserInterfaceOptionsAutoSave"
+	cloudSaveCheckBox
+		area [398, 568, 130, 30]
+		text "IDSOptionsScreenUserInterfaceOptionsCloudSave"					
+	galaxyInfoWindow
+		area [285, 92, 455, 254]
+recordGame
+	tabButtonIcon "EscapeMenuScreenRecordGameTabButton"
+	tabButtonText "IDSEscapeMenuScreenRecordGameTabButton"
+	fileNameTextEntry
+		area [50, 561, 220, 42]
+		labelWidth 0
+		labelText ""
+	fileNameListLabel
+		area [50, 55, 220, 30]
+		fontId "WindowSubTitle"
+		text "IDSEscapeMenuScreenRecordGameFileNameListLabel"		
+	fileNameList
+		area [50, 93, 220, 458]
+		itemGap 3
+	saveButton
+		area [520, 561, 220, 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "EscapeMenuScreenSaveGameButton"
+		text "IDSEscapeMenuScreenSaveGameButton"
+	autoRecordCheckBoxDef
+		boxWidth 33
+		textFontId "Label"
+		textLeftOffset 40
+		boxBackdrop "CheckBoxBackdrop"
+		boxOverlayWhenOn "CheckBoxCheckStateTrue"
+		boxOverlayWhenOff ""	
+	autoRecordCheckBox
+		area [284, 561, 220, 30]
+		text "IDSOptionsScreenUserInterfaceOptionsAutoRecord"					
+	galaxyInfoWindow
+		area [285, 92, 455, 254]			
+loadGame
+	tabButtonIcon "EscapeMenuScreenLoadGameTabButton"
+	tabButtonText "IDSEscapeMenuScreenLoadGameTabButton"
+	fileNameListLabel
+		area [50, 55, 220, 30]
+		fontId "WindowSubTitle"
+	fileNameList
+		area [50, 93, 220, 458]
+		itemGap 3
+	selectGameSaveTypeWindow
+		area [50, 562, 220, 46]
+	loadButton
+		area [520, 561, 220, 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "EscapeMenuScreenLoadGameButton"
+		text "IDSEscapeMenuScreenLoadGameButton"
+	galaxyInfoWindow
+		area [285, 93, 455, 254]			
+watchGame
+	tabButtonIcon "EscapeMenuScreenWatchGameTabButton"
+	tabButtonText "IDSEscapeMenuScreenWatchGameTabButton"
+	fileNameListLabel
+		area [50, 55, 220, 30]
+		fontId "WindowSubTitle"
+	fileNameList
+		area [50, 93, 220, 458]
+		itemGap 3
+	selectGameSaveTypeWindow
+		area [50, 562, 220, 46]
+	loadButton
+		area [520, 561, 220, 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "EscapeMenuScreenWatchGameButton"
+		text "IDSEscapeMenuScreenWatchGameButton"
+	galaxyInfoWindow
+		area [285, 92, 455, 254]			
+networkStatus
+	tabButtonIcon "EscapeMenuScreenNetworkStatusTabButton"
+	tabButtonText "IDSEscapeMenuScreenNetworkStatusTabButton"
+	computerSpeedLabelTextId "IDSEscapeMenuScreenNetworkStatusComputerSpeedLabel"
+	networkSpeedLabelTextId "IDSEscapeMenuScreenNetworkStatusNetworkSpeedLabel"
+	playerStatusLabelTextId "IDSEscapeMenuScreenNetworkStatusPlayerStatusLabel"
+	computerSpeedLabelArea [250, 44, 75, 46]
+	networkSpeedLabelArea [325, 44, 75, 46]
+	playerStatusLabelArea [400, 44, 75, 46]
+	firstPlayerWindowArea [50, 94, 700, 46]
+	playerWindowStride [0, 52]
+	playerWindowDef
+		statusOkTextId "IDSEscapeMenuScreenNetworkStatusPlayerStatusOk"
+		statusLaggingTextId "IDSEscapeMenuScreenNetworkStatusPlayerStatusLagging"
+		statusMigratingTextId "IDSEscapeMenuScreenNetworkStatusPlayerStatusMigrating"
+		statusLoadingTextId "IDSEscapeMenuScreenNetworkStatusPlayerStatusLoading"
+		statusDisconnectedTextId "IDSEscapeMenuScreenNetworkStatusPlayerStatusDisconnected"
+		dropLaggingPlayerTextId "IDSEscapeMenuScreenNetworkStatusActionDropLaggingPlayer"
+		dropMigratingPlayerTextId "IDSEscapeMenuScreenNetworkStatusActionDropMigratingPlayer"
+		cancelMigrationTextId "IDSEscapeMenuScreenNetworkStatusActionCancelMigration"
+		dropLaggingPlayerIcon "EscapeMenuScreenNetworkStatusActionDropLaggingPlayer"
+		dropMigratingPlayerIcon "EscapeMenuScreenNetworkStatusActionDropMigratingPlayer"
+		cancelMigrationIcon "EscapeMenuScreenNetworkStatusActionCancelMigration"
+		themeArea [0, 0, 40, 46]
+		nameArea [45, 0, 150, 46]
+		computerSpeedArea [200, 0, 75, 46]
+		networkSpeedArea [275, 0, 75, 46]
+		statusArea [350, 0, 75, 46]
+		actionButtonInternals
+			area [470, 0, 220, 46]
+			fontId "ButtonLabel"
+			iconOffsetFromLeft 22
+			textOffsetFromLeft 70
+			underlay "ScreenButtonUnderlayLarge"
+			overlay "ScreenButtonOverlayLarge"
+optionsScreenSharedDef
+	screenCheckBoxDef
+		boxWidth 33
+		textFontId "Label"
+		textLeftOffset 40
+		boxBackdrop "CheckBoxBackdrop"
+		boxOverlayWhenOn "CheckBoxCheckStateTrue"
+		boxOverlayWhenOff ""
+	screenScrollBarDef
+		labelFontId "Label"
+		labelWidth 150
+	anchorOffset [0, -7]
+	textEntryDef
+		labelFontId "Label"
+		textEntryFontId "TextEntry"
+	

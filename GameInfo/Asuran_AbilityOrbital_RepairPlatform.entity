@@ -1,0 +1,69 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTarget"
+instantActionTriggerType "AlwaysPerform"
+buffType "Asuran_BuffOrbital_RepairPlatform"
+targetFilter
+	numOwnerships 1
+	ownership "Friendly"
+	numObjects 4
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	numSpaces 1
+	space "Normal"
+	numConstraints 2
+	constraint "NotSelf"
+	constraint "HasHullDamage"
+range
+	Level:0 12000.000000
+	Level:1 12000.000000
+	Level:2 12000.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "Ability_RepairPlatformPhaseActivate"
+	mediumEffectName "Ability_RepairPlatformPhaseActivate"
+	largeEffectName "Ability_RepairPlatformPhaseActivate"
+	soundID "EFFECT_REPAIR_PHASE"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "FixedLevel0"
+aiUseTime "Anytime"
+aiUseTargetCondition "HullDamageExceedsAmount"
+onlyAutoCastWhenTargetHullDamageExceedsAmount
+	Level:0 150.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 20.000000
+	Level:1 20.000000
+	Level:2 20.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 5.000000
+	Level:1 5.000000
+	Level:2 5.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ASURAN_ABILITYORBITAL_REPAIRPLATFORM_NAME"
+descStringID "IDS_ASURAN_ABILITYORBITAL_REPAIRPLATFORM_DESCRIPTION"
+hudIcon "HUDICON_SUPPORTABILITY_REPAIRPHASEPLANETMODULE"
+smallHudIcon "HUDICON_SUPPORTABILITY_REPAIRPHASEPLANETMODULE"
+infoCardIcon ""

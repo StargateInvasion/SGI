@@ -1,0 +1,62 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetNoRange"
+instantActionTriggerType "AlwaysPerform"
+buffType "Asuran_BuffCapital_Observation"
+targetFilter
+	numOwnerships 3
+	ownership "Friendly"
+	ownership "Enemy"
+	ownership "NoOwner"
+	numObjects 1
+	object "Planet"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+effectInfo
+	effectAttachInfo
+		attachType "Ability"
+		abilityIndex 2
+	smallEffectName "CapitalAbility_FarSightActivate"
+	mediumEffectName "CapitalAbility_FarSightActivate"
+	largeEffectName "CapitalAbility_FarSightActivate"
+	soundID "EFFECT_FARSIGHT"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 6.000000
+aiUseTime "NotInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget TRUE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 100.000000
+	Level:1 80.000000
+	Level:2 70.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 30.000000
+	Level:1 25.000000
+	Level:2 15.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ASURAN_ABILITYCAPITAL_OBSERVATION_NAME"
+descStringID "IDS_ASURAN_ABILITYCAPITAL_OBSERVATION_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_FARSIGHT"
+smallHudIcon "HUDICON_ABILITY_FARSIGHT"
+infoCardIcon ""

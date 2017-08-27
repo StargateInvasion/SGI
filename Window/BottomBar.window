@@ -1,0 +1,80 @@
+TXT
+size [1024, 114]
+userInputGridWindow
+	area [730, 20, 271, 80]
+	slotSize [54, 40]
+	slotGap [0, 0]
+	barOffsetFromTop 7
+	barWidthModifier -10
+	actionInProgressIconOffsetFromCenter [-23, -16]
+	autoCastIconOffsetFromCenter [-8, -8]
+	actionInProgressBrushAnimation "ActionInProgressOverlay"
+	autoCastBrushAnimation "AutoCastEnabledOverlay"
+	passiveAbilityOverlay "ActionGridSlotPassiveAbilityOverlay"
+pictureWindow
+	area [425, 25, 167, 75]
+openEntityDetailsButton
+	area [472, 0, 68, 15]
+	onBrush "BottomWindowButtonOpenRenameWindow"
+	offBrush "BottomWindowButtonOpenRenameWindow"	
+toggleScuttleButton
+	area [481, 102, 50, 10]
+	onBrush "BottomWindowButtonToggleScuttleOn"
+	offBrush "BottomWindowButtonToggleScuttleOff"	
+pingButton
+	area [664, 63, 50, 36]
+	onBrush "BottomWindowButtonPing"
+	offBrush "BottomWindowButtonPing"	
+increaseGameSpeedButton
+	area [537, -4, 42 , 18]
+	onBrush "BottomWindowButtonIncreaseGameSpeed"
+	offBrush "BottomWindowButtonIncreaseGameSpeed_Off"	
+decreaseGameSpeedButton
+	area [434, -4, 42 , 18]
+	onBrush "BottomWindowButtonDecreaseGameSpeed"
+	offBrush "BottomWindowButtonDecreaseGameSpeed_Off"			
+toggleIsAutoPlaceModuleActiveButton
+	area [664, 23, 50, 36]
+	onBrush "BottomWindowButtonToggleIsAutoPlaceModuleActiveOn"
+	offBrush "BottomWindowButtonToggleIsAutoPlaceModuleActiveOff"		
+entityInfoWindow
+	area [300, 0, 120, 100]	
+	iconArea [5, -4, 30, 30]
+	textArea [40, 2, 35, 30]
+	ShipHull [0, 22, 100, 30]
+	ShipShield [0, 53, 100, 30]
+	ShipAntimatter [0, 84, 100, 30]
+	MilitaryPlayerRanking [0, 53, 100, 30]
+	CivilianPlayerRanking [0, 22, 100, 30]
+	EconomyPlayerRanking [0, 84, 100, 30]
+	PlanetAllegiance [0, 53, 100, 30]
+	PlanetBonus [0, 84, 100, 30]
+	PlanetHealth [0, 22, 100, 30]
+	entityInfoInfoCardIcon "WindowInfoCardDefaultIcon"
+	planetAllegianceIcon "BottomEntityInfoIconPlanetAllegiance"
+	planetBonusIcon "BottomEntityInfoIconPlanetBonus"
+	planetHealthIcon "BottomEntityInfoIconPlanetHealth"
+	hullIcon "BottomEntityInfoIconHull"
+	shieldIcon "BottomEntityInfoIconShield"
+	antiMatterIcon "BottomEntityInfoIconAntiMatter"
+	militaryPlayerRankingSmallIcon "BottomMilitaryPlayerRankingSmallIcon"
+	militaryPlayerRankingLargeIcon "BottomMilitaryPlayerRankingLargeIcon"
+	civilianPlayerRankingSmallIcon "BottomCivilianPlayerRankingSmallIcon"
+	civilianPlayerRankingLargeIcon "BottomCivilianPlayerRankingLargeIcon"
+	economyPlayerRankingSmallIcon "BottomEconomyPlayerRankingSmallIcon"
+	economyPlayerRankingLargeIcon "BottomEconomyPlayerRankingLargeIcon"
+gameEventCategoryButtonDef
+	categoryUnderlayBrush-Default ""
+	categoryUnderlayBrush-Ping "GameEventButtonEmptyCategoryPing"
+	categoryUnderlayBrush-Production "GameEventButtonEmptyCategoryProduction"
+	categoryUnderlayBrush-Alliance "GameEventButtonEmptyCategoryAlliance"
+	categoryUnderlayBrush-Threat "GameEventButtonEmptyCategoryThreat"
+	achievementIconArea [0, 0, 56, 67]
+pingGameEventsButton
+	area [41, 28, 56 , 67 ]
+productionGameEventsButton
+	area [99, 28, 56 , 67 ]
+allianceGameEventsButton
+	area [157, 28, 56 , 67 ]
+threatGameEventsButton
+	area [215, 28, 56 , 67 ]

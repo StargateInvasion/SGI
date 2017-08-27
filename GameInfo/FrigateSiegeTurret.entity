@@ -1,0 +1,142 @@
+﻿TXT
+entityType "Frigate"
+defaultAutoAttackRange "None"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb TRUE
+hasBombingLevels TRUE
+baseDamage
+	Level:0 20.000000
+	Level:1 26.000000
+	Level:2 31.000000
+	Level:3 37.000000
+basePopulationKilled
+	Level:0 1.100000
+	Level:1 2.000000
+	Level:2 2.900000
+	Level:3 3.800000
+bombingFreqTime 10.000000
+baseRange 6000.000000
+bombTransitTime 4.000000
+bombEffectCount 2
+bombEffectAngleVariance 2.500000
+bombEffectsDef
+	weaponType "Beam"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_PhaseCapitalPlanetBombing_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound ""
+	hitEffectName "Weapon_PhaseCapitalPlanetBombing_Hit"
+	hitHullEffectSounds
+		soundCount 1
+		sound ""
+	hitShieldsEffectSounds
+		soundCount 1
+		sound ""
+	beamEffectSounds
+		soundCount 1
+		sound "WEAPON_PHASEPLANETBOMB_LOOP"
+	beamGlowTextureName "PhaseCapitalBombingBeam_Glow"
+	beamCoreTextureName "PhaseCapitalBombingBeam_Core"
+	beamWidth 30.000000
+	beamGlowColor ffffffff
+	beamCoreColor ffffffff
+	beamTilingRate 3.000000
+typeCount 1
+frigateRoleType "Siege"
+statCountType "FrigateSiege"
+mainViewIcon "MAINVIEWICON_FRIGATE_TURRETSIEGE"
+picture "PICTURE_FRIGATE_TURRETSIEGE"
+NameStringID "IDS_FRIGATE_TURRETSIEGE_NAME"
+DescriptionStringID "IDS_FRIGATE_TURRETSIEGE_DESCRIPTION"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
+basePrice
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+slotCount 0.000000
+BuildTime 50.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 30.000000
+MaxHullPoints 735.000000
+MaxShieldPoints 0.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 0.000000
+BaseArmorPoints 2.000000
+maxMitigation 0.600000
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 5
+numSpecificDebris 0
+armorType "Light"
+hudIcon "HUDICON_FRIGATE_TURRETSIEGE"
+smallHudIcon "HUDICONSMALL_FRIGATE_TURRETSIEGE"
+infoCardIcon "INFOCARDICON_FRIGATE_TURRETSIEGE"
+minZoomDistanceMult 8.000000
+NumWeapons 0
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 0
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 2000.000000
+ShieldMeshName "Shield_FrigateTurretSiege"
+renderShield TRUE
+maxAccelerationLinear 0.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 3.000000
+maxDecelerationAngular 9.999996
+maxSpeedLinear -1.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 0
+NumSoundsFor:ONSELECTED 0
+NumSoundsFor:ONSTARTPHASEJUMP 0
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Frigate_TurretSiege"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "CapitalBuff_Null"
+ExplosionName "Frigate0"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID ""
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 0
+minShadow 0.000000
+maxShadow 0.600000
+allegianceDecreasePerRoundtrip 0.000000

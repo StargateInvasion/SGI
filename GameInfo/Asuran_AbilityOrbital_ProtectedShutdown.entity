@@ -1,0 +1,52 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyOrRemoveBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Asuran_BuffOrbital_ProtectedShutdown"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+toggleStateOnNameStringID "IDS_ABILITY_PROTECTEDSHUTDOWNACTIVE_NAME"
+toggleStateOnDescStringID "IDS_ABILITY_PROTECTEDSHUTDOWNACTIVE_DESCRIPTION"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 2
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "Asuran_Research_Ability_ProtectedShutdown"
+aiUseTime "OnlyWhenTakingDamage"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 10.000000
+	Level:1 10.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_Ability_ProtectedShutdown"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ASURAN_ABILITYORBITAL_PROTECTEDSHUTDOWN_NAME"
+descStringID "IDS_ASURAN_ABILITYORBITAL_PROTECTEDSHUTDOWN_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_PROTECTEDSHUTDOWN"
+smallHudIcon "HUDICON_ABILITY_PROTECTEDSHUTDOWN_ACTIVE"
+infoCardIcon ""

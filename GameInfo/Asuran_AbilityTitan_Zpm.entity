@@ -1,0 +1,49 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyOrRemoveBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Asuran_BuffTitan_Zpm"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+toggleStateOnNameStringID "IDS_ABILITY_ATLANTISZPMACTIVE_NAME"
+toggleStateOnDescStringID "IDS_ABILITY_ATLANTISZPMACTIVE_DESCRIPTION"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityDLevel"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 50.000000
+	Level:1 50.000000
+	Level:2 50.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 5.000000
+	Level:1 5.000000
+	Level:2 5.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ASURAN_ABILITYTITAN_ZPM_NAME"
+descStringID "IDS_ASURAN_ABILITYTITAN_ZPM_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_ATLANTISZPM"
+smallHudIcon "HUDICON_ABILITY_ATLANTISZPM"
+infoCardIcon ""

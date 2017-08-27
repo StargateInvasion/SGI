@@ -1,0 +1,43 @@
+TXT
+tabButtonIcon "OptionsScreenKeyBindingsTabButton"
+tabButtonText "IDSOptionsScreenKeyBindingsTabButton"
+uiMappingList
+	area [50, 100, 455, 510]
+	fontId "ListItem"
+	itemHeight 18
+	itemTextOffsetFromLeft 5
+	nameWidth 200
+	scrollBarWidth 19
+	scrollWheelDelta 14
+	scrollBarDelta 14
+	selectedItemBackdrop "ListWindowSelectedItem"
+resetAllMappingsButton
+	area [50, 620, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"		
+	icon "OptionsScreenKeyBindingsResetAllMappings"
+	text "IDSOptionsScreenKeyBindingsResetAllMappings"
+addMappingButton
+	area [520, 100, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	icon "OptionsScreenKeyBindingsAddMapping"
+	text "IDSOptionsScreenKeyBindingsAddMapping"
+clearMappingButton
+	area [520, 152, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	icon "OptionsScreenKeyBindingsClearMapping"
+	text "IDSOptionsScreenKeyBindingsClearMapping"
+showMappingsOnInfoCardsCheckBox
+	area [49, 62, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsShowMappingsOnInfoCards"	

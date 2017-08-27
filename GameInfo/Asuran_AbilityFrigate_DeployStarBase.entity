@@ -1,0 +1,47 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "CreateStarBase"
+instantActionTriggerType "AlwaysPerform"
+starBaseType "Asuran_StarBaseSpecial_Atlas"
+placementRadius
+	Level:0 1000.000000
+	Level:1 1000.000000
+	Level:2 1000.000000
+	Level:3 0.000000
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "Asuran_Research_Ability_DeployStarBase"
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Resources"
+resourceCost
+	credits 2000.000000
+	metal 425.000000
+	crystal 400.000000
+cooldownTime
+	Level:0 10.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_Ability_DeployStarBase"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ASURAN_ABILITYFRIGATE_DEPLOYSTARBASE_NAME"
+descStringID "IDS_ASURAN_ABILITYFRIGATE_DEPLOYSTARBASE_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_DEPLOYSTARBASEPHASE"
+smallHudIcon "HUDICON_ABILITY_DEPLOYSTARBASEPHASE"
+infoCardIcon ""

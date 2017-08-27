@@ -1,0 +1,100 @@
+TXT
+rowSize [600, 42]
+startTopLeft [0, 0]
+nameLabelDef
+	area [100, 5, 150, 28]
+	fontId "Label"
+	activeHumanColor ffffffff
+	humanColor ffffffff
+	nonHumanColor ffffffff
+	aiNameFormat "IDSPlayerSetupWindowAIPlayerNameFormat"
+themeButtonDef
+	area [48, 0, 45 , 38]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft -4
+	textOffsetFromLeft 0
+	underlay "ScreenButtonUnderlayTiny"
+	overlay "ScreenButtonOverlayTiny"			
+raceButtonDef
+	area [234, 0, 105 , 38]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft -13
+	textOffsetFromLeft 17
+	underlay "ScreenButtonUnderlayMedium"
+	overlay "ScreenButtonOverlayMedium"		
+	randomRaceNameStringId "IDSPlayerSetupWindowRandomRaceName"
+	randomRacePictureIcon "RandomRacePictureIcon"
+statusButtonDef
+	area [0, 0, 45 , 38]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft -4
+	textOffsetFromLeft 0
+	underlay "ScreenButtonUnderlayTiny"
+	overlay "ScreenButtonOverlayTiny"		
+	slotStatusIcon-Available "PlayerStatusAvailable"
+	slotStatusIcon-AvailableForFriend "PlayerStatusAvailableForFriend"
+	slotStatusIcon-Human "PlayerStatusHuman"
+	slotStatusIcon-AI "PlayerStatusAI"
+	slotStatusIcon-Closed "PlayerStatusClosed"	
+readyToStartButtonDef
+	area [512, 0, 45 , 38]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft -3
+	textOffsetFromLeft 0
+	underlay "ScreenButtonUnderlayTiny"
+	overlay "ScreenButtonOverlayTiny"		
+	readyToStartBrushAnimationTrue "PlayerSetupReadyToStartTrue"
+	readyToStartBrushAnimationFalse "PlayerSetupReadyToStartFalse"
+teamButtonDef
+	area [360, 0, 105 , 38]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 0
+	textOffsetFromLeft 40
+	underlay "ScreenButtonUnderlaySmall"
+	overlay "ScreenButtonOverlaySmall"		
+	teamTextFormatId "IDSPlayerSetupWindowTeamButtonFormat"
+	teamIcon-0 "PlayerTeam0"
+	teamIcon-1 "PlayerTeam1"
+	teamIcon-2 "PlayerTeam2"
+	teamIcon-3 "PlayerTeam3"
+	teamIcon-4 "PlayerTeam4"
+	teamIcon-5 "PlayerTeam5"
+	teamIcon-6 "PlayerTeam6"
+	teamIcon-7 "PlayerTeam7"
+	teamIcon-8 "PlayerTeam8"
+	teamIcon-9 "PlayerTeam9"
+aiDifficultyButtonDef
+	area [512, 0, 45 , 38]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft -4
+	textOffsetFromLeft 0
+	underlay "ScreenButtonUnderlayTiny"
+	overlay "ScreenButtonOverlayTiny"		
+	aiDifficultyIcon-Easy "PlayerAIDifficultyEasy"
+	aiDifficultyIcon-Medium "PlayerAIDifficultyMedium"
+	aiDifficultyIcon-Hard "PlayerAIDifficultyHard"
+	aiDifficultyIcon-Unfair "PlayerAIDifficultyUnfair"
+	aiDifficultyIcon-Nightmare "PlayerAIDifficultyNightmare"
+	aiDifficultyIcon-Impossible "PlayerAIDifficultyImpossible"
+aiStyleButtonDef
+	area [466, 0, 45 , 38]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft -4
+	textOffsetFromLeft 0	
+	underlay "ScreenButtonUnderlayTiny"
+	overlay "ScreenButtonOverlayTiny"			
+	aiStyleIcon-Random "PlayerAIStyleRandom"
+	aiStyleIcon-Aggressive "PlayerAIStyleAggressive"
+	aiStyleIcon-Defensive "PlayerAIStyleDefensive"
+	aiStyleIcon-Research "PlayerAIStyleResearch"
+	aiStyleIcon-Economic "PlayerAIStyleEconomic"
+icoPlayerInfoButtonDef
+	area [466, 0, 45 , 38]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft -4
+	textOffsetFromLeft 0
+	underlay "ScreenButtonUnderlayTiny"
+	overlay "ScreenButtonOverlayTiny"		
+	icon "PlayerSetupOpenICOPlayerInfo"
+useRaceSelectDialog TRUE
+

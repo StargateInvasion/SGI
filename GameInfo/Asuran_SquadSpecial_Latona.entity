@@ -1,0 +1,48 @@
+﻿TXT
+entityType "Squad"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+hudIcon "Asuran_FighterBomberIcon"
+smallHudIcon "HUDICONSMALL_ASURAN_FIGHTERSQUAD_LATONA"
+infoCardIcon "INFOCARDICON_ASURAN_FIGHTERSQUAD_LATONA"
+fighterEntityDef "Asuran_FighterBomber_Raptor"
+fighterIllusionEntityDef ""
+scuttleTime 15.000000
+fighterConstructionTime 33.000000
+decayWithoutOwnerRate 0.010000
+baseMaxNumFighters 3
+role "Bomber"
+statCountType "SquadBomber"
+mainViewIcon "MAINVIEWICON_SQUADPHASEBOMBER"
+picture "PICTURE_SQUADPHASEBOMBER"
+launchIcon "HUDICONLAUNCH_SQUADPHASEBOMBER"
+dockIcon "HUDICONDOCK_SQUADPHASEBOMBER"
+nameStringID "IDS_ASURAN_SQUADSPECIAL_LATONA_NAME"
+descriptionStringID "IDS_ASURAN_SQUADSPECIAL_LATONA_DESCRIPTION"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "SQUAD_PHASEBOMBER_ONATTACKORDERISSUED_0"
+SoundID "SQUAD_PHASEBOMBER_ONATTACKORDERISSUED_1"
+SoundID "SQUAD_PHASEBOMBER_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "SQUAD_PHASEBOMBER_ONGENERALORDERISSUED_0"
+SoundID "SQUAD_PHASEBOMBER_ONGENERALORDERISSUED_1"
+SoundID "SQUAD_PHASEBOMBER_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "SQUAD_PHASEBOMBER_ONSELECTED_0"
+SoundID "SQUAD_PHASEBOMBER_ONSELECTED_1"
+SoundID "SQUAD_PHASEBOMBER_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+minShadow 0.000000
+maxShadow 0.000000
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""

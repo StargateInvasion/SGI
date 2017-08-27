@@ -1,0 +1,35 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_ASURAN_ORBITAL_CANNON"
+smallHudIcon "HUDICONSMALL_ASURAN_ORBITAL_CANNON"
+infoCardIcon "INFOCARDICON_ASURAN_ORBITAL_CANNON"
+NameStringID "IDS_ASURAN_RESEARCH_ORBITAL_CANNON_NAME"
+DescriptionStringID "IDS_ASURAN_RESEARCH_ORBITAL_CANNON_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 6 , 4 ]
+ResearchField "Defense"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 120.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1800.000000
+	metal 350.000000
+	crystal 550.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 6
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

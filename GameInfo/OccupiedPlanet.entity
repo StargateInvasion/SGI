@@ -1,0 +1,323 @@
+﻿TXT
+entityType "Planet"
+meshInfoCount 1
+meshInfo
+	typeNameStringID "IDS_PLANETTYPE_OCCUPIED"
+	asteroidTemplate "Dense"
+	dustCloudTemplate "Sparse"
+	meshName "Planet_Occupation"
+	cloudColor ffffffff
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "HUDICON_PLANET_OCCUPATION"
+	smallHudIcon "HUDICONSMALL_PLANET_OCCUPATION"
+	infoCardIcon "INFOCARDICON_PLANET_OCCUPATION"
+	mainViewIcon "MAINVIEWICON_PLANET_OCCUPATION"
+	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_OCCUPATION"
+	picture "PICTURE_PLANET_OCCUPATION"
+	shouldPrefer FALSE
+minZoomDistanceMult 1.850000
+glowColor 8f64c1ff
+ringColor ffffffff
+cloudLayerTextureName "PlanetCloudLayer"
+planetResourceSetupInfo
+	asteroidSpawnAngleVariance 1.256637
+	totalMaxResourceAsteroids 0
+	metalResourceAsteroidSetup
+		minCount 2
+		maxCount 2
+		extractionRate 0.400000
+		refineryRate 0.060000
+		maxRefineryCount 3
+	crystalResourceAsteroidSetup
+		minCount 2
+		maxCount 2
+		extractionRate 0.400000
+		refineryRate 0.060000
+		maxRefineryCount 3
+	neutralMetalResourceAsteroidSetup
+		minCount 0
+		maxCount 0
+		extractionRate 0.000000
+		refineryRate 0.000000
+		maxRefineryCount 0
+	neutralCrystalResourceAsteroidSetup
+		minCount 0
+		maxCount 0
+		extractionRate 0.000000
+		refineryRate 0.000000
+		maxRefineryCount 0
+isAsteroid FALSE
+healthRegenRate 6.000000
+planetUpgradeDef
+	path:Population
+		stageCount 5
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 15.000000
+			populationGrowthRate 0.125000
+			developmentTaxPenalty -3.000000
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+			maxPopulation 45.000000
+			populationGrowthRate 0.125000
+			developmentTaxPenalty -1.500000
+		stage
+			price
+				credits 550.000000
+				metal 175.000000
+				crystal 125.000000
+			upgradeTime 60.000000
+			maxPopulation 150.000000
+			populationGrowthRate 0.125000
+			developmentTaxPenalty 0.000000
+		stage
+			price
+				credits 650.000000
+				metal 200.000000
+				crystal 175.000000
+			upgradeTime 75.000000
+			maxPopulation 270.000000
+			populationGrowthRate 0.125000
+			developmentTaxPenalty 0.000000
+		stage
+			price
+				credits 750.000000
+				metal 225.000000
+				crystal 225.000000
+			upgradeTime 90.000000
+			maxPopulation 420.000000
+			populationGrowthRate 0.125000
+			developmentTaxPenalty 0.000000
+	path:CivilianModules
+		stageCount 3
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxModuleSlotCount:Civilian 12.000000
+			maxModuleConstructorCount 0
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+			maxModuleSlotCount:Civilian 18.000000
+			maxModuleConstructorCount 1
+		stage
+			price
+				credits 550.000000
+				metal 175.000000
+				crystal 125.000000
+			upgradeTime 60.000000
+			maxModuleSlotCount:Civilian 24.000000
+			maxModuleConstructorCount 1
+	path:TacticalModules
+		stageCount 4
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxModuleSlotCount:Tactical 5.000000
+			maxModuleConstructorCount 0
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+			maxModuleSlotCount:Tactical 15.000000
+			maxModuleConstructorCount 1
+		stage
+			price
+				credits 550.000000
+				metal 175.000000
+				crystal 125.000000
+			upgradeTime 60.000000
+			maxModuleSlotCount:Tactical 25.000000
+			maxModuleConstructorCount 2
+		stage
+			price
+				credits 650.000000
+				metal 200.000000
+				crystal 175.000000
+			upgradeTime 75.000000
+			maxModuleSlotCount:Tactical 35.000000
+			maxModuleConstructorCount 3
+	path:Home
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			isHomePlanet FALSE
+			homePlanetTaxRateBonus 0.000000
+			homePlanetMetalIncomeBonus 0.000000
+			homePlanetCrystalIncomeBonus 0.000000
+	path:ArtifactLevel
+		stageCount 2
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+	path:Infrastructure
+		stageCount 4
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxHealth 6000.000000
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+			maxHealth 9000.000000
+		stage
+			price
+				credits 550.000000
+				metal 175.000000
+				crystal 125.000000
+			upgradeTime 60.000000
+			maxHealth 12000.000000
+		stage
+			price
+				credits 650.000000
+				metal 200.000000
+				crystal 175.000000
+			upgradeTime 75.000000
+			maxHealth 15000.000000
+	path:Social
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 0.000000
+			populationGrowthRate 0.000000
+			tradeIncomeModifier 0.000000
+			shipBuildRateModifier 0.000000
+			cultureSpreadRateModifier 0.000000
+	path:Industry
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 0.000000
+			tradeIncomeModifier 0.000000
+			shipBuildRateModifier 0.000000
+			cultureSpreadRateModifier 0.000000
+	path:Smuggler
+		stageCount 4
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			corruptionPercent 0.000000
+			smugglingPercent 0.000000
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+			corruptionPercent 0.250000
+			smugglingPercent 0.015000
+		stage
+			price
+				credits 550.000000
+				metal 175.000000
+				crystal 125.000000
+			upgradeTime 60.000000
+			corruptionPercent 0.500000
+			smugglingPercent 0.030000
+		stage
+			price
+				credits 650.000000
+				metal 200.000000
+				crystal 175.000000
+			upgradeTime 75.000000
+			corruptionPercent 0.750000
+			smugglingPercent 0.045000
+ringsChance 0.100000
+isColonizable TRUE
+planetTypeForResearch "Terran"
+skyboxScalarsCount 5
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 0.200000
+skyboxScalars
+	diffuseScalar 0.600000
+	ambientScalar 0.500000
+skyboxScalars
+	diffuseScalar 0.800000
+	ambientScalar 0.300000
+skyboxScalars
+	diffuseScalar 0.600000
+	ambientScalar 0.700000
+skyboxScalars
+	diffuseScalar 0.700000
+	ambientScalar 0.250000
+requiredPlanetBonusesCount 0
+possibleRandomPlanetBonusesCount 1
+bonus "PlanetBonusSpacePony"
+ambienceSoundID "EFFECT_PLANETAMBIENCE_LOOP"
+renderAsVolcanic FALSE
+planetRuinDef
+	ruinPlanetType "PlanetDeadAsteroid"
+	attachType "Center"
+	effectName "StripToTheCore_Planet_TerranHome"
+	startTime 9.000000
+	soundID ""
+	creditsOnStrippedToTheCore 0.000000
+	metalOnStrippedToTheCore 0.000000
+	crystalOnStrippedToTheCore 0.000000
+	extraScuttleTimeOnStrip 60.000000
+dlcId 204880
+ShieldMeshName "Shield_PlanetSmall"
+renderShield TRUE
+moveAreaRadius 45000.000000
+hyperspaceExitRadius 35000.000000
+isWormhole FALSE
+maxStarBaseCountPerPlayer 1
+maxSpaceMineCountPerPlayer 60
+minShadow 0.000000
+maxShadow 0.000000
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""

@@ -1,0 +1,32 @@
+TXT
+tabButtonIcon "ManageSaveGamesTabButton"
+tabButtonText "IDSManageSaveGamesTabButton"
+fileNameListLabel
+	area [50, 110, 220, 30]
+	fontId "WindowSubTitle"
+fileNameList
+	area [50, 152, 220, 510]
+	itemGap 3
+selectGameSaveTypeWindow
+	area [50, 673, 220, 94]
+eraseButton
+	area [520, 673, 220, 44]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"				
+	icon "ManageSaveGamesEraseButton"
+	text "IDSManageSaveGamesEraseButton"	
+eraseAllButton
+	area [520, 621, 220, 44]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"				
+	icon "ManageSaveGamesEraseAllButton"
+	text "IDSManageSaveGamesEraseAllButton"	
+galaxyInfoWindow
+	area [285, 152, 455, 254]
+

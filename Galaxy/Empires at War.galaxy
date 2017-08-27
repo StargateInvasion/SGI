@@ -1,0 +1,853 @@
+﻿TXT
+versionNumber 5
+isBrowsable TRUE
+browsePictureName "ScenarioPicture-EmpiresatWar"
+browseName "IDS_CUSTOMGALAXY_NAME_EMPIRESATWAR"
+browseDescription "IDS_CUSTOMGALAXY_DESCRIPTION_EMPIRESATWAR"
+isFirstCapitalShipIsFlagship TRUE
+randomizeStartingPositions TRUE
+planetArtifactDensity 0.300000
+planetBonusDensity 0.000000
+normalStartHomePlanetUpgradeLevel:Population 3
+normalStartHomePlanetUpgradeLevel:CivilianModules 1
+normalStartHomePlanetUpgradeLevel:TacticalModules 1
+normalStartHomePlanetUpgradeLevel:Home 1
+normalStartHomePlanetUpgradeLevel:ArtifactLevel 10
+normalStartHomePlanetUpgradeLevel:Infrastructure 2
+quickStartHomePlanetUpgradeLevel:Population 4
+quickStartHomePlanetUpgradeLevel:CivilianModules 1
+quickStartHomePlanetUpgradeLevel:TacticalModules 1
+quickStartHomePlanetUpgradeLevel:Home 1
+quickStartHomePlanetUpgradeLevel:ArtifactLevel 10
+quickStartHomePlanetUpgradeLevel:Infrastructure 2
+recommendedGameTypeCount 1
+recommendedGameType "Solo"
+metersPerGalaxyUnit 25000.000000
+pixelsPerGalaxyUnit 3.320000
+useRandomGenerator FALSE
+galaxyWidth 1280.000000
+galaxyHeight 1300.000000
+nextStarNameUniqueId 1
+nextPlanetNameUniqueId 18
+triggerCount 0
+starCount 1
+star
+	designName "Star0"
+	inGameName ""
+	type "RandomStar"
+	pos [ 200 , 200 ]
+	radius 100.000000
+	planetCount 17
+	planet
+		designName "Planet0"
+		inGameName ""
+		type "TerranHome"
+		pos [ 150 , 230 ]
+		owner "NewPlayer0"
+		isHomePlanet TRUE
+		normalStartUpgradeLevelForPopulation 0
+		normalStartUpgradeLevelForCivilianModules 0
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 0
+		normalStartUpgradeLevelForInfrastructure 0
+		quickStartUpgradeLevelForPopulation 0
+		quickStartUpgradeLevelForCivilianModules 0
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 0
+		quickStartUpgradeLevelForInfrastructure 0
+		planetItems
+			templateName ""
+			subTemplates 1
+			template "Stuff"
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet1"
+		inGameName ""
+		type "TerranHome"
+		pos [ 250 , 230 ]
+		owner "NewPlayer1"
+		isHomePlanet TRUE
+		normalStartUpgradeLevelForPopulation 0
+		normalStartUpgradeLevelForCivilianModules 0
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 0
+		normalStartUpgradeLevelForInfrastructure 0
+		quickStartUpgradeLevelForPopulation 0
+		quickStartUpgradeLevelForCivilianModules 0
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 0
+		quickStartUpgradeLevelForInfrastructure 0
+		planetItems
+			templateName ""
+			subTemplates 1
+			template "Stuff"
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet3"
+		inGameName ""
+		type "GasGiantFair"
+		pos [ 200 , 220 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 0
+		normalStartUpgradeLevelForCivilianModules 0
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 0
+		normalStartUpgradeLevelForInfrastructure 0
+		quickStartUpgradeLevelForPopulation 0
+		quickStartUpgradeLevelForCivilianModules 0
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 0
+		quickStartUpgradeLevelForInfrastructure 0
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet4"
+		inGameName ""
+		type "MoonFair"
+		pos [ 270 , 260 ]
+		owner "NewPlayer1"
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 1
+		normalStartUpgradeLevelForCivilianModules 0
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 0
+		normalStartUpgradeLevelForInfrastructure 0
+		quickStartUpgradeLevelForPopulation 1
+		quickStartUpgradeLevelForCivilianModules 0
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 0
+		quickStartUpgradeLevelForInfrastructure 0
+		planetItems
+			templateName ""
+			subTemplates 1
+			template "Stuff2"
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate FALSE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet5"
+		inGameName ""
+		type "MoonFair"
+		pos [ 130 , 260 ]
+		owner "NewPlayer0"
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 1
+		normalStartUpgradeLevelForCivilianModules 0
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 0
+		normalStartUpgradeLevelForInfrastructure 0
+		quickStartUpgradeLevelForPopulation 1
+		quickStartUpgradeLevelForCivilianModules 0
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 0
+		quickStartUpgradeLevelForInfrastructure 0
+		planetItems
+			templateName ""
+			subTemplates 1
+			template "Stuff2"
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate FALSE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet6"
+		inGameName ""
+		type "AsteroidFair"
+		pos [ 280 , 230 ]
+		owner "NewPlayer1"
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 1
+		normalStartUpgradeLevelForCivilianModules 0
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 0
+		normalStartUpgradeLevelForInfrastructure 0
+		quickStartUpgradeLevelForPopulation 1
+		quickStartUpgradeLevelForCivilianModules 0
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 0
+		quickStartUpgradeLevelForInfrastructure 0
+		planetItems
+			templateName ""
+			subTemplates 1
+			template "Stuff2"
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate FALSE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet7"
+		inGameName ""
+		type "AsteroidFair"
+		pos [ 120 , 230 ]
+		owner "NewPlayer0"
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 1
+		normalStartUpgradeLevelForCivilianModules 0
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 0
+		normalStartUpgradeLevelForInfrastructure 0
+		quickStartUpgradeLevelForPopulation 1
+		quickStartUpgradeLevelForCivilianModules 0
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 0
+		quickStartUpgradeLevelForInfrastructure 0
+		planetItems
+			templateName ""
+			subTemplates 1
+			template "Stuff2"
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate FALSE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet8"
+		inGameName ""
+		type "DesertFair"
+		pos [ 245 , 270 ]
+		owner "NewPlayer1"
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 2
+		normalStartUpgradeLevelForCivilianModules 0
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 0
+		normalStartUpgradeLevelForInfrastructure 0
+		quickStartUpgradeLevelForPopulation 2
+		quickStartUpgradeLevelForCivilianModules 0
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 0
+		quickStartUpgradeLevelForInfrastructure 0
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate FALSE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet9"
+		inGameName ""
+		type "DesertFair"
+		pos [ 155 , 270 ]
+		owner "NewPlayer0"
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 2
+		normalStartUpgradeLevelForCivilianModules 0
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 0
+		normalStartUpgradeLevelForInfrastructure 0
+		quickStartUpgradeLevelForPopulation 2
+		quickStartUpgradeLevelForCivilianModules 0
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 0
+		quickStartUpgradeLevelForInfrastructure 0
+		planetItems
+			templateName ""
+			subTemplates 1
+			template "Empty"
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate FALSE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet10"
+		inGameName ""
+		type "DeadAsteroid"
+		pos [ 200 , 270 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 0
+		normalStartUpgradeLevelForCivilianModules 0
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 0
+		normalStartUpgradeLevelForInfrastructure 0
+		quickStartUpgradeLevelForPopulation 0
+		quickStartUpgradeLevelForCivilianModules 0
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 0
+		quickStartUpgradeLevelForInfrastructure 0
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet11"
+		inGameName ""
+		type "Ice"
+		pos [ 200 , 285 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 0
+		normalStartUpgradeLevelForCivilianModules 0
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 0
+		normalStartUpgradeLevelForInfrastructure 0
+		quickStartUpgradeLevelForPopulation 0
+		quickStartUpgradeLevelForCivilianModules 0
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 0
+		quickStartUpgradeLevelForInfrastructure 0
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 1
+			group
+				condition
+					type "Always"
+					param ""
+				owner "PlanetOwner"
+				colonizeChance 0.000000
+				items 1
+				item "Artifact:AntimatterRegen"
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet12"
+		inGameName ""
+		type "Volcanic"
+		pos [ 200 , 255 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 0
+		normalStartUpgradeLevelForCivilianModules 0
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 0
+		normalStartUpgradeLevelForInfrastructure 0
+		quickStartUpgradeLevelForPopulation 0
+		quickStartUpgradeLevelForCivilianModules 0
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 0
+		quickStartUpgradeLevelForInfrastructure 0
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 1
+			group
+				condition
+					type "Always"
+					param ""
+				owner "NoOwner"
+				colonizeChance 0.000000
+				items 1
+				item "Artifact:WeaponBoost"
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet13"
+		inGameName ""
+		type "PirateBase"
+		pos [ 200 , 230 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 0
+		normalStartUpgradeLevelForCivilianModules 0
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 0
+		normalStartUpgradeLevelForInfrastructure 0
+		quickStartUpgradeLevelForPopulation 0
+		quickStartUpgradeLevelForCivilianModules 0
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 0
+		quickStartUpgradeLevelForInfrastructure 0
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet14"
+		inGameName ""
+		type "MagneticCloud"
+		pos [ 215 , 250 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 0
+		normalStartUpgradeLevelForCivilianModules 0
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 0
+		normalStartUpgradeLevelForInfrastructure 0
+		quickStartUpgradeLevelForPopulation 0
+		quickStartUpgradeLevelForCivilianModules 0
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 0
+		quickStartUpgradeLevelForInfrastructure 0
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet15"
+		inGameName ""
+		type "MagneticCloud"
+		pos [ 185 , 250 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 0
+		normalStartUpgradeLevelForCivilianModules 0
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 0
+		normalStartUpgradeLevelForInfrastructure 0
+		quickStartUpgradeLevelForPopulation 0
+		quickStartUpgradeLevelForCivilianModules 0
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 0
+		quickStartUpgradeLevelForInfrastructure 0
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet16"
+		inGameName ""
+		type "MoonFair"
+		pos [ 245 , 205 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 0
+		normalStartUpgradeLevelForCivilianModules 0
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 0
+		normalStartUpgradeLevelForInfrastructure 0
+		quickStartUpgradeLevelForPopulation 0
+		quickStartUpgradeLevelForCivilianModules 0
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 0
+		quickStartUpgradeLevelForInfrastructure 0
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	planet
+		designName "Planet17"
+		inGameName ""
+		type "MoonFair"
+		pos [ 155 , 205 ]
+		owner ""
+		isHomePlanet FALSE
+		normalStartUpgradeLevelForPopulation 0
+		normalStartUpgradeLevelForCivilianModules 0
+		normalStartUpgradeLevelForTacticalModules 0
+		normalStartUpgradeLevelForArtifacts 0
+		normalStartUpgradeLevelForInfrastructure 0
+		quickStartUpgradeLevelForPopulation 0
+		quickStartUpgradeLevelForCivilianModules 0
+		quickStartUpgradeLevelForTacticalModules 0
+		quickStartUpgradeLevelForArtifacts 0
+		quickStartUpgradeLevelForInfrastructure 0
+		planetItems
+			templateName ""
+			subTemplates 0
+			groups 0
+		spawnProbability 1.000000
+		useDefaultTemplate TRUE
+		entityCount 0
+		asteroidCount 0
+	connectionCount 25
+	connection
+		planetIndexA 1
+		planetIndexB 2
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 2
+		planetIndexB 0
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 12
+		planetIndexB 2
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 2
+		planetIndexB -1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 11
+		planetIndexB 9
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 9
+		planetIndexB 10
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 0
+		planetIndexB 4
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 0
+		planetIndexB 6
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 1
+		planetIndexB 3
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 1
+		planetIndexB 5
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 7
+		planetIndexB 3
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 3
+		planetIndexB 5
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 6
+		planetIndexB 4
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 4
+		planetIndexB 8
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 0
+		planetIndexB 14
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 14
+		planetIndexB 8
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 13
+		planetIndexB 7
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 13
+		planetIndexB 1
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 14
+		planetIndexB 13
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 1
+		planetIndexB 15
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 15
+		planetIndexB 5
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 16
+		planetIndexB 0
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 16
+		planetIndexB 6
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 14
+		planetIndexB 9
+		spawnProbability 1.000000
+		type "PhaseLane"
+	connection
+		planetIndexA 9
+		planetIndexB 13
+		spawnProbability 1.000000
+		type "PhaseLane"
+	entityCount 0
+	spawnProbability 1.000000
+interStarConnectionCount 0
+playerCount 2
+player
+	designName "NewPlayer0"
+	inGameName "NewPlayer0"
+	overrideRaceName ""
+	teamIndex -1
+	startingCredits 3000
+	startingMetal 800
+	startingCrystal 250
+	isNormalPlayer TRUE
+	isRaidingPlayer FALSE
+	isInsurgentPlayer FALSE
+	isOccupationPlayer FALSE
+	isMadVasariPlayer FALSE
+	themeGroup ""
+	themeIndex 0
+	pictureGroup ""
+	pictureIndex 0
+player
+	designName "NewPlayer1"
+	inGameName "NewPlayer1"
+	overrideRaceName ""
+	teamIndex -1
+	startingCredits 3000
+	startingMetal 800
+	startingCrystal 250
+	isNormalPlayer TRUE
+	isRaidingPlayer FALSE
+	isInsurgentPlayer FALSE
+	isOccupationPlayer FALSE
+	isMadVasariPlayer FALSE
+	themeGroup ""
+	themeIndex 0
+	pictureGroup ""
+	pictureIndex 0
+templates 4
+template
+	templateName "Stuff"
+	subTemplates 0
+	groups 6
+	group
+		condition
+			type "PlanetOwnerIsRaceQuickStart"
+			param "TechLoyalist"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 12
+		item "Tech:Corvette:Loyalist"
+		item "Tech:Corvette:Loyalist"
+		item "Tech:Corvette:Loyalist"
+		item "Tech:Corvette:Loyalist"
+		item "Tech:Corvette:Loyalist"
+		item "Tech:Corvette:Loyalist"
+		item "Tech:Corvette:Loyalist"
+		item "Tech:Corvette:Loyalist"
+		item "Tech:Corvette:Loyalist"
+		item "Tech:Corvette:Loyalist"
+		item "Tech:Corvette:Loyalist"
+		item "Tech:Corvette:Loyalist"
+	group
+		condition
+			type "PlanetOwnerIsRaceQuickStart"
+			param "PsiLoyalist"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 12
+		item "Psi:Corvette:Loyalist"
+		item "Psi:Corvette:Loyalist"
+		item "Psi:Corvette:Loyalist"
+		item "Psi:Corvette:Loyalist"
+		item "Psi:Corvette:Loyalist"
+		item "Psi:Corvette:Loyalist"
+		item "Psi:Corvette:Loyalist"
+		item "Psi:Corvette:Loyalist"
+		item "Psi:Corvette:Loyalist"
+		item "Psi:Corvette:Loyalist"
+		item "Psi:Corvette:Loyalist"
+		item "Psi:Corvette:Loyalist"
+	group
+		condition
+			type "PlanetOwnerIsRaceQuickStart"
+			param "PhaseLoyalist"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 9
+		item "Phase:Corvette:Loyalist"
+		item "Phase:Corvette:Loyalist"
+		item "Phase:Corvette:Loyalist"
+		item "Phase:Corvette:Loyalist"
+		item "Phase:Corvette:Loyalist"
+		item "Phase:Corvette:Loyalist"
+		item "Phase:Corvette:Loyalist"
+		item "Phase:Corvette:Loyalist"
+		item "Phase:Corvette:Loyalist"
+	group
+		condition
+			type "PlanetOwnerIsRaceQuickStart"
+			param "TechRebel"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 12
+		item "Tech:Corvette:Rebel"
+		item "Tech:Corvette:Rebel"
+		item "Tech:Corvette:Rebel"
+		item "Tech:Corvette:Rebel"
+		item "Tech:Corvette:Rebel"
+		item "Tech:Corvette:Rebel"
+		item "Tech:Corvette:Rebel"
+		item "Tech:Corvette:Rebel"
+		item "Tech:Corvette:Rebel"
+		item "Tech:Corvette:Rebel"
+		item "Tech:Corvette:Rebel"
+		item "Tech:Corvette:Rebel"
+	group
+		condition
+			type "PlanetOwnerIsRaceQuickStart"
+			param "PsiRebel"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 12
+		item "Psi:Corvette:Rebel"
+		item "Psi:Corvette:Rebel"
+		item "Psi:Corvette:Rebel"
+		item "Psi:Corvette:Rebel"
+		item "Psi:Corvette:Rebel"
+		item "Psi:Corvette:Rebel"
+		item "Psi:Corvette:Rebel"
+		item "Psi:Corvette:Rebel"
+		item "Psi:Corvette:Rebel"
+		item "Psi:Corvette:Rebel"
+		item "Psi:Corvette:Rebel"
+		item "Psi:Corvette:Rebel"
+	group
+		condition
+			type "PlanetOwnerIsRaceQuickStart"
+			param "PhaseRebel"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 9
+		item "Phase:Corvette:Rebel"
+		item "Phase:Corvette:Rebel"
+		item "Phase:Corvette:Rebel"
+		item "Phase:Corvette:Rebel"
+		item "Phase:Corvette:Rebel"
+		item "Phase:Corvette:Rebel"
+		item "Phase:Corvette:Rebel"
+		item "Phase:Corvette:Rebel"
+		item "Phase:Corvette:Rebel"
+template
+	templateName "Stuff2"
+	subTemplates 0
+	groups 6
+	group
+		condition
+			type "PlanetOwnerIsRaceQuickStart"
+			param "TechLoyalist"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 3
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:CrystalExtractor"
+		item "Tech:Module:MetalExtractor"
+	group
+		condition
+			type "PlanetOwnerIsRaceQuickStart"
+			param "TechRebel"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 3
+		item "Tech:Module:CombatLab"
+		item "Tech:Module:MetalExtractor"
+		item "Tech:Module:CrystalExtractor"
+	group
+		condition
+			type "PlanetOwnerIsRaceQuickStart"
+			param "PsiLoyalist"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 3
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:MetalExtractor"
+		item "Psi:Module:CrystalExtractor"
+	group
+		condition
+			type "PlanetOwnerIsRaceQuickStart"
+			param "PhaseLoyalist"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 3
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:CrystalExtractor"
+		item "Phase:Module:MetalExtractor"
+	group
+		condition
+			type "PlanetOwnerIsRaceQuickStart"
+			param "PsiRebel"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 3
+		item "Psi:Module:CombatLab"
+		item "Psi:Module:CrystalExtractor"
+		item "Psi:Module:MetalExtractor"
+	group
+		condition
+			type "PlanetOwnerIsRaceQuickStart"
+			param "PhaseRebel"
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 3
+		item "Phase:Module:CombatLab"
+		item "Phase:Module:MetalExtractor"
+		item "Phase:Module:CrystalExtractor"
+template
+	templateName "ArtifactVolc"
+	subTemplates 0
+	groups 1
+	group
+		condition
+			type "Always"
+			param ""
+		owner "NoOwner"
+		colonizeChance 0.000000
+		items 1
+		item "Artifact:WeaponBoost"
+template
+	templateName "Artifactice"
+	subTemplates 0
+	groups 1
+	group
+		condition
+			type "Always"
+			param ""
+		owner "PlanetOwner"
+		colonizeChance 0.000000
+		items 1
+		item "Artifact:AntimatterRegen"

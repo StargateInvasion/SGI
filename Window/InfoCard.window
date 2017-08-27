@@ -1,0 +1,48 @@
+TXT
+fontDefault "InfoCardStandard"
+fontEntityName "EntityName"
+fontPlayerName "PlayerName"
+fontPlayerRace "RaceName"
+offsetFromBottomBarBottomRight [-10, -101]
+offsetFromTopCenterWhenFullScreenDialogOpen [570, 760]
+categoryGapHeight 10
+minWidth 297
+minWidthForMultiLineString 220
+entityIconOffsetFromLeft 0
+entityIconOffsetFromTopAndBottom 0
+entityIconSize [50, 50]
+entityNameOffsetFromIcon 8
+entityNameTopTextOffsetFromCenter -10
+entityNameBottomTextOffsetFromCenter 10
+bigNumberOffset [157, 2]
+textPosition-Label
+	offset 0
+	width 50
+textPosition-SubLabel
+	offset 20
+	width 50
+textPosition-DefaultStatistic
+	offset 150
+	width 50
+iconOverlayDef
+	homePlanet "HUDIconEntityOverlayHomePlanet"
+	artifactPlanet "HUDIconEntityOverlayArtifact"
+	resourceAsteroidMetal ""
+	resourceAsteroidCrystal ""
+	unspentAbilityPointsAndUnassignedSquads ""
+	unspentAbilityPoints ""
+	unassignedSquads ""	
+	partiallyStacked ""
+	almostFullyStacked ""
+	fullyStacked ""		
+	fleetLeader "HUDIconEntityOverlayFleetLeader"
+stringInfoIconSizeDefault [22, 12]
+stringInfoTextSizeCredits [35, 12]
+stringInfoTextSizeResource [30, 12]
+maxIndividualPlanetIncomeItems 15
+maxIndividualOrderItems 10
+maxIndividualCapitalShips 16
+nextResearchValueIcon "InfoCardIconNextResearchSubjectLevelValue"
+
+
+

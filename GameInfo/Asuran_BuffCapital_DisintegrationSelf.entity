@@ -1,0 +1,112 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling TRUE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayPersistantBeamEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Ability"
+		abilityIndex 1
+	weaponEffectImpactOffsetType "RandomMesh"
+	canWeaponEffectHitHull TRUE
+	canWeaponEffectHitShields TRUE
+	weaponEffectsDef
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName ""
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Ability_DisintegrationImpactBeam"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "EFFECT_BEAMBLAST_ACTIVATE"
+		beamGlowTextureName "CapitalAbilityDisintegration_Glow"
+		beamCoreTextureName "CapitalAbilityDisintegration_Core"
+		beamWidth 50.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
+instantAction
+	buffInstantActionType "ApplyBuffToTargetNoFilterNoRange"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "Asuran_BuffCapital_DisintegrationTarget"
+numPeriodicActions 0
+numOverTimeActions 5
+overTimeAction
+	buffOverTimeActionType "DoDamageToTarget"
+	damageRate
+		Level:0 150.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+	damageAffectType "AFFECTS_ONLY_HULL"
+	damageType "ENERGY"
+	isDamageShared FALSE
+overTimeAction
+	buffOverTimeActionType "DoDamageToTarget"
+	damageRate
+		Level:0 150.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+	damageAffectType "AFFECTS_ONLY_SHIELDS"
+	damageType "ENERGY"
+	isDamageShared FALSE
+overTimeAction
+	buffOverTimeActionType "RestoreHull"
+	hullRestoreRate
+		Level:0 120.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+overTimeAction
+	buffOverTimeActionType "RestoreShields"
+	shieldRestoreRate
+		Level:0 120.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+overTimeAction
+	buffOverTimeActionType "RestoreAntiMatter"
+	antiMatterRestoreRate
+		Level:0 15.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 4
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 8.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+finishCondition
+	finishConditionType "NoTarget"
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "TargetOwnerIsFriendly"

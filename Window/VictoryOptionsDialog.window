@@ -1,0 +1,96 @@
+TXT
+backdropDimPercentage 0.7
+backdropBrush "GameOptionsScreenBackdrop"
+titleOverlayBrush "GameOptionsScreenTitleOverlay"
+size [693 , 645]
+contentRefArea [90, 100, 508, 335]
+titleRefArea [90, 40, 508, 30]
+titleOverlayRefArea [0, 0, 693, 90]
+acceptButton
+	area [347, 548, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"		
+	icon "DialogScreenAcceptButton"
+	text "IDS_DIALOGWINDOW_ACCEPTBUTTON"
+titleStringId "IDSVictoryOptionsDialogTitle"
+diplomaticVictoryEnabledButton
+	area [25, 40, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	true
+		icon "GameOptionsDiplomaticVictoryEnabled"
+		text "IDSGameOptionsDiplomaticVictoryEnabledTrue"
+	false
+		icon "GameOptionsDiplomaticVictoryDisabled"
+		text "IDSGameOptionsDiplomaticVictoryEnabledFalse"
+flagshipVictoryEnabledButton
+	area [25, 92, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	true
+		icon "GameOptionsFlagshipVictoryEnabled"
+		text "IDSGameOptionsFlagshipVictoryEnabledTrue"
+	false
+		icon "GameOptionsFlagshipVictoryDisabled"
+		text "IDSGameOptionsFlagshipVictoryEnabledFalse"
+homeworldVictoryEnabledButton
+	area [25, 144, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	true
+		icon "GameOptionsHomeworldVictoryEnabled"
+		text "IDSGameOptionsHomeworldVictoryEnabledTrue"
+	false
+		icon "GameOptionsHomeworldVictoryDisabled"
+		text "IDSGameOptionsHomeworldVictoryEnabledFalse"
+researchVictoryEnabledButton
+	area [257, 40, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	true
+		icon "GameOptionsResearchVictoryEnabled"
+		text "IDSGameOptionsResearchVictoryEnabledTrue"
+	false
+		icon "GameOptionsResearchVictoryDisabled"
+		text "IDSGameOptionsResearchVictoryEnabledFalse"
+occupationVictoryEnabledButton
+	area [257, 92, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	true
+		icon "GameOptionsOccupationVictoryEnabled"
+		text "IDSGameOptionsOccupationVictoryEnabledTrue"
+	false
+		icon "GameOptionsOccupationVictoryDisabled"
+		text "IDSGameOptionsOccupationVictoryEnabledFalse"
+alliedVictoryEnabledButton
+	area [257, 144, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"
+	true
+		icon "GameOptionsAlliedVictoryEnabled"
+		text "IDSGameOptionsAlliedVictoryEnabledTrue"
+	false
+		icon "GameOptionsAlliedVictoryDisabled"
+		text "IDSGameOptionsAlliedVictoryEnabledFalse"			

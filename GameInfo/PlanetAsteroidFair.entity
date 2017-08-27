@@ -1,0 +1,350 @@
+﻿TXT
+entityType "Planet"
+meshInfoCount 5
+meshInfo
+	typeNameStringID "IDS_PLANETTYPE_ASTEROID"
+	asteroidTemplate "Dense"
+	dustCloudTemplate "Sparse"
+	meshName "AsteroidBig00"
+	cloudColor 0
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "HUDICON_PLANET_ASTEROID0"
+	smallHudIcon "HUDICONSMALL_PLANET_ASTEROID0"
+	infoCardIcon "INFOCARDICON_PLANET_ASTEROID0"
+	mainViewIcon "MAINVIEWICON_PLANET_ASTEROID0"
+	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ASTEROID0"
+	picture "PICTURE_PLANET_ASTEROID0"
+	shouldPrefer FALSE
+meshInfo
+	typeNameStringID "IDS_PLANETTYPE_ASTEROID"
+	asteroidTemplate "Dense"
+	dustCloudTemplate "Empty"
+	meshName "AsteroidBig01"
+	cloudColor 0
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "HUDICON_PLANET_ASTEROID1"
+	smallHudIcon "HUDICONSMALL_PLANET_ASTEROID1"
+	infoCardIcon "INFOCARDICON_PLANET_ASTEROID1"
+	mainViewIcon "MAINVIEWICON_PLANET_ASTEROID1"
+	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ASTEROID1"
+	picture "PICTURE_PLANET_ASTEROID1"
+	shouldPrefer FALSE
+meshInfo
+	typeNameStringID "IDS_PLANETTYPE_ASTEROID"
+	asteroidTemplate "Sparse"
+	dustCloudTemplate "Sparse"
+	meshName "AsteroidBig02"
+	cloudColor 0
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "HUDICON_PLANET_ASTEROID2"
+	smallHudIcon "HUDICONSMALL_PLANET_ASTEROID2"
+	infoCardIcon "INFOCARDICON_PLANET_ASTEROID2"
+	mainViewIcon "MAINVIEWICON_PLANET_ASTEROID2"
+	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ASTEROID2"
+	picture "PICTURE_PLANET_ASTEROID2"
+	shouldPrefer FALSE
+meshInfo
+	typeNameStringID "IDS_PLANETTYPE_ASTEROID"
+	asteroidTemplate "Wall"
+	dustCloudTemplate "Dense"
+	meshName "AsteroidBig03"
+	cloudColor 0
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "HUDICON_PLANET_ASTEROID3"
+	smallHudIcon "HUDICONSMALL_PLANET_ASTEROID3"
+	infoCardIcon "INFOCARDICON_PLANET_ASTEROID3"
+	mainViewIcon "MAINVIEWICON_PLANET_ASTEROID3"
+	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ASTEROID3"
+	picture "PICTURE_PLANET_ASTEROID3"
+	shouldPrefer FALSE
+meshInfo
+	typeNameStringID "IDS_PLANETTYPE_ASTEROID"
+	asteroidTemplate "Ring"
+	dustCloudTemplate "Empty"
+	meshName "AsteroidBig04"
+	cloudColor 0
+	nullMeshRadius 0.000000
+	nullMeshParticleEffect ""
+	hudIcon "HUDICON_PLANET_ASTEROID4"
+	smallHudIcon "HUDICONSMALL_PLANET_ASTEROID4"
+	infoCardIcon "INFOCARDICON_PLANET_ASTEROID4"
+	mainViewIcon "MAINVIEWICON_PLANET_ASTEROID4"
+	undetectedMainViewIcon "MAINVIEWUNDETECTEDICON_PLANET_ASTEROID4"
+	picture "PICTURE_PLANET_ASTEROID4"
+	shouldPrefer FALSE
+minZoomDistanceMult 2.000000
+glowColor 0
+ringColor 0
+cloudLayerTextureName ""
+planetResourceSetupInfo
+	asteroidSpawnAngleVariance 3.141593
+	totalMaxResourceAsteroids 3
+	metalResourceAsteroidSetup
+		minCount 1
+		maxCount 1
+		extractionRate 0.400000
+		refineryRate 0.060000
+		maxRefineryCount 3
+	crystalResourceAsteroidSetup
+		minCount 2
+		maxCount 2
+		extractionRate 0.400000
+		refineryRate 0.060000
+		maxRefineryCount 3
+	neutralMetalResourceAsteroidSetup
+		minCount 0
+		maxCount 0
+		extractionRate 0.000000
+		refineryRate 0.000000
+		maxRefineryCount 0
+	neutralCrystalResourceAsteroidSetup
+		minCount 0
+		maxCount 0
+		extractionRate 0.000000
+		refineryRate 0.000000
+		maxRefineryCount 0
+isAsteroid TRUE
+healthRegenRate 6.000000
+planetUpgradeDef
+	path:Population
+		stageCount 2
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 10.000000
+			populationGrowthRate 0.025000
+			developmentTaxPenalty -2.000000
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+			maxPopulation 20.000000
+			populationGrowthRate 0.025000
+			developmentTaxPenalty 0.000000
+	path:CivilianModules
+		stageCount 2
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxModuleSlotCount:Civilian 6.000000
+			maxModuleConstructorCount 0
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+			maxModuleSlotCount:Civilian 12.000000
+			maxModuleConstructorCount 1
+	path:TacticalModules
+		stageCount 3
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxModuleSlotCount:Tactical 5.000000
+			maxModuleConstructorCount 1
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+			maxModuleSlotCount:Tactical 15.000000
+			maxModuleConstructorCount 2
+		stage
+			price
+				credits 550.000000
+				metal 175.000000
+				crystal 125.000000
+			upgradeTime 60.000000
+			maxModuleSlotCount:Tactical 25.000000
+			maxModuleConstructorCount 3
+	path:Home
+		stageCount 2
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			isHomePlanet FALSE
+			homePlanetTaxRateBonus 0.000000
+			homePlanetMetalIncomeBonus 0.000000
+			homePlanetCrystalIncomeBonus 0.000000
+		stage
+			price
+				credits 2000.000000
+				metal 300.000000
+				crystal 200.000000
+			upgradeTime 75.000000
+			isHomePlanet TRUE
+			homePlanetTaxRateBonus 4.000000
+			homePlanetMetalIncomeBonus 0.400000
+			homePlanetCrystalIncomeBonus 0.400000
+	path:ArtifactLevel
+		stageCount 3
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+		stage
+			price
+				credits 550.000000
+				metal 175.000000
+				crystal 125.000000
+			upgradeTime 60.000000
+	path:Infrastructure
+		stageCount 2
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxHealth 1000.000000
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+			maxHealth 2500.000000
+	path:Social
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 0.000000
+			populationGrowthRate 0.000000
+			tradeIncomeModifier 0.000000
+			shipBuildRateModifier 0.000000
+			cultureSpreadRateModifier 0.000000
+	path:Industry
+		stageCount 1
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			maxPopulation 0.000000
+			tradeIncomeModifier 0.000000
+			shipBuildRateModifier 0.000000
+			cultureSpreadRateModifier 0.000000
+	path:Smuggler
+		stageCount 4
+		stage
+			price
+				credits 0.000000
+				metal 0.000000
+				crystal 0.000000
+			upgradeTime 0.000000
+			corruptionPercent 0.000000
+			smugglingPercent 0.000000
+		stage
+			price
+				credits 450.000000
+				metal 150.000000
+				crystal 75.000000
+			upgradeTime 45.000000
+			corruptionPercent 0.250000
+			smugglingPercent 0.015000
+		stage
+			price
+				credits 550.000000
+				metal 175.000000
+				crystal 125.000000
+			upgradeTime 60.000000
+			corruptionPercent 0.500000
+			smugglingPercent 0.030000
+		stage
+			price
+				credits 650.000000
+				metal 200.000000
+				crystal 175.000000
+			upgradeTime 75.000000
+			corruptionPercent 0.750000
+			smugglingPercent 0.045000
+ringsChance 0.000000
+isColonizable TRUE
+planetTypeForResearch "Asteroid"
+skyboxScalarsCount 5
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 1.000000
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 1.000000
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 1.000000
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 1.000000
+skyboxScalars
+	diffuseScalar 1.000000
+	ambientScalar 1.000000
+requiredPlanetBonusesCount 0
+possibleRandomPlanetBonusesCount 9
+bonus "PlanetBonusCrystalMiners"
+bonus "PlanetBonusIndustrialWasteland"
+bonus "PlanetBonusLowGravity"
+bonus "PlanetBonusMetalMiners"
+bonus "PlanetBonusMeteoriteCraters"
+bonus "PlanetBonusPenalColony"
+bonus "PlanetBonusRareMetalDeposits0"
+bonus "PlanetBonusSalvagerOutpost"
+bonus "PlanetBonusSignalAbsorption"
+ambienceSoundID ""
+renderAsVolcanic FALSE
+planetRuinDef
+	ruinPlanetType "PlanetAsteroidBelt"
+	attachType "Center"
+	effectName "StripToTheCore_Planet_Asteroid"
+	startTime 9.000000
+	soundID "EFFECT_STRIPPEDTOTHECORE"
+	creditsOnStrippedToTheCore 2000.000000
+	metalOnStrippedToTheCore 750.000000
+	crystalOnStrippedToTheCore 250.000000
+	extraScuttleTimeOnStrip 60.000000
+dlcId 204880
+ShieldMeshName "Shield_PlanetAsteroid"
+renderShield TRUE
+moveAreaRadius 32000.000000
+hyperspaceExitRadius 22000.000000
+isWormhole FALSE
+maxStarBaseCountPerPlayer 1
+maxSpaceMineCountPerPlayer 150
+minShadow 0.000000
+maxShadow 0.000000
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""

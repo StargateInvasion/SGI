@@ -1,0 +1,79 @@
+﻿TXT
+entityType "StarBaseUpgrade"
+stageCount 3
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "IDS_STARBASEUPGRADEPSICONTROLMETEOROIDS_NAME"
+	descStringID "IDS_STARBASEUPGRADEPSICONTROLMETEOROIDS_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradePsiControlMeteoroids0"
+	smallHudIcon "HUDIconStarBaseUpgradePsiControlMeteoroids0"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1800.000000
+		metal 275.000000
+		crystal 150.000000
+	upgradeTime 60.000000
+	nameStringID "IDS_STARBASEUPGRADEPSICONTROLMETEOROIDS_NAME"
+	descStringID "IDS_STARBASEUPGRADEPSICONTROLMETEOROIDS_DESC"
+	researchPrerequisites
+    NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradePsiControlMeteoroids0"
+	smallHudIcon "HUDIconStarBaseUpgradePsiControlMeteoroids0"
+	infoCardIcon ""
+	upgradePropertyCount 4
+	upgradeProperty
+		propertyType "MaxAntiMatterPoints"
+		value 200.000000
+	upgradeProperty
+		propertyType "AntiMatterRestoreRate"
+		value 2.500000
+	upgradeProperty
+		propertyType "AbilityBLevel"
+		value 1.000000
+	upgradeProperty
+		propertyType "AbilityCLevel"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1800.000000
+		metal 275.000000
+		crystal 150.000000
+	upgradeTime 60.000000
+	nameStringID "IDS_STARBASEUPGRADEPSICONTROLMETEOROIDS_NAME"
+	descStringID "IDS_STARBASEUPGRADEPSICONTROLMETEOROIDS_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradePsiControlMeteoroids1"
+	smallHudIcon "HUDIconStarBaseUpgradePsiControlMeteoroids1"
+	infoCardIcon ""
+	upgradePropertyCount 4
+	upgradeProperty
+		propertyType "MaxAntiMatterPoints"
+		value 400.000000
+	upgradeProperty
+		propertyType "AntiMatterRestoreRate"
+		value 3.500000
+	upgradeProperty
+		propertyType "AbilityBLevel"
+		value 2.000000
+	upgradeProperty
+		propertyType "AbilityCLevel"
+		value 2.000000
+	upgradeBoolPropertyCount 0
+xpModifier 75.000000

@@ -1,0 +1,60 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "RemoveBuffOfType"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffTypeToRemove "Human_BuffCapital_HyperspaceDisruptionTarget"
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 3
+entityModifier
+	buffEntityModifierType "LinearMaxSpeed"
+	value
+		Level:0 1.000000
+		Level:1 2.000000
+		Level:2 3.000000
+		Level:3 0.000000
+entityModifier
+	buffEntityModifierType "LinearThrust"
+	value
+		Level:0 1.000000
+		Level:1 2.000000
+		Level:2 3.000000
+		Level:3 0.000000
+entityModifier
+	buffEntityModifierType "GravityWellRangeForHyperspace"
+	value
+		Level:0 -0.900000
+		Level:1 -1.000000
+		Level:2 -2.000000
+		Level:3 0.000000
+numEntityBoolModifiers 1
+entityBoolModifier "JumpBlockerImmune"
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 90.000000
+		Level:1 95.000000
+		Level:2 100.000000
+		Level:3 0.000000

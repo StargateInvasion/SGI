@@ -1,0 +1,132 @@
+﻿TXT
+entityType "Fighter"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+numRandomDebrisLarge 0
+numRandomDebrisSmall 0
+numSpecificDebris 0
+armorType "Light"
+hudIcon "HUDICON_ASURAN_FIGHTERSQUAD_LATONA"
+smallHudIcon "HUDICONSMALL_ASURAN_FIGHTERSQUAD_LATONA"
+infoCardIcon "INFOCARDICON_ASURAN_FIGHTERSQUAD_LATONA"
+minZoomDistanceMult 8.000000
+nameStringID "IDS_ASURAN_FIGHTERSPECIAL_LATONA_NAME"
+counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_BOMBER"
+statCountType "FighterBomber"
+formationOffsetDistance 50.000000
+mass 150.000000
+maxAccelerationLinear 200.000000
+maxAccelerationStrafe 100.000000
+maxDecelerationLinear 1000.000000
+maxAccelerationAngular 49.999992
+maxDecelerationAngular 99.999985
+maxSpeedLinear 1500.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+NumWeapons 2
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTIVERYHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "PHASEMISSILE"
+	DamagePerBank:FRONT 73.055000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 2400.000000
+	PreBuffCooldownTime 13.500000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.300000
+	TravelSpeed 1500.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalMissileBomber_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASESUPPORTMISSILEMEDIUM_MUZZLE"
+			sound "WEAPON_PHASESUPPORTMISSILEMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalMissileBomber_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEMEDIUM_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEMEDIUM_HITGENERIC"
+		missileTravelEffectName "Weapon_PhaseCapitalMissileBomber_Travel"
+		missileStartTurningDistance 10.000000
+		missileSlowTurnRate 3.141593
+		missileMaxSlowTurnTime 1.000000
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTIVERYHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "PHASEMISSILE"
+	DamagePerBank:FRONT 73.055000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 2400.000000
+	PreBuffCooldownTime 13.500000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.300000
+	TravelSpeed 1500.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalMissileBomber_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASESUPPORTMISSILEMEDIUM_MUZZLE"
+			sound "WEAPON_PHASESUPPORTMISSILEMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalMissileBomber_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEMEDIUM_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEMEDIUM_HITGENERIC"
+		missileTravelEffectName "Weapon_PhaseCapitalMissileBomber_Travel"
+		missileStartTurningDistance 10.000000
+		missileSlowTurnRate 3.141593
+		missileMaxSlowTurnTime 1.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+meshName "Asuran_FighterBomber_Raptor"
+exhaustParticleSystemName "ExhaustSmall"
+ExplosionName "Fighter0"
+exhaustTrailTextureName "ExhaustTrail"
+exhaustTrailWidth 12.000000
+engineSoundID "ENGINE_PHASESUPPORTSHIP"
+maxHullPoints 140.000000
+hullPointRestoreRate 0.680000
+armorPoints 5.000000
+maxMitigation 0.600000
+experiencePointsForDestroying 11.000000
+minShadow 0.200000
+maxShadow 0.500000

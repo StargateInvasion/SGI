@@ -1,0 +1,345 @@
+﻿TXT
+ParticleSimulation
+	HasInfiniteLifeTime FALSE
+	TotalLifeTime 9.000000
+	NumEmitters 5
+	EmitterType "Point"
+	EmitterContents
+		Name "LBackStream"
+		Enabled TRUE
+		EmitRate 7.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 12
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 5.000000
+		ParticleMinStartLinearSpeed 250.000000
+		ParticleMaxStartLinearSpeed 250.000000
+		ParticleMinStartAngularSpeed 0.872665
+		ParticleMaxStartAngularSpeed 4.363323
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor fffbecb1
+		ParticleWidth 60.000000
+		ParticleHeight 60.000000
+		MeshName ""
+		Position [ -130.000000 0.000000 -320.000000 ]
+		Orientation
+			 [ 0.906308 -0.109382 0.408218 ]
+			 [ 0.000000 0.965926 0.258819 ]
+			 [ -0.422618 -0.234570 0.875426 ]
+		RotateAboutForward 15.000000
+		RotateAboutUp -25.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "nanitehit.tga"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 2
+		AngleVariance 0.017453
+	EmitterType "Point"
+	EmitterContents
+		Name "RBackStream"
+		Enabled TRUE
+		EmitRate 7.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 12
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 5.000000
+		ParticleMinStartLinearSpeed 250.000000
+		ParticleMaxStartLinearSpeed 250.000000
+		ParticleMinStartAngularSpeed 0.872665
+		ParticleMaxStartAngularSpeed 4.363323
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor fffbecb1
+		ParticleWidth 60.000000
+		ParticleHeight 60.000000
+		MeshName ""
+		Position [ 130.000000 0.000000 -320.000000 ]
+		Orientation
+			 [ 0.906308 0.109382 -0.408218 ]
+			 [ 0.000000 0.965926 0.258819 ]
+			 [ 0.422618 -0.234570 0.875426 ]
+		RotateAboutForward 15.000000
+		RotateAboutUp 25.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "nanitehit.tga"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 2
+		AngleVariance 0.017453
+	EmitterType "Point"
+	EmitterContents
+		Name "LFrontStream"
+		Enabled TRUE
+		EmitRate 7.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 12
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 5.000000
+		ParticleMinStartLinearSpeed 250.000000
+		ParticleMaxStartLinearSpeed 250.000000
+		ParticleMinStartAngularSpeed 0.872665
+		ParticleMaxStartAngularSpeed 4.363323
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor fffbecb1
+		ParticleWidth 60.000000
+		ParticleHeight 60.000000
+		MeshName ""
+		Position [ -130.000000 0.000000 40.000000 ]
+		Orientation
+			 [ 0.984808 0.021162 0.172354 ]
+			 [ 0.000000 0.992546 -0.121869 ]
+			 [ -0.173648 0.120018 0.977467 ]
+		RotateAboutForward -7.000000
+		RotateAboutUp -10.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "nanitehit.tga"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 2
+		AngleVariance 0.017453
+	EmitterType "Point"
+	EmitterContents
+		Name "RFrontStream"
+		Enabled TRUE
+		EmitRate 7.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 12
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 5.000000
+		ParticleMinStartLinearSpeed 250.000000
+		ParticleMaxStartLinearSpeed 250.000000
+		ParticleMinStartAngularSpeed 0.872665
+		ParticleMaxStartAngularSpeed 4.363323
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor fffbecb1
+		ParticleWidth 60.000000
+		ParticleHeight 60.000000
+		MeshName ""
+		Position [ 130.000000 0.000000 40.000000 ]
+		Orientation
+			 [ 0.984808 -0.021162 -0.172354 ]
+			 [ 0.000000 0.992546 -0.121869 ]
+			 [ 0.173648 0.120018 0.977467 ]
+		RotateAboutForward -7.000000
+		RotateAboutUp 10.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "nanitehit.tga"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 2
+		AngleVariance 0.017453
+	EmitterType "Point"
+	EmitterContents
+		Name "CenterStream"
+		Enabled TRUE
+		EmitRate 7.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 12
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 5.000000
+		ParticleMinStartLinearSpeed 250.000000
+		ParticleMaxStartLinearSpeed 250.000000
+		ParticleMinStartAngularSpeed 0.872665
+		ParticleMaxStartAngularSpeed 4.363323
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 6.283185
+		ParticleStartMass 1.000000
+		ParticleStartColor fffbecb1
+		ParticleWidth 60.000000
+		ParticleHeight 60.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 290.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "nanitehit.tga"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 2
+		AngleVariance 0.017453
+	NumAffectors 5
+	AffectorType "Fade"
+	AffectorContents
+		Name "Fade"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 5
+		attachedEmitterName "LBackStream"
+		attachedEmitterName "RBackStream"
+		attachedEmitterName "LFrontStream"
+		attachedEmitterName "RFrontStream"
+		attachedEmitterName "CenterStream"
+		DoFadeOut TRUE
+		FadeOutTime 0.750000
+		DoFadeIn TRUE
+		FadeInTime 0.500000
+	AffectorType "LinearForceToPoint"
+	AffectorContents
+		Name "BackPull"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold TRUE
+		YoungParticleAffectThreshold 1.800000
+		UseOldParticleAffectThreshold TRUE
+		OldParticleAffectThreshold 1.100000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 2
+		attachedEmitterName "LBackStream"
+		attachedEmitterName "RBackStream"
+		MinForce 5000.000000
+		MaxForce 5000.000000
+		Point [ 0.000000 55.000000 0.000000 ]
+	AffectorType "LinearForceToPoint"
+	AffectorContents
+		Name "FrontPull"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold TRUE
+		YoungParticleAffectThreshold 1.700000
+		UseOldParticleAffectThreshold TRUE
+		OldParticleAffectThreshold 1.100000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 2
+		attachedEmitterName "LFrontStream"
+		attachedEmitterName "RFrontStream"
+		MinForce 3500.000000
+		MaxForce 3500.000000
+		Point [ 0.000000 -60.000000 350.000000 ]
+	AffectorType "LinearInflate"
+	AffectorContents
+		Name "Grow"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold TRUE
+		YoungParticleAffectThreshold 1.500000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 5
+		attachedEmitterName "LBackStream"
+		attachedEmitterName "RBackStream"
+		attachedEmitterName "LFrontStream"
+		attachedEmitterName "RFrontStream"
+		attachedEmitterName "CenterStream"
+		WidthInflateRate 10.000000
+		HeightInflateRate 10.000000
+	AffectorType "LinearInflate"
+	AffectorContents
+		Name "LinearInflate-1"
+		Enabled TRUE
+		StartTime 0.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold TRUE
+		OldParticleAffectThreshold 1.300000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 5
+		attachedEmitterName "LBackStream"
+		attachedEmitterName "RBackStream"
+		attachedEmitterName "LFrontStream"
+		attachedEmitterName "RFrontStream"
+		attachedEmitterName "CenterStream"
+		WidthInflateRate -30.000000
+		HeightInflateRate -30.000000
+	length 0.000000

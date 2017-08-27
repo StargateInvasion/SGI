@@ -1,0 +1,55 @@
+TXT
+backdrop "MultiPlayerGameLobbyScreenBackdrop"
+textEntryDef
+	labelFontId "Label"
+	textEntryFontId "ChatTextEntry"
+backButton
+	area [59, 661, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"		
+	icon "ScreenBackButton"
+	text "IDSMultiPlayerGameLobbyScreenBackButton"
+startGameButton
+	area [749, 661, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	icon "MultiPlayerGameLobbyScreenStartGameButton"
+	text "IDSMultiPlayerGameLobbyScreenStartGameButton"
+openGameOptionsDialogButton
+	area [300, 661, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	icon "OpenGameOptionsDialog"
+	text "IDSGalaxySetupWindowOpenGameOptionsDialog"
+openVictoryOptionsDialogButton
+	area [525, 661, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	icon "OpenGameOptionsDialog"
+	text "IDSGalaxySetupWindowOpenVictoryOptionsDialog"	
+chatReceivedTextList
+	area [620, 230, 350, 370]
+	itemGap 3
+chatEntry
+	area [620, 608, 350, 36]
+	labelWidth 0
+	labelText ""
+playerSetupWindow
+	area [60, 230, 600, 500]
+galaxyInfoWindow
+	area [60, 62, 500, 500]
+victoryInfoFont "ButtonLabel"
+victoryInfoPosition [465,198]
+spaceBetweenVictoryInfo -25

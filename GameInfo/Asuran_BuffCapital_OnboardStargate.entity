@@ -1,0 +1,52 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 0
+numOverTimeActions 3
+overTimeAction
+	buffOverTimeActionType "RestoreHull"
+	hullRestoreRate
+		Level:0 25.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+overTimeAction
+	buffOverTimeActionType "EarnCredits"
+	earnRate
+		Level:0 10.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+overTimeAction
+	buffOverTimeActionType "EarnResources"
+	earnRate
+		Level:0 5.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "CultureSpread"
+	value
+		Level:0 15.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 75.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+finishCondition
+	finishConditionType "OwnerChanged"

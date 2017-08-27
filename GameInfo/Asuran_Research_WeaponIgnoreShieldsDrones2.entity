@@ -1,0 +1,43 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_WEAPONIGNORESHIELDS_PHASEMISSILE2"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_WEAPONIGNORESHIELDS_PHASEMISSILE2"
+infoCardIcon ""
+NameStringID "IDS_ASURAN_RESEARCH_WEAPONIGNORESHIELDSDRONES2_NAME"
+DescriptionStringID "IDS_ASURAN_RESEARCH_WEAPONIGNORESHIELDSDRONES2_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 4 , 1 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_WeaponIgnoreShieldsDrones1"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 75.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1200.000000
+	metal 200.000000
+	crystal 325.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 4
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "WeaponIgnoresShieldsAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.050000
+	linkedWeaponClass "PHASEMISSILE"
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

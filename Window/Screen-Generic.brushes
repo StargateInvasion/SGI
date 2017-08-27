@@ -1,0 +1,1193 @@
+﻿TXT
+onlyLoadOnDemand FALSE
+brushCount 83
+brush
+	name "CheckBoxBackdrop"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 448 , 201 , 30 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 448 , 201 , 30 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 448 , 201 , 30 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 448 , 201 , 30 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 448 , 201 , 30 , 30 ]
+brush
+	name "CheckBoxCheckStateTrue"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 448 , 168 , 30 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 448 , 168 , 30 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 448 , 168 , 30 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 448 , 168 , 30 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 448 , 168 , 30 , 30 ]
+brush
+	name "DialogBackdrop"
+	content "Simple"
+	fileName "BackdropFrontEnd"
+	pixelBox [ 1069 , 1 , 556 , 517 ]
+brush
+	name "DialogTitleOverlay"
+	content "Simple"
+	fileName "BackdropFrontEnd"
+	pixelBox [ 1069 , 523 , 556 , 90 ]
+brush
+	name "PlayerThemeButtonUnderlayOn"
+	content "States"
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 129 , 885 , 56 , 52 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 239 , 886 , 56 , 52 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 2 , 885 , 56 , 52 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 2 , 885 , 56 , 52 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 239 , 886 , 56 , 52 ]
+brush
+	name "PlayerThemeButtonUnderlayOff"
+	content "States"
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 121 , 886 , 56 , 52 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 239 , 886 , 56 , 52 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 180 , 886 , 56 , 52 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 62 , 886 , 56 , 52 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 3 , 886 , 56 , 52 ]
+brush
+	name "PlayerThemeButtonOverlayOn"
+	content "States"
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 129 , 938 , 56 , 52 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 239 , 939 , 56 , 52 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 2 , 938 , 56 , 52 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 2 , 938 , 56 , 52 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 239 , 939 , 56 , 52 ]
+brush
+	name "PlayerThemeButtonOverlayOff"
+	content "States"
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 121 , 939 , 56 , 52 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 239 , 939 , 56 , 52 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 180 , 939 , 56 , 52 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 62 , 939 , 56 , 52 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 3 , 939 , 56 , 52 ]
+brush
+	name "TabWindowButtonIndicatorBackdrop"
+	content "Simple"
+	fileName "Buttons_Backgrounds"
+	pixelBox [ 780 , 864 , 72 , 81 ]
+brush
+	name "TabWindowTitleOverlay"
+	content "Simple"
+	fileName "Buttons_Backgrounds"
+	pixelBox [ 299 , 886 , 208 , 59 ]
+brush
+	name "TabWindowButtonBackdropFrontEnd"
+	content "Simple"
+	fileName "BackdropFrontEnd"
+	pixelBox [ 0 , 19 , 250 , 808 ]
+brush
+	name "TabWindowContentBackdropFrontEnd"
+	content "Simple"
+	fileName "BackdropFrontEnd"
+	pixelBox [ 250 , 19 , 814 , 808 ]
+brush
+	name "TabWindowButtonBackdropInGame"
+	content "Simple"
+	fileName "BackdropInGame"
+	pixelBox [ 0 , 39 , 250 , 749 ]
+brush
+	name "TabWindowContentBackdropInGame"
+	content "Simple"
+	fileName "BackdropInGame"
+	pixelBox [ 250 , 39 , 814 , 749 ]
+brush
+	name "ListWindowSelectedItem"
+	content "Simple"
+	fileName "Interface0"
+	pixelBox [ 521 , 8 , 255 , 27 ]
+brush
+	name "ListWindowBackdrop"
+	content "MarginsAndStates"
+	stretchMargins
+		left 12
+		right 12
+		top 12
+		bottom 12
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 3
+	Disabled
+		fileName "Interface0"
+		pixelBox [ 77 , 2 , 98 , 64 ]
+	Pressed
+		fileName "Interface0"
+		pixelBox [ 77 , 2 , 98 , 64 ]
+	CursorOver
+		fileName "Interface0"
+		pixelBox [ 188 , 73 , 98 , 64 ]
+	Focused
+		fileName "Interface0"
+		pixelBox [ 188 , 2 , 98 , 64 ]
+	Normal
+		fileName "Interface0"
+		pixelBox [ 77 , 2 , 98 , 64 ]
+brush
+	name "ScreenBackButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 4 , 249 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 249 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 4 , 249 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 249 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 4 , 249 , 85 , 38 ]
+brush
+	name "ScreenButtonUnderlayLarge"
+	content "States"
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 3 , 434 , 231 , 62 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 3 , 558 , 231 , 62 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 3 , 496 , 231 , 62 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 3 , 372 , 231 , 62 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 3 , 310 , 231 , 62 ]
+brush
+	name "ScreenButtonOverlayLarge"
+	content "States"
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 237 , 434 , 231 , 62 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 237 , 558 , 231 , 62 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 237 , 496 , 231 , 62 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 237 , 372 , 231 , 62 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 237 , 310 , 231 , 62 ]
+brush
+	name "ScreenButtonUnderlayLargeShort"
+	content "States"
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 492 , 106 , 231 , 52 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 492 , 212 , 231 , 52 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 492 , 159 , 231 , 52 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 492 , 53 , 231 , 52 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 492 , 0 , 231 , 52 ]
+brush
+	name "ScreenButtonOverlayLargeShort"
+	content "States"
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 726 , 106 , 231 , 52 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 726 , 212 , 231 , 52 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 726 , 159 , 231 , 52 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 726 , 53 , 231 , 52 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 726 , 0 , 231 , 52 ]
+brush
+	name "ScreenButtonUnderlayMedium"
+	content "States"
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 3 , 727 , 145 , 52 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 3 , 833 , 145 , 52 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 3 , 780 , 145 , 52 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 3 , 674 , 145 , 52 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 3 , 621 , 145 , 52 ]
+brush
+	name "ScreenButtonOverlayMedium"
+	content "States"
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 152 , 727 , 145 , 52 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 152 , 833 , 145 , 52 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 152 , 780 , 145 , 52 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 152 , 674 , 145 , 52 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 152 , 621 , 145 , 52 ]
+brush
+	name "ScreenButtonUnderlaySmall"
+	content "States"
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 300 , 727 , 116 , 52 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 300 , 833 , 116 , 52 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 300 , 780 , 116 , 52 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 300 , 674 , 116 , 52 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 300 , 621 , 116 , 52 ]
+brush
+	name "ScreenButtonOverlaySmall"
+	content "States"
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 373 , 106 , 116 , 52 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 373 , 212 , 116 , 52 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 373 , 159 , 116 , 52 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 373 , 53 , 116 , 52 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 373 , 0 , 116 , 52 ]
+brush
+	name "ScreenButtonUnderlayTiny"
+	content "States"
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 121 , 886 , 56 , 52 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 239 , 886 , 56 , 52 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 180 , 886 , 56 , 52 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 62 , 886 , 56 , 52 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 3 , 886 , 56 , 52 ]
+brush
+	name "ScreenButtonOverlayTiny"
+	content "States"
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 121 , 939 , 56 , 52 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 239 , 939 , 56 , 52 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 180 , 939 , 56 , 52 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 62 , 939 , 56 , 52 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 3 , 939 , 56 , 52 ]
+brush
+	name "ScreenButtonUnderlaySearch"
+	content "States"
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 613 , 391 , 164 , 62 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 613 , 515 , 164 , 62 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 613 , 453 , 164 , 62 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 613 , 329 , 164 , 62 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 613 , 267 , 164 , 62 ]
+brush
+	name "ScreenButtonOverlaySearch"
+	content "States"
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 613 , 701 , 164 , 62 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 613 , 825 , 164 , 62 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 613 , 763 , 164 , 62 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 613 , 639 , 164 , 62 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 613 , 577 , 164 , 62 ]
+brush
+	name "ScreenButtonUnderlaySearchHotkey"
+	content "States"
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 418 , 701 , 37 , 37 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 418 , 773 , 37 , 37 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 418 , 735 , 37 , 37 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 418 , 656 , 37 , 37 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 418 , 621 , 37 , 37 ]
+brush
+	name "ScreenButtonOverlaySearchHotkey"
+	content "States"
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 960 , 76 , 37 , 37 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 960 , 152 , 37 , 37 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 960 , 114 , 37 , 37 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 960 , 38 , 37 , 37 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 960 , 0 , 37 , 37 ]
+brush
+	name "ScreenButtonUnderlaySupply"
+	content "States"
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 471 , 948 , 83 , 72 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 643 , 948 , 83 , 72 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 557 , 948 , 83 , 72 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 385 , 948 , 83 , 72 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 299 , 948 , 83 , 72 ]
+brush
+	name "ScreenButtonOverlaySupply"
+	content "States"
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 901 , 948 , 83 , 72 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 939 , 873 , 83 , 72 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 853 , 873 , 83 , 72 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 815 , 948 , 83 , 72 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 729 , 948 , 83 , 72 ]
+brush
+	name "TabButtonUnderlayNonActive"
+	content "States"
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 3 , 124 , 182 , 62 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 3 , 248 , 182 , 62 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 3 , 186 , 182 , 62 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 3 , 62 , 182 , 62 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 3 , 0 , 182 , 62 ]
+brush
+	name "TabButtonOverlayNonActive"
+	content "States"
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 188 , 124 , 182 , 62 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 188 , 248 , 182 , 62 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 188 , 186 , 182 , 62 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 188 , 62 , 182 , 62 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 188 , 0 , 182 , 62 ]
+brush
+	name "TabButtonUnderlayActive"
+	content "States"
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 3 , 124 , 182 , 62 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 3 , 248 , 182 , 62 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 3 , 186 , 182 , 62 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 3 , 62 , 182 , 62 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 3 , 0 , 182 , 62 ]
+brush
+	name "TabButtonOverlayActive"
+	content "States"
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 188 , 124 , 182 , 62 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 188 , 248 , 182 , 62 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 188 , 186 , 182 , 62 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 188 , 62 , 182 , 62 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 188 , 0 , 182 , 62 ]
+brush
+	name "SelectGameSaveTypeWindowChangeTypeButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 180 , 290 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 180 , 290 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 180 , 290 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 180 , 290 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 180 , 290 , 85 , 38 ]
+brush
+	name "PlayerStatusAvailable"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 443 , 333 , 38 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 333 , 38 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 443 , 333 , 38 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 333 , 38 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 333 , 38 , 30 ]
+brush
+	name "PlayerStatusAvailableForFriend"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 443 , 564 , 38 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 564 , 38 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 443 , 564 , 38 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 564 , 38 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 564 , 38 , 30 ]
+brush
+	name "PlayerStatusHuman"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 443 , 234 , 38 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 234 , 38 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 443 , 234 , 38 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 234 , 38 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 234 , 38 , 30 ]
+brush
+	name "PlayerStatusAI"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 443 , 267 , 38 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 267 , 38 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 443 , 267 , 38 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 267 , 38 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 267 , 38 , 30 ]
+brush
+	name "PlayerStatusClosed"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 443 , 300 , 38 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 300 , 38 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 443 , 300 , 38 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 300 , 38 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 300 , 38 , 30 ]
+brush
+	name "PlayerSetupOpenICOPlayerInfo"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 443 , 531 , 38 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 531 , 38 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 443 , 531 , 38 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 531 , 38 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 531 , 38 , 30 ]
+brush
+	name "PlayerAIDifficultyEasy"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 443 , 498 , 38 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 498 , 38 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 443 , 498 , 38 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 498 , 38 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 498 , 38 , 30 ]
+brush
+	name "PlayerAIDifficultyMedium"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 443 , 465 , 38 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 465 , 38 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 443 , 465 , 38 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 465 , 38 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 465 , 38 , 30 ]
+brush
+	name "PlayerAIDifficultyHard"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 443 , 399 , 38 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 399 , 38 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 443 , 399 , 38 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 399 , 38 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 399 , 38 , 30 ]
+brush
+	name "PlayerAIDifficultyUnfair"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 443 , 366 , 38 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 366 , 38 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 443 , 366 , 38 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 366 , 38 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 366 , 38 , 30 ]
+brush
+	name "PlayerAIDifficultyNightmare"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 443 , 433 , 38 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 433 , 38 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 443 , 433 , 38 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 433 , 38 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 433 , 38 , 30 ]
+brush
+	name "PlayerAIDifficultyImpossible"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 443 , 762 , 38 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 762 , 38 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 443 , 762 , 38 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 762 , 38 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 762 , 38 , 30 ]
+brush
+	name "PlayerAIStyleRandom"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 443 , 729 , 38 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 729 , 38 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 443 , 729 , 38 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 729 , 38 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 729 , 38 , 30 ]
+brush
+	name "PlayerAIStyleAggressive"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 443 , 663 , 38 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 663 , 38 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 443 , 663 , 38 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 663 , 38 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 663 , 38 , 30 ]
+brush
+	name "PlayerAIStyleDefensive"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 443 , 630 , 38 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 630 , 38 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 443 , 630 , 38 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 630 , 38 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 630 , 38 , 30 ]
+brush
+	name "PlayerAIStyleResearch"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 443 , 696 , 38 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 696 , 38 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 443 , 696 , 38 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 696 , 38 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 696 , 38 , 30 ]
+brush
+	name "PlayerAIStyleEconomic"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 443 , 597 , 38 , 30 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 597 , 38 , 30 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 443 , 597 , 38 , 30 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 597 , 38 , 30 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 443 , 597 , 38 , 30 ]
+brush
+	name "ScrollBarVertical"
+	content "Margins"
+	stretchMargins
+		left 0
+		right 0
+		top 10
+		bottom 10
+	contentMargins
+		left 0
+		right 0
+		top 20
+		bottom 20
+	fileName "Interface0"
+	pixelBox [ 811 , 451 , 34 , 195 ]
+brush
+	name "ScrollBarVerticalBeginArrow"
+	content "States"
+	Disabled
+		fileName "Interface0"
+		pixelBox [ 5 , 9 , 24 , 24 ]
+	Pressed
+		fileName "Interface0"
+		pixelBox [ 5 , 67 , 24 , 24 ]
+	CursorOver
+		fileName "Interface0"
+		pixelBox [ 5 , 38 , 24 , 24 ]
+	Focused
+		fileName "Interface0"
+		pixelBox [ 5 , 9 , 24 , 24 ]
+	Normal
+		fileName "Interface0"
+		pixelBox [ 5 , 9 , 24 , 24 ]
+brush
+	name "ScrollBarVerticalEndArrow"
+	content "States"
+	Disabled
+		fileName "Interface0"
+		pixelBox [ 41 , 9 , 24 , 24 ]
+	Pressed
+		fileName "Interface0"
+		pixelBox [ 41 , 67 , 24 , 24 ]
+	CursorOver
+		fileName "Interface0"
+		pixelBox [ 41 , 38 , 24 , 24 ]
+	Focused
+		fileName "Interface0"
+		pixelBox [ 41 , 9 , 24 , 24 ]
+	Normal
+		fileName "Interface0"
+		pixelBox [ 41 , 9 , 24 , 24 ]
+brush
+	name "ScrollBarVerticalThumb"
+	content "Margins"
+	stretchMargins
+		left 0
+		right 0
+		top 20
+		bottom 20
+	contentMargins
+		left 0
+		right 0
+		top 12
+		bottom 8
+	fileName "Interface0"
+	pixelBox [ 728 , 514 , 34 , 73 ]
+brush
+	name "ScrollBarVerticalThumbDragging"
+	content "Margins"
+	stretchMargins
+		left 0
+		right 0
+		top 20
+		bottom 20
+	contentMargins
+		left 0
+		right 0
+		top 12
+		bottom 8
+	fileName "Interface0"
+	pixelBox [ 728 , 514 , 34 , 73 ]
+brush
+	name "ScrollBarVerticalThumbOverlay"
+	content "States"
+	Disabled
+		fileName "Interface0"
+		pixelBox [ 768 , 480 , 14 , 19 ]
+	Pressed
+		fileName "Interface0"
+		pixelBox [ 768 , 643 , 14 , 19 ]
+	CursorOver
+		fileName "Interface0"
+		pixelBox [ 768 , 561 , 14 , 19 ]
+	Focused
+		fileName "Interface0"
+		pixelBox [ 768 , 561 , 14 , 19 ]
+	Normal
+		fileName "Interface0"
+		pixelBox [ 768 , 480 , 14 , 19 ]
+brush
+	name "ScrollBarVerticalThumbOverlayDragging"
+	content "Simple"
+	fileName "Interface0"
+	pixelBox [ 768 , 643 , 14 , 19 ]
+brush
+	name "ScrollBarHorizontal"
+	content "Margins"
+	stretchMargins
+		left 20
+		right 20
+		top 0
+		bottom 0
+	contentMargins
+		left 8
+		right 8
+		top 0
+		bottom 0
+	fileName "Interface0"
+	pixelBox [ 794 , 131 , 195 , 32 ]
+brush
+	name "ScrollBarHorizontalBeginArrow"
+	content "States"
+	Disabled
+		fileName "Interface0"
+		pixelBox [ 796 , 192 , 17 , 32 ]
+	Pressed
+		fileName "Interface0"
+		pixelBox [ 796 , 260 , 17 , 32 ]
+	CursorOver
+		fileName "Interface0"
+		pixelBox [ 796 , 226 , 17 , 32 ]
+	Focused
+		fileName "Interface0"
+		pixelBox [ 796 , 192 , 17 , 32 ]
+	Normal
+		fileName "Interface0"
+		pixelBox [ 796 , 192 , 17 , 32 ]
+brush
+	name "ScrollBarHorizontalEndArrow"
+	content "States"
+	Disabled
+		fileName "Interface0"
+		pixelBox [ 970 , 192 , 17 , 32 ]
+	Pressed
+		fileName "Interface0"
+		pixelBox [ 970 , 260 , 17 , 32 ]
+	CursorOver
+		fileName "Interface0"
+		pixelBox [ 970 , 226 , 17 , 32 ]
+	Focused
+		fileName "Interface0"
+		pixelBox [ 970 , 192 , 17 , 32 ]
+	Normal
+		fileName "Interface0"
+		pixelBox [ 970 , 192 , 17 , 32 ]
+brush
+	name "ScrollBarHorizontalThumb"
+	content "States"
+	Disabled
+		fileName "Interface0"
+		pixelBox [ 804 , 165 , 17 , 25 ]
+	Pressed
+		fileName "Interface0"
+		pixelBox [ 856 , 165 , 17 , 25 ]
+	CursorOver
+		fileName "Interface0"
+		pixelBox [ 830 , 165 , 17 , 25 ]
+	Focused
+		fileName "Interface0"
+		pixelBox [ 804 , 165 , 17 , 25 ]
+	Normal
+		fileName "Interface0"
+		pixelBox [ 804 , 165 , 17 , 25 ]
+brush
+	name "ScrollBarHorizontalThumbDragging"
+	content "Simple"
+	fileName "Interface0"
+	pixelBox [ 856 , 165 , 17 , 25 ]
+brush
+	name "ScrollBarHorizontalThumbOverlay"
+	content "States"
+	Disabled
+		fileName "Interface0"
+		pixelBox [ 804 , 165 , 17 , 25 ]
+	Pressed
+		fileName "Interface0"
+		pixelBox [ 856 , 165 , 17 , 25 ]
+	CursorOver
+		fileName "Interface0"
+		pixelBox [ 830 , 165 , 17 , 25 ]
+	Focused
+		fileName "Interface0"
+		pixelBox [ 804 , 165 , 17 , 25 ]
+	Normal
+		fileName "Interface0"
+		pixelBox [ 804 , 165 , 17 , 25 ]
+brush
+	name "ScrollBarHorizontalThumbOverlayDragging"
+	content "Simple"
+	fileName "Interface0"
+	pixelBox [ 856 , 165 , 17 , 25 ]
+brush
+	name "TEXTENTRY"
+	content "MarginsAndStates"
+	stretchMargins
+		left 1
+		right 11
+		top 1
+		bottom 11
+	contentMargins
+		left 8
+		right 8
+		top 3
+		bottom 3
+	Disabled
+		fileName "Interface0"
+		pixelBox [ 775 , 59 , 14 , 28 ]
+	Pressed
+		fileName "Interface0"
+		pixelBox [ 775 , 59 , 14 , 28 ]
+	CursorOver
+		fileName "Interface0"
+		pixelBox [ 797 , 92 , 14 , 28 ]
+	Focused
+		fileName "Interface0"
+		pixelBox [ 797 , 59 , 14 , 28 ]
+	Normal
+		fileName "Interface0"
+		pixelBox [ 775 , 59 , 14 , 28 ]
+brush
+	name "GalaxyScenarioPictureUnderlay"
+	content "Simple"
+	fileName "BackdropFrontEnd"
+	pixelBox [ 0 , 832 , 264 , 188 ]
+brush
+	name "GalaxyScenarioPictureOverlay"
+	content "Simple"
+	fileName "BackdropFrontEnd"
+	pixelBox [ 0 , 1023 , 264 , 188 ]
+brush
+	name "RandomRacePictureIcon"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled"
+		pixelBox [ 448 , 136 , 24 , 29 ]
+	Pressed
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 448 , 136 , 24 , 29 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver"
+		pixelBox [ 448 , 136 , 24 , 29 ]
+	Focused
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 448 , 136 , 24 , 29 ]
+	Normal
+		fileName "Buttons_Screens_Normal"
+		pixelBox [ 448 , 136 , 24 , 29 ]
+brush
+	name "PlayerTeam0"
+	content "Simple"
+	fileName "Buttons_Screens_Normal"
+	pixelBox [ 482 , 696 , 29 , 30 ]
+brush
+	name "PlayerTeam1"
+	content "Simple"
+	fileName "Buttons_Screens_Normal"
+	pixelBox [ 482 , 729 , 29 , 30 ]
+brush
+	name "PlayerTeam2"
+	content "Simple"
+	fileName "Buttons_Screens_Normal"
+	pixelBox [ 482 , 762 , 29 , 30 ]
+brush
+	name "PlayerTeam3"
+	content "Simple"
+	fileName "Buttons_Screens_Normal"
+	pixelBox [ 482 , 795 , 29 , 30 ]
+brush
+	name "PlayerTeam4"
+	content "Simple"
+	fileName "Buttons_Screens_Normal"
+	pixelBox [ 482 , 828 , 29 , 30 ]
+brush
+	name "PlayerTeam5"
+	content "Simple"
+	fileName "Buttons_Screens_Normal"
+	pixelBox [ 482 , 531 , 29 , 30 ]
+brush
+	name "PlayerTeam6"
+	content "Simple"
+	fileName "Buttons_Screens_Normal"
+	pixelBox [ 482 , 564 , 29 , 30 ]
+brush
+	name "PlayerTeam7"
+	content "Simple"
+	fileName "Buttons_Screens_Normal"
+	pixelBox [ 482 , 597 , 29 , 30 ]
+brush
+	name "PlayerTeam8"
+	content "Simple"
+	fileName "Buttons_Screens_Normal"
+	pixelBox [ 482 , 630 , 29 , 30 ]
+brush
+	name "PlayerTeam9"
+	content "Simple"
+	fileName "Buttons_Screens_Normal"
+	pixelBox [ 482 , 663 , 29 , 30 ]

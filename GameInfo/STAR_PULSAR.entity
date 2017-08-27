@@ -1,0 +1,49 @@
+﻿TXT
+entityType "Star"
+coronaStartColor 0
+coronaEndColor 0
+coronaStartColorDistance 0.000000
+coronaEndColorDistance 2.000000
+farIcon "HUDICON_SOLARSYSTEM_BLUE"
+coloredSkyboxMeshInfoCount 5
+meshInfo
+	meshName "SkyboxBackdrop2"
+	shouldPrefer TRUE
+meshInfo
+	meshName "SkyboxBackdrop4"
+	shouldPrefer FALSE
+meshInfo
+	meshName "SkyboxBackdrop5"
+	shouldPrefer TRUE
+meshInfo
+	meshName "SkyboxBackdrop6"
+	shouldPrefer TRUE
+meshInfo
+	meshName "SkyboxBackdrop8"
+	shouldPrefer FALSE
+deepSpaceSkyboxMeshInfoCount 1
+meshInfo
+	meshName "SkyboxBackdrop7"
+	shouldPrefer FALSE
+iconTextureName "starcore-blue"
+dlcID 255910
+ability:0 "AbilityStarPulsar"
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+hudIcon "HUDICON_STAR_PULSAR"
+smallHudIcon "HUDICON_STAR_PULSAR"
+infoCardIcon "INFOCARDICON_STAR_PULSAR"
+minZoomDistanceMult 2.000000
+moveAreaRadius 60000.000000
+hyperspaceExitRadius 50000.000000
+isWormhole FALSE
+maxStarBaseCountPerPlayer 4
+maxSpaceMineCountPerPlayer 500
+mainViewIcon "MAINVIEWICON_STAR_PULSAR"
+picture "STARPICTURE_PULSAR"
+MeshName "Pulsar"
+MaxMeshVisibilityDistanceToCamera -1.000000
+minShadow 0.000000
+maxShadow 0.000000

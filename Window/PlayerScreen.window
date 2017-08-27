@@ -1,0 +1,632 @@
+TXT
+tabWindow
+	topLeftOffset [0, 39]
+	buttonTopLeftOffset [33, 90]
+	buttonSize [ 170 , 52 ]
+	buttonIndicatorArea [148, -2, 72, 52]
+	buttonIndicatorBackdrop "TabWindowButtonIndicatorBackdrop"
+	titleStringId "IDSPlayerScreenTitle"
+	titleFontId "TabbedScreenTitle"
+	titleArea [20, 20, 190, 40]
+	titleOverlayArea [12, 4, 208 , 59]
+	titleOverlay "TabWindowTitleOverlay"
+	buttonsBackdropArea [0, 0, 210, 749]
+	buttonsBackdropDetailArea [0, 0, 210, 749]
+	contentArea [230, 0, 814, 749]
+	buttonsBackdrop "TabWindowButtonBackdropInGame"
+	buttonsBackdropDetail ""
+	contentBackdrop "TabWindowContentBackdropInGame"
+	nonActiveButtonInternals
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 0
+		textOffsetFromLeft 40
+		underlay "TabButtonUnderlayNonActive"
+		overlay "TabButtonOverlayNonActive"						
+	activeButtonInternals
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 0
+		textOffsetFromLeft 40
+		underlay "TabButtonUnderlayActive"
+		overlay "TabButtonOverlayActive"		
+	closeButton
+		area [33, 665, 170 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 40
+		textOffsetFromLeft 50
+		underlay "TabButtonUnderlayNonActive"
+		overlay "TabButtonOverlayNonActive"					
+		icon "PlayerScreenCloseButton"
+		text "IDSPlayerScreenCloseButton"
+playerTabContentWindowDef
+	portraitFrameArea [12, 60, 304 , 279]
+	portraitPictureArea [66, 117, 195 , 219]
+	portraitUnderlay "PlayerScreenPortraitUnderlay"
+	portraitOverlay "PlayerScreenPortraitOverlay"
+	portraitOverlayWhenDead "PlayerScreenPortraitOverlayWhenDead"
+	iconArea [280, 72, 100, 100]
+	nameArea [380, 72, 300, 100]
+	nameFont "NotificationPlayer"
+	rankingWindowDef
+		area [27, 461, 737, 219]
+		backdrop "PlayerScreenRankingBackdrop"
+		rankingGroupSharedDef
+			iconArea [0, 0, 30, 30]
+			nameArea [40, 0, 90, 30]
+			numberArea [160, 0, 30, 30]
+			nameFont "TabbedScreenTitle"
+			numberFont "TabbedScreenTitle"
+			subRankingTypesFont "Label"
+			subRankingTypesStartTopLeft [40, 45]
+			subRankingTypesHeight 24
+			subRankingTypesNumberLeftOffset 120
+		militiaryGroupDef
+			area [130, 0, 180, 150]
+			icon "BottomMilitaryPlayerRankingLargeIcon"
+			titleColor ffFF0000
+		civilianGroupDef
+			area [430, 0, 180, 150]
+			icon "BottomCivilianPlayerRankingLargeIcon"
+			titleColor ff0eadff
+		economyGroupDef
+			area [130, 120, 180, 150]
+			icon "BottomEconomyPlayerRankingLargeIcon"
+			titleColor ffFFC705
+		diplomacyGroupDef
+			area [430, 120, 180, 150]
+			icon "BottomDiplomaticPlayerRankingLargeIcon"
+			titleColor ffaf51ff
+	tradeResourcesWindowDef
+		area [287, 343, 468 , 87]
+		backdrop "PlayerScreenTradeResourcesBackdrop"
+		tradeResourceButtonSharedDef
+			buttonPressAmount
+				smallAmount 100
+				largeAmount 250
+		tradeCreditsButtonDef
+			area [25, 25, 133 , 38]
+			fontId "ButtonLabel"
+			iconOffsetFromLeft 10
+			textOffsetFromLeft 45
+			underlay "ScreenButtonUnderlayMedium"
+			overlay "ScreenButtonOverlayMedium"					
+			icon "PlayerScreenTradeCredits"
+			textFormat "IDSPlayerScreenTradeCredits"
+		tradeMetalButtonDef
+			area [165, 25, 133 , 38]
+			fontId "ButtonLabel"
+			iconOffsetFromLeft 10
+			textOffsetFromLeft 45
+			underlay "ScreenButtonUnderlayMedium"
+			overlay "ScreenButtonOverlayMedium"					
+			icon "PlayerScreenTradeMetal"
+			textFormat "IDSPlayerScreenTradeMetal"
+		tradeCrystalButtonDef
+			area [305, 25, 133 , 38]
+			fontId "ButtonLabel"
+			iconOffsetFromLeft 10
+			textOffsetFromLeft 45
+			underlay "ScreenButtonUnderlayMedium"
+			overlay "ScreenButtonOverlayMedium"					
+			icon "PlayerScreenTradeCrystal"
+			textFormat "IDSPlayerScreenTradeCrystal"
+	alliancesBackdropArea [27, 464, 737, 219]
+	alliancesBackdrop "PlayerScreenAlliancesBackdrop"
+	allianceWindowSharedDef
+		buttonInternals
+			area [0, 0 , 220 , 46]
+			fontId "ButtonLabel"
+			iconOffsetFromLeft 22
+			textOffsetFromLeft 70
+			underlay "ScreenButtonUnderlayLarge"
+			overlay "ScreenButtonOverlayLarge"					
+		statusArea [230, 0, 95, 46]
+		MutualAlliance
+			statusIcon "PlayerScreenAllianceStatusMutual"
+			buttonText "IDSPlayerScreenChangeAllianceButtonMutual"
+		AllianceOfferedByActiveOnly
+			statusIcon "PlayerScreenAllianceStatusOfferedByActiveOnly"
+			buttonText "IDSPlayerScreenChangeAllianceButtonOfferedByActiveOnly"
+		AllianceOfferedToActiveOnly
+			statusIcon "PlayerScreenAllianceStatusOfferedToActiveOnly"
+			buttonText "IDSPlayerScreenChangeAllianceButtonOfferedToActiveOnly"
+		NoAlliance
+			statusIcon "PlayerScreenAllianceStatusNone"
+			buttonText "IDSPlayerScreenChangeAllianceButtonNone"
+		Trade
+			buttonIcon "PlayerScreenTradeAlliance"
+		ExternalVision
+			buttonIcon "PlayerScreenExternalVisionAlliance"
+		InternalVision
+			buttonIcon "PlayerScreenInternalVisionAlliance"
+		CeaseFire
+			buttonIcon "PlayerScreenCeaseFireAlliance"
+		PeaceTreaty
+			buttonIcon "PlayerScreenPeaceTreatyAlliance"
+		ResearchPact
+			buttonIcon "PlayerScreenOfferResearchPact"
+		EfficiencyPact
+			buttonIcon "PlayerScreenOfferEfficiencyPact"
+		AntimatterPact
+			buttonIcon "PlayerScreenOfferAntimatterPact"
+		ArmorPact
+			buttonIcon "PlayerScreenOfferArmorPact"
+		BeamWeaponPact
+			buttonIcon "PlayerScreenOfferBeamPact"
+		CulturePact
+			buttonIcon "PlayerScreenOfferCulturePact"
+		MetalCrystalPact
+			buttonIcon "PlayerScreenOfferMetalCrystalPact"
+		ThrusterPact
+			buttonIcon "PlayerScreenOfferThrusterPact"
+		PhaseJumpPact
+			buttonIcon "PlayerScreenOfferPhaseJumpPact"
+		PlanetBombingPact
+			buttonIcon "PlayerScreenOfferPlanetBombingPact"
+		ShieldPact
+			buttonIcon "PlayerScreenOfferShieldPact"
+		MarketPact
+			buttonIcon "PlayerScreenOfferMarketPact"
+		EnergyWeaponCooldownPact
+			buttonIcon "PlayerScreenOfferEnergyWeaponCooldownPact"
+		MassReductionPact
+			buttonIcon "PlayerScreenOfferMassReductionPact"
+		SupplyPact
+			buttonIcon "PlayerScreenOfferSupplyPact"
+		TacticalSlotsPact
+			buttonIcon "PlayerScreenOfferTacticalSlotsPact"
+		WeaponCooldownPact
+			buttonIcon "PlayerScreenOfferWeaponCooldownPact"
+		TradeIncomePact
+			buttonIcon "PlayerScreenOfferTradeIncomePact"
+		ceaseFireAllianceWindowDef
+			area [62, 529, 330 , 46]
+		peaceTreatyAllianceWindowDef
+			area [62, 582, 330 , 46]
+		tradeAllianceWindowDef
+			area [397, 529, 330, 46]
+		externalVisionAllianceWindowDef
+			area [397, 635, 330, 46]
+		internalVisionAllianceWindowDef
+			area [62, 635, 330, 46]
+		managePactsWindowDef
+			area [397, 582, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 22
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+			buttonIcon "PlayerScreenManagePacts"
+			buttonTextId "IDSPlayerScreenManagePactsButton"
+			statusArea [230, 0, 95, 44]
+			statusIcon "PlayerScreenPeaceTreatyCooldownTimeUnderlay"
+		goToWarWindowDef
+			area [62, 476, 220 , 46]
+			buttonInternals
+				area [0, 0, 220 , 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 22
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"						
+			buttonIcon "PlayerScreenGoToWar"
+			buttonTextId "IDSPlayerScreenGoToWarButton"
+			cooldownTimeBackdropArea [230, 0, 95, 44]
+			cooldownTimeArea [230, 0, 95, 44]
+			cooldownTimeFrame ""
+			cooldownTimeUnderlay "PlayerScreenPeaceTreatyCooldownTimeUnderlay"
+			cooldownTimeOverlay "PlayerScreenPeaceTreatyCooldownTimeOverlay"
+			cooldownTimeFontId "Label"
+		offerMissionWindowDef
+			area [397, 476, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 22
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+			buttonIcon "PlayerScreenOfferMission"
+			buttonTextId "IDSPlayerScreenOfferMissionButton"
+			statusArea [230, 0, 95, 44]
+			noMissionStatusIcon "PlayerScreenPeaceTreatyCooldownTimeUnderlay"
+			missionOfferedStatusIcon "PlayerScreenMissionOffered"
+		happinessWindowDef
+			area [12, 339, 304 , 110]
+			textArea [123, 10, 65, 33]
+			barArea [74, 0, 152, 110]
+			barIndicatorSize [27 , 110]
+			textFontId "ButtonLabel"
+			backdropForAIPlayer "PlayerScreenHappinessBackdropForAIPlayer"
+			backdropForHumanPlayer "PlayerScreenHappinessBackdropForHumanPlayer"
+			overlay "PlayerScreenHappinessOverlay"
+			barIndicator "PlayerScreenHappinessBarIndicator"
+		questWindowDef
+			area [290, 178, 468 , 180]
+			backdrop "PlayerScreenQuestBackdrop"
+			titleLabelDef
+				area [50, 12, 200, 20]
+				text "IDSPlayerScreenQuestTitleLabel"
+				font "Label"
+			statusLabelDef
+				area [50, 48, 200, 20]
+				text "IDSPlayerScreenQuestStatusLabel"
+				font "Label"
+			targetLabelDef
+				area [210, 108, 75, 20]
+				text "IDSPlayerScreenQuestTargetLabel"
+				font "Label"								
+			rewardLabelDef
+				area [50, 78, 200, 20]
+				text "IDSPlayerScreenQuestRewardLabel"
+				font "Label"
+			penaltyLabelDef
+				area [50, 108, 200, 20]
+				text "IDSPlayerScreenQuestPenaltyLabel"
+				font "Label"
+			planetLabelDef
+				area [50, 138, 200, 20]
+				text "IDSPlayerScreenQuestPlanetLabel"
+				font "Label"
+			targetDef
+				area [260, 108, 75, 20]
+				textOffsetFromLeft 30
+				font "Label"
+			planetDef
+				area [120, 138, 75, 20]
+				textOffsetFromLeft 30
+				font "Label"
+			happinessRewardDef			
+				area [120, 78, 75, 20]
+				textOffsetFromLeft 30
+				font "Label"
+			happinessPenaltyDef
+				area [120, 108, 75, 20]
+				textOffsetFromLeft 30
+				font "Label"
+			creditRewardDef			
+				area [190, 78, 75, 20]
+				textOffsetFromLeft 30
+				font "Label"
+			metalRewardDef			
+				area [260, 78, 75, 20]
+				textOffsetFromLeft 30
+				font "Label"
+			crystalRewardDef			
+				area [330, 78, 75, 20]
+				textOffsetFromLeft 30
+				font "Label"
+			status1Def
+				area [120, 48, 100, 20]
+				textOffsetFromLeft 30
+				font "Label"
+			status2Def
+				area [190, 48, 100, 20]
+				textOffsetFromLeft 30
+				font "Label"
+			status3Def
+				area [260, 48, 100, 20]
+				textOffsetFromLeft 30
+				font "Label"						
+			happinessRewardIcon "HUDIconHappinessGained"
+			happinessPenaltyIcon "HUDIconHappinessLost"
+			creditRewardIcon "HUDIconCredits"
+			metalRewardIcon "HUDIconMetal"
+			crystalRewardIcon "HUDIconCrystal"
+			titleDef
+				area [120, 12, 75, 20]
+				font "Label"
+			timeDef
+				area [330, 12, 100, 20]
+				backdrop ""
+				overlay ""
+				font "Label"
+			rejectMissionButtonDef
+				buttonInternals
+					area [407, -1, 45, 38]
+					fontId "HudIconNumberOverlay"
+					iconOffsetFromLeft 500
+					textOffsetFromLeft 6
+					underlay "ScreenButtonUnderlayTiny"
+					overlay "ScreenButtonOverlayTiny"
+				buttonIcon ""
+				buttonTextId "IDSPlayerScreenRejectMissionButton"
+	createMissionWindowDef
+		area [0, 0, 788 , 719]
+		buttonsBackdrop "PlayerScreenAlliancesBackdrop"
+		buttonsArea [400,300,0,0]
+		labelFont "Label"
+		strengthFont "Label"
+		typeLabelArea [70,185,0,0]
+		targetLabelArea [290,185,0,0]
+		durationLabelArea [510,185,0,0]
+		amountLabelArea [70,260,0,0]
+		rewardLabelArea [70,335,0,0]
+		pirateFleetTextArea [290, 420, 0, 0]
+		starLabelArea [70,260,0,0]
+		planetTypeLabelArea [290,260,0,0]
+		planetNameLabelArea [510,260,0,0]
+		cancelOfferMissionDef
+			area [290, 500, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 22
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+			buttonIcon "PlayerScreenCloseButton"
+			buttonTextId "IDSPlayerScreenCancelOfferMissionButton"
+		submitOfferMissionDef
+			area [510, 500, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 5
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+			buttonIcon "DialogScreenAcceptButton"
+			buttonTextId "IDSPlayerScreenSubmitOfferMissionButton"
+		changeMissionTypeDef
+			area [70, 180, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 22
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+			BombAnyPlanet
+				icon "BombPlanetMission"
+				text "IDSCreateMissionBombPlanetLabel"
+			GiveResources
+				icon "GiveResourcesMission"
+				text "IDSCreateMissionGiveResourcesLabel"
+			KillShips
+				icon "KillShipsMission"
+				text "IDSCreateMissionKillShipsLabel"
+			KillCapitalShips
+				icon "KillCapitalShipsMission"
+				text "IDSCreateMissionKillCapitalShipsLabel"
+			KillCivilianStructures
+				icon "KillCivilianMission"
+				text "IDSCreateMissionKillCivStructuresLabel"
+			KillTacticalStructures
+				icon "KillTacticalMission"
+				text "IDSCreateMissionKillTactStructuresLabel"
+			SendEnvoy
+				icon "SendEnvoyMission"
+				text "IDSCreateMissionSendEnvoyLabel"
+		playerTargetDef
+			area [290, 180, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft -25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		quantityButtonSharedDef
+			TimeLimit
+				label "IDSPlayerScreenDurationButton"
+				brush "PlayerScreenCreateMissionDuration"
+			PriceCredits
+				label "IDSPlayerScreenPriceCreditsButton"
+				brush "PlayerScreenCreateMissionCredits"
+			PriceMetal
+				label "IDSPlayerScreenPriceMetalButton"
+				brush "PlayerScreenCreateMissionMetal"
+			PriceCrystal
+				label "IDSPlayerScreenPriceCrystalButton"
+				brush "PlayerScreenCreateMissionCrystal"
+			RewardCredits
+				label "IDSPlayerScreenRewardCreditsButton"
+				brush "PlayerScreenCreateMissionCredits"
+			RewardMetal
+				label "IDSPlayerScreenRewardMetalButton"
+				brush "PlayerScreenCreateMissionMetal"
+			RewardCrystal
+				label "IDSPlayerScreenRewardCrystalButton"
+				brush "PlayerScreenCreateMissionCrystal"
+			KillShips
+				label "IDSPlayerScreenKillShipsButton"
+				brush "PlayerScreenCreateMissionKillNumber"
+			KillCapitalShips
+				label "IDSPlayerScreenKillCapitalShipsButton"
+				brush "PlayerScreenCreateMissionKillNumber"
+			KillTacticalStructures
+				label "IDSPlayerScreenKillTacticalStructuresButton"
+				brush "PlayerScreenCreateMissionKillNumber"
+			KillCivilianStructures
+				label "IDSPlayerScreenKillCivilianStructuresButton"
+				brush "PlayerScreenCreateMissionKillNumber"
+		timeLimitDef
+			area [510, 180, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		priceCreditsDef
+			area [70, 245, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		priceMetalDef
+			area [290, 245, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		priceCrystalDef
+			area [510, 245, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		rewardCreditsDef
+			area [70, 310, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		rewardMetalDef
+			area [290, 310, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		rewardCrystalDef
+			area [510, 310, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		killShipsDef
+			area [70, 245, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		killCapitalShipsDef
+			area [70, 245, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		killTacticalStructuresDef
+			area [70, 245, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		killCivilianStructuresDef
+			area [70, 245, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		planetStarDef
+			area [70, 245, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft -25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		planetTypeDef
+			area [290, 245, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft -25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		planetNameDef
+			area [510, 245, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft -25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+		changeLevelDef
+			area [70, 375, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 25
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+			buttonIcon "ChangeMapTypeButton"
+			buttonTextId "IDSPlayerScreenChangeMissionLevel"
+	playerScreenManagePactsDef
+		area [0, 0, 788 , 719]
+		buttonsBackdrop "PlayerScreenAlliancesBackdropLong"
+		buttonsArea [400,360,0,0]
+		icon1Area [62, 62, 100, 100]
+		name1Area [162, 62, 300, 100]
+		icon2Area [397, 62, 100, 100]
+		name2Area [497, 62, 300, 100]
+		label1Area [397, 117, 300, 100]
+		label2Area [62, 117, 300, 100]
+		nameFont "NotificationPlayer"
+		labelFont "ButtonLabel"
+		closeScreenButtonDef
+			area [510, 620, 220, 46]
+			buttonInternals
+				area [0, 0, 220, 46]
+				fontId "ButtonLabel"
+				iconOffsetFromLeft 22
+				textOffsetFromLeft 70
+				underlay "ScreenButtonUnderlayLarge"
+				overlay "ScreenButtonOverlayLarge"
+			buttonIcon "PlayerScreenCloseButton"
+			buttonTextId "IDSPlayerScreenCloseManagePactsButton"
+			statusArea [230, 0, 95, 44]
+			statusIcon "PlayerScreenPeaceTreatyCooldownTimeUnderlay"
+		pactButton1Def
+			area [62, 195, 330 , 46]
+		pactButton2Def
+			area [62, 255, 330 , 46]
+		pactButton3Def
+			area [62, 315, 330 , 46]
+		pactButton4Def
+			area [62, 375, 330 , 46]
+		pactButton5Def
+			area [62, 435, 330 , 46]
+		pactButton6Def
+			area [62, 495, 330 , 46]
+		pactButton7Def
+			area [397, 195, 330 , 46]
+		pactButton8Def
+			area [397, 255, 330 , 46]
+		pactButton9Def
+			area [397, 315, 330 , 46]
+		pactButton10Def
+			area [397, 375, 330 , 46]
+		pactButton11Def
+			area [397, 435, 330 , 46]
+		pactButton12Def
+			area [397, 495, 330 , 46]
+			
+		

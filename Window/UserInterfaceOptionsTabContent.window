@@ -1,0 +1,103 @@
+TXT
+tabButtonIcon "OptionsScreenUserInterfaceOptionsTabButton"
+tabButtonText "IDSOptionsScreenUserInterfaceOptionsTabButton"
+resetButton
+	area [50, 620, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	icon "OptionsScreenUserInterfaceOptionsReset"
+	text "IDSOptionsScreenUserInterfaceOptionsReset"	
+toggleScreenShotModeButton
+	area [50, 470, 220, 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	onIcon "OptionsScreenUserInterfaceOptionsToggleScreenShotModeOn"
+	offIcon "OptionsScreenUserInterfaceOptionsToggleScreenShotModeOff"
+	onText "IDSOptionsScreenUserInterfaceOptionsScreenShotModeOn"	
+	offText "IDSOptionsScreenUserInterfaceOptionsScreenShotModeOff"	
+showInfoCardsCheckBox
+	area [49, 280, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsShowInfoCards"	
+showGavWellCheckBox
+	area [49, 316, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsShowGavWell"	
+showConnectionsCheckBox
+	area [49, 352, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsShowConnections"	
+showNamesCheckBox
+	area [49, 172, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsShowNames"	
+showTeamColorsCheckBox
+	area [49, 100, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsShowTeamColors"	
+showMainViewIconsCheckBox
+	area [49, 388, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsShowMainViewIcons"
+showMeshPlayerOwnerIconAlwaysCheckBox
+	area [49, 424, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsShowMeshPlayerOwnerIconAlways"	
+showEmpireWindowAlliesCheckBox
+	area [284, 172, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsShowEmpireWindowAllies"	
+showEmpireWindowBackdropCheckBox
+	area [284, 316, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsShowEmpireWindowBackdrop"		
+showEmpireWindowFleetsCheckBox
+	area [284, 352, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsShowEmpireWindowFleets"
+showEmpireWindowHyperspacersCheckBox
+	area [284, 136, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsShowEmpireWindowHyperspacers"	
+alwaysShowEmpireWindowFleetsCheckBox
+	area [284, 388, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsAlwaysShowEmpireWindowFleets"		
+autoPinPlanetsCheckBox
+	area [284, 208, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsAutoPinPlanets"	
+autoPinCapitalShipsCheckBox
+	area [284, 244, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsAutoPinCapitalShips"	
+autoPinFrigatesCheckBox
+	area [284, 280, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsAutoPinFrigates"	
+showCargoShipMainViewIconsCheckBox
+	area [49, 244, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsShowCargoShipMainViewIcons"	
+showTacticalGridCheckBox
+	area [49, 208, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsShowTacticalGrid"	
+alwaysAutoPlaceExtractorsCheckBox
+	area [49, 64, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsAlwaysAutoPlaceExtractors"	
+invertCameraHorizontalRotationCheckBox
+	area [284, 552, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsInvertCameraHorizontalRotation"	
+invertCameraVerticalRotationCheckBox
+	area [284, 588, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsInvertCameraVerticalRotation"	
+isCameraZoomToCursorCheckBox
+	area [284, 444, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsIsCameraZoomToCursor"	
+isCameraFreeRotateEnabledCheckBox
+	area [284, 516, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsIsCameraFreeRotateEnabled"	
+enableAutoStrafeCheckBox
+	area [284, 480, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsEnableAutoStrafeCheckBox"	
+showQuickNPCWindowCheckBox
+	area [49, 552, 220, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsShowQuickNPCWindowCheckBox"	
+zoomSensitivityScrollBar
+	area [284, 638, 455, 30]
+	text "IDSOptionsScreenUserInterfaceOptionsZoomSensitivity"
+uiScaleTextEntry
+	area [284, 670, 195, 30]
+	labelWidth 147
+	labelText "IDSOptionsScreenUserInterfaceOptionsUIScale"
+		

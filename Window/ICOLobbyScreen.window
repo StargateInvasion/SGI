@@ -1,0 +1,543 @@
+TXT
+tabWindow
+	topLeftOffset [0, -20]
+	buttonTopLeftOffset [33, 97]
+	buttonSize [ 170 , 52 ]
+	buttonIndicatorArea [148, -2, 72, 52]
+	buttonIndicatorBackdrop "TabWindowButtonIndicatorBackdrop"
+	titleStringId "IDSICOLobbyScreenTitle"
+	titleFontId "TabbedScreenTitle"
+	titleArea [20, 40, 190, 40]
+	titleOverlayArea [21, 33, 190, 40]
+	titleOverlay "TabWindowTitleOverlay"
+	buttonsBackdropArea [0, 0, 210, 808]
+	buttonsBackdropDetailArea [0, 0, 210, 749]
+	contentArea [230, 0, 814, 808]
+	buttonsBackdrop "TabWindowButtonBackdropFrontEnd"
+	buttonsBackdropDetail ""
+	contentBackdrop "TabWindowContentBackdropFrontEnd"
+	nonActiveButtonInternals
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 40
+		textOffsetFromLeft 50
+		underlay "TabButtonUnderlayNonActive"
+		overlay "TabButtonOverlayNonActive"						
+	activeButtonInternals
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 40
+		textOffsetFromLeft 50
+		underlay "TabButtonUnderlayActive"
+		overlay "TabButtonOverlayActive"						
+	closeButton
+		area [33, 724, 170 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 40
+		textOffsetFromLeft 50
+		underlay "TabButtonUnderlayNonActive"
+		overlay "TabButtonOverlayNonActive"				
+		icon "ScreenBackButton"
+		text "IDSICOLobbyScreenCloseButton"
+textEntryDef
+	labelFontId "Label"
+	textEntryFontId "TextEntry"
+chatEntryDef
+	labelFontId "Label"
+	textEntryFontId "ChatTextEntry"	
+checkBoxDef
+	boxWidth 33
+	textFontId "Label"
+	textLeftOffset 40
+	boxBackdrop "CheckBoxBackdrop"
+	boxOverlayWhenOn "CheckBoxCheckStateTrue"
+	boxOverlayWhenOff ""
+chatContentWindow
+	tabButtonIcon "ICOLobbyScreenChatTabButton"
+	tabButtonText "IDSICOLobbyScreenChatTabButton"
+	icoUsersCountLabel
+		area [520, 115, 455, 30]
+		fontId "Label"		
+	chatMessageList
+		area [50, 152, 455, 510]
+		itemGap 3
+	chatTextEntry
+		area [50, 672, 455, 30]
+		labelWidth 0
+		labelText ""
+	channelPlayerNameList
+		area [520, 152, 220, 404]
+		itemGap 3
+	channelNameWindow
+		area [50, 110, 220, 30]
+		labelArea [0, 0, 80, 30]
+		valueArea [90, 0, 455, 30]
+		labelFontId "WindowSubTitle"
+		valueFontId "TabbedScreenTitle"
+		labelStringId "IDSICOLobbyScreenChatChannelName"
+	changeChannelButton
+		area [520, 620, 220, 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 27
+		textOffsetFromLeft 65
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "ICOLobbyScreenChangeChannelButton"
+		text "IDSICOLobbyScreenChangeChannelButton"
+	showPlayerInfoButton
+		area [520, 568, 220, 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 27
+		textOffsetFromLeft 65
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "ICOLobbyScreenShowPlayerInfoFromChatChannelButton"
+		text "IDSICOLobbyScreenShowPlayerInfoFromChatChannelButton"
+	showChannelPlayerChangesCheckBox
+		area [49, 704, 30, 46]
+		text "IDSICOLobbyScreenShowChannelPlayerChangesCheckBox"	
+manageFriendsContentWindow
+	tabButtonIcon "ICOLobbyScreenManageFriendsTabButton"
+	tabButtonText "IDSICOLobbyScreenManageFriendsTabButton"
+	friendNameListLabel
+		area [50, 110, 220, 30]
+		fontId "WindowSubTitle"
+		text "IDSICOLobbyScreenManageFriendsFriendNameListLabel"
+	friendNameList
+		area [50, 152, 220, 566]
+		itemGap 3
+	addFriendButton
+		area [285, 620, 220, 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "ICOLobbyScreenManageFriendsAddFriendButton"
+		text "IDSICOLobbyScreenManageFriendsAddFriendButton"	
+	removeFriendButton
+		area [285, 672, 220, 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "ICOLobbyScreenManageFriendsRemoveFriendButton"
+		text "IDSICOLobbyScreenManageFriendsRemoveFriendButton"	
+	joinFriendChannel
+		area [520, 620, 220, 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "ICOLobbyScreenManageFriendsJoinFriendChannelButton"
+		text "IDSICOLobbyScreenManageFriendsJoinFriendChannelButton"	
+	joinFriendGame
+		area [520, 672, 220, 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "ICOLobbyScreenManageFriendsJoinFriendGameButton"
+		text "IDSICOLobbyScreenManageFriendsJoinFriendGameButton"	
+	friendInfoWindow
+		area [285, 152, 1000, 1000]
+		statusLabel
+			area [0, 200, 220, 20]
+			fontId "Label"
+			text "IDSICOPlayerInfoStatus"
+		status
+			area [120, 200, 220, 20]
+			fontId "Label"
+		latencyLabel
+			area [0, 258, 220, 20]
+			fontId "Label"
+			text "IDSICOPlayerInfoLatency"
+		latency
+			area [120, 258, 220, 20]
+			fontId "Label"
+		gameCountsLabel
+			area [0, 287, 220, 20]
+			fontId "Label"
+			text "IDSICOPlayerInfoGameCounts"
+		gameCounts
+			area [120, 287, 220, 20]
+			fontId "Label"			
+		channelNameLabel
+			area [0, 316, 220, 20]
+			fontId "Label"
+			text "IDSICOPlayerInfoChannelName"
+		channelName
+			area [120, 316, 220, 20]
+			fontId "Label"
+		gameNameLabel
+			area [0, 345, 220, 20]
+			fontId "Label"
+			text "IDSICOPlayerInfoGameName"
+		gameName
+			area [120, 345, 220, 20]
+			fontId "Label"
+		statusStringId-NotLoggedIn "IDSICOPlayerInfoStatusNotLoggedIn"
+		statusStringId-InChatLobby "IDSICOPlayerInfoStatusInChatLobby"
+		statusStringId-InGameLobby "IDSICOPlayerInfoStatusInGameLobby"
+		statusStringId-InStartedGame "IDSICOPlayerInfoStatusInStartedGame"
+		gameCountsTextFormat "IDSICOPlayerInfoGameCountsFormat"
+		steamNameLabel
+			area [0, 229, 220, 20]
+			fontId "Label"
+			text "IDSICOPlayerInfoSteamName"
+		steamName
+			area [120, 229, 220, 20]
+			fontId "Label"
+		steamIconArea [0, 0, 0, 0]
+hostNewGameContentWindow
+	tabButtonIcon "ICOLobbyScreenHostNewGameTabButton"
+	tabButtonText "IDSICOLobbyScreenHostNewGameTabButton"
+	gameNameAndPasswordEntryWindow
+		area [285, 418, 455, 66]
+	galaxySetupWindow
+		area [50, 100, 700, 700]
+	hostNewGameButton
+		area [520, 700, 220 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "ICOLobbyScreenHostNewGameButton"
+		text "IDSICOLobbyScreenHostNewGameButton"	
+	friendsOnlyButton
+		area [285, 642, 220, 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		FriendsOnly
+			icon "ICOLobbyScreenGameForFriendsOnly"
+			text "IDSICOLobbyScreenGameForFriendsOnly"
+		Anyone
+			icon "ICOLobbyScreenGameForAnyone"
+			text "IDSICOLobbyScreenGameForAnyone"		
+	testGameHostingStatusWindow
+		area [520, 636, 220, 30]
+		fontId "Label"
+		isTestingStringId "IDSICOLobbyScreenIsGameHostingTestActive"
+hostSavedGameContentWindow
+	tabButtonIcon "ICOLobbyScreenHostSavedGameTabButton"
+	tabButtonText "IDSICOLobbyScreenHostSavedGameTabButton"
+	gameNameAndPasswordEntryWindow
+		area [285, 596, 455, 66]
+	hostSavedGameButton
+		area [520, 672, 220 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "ICOLobbyScreenHostSavedGameButton"
+		text "IDSICOLobbyScreenHostSavedGameButton"		
+	friendsOnlyButton
+		area [285, 672, 220 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		FriendsOnly
+			icon "ICOLobbyScreenGameForFriendsOnly"
+			text "IDSICOLobbyScreenGameForFriendsOnly"
+		Anyone
+			icon "ICOLobbyScreenGameForAnyone"
+			text "IDSICOLobbyScreenGameForAnyone"				
+	testGameHostingStatusWindow
+		area [285, 562, 220, 30]
+		fontId "Label"
+		isTestingStringId "IDSICOLobbyScreenIsGameHostingTestActive"		
+	fileNameListLabel
+		area [50, 110 , 220, 30]
+		fontId "WindowSubTitle"
+	fileNameList
+		area [50, 152 , 220, 510]
+		itemGap 3
+	selectGameSaveTypeWindow
+		area [50, 673, 220, 46]		
+	galaxyInfoWindow
+		area [285, 152, 455, 254]	
+joinGameContentWindow
+	tabButtonIcon "ICOLobbyScreenJoinGameTabButton"
+	tabButtonText "IDSICOLobbyScreenJoinGameTabButton"
+	gamesAvailableToJoinCountLabel
+		area [520, 115, 455, 30]
+		fontId "Label"		
+	gamesStartedCountLabel
+		area [520, 85, 455, 30]
+		fontId "Label"			
+	joinGameButton
+		area [520, 672, 220 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"		
+		icon "ICOLobbyScreenJoinGameButton"
+		text "IDSICOLobbyScreenJoinGameButton"			
+	refreshButton
+		area [50, 672, 220, 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"		
+		icon "ICOLobbyScreenRefreshGameNameListButton"
+		text "IDSICOLobbyScreenRefreshGameNameListButton"			
+	gameNameTextListLabel
+		area [50, 110, 220, 30]
+		fontId "WindowSubTitle"
+		text "IDSICOLobbyScreenGameNameTextListLabel"
+	gameNameTextList
+		area [50 , 152 , 220, 510]
+		itemGap 3
+	gameNameTextEntryLabel
+		area [285, 152, 100, 30]
+		fontId "Label"
+		text "IDSICOLobbyScreenGameNameTextEntryLabel"
+	gameNameTextEntry
+		area [415, 152, 315, 30]
+		labelWidth 0
+		labelText ""
+	friendsOnlyButton
+		area [285, 672, 220 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		FriendsOnly
+			icon "ICOLobbyScreenGameForFriendsOnly"
+			text "IDSICOLobbyScreenGameHostedByFriendsOnly"
+		Anyone
+			icon "ICOLobbyScreenGameForAnyone"
+			text "IDSICOLobbyScreenGameHostedByAnyone"		
+	minPlayerCountTextEntry
+		area [285, 622, 110, 32]
+		labelWidth 70
+		labelText "IDSICOLobbyScreenPlayerRangeFilter"	
+	maxPlayerCountTextEntry
+		area [405, 622, 63, 32]
+		labelWidth 23
+		labelText "IDSICOLobbyScreenPlayerRangeFilter2"	
+	filtersLabel
+		area [285, 582, 110, 32]
+		fontId "WindowSubTitle"
+		text "IDSICOLobbyScreenJoinGameFiltersLabel"	
+	customGameInfoWindow
+		area [285, 181, 500, 500]
+		humanPlayerCountAreas
+			area [255, 120, 80, 30]
+			labelOffsetFromLeft 0
+			valueOffsetFromLeft 130
+			iconOffsetFromLeft 110
+			iconWidth 30
+		aiPlayerCountAreas
+			area [255, 150, 80, 30]
+			labelOffsetFromLeft 0
+			valueOffsetFromLeft 130
+			iconOffsetFromLeft 110
+			iconWidth 30
+		availableSlotCountAreas
+			area [255, 60, 100, 30]
+			labelOffsetFromLeft 0
+			valueOffsetFromLeft 130
+			iconOffsetFromLeft 110
+			iconWidth 30
+		availableForFriendSlotCountAreas
+			area [255, 90, 100, 30]
+			labelOffsetFromLeft 0
+			valueOffsetFromLeft 130
+			iconOffsetFromLeft 110
+			iconWidth 30
+		areTeamsLockedAreas
+			area [0, 60, 100, 30]
+			labelOffsetFromLeft 0
+			valueOffsetFromLeft 130
+			iconOffsetFromLeft 110
+			iconWidth 30
+		arePiratesActiveAreas
+			area [0, 90, 100, 30]
+			labelOffsetFromLeft 0
+			valueOffsetFromLeft 130
+			iconOffsetFromLeft 110
+			iconWidth 30
+		areOutlawSectorsActiveAreas
+			area [0, 120, 100, 30]
+			labelOffsetFromLeft 0
+			valueOffsetFromLeft 130
+			iconOffsetFromLeft 110
+			iconWidth 30
+		isBlackMarketActiveAreas
+			area [0, 120, 100, 30]
+			labelOffsetFromLeft 0
+			valueOffsetFromLeft 130
+			iconOffsetFromLeft 110
+			iconWidth 30
+		useQuickStartAreas
+			area [255, 180, 100, 30]
+			labelOffsetFromLeft 0
+			valueOffsetFromLeft 130
+			iconOffsetFromLeft 110
+			iconWidth 30
+		diplomaticVictoryEnabledAreas
+			area [0, 330, 100, 30]
+			labelOffsetFromLeft 0
+			valueOffsetFromLeft 130
+			iconOffsetFromLeft 110
+			iconWidth 30
+		numberOfVictorsAreas
+			area [0, 360, 100, 30]
+			labelOffsetFromLeft 0
+			valueOffsetFromLeft 130
+			iconOffsetFromLeft 110
+			iconWidth 30
+		victorySpeedAreas
+			area [0, 300, 100, 30]
+			labelOffsetFromLeft 0
+			valueOffsetFromLeft 130
+			iconOffsetFromLeft 110
+			iconWidth 30
+		buildSpeedAreas
+			area [0, 150, 100, 30]
+			labelOffsetFromLeft 0
+			valueOffsetFromLeft 130
+			iconOffsetFromLeft 110
+			iconWidth 30
+		cultureSpeedAreas
+			area [0, 3000, 100, 30]
+			labelOffsetFromLeft 0
+			valueOffsetFromLeft 130
+			iconOffsetFromLeft 110
+			iconWidth 30
+		fleetSupplyScalarAreas
+			area [0, 180, 100, 30]
+			labelOffsetFromLeft 0
+			valueOffsetFromLeft 130
+			iconOffsetFromLeft 110
+			iconWidth 30
+		incomeSpeedAreas
+			area [0, 210, 100, 30]
+			labelOffsetFromLeft 0
+			valueOffsetFromLeft 130
+			iconOffsetFromLeft 110
+			iconWidth 30
+		researchSpeedAreas
+			area [0, 240, 100, 30]
+			labelOffsetFromLeft 0
+			valueOffsetFromLeft 130
+			iconOffsetFromLeft 110
+			iconWidth 30
+		shipPhysicsSpeedAreas
+			area [0, 270, 100, 30]
+			labelOffsetFromLeft 0
+			valueOffsetFromLeft 130
+			iconOffsetFromLeft 110
+			iconWidth 30
+		scenarioNameAreas
+			area [0, 0, 100, 30]
+			labelOffsetFromLeft 0
+			valueOffsetFromLeft 130
+			iconOffsetFromLeft 110
+			iconWidth 30
+		hasPasswordAreas
+			area [0, 30, 80, 30]
+			labelOffsetFromLeft 0
+			valueOffsetFromLeft 130
+			iconOffsetFromLeft 110
+			iconWidth 30
+		humanPlayerCountIcon ""
+		aiPlayerCountIcon ""
+		availableSlotCountIcon ""
+		availableForFriendSlotCountIcon ""
+		buildSpeedIcon-Slow ""
+		buildSpeedIcon-Normal ""
+		buildSpeedIcon-Fast ""
+		buildSpeedIcon-Faster ""
+		buildSpeedStringId-Slow "IDSBuildSpeedSlow"
+		buildSpeedStringId-Normal "IDSBuildSpeedNormal"
+		buildSpeedStringId-Fast "IDSBuildSpeedFast"
+		buildSpeedStringId-Faster "IDSBuildSpeedFaster"
+		cultureSpeedIcon-Slow ""
+		cultureSpeedIcon-Normal ""
+		cultureSpeedIcon-Fast ""
+		cultureSpeedIcon-Faster ""
+		cultureSpeedStringId-Slow "IDSCultureSpeedSlow"
+		cultureSpeedStringId-Normal "IDSCultureSpeedNormal"
+		cultureSpeedStringId-Fast "IDSCultureSpeedFast"
+		cultureSpeedStringId-Faster "IDSCultureSpeedFaster"
+		fleetSupplyScalarIcon-Small ""
+		fleetSupplyScalarIcon-Normal ""
+		fleetSupplyScalarIcon-Large ""
+		fleetSupplyScalarStringId-Small "IDSFleetSupplyScalarSmall"
+		fleetSupplyScalarStringId-Normal "IDSFleetSupplyScalarNormal"
+		fleetSupplyScalarStringId-Large "IDSFleetSupplyScalarLarge"
+		incomeSpeedIcon-Slow ""
+		incomeSpeedIcon-Normal ""
+		incomeSpeedIcon-Fast ""
+		incomeSpeedIcon-Faster ""
+		incomeSpeedStringId-Slow "IDSIncomeSpeedSlow"
+		incomeSpeedStringId-Normal "IDSIncomeSpeedNormal"
+		incomeSpeedStringId-Fast "IDSIncomeSpeedFast"
+		incomeSpeedStringId-Faster "IDSIncomeSpeedFaster"
+		researchSpeedIcon-Slow ""
+		researchSpeedIcon-Normal ""
+		researchSpeedIcon-Fast ""
+		researchSpeedIcon-Faster ""
+		researchSpeedStringId-Slow "IDSResearchSpeedSlow"
+		researchSpeedStringId-Normal "IDSResearchSpeedNormal"
+		researchSpeedStringId-Fast "IDSResearchSpeedFast"
+		researchSpeedStringId-Faster "IDSResearchSpeedFaster"
+		shipPhysicsSpeedIcon-Slow ""
+		shipPhysicsSpeedIcon-Normal ""
+		shipPhysicsSpeedIcon-Fast ""
+		shipPhysicsSpeedIcon-Faster ""
+		shipPhysicsSpeedStringId-Slow "IDSShipPhysicsSpeedSlow"
+		shipPhysicsSpeedStringId-Normal "IDSShipPhysicsSpeedNormal"
+		shipPhysicsSpeedStringId-Fast "IDSShipPhysicsSpeedFast"
+		shipPhysicsSpeedStringId-Faster "IDSShipPhysicsSpeedFaster"
+		victorySpeedStringId-Slow "IDSShipPhysicsSpeedSlow"
+		victorySpeedStringId-Normal "IDSShipPhysicsSpeedNormal"
+		victorySpeedStringId-Fast "IDSShipPhysicsSpeedFast"
+		victorySpeedStringId-Faster "IDSShipPhysicsSpeedFaster"
+hostSetupContentWindow
+	tabButtonIcon "ICOLobbyScreenHostSetupTabButton"
+	tabButtonText "IDSICOLobbyScreenHostSetupTabButton"
+	hostGameOnProxyServerCheckBox
+		area [49, 248, 30, 46]
+		text "IDSICOLobbyScreenHostGameOnProxyServerCheckBox"		
+	testHostCapabilityButton
+		area [49, 152, 220 , 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 22
+		textOffsetFromLeft 70
+		underlay "ScreenButtonUnderlayLarge"
+		overlay "ScreenButtonOverlayLarge"				
+		icon "ICOLobbyScreenTestHostCapabilityButton"
+		text "IDSICOLobbyScreenHostTestHostCapabilityButton"				
+	hostCapabilityLabel
+		area [49, 204, 30, 46]
+		fontId "Label"
+		text "IDSICOLobbyScreenHostCapabilityLabel"
+	hostCapabilityStatus
+		area [249, 204, 30, 46]		
+		fontId "Label"
+	hostCapabilityStatusStringTesting "IDSICOLobbyScreenHostCapabilityStatusStringTesting"
+	hostCapabilityStatusStringUnknown "IDSICOLobbyScreenHostCapabilityStatusStringUnknown"
+	hostCapabilityStatusStringOutsideClientsCanJoin "IDSICOLobbyScreenHostCapabilityStatusStringCanJoin"
+	hostCapabilityStatusStringOutsideClientsCannotJoin "IDSICOLobbyScreenHostCapabilityStatusStringOutsideClientsCannotJoin"
+playerSetupContentWindow
+	tabButtonIcon "MultiPlayerSetupScreenPlayerSetupTabButton"
+	tabButtonText "IDSMultiPlayerSetupScreenPlayerSetupTabButton"
+galaxyRandomizer
+	tabButtonIcon "MultiPlayerSetupScreenGalaxyRandomizerTabButton"
+	tabButtonText "IDSSinglePlayerSetupScreenGalaxyRandomizerTabButton"
+	galaxyRandomizerWindow
+		area [50, 48, 700, 700]

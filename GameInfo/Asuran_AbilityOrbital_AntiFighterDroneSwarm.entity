@@ -1,0 +1,106 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+instantActionTriggerType "AlwaysPerform"
+buffType "Asuran_BuffOrbital_AntiFighterDroneSwarm"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 1
+	object "Fighter"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 5500.000000
+	Level:1 6500.000000
+	Level:2 8500.000000
+	Level:3 0.000000
+maxTargetCount
+	Level:0 5.000000
+	Level:1 15.000000
+	Level:2 20.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+travelSpeed 2450.000000
+effectStaggerDelay 0.300000
+hasWeaponEffects TRUE
+weaponEffectOriginType "Targetter"
+weaponEffectAttachInfo
+	attachType "Ability"
+	abilityIndex 0
+weaponEffectImpactOffsetType "RandomMesh"
+canWeaponEffectHitHull TRUE
+canWeaponEffectHitShields TRUE
+weaponEffectsDef
+	weaponType "Missile"
+	burstCount 35
+	burstDelay 0.040000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
+	muzzleSoundMinRespawnTime 0.000100
+	muzzleSounds
+		soundCount 2
+		sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
+		sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
+	hitEffectName "Weapon_PhaseCapitalMissileHeavy_Hit"
+	hitHullEffectSounds
+		soundCount 1
+		sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+	hitShieldsEffectSounds
+		soundCount 1
+		sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+	missileTravelEffectName "Weapon_AsuranCapitalDroneUltra_Travel"
+	missileStartTurningDistance 30.000000
+	missileSlowTurnRate 0.708997
+	missileMaxSlowTurnTime 4.000000
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 1.000000
+	Level:2 2.000000
+	Level:3 0.000000
+aiUseTime "OnlyWhenManyTargetsInRange"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 5.000000
+	Level:1 7.000000
+	Level:2 9.000000
+	Level:3 0.000000
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 40.000000
+	Level:1 40.000000
+	Level:2 40.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 35.000000
+	Level:1 35.000000
+	Level:2 35.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ASURAN_ABILITYCAPITAL_MINIDRONES_NAME"
+descStringID "IDS_ASURAN_ABILITYCAPITAL_MINIDRONES_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_PHASEMISSILESWARM"
+smallHudIcon "HUDICON_ABILITY_PHASEMISSILESWARM"
+infoCardIcon ""

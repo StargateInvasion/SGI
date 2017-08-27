@@ -1,0 +1,194 @@
+﻿TXT
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Lrm"
+statCountType "FrigateLongRange"
+mainViewIcon "MAINVIEWICON_ASURAN_FRIGATELONGRANGE_ERINYES"
+picture "PICTURE_FRIGATE_PHASELONGRANGE"
+NameStringID "IDS_ASURAN_FRIGATELONGRANGE_ERINYES_NAME"
+DescriptionStringID "IDS_ASURAN_FRIGATELONGRANGE_ERINYES_DESCRIPTION"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
+basePrice
+	credits 1350.000000
+	metal 365.000000
+	crystal 335.000000
+slotCount 25.000000
+BuildTime 60.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 15.000000
+MaxHullPoints 1450.000000
+MaxShieldPoints 4200.000000
+HullPointRestoreRate 4.375000
+ShieldPointRestoreRate 7.125000
+BaseArmorPoints 3.000000
+maxMitigation 0.000000
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_FrigateLongRange_Erinyes"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 6
+numSpecificDebris 0
+armorType "Light"
+hudIcon "HUDICON_ASURAN_FRIGATELONGRANGE_ERINYES"
+smallHudIcon "HUDICONSMALL_ASURAN_FRIGATELONGRANGE_ERINYES"
+infoCardIcon "INFOCARDICON_ASURAN_FRIGATELONGRANGE_ERINYES"
+minZoomDistanceMult 4.500000
+NumWeapons 2
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "PHASEMISSILE"
+	DamagePerBank:FRONT 400.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 6000.000000
+	PreBuffCooldownTime 5.500000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.080000
+	TravelSpeed 900.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 5.500000
+		fireDelay 0.500000
+		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalMissileHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		missileTravelEffectName "Weapon_AsuranCapitalDroneUltra_Travel"
+		missileStartTurningDistance 5.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 3.000000
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "PHASEMISSILE"
+	DamagePerBank:FRONT 400.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 6000.000000
+	PreBuffCooldownTime 5.500000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.080000
+	TravelSpeed 900.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 5.500000
+		fireDelay 1.000000
+		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalMissileHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		missileTravelEffectName "Weapon_AsuranCapitalDroneUltra_Travel"
+		missileStartTurningDistance 5.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 3.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 810.000000
+ShieldMeshName "Asuran_Shield_FrigateLongRange_Erinyes"
+renderShield TRUE
+maxAccelerationLinear 419.000000
+maxAccelerationStrafe 450.000000
+maxDecelerationLinear 449.000000
+maxAccelerationAngular 28.999998
+maxDecelerationAngular 47.000000
+maxSpeedLinear 599.000000
+maxRollRate 30.000000
+maxRollAngle 71.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 1
+SoundID "Asuran_FrigateLongRangeAttack"
+NumSoundsFor:ONCREATION 1
+SoundID "Asuran_FrigateLongRangeCreation"
+NumSoundsFor:ONGENERALORDERISSUED 1
+SoundID "Asuran_FrigateLongRangeGeneral"
+NumSoundsFor:ONSELECTED 1
+SoundID "Asuran_FrigateLongRangeSelection"
+NumSoundsFor:ONSTARTPHASEJUMP 3
+SoundID "Asuran_Hyperspace_engaging0"
+SoundID "Asuran_Hyperspace_engaging1"
+SoundID "Asuran_Hyperspace_engaging2"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Asuran_FrigateLongRange_Erinyes"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_FrigatePhaseLongRange"
+ExplosionName "Frigate1"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_PHASECAPITALSHIP"
+ability:0 "Asuran_AbilityFrigate_ChargedMissiles"
+ability:1 "Asuran_AbilityFrigate_SelfRepairLight"
+ability:2 "Asuran_AbilityFrigate_DistortSpace"
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 150.000000
+AntiMatterRestoreRate 0.500000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 2
+minShadow 0.100000
+maxShadow 1.000000
+allegianceDecreasePerRoundtrip 0.000000
