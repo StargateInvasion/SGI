@@ -6,7 +6,7 @@ stackingLimit 1
 allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
-isChannelling TRUE
+isChannelling FALSE
 numInstantActions 2
 instantAction
 	buffInstantActionType "PlayPersistantAttachedEffect"
@@ -43,35 +43,33 @@ instantAction
 		largeEffectName ""
 		soundID ""
 numPeriodicActions 0
-numOverTimeActions 1
-overTimeAction
-	buffOverTimeActionType "DoDamageToPlanet"
-	damageRate
-		Level:0 2.000000
-		Level:1 2.000000
-		Level:2 0.000000
-		Level:3 0.000000
-	populationKillRate
-		Level:0 1.000000
-		Level:1 1.000000
-		Level:2 0.000000
-		Level:3 0.000000
+numOverTimeActions 0
 numEntityModifiers 2
 entityModifier
 	buffEntityModifierType "ShieldMitigation"
 	value
-		Level:0 0.50000
+		Level:0 0.45000
 		Level:1 0.000000
 		Level:2 0.000000
 		Level:3 0.000000
 entityModifier
 	buffEntityModifierType "ShieldPointRestoreRate"
 	value
-		Level:0 5.700000
+		Level:0 15.700000
 		Level:1 10.000000
 		Level:2 0.000000
 		Level:3 0.000000
 numEntityBoolModifiers 0
-numFinishConditions 1
+numFinishConditions 3
 finishCondition
 	finishConditionType "EnterHyperspace"
+finishCondition
+	finishConditionType "NoTarget"
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 30.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+

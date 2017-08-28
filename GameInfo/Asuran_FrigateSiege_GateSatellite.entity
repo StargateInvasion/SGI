@@ -10,8 +10,8 @@ hasBombingLevels FALSE
 baseDamage 33.000000
 basePopulationKilled 2.800000
 bombingFreqTime 10.000000
-baseRange 3000.000000
-bombTransitTime 4.000000
+baseRange 500.000000
+bombTransitTime 10.000000
 bombEffectCount 1
 bombEffectAngleVariance 2.500000
 bombEffectsDef
@@ -56,11 +56,11 @@ slotCount 40.000000
 BuildTime 80.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 25.000000
-MaxHullPoints 2000.000000
-MaxShieldPoints 6000.000000
+MaxHullPoints 1000.000000
+MaxShieldPoints 2000.000000
 HullPointRestoreRate 2.000000
 ShieldPointRestoreRate 60.000000
-BaseArmorPoints 5.000000
+BaseArmorPoints 0.000000
 maxMitigation 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
@@ -90,7 +90,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 4800.000000
+	Range 500.000000
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
