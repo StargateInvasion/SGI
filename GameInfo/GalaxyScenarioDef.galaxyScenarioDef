@@ -1007,7 +1007,7 @@ planetItemType
 	designName "Cosmetic:Titan:Offense"
 	entityDefName "Human_TitanOffense_Tartarus_Cosmetic"
 planetItemType
-	designName "Asuran:Module:MineExplosive"
+	designName "Asuran:Orbital:MineExplosive"
 	entityDefName "Asuran_DeepSpaceMine"
 planetItemType
 	designName "Asuran:Module:Cannon"
@@ -1714,8 +1714,8 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 4
-				item "Asuran:Module:FrigateFactory"
-				item "Asuran:Module:FrigateFactory"
+				item "Asuran:Orbital:FrigateFactory"
+				item "Asuran:Orbital:FrigateFactory"
 				item "Asuran:Frigate:Constructor"
 				item "Asuran:Frigate:Constructor"
 		group
