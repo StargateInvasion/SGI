@@ -840,7 +840,10 @@ orbitBodyType
 	typeName "Occupied"
 	entityDefName "OccupiedPlanet"
 	defaultTemplateName "Template:OccupiedPlanet"
-planetItemTypeCount 235
+planetItemTypeCount 236
+planetItemType
+	designName "Asuran:Orbital:ShieldGenerator"
+	entityDefName "Asuran_Orbital_ShieldGenerator"
 planetItemType
 	designName "Human:CapitalShip:BattleShip"
 	entityDefName "Human_CapitalBattleship_Achilles"
@@ -1010,7 +1013,7 @@ planetItemType
 	designName "Asuran:Orbital:MineExplosive"
 	entityDefName "Asuran_DeepSpaceMine"
 planetItemType
-	designName "Asuran:Module:Cannon"
+	designName "Asuran:Orbital:Cannon"
 	entityDefName "Asuran_Orbital_Cannon"
 planetItemType
 	designName "Asuran:Orbital:CapitalShipFactory"
@@ -1028,7 +1031,7 @@ planetItemType
 	designName "Asuran:Orbital:FrigateFactory"
 	entityDefName "Asuran_Orbital_FrigateFactory"
 planetItemType
-	designName "Asuran:Module:HangarDefense"
+	designName "Asuran:Orbital:HangarDefense"
 	entityDefName "Asuran_Orbital_HangarDefense"
 planetItemType
 	designName "Asuran:Orbital:MetalExtractor"
@@ -1040,19 +1043,19 @@ planetItemType
 	designName "Asuran:Module:Refinery"
 	entityDefName "Asuran_Orbital_Refinery"
 planetItemType
-	designName "Asuran:Module:RepairPlatform"
+	designName "Asuran:Orbital:RepairPlatform"
 	entityDefName "Asuran_Orbital_RepairPlatform"
 planetItemType
 	designName "Asuran:Module:TradePort"
 	entityDefName "Asuran_Orbital_TradePort"
 planetItemType
-	designName "Asuran:Module:WeaponsPlatform"
+	designName "Asuran:Orbital:WeaponsPlatform"
 	entityDefName "Asuran_Orbital_WeaponsPlatform"
 planetItemType
 	designName "Asuran:Module:JumpBlocker"
 	entityDefName "Asuran_Orbital_JumpBlocker"
 planetItemType
-	designName "Asuran:Module:HeavyDefense"
+	designName "Asuran:Orbital:HeavyDefense"
 	entityDefName "Asuran_Orbital_HeavyDefense"
 planetItemType
 	designName "Asuran:Module:Spacegate"
@@ -1583,7 +1586,7 @@ planetItemsTemplate
 				param "Human"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 17
+			items 25
 				item "Human:Orbital:HeadQuarters"
 				item "Human:Orbital:FrigateFactory"
 				item "Human:Orbital:FrigateFactory"
@@ -1601,13 +1604,21 @@ planetItemsTemplate
 				item "Human:Frigate:Light"
 				item "Human:Frigate:Scout"
 				item "Human:Frigate:Scout"
+				item "Human:Orbital:WeaponsPlatform"
+				item "Human:Orbital:WeaponsPlatform"
+				item "Human:Orbital:WeaponsPlatform"
+				item "Human:Orbital:WeaponsPlatform"
+				item "Human:Orbital:WeaponsPlatform"
+				item "Human:Orbital:HangarDefense"
+				item "Human:Orbital:HangarDefense"
+				item "Human:Orbital:RepairPlatform"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
 				param "Human"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 22
+			items 40
 				item "Human:Orbital:HeadQuarters"
 				item "Human:Orbital:FrigateFactory"
 				item "Human:Orbital:FrigateFactory"
@@ -1630,13 +1641,31 @@ planetItemsTemplate
 				item "Human:Frigate:Light"
 				item "Human:Frigate:Scout"
 				item "Human:Frigate:Scout"
+				item "Human:Orbital:WeaponsPlatform"
+				item "Human:Orbital:WeaponsPlatform"
+				item "Human:Orbital:WeaponsPlatform"
+				item "Human:Orbital:WeaponsPlatform"
+				item "Human:Orbital:WeaponsPlatform"
+				item "Human:Orbital:WeaponsPlatform"
+				item "Human:Orbital:WeaponsPlatform"
+				item "Human:Orbital:WeaponsPlatform"
+				item "Human:Orbital:WeaponsPlatform"
+				item "Human:Orbital:WeaponsPlatform"
+				item "Human:Orbital:WeaponsPlatform"
+				item "Human:Orbital:WeaponsPlatform"
+				item "Human:Orbital:HeavyDefense"
+				item "Human:Orbital:HangarDefense"
+				item "Human:Orbital:HangarDefense"
+				item "Human:Orbital:HangarDefense"
+				item "Human:Orbital:HangarDefense"
+				item "Human:Orbital:RepairPlatform"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
 				param "Asuran"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 14
+			items 21
 				item "Asuran:Orbital:CapitalShipFactory"
 				item "Asuran:Orbital:FrigateFactory"
 				item "Asuran:Orbital:FrigateFactory"
@@ -1651,13 +1680,20 @@ planetItemsTemplate
 				item "Asuran:Frigate:Scout"
 				item "Asuran:Frigate:Scout"
 				item "Asuran:Frigate:Scout"
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:HeavyDefense"
+				item "Asuran:Orbital:HangarDefense"
+				item "Asuran:Orbital:HangarDefense"
+				item "Asuran:Orbital:RepairPlatform"
+				item "Asuran:Orbital:ShieldGenerator"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
 				param "Asuran"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 15
+			items 33
 				item "Asuran:Orbital:CapitalShipFactory"
 				item "Asuran:Orbital:FrigateFactory"
 				item "Asuran:Orbital:FrigateFactory"
@@ -1673,6 +1709,24 @@ planetItemsTemplate
 				item "Asuran:Frigate:Scout"
 				item "Asuran:Frigate:Scout"
 				item "Asuran:Frigate:Scout"
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:HeavyDefense"
+				item "Asuran:Orbital:HeavyDefense"
+				item "Asuran:Orbital:HeavyDefense"
+				item "Asuran:Orbital:HeavyDefense"
+				item "Asuran:Orbital:HangarDefense"
+				item "Asuran:Orbital:HangarDefense"
+				item "Asuran:Orbital:HangarDefense"
+				item "Asuran:Orbital:RepairPlatform"
+				item "Asuran:Orbital:ShieldGenerator"
+				item "Asuran:Orbital:Cannon"
+				item "Asuran:Orbital:Cannon"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
@@ -2742,7 +2796,7 @@ planetItemsTemplate
 				param ""
 			owner "Occupation"
 			colonizeChance 1
-			items 52
+			items 42
 				item "Asuran:StarBase"
 				item "Asuran:Titan:Offense"
 				item "Asuran:Frigate:LongRange"
@@ -2763,38 +2817,28 @@ planetItemsTemplate
 				item "Asuran:Frigate:AntiFighter"
 				item "Asuran:Frigate:AntiFighter"
 				item "Asuran:Frigate:AntiFighter"
-				item "Asuran:Module:HangarDefense"
-				item "Asuran:Module:HangarDefense"
-				item "Asuran:Module:WeaponsPlatform"
-				item "Asuran:Module:WeaponsPlatform"
-				item "Asuran:Module:WeaponsPlatform"
-				item "Asuran:Module:WeaponsPlatform"
-				item "Asuran:Module:WeaponsPlatform"
-				item "Asuran:Module:WeaponsPlatform"
-				item "Asuran:Module:WeaponsPlatform"
-				item "Asuran:Module:WeaponsPlatform"
-				item "Asuran:Module:WeaponsPlatform"
-				item "Asuran:Module:WeaponsPlatform"
-				item "Asuran:Module:WeaponsPlatform"
-				item "Asuran:Module:WeaponsPlatform"
-				item "Asuran:Module:WeaponsPlatform"
-				item "Asuran:Module:RepairPlatform"
-				item "Asuran:Module:RepairPlatform"
+				item "Asuran:Orbital:HangarDefense"
+				item "Asuran:Orbital:HangarDefense"
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:RepairPlatform"
+				item "Asuran:Orbital:RepairPlatform"
 				item "Asuran:Frigate:Heavy"
 				item "Asuran:Frigate:Heavy"
 				item "Asuran:Frigate:Heavy"
 				item "Asuran:Frigate:Heavy"
 				item "Asuran:Frigate:Heavy"
-				item "Phase:Corvette:Rebel"
-				item "Phase:Corvette:Rebel"
-				item "Phase:Corvette:Rebel"
-				item "Phase:Corvette:Rebel"
-				item "Phase:Corvette:Rebel"
-				item "Phase:Corvette:Rebel"
-				item "Phase:Corvette:Rebel"
-				item "Phase:Corvette:Rebel"
-				item "Phase:Corvette:Rebel"
-				item "Phase:Corvette:Rebel"
 validPictureGroups 3
 pictureGroup "PlayerPhase"
 pictureGroup "PlayerPsi"
