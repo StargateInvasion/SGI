@@ -111,9 +111,13 @@ VsOutput RenderSceneVS(
 	float3 lightInTangentSpace = mul(g_Light0_Position, tangentMatrix);
 	output.LightTangent = normalize(lightInTangentSpace - positionInTangentSpace);
 	
-	for(int i = 0; i < ShadowMapCount; ++i)
-	{
-		output.ShadowUV[i] = GetShadowUV(float4(position, 1.f), i);
+	if (ShadowMapCount > 1) {
+		for(int i = 0; i < ShadowMapCount; ++i)
+		{
+			output.ShadowUV[i] = GetShadowUV(float4(position, 1.f), i);
+		}
+	} else {
+		output.ShadowUV[0] = GetShadowUV(float4(position, 1.f), 0);
 	}
     
     return output;

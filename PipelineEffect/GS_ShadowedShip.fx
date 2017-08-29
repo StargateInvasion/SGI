@@ -125,9 +125,13 @@ VsOutput RenderSceneVS(
 	float3 lightInTangentSpace = mul(g_Light0_Position, tangentMatrix);
 	output.LightTangent = normalize(lightInTangentSpace - positionInTangentSpace);
 
-	for(int i = 0; i < ShadowMapCount; ++i)
-	{
-		output.ShadowUV[i] = GetShadowUV(float4(position, 1.f), i);
+	if (ShadowMapCount > 1) {
+		for(int i = 0; i < ShadowMapCount; ++i)
+		{
+			output.ShadowUV[i] = GetShadowUV(float4(position, 1.f), i);
+		}
+	} else {
+		output.ShadowUV[0] = GetShadowUV(float4(position, 1.f), 0);
 	}
     
     return output;
@@ -252,12 +256,79 @@ float GetShadowScalar(float3 shadowUV[ShadowMapCount], float3 lightDir, float3 n
 	int cascadeIndex = -1;
 	float3 texCoord;
 	float distToEdge = -1.f;
-	for(int row = 0; row < ShadowMapRowCount; row++)
-	{
-		for(int column = 0; column < ShadowMapColumnCount; column++)
-		{	
-			//check if close to the left or right and blend with sample on either side.
+	if (ShadowMapRowCount > 1) {
+		for(int row = 0; row < ShadowMapRowCount; row++)
+		{
+			if (ShadowMapColumnCount > 1) {
+				for(int column = 0; column < ShadowMapColumnCount; column++)
+				{	
+					//check if close to the left or right and blend with sample on either side.
 			
+					float left = column * columnInc;
+					float right = left + columnInc;
+					float bottom = row * rowInc;
+					float top = bottom + rowInc;
+					cascadeIndex = column + row * ShadowMapColumnCount;
+					texCoord = shadowUV[cascadeIndex];
+					if(texCoord.x >= left && 
+						texCoord.x <= right && 
+						texCoord.y >= bottom && 
+						texCoord.y <= top)
+					{
+						foundValidCascade = true;
+						distToEdge = min(right - texCoord.x, top - texCoord.y);
+						break;
+					}
+				}
+			} else {
+					//check if close to the left or right and blend with sample on either side.
+					int column = 0;
+					float left = column * columnInc;
+					float right = left + columnInc;
+					float bottom = row * rowInc;
+					float top = bottom + rowInc;
+					cascadeIndex = column + row * ShadowMapColumnCount;
+					texCoord = shadowUV[cascadeIndex];
+					if(texCoord.x >= left && 
+						texCoord.x <= right && 
+						texCoord.y >= bottom && 
+						texCoord.y <= top)
+					{
+						foundValidCascade = true;
+						distToEdge = min(right - texCoord.x, top - texCoord.y);
+					}
+			}
+			if(foundValidCascade)
+			{
+				break;
+			}
+		}
+	} else {
+		int row = 0;
+		if (ShadowMapColumnCount > 1) {
+			for(int column = 0; column < ShadowMapColumnCount; column++)
+			{	
+				//check if close to the left or right and blend with sample on either side.
+		
+				float left = column * columnInc;
+				float right = left + columnInc;
+				float bottom = row * rowInc;
+				float top = bottom + rowInc;
+				cascadeIndex = column + row * ShadowMapColumnCount;
+				texCoord = shadowUV[cascadeIndex];
+				if(texCoord.x >= left && 
+					texCoord.x <= right && 
+					texCoord.y >= bottom && 
+					texCoord.y <= top)
+				{
+					foundValidCascade = true;
+					distToEdge = min(right - texCoord.x, top - texCoord.y);
+					break;
+				}
+			}
+		} else {
+			//check if close to the left or right and blend with sample on either side.
+			int column = 0;
 			float left = column * columnInc;
 			float right = left + columnInc;
 			float bottom = row * rowInc;
@@ -271,15 +342,9 @@ float GetShadowScalar(float3 shadowUV[ShadowMapCount], float3 lightDir, float3 n
 			{
 				foundValidCascade = true;
 				distToEdge = min(right - texCoord.x, top - texCoord.y);
-				break;
 			}
 		}
-		if(foundValidCascade)
-		{
-			break;
-		}
-	}
-		
+	}	
 	float shadowScalar;	
 	float dotLightNormal = dot(lightDir, normalDir);
 	if(foundValidCascade)
