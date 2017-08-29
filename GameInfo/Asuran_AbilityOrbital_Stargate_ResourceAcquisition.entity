@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Asuran_BuffOrbital_Capital_UpkeepActivated"
+buffType "Asuran_BuffOrbital_Stargate_ResourceAcquisition"
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -28,8 +28,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ASURAN_ABILITYORBITAL_CAPITAL_UPKEEP_NAME"
-descStringID "IDS_ASURAN_ABILITYORBITAL_CAPITAL_UPKEEP_DESCRIPTION"
+nameStringID "IDS_ASURAN_ABILITYORBITAL_STARGATE_RESOURCEACQUISITION_NAME"
+descStringID "IDS_ASURAN_ABILITYORBITAL_STARGATE_RESOURCEACQUISITION_DESCRIPTION"
 hudIcon "HUDICON_ABILITY_RESOURCEDRAIN"
 smallHudIcon "HUDICON_ABILITY_RESOURCEDRAIN"
 infoCardIcon ""
