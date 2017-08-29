@@ -8,5 +8,6 @@ The intellectual property depicted in this mod, including the brand "stargate", 
 Editorial uses of this mod are allowed as long as credit for the work is provided, but other uses (such as within for profit computer games) may require legal clearances from third party intellectual property owners. 
 
 ## Credit
-Credits will be added soon!
+_In progress: This list is not complete.  If you feel your work is represented in the mod and should be credited, please contact us._    
 
+Start Menu Pegasus Stargate model: David Gian-Cursio
