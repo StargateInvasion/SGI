@@ -28,13 +28,13 @@ ExperiencePointsForDestroying
 	Level:3 0.000000
 MaxHullPoints
 	Level:0 750.000000
-	Level:1 1000.000000
-	Level:2 1250.000000
+	Level:1 1250.000000
+	Level:2 2500.000000
 	Level:3 0.000000
 MaxShieldPoints
-	Level:0 120.000000
-	Level:1 140.000000
-	Level:2 160.000000
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
 	Level:3 0.000000
 HullPointRestoreRate
 	Level:0 1.000000
@@ -42,14 +42,14 @@ HullPointRestoreRate
 	Level:2 1.000000
 	Level:3 0.000000
 ShieldPointRestoreRate
-	Level:0 1.000000
-	Level:1 1.000000
-	Level:2 1.000000
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
 	Level:3 0.000000
 BaseArmorPoints
-	Level:0 3.000000
-	Level:1 4.000000
-	Level:2 5.000000
+	Level:0 10.000000
+	Level:1 20.000000
+	Level:2 35.000000
 	Level:3 0.000000
 maxMitigation
 	Level:0 0.600000
@@ -89,7 +89,7 @@ weaponCooldownMult
 	Level:3 0.000000
 mass 2000.000000
 ShieldMeshName ""
-renderShield TRUE
+renderShield FALSE
 maxAccelerationLinear 0.000000
 maxAccelerationStrafe 0.000000
 maxDecelerationLinear 500.000000
