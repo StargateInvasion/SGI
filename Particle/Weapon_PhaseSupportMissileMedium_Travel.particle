@@ -89,8 +89,8 @@ ParticleSimulation
 		PipelineEffectID "GS_Exhaust.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "exhaust_largeexternal.dds"
-		textureName "exhaust_largeinternal.dds"
+		textureName "exhaust_largeexternal"
+		textureName "exhaust_largeinternal"
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
 		textureAnimationOnParticleFPS 0.000000
@@ -137,7 +137,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached FALSE
 		numTextures 2
-		textureName "flare2.dds"
+		textureName "flare2"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"

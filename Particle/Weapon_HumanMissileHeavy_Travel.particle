@@ -24,7 +24,7 @@ ParticleSimulation
 		ParticleStartColor ffffffff
 		ParticleWidth 1.000000
 		ParticleHeight 1.000000
-		MeshName "C:\GS\DataSource\Mesh\Weapon_TechCapitalMissile.MESH"
+		MeshName "Weapon_TechCapitalMissile.MESH"
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
@@ -91,7 +91,7 @@ ParticleSimulation
 		numTextures 2
 		textureName ""
 		textureName ""
-		textureAnimationName "C:\gs\main\DataSource\TextureAnimations\autocannon_yellow.texanim"
+		textureAnimationName "autocannon_yellow.texanim"
 		textureAnimationSpawnType "RandomFrames"
 		textureAnimationOnParticleFPS 3.000000
 		ParticlesRotate TRUE
@@ -137,7 +137,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_NotAdditive.fx"
 		AreParticlesAttached FALSE
 		numTextures 2
-		textureName "C:\gs\main\DataSource\Textures\Effects\smokeGrey.tga"
+		textureName "smokeGrey"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "FirstFrame"

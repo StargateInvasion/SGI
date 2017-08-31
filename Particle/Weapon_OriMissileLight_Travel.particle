@@ -24,7 +24,7 @@ ParticleSimulation
 		ParticleStartColor ffffffff
 		ParticleWidth 1.000000
 		ParticleHeight 1.000000
-		MeshName "C:\GS\DataSource\Mesh\Weapon_TechSupportMissile.MESH"
+		MeshName "Weapon_TechSupportMissile.MESH"
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
@@ -89,8 +89,8 @@ ParticleSimulation
 		PipelineEffectID "GS_Exhaust.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "C:\GS\Bin\GS_Win32\Textures\exhaust_largeexternal.dds"
-		textureName "C:\GS\Bin\GS_Win32\Textures\exhaust_largeinternal.dds"
+		textureName "exhaust_largeexternal"
+		textureName "exhaust_largeinternal"
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
 		textureAnimationOnParticleFPS 0.000000
@@ -137,7 +137,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached FALSE
 		numTextures 2
-		textureName "C:\gs\Bin\GS_Win32\Textures\smoke1.dds"
+		textureName "smoke1"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
