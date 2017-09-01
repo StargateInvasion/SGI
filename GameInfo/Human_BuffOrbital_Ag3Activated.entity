@@ -25,7 +25,7 @@ instantAction
 		burstCount 1
 		burstDelay 0.000000
 		fireDelay 0.000000
-		muzzleEffectName ""
+		muzzleEffectName "Weapon_Human_Orbital_HeavyDefense_AG3_Muzzle"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 1
@@ -40,11 +40,11 @@ instantAction
 		beamEffectSounds
 			soundCount 1
 			sound "EFFECT_BEAMBLAST_ACTIVATE"
-		beamGlowTextureName "AG3Beam_Glow"
-		beamCoreTextureName "AG3Beam_Core"
-		beamWidth 3.000000
-		beamGlowColor ffffffff
-		beamCoreColor ffffffff
+		beamGlowTextureName "PhaseCapitalBombingBeam_Glow"
+		beamCoreTextureName "PhaseCapitalBombingBeam_Core"
+		beamWidth 4.000000
+		beamGlowColor ffEEEE00
+		beamCoreColor ffEEEE00
 		beamTilingRate 3.000000
 numPeriodicActions 1
 periodicAction
