@@ -3,8 +3,8 @@ entityType "ResearchSubject"
 hudIcon "HUDICON_RESEARCHSUBJECT_PACTUNLOCK_ENERGY_WEAPON_COOLDOWN"
 smallHudIcon "HUDICON_RESEARCHSUBJECT_PACTUNLOCK_ENERGY_WEAPON_COOLDOWN"
 infoCardIcon ""
-NameStringID "IDS_ASURAN_RESEARCH_PACTUNLOCKENERGYWEAPONCOOLDOWN_NAME"
-DescriptionStringID "IDS_ASURAN_RESEARCH_PACTUNLOCKENERGYWEAPONCOOLDOWN_DESCRIPTION"
+NameStringID "IDS_RESEARCHSUBJECT_PACT_ENERGY_WEAPON_COOLDOWN_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_PACT_ENERGY_WEAPON_COOLDOWN_DESCRIPTION"
 researchWindowLocation
 	block 0
 	pos [ 6 , 2 ]
@@ -35,7 +35,7 @@ researchBoolModifiers 1
 researchModifier
 	modifierType "UnlockPact"
 	allianceType "EnergyWeaponCooldownPact"
-	pactUnlockEntityDefName "RESEARCHSUBJECT_PACTBONUS_ENERGY_WEAPON_COOLDOWN"
+	pactUnlockEntityDefName "Asuran_Research_PactunlockEnergyWeaponCooldown"
 researchFloatModifiers 0
 artifactPicture ""
 uniqueOverlayBrush ""
