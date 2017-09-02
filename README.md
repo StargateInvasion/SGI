@@ -11,6 +11,31 @@ The intellectual property depicted in this mod, including the brand "stargate", 
 Editorial uses of this mod are allowed as long as credit for the work is provided, but other uses (such as within for profit computer games) may require legal clearances from third party intellectual property owners. 
 
 ## Credit
-_In progress: This list is not complete.  If you feel your work is represented in the mod and should be credited, please contact us._    
+_If you feel your work is represented in the mod and should be credited, please contact us on [Discord](https://discordapp.com/channels/322849121956528139/322856260280254464)
+._    
+### SGI Dev Team Members
+#### Active
+* Ace_Fighter
+* dotNfg
+* Viking Warrier
+* ElJefe
+* General Void
+* Advent4351
+* Ademis
+* BCDLegend
+* Resident Ori Worshipper
+##### Inactive
+* E0mega
+* Rise
+* JTaylorPCS
+* Nekronus
+* rj hughes
+* DAAN
+* myfist0
+* Orca464
+* d_jackson
+* zombierus
+* prophet
 
-Start Menu Pegasus Stargate model: David Gian-Cursio
+### Asset Use
+* Start Menu Pegasus Stargate model: David Gian-Cursio
