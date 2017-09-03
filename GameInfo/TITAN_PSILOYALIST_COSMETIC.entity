@@ -77,8 +77,8 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 175.000000
-	DamagePerBank:BACK 135.000000
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 8000.000000
@@ -123,7 +123,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 125.000000
+	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -164,7 +164,7 @@ Weapon
 		DamageType "ENERGY"
 		WeaponClassType "LASERPSI"
 	DamagePerBank:FRONT 0.000000
-	DamagePerBank:BACK 85.000000
+	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 8000.000000
@@ -202,10 +202,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "POINTDEFENSELASER"
-	DamagePerBank:FRONT 30.000000
-	DamagePerBank:BACK 30.000000
-	DamagePerBank:LEFT 30.000000
-	DamagePerBank:RIGHT 30.000000
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
 	Range 4500.000000
 	PreBuffCooldownTime 5.500000
 	CanFireAtFighter TRUE
@@ -235,10 +235,10 @@ Weapon
 		projectileTravelEffectName "Weapon_Psi_PointDefense_Large_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 3
-TargetCountPerBank:BACK 3
-TargetCountPerBank:LEFT 2
-TargetCountPerBank:RIGHT 2
+TargetCountPerBank:FRONT 0
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 mass 100000.000000
 ShieldMeshName "Titan_PsiLoyalist_Shield"

@@ -77,8 +77,8 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "GAUSS"
-	DamagePerBank:FRONT 350.000000
-	DamagePerBank:BACK 250.000000
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 10000.000000
@@ -115,8 +115,8 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "FLAK"
-	DamagePerBank:FRONT 30.000000
-	DamagePerBank:BACK 30.000000
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 4500.000000
@@ -153,7 +153,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "RAILGUN"
-	DamagePerBank:FRONT 1200.000000
+	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -193,8 +193,8 @@ Weapon
 		WeaponClassType "AUTOCANNON"
 	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 130.000000
-	DamagePerBank:RIGHT 130.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
 	Range 10000.000000
 	PreBuffCooldownTime 4.500000
 	CanFireAtFighter FALSE
@@ -233,8 +233,8 @@ Weapon
 		WeaponClassType "MISSILE"
 	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 150.000000
-	DamagePerBank:RIGHT 150.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
 	Range 10000.000000
 	PreBuffCooldownTime 10.500000
 	CanFireAtFighter FALSE
@@ -268,10 +268,10 @@ Weapon
 		missileMaxSlowTurnTime 6.000000
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 1
-TargetCountPerBank:BACK 2
-TargetCountPerBank:LEFT 2
-TargetCountPerBank:RIGHT 2
+TargetCountPerBank:FRONT 0
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 mass 100000.000000
 ShieldMeshName "Titan_TechRebel_Shield"

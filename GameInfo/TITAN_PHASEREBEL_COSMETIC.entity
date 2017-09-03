@@ -77,7 +77,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "PHASEMISSILE"
-	DamagePerBank:FRONT 175.000000
+	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -119,7 +119,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PULSEWAVE"
-	DamagePerBank:FRONT 195.000000
+	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -158,10 +158,10 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "POINTDEFENSELASER"
-	DamagePerBank:FRONT 43.000000
-	DamagePerBank:BACK 43.000000
-	DamagePerBank:LEFT 43.000000
-	DamagePerBank:RIGHT 43.000000
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
 	Range 4500.000000
 	PreBuffCooldownTime 5.500000
 	CanFireAtFighter TRUE
@@ -207,8 +207,8 @@ Weapon
 		WeaponClassType "FLASHBEAM"
 	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 120.000000
-	DamagePerBank:RIGHT 120.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
 	Range 8000.000000
 	PreBuffCooldownTime 5.500000
 	CanFireAtFighter FALSE
@@ -253,7 +253,7 @@ Weapon
 		DamageType "ENERGY"
 		WeaponClassType "PHASECANNON"
 	DamagePerBank:FRONT 0.000000
-	DamagePerBank:BACK 165.000000
+	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 8000.000000
@@ -285,10 +285,10 @@ Weapon
 		projectileTravelEffectName "Weapon_PhaseCannon_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 4
-TargetCountPerBank:BACK 2
-TargetCountPerBank:LEFT 1
-TargetCountPerBank:RIGHT 1
+TargetCountPerBank:FRONT 0
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 mass 100000.000000
 ShieldMeshName "Titan_PhaseRebel_Shield"

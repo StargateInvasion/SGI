@@ -79,8 +79,8 @@ Weapon
 		WeaponClassType "LASERTECH"
 	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 135.000000
-	DamagePerBank:RIGHT 135.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
 	Range 8000.000000
 	PreBuffCooldownTime 5.500000
 	CanFireAtFighter FALSE
@@ -116,10 +116,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "FLAK"
-	DamagePerBank:FRONT 30.000000
-	DamagePerBank:BACK 30.000000
-	DamagePerBank:LEFT 30.000000
-	DamagePerBank:RIGHT 30.000000
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
 	Range 4500.000000
 	PreBuffCooldownTime 7.000000
 	CanFireAtFighter TRUE
@@ -154,8 +154,8 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 175.000000
-	DamagePerBank:BACK 160.000000
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 8000.000000
@@ -202,8 +202,8 @@ Weapon
 		WeaponClassType "MISSILE"
 	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 150.000000
-	DamagePerBank:RIGHT 150.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
 	Range 8000.000000
 	PreBuffCooldownTime 10.500000
 	CanFireAtFighter FALSE
@@ -237,10 +237,10 @@ Weapon
 		missileMaxSlowTurnTime 6.000000
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 2
-TargetCountPerBank:BACK 2
-TargetCountPerBank:LEFT 3
-TargetCountPerBank:RIGHT 3
+TargetCountPerBank:FRONT 0
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 mass 100000.000000
 ShieldMeshName "Human_Shield_TitanOffense_Tartarus"
