@@ -1043,10 +1043,10 @@ StringInfo
 	Value "Upgrades all ships with Neutronium armour plating"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_BOUNTYMULTIPLIERCOLLECT_NAME"
-	Value "Pirate Manipulation"
+	Value "Replicator Reprogramming"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_BOUNTYMULTIPLIERCOLLECT_DESCRIPTION"
-	Value "Bounty Multiplier"
+	Value "Replicators are reprogrammed, increasing your influence."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_CAPITALBATTLESHIP_ORION_NAME"
 	Value "Aurora"
@@ -1475,10 +1475,10 @@ StringInfo
 	Value "Unlock Packt"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_PIRATERAIDDECREASE_NAME"
-	Value "Pirate Raid Decrease"
+	Value "Replicator Invasion Decrease"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_PIRATERAIDDECREASE_DESCRIPTION"
-	Value "Bribe the pirates to wait longer before launching their raids."
+	Value "Reprogrammed replicators wait longer before launching their invasions."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_PLANETACCESSICE_NAME"
 	Value "Colonize Ice Planets"
@@ -2939,7 +2939,7 @@ StringInfo
 	Value "Backroom Deals"
 StringInfo
 	ID "IDS_HUMAN_RESEARCH_BACKROOMDEALS_DESCRIPTION"
-	Value "Allows you to offer missions to pirate factions."
+	Value "Allows you to offer missions to replicators."
 StringInfo
 	ID "IDS_HUMAN_RESEARCH_BATTLEFIELDPROMOTIONS_NAME"
 	Value "Battlefield Promotions"
@@ -6707,7 +6707,7 @@ StringInfo
 	Value "Next Increment: *VALUE0* *VALUE1* (*VALUE2* + *VALUE3*)"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_BONUSACTIVE"
-	Value "Pirate Turf Bonus Active"
+	Value "Replicator Turf Bonus Active"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_ABILITYAUTOCASTSTATUS"
 	Value "*VALUE0* Autocast: *VALUE1*"
@@ -8138,28 +8138,28 @@ StringInfo
 	Value "The bounty against you has increased."
 StringInfo
 	ID "IDS_GAMEMESSAGE_PIRATEFLEETARRIVED"
-	Value "Marauding pirates have arrived at %s."
+	Value "The replicator menace have arrived at %s."
 StringInfo
 	ID "IDS_GAMEMESSAGE_REBELFLEETARRIVED"
 	Value "Rebel forces are causing trouble near %s."
 StringInfo
 	ID "IDS_GAMEMESSAGE_PIRATERAIDIMMINENT"
-	Value "Pirate raid imminent!"
+	Value "Replicator invasion imminent!"
 StringInfo
 	ID "IDS_GAMEMESSAGE_PIRATERAIDIMMINENT_DETAILS"
-	Value "Intelligence suspects that pirates are massing for a raid against: %s"
+	Value "Intelligence suspects that replicators are massing for an invasion against: %s"
 StringInfo
 	ID "IDS_GAMEMESSAGE_PIRATERAIDIMMINENT_DETAILS_ACTIVEPLAYER"
-	Value "Pirate leaders have threatened to raid our territory unless they have incentive to go elsewhere."
+	Value "Replicators threaten our territory unless they have incentive to go elsewhere."
 StringInfo
 	ID "IDS_GAMEMESSAGE_PIRATERAIDLAUNCHED"
-	Value "Pirate raiders launched!"
+	Value "Replicator horde launched!"
 StringInfo
 	ID "IDS_GAMEMESSAGE_PIRATERAIDLAUNCHED_DETAILS"
 	Value "Intelligence reports they are heading for %s territory."
 StringInfo
 	ID "IDS_GAMEMESSAGE_PIRATERAIDLAUNCHED_DETAILS_ACTIVEPLAYER"
-	Value "Intelligence reports that pirate raiders have launched a raid against our empire!"
+	Value "Intelligence reports that replicators have launched an invasion against our empire!"
 StringInfo
 	ID "IDS_GAMEMESSAGE_HOMEPLANETCHANGED"
 	Value "Your empire has a new capital, %s."
@@ -8384,7 +8384,7 @@ StringInfo
 	Value "%s has rejected your mission."
 StringInfo
 	ID "IDS_GAMEMESSAGE_PLAYERPIRATEQUESTCOMPLETED"
-	Value "Yarr mission successful matey!"
+	Value "We have increased our numbers!"
 StringInfo
 	ID "IDS_GAMEMESSAGE_PLAYERFLEETTYPE_SCOUT"
 	Value "Scout"
@@ -9236,7 +9236,7 @@ StringInfo
 	Value "Wraith"
 StringInfo
 	ID "IDS_PLAYERRACENAME_PIRATE"
-	Value "Pirate"
+	Value "Replicators"
 StringInfo
 	ID "IDS_RACESELECTDIALOG_PREVIOUSRACE"
 	Value "Previous Race"
@@ -9371,7 +9371,7 @@ StringInfo
 	Value "Frequent Raiders"
 StringInfo
 	ID "IDS_PLANETBONUS_FREQUENTRAIDERS_DESC"
-	Value "This world becomes the frequent destination for pirate raids, substantially reducing trade income."
+	Value "This world becomes the frequent destination for replicator hordes, substantially reducing trade income."
 StringInfo
 	ID "IDS_PLANETBONUS_FUSIONPOWERCORE_NAME"
 	Value "Fusion Power Core"
@@ -9494,7 +9494,7 @@ StringInfo
 	Value "Convict labor allows orbital structures to be built at reduced cost, but at a slower rate."
 StringInfo
 	ID "IDS_PLANETBONUS_PIRATETREASURE_NAME"
-	Value "Plundered Booty"
+	Value "Raw Materials"
 StringInfo
 	ID "IDS_PLANETBONUS_PIRATETREASURE_DESC"
 	Value "A vast hoard of ill-gotten riches is shipped back to your capital one cargo hold at a time. Grants a bonus to credit income."
@@ -9803,7 +9803,7 @@ StringInfo
 	Value "Dead Asteroid"
 StringInfo
 	ID "IDS_PLANETTYPE_PIRATEBASE"
-	Value "Pirate Base"
+	Value "Replicator Base"
 StringInfo
 	ID "IDS_PLANETTYPE_PLASMASTORM"
 	Value "Plasma Storm"
@@ -10439,7 +10439,7 @@ StringInfo
 	Value "Market"
 StringInfo
 	ID "IDSUserInputIDCategoryPirates"
-	Value "Pirates"
+	Value "Replicators"
 StringInfo
 	ID "IDSUserInputIDCategoryHotKeyGroups"
 	Value "Hot Key Groups"
@@ -10514,7 +10514,7 @@ StringInfo
 	Value "Open Black Market Window"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_OPENPIRATESCREEN"
-	Value "Open Pirate Window"
+	Value "Open Replicator Window"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_OPENPLAYERSWINDOW"
 	Value "Open Diplomacy Window"
@@ -12107,7 +12107,7 @@ StringInfo
 	Value "Keep spending your money on bounty, fool."
 StringInfo
 	ID "IDS_TAUNT_TECH_BountyIncreasedOther"
-	Value "Pirates are no match for my forces anyway."
+	Value "Replicators are no match for my forces anyway."
 StringInfo
 	ID "IDS_TAUNT_TECH_AllyResourcesReceived"
 	Value "I'm glad you are beginning to appreciate me."
@@ -13037,7 +13037,7 @@ StringInfo
 	Value "Did you put bounty on me?"
 StringInfo
 	ID "IDS_TAUNT_PSI_BountyIncreasedOther"
-	Value "We have no fear of pirates."
+	Value "We have no fear of replicators."
 StringInfo
 	ID "IDS_TAUNT_PSI_AllyResourcesReceived"
 	Value "The Unity is grateful for your favours."
@@ -14270,19 +14270,19 @@ StringInfo
 	Value "Your request has been fulfilled."
 StringInfo
 	ID "IDS_TAUNT_TECH_PirateRaidStart"
-	Value "Plunder n' booty off the port bow!"
+	Value "We go forth as an army!"
 StringInfo
 	ID "IDS_TAUNT_TECH_PirateRaidStart"
-	Value "There be plenty o' loot for ye all lads!"
+	Value "We will consume your resources!"
 StringInfo
 	ID "IDS_TAUNT_TECH_PirateRaidStart"
-	Value "Look sharp ye space rats, we're almost there!"
+	Value "Your technology is our evolution!"
 StringInfo
 	ID "IDS_TAUNT_TECH_PirateRaidStart"
-	Value "Avast ye scum ridden planet shaggers!"
+	Value "We detect rich Neutronium!"
 StringInfo
 	ID "IDS_TAUNT_TECH_PirateRaidStart"
-	Value "Frresh ferr th' takin'!"
+	Value "We annihilate everything in our path!"
 StringInfo
 	ID "IDS_CHATDISABLEDWHENLOST"
 	Value "Chatting disabled when defeated."
@@ -14921,16 +14921,16 @@ StringInfo
 	Value "As you research special Envoy abilities in the Diplomacy tech tree, they will give bonuses to other empire's planets whose gravity well they're in - improving relations over time. Should the Envoy depart, this bonus will slowly degrade."
 StringInfo
 	ID "IDS_TUTORIAL_DIPLOMACY_PIRATE_ATTACKS"
-	Value "Should your diplomatic efforts fail, there is an alternative method to getting others to do your dirty work - the Pirate Underground."
+	Value "Should your diplomatic efforts fail, there is an alternative method to getting others to do your dirty work - the Replicators."
 StringInfo
 	ID "IDS_TUTORIAL_DIPLOMACY_RAID_BOUNTY"
-	Value "Here you can place an anonymous bounty on another empire's ships and planets. From time to time, Pirate raiders will launch against the empire with the highest bounty level."
+	Value "Here you can place an anonymous bounty on another empire's ships and planets. From time to time, a replicator horde will launch against the empire with the highest bounty level."
 StringInfo
 	ID "IDS_TUTORIAL_DIPLOMACY_RAID_SCALE"
-	Value "While initial pirate raids are easy to deal with, they will grow in numbers and strength over time. Pirates will also upgrade their ships as they collect bounty."
+	Value "While initial replicator hordes are easy to deal with, they will grow in numbers and strength over time. Replicators will also upgrade their ships as they collect bounty."
 StringInfo
 	ID "IDS_TUTORIAL_DIPLOMACY_PIRATE_MISSIONS"
-	Value "With a little research and backroom dealings, you can even pay Pirates to go on specific missions for your empire. Credits is all it will require."
+	Value "With a little research and backroom dealings, you can even entice Replicators to go on specific missions that benefit your empire. Resources is all it will require."
 StringInfo
 	ID "IDS_TUTORIAL_DIPLOMACY_END"
 	Value "This concludes the Diplomacy tutorial."
@@ -15605,7 +15605,7 @@ StringInfo
 	Value "Planet population"
 StringInfo
 	ID "IDS_GameStat_PiratesKilled"
-	Value "Pirates destroyed"
+	Value "Replicators destroyed"
 StringInfo
 	ID "IDS_GameStat_PlanetBombingDamageDone"
 	Value "Damage done - Planet Bombing"
@@ -15653,7 +15653,7 @@ StringInfo
 	Value "Bounty on head"
 StringInfo
 	ID "IDS_GameStat_ChosenAsPirateAttackTarget"
-	Value "Marauding pirate target"
+	Value "Menace replicator target"
 StringInfo
 	ID "IDS_GameStat_OverallCulturePercentage"
 	Value "Galaxy Culture percentage"
@@ -16217,7 +16217,7 @@ StringInfo
 	Value "Competitive version of Battle Lines. Artifacts and planetary bonuses have been removed and planetary militia and resource rock counts have been set to normalized values so that no team can have an unfair map advantage. Designed for high level play."
 StringInfo
 	ID "IDS_CUSTOMGALAXY_DESCRIPTION_BLINDSIDE"
-	Value "A triad of highly contested planets ring the star - each of the many factions here is nearly within striking distance of the others. In light of the inner conflict, pirate forces have opted for bases of operation far from the action."
+	Value "A triad of highly contested planets ring the star - each of the many factions here is nearly within striking distance of the others. In light of the inner conflict, replicators have opted for bases of operation far from the action."
 StringInfo
 	ID "IDS_CUSTOMGALAXY_DESCRIPTION_BLITZ"
 	Value "Mobility is crucial in this small system. Establish yourself quickly if you hope to survive the blitz."
@@ -16340,7 +16340,7 @@ StringInfo
 	Value "Every planet in this crowded system is rich in resources, but fiercely guarded by their militias. A powerful fleet will be needed to make any headway here."
 StringInfo
 	ID "IDS_CUSTOMGALAXY_DESCRIPTION_HOSTILEORBITS"
-	Value "Terran planets cluster close to the cool, red star of this system, but so do numerous pirate bases. Fight your way outward to claim the riches that lie on the edges of this deadly system."
+	Value "Terran planets cluster close to the cool, red star of this system, but so do numerous replicator bases. Fight your way outward to claim the riches that lie on the edges of this deadly system."
 StringInfo
 	ID "IDS_CUSTOMGALAXY_DESCRIPTION_HOSTILEORBITSFair"
 	Value "Competitive version of Hostile Orbits. Artifacts and planetary bonuses have been removed and planetary militia and resource rock counts have been set to normalized values so that no player can have an unfair map advantage. Designed for high level play."
@@ -16580,7 +16580,7 @@ StringInfo
 	Value "False"
 StringInfo
 	ID "IDSIcoCustomGameInfoArePiratesActive"
-	Value "Active Pirates:"
+	Value "Active Replicators:"
 StringInfo
 	ID "IDSIcoCustomGameInfoIsBlackMarketActive"
 	Value "Active Black Market:"
@@ -16850,7 +16850,7 @@ StringInfo
 	Value "Maximum:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_PIRATESTRENGTHAGAINSTYOUADJUSTMENT"
-	Value "Pirate Raid strength:"
+	Value "Replicator horde strength:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_PLANETHEALTHREGENRATEADJUSTMENT"
 	Value "Build rate increase:"
@@ -18494,13 +18494,13 @@ StringInfo
 	Value "You do not have enough credits."
 StringInfo
 	ID "IDSPlayerScreen_CanOfferQuest_PiratesBusy"
-	Value "The pirates are already on another mission."
+	Value "The replicators are already on another mission."
 StringInfo
 	ID "IDSPlayerScreen_CanOfferQuest_NoTargetPlanetsFound"
 	Value "No explored planets to target."
 StringInfo
 	ID "IDSPlayerScreen_CanOfferQuest_PiratesHaveLost"
-	Value "All pirates are dead."
+	Value "All replicators are dead."
 StringInfo
 	ID "IDSPlayerScreen_CanOfferQuest_CannotAffordAnyQuest"
 	Value "You cannot afford to offer any missions."
@@ -18623,7 +18623,7 @@ StringInfo
 	Value "Close"
 StringInfo
 	ID "IDSNPCScreenPirateTabButton"
-	Value "Pirates"
+	Value "Replicators"
 StringInfo
 	ID "IDSNPCScreenMarketTabButton"
 	Value "Black Market"
@@ -18647,7 +18647,7 @@ StringInfo
 	Value "Dead"
 StringInfo
 	ID "IDSPirateScreenTargetWanted"
-	Value "WANTED"
+	Value "TARGETED"
 StringInfo
 	ID "IDSPirateScreenChangeBountyButtonTextFormat"
 	Value "%d"
@@ -18761,10 +18761,10 @@ StringInfo
 	Value "Unlocked Teams"
 StringInfo
 	ID "IDSGameOptionsArePiratesActiveTrue"
-	Value "Pirates Active"
+	Value "Replicators Active"
 StringInfo
 	ID "IDSGameOptionsArePiratesActiveFalse"
-	Value "Pirates Inactive"
+	Value "Replicators Inactive"
 StringInfo
 	ID "IDSGameOptionsAreOutlawSectorsActiveTrue"
 	Value "Outlaw Sectors"
@@ -19499,7 +19499,7 @@ StringInfo
 	Value "All players combined offerings: *VALUE0*"
 StringInfo
 	ID "IDSScenarioPlayerNamePirates"
-	Value "Pirates"
+	Value "Replicators"
 StringInfo
 	ID "IDSScenarioPlayerNameRebels"
 	Value "Rebels"
@@ -19583,7 +19583,7 @@ StringInfo
 	Value "Tip: Hold down 'Alt' on your keyboard to quickly see health bars, tactical grid, attack ranges, unit orders, and more."
 StringInfo
 	ID "IDSLoadScreenTip01"
-	Value "Tip: Pirate raiders and local militia favor colony ships as targets, so be careful when bringing one into a contested system."
+	Value "Tip: Replicator hordes and local militia favor colony ships as targets, so be careful when bringing one into a contested system."
 StringInfo
 	ID "IDSLoadScreenTip02"
 	Value "Tip: Your first capital ship will be built for free, every one afterwards will be full price."
@@ -19622,7 +19622,7 @@ StringInfo
 	Value "Tip: You can anonymously place bounty on allies you don't have a Peace Treaty with."
 StringInfo
 	ID "IDSLoadScreenTip14"
-	Value "Tip: Pirate Raiders will attack the player with the highest bounty on them at the moment the raid is launched. Make sure it's not you!"
+	Value "Tip: Replicator hordes will attack the player with the highest bounty on them at the moment the invasion is launched. Make sure it's not you!"
 StringInfo
 	ID "IDSLoadScreenTip15"
 	Value "Tip: Hold down 'Shift' to buy ships, structures and resources in larger quantities at once."
@@ -19682,7 +19682,7 @@ StringInfo
 	Value "Tip: Capital ships and titans can gain levels from experience earned by being present when enemy ships are destroyed in combat or by purchasing training for them."
 StringInfo
 	ID "IDSLoadScreenTip34"
-	Value "Tip: Watch out for pirate Pillager ships, they can steal credits from your empire by targetting ships and structures with their Plunder ability."
+	Value "Tip: Watch out for replicator patrol ships, they can steal credits from your empire by targetting ships and structures with their Consume ability."
 StringInfo
 	ID "IDSLoadScreenTip35"
 	Value "Tip: AI players can be influenced if they are happy enough with you. If you complete enough missions, you will be able to ask him to attack or defend planets for you."
@@ -20024,10 +20024,10 @@ StringInfo
 	Value "Destroy %s enemy strike craft in a single game."
 StringInfo
 	ID "IDSAchievementNameHasKilledPirates"
-	Value "Pirate Exterminator"
+	Value "Replicator Disruptor"
 StringInfo
 	ID "IDSAchievementDescHasKilledPirates"
-	Value "Destroy %s pirate ships in a single game."
+	Value "Destroy %s replicator ships in a single game."
 StringInfo
 	ID "IDSAchievementNameHasKilledTradeShips"
 	Value "Anti-Globalization"
@@ -20048,10 +20048,10 @@ StringInfo
 	Value "Destroy %s construction ships in a single game."
 StringInfo
 	ID "IDSAchievementNameHasColonizedPiratePlanet"
-	Value "Pirate Baron"
+	Value "Replicator Queen"
 StringInfo
 	ID "IDSAchievementDescHasColonizedPiratePlanet"
-	Value "Colonize a Pirate base."
+	Value "Colonize a Replicator base."
 StringInfo
 	ID "IDSAchievementNameHasFoundSpacePonies"
 	Value "Space Ponies!"
@@ -20249,7 +20249,7 @@ StringInfo
 	Value "Advent Asylum"
 StringInfo
 	ID "IDSICODefaultChannel3"
-	Value "Pirate Base"
+	Value "Replicator Base"
 StringInfo
 	ID "IDSICOFloodWarning"
 	Value "Please wait a minute before sending more chat messages."
@@ -20372,7 +20372,7 @@ StringInfo
 	Value "Reward:"
 StringInfo
 	ID "IDS_OFFERMISSIONSCREEN_PIRATEFLEETLABEL"
-	Value "Pirate Raid Strength:"
+	Value "Replicator Raid Strength:"
 StringInfo
 	ID "IDS_OFFERMISSIONSCREEN_REQUIREDRELATIONSHIPLABEL"
 	Value "Required Relationship:"
@@ -20657,7 +20657,7 @@ StringInfo
 	Value "Your game must have at least 2 teams to start."
 StringInfo
 	ID "IDSGalaxyScenarioTypePlanetPirateBase"
-	Value "Pirate Base"
+	Value "Replicator Base"
 StringInfo
 	ID "IDS_GAMEOPTION_LOCKEDTEAMS_NAME"
 	Value "Locked Teams"
@@ -20666,16 +20666,16 @@ StringInfo
 	Value "Teams start the game with Peace Treaties between all players. Treaties cannot be broken."
 StringInfo
 	ID "IDS_GAMEOPTION_PIRATESACTIVE_NAME"
-	Value "Pirates"
+	Value "Replicators"
 StringInfo
 	ID "IDS_GAMEOPTION_PIRATESACTIVE_DESCRIPTION"
-	Value "Pirate Raiders will peridiocally strike out from hidden pirate bases, pillaging worlds belonging to the player with the highest bountry. Seeking out and destroying all pirate bases will bring an end to these attacks."
+	Value "Replicator hordes will peridiocally strike out from hidden bases, pillaging worlds belonging to the player with the highest bountry. Seeking out and destroying all replicator bases will bring an end to these attacks."
 StringInfo
 	ID "IDS_GAMEOPTION_OUTLAWSECTORSACTIVE_NAME"
 	Value "Outlaw Sectors"
 StringInfo
 	ID "IDS_GAMEOPTION_OUTLAWSECTORSACTIVE_DESCRIPTION"
-	Value "Activates: Smuggling Specialization - steal trade profits at the cost of corruption. Rampant Militias - they grow, raid and repopulate so best to make them yours. Pirate Turf - will now attack multiple players and all bounty is given a bonus supplement."
+	Value "Activates: Smuggling Specialization - steal trade profits at the cost of corruption. Rampant Militias - they grow, raid and repopulate so best to make them yours. Replicator Turf - will now attack multiple players and all bounty is given a bonus supplement."
 StringInfo
 	ID "IDS_GAMEOPTION_FLEETSIZE_NAME"
 	Value "Fleet Size"
