@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 344
+brushCount 345
 brush
 	name "EscapeMenuScreenCloseButton"
 	content "States"
@@ -775,6 +775,11 @@ brush
 	fileName "BackdropInGame_SGI"
 	pixelBox [ 1 , 1203 , 304 , 279 ]
 brush
+	name "PlayerScreenPortraitOverlayNone"
+	content "Simple"
+	fileName "BackdropInGame_SGI"
+	pixelBox [ 0 , 0 , 0 , 0 ]
+brush
 	name "PlayerScreenPortraitOverlayMedium"
 	content "Simple"
 	fileName "BackdropInGame_SGI"
@@ -783,7 +788,7 @@ brush
 	name "PlayerScreenPortraitOverlayWhenDead"
 	content "Simple"
 	fileName "BackdropInGame_SGI"
-	pixelBox [ 1532 , 0 , 304 , 279 ]
+	pixelBox [ 1530 , 12 , 304 , 279 ]
 brush
 	name "PlayerScreenPortraitOverlayWhenDeadMedium"
 	content "Simple"
@@ -1204,12 +1209,12 @@ brush
 	name "PirateScreenPortraitUnderlay"
 	content "Simple"
 	fileName "BackdropInGame_SGI"
-	pixelBox [ 1 , 795 , 304 , 279 ]
+	pixelBox [ 1 , 795 , 304 , 360 ]
 brush
 	name "PirateScreenPortraitOverlay"
 	content "Simple"
 	fileName "BackdropInGame_SGI"
-	pixelBox [ 1 , 1203 , 304 , 279 ]
+	pixelBox [ 1 , 1203 , 304 , 360 ]
 brush
 	name "PirateScreenPortraitOverlayWhenPiratesDead"
 	content "Simple"
@@ -1219,7 +1224,7 @@ brush
 	name "PirateScreenStrengthBackdrop"
 	content "Simple"
 	fileName "BackdropInGame_SGI"
-	pixelBox [ 616 , 1289 , 304 , 110 ]
+	pixelBox [ 0 , 1 , 1 , 1 ]
 brush
 	name "PirateScreenStrengthOverlay"
 	content "Simple"

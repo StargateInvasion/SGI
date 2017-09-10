@@ -40,13 +40,13 @@ tabWindow
 pirateContentWindow
 	tabButtonIcon "NPCScreenPirateTabButton"
 	tabButtonText "IDSNPCScreenPirateTabButton"
-	portraitFrameArea [12, 60, 304, 279]
-	portraitPictureArea [66, 117, 195 , 219]
+	portraitFrameArea [12, 101, 304, 279]
+	portraitPictureArea [66, 105, 195 , 219]
 	portraitUnderlay "PirateScreenPortraitUnderlay"
 	portraitOverlay "PirateScreenPortraitOverlay"
 	portraitOverlayWhenPiratesDead "PirateScreenPortraitOverlayWhenPiratesDead"
 	strengthWindowDef
-		area [12, 339, 304, 110]
+		area [13, 347, 304, 110]
 		textArea [110, 17, 100, 30]
 		textFont "Label"
 		backdrop "PirateScreenStrengthBackdrop"
@@ -71,12 +71,12 @@ pirateContentWindow
 			text "IDSPirateScreenStrengthWhenDead"
 	targetWindowDef
 		area [12, 408,304, 213]
-		wantedTextArea [155, 53, 75, 30]
+		wantedTextArea [152, 53, 75, 30]
 		bountyAmountAreas
 			area [132, 88, 100, 30]
 			textOffsetFromLeft 30
 		playerNameAndIconAreas
-			area [70, 118, 150, 30]
+			area [70, 122, 150, 30]
 			textOffsetFromLeft 35
 		playerPortraitArea [72, 46, 56, 67]
 		backdrop "PirateScreenTargetBackdrop"
@@ -374,7 +374,7 @@ pirateContentWindow
 			area [0, 0, 220, 46]
 			fontId "ButtonLabel"
 			iconOffsetFromLeft 22
-			textOffsetFromLeft 70
+			textOffsetFromLeft 100
 			underlay "ScreenButtonUnderlayLarge"
 			overlay "ScreenButtonOverlayLarge"
 		buttonIcon "PlayerScreenOfferMission"
