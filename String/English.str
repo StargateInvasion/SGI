@@ -2,16 +2,16 @@
 NumStrings 7023
 StringInfo
 	ID "IDS_ABILITY_ANTIMATTER_FOUNTAIN_NAME"
-	Value "Antimatter Fountain"
+	Value "Energy Fountain"
 StringInfo
 	ID "IDS_ABILITY_ANTIMATTER_FOUNTAIN_DESCRIPTION"
-	Value "Some unknown force has ripped a tear through space time to create this particle fountain. While dangerous, ships may recharge their antimatter reserves here very rapidly."
+	Value "Some unknown force has ripped a tear through space time to create this particle fountain. While dangerous, ships may recharge their energy reserves here very rapidly."
 StringInfo
 	ID "IDS_ABILITY_ANTIMATTER_FOUNTAIN_NAME"
-	Value "Antimatter Fountain"
+	Value "Energy Fountain"
 StringInfo
 	ID "IDS_ABILITY_ANTIMATTER_FOUNTAIN_DESCRIPTION"
-	Value "Some unknown force has ripped a tear through space time to create this particle fountain. While dangerous, ships may recharge their antimatter reserves here very rapidly."
+	Value "Some unknown force has ripped a tear through space time to create this particle fountain. While dangerous, ships may recharge their energy reserves here very rapidly."
 StringInfo
 	ID "IDS_ABILITY_ASTEROIDBELT_NAME"
 	Value "Erratic Debris"
@@ -59,7 +59,7 @@ StringInfo
 	Value "Radiation Field"
 StringInfo
 	ID "IDS_ABILITY_RADIATION_STORM_DESCRIPTION"
-	Value "This area of space is saturated with deadly radiation, which saps antimatter and hinders passive regeneration. Strike craft are also kept from launching due to potential lethal exposure."
+	Value "This area of space is saturated with deadly radiation, which saps energy and hinders passive regeneration. Strike craft are also kept from launching due to potential lethal exposure."
 StringInfo
 	ID "IDS_ABILITY_SHATTERED_MOON_NAME"
 	Value "Shattered Dwarf Planet"
@@ -89,7 +89,7 @@ StringInfo
 	Value "Solar Radiation"
 StringInfo
 	ID "IDS_ABILITY_SOLARREGENERATION_DESCRIPTION"
-	Value "Grants capital ships and frigates within the star's gravity well increased antimatter regeneration and makes them harder to detect when jumping to their next destination."
+	Value "Grants capital ships and frigates within the star's gravity well increased energy regeneration and makes them harder to detect when jumping to their next destination."
 StringInfo
 	ID "IDS_ABILITY_SOLARSTORM_NAME"
 	Value "Solar Storms"
@@ -491,7 +491,7 @@ StringInfo
 	Value "Inteferes with the hyperdrives of enemy ships within range, causing them to require additional time to charge for a Hyperspace jump."
 StringInfo
 	ID "IDS_ASURAN_ABILITYORBITAL_LAGRANGIANSATELLITE_ZPM_NAME"
-	Value "Lagrangian Sat. ZPM"
+	Value "Lagrangian Satellite ZPM"
 StringInfo
 	ID "IDS_ASURAN_ABILITYORBITAL_LAGRANGIANSATELLITE_ZPM_DESCRIPTION"
 	Value "A ZPM system specifically designed for the Lagrangian Satellite. Activating it charges the capacitors almost instantly, all remaining power is diverted to vastly increases the firing rate."
@@ -1013,34 +1013,34 @@ StringInfo
 	Value "System upgrades stabilize the hyperdrives of all Asuran scout ships allowing them to jump even when enemy inhibitors are in the system."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_ANTIMATTER0_NAME"
-	Value "Increase Antimatter L1"
+	Value "Energy Containment"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_ANTIMATTER0_DESCRIPTION"
-	Value "upgrades all ships with medium capacitors."
+	Value "Upgrades all ships with larger energy containment systems."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_ANTIMATTER1_NAME"
-	Value "Increase Antimatter L2"
+	Value "Power Efficiency"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_ANTIMATTER1_DESCRIPTION"
-	Value "upgrades all ships with large capacitors."
+	Value "Upgrades energy transference subsystems on all ships."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_ANTIMATTER2_NAME"
-	Value "Increase Antimatter L3"
+	Value "ZPM Capacity"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_ANTIMATTER2_DESCRIPTION"
-	Value "upgrades all ships with huge capacitors."
+	Value "Additional Zero Point Modules slots are added for all ships."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_ARMOR0_NAME"
-	Value "Improve Armor L1"
+	Value "Trinium Armor"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_ARMOR0_DESCRIPTION"
-	Value "Upgrades all ships with Trinium armor plating."
+	Value "Upgrades all ships with a strong Trinium armor plating."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_ARMOR1_NAME"
-	Value "Improve Armor L2"
+	Value "Neutronium Armor"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_ARMOR1_DESCRIPTION"
-	Value "Upgrades all ships with Neutronium armour plating"
+	Value "Upgrades all ships with hardened Neutronium armor plating"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_BOUNTYMULTIPLIERCOLLECT_NAME"
 	Value "Replicator Reprogramming"
@@ -1379,7 +1379,7 @@ StringInfo
 	Value "Unlocks the planetary defense fighter station."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_ORBITAL_IMPROVEMENTNANOWEAPONJAMMER_NAME"
-	Value "Adv. Weapons Jamming"
+	Value "Advanced Weapons Jamming"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_ORBITAL_IMPROVEMENTNANOWEAPONJAMMER_DESCRIPTION"
 	Value "Increases the Nano Weapons Jammer effectiveness."
@@ -1397,7 +1397,7 @@ StringInfo
 	Value "This orbital station slows down the hyperdrive charge up of enemy ships attempting to jump to another system. The Asurans were also able to acquire the Attero Device and integrate it into it's systems after resolving the Stargate overload problems of the original device. While it is less potent with these modifications, Wraith ships attempting to jump away will be damaged severely."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_ORBITAL_LAGRANGIANSATELLITE_ZPM_NAME"
-	Value "Lagrangian Sat. ZPM"
+	Value "Lagrangian Satellite ZPM"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_ORBITAL_LAGRANGIANSATELLITE_ZPM_DESCRIPTION"
 	Value "The Lagrangian Satellite is upgraded with a specially designed ZPM module capable of charging the capacitors almost instantly and substantially increasing the satellite firing rate."
@@ -1583,7 +1583,7 @@ StringInfo
 	Value "Free up more space for ship supplies allowing additional vessels construction."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_SPEEDBOOSTARMOR_NAME"
-	Value "Adv. Armor Replication"
+	Value "Advanced Armor Replication"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_SPEEDBOOSTARMOR_DESCRIPTION"
 	Value "A more efficient replication protocol that increases strength and reduces the mass of Asuran armor."
@@ -1946,7 +1946,7 @@ StringInfo
 	Value "Disintegration"
 StringInfo
 	ID "IDS_HUMAN_ABILITYCAPITAL_COMMANDSTRIKEGROUP_DESCRIPTION"
-	Value "Fires a powerful stream of nanites at a target, which deals immense damage as it deconstructs the target's hull and absorbs energy from its shields and antimatter. These gains are streamed back to the Vulkoras, replenishing it in turn."
+	Value "Fires a powerful stream of nanites at a target, which deals immense damage as it deconstructs the target's hull and absorbs energy from its shields and energy. These gains are streamed back to the Vulkoras, replenishing it in turn."
 StringInfo
 	ID "IDS_HUMAN_ABILITYCAPITAL_DAEDALUS_NAME"
 	Value "Daedalus"
@@ -1958,7 +1958,7 @@ StringInfo
 	Value "EMP Charge"
 StringInfo
 	ID "IDS_HUMAN_ABILITYCAPITAL_EMPBLAST_DESCRIPTION"
-	Value "Fires a high energy radio frequency bomb at the target ship, depleting shields and antimatter from it and nearby ships when the bomb explodes."
+	Value "Fires a high energy radio frequency bomb at the target ship, depleting shields and energy from it and nearby ships when the bomb explodes."
 StringInfo
 	ID "IDS_HUMAN_ABILITYCAPITAL_FLEETHYPERDRIVEWINDOW_NAME"
 	Value "Fleet Hyperdrive Window"
@@ -2381,7 +2381,7 @@ StringInfo
 	Value "TODO"
 StringInfo
 	ID "IDS_HUMAN_ABILITYTITAN_ADVANCEDASGARDBEAMS_NAME"
-	Value "Adv. Asgard Beams"
+	Value "Advanced Asgard Beams"
 StringInfo
 	ID "IDS_HUMAN_ABILITYTITAN_ADVANCEDASGARDBEAMS_DESCRIPTION"
 	Value "Fires an upgraded version of the Asgard Beam Weapon with higher energy densities that is even more devastating to anything it touches!"
@@ -2864,7 +2864,7 @@ StringInfo
 	Value "Grants the Worthy Cause ability to Hermes Envoy, which helps reduce structure costs in order to boost relations."
 StringInfo
 	ID "IDS_HUMAN_RESEARCH_ADVANCEDCULTURALRELATIONS_NAME"
-	Value "Adv. Cultural Relations"
+	Value "Advanced Cultural Relations"
 StringInfo
 	ID "IDS_HUMAN_RESEARCH_ADVANCEDCULTURALRELATIONS_DESCRIPTION"
 	Value "Advanced Cultural Relations"
@@ -2918,7 +2918,7 @@ StringInfo
 	Value "Researchers and Scientists learn how to use Asgard technology effectively."
 StringInfo
 	ID "IDS_HUMAN_RESEARCH_ASGARDTECH1_NAME"
-	Value "Adv. Asgard Technology"
+	Value "Advanced Asgard Technology"
 StringInfo
 	ID "IDS_HUMAN_RESEARCH_ASGARDTECH1_DESCRIPTION"
 	Value "After gaining access to more Asgard technology, researchers study and examine it."
@@ -3194,7 +3194,7 @@ StringInfo
 	Value "First generation Hyperspace Signature Detection and Ranging equipment allows incoming enemy ships to be detected during their phase jump to member planets."
 StringInfo
 	ID "IDS_HUMAN_RESEARCH_HYPERSPACE_DETECTION1_NAME"
-	Value "Enh. Hyperspace Scan"
+	Value "Enhanced Hyperspace Scan"
 StringInfo
 	ID "IDS_HUMAN_RESEARCH_HYPERSPACE_DETECTION1_DESCRIPTION"
 	Value "Improvements to sensor instrumentation allow incoming enemy ships to be detected up to two jumps away from member planets."
@@ -3590,13 +3590,13 @@ StringInfo
 	Value "Naquadah reactor advancements have allowed the Tau'ri to power Asgard shield technology, increasing the effectiveness of shields."
 StringInfo
 	ID "IDS_HUMAN_RESEARCH_SHIELD2_NAME"
-	Value "Adv. Asgard Shields"
+	Value "Advanced Asgard Shields"
 StringInfo
 	ID "IDS_HUMAN_RESEARCH_SHIELD2_DESCRIPTION"
 	Value "The Asgard further advanced their shield technology, increasing the power of Tau'ri shields."
 StringInfo
 	ID "IDS_HUMAN_RESEARCH_SHIELD3_NAME"
-	Value "Enh. Asgard shields"
+	Value "Enhanced Asgard Shields"
 StringInfo
 	ID "IDS_HUMAN_RESEARCH_SHIELD3_DESCRIPTION"
 	Value "After being imbued with superhuman mental capacity, Rodney Mckay increased the effiency of the Asgard shields."
@@ -3656,7 +3656,7 @@ StringInfo
 	Value "Common structural features are incorporated into revised designs of factories and extractors, reducing their purchase cost."
 StringInfo
 	ID "IDS_HUMAN_RESEARCH_STRUCTUREWORK_CRYSTALEXTRACT0_NAME"
-	Value "Effi. Naquadah Sorting"
+	Value "Efficient Naquadah Sorting"
 StringInfo
 	ID "IDS_HUMAN_RESEARCH_STRUCTUREWORK_CRYSTALEXTRACT0_DESCRIPTION"
 	Value "Improved mechanized sorting techniques allow unrefined crystals to be graded more quickly, improving the rate of crystal income from Naquadah Extractors."
@@ -3917,7 +3917,7 @@ StringInfo
 	Value "Energy Systems"
 StringInfo
 	ID "IDS_HUMAN_TITAN_HEPHESTUS_ABILITIES_DESCRIPTION"
-	Value "Upgrades to the energy systems of the Hephestus increase it's energy grid capacity. Specialized equipment can be used more extensively with this upgrade."
+	Value "Upgrades to the energy systems of the Hephestus increase it's power grid capacity. Specialized equipment can be used more extensively with this upgrade."
 StringInfo
 	ID "IDS_HUMAN_TITAN_HEPHESTUS_ABILITYA_NAME"
 	Value "Asgard Beam Weapons"
@@ -3959,16 +3959,16 @@ StringInfo
 	Value "Energy Systems"
 StringInfo
 	ID "IDS_HUMAN_TITAN_TARTARUS_ABILITIES_DESCRIPTION"
-	Value "Upgrades to the energy systems of the Tartarus increase it's energy grid capacity. Specialized equipment can be used more extensively with this upgrade."
+	Value "Upgrades to the energy systems of the Tartarus increase it's power grid capacity. Specialized equipment can be used more extensively with this upgrade."
 StringInfo
 	ID "IDS_HUMAN_TITAN_TARTARUS_ABILITYA_NAME"
-	Value "Adv. Asgard Beams"
+	Value "Advanced Asgard Beams"
 StringInfo
 	ID "IDS_HUMAN_TITAN_TARTARUS_ABILITYA_DESCRIPTION"
 	Value "An upgraded version of the Asgard Beam Weapon with higher energy densities that is even more devastating to anything it touches!"
 StringInfo
 	ID "IDS_HUMAN_TITAN_TARTARUS_ABILITYB_NAME"
-	Value "Human dev. drones"
+	Value "Human Developed Drones"
 StringInfo
 	ID "IDS_HUMAN_TITAN_TARTARUS_ABILITYB_DESCRIPTION"
 	Value "Powerful Weapons built in the shape of their origin."
@@ -5738,142 +5738,142 @@ StringInfo
 	Value "Porta"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH00"
-	Value "TDN Khronis"
+	Value "USAF Khronis"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH01"
-	Value "TDN Aegia"
+	Value "USAF Aegia"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH02"
-	Value "TDN Revoria"
+	Value "USAF Revoria"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH03"
-	Value "TDN Golgonev"
+	Value "USAF Golgonev"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH04"
-	Value "TDN Behemov"
+	Value "USAF Behemov"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH05"
-	Value "TDN Kolossus"
+	Value "USAF Kolossus"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH06"
-	Value "TDN Titunev"
+	Value "USAF Titunev"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH07"
-	Value "TDN Illusturia"
+	Value "USAF Illusturia"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH08"
-	Value "TDN Magnius"
+	Value "USAF Magnius"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH09"
-	Value "TDN Ithica"
+	Value "USAF Ithica"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH10"
-	Value "TDN Ultimus"
+	Value "USAF Ultimus"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH11"
-	Value "TDN Mobius"
+	Value "USAF Mobius"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH12"
-	Value "TDN Karamazov"
+	Value "USAF Karamazov"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH13"
-	Value "TDN Solonis"
+	Value "USAF Solonis"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH14"
-	Value "TDN Kinesia"
+	Value "USAF Kinesia"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH15"
-	Value "TDN Vigilus"
+	Value "USAF Vigilus"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH16"
-	Value "TDN Krasev"
+	Value "USAF Krasev"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH17"
-	Value "TDN Achronus"
+	Value "USAF Achronus"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH18"
-	Value "TDN Proteus"
+	Value "USAF Proteus"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH19"
-	Value "TDN Krosus"
+	Value "USAF Krosus"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH20"
-	Value "TDN Logonis"
+	Value "USAF Logonis"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH21"
-	Value "TDN Peresov"
+	Value "USAF Peresov"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH22"
-	Value "TDN Aceron"
+	Value "USAF Aceron"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH23"
-	Value "TDN Numenia"
+	Value "USAF Numenia"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH24"
-	Value "TDN Lazarus"
+	Value "USAF Lazarus"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH25"
-	Value "TDN Aotoris"
+	Value "USAF Aotoris"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH26"
-	Value "TDN Argonis"
+	Value "USAF Argonis"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH27"
-	Value "TDN Metorum"
+	Value "USAF Metorum"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH28"
-	Value "TDN Megunev"
+	Value "USAF Megunev"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH29"
-	Value "TDN Stratius"
+	Value "USAF Stratius"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH30"
-	Value "TDN Calisto"
+	Value "USAF Calisto"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH31"
-	Value "TDN Alteus"
+	Value "USAF Alteus"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH32"
-	Value "TDN Novick"
+	Value "USAF Novick"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH33"
-	Value "TDN Vanifax"
+	Value "USAF Vanifax"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH34"
-	Value "TDN Frasaris"
+	Value "USAF Frasaris"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH35"
-	Value "TDN Ramado"
+	Value "USAF Ramado"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH36"
-	Value "TDN Bravick"
+	Value "USAF Bravick"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH37"
-	Value "TDN Zayedis"
+	Value "USAF Zayedis"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH38"
-	Value "TDN Milosz"
+	Value "USAF Milosz"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH39"
-	Value "TDN Nostros"
+	Value "USAF Nostros"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH40"
-	Value "TDN Berenos"
+	Value "USAF Berenos"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH41"
-	Value "TDN Tasckird"
+	Value "USAF Tasckird"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH42"
-	Value "TDN Akayko"
+	Value "USAF Akayko"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH43"
-	Value "TDN Secundo"
+	Value "USAF Secundo"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH44"
-	Value "TDN Phenro"
+	Value "USAF Phenro"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_TECH45"
-	Value "TDN Mercano"
+	Value "USAF Mercano"
 StringInfo
 	ID "IDS_CAPITALSHIPNAME_PSI00"
 	Value "Tyrand"
@@ -6206,7 +6206,7 @@ StringInfo
 	Value "%d"
 StringInfo
 	ID "IDS_INFOCARD_LABEL_ABILITYANTIMATTERCOST"
-	Value "Antimatter cost"
+	Value "Energy cost"
 StringInfo
 	ID "IDS_INFOCARD_LABEL_ABILITYHULLCOST"
 	Value "Hull cost"
@@ -6356,7 +6356,7 @@ StringInfo
 	Value "Resources /sec"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_RESTOREANTIMATTER"
-	Value "Antimatter restored /sec"
+	Value "Energy restored /sec"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_RESTORESHIELDSRATE"
 	Value "Shields restored /sec"
@@ -6368,7 +6368,7 @@ StringInfo
 	Value "Damage taken /sec"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_DRAINANTIMATTERRATE"
-	Value "Antimatter drained /sec"
+	Value "Energy drained /sec"
 StringInfo
 	ID "IDS_INFOCARD_BUFFOVERTIME_RESTOREALLEGIANCERATE"
 	Value "Allegiance restored /sec"
@@ -6527,7 +6527,7 @@ StringInfo
 	Value "Ability Cooldown rate"
 StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_ABILITYANTIMATTERCOST"
-	Value "Ability antimatter cost"
+	Value "Ability energy cost"
 StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_HULLPOINTRESTORERATE"
 	Value "Hull restore rate"
@@ -6587,13 +6587,13 @@ StringInfo
 	Value "Extra strike craft per squadron"
 StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_ANTIMATTERFROMENERGYDAMAGERATIO"
-	Value "Antimatter from energy damage"
+	Value "Power from energy damage"
 StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_ANTIMATTERRESTORERATE"
-	Value "Antimatter restore rate"
+	Value "Energy restore rate"
 StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_ANTIMATTERRESTORATION"
-	Value "Antimatter restoration"
+	Value "Energy restoration"
 StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_SHIELDPOINTRESTORATION"
 	Value "Shield point restoration"
@@ -6635,7 +6635,7 @@ StringInfo
 	Value "Population killed"
 StringInfo
 	ID "IDS_INFOCARD_BUFFVALUE_ANTIMATTERRESTORED"
-	Value "Antimatter"
+	Value "Energy"
 StringInfo
 	ID "IDS_INFOCARD_BUFFVALUE_DAMAGERETALIATIONPERC"
 	Value "Damage retaliation"
@@ -6644,7 +6644,7 @@ StringInfo
 	Value "Current hull points lost"
 StringInfo
 	ID "IDS_INFOCARD_BUFFVALUE_ANTIMATTERRESTOREDPERCFROMDAMAGE"
-	Value "Antimatter from damage"
+	Value "Energy from damage"
 StringInfo
 	ID "IDS_INFOCARD_BUFFVALUE_FIGHTERSPERSQUADRON"
 	Value "Extra strike craft"
@@ -6653,10 +6653,10 @@ StringInfo
 	Value "Extra squadrons"
 StringInfo
 	ID "IDS_INFOCARD_BUFFVALUE_ANTIMATTERREMOVED"
-	Value "Antimatter removed"
+	Value "Energy removed"
 StringInfo
 	ID "IDS_INFOCARD_BUFFVALUE_ANTIMATTERSTOLEN"
-	Value "Antimatter stolen"
+	Value "Energy stolen"
 StringInfo
 	ID "IDS_INFOCARD_BUFFVALUE_HULLPOINTSRESTORED"
 	Value "Hull Points repaired"
@@ -6740,7 +6740,7 @@ StringInfo
 	Value "Disabled"
 StringInfo
 	ID "IDS_CANUSEABILITYSTATUS_NOTENOUGHANTIMATTER"
-	Value "Not enough Antimatter."
+	Value "Not enough Energy."
 StringInfo
 	ID "IDS_CANUSEABILITYSTATUS_CANTUSEATSTAR"
 	Value "Can't use this ability at a star."
@@ -6926,7 +6926,7 @@ StringInfo
 	Value "Shields:*SPACING100* *VALUE0* / *VALUE1*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_ANTIMATTER"
-	Value "Antimatter:*SPACING100* *VALUE0* / *VALUE1*"
+	Value "Energy:*SPACING100* *VALUE0* / *VALUE1*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_ARMOR"
 	Value "Armor:*SPACING100* *VALUE0*"
@@ -6944,7 +6944,7 @@ StringInfo
 	Value "Shields:*SPACING170* *VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_MAXANTIMATTER"
-	Value "Antimatter:*SPACING170* *VALUE0*"
+	Value "Energy:*SPACING170* *VALUE0*"
 StringInfo
 	ID "IDS_INFOCARD_STRINGINFO_EXPERIENCEFORDESTROYING"
 	Value "Experience value:*SPACING100* *VALUE0*"
@@ -7181,7 +7181,7 @@ StringInfo
 	Value "*VALUE0*: *SPACING150* *VALUE1* seconds"
 StringInfo
 	ID "IDSBottomEntityInfoWindowInfoCardNameShipAntiMatter"
-	Value "Antimatter"
+	Value "Energy"
 StringInfo
 	ID "IDSBottomEntityInfoWindowInfoCardNamePlanetHealth"
 	Value "Planet Health"
@@ -8501,7 +8501,7 @@ StringInfo
 	Value "That ability has been disabled by another entity's ability."
 StringInfo
 	ID "IDS_GAMEMESSAGE_USEABILITYNOANTIMATTER"
-	Value "Need more Antimatter."
+	Value "Need more Energy."
 StringInfo
 	ID "IDS_GAMEMESSAGE_CANTUSEATSTAR"
 	Value "Can't use this ability at a star."
@@ -8558,7 +8558,7 @@ StringInfo
 	Value "Target must have non-passive ability."
 StringInfo
 	ID "IDS_GAMEMESSAGE_USEABILITYUNMETCONSTRAINTHASANTIMATTER"
-	Value "Target must have antimatter."
+	Value "Target must have energy."
 StringInfo
 	ID "IDS_GAMEMESSAGE_USEABILITYUNMETCONSTRAINTHASPHASEMISSILES"
 	Value "Target must have Phase Missiles."
@@ -8600,7 +8600,7 @@ StringInfo
 	Value "Target's shields are already at full strength."
 StringInfo
 	ID "IDS_GAMEMESSAGE_USEABILITYUNMETCONSTRAINTHASANTIMATTERSHORTAGE"
-	Value "Target's antimatter is already full."
+	Value "Target's energy is already full."
 StringInfo
 	ID "IDS_GAMEMESSAGE_USEABILITYUNMETCONSTRAINTHASWEAPONS"
 	Value "Target must have weapons."
@@ -9101,7 +9101,7 @@ StringInfo
 	Value "be not self"
 StringInfo
 	ID "IDS_TARGETCONSTRAINT_ANTIMATTERSHORTAGE"
-	Value "be missing antimatter"
+	Value "be missing energy"
 StringInfo
 	ID "IDS_TARGETCONSTRAINT_HASWEAPONS"
 	Value "have weapons"
@@ -9134,7 +9134,7 @@ StringInfo
 	Value "have a non-passive ability"
 StringInfo
 	ID "IDS_TARGETCONSTRAINT_HASANTMATTERPOOL"
-	Value "have Antimatter pool"
+	Value "have Energy pool"
 StringInfo
 	ID "IDS_TARGETCONSTRAINT_HASPHASEMISSILES"
 	Value "have Phase Missiles"
@@ -9833,7 +9833,7 @@ StringInfo
 	Value "Comet"
 StringInfo
 	ID "IDS_PLANETTYPE_ANTIMATTER_FOUNTAIN"
-	Value "Antimatter Fountain"
+	Value "Energy Fountain"
 StringInfo
 	ID "IDS_PLANETTYPE_RADIATION_STORM"
 	Value "Radiation Storm"
@@ -14384,10 +14384,10 @@ StringInfo
 	Value "In addition to increases in its attributes, your capital ship now has an ability point it can spend to unlock new offensive and defensive systems. To spend this point, select the capital ship and click the Ability Management button on the action grid."
 StringInfo
 	ID "IDS_TUTORIAL_BASICGAMEPLAY_EXPLAINABILITYTYPES0"
-	Value "Abilities fall into two major categories: triggered abilities and passive abilities. Triggered abilities typically require antimatter to be used, and have a cooldown period before they can be used again."
+	Value "Abilities fall into two major categories: triggered abilities and passive abilities. Triggered abilities typically require energy to be used, and have a cooldown period before they can be used again."
 StringInfo
 	ID "IDS_TUTORIAL_BASICGAMEPLAY_PICKABILITY"
-	Value "Passive abilities require no antimatter, and typically grant a constant benefit to the ship and/or nearby allies. Go ahead and choose a new ability to activate."
+	Value "Passive abilities require no energy, and typically grant a constant benefit to the ship and/or nearby allies. Go ahead and choose a new ability to activate."
 StringInfo
 	ID "IDS_TUTORIAL_BASICGAMEPLAY_EXPLAINAUTOCAST0"
 	Value "Excellent. When triggered abilities are first unlocked, they begin in an auto-use state, denoted by a circular arrow animation."
@@ -14783,7 +14783,7 @@ StringInfo
 	Value "Repair Platform must also be researched before they can be constructed. Go ahead and do this now via the Military tech tree."
 StringInfo
 	ID "IDS_TUTORIAL_ADVANCEDDEFENSE_REPAIRINFO"
-	Value "Repair Platform can repair an unlimited number of damaged structures or ships within their range - until they exhaust their antimatter supply."
+	Value "Repair Platform can repair an unlimited number of damaged structures or ships within their range - until they exhaust their energy supply."
 StringInfo
 	ID "IDS_TUTORIAL_ADVANCEDDEFENSE_REPAIRPLACEMENT"
 	Value "Build a Repair Platform within range of your other structures now."
@@ -16667,10 +16667,10 @@ StringInfo
 	Value "Max allegiance increase:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_ANTIMATTERCAPACITYADJUSTMENT"
-	Value "Max antimatter increase:"
+	Value "Max energy increase:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_ANTIMATTERREGENADJUSTMENT"
-	Value "Antimatter regeneration:"
+	Value "Energy regeneration:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_ARMORBASEADJUSTMENT"
 	Value "Armor increase:"
@@ -16718,7 +16718,7 @@ StringInfo
 	Value "Additional target banks:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_CULTUREANTIMATTERREGENAMOUNT"
-	Value "Antimatter restored in culture:"
+	Value "Energy restored in culture:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_CULTURESPREADRATEADJUSTMENT"
 	Value "Culture spread rate increase:"
@@ -16826,7 +16826,7 @@ StringInfo
 	Value "Max Hull Points Increase:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_HYPERSPACEANTIMATTERCOSTADJUSTMENT"
-	Value "Phase Jump antimatter cost:"
+	Value "Phase Jump energy cost:"
 StringInfo
 	ID "IDS_RESEARCHFLOATMODIFIER_HYPERSPACECHARGEUPRATEADJUSTMENT"
 	Value "Phase Jump charge up rate:"
@@ -17120,10 +17120,10 @@ StringInfo
 	Value "Max Allegiance"
 StringInfo
 	ID "IDS_STARBASEUPGRADEPROPERTYTYPE_MAXANTIMATTERPOINTS"
-	Value "Max Antimatter Points"
+	Value "Max Energy Points"
 StringInfo
 	ID "IDS_STARBASEUPGRADEPROPERTYTYPE_ANTIMATTERRESTORERATE"
-	Value "Antimatter restore rate"
+	Value "Energy restore rate"
 StringInfo
 	ID "IDS_STARBASEUPGRADEPROPERTYTYPE_POPULATION"
 	Value "Population"
@@ -17168,10 +17168,10 @@ StringInfo
 	Value "Max Allegiance"
 StringInfo
 	ID "IDS_TITANUPGRADEPROPERTYTYPE_MAXANTIMATTERPOINTS"
-	Value "Max Antimatter Points"
+	Value "Max Energy Points"
 StringInfo
 	ID "IDS_TITANUPGRADEPROPERTYTYPE_ANTIMATTERRESTORERATE"
-	Value "Antimatter restore rate"
+	Value "Energy restore rate"
 StringInfo
 	ID "IDS_TITANUPGRADEPROPERTYTYPE_POPULATION"
 	Value "Population"
@@ -19207,8 +19207,8 @@ StringInfo
 	ID "IDSGalaxyScenarioTypePlanetIceField"
 	Value "Ice Field"
 StringInfo
-	ID "IDSGalaxyScenarioTypePlanetAntimatterFountain"
-	Value "Antimatter Fountain"
+	ID "IDSGalaxyScenarioTypePlanetEnergyFountain"
+	Value "Energy Fountain"
 StringInfo
 	ID "IDSGalaxyScenarioTypePlanetShatteredMoon"
 	Value "Shattered Moon"
