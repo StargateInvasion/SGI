@@ -6,11 +6,14 @@ infoCardIcon ""
 NameStringID "IDS_HUMAN_RESEARCH_PLANETMODULEIMPROVE_CAPITALCONSTRUCTION_NAME"
 DescriptionStringID "IDS_HUMAN_RESEARCH_PLANETMODULEIMPROVE_CAPITALCONSTRUCTION_DESCRIPTION"
 researchWindowLocation
-	block 0
+	block 2
 	pos [ 6 , 3 ]
 ResearchField "NonCombat"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Human_Research_CounterDeployment"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
