@@ -10,10 +10,13 @@ researchWindowLocation
 	pos [ 5 , 1 ]
 ResearchField "NonCombat"
 Prerequisites
-	NumResearchPrerequisites 1
+	NumResearchPrerequisites 2
 	ResearchPrerequisite
 		Subject "Human_Research_CargoCapacity0"
 		Level 2
+	ResearchPrerequisite
+		Subject "Human_Research_Ability_Nuke"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1

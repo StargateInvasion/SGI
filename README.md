@@ -1,5 +1,5 @@
 # Stargate Invasion
-This is the Stargate Invasion (SGI) Mod dev build. The files will be updated as we work on the mod.  For more information, see our [Wiki page](https://github.com/StargateInvasion/SGI/wiki).
+Stargate Invasion is a mod for Sins of a Solar Empire. The files will be updated as we work on the mod.  For more information, see our [Wiki page](https://github.com/StargateInvasion/SGI/wiki).
 
 ## Installation
 Please see our [installation page](https://github.com/StargateInvasion/SGI/wiki/Installation) for instructions on downloading and setting up Stargate Invasion.
