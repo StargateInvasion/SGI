@@ -1,6 +1,24 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 295
+brushCount 296
+brush
+	name "HUDICON_ABILITY_OMEGAMANEUVER"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 209 , 808 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Research_Pressed"
+		pixelBox [ 209 , 808 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Research_CursorOver"
+		pixelBox [ 209 , 808 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 209 , 808 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 209 , 808 , 47 , 33 ]
 brush
 	name "HUDICON_ABILITY_DARKCAPITALSHIP"
 	content "States"
@@ -2363,20 +2381,20 @@ brush
 	name "HUDICON_ABILITY_COLONIZETECH"
 	content "States"
 	Disabled
-		fileName "Buttons_Research_Disabled"
-		pixelBox [ 209 , 290 , 47 , 33 ]
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 146 , 376 , 47 , 33 ]
 	Pressed
-		fileName "Buttons_Research_Pressed"
-		pixelBox [ 209 , 290 , 47 , 33 ]
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 194 , 376 , 47 , 33 ]
 	CursorOver
-		fileName "Buttons_Research_CursorOver"
-		pixelBox [ 209 , 290 , 47 , 33 ]
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 242 , 376 , 47 , 33 ]
 	Focused
-		fileName "Buttons_Research_Normal"
-		pixelBox [ 209 , 290 , 47 , 33 ]
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 194 , 376 , 47 , 33 ]
 	Normal
-		fileName "Buttons_Research_Normal"
-		pixelBox [ 209 , 290 , 47 , 33 ]
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 194 , 376 , 47 , 33 ]
 brush
 	name "HUDICON_ABILITY_COLONIZEPSI"
 	content "States"
