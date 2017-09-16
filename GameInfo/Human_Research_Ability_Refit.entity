@@ -15,7 +15,7 @@ Prerequisites
 		Subject "Human_Research_FrigateTempest"
 		Level 1
 	ResearchPrerequisite
-		Subject "Human_Research_AsgardTech1"
+		Subject "Human_Research_Ability_DesignateTarget"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -31,7 +31,7 @@ PerLevelCostIncrease
 	metal 25.000000
 	crystal 25.000000
 Tier 3
-onlyWorksIfTierLabsExist TRUE
+onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 0.000000
 researchBoolModifiers 0

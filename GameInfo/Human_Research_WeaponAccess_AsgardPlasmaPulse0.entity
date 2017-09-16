@@ -7,15 +7,12 @@ NameStringID "IDS_HUMAN_RESEARCH_WEAPONACCESS_ASGARDPLASMAPULSE0_NAME"
 DescriptionStringID "IDS_HUMAN_RESEARCH_WEAPONACCESS_ASGARDPLASMAPULSE0_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 2 , 3 ]
+	pos [ 2 , 2 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 2
+	NumResearchPrerequisites 1
 	ResearchPrerequisite
 		Subject "Human_Research_AsgardTreaty1"
-		Level 1
-	ResearchPrerequisite
-		Subject "Human_Research_AsgardTech1"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

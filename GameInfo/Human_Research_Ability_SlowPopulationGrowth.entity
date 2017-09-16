@@ -7,10 +7,13 @@ NameStringID "IDS_HUMAN_RESEARCH_ABILITY_SLOWPOPULATIONGROWTH_NAME"
 DescriptionStringID "IDS_HUMAN_RESEARCH_ABILITY_SLOWPOPULATIONGROWTH_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 7 , 1 ]
+	pos [ 7 , 0 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Human_Research_PlanetBomb_Damage"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
