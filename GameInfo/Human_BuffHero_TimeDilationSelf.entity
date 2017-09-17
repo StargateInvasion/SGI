@@ -26,17 +26,19 @@ periodicAction
 		Level:0 1.000000
 		Level:1 1.000000
 		Level:2 1.000000
-		Level:3 0.000000
+		Level:3 1.000000
 	buffInstantActionType "ApplyBuffToTargetsInRadius"
 	instantActionTriggerType "AlwaysPerform"
-	buffType "Human_BuffCruiser_TimeDilationLocal"
+	buffType "Human_BuffHero_TimeDilationLocal"
 	targetFilter
 		numOwnerships 2
 		ownership "Enemy"
 		ownership "NoOwner"
-		numObjects 3
+		numObjects 5
 		object "Frigate"
+		object "Corvette"
 		object "CapitalShip"
+		object "Titan"
 		object "StarBase"
 		numSpaces 1
 		space "Normal"
@@ -50,7 +52,7 @@ periodicAction
 		Level:0 -1.000000
 		Level:1 -1.000000
 		Level:2 -1.000000
-		Level:3 0.000000
+		Level:3 -1.000000
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
@@ -62,19 +64,21 @@ periodicAction
 	actionCountType "Infinite"
 	actionIntervalTime
 		Level:0 1.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 1.000000
 	buffInstantActionType "ApplyBuffToIncomingHyperspacers"
 	instantActionTriggerType "AlwaysPerform"
-	buffType "Human_BuffCruiser_TimeDilationIncoming"
+	buffType "Human_BuffHero_TimeDilationIncoming"
 	targetFilter
 		numOwnerships 2
 		ownership "Enemy"
 		ownership "NoOwner"
-		numObjects 3
+		numObjects 5
 		object "Frigate"
+		object "Corvette"
 		object "CapitalShip"
+		object "Titan"
 		object "StarBase"
 		numSpaces 1
 		space "Normal"
@@ -93,7 +97,7 @@ overTimeAction
 		Level:0 5.000000
 		Level:1 4.500000
 		Level:2 4.000000
-		Level:3 0.000000
+		Level:3 4.000000
 numEntityModifiers 0
 numEntityBoolModifiers 1
 entityBoolModifier "DisablePhaseJump"
