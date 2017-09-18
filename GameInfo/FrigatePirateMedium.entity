@@ -40,53 +40,93 @@ hudIcon "HUDICON_FRIGATE_PIRATEMEDIUM"
 smallHudIcon "HUDICONSMALL_FRIGATE_PIRATEMEDIUM"
 infoCardIcon "INFOCARDICON_FRIGATE_PIRATEMEDIUM"
 minZoomDistanceMult 5.000000
-NumWeapons 1
+NumWeapons 2
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIMEDIUM"
+		AttackType "ANTIVERYLIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
-		DamageType "ENERGY"
-		WeaponClassType "LASERTECH"
+		DamageType "PHYSICAL"
+		WeaponClassType "AUTOCANNON"
 	DamagePerBank:FRONT 45.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 2500.000000
-	PreBuffCooldownTime 5.500000
-	CanFireAtFighter FALSE
+	Range 5500.000000
+	PreBuffCooldownTime 4.000000
+	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.150000
-	TravelSpeed 4000.000000
+	PointStaggerDelay 1.500000
+	TravelSpeed 1275.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 3
-		burstDelay 0.500000
+		burstCount 16
+		burstDelay 0.015000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_FrigateLaser_Muzzle"
-		muzzleSoundMinRespawnTime 0.300000
+		muzzleEffectName "Weapon_TechCapitalAutoCannonHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.770000
 		muzzleSounds
 			soundCount 3
-			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE"
-			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE_ALT1"
-			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE_ALT2"
-		hitEffectName "Weapon_Tech_FrigateLaser_Hit"
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE"
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT2"
+		hitEffectName "Weapon_HumanRailguns_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
-		projectileTravelEffectName "Weapon_Tech_FrigateLaser_Travel"
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_HumanRailgun_Travel"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIVERYLIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "AUTOCANNON"
+	DamagePerBank:FRONT 25.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 45.000000
+	DamagePerBank:RIGHT 45.000000
+	Range 5500.000000
+	PreBuffCooldownTime 4.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 1.500000
+	TravelSpeed 1275.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 16
+		burstDelay 0.015000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_TechCapitalAutoCannonHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.770000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE"
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT2"
+		hitEffectName "Weapon_HumanRailguns_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_HumanRailgun_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
 TargetCountPerBank:BACK 0
-TargetCountPerBank:LEFT 0
-TargetCountPerBank:RIGHT 0
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
