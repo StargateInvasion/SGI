@@ -50,7 +50,7 @@ Weapon
 		DamageType "PHYSICAL"
 		WeaponClassType "AUTOCANNON"
 	DamagePerBank:FRONT 40.000000
-	DamagePerBank:BACK 10.000000
+	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 20.000000
 	DamagePerBank:RIGHT 20.000000
 	Range 5500.000000
@@ -81,51 +81,6 @@ Weapon
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
 		projectileTravelEffectName "Weapon_Tech_AutoCannonCapShip_Travel"
-Weapon
-	WeaponType "Missile"
-	damageEnums
-		AttackType "CAPITALSHIP"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "PHYSICAL"
-		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 90.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 4000.000000
-	PreBuffCooldownTime 8.000000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 1.000000
-	TravelSpeed 1050.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Missile"
-		burstCount 1
-		burstDelay 1.250000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_TechCapitalPlanetBombing_Muzzle"
-		muzzleSoundMinRespawnTime 0.100000
-		muzzleSounds
-			soundCount 1
-			sound "WEAPON_TECH_PLANETBOMB_MUZZLE"
-		hitEffectName "Weapon_HumanRailguns_Hit"
-		hitHullEffectSounds
-			soundCount 3
-			sound "EXPLOSION_SUB4"
-			sound "EXPLOSION_SUB4_ALT1"
-			sound "EXPLOSION_SUB4_ALT2"
-		hitShieldsEffectSounds
-			soundCount 3
-			sound "EXPLOSION_SUB4"
-			sound "EXPLOSION_SUB4_ALT1"
-			sound "EXPLOSION_SUB4_ALT2"
-		missileTravelEffectName "Weapon_HumanMissileHeavy_Travel"
-		missileStartTurningDistance 0.005000
-		missileSlowTurnRate 3.708997
-		missileMaxSlowTurnTime 12.000000
 Weapon
 	WeaponType "Projectile"
 	damageEnums
@@ -173,10 +128,55 @@ Weapon
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
 		projectileTravelEffectName "Weapon_HumanRailgun_Travel"
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 90.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4000.000000
+	PreBuffCooldownTime 8.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 1.000000
+	TravelSpeed 1050.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 1.250000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_TechCapitalPlanetBombing_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_TECH_PLANETBOMB_MUZZLE"
+		hitEffectName "Weapon_HumanRailguns_Hit"
+		hitHullEffectSounds
+			soundCount 3
+			sound "EXPLOSION_SUB4"
+			sound "EXPLOSION_SUB4_ALT1"
+			sound "EXPLOSION_SUB4_ALT2"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "EXPLOSION_SUB4"
+			sound "EXPLOSION_SUB4_ALT1"
+			sound "EXPLOSION_SUB4_ALT2"
+		missileTravelEffectName "Weapon_HumanMissileHeavy_Travel"
+		missileStartTurningDistance 0.005000
+		missileSlowTurnRate 3.708997
+		missileMaxSlowTurnTime 12.000000
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
-TargetCountPerBank:BACK 1
+TargetCountPerBank:BACK 0
 TargetCountPerBank:LEFT 1
 TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
