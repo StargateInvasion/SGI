@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "Human_AbilityCapital_AsgardBeams"
+ability:0 ""
 ability:1 "Human_AbilityCapital_BattleSystems"
 ability:2 "Human_AbilityCapital_FleetHyperDriveWindow"
 ability:3 "Human_AbilityCapital_PlasmaSalvo"
@@ -99,7 +99,7 @@ hudIcon "HUDICON_HUMAN_CAPITALTRANSPORT_CONCORDIA"
 smallHudIcon "HUDICONSMALL_HUMAN_CAPITALTRANSPORT_CONCORDIA"
 infoCardIcon "INFOCARDICON_HUMAN_CAPITALTRANSPORT_CONCORDIA"
 minZoomDistanceMult 2.050000
-NumWeapons 3
+NumWeapons 4
 Weapon
 	WeaponType "Projectile"
 	damageEnums
@@ -232,6 +232,59 @@ Weapon
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
 		projectileTravelEffectName "Weapon_AsgardPulseCapitalHeavy_Travel"
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "BEAM"
+	DamagePerBank:FRONT 800.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 800.000000
+	DamagePerBank:RIGHT 800.000000
+	Range 6500.000000
+	PreBuffCooldownTime 4.0000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 1.300000
+	TravelSpeed 0.000000
+	Duration 1.000000
+	fireConstraintType "Research"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "Human_Research_Ability_AsgardBeams"
+			Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_BeamCapital_Muzzle"
+		muzzleSoundMinRespawnTime 1.300000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_ASGARDBEAMS_MUZZLE"
+		hitEffectName "Weapon_Psi_BeamCapital_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound ""
+		beamGlowTextureName "PsiCapitalBeam_Glow"
+		beamCoreTextureName "PsiCapitalBeam_Core"
+		beamWidth 20.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
