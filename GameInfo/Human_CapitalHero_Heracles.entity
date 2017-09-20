@@ -82,7 +82,10 @@ NameStringID "IDS_HUMAN_CAPITALHERO_HERACLES_NAME"
 DescriptionStringID "IDS_HUMAN_CAPITALHERO_HERACLES_DESCRIPTION"
 picture "HUMAN_CAPITALHERO_HERACLES_PICTURE"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Human_Research_Hero_Heracles"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "COLONY"

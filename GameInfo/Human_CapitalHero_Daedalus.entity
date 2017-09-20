@@ -82,7 +82,10 @@ NameStringID "IDS_HUMAN_CAPITALHERO_DAEDALUS_NAME"
 DescriptionStringID "IDS_HUMAN_CAPITALHERO_DAEDALUS_DESCRIPTION"
 picture "HUMAN_CRUISERHEAVY_BC304_PICTURE"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Human_Research_Hero_Daedalus"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "COLONY"

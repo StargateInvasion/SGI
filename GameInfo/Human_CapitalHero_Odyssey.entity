@@ -82,7 +82,10 @@ NameStringID "IDS_HUMAN_CAPITALHERO_ODYSSEY_NAME"
 DescriptionStringID "IDS_HUMAN_CAPITALHERO_ODYSSEY_DESCRIPTION"
 picture "HUMAN_CRUISERHEAVY_BC304_PICTURE"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Human_Research_Hero_Odyssey"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "COLONY"
