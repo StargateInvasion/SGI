@@ -7,24 +7,27 @@ NameStringID "IDS_HUMAN_RESEARCH_FRIGATEZEPHYR_NAME"
 DescriptionStringID "IDS_HUMAN_RESEARCH_FRIGATEZEPHYR_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 4 , 4 ]
+	pos [ 2 , 3 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Human_Research_CruiserAres"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
 BaseUpgradeTime 75.000000
 PerLevelUpgradeTime 10.000000
 BaseCost
-	credits 1200.000000
-	metal 200.000000
-	crystal 325.000000
+	credits 800.000000
+	metal 100.000000
+	crystal 225.000000
 PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 4
+Tier 2
 onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 0.000000

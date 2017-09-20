@@ -7,12 +7,12 @@ NameStringID "IDS_HUMAN_RESEARCH_CRUISERCERBERUS_NAME"
 DescriptionStringID "IDS_HUMAN_RESEARCH_CRUISERCERBERUS_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 4 , 3 ]
+	pos [ 4 , 2 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Human_Research_CorvetteValkyrie"
+		Subject "Human_Research_FrigateMorpheus"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
