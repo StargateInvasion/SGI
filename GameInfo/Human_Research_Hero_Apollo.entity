@@ -7,12 +7,12 @@ NameStringID "IDS_HUMAN_ABILITYORBITAL_HEROAPOLLO_NAME"
 DescriptionStringID "IDS_HUMAN_ABILITYORBITAL_HEROAPOLLO_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 5 , 1 ]
+	pos [ 5 , 0 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Human_Research_Hero_Odyssey"
+		Subject "Human_Research_Ability_Refit"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -20,8 +20,8 @@ MinimumArtifactLevel -1
 BaseUpgradeTime 75.000000
 PerLevelUpgradeTime 10.000000
 BaseCost
-	credits 1200.000000
-	metal 200.000000
+	credits 1400.000000
+	metal 250.000000
 	crystal 325.000000
 PerLevelCostIncrease
 	credits 100.000000

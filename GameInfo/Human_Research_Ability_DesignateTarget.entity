@@ -1,13 +1,13 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_ABILITYACCESS_DESIGNATETARGET"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_ABILITYACCESS_DESIGNATETARGET"
+hudIcon "HUDICON_ABILITY_DESIGNATETARGET"
+smallHudIcon "HUDICON_ABILITY_DESIGNATETARGET"
 infoCardIcon ""
 NameStringID "IDS_HUMAN_RESEARCH_ABILITY_DESIGNATETARGET_NAME"
 DescriptionStringID "IDS_HUMAN_RESEARCH_ABILITY_DESIGNATETARGET_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 2 , 0 ]
+	pos [ 0 , 1 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
@@ -20,14 +20,14 @@ MinimumArtifactLevel -1
 BaseUpgradeTime 50.000000
 PerLevelUpgradeTime 5.000000
 BaseCost
-	credits 800.000000
-	metal 100.000000
-	crystal 175.000000
+	credits 400.000000
+	metal 50.000000
+	crystal 75.000000
 PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 2
+Tier 0
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
