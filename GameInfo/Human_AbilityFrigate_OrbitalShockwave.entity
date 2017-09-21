@@ -55,7 +55,7 @@ onlyAutoCastWhenTargetCountExceedsAmount
 	Level:3 0.000000
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
-isAutoCastOnByDefault FALSE
+isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 3.000000
@@ -77,6 +77,6 @@ researchPrerequisites
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_HUMAN_ABILITYFRIGATE_ORBITALSHOCKWAVE_NAME"
 descStringID "IDS_HUMAN_ABILITYFRIGATE_ORBITALSHOCKWAVE_DESCRIPTION"
-hudIcon "HUDICON_ABILITY_NANODISRUPTOR"
-smallHudIcon "HUDICON_ABILITY_NANODISRUPTOR"
+hudIcon "HUDICON_ABILITY_ORBITALSHOCKWAVE"
+smallHudIcon "HUDICON_ABILITY_ORBITALSHOCKWAVE"
 infoCardIcon ""
