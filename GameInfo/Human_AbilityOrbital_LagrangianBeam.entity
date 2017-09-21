@@ -1,0 +1,73 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Human_BuffOrbital_LagrangianBeamCharge"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 5
+	object "Titan"
+	object "CapitalShip"
+	object "PlanetModule"
+	object "StarBase"
+	object "Frigate"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 13000.000000
+	Level:1 13000.000000
+	Level:2 13000.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 1.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 0.000000
+aiUseTime "OnlyWhenManyTargetsInRange"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 1.000000
+	Level:1 1.000000
+	Level:2 1.000000
+	Level:3 1.000000
+aiUseTargetCondition "IsCapitalShipOrStarbaseOrTitanOrFrigate"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget FALSE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 300.000000
+	Level:1 450.000000
+	Level:2 500.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 75.000000
+	Level:1 100.000000
+	Level:2 125.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ASURAN_ABILITYCAPITAL_MEGABEAM_NAME"
+descStringID "IDS_ASURAN_ABILITYCAPITAL_MEGABEAM_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_LAGRANGIANBEAM"
+smallHudIcon "HUDICON_ABILITY_LAGRANGIANBEAM"
+infoCardIcon ""

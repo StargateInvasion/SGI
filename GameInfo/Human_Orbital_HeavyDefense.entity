@@ -1,5 +1,5 @@
 ﻿TXT
-entityType "PlanetModuleStandard"
+entityType "PlanetModuleWeaponDefense"
 minZoomDistanceMult 7.500000
 ability:0 "Human_AbilityOrbital_Ag3"
 ability:1 ""
@@ -23,8 +23,8 @@ basePrice
 	crystal 500.000000
 NameStringID "IDS_HUMAN_ORBITAL_HEAVYDEFENSE_NAME"
 DescriptionStringID "IDS_HUMAN_ORBITAL_HEAVYDEFENSE_DESCRIPTION"
-planetModuleRoleType "CANNON"
-statCountType "ModuleCannon"
+planetModuleRoleType "WEAPONDEFENSE"
+statCountType "ModulePointDefense"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -73,3 +73,57 @@ maxShadow 0.600000
 formationRank 3
 baseBuildTime 150.000000
 buildEffectName ""
+defaultAutoAttackRange "None"
+defaultAutoAttackOn FALSE
+prefersToFocusFire FALSE
+usesFighterAttack FALSE
+NumWeapons 1
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "PHASEMISSILE"
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 7500.000000
+	PreBuffCooldownTime 5.50000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.080000
+	TravelSpeed 1000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 10
+		burstDelay 0.300000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalMissileHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		missileTravelEffectName "Weapon_AsuranCapitalDroneUltra_Travel"
+		missileStartTurningDistance 30.000000
+		missileSlowTurnRate 1.708997
+		missileMaxSlowTurnTime 6.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 0
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
