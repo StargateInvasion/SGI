@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 298
+brushCount 299
 brush
 	name "HUDICON_ABILITY_LAGRANGIANBEAM"
 	content "States"
@@ -2201,20 +2201,20 @@ brush
 	name "HUDICON_ABILITY_BEAMBLAST"
 	content "States"
 	Disabled
-		fileName "Buttons_Research_Disabled"
-		pixelBox [ 923 , 364 , 47 , 33 ]
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 290 , 172 , 47 , 33 ]
 	Pressed
-		fileName "Buttons_Research_Pressed"
-		pixelBox [ 923 , 364 , 47 , 33 ]
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 338 , 172 , 47 , 33 ]
 	CursorOver
-		fileName "Buttons_Research_CursorOver"
-		pixelBox [ 923 , 364 , 47 , 33 ]
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 386 , 172 , 47 , 33 ]
 	Focused
-		fileName "Buttons_Research_Normal"
-		pixelBox [ 923 , 364 , 47 , 33 ]
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 338 , 172 , 47 , 33 ]
 	Normal
-		fileName "Buttons_Research_Normal"
-		pixelBox [ 923 , 364 , 47 , 33 ]
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 338 , 172 , 47 , 33 ]
 brush
 	name "HUDICON_ABILITY_BONUSMODULEDAMAGE"
 	content "States"
@@ -2864,7 +2864,7 @@ brush
 		fileName "Buttons_Research_Normal"
 		pixelBox [ 617 , 512 , 47 , 33 ]
 brush
-	name "HUDICON_ABILITY_DISINTEGRATION"
+	name "HUDICON_ABILITY_MININUKE"
 	content "States"
 	Disabled
 		fileName "Buttons_Research_SGI"
@@ -2881,6 +2881,24 @@ brush
 	Normal
 		fileName "Buttons_Research_SGI"
 		pixelBox [ 338 , 138 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_DISINTEGRATION"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 5 , 845 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Research_Pressed"
+		pixelBox [ 5 , 845 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Research_CursorOver"
+		pixelBox [ 5 , 845 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 5 , 845 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 5 , 845 , 47 , 33 ]
 brush
 	name "HUDICON_ABILITY_DISRUPTIVESTRIKES"
 	content "States"
@@ -2957,20 +2975,20 @@ brush
 	name "HUDICON_ABILITY_EMPBLAST"
 	content "States"
 	Disabled
-		fileName "Buttons_Research_Disabled"
-		pixelBox [ 362 , 623 , 47 , 33 ]
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 290 , 410 , 47 , 33 ]
 	Pressed
-		fileName "Buttons_Research_Pressed"
-		pixelBox [ 362 , 623 , 47 , 33 ]
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 338 , 410 , 47 , 33 ]
 	CursorOver
-		fileName "Buttons_Research_CursorOver"
-		pixelBox [ 362 , 623 , 47 , 33 ]
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 386 , 410 , 47 , 33 ]
 	Focused
-		fileName "Buttons_Research_Normal"
-		pixelBox [ 362 , 623 , 47 , 33 ]
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 338 , 410 , 47 , 33 ]
 	Normal
-		fileName "Buttons_Research_Normal"
-		pixelBox [ 362 , 623 , 47 , 33 ]
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 338 , 410 , 47 , 33 ]
 brush
 	name "HUDICON_ABILITY_ENERGYABSORB"
 	content "States"
