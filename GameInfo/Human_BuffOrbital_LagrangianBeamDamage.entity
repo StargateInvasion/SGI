@@ -5,17 +5,17 @@ buffStackingLimitType "ForAllPlayers"
 stackingLimit -1
 buffExclusivityForAIType "NotExclusive"
 isInterruptable FALSE
-isChannelling TRUE
+isChannelling FALSE
 numInstantActions 1
 instantAction
 	buffInstantActionType "DoDamage"
 	instantActionTriggerType "OnDelay"
-	delayTime 3.000000
+	delayTime 0.000000
 	damage
-		Level:0 10000.000000
-		Level:1 10000.000000
-		Level:2 10000.000000
-		Level:3 10000.000000
+		Level:0 1650.000000
+		Level:1 1650.000000
+		Level:2 1650.000000
+		Level:3 1650.000000
 	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
 	damageType "ENERGY"
 	isDamageShared TRUE

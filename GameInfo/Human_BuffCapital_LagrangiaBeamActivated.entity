@@ -53,7 +53,7 @@ periodicAction
 		Level:0 1.000000
 		Level:1 1.000000
 		Level:2 1.000000
-		Level:3 0.000000
+		Level:3 1.000000
 	buffInstantActionType "ApplyBuffToTargetsInColumn"
 	instantActionTriggerType "AlwaysPerform"
 	buffType "Human_BuffCapital_LagrangiaBeamDamage"
@@ -72,12 +72,12 @@ periodicAction
 		Level:0 30.000000
 		Level:1 30.000000
 		Level:2 30.000000
-		Level:3 0.000000
+		Level:3 30.000000
 	maxTargetCount
 		Level:0 -1.000000
 		Level:1 -1.000000
 		Level:2 -1.000000
-		Level:3 0.000000
+		Level:3 -1.000000
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
@@ -95,7 +95,7 @@ finishCondition
 		Level:0 8.000000
 		Level:1 10.000000
 		Level:2 11.000000
-		Level:3 0.000000
+		Level:3 11.000000
 finishCondition
 	finishConditionType "NoTarget"
 finishCondition

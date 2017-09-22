@@ -10,11 +10,11 @@ numInstantActions 1
 instantAction
 	buffInstantActionType "DoDamage"
 	instantActionTriggerType "OnDelay"
-	delayTime 3.000000
+	delayTime 0.000000
 	damage
-		Level:0 37500.000000
-		Level:1 50000.000000
-		Level:2 70000.000000
+		Level:0 4700.000000
+		Level:1 5600.000000
+		Level:2 7000.000000
 		Level:3 0.000000
 	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
 	damageType "ENERGY"
