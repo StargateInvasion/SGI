@@ -7,7 +7,7 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable TRUE
 isChannelling TRUE
-numInstantActions 2
+numInstantActions 4
 instantAction
 	buffInstantActionType "PlayAttachedEffect"
 	instantActionTriggerType "OnDelay"
@@ -25,6 +25,30 @@ instantAction
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
 	buffType "Human_BuffOrbital_LagrangianBeamActivated"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyTargettedBuffToSelfNoFilterNoRange"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "Human_BuffOrbital_LagrangianBeamActivatedA"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyTargettedBuffToSelfNoFilterNoRange"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "Human_BuffOrbital_LagrangianBeamActivatedB"
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
