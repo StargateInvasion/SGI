@@ -56,14 +56,15 @@ periodicAction
 		Level:3 0.000000
 	buffInstantActionType "ApplyBuffToTargetsInColumn"
 	instantActionTriggerType "AlwaysPerform"
-	buffType "Asuran_BuffOrbital_LagrangianBeamDamage"
+	buffType "Human_BuffOrbital_LagrangianBeamDamage"
 	targetFilter
 		numOwnerships 1
 		ownership "Enemy"
-		numObjects 4
+		numObjects 5
 		object "Titan"
 		object "CapitalShip"
-		object "PlanetModule"
+		object "Frigate"
+		object "Corvette"
 		object "StarBase"
 		numSpaces 1
 		space "Normal"
@@ -92,9 +93,9 @@ numFinishConditions 4
 finishCondition
 	finishConditionType "TimeElapsed"
 	time
-		Level:0 8.000000
-		Level:1 10.000000
-		Level:2 11.000000
+		Level:0 6.000000
+		Level:1 6.000000
+		Level:2 6.000000
 		Level:3 0.000000
 finishCondition
 	finishConditionType "NoTarget"

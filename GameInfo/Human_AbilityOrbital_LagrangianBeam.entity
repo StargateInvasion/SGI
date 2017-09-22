@@ -9,9 +9,9 @@ targetFilter
 	numObjects 5
 	object "Titan"
 	object "CapitalShip"
-	object "PlanetModule"
 	object "StarBase"
 	object "Frigate"
+	object "Corvette"
 	numSpaces 1
 	space "Normal"
 	numConstraints 0
@@ -44,22 +44,22 @@ onlyAutoCastWhenTargetCountExceedsAmount
 	Level:1 1.000000
 	Level:2 1.000000
 	Level:3 1.000000
-aiUseTargetCondition "IsCapitalShipOrStarbaseOrTitanOrFrigate"
+aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
-ignoreNonCombatShipsForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
-	Level:0 300.000000
-	Level:1 450.000000
+	Level:0 500.000000
+	Level:1 500.000000
 	Level:2 500.000000
 	Level:3 0.000000
 cooldownTime
-	Level:0 75.000000
-	Level:1 100.000000
-	Level:2 125.000000
+	Level:0 20.000000
+	Level:1 20.000000
+	Level:2 20.000000
 	Level:3 0.000000
 orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
