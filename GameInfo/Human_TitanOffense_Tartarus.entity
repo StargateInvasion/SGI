@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "Titan"
-ability:0 "Human_AbilityTitan_AdvancedAsgardBeams"
+ability:0 ""
 ability:1 "Human_AbilityTitan_HumanDrones"
 ability:2 "Human_AbilityTitan_LagrangiaBeam"
 ability:3 "Human_AbilityTitan_TartarusCannon"
@@ -64,8 +64,8 @@ ArmorPointsFromExperience
 	StartValue 12.000000
 	ValueIncreasePerLevel 0.918000
 maxMitigation
-	StartValue 0.500000
-	ValueIncreasePerLevel 0.011110
+	StartValue 0.480000
+	ValueIncreasePerLevel 0.001110
 MaxAntiMatter
 	StartValue 1275.000000
 	ValueIncreasePerLevel 45.000000
@@ -86,8 +86,7 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"
-UpgradeTypeCount 7
-UpgradeType "Human_Titan_Tartarus_AbilityA"
+UpgradeTypeCount 6
 UpgradeType "Human_Titan_Tartarus_AbilityB"
 UpgradeType "Human_Titan_Tartarus_AbilityC"
 UpgradeType "Human_Titan_Tartarus_AbilityD"
@@ -233,11 +232,11 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 0.000000
+	DamagePerBank:FRONT 4000.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 6000.000000
+	Range 7000.000000
 	PreBuffCooldownTime 5.0000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
