@@ -10,10 +10,7 @@ researchWindowLocation
 	pos [ 7 , 0 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 2
-	ResearchPrerequisite
-		Subject "Human_Research_Hull2"
-		Level 1
+	NumResearchPrerequisites 1
 	ResearchPrerequisite
 		Subject "Human_Research_Shield3"
 		Level 1
@@ -35,11 +32,7 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 2
-researchModifier
-	modifierType "HullPointsRegenAdjustment"
-	baseValue 0.000000
-	perLevelValue 0.300000
+researchFloatModifiers 1
 researchModifier
 	modifierType "ShieldPointsRegenAdjustment"
 	baseValue 0.000000
