@@ -1,21 +1,21 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_HUMAN_TITANOFFENSE_TARTARUS"
-smallHudIcon "MAINVIEWICON_HUMAN_TITANOFFENSE_TARTARUS"
+hudIcon "HUDICON_RESEARCHSUBJECT_ABILITYACCESS_SELFREPAIR"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_ABILITYACCESS_SELFREPAIR"
 infoCardIcon ""
-NameStringID "IDS_HUMAN_RESEARCH_TITAN_TARTARUS1_NAME"
-DescriptionStringID "IDS_HUMAN_RESEARCH_TITAN_TARTARUS1_DESCRIPTION"
+NameStringID "IDS_HUMAN_RESEARCH_ABILITY_SELFREPAIR_NAME"
+DescriptionStringID "IDS_HUMAN_RESEARCH_ABILITY_SELFREPAIR_DESCRIPTION"
 researchWindowLocation
-	block 1
+	block 2
 	pos [ 7 , 0 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 2
 	ResearchPrerequisite
-		Subject "Human_Research_Ability_AdvancedAsgardBeams"
+		Subject "Human_Research_Hull2"
 		Level 1
 	ResearchPrerequisite
-		Subject "Human_Research_PlanetModule_Cannon"
+		Subject "Human_Research_Shield3"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -32,14 +32,18 @@ PerLevelCostIncrease
 	crystal 25.000000
 Tier 7
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 2
+MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 1
+researchFloatModifiers 2
 researchModifier
-	modifierType "TitanConstructionCap"
+	modifierType "HullPointsRegenAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.500000
+	perLevelValue 0.300000
+researchModifier
+	modifierType "ShieldPointsRegenAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.300000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880
