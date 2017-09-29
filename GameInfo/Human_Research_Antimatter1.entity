@@ -7,16 +7,13 @@ NameStringID "IDS_HUMAN_RESEARCH_ANTIMATTER1_NAME"
 DescriptionStringID "IDS_HUMAN_RESEARCH_ANTIMATTER1_DESCRIPTION"
 researchWindowLocation
 	block 2
-	pos [ 1 , 2 ]
+	pos [ 1 , 3 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 2
+	NumResearchPrerequisites 1
 	ResearchPrerequisite
 		Subject "Human_Research_Antimatter0"
 		Level 2
-	ResearchPrerequisite
-		Subject "Human_Research_AncientDataBase"
-		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1

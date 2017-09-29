@@ -7,7 +7,7 @@ NameStringID "IDS_HUMAN_RESEARCH_HYPERSPACE_CHARGEUPTIMEDECREASE1_NAME"
 DescriptionStringID "IDS_HUMAN_RESEARCH_HYPERSPACE_CHARGEUPTIMEDECREASE1_DESCRIPTION"
 researchWindowLocation
 	block 2
-	pos [ 4 , 1 ]
+	pos [ 4 , 3 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
@@ -40,7 +40,7 @@ researchModifier
 researchModifier
 	modifierType "HyperspaceInSystemSpeedAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.250000
+	perLevelValue 0.150000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

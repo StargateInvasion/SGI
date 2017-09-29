@@ -7,12 +7,15 @@ NameStringID "IDS_HUMAN_RESEARCH_HYPERSPACE_CHARGEUPTIMEDECREASE0_NAME"
 DescriptionStringID "IDS_HUMAN_RESEARCH_HYPERSPACE_CHARGEUPTIMEDECREASE0_DESCRIPTION"
 researchWindowLocation
 	block 2
-	pos [ 3 , 2 ]
+	pos [ 3 , 3 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 1
+	NumResearchPrerequisites 2
 	ResearchPrerequisite
 		Subject "Human_Research_Antimatter1"
+		Level 1
+	ResearchPrerequisite
+		Subject "Human_Research_Shield1"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -32,11 +35,15 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 2
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 1
+researchFloatModifiers 2
 researchModifier
 	modifierType "HyperspaceChargeUpRateAdjustment"
 	baseValue 0.000000
-	perLevelValue 0.020000
+	perLevelValue 0.050000
+researchModifier
+	modifierType "HyperspaceInSystemSpeedAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.075000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880
