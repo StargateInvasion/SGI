@@ -10,9 +10,12 @@ researchWindowLocation
 	pos [ 6 , 3 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 1
+	NumResearchPrerequisites 2
 	ResearchPrerequisite
 		Subject "Human_Research_Ability_AsgardBeams"
+		Level 1
+	ResearchPrerequisite
+		Subject "Human_Research_WeaponAccess_AsgardPlasmaPulse2"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
