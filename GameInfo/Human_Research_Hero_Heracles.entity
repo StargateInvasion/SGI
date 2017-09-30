@@ -7,12 +7,15 @@ NameStringID "IDS_HUMAN_ABILITYORBITAL_HEROHERACLES_NAME"
 DescriptionStringID "IDS_HUMAN_ABILITYORBITAL_HEROHERACLES_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 7 , 1 ]
+	pos [ 7 , 3 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 1
+	NumResearchPrerequisites 2
 	ResearchPrerequisite
 		Subject "Human_Research_Ability_Lagrangia"
+		Level 1
+	ResearchPrerequisite
+		Subject "Human_Research_CapitalExcalibur"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

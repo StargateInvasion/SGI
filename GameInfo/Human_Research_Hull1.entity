@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_HULLTECH1"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_HULLTECH1"
+hudIcon "HUDICON_RESEARCHSUBJECT_ARMORTECH2"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_ARMORTECH2"
 infoCardIcon ""
 NameStringID "IDS_HUMAN_RESEARCH_HULL1_NAME"
 DescriptionStringID "IDS_HUMAN_RESEARCH_HULL1_DESCRIPTION"
@@ -10,13 +10,10 @@ researchWindowLocation
 	pos [ 2 , 2 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 2
+	NumResearchPrerequisites 1
 	ResearchPrerequisite
 		Subject "Human_Research_Hull0"
 		Level 2
-	ResearchPrerequisite
-		Subject "Human_Research_AncientDataBase"
-		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
@@ -35,7 +32,7 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 2
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 2
+researchFloatModifiers 3
 researchModifier
 	modifierType "HullPointsMaxAdjustment"
 	baseValue 0.000000
@@ -44,6 +41,10 @@ researchModifier
 	modifierType "HullPointsRegenAdjustment"
 	baseValue 0.000000
 	perLevelValue 0.075000
+researchModifier
+	modifierType "ArmorBaseAdjustment"
+	baseValue 0.000000
+	perLevelValue 1.500000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

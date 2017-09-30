@@ -70,7 +70,7 @@ entities
 			entityDefName "Human_ModuleTradeShip_Midas"
 			entityDefName "Human_ModuleRefineryShip_Demeter"
 	researchInfo
-		count 177
+		count 173
 			entityDefName "Human_Research_Ability_ArbitRateTariff"
 			entityDefName "Human_Research_Ability_AsgardBeams"
 			entityDefName "Human_Research_Ability_AdvancedAsgardBeams"
@@ -93,10 +93,6 @@ entities
 			entityDefName "Human_Research_AncientDataBase"
 			entityDefName "Human_Research_Antimatter0"
 			entityDefName "Human_Research_Antimatter1"
-			entityDefName "Human_Research_Armor0"
-			entityDefName "Human_Research_Armor1"
-			entityDefName "Human_Research_Armor2"
-			entityDefName "Human_Research_Armor3"
 			entityDefName "Human_Research_AsgardTech0"
 			entityDefName "Human_Research_AsgardTreaty0"
 			entityDefName "Human_Research_AsgardTreaty1"
@@ -773,19 +769,19 @@ researchScreenData
 	Combat
 		blockCount 3
 		block
-			area [ 50 , 18 , 690 , 195 ]
+			area [ 50 , 40 , 690 , 195 ]
 			backdrop "ResearchScreenBlockBackdropCombat0Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat0Tech"
 			title "IDSResearchScreenBlockTitleCombat0Tech"
 			picture "ResearchScreenBlockPictureCombat0Tech"
 		block
-			area [ 50 , 223 , 690 , 240 ]
+			area [ 50 , 245 , 690 , 240 ]
 			backdrop "ResearchScreenBlockBackdropCombat1Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Tech"
 			title "IDSResearchScreenBlockTitleCombat1Tech"
 			picture "ResearchScreenBlockPictureCombat1Tech"
 		block
-			area [ 50 , 473 , 690 , 240 ]
+			area [ 50 , 495 , 690 , 195 ]
 			backdrop "ResearchScreenBlockBackdropCombat2Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat2Tech"
 			title "IDSResearchScreenBlockTitleCombat2Tech"

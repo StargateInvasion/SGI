@@ -10,13 +10,10 @@ researchWindowLocation
 	pos [ 2 , 0 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 2
+	NumResearchPrerequisites 1
 	ResearchPrerequisite
 		Subject "Human_Research_Shield0"
 		Level 2
-	ResearchPrerequisite
-		Subject "Human_Research_AncientDataBase"
-		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1

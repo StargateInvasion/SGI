@@ -7,13 +7,10 @@ NameStringID "IDS_HUMAN_RESEARCH_CAPITALEXCALIBUR_NAME"
 DescriptionStringID "IDS_HUMAN_RESEARCH_CAPITALEXCALIBUR_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 6 , 2 ]
+	pos [ 6 , 4 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "Human_Research_Ability_Lagrangia"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1

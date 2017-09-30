@@ -7,7 +7,7 @@ NameStringID "IDS_HUMAN_RESEARCH_PLANETMODULE_CANNON_NAME"
 DescriptionStringID "IDS_HUMAN_RESEARCH_PLANETMODULE_CANNON_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 6 , 4 ]
+	pos [ 6 , 2 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0
@@ -25,7 +25,7 @@ PerLevelCostIncrease
 	metal 25.000000
 	crystal 25.000000
 Tier 6
-onlyWorksIfTierLabsExist TRUE
+onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 0.000000
 researchBoolModifiers 0

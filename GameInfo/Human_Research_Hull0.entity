@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_HULLTECH0"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_HULLTECH0"
+hudIcon "HUDICON_RESEARCHSUBJECT_ARMORTECH1"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_ARMORTECH1"
 infoCardIcon ""
 NameStringID "IDS_HUMAN_RESEARCH_HULL0_NAME"
 DescriptionStringID "IDS_HUMAN_RESEARCH_HULL0_DESCRIPTION"
@@ -29,7 +29,7 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 2
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 2
+researchFloatModifiers 3
 researchModifier
 	modifierType "HullPointsMaxAdjustment"
 	baseValue 0.000000
@@ -38,6 +38,10 @@ researchModifier
 	modifierType "HullPointsRegenAdjustment"
 	baseValue 0.000000
 	perLevelValue 0.075000
+researchModifier
+	modifierType "ArmorBaseAdjustment"
+	baseValue 0.000000
+	perLevelValue 1.500000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880
