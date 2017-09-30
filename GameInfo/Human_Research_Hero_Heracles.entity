@@ -10,12 +10,9 @@ researchWindowLocation
 	pos [ 7 , 3 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 2
+	NumResearchPrerequisites 1
 	ResearchPrerequisite
 		Subject "Human_Research_Ability_Lagrangia"
-		Level 1
-	ResearchPrerequisite
-		Subject "Human_Research_CapitalExcalibur"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
