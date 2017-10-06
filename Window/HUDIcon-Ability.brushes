@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 301
+brushCount 303
 brush
 	name "HUDICON_ABILITY_ORBITALSHOCKWAVE"
 	content "States"
@@ -221,20 +221,38 @@ brush
 	name "HUDICON_ABILITY_ATLANTISZPM"
 	content "States"
 	Disabled
-		fileName "Buttons_Research2_Disabled"
-		pixelBox [ 722 , 411 , 47 , 33 ]
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 56 , 660 , 47 , 33 ]
 	Pressed
-		fileName "Buttons_Research2_Pressed"
-		pixelBox [ 722 , 411 , 47 , 33 ]
+		fileName "Buttons_Research_Pressed"
+		pixelBox [ 56 , 660 , 47 , 33 ]
 	CursorOver
-		fileName "Buttons_Research2_CursorOver"
-		pixelBox [ 722 , 411 , 47 , 33 ]
+		fileName "Buttons_Research_CursorOver"
+		pixelBox [ 56 , 660 , 47 , 33 ]
 	Focused
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 722 , 411 , 47 , 33 ]
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 56 , 660 , 47 , 33 ]
 	Normal
-		fileName "Buttons_Research2_Normal"
-		pixelBox [ 722 , 411 , 47 , 33 ]
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 56 , 660 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_MATTERBRIDGE"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 290 , 512 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 338 , 512 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 386 , 512 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 338 , 512 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 338 , 512 , 47 , 33 ]
 brush
 	name "HUDICON_ABILITY_DESPERATION"
 	content "States"
@@ -4228,6 +4246,11 @@ brush
 	content "Simple"
 	fileName "Buttons_Research_Normal"
 	pixelBox [ 362 , 808 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_AILINK"
+	content "Simple"
+	fileName "Buttons_Research_SGI"
+	pixelBox [ 194 , 580 , 47 , 33 ]
 brush
 	name "HUDICON_ABILITY_RESUPPLY"
 	content "States"
