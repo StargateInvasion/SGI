@@ -7,7 +7,7 @@ NameStringID "IDS_ASURAN_RESEARCH_WEAPONDAMAGEDRONES0_NAME"
 DescriptionStringID "IDS_ASURAN_RESEARCH_WEAPONDAMAGEDRONES0_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 5 , 1 ]
+	pos [ 6 , 1 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
@@ -17,17 +17,17 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 90.000000
+BaseUpgradeTime 105.000000
 PerLevelUpgradeTime 10.000000
 BaseCost
-	credits 1400.000000
-	metal 250.000000
-	crystal 400.000000
+	credits 1600.000000
+	metal 300.000000
+	crystal 475.000000
 PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 5
+Tier 6
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 2
 priority 1.000000

@@ -7,10 +7,13 @@ NameStringID "IDS_ASURAN_RESEARCH_CAPITALSIEGE_ANTEUS_NAME"
 DescriptionStringID "IDS_ASURAN_RESEARCH_CAPITALSIEGE_ANTEUS_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 7 , 2 ]
+	pos [ 7 , 4 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_FrigateSiege_GateSatellite"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
