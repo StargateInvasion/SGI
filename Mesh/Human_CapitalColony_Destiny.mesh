@@ -17,7 +17,7 @@ MeshData
 		Specular ffffffff
 		Emissive ffffffff
 		Glossiness 9.999999
-	NumPoints 61
+	NumPoints 63
 	Point
 		DataString "Hangar"
 		Position [ -10.634243 -19.852625 40.586285 ]
@@ -445,6 +445,20 @@ MeshData
 			 [ 1.000000 0.000000 0.000000 ]
 			 [ 0.000000 1.000000 0.000000 ]
 			 [ 0.000000 0.000000 1.000000 ]
+	Point
+		DataString "Weapon-3"
+		Position [ -22.330498 2.312937 98.140182 ]
+		Orientation
+			 [ 1.000000 0.000000 -0.000000 ]
+			 [ 0.000000 1.000000 -0.000000 ]
+			 [ -0.000000 -0.000000 1.000000 ]
+	Point
+		DataString "Weapon-3"
+		Position [ 22.330507 2.312962 98.140182 ]
+		Orientation
+			 [ 1.000000 0.000000 -0.000000 ]
+			 [ 0.000000 1.000000 -0.000000 ]
+			 [ -0.000000 -0.000000 1.000000 ]
 	NumVertices 3797
 	Vertex
 		Position [ -20.418720 -6.048453 -26.199045 ]
