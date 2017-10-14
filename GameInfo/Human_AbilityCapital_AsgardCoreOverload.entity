@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Human_BuffCapital_AsgardBeamsBombardmentLauncher"
+buffType "Human_BuffCapital_AsgardCoreOverload"
 effectInfo
 	effectAttachInfo
 		attachType "Center"
@@ -14,30 +14,30 @@ needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility TRUE
-maxNumLevels 1
+maxNumLevels 3
 levelSourceType "Intrinsic"
 minExperienceLevelRequired
 	Level:0 5.000000
-	Level:1 0.000000
-	Level:2 0.000000
+	Level:1 7.000000
+	Level:2 9.000000
 	Level:3 0.000000
 aiUseTime "OnlyWhenEnemyFleetWillPrevail"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
-isAutoCastOnByDefault FALSE
+isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
 	Level:0 500.000000
-	Level:1 0.000000
-	Level:2 0.000000
+	Level:1 400.000000
+	Level:2 350.000000
 	Level:3 0.000000
 cooldownTime
 	Level:0 120.000000
-	Level:1 0.000000
-	Level:2 0.000000
+	Level:1 100.000000
+	Level:2 90.000000
 	Level:3 0.000000
 orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites

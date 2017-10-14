@@ -1,0 +1,45 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "DrainAntiMatterAndDoDamage"
+	drainAntiMatterRate
+		Level:0 15.000000
+		Level:1 12.000000
+		Level:2 10.000000
+		Level:3 0.000000
+	damageRate
+		Level:0 96.666672
+		Level:1 26.666668
+		Level:2 33.333332
+		Level:3 0.000000
+	isDamageShared TRUE
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "EnergyWeaponCooldown"
+	value
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 0.000000
+numEntityBoolModifiers 1
+entityBoolModifier "DisablePhaseJump"
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 10.000000
+		Level:1 15.000000
+		Level:2 20.000000
+		Level:3 0.000000
+finishCondition
+	finishConditionType "OwnerChanged"
