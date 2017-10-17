@@ -7,19 +7,15 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable FALSE
 isChannelling FALSE
-numInstantActions 2
-instantAction
-	buffInstantActionType "DoInterrupt"
-	instantActionTriggerType "OnDelay"
-	delayTime 3.000000
+numInstantActions 1
 instantAction
 	buffInstantActionType "DoDamage"
 	instantActionTriggerType "OnDelay"
-	delayTime 5.000000
+	delayTime 2.000000
 	damage
-		Level:0 17000.000000
-		Level:1 17000.000000
-		Level:2 17000.000000
+		Level:0 30000.000000
+		Level:1 30000.000000
+		Level:2 30000.000000
 		Level:3 0.000000
 	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
 	damageType "ENERGY"
@@ -35,4 +31,9 @@ entityBoolModifier "DisableConstruction"
 entityBoolModifier "DisableWeapons"
 numFinishConditions 1
 finishCondition
-	finishConditionType "AllOnDelayInstantActionsDone"
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 15.000000
+		Level:1 18.000000
+		Level:2 20.000000
+		Level:3 0.000000

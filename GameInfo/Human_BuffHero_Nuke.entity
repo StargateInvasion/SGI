@@ -46,17 +46,56 @@ instantAction
 		beamGlowColor ffffffff
 		beamCoreColor ffffffff
 		beamTilingRate 0.500000
-numPeriodicActions 1
+numPeriodicActions 2
 periodicAction
 	actionCountType "Infinite"
 	actionIntervalTime
-		Level:0 1.000000
-		Level:1 1.000000
-		Level:2 1.000000
+		Level:0 10.000000
+		Level:1 10.000000
+		Level:2 10.000000
+		Level:3 0.000000
+	buffInstantActionType "ApplyBuffToTarget"
+	instantActionTriggerType "OnChance"
+	buffApplyChance
+		Level:0 0.150000
+		Level:1 0.220000
+		Level:2 0.250000
+		Level:3 0.000000
+	buffType "Human_BuffHero_NukeHitDamage"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 5
+		object "Titan"
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "StarBase"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	range
+		Level:0 8000.000000
+		Level:1 9000.000000
+		Level:2 10000.000000
+		Level:3 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+periodicAction
+	actionCountType "Infinite"
+	actionIntervalTime
+		Level:0 10.000000
+		Level:1 10.000000
+		Level:2 10.000000
 		Level:3 0.000000
 	buffInstantActionType "ApplyBuffToTargetsInColumn"
 	instantActionTriggerType "AlwaysPerform"
-	buffType "Human_BuffHero_NukeDamage"
+	buffType "Human_BuffHero_NukeMissDamage"
 	targetFilter
 		numOwnerships 1
 		ownership "Enemy"
