@@ -45,11 +45,12 @@ isAutoCastOnByDefault FALSE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
-useCostType "Resources"
-resourceCost
-	credits 10000.000000
-	metal 2000.000000
-	crystal 500.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 600.000000
+	Level:1 500.000000
+	Level:2 400.000000
+	Level:3 0.000000
 cooldownTime
 	Level:0 600.000000
 	Level:1 600.000000
