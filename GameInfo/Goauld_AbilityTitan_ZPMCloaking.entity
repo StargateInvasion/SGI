@@ -1,0 +1,54 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelfWithFilter"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffTitan_ZPMCloaking"
+targetFilter
+	numOwnerships 1
+	ownership "Player"
+	numObjects 1
+	object "Titan"
+	numSpaces 2
+	space "Phase"
+	space "Normal"
+	numConstraints 2
+	constraint "NotInvulnerable"
+	constraint "NotIsIllusionShip"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityCLevel"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.800000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 50.000000
+	Level:1 100.000000
+	Level:2 150.000000
+	Level:3 150.000000
+cooldownTime
+	Level:0 600.000000
+	Level:1 300.000000
+	Level:2 150.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Goauld_Research_ZpmExploration"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYTITAN_ZPMCLOAKING_NAME"
+descStringID "IDS_GOAULD_ABILITYTITAN_ZPMCLOAKING_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_PHASECLOAK"
+smallHudIcon "HUDICON_ABILITY_PHASECLOAK_ACTIVE"
+infoCardIcon ""

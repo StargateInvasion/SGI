@@ -1,0 +1,108 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "Ability_Asgard_DisruptionWave"
+		mediumEffectName "Ability_Asgard_DisruptionWave"
+		largeEffectName "Ability_Asgard_DisruptionWave"
+		soundID ""
+numPeriodicActions 2
+periodicAction
+	actionCountType "Infinite"
+	actionIntervalTime
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 1.000000
+	buffInstantActionType "ApplyBuffToTargetsInRadius"
+	instantActionTriggerType "AlwaysPerform"
+	buffType "Goauld_BuffHero_TimeDilationLocal"
+	targetFilter
+		numOwnerships 2
+		ownership "Enemy"
+		ownership "NoOwner"
+		numObjects 5
+		object "Frigate"
+		object "Corvette"
+		object "CapitalShip"
+		object "Titan"
+		object "StarBase"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	range
+		Level:0 70000.000000
+		Level:1 70000.000000
+		Level:2 70000.000000
+		Level:3 0.000000
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+periodicAction
+	actionCountType "Infinite"
+	actionIntervalTime
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 1.000000
+	buffInstantActionType "ApplyBuffToIncomingHyperspacers"
+	instantActionTriggerType "AlwaysPerform"
+	buffType "Goauld_BuffHero_TimeDilationIncoming"
+	targetFilter
+		numOwnerships 2
+		ownership "Enemy"
+		ownership "NoOwner"
+		numObjects 5
+		object "Frigate"
+		object "Corvette"
+		object "CapitalShip"
+		object "Titan"
+		object "StarBase"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "DrainAntiMatter"
+	drainAntiMatterRate
+		Level:0 5.000000
+		Level:1 4.500000
+		Level:2 4.000000
+		Level:3 4.000000
+numEntityModifiers 0
+numEntityBoolModifiers 1
+entityBoolModifier "DisablePhaseJump"
+numFinishConditions 2
+finishCondition
+	finishConditionType "AntiMatterDepleted"
+finishCondition
+	finishConditionType "OwnerChanged"

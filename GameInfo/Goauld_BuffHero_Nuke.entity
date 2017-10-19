@@ -1,0 +1,144 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantBeamEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	weaponEffectImpactOffsetType "RandomMesh"
+	canWeaponEffectHitHull TRUE
+	canWeaponEffectHitShields TRUE
+	weaponEffectsDef
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName ""
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Tacnuke_bombDetonate"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "WEAPON_ASGARDTRANS_MUZZLE"
+		beamGlowTextureName "Tauri_BeamNukeCore"
+		beamCoreTextureName "Tauri_BeamNukeCore"
+		beamWidth 30.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 0.500000
+numPeriodicActions 2
+periodicAction
+	actionCountType "Infinite"
+	actionIntervalTime
+		Level:0 10.000000
+		Level:1 10.000000
+		Level:2 10.000000
+		Level:3 0.000000
+	buffInstantActionType "ApplyBuffToTarget"
+	instantActionTriggerType "OnChance"
+	buffApplyChance
+		Level:0 0.150000
+		Level:1 0.220000
+		Level:2 0.250000
+		Level:3 0.000000
+	buffType "Goauld_BuffHero_NukeHitDamage"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 5
+		object "Titan"
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "StarBase"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	range
+		Level:0 8000.000000
+		Level:1 9000.000000
+		Level:2 10000.000000
+		Level:3 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+periodicAction
+	actionCountType "Infinite"
+	actionIntervalTime
+		Level:0 10.000000
+		Level:1 10.000000
+		Level:2 10.000000
+		Level:3 0.000000
+	buffInstantActionType "ApplyBuffToTargetsInColumn"
+	instantActionTriggerType "AlwaysPerform"
+	buffType "Goauld_BuffHero_NukeMissDamage"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 5
+		object "Titan"
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "StarBase"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	columnRadius
+		Level:0 80.000000
+		Level:1 80.000000
+		Level:2 80.000000
+		Level:3 0.000000
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 4
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 5.000000
+		Level:1 5.000000
+		Level:2 5.000000
+		Level:3 0.000000
+finishCondition
+	finishConditionType "NoTarget"
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "TargetOwnerIsFriendly"

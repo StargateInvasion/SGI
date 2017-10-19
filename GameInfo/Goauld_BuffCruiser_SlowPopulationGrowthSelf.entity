@@ -1,0 +1,34 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "ApplyBuffToTargetOnWeaponFired"
+	instantActionTriggerType "OnWeaponFired"
+	numWeaponClasses 1
+	weaponClassForWeaponPassive "PLANETBOMBARDMENT"
+	passiveWeaponEffectChance
+		Level:0 0.500000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+	buffType "Goauld_BuffCruiser_SlowPopulationGrowthTarget"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 1
+		object "Planet"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 0

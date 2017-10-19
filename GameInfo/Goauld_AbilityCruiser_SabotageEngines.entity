@@ -1,0 +1,84 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetWithTravel"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffCruiser_SabotageEngines"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 1
+	object "Frigate"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 3000.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+travelSpeed 700.000000
+hasWeaponEffects TRUE
+weaponEffectOriginType "Targetter"
+weaponEffectAttachInfo
+	attachType "Ability"
+	abilityIndex 0
+weaponEffectImpactOffsetType "Center"
+canWeaponEffectHitHull FALSE
+canWeaponEffectHitShields FALSE
+weaponEffectsDef
+	weaponType "Projectile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "CapitalBuff_Null"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "EFFECT_DEMOLITIONBOTSLAUNCH"
+	hitEffectName ""
+	hitHullEffectSounds
+		soundCount 1
+		sound ""
+	hitShieldsEffectSounds
+		soundCount 1
+		sound ""
+	projectileTravelEffectName "Ability_SabotageEnginesTravel"
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "Goauld_Research_Ability_SabotageEngines"
+aiUseTime "OnlyWhenMovingThresholdDistance"
+thresholdDistance 10000.000000
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 150.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 30.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Goauld_Research_Ability_SabotageEngines"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYCRUISER_SABOTAGEENGINES_NAME"
+descStringID "IDS_GOAULD_ABILITYCRUISER_SABOTAGEENGINES_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_SABOTAGEENGINES"
+smallHudIcon "HUDICON_ABILITY_SABOTAGEENGINES"
+infoCardIcon ""

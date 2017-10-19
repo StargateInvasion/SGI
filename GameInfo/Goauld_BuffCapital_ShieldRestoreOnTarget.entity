@@ -1,0 +1,42 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "CapitalAbility_ShieldRestoreTargetActivate"
+		mediumEffectName "CapitalAbility_ShieldRestoreTargetActivate"
+		largeEffectName "CapitalAbility_ShieldRestoreTargetActivate"
+		soundID "EFFECT_ADAPTIVESHIELD"
+instantAction
+	buffInstantActionType "RestoreShieldPoints"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	shields
+		Level:0 3000.000000
+		Level:1 7000.000000
+		Level:2 12500.000000
+		Level:3 0.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 20.000000
+		Level:1 20.000000
+		Level:2 20.000000
+		Level:3 0.000000

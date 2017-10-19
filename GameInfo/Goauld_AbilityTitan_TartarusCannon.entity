@@ -1,0 +1,85 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetWithTravel"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffTitan_TartarusCannonPre"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 5
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "NotInvulnerable"
+range
+	Level:0 18000.000000
+	Level:1 18000.000000
+	Level:2 18000.000000
+	Level:3 18000.000000
+travelSpeed 7000.000000
+hasWeaponEffects TRUE
+weaponEffectOriginType "Targetter"
+weaponEffectAttachInfo
+	attachType "Ability"
+	abilityIndex 3
+weaponEffectImpactOffsetType "RandomMesh"
+canWeaponEffectHitHull TRUE
+canWeaponEffectHitShields TRUE
+weaponEffectsDef
+	weaponType "Projectile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "TitanAbility_Snipe_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "EFFECT_SNIPE"
+	hitEffectName "TitanAbility_Snipe_Hit"
+	hitHullEffectSounds
+		soundCount 1
+		sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+	hitShieldsEffectSounds
+		soundCount 1
+		sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+	projectileTravelEffectName "TitanAbility_Snipe_Travel"
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityDLevel"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "IsCapitalShipOrStarbaseOrTitan"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 2000.000000
+	Level:1 1600.000000
+	Level:2 1200.000000
+	Level:3 1000.000000
+cooldownTime
+	Level:0 240.000000
+	Level:1 180.000000
+	Level:2 120.000000
+	Level:3 80.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYTITAN_TARTARUSCANNON_NAME"
+descStringID "IDS_GOAULD_ABILITYTITAN_TARTARUSCANNON_DESCRIPTION"
+hudIcon "HUDICON_RESEARCHSUBJECT_WEAPONDAMAGE_LASERPSI2"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_WEAPONDAMAGE_LASERPSI2"
+infoCardIcon ""

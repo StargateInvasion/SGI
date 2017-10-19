@@ -1,0 +1,89 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 1
+periodicAction
+	actionCountType "Finite"
+	actionCount
+		Level:0 30.000000
+		Level:1 35.000000
+		Level:2 40.000000
+		Level:3 0.000000
+	actionIntervalTime
+		Level:0 2.500000
+		Level:1 2.000000
+		Level:2 1.500000
+		Level:3 0.000000
+	buffInstantActionType "ApplyBuffToTargetsInRadiusOfTargetWithTravel"
+	instantActionTriggerType "AlwaysPerform"
+	buffType "Goauld_BuffCapital_PlasmaSalvoTarget"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 4
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "StarBase"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	range
+		Level:0 3500.000000
+		Level:1 4500.000000
+		Level:2 5500.000000
+		Level:3 0.000000
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 0.000000
+	travelSpeed 1100.000000
+	effectStaggerDelay 0.300000
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Ability"
+		abilityIndex 3
+	weaponEffectImpactOffsetType "RandomMesh"
+	canWeaponEffectHitHull TRUE
+	canWeaponEffectHitShields TRUE
+	weaponEffectsDef
+		weaponType "Projectile"
+		burstCount 20
+		burstDelay 0.450000
+		fireDelay 0.000000
+		muzzleEffectName ""
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE"
+			sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE_ALT1"
+			sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE_ALT2"
+		hitEffectName "Weapon_PsiCapitalPlasmaHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+		projectileTravelEffectName "Weapon_AsgardPulseCapitalHeavy_Travel"
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 4
+finishCondition
+	finishConditionType "AllPeriodicActionsDone"
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "NoTarget"
+finishCondition
+	finishConditionType "TargetOwnerIsFriendly"

@@ -1,0 +1,95 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling TRUE
+numInstantActions 0
+numPeriodicActions 1
+periodicAction
+	actionCountType "Finite"
+	actionCount
+		Level:0 25.000000
+		Level:1 25.000000
+		Level:2 25.000000
+		Level:3 25.000000
+	actionIntervalTime
+		Level:0 1.250000
+		Level:1 1.250000
+		Level:2 1.250000
+		Level:3 1.250000
+	buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+	instantActionTriggerType "AlwaysPerform"
+	buffType "Goauld_BuffHero_HorizonWeaponsHit"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 6
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "StarBase"
+		object "Titan"
+		object "Corvette"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	range
+		Level:0 8000.000000
+		Level:1 8000.000000
+		Level:2 8000.000000
+		Level:3 8000.000000
+	maxTargetCount
+		Level:0 6.000000
+		Level:1 8.000000
+		Level:2 10.000000
+		Level:3 12.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+	travelSpeed 1000.000000
+	effectStaggerDelay 0.400000
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Ability"
+		abilityIndex 3
+	weaponEffectImpactOffsetType "RandomMesh"
+	canWeaponEffectHitHull TRUE
+	canWeaponEffectHitShields TRUE
+	weaponEffectsDef
+		weaponType "Missile"
+		burstCount 3
+		burstDelay 0.080000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_MissileCapShip_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE"
+		hitEffectName "Weapon_Tech_MissileCapShip_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_MISSILEHEAVY_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_MISSILEHEAVY_HITGENERIC"
+		missileTravelEffectName "Weapon_Tech_MissileCapShip_Travel"
+		missileStartTurningDistance 300.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 4.000000
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "AllPeriodicActionsDone"
+finishCondition
+	finishConditionType "OwnerChanged"

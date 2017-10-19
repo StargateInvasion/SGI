@@ -1,0 +1,82 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffFrigate_OrbitalShockwave"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 5
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "Fighter"
+	object "StarBase"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 2000.000000
+	Level:1 2000.000000
+	Level:2 2000.000000
+	Level:3 0.000000
+maxTargetCount
+	Level:0 -1.000000
+	Level:1 -1.000000
+	Level:2 -1.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	smallEffectName "Ability_Asgard_DisruptionWave"
+	mediumEffectName "Ability_Asgard_DisruptionWave"
+	largeEffectName "Ability_Asgard_DisruptionWave"
+	soundID "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE"
+travelSpeed 1000.000000
+effectStaggerDelay 0.000000
+hasWeaponEffects FALSE
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 1.000000
+	Level:1 2.000000
+	Level:2 3.000000
+	Level:3 0.000000
+aiUseTime "OnlyWhenManyTargetsInRange"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 5.000000
+	Level:1 7.000000
+	Level:2 10.000000
+	Level:3 0.000000
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 3.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 175.000000
+	Level:1 200.000000
+	Level:2 250.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 45.000000
+	Level:1 40.000000
+	Level:2 35.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYFRIGATE_ORBITALSHOCKWAVE_NAME"
+descStringID "IDS_GOAULD_ABILITYFRIGATE_ORBITALSHOCKWAVE_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_ORBITALSHOCKWAVE"
+smallHudIcon "HUDICON_ABILITY_ORBITALSHOCKWAVE"
+infoCardIcon ""

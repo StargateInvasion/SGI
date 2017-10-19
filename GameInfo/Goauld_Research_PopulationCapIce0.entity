@@ -1,0 +1,43 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_POPULATIONCAPICETECH0"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_POPULATIONCAPICETECH0"
+infoCardIcon ""
+NameStringID "IDS_GOAULD_RESEARCH_POPULATIONCAPICE0_NAME"
+DescriptionStringID "IDS_GOAULD_RESEARCH_POPULATIONCAPICE0_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 3 , 0 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Goauld_Research_Planet_Ice"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 60.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 1000.000000
+	metal 150.000000
+	crystal 250.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 3
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "PlanetPopulationCapAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.075000
+	linkedPlanetType "Ice"
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

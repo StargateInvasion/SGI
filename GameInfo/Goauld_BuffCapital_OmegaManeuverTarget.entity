@@ -1,0 +1,43 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit -1
+buffExclusivityForAIType "NotExclusive"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "DoInterrupt"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+instantAction
+	buffInstantActionType "RemoveAntiMatter"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.200000
+	antiMatter
+		Level:0 100.000000
+		Level:1 125.000000
+		Level:2 150.000000
+		Level:3 0.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "AbilityCooldownRate"
+	value
+		Level:0 -0.500000
+		Level:1 -0.700000
+		Level:2 -0.900000
+		Level:3 0.000000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 15.000000
+		Level:1 20.000000
+		Level:2 25.000000
+		Level:3 0.000000
+finishCondition
+	finishConditionType "OwnerChanged"

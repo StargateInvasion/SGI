@@ -1,0 +1,57 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "RestoreHull"
+	hullRestoreRate
+		Level:0 10.000000
+		Level:1 30.000000
+		Level:2 50.000000
+		Level:3 0.000000
+numEntityModifiers 4
+entityModifier
+	buffEntityModifierType "ChanceToHitAsDamageDealer"
+	value
+		Level:0 0.150000
+		Level:1 0.250000
+		Level:2 0.500000
+		Level:3 0.000000
+entityModifier
+	buffEntityModifierType "WeaponCooldown"
+	value
+		Level:0 -0.100000
+		Level:1 -0.200000
+		Level:2 -0.300000
+		Level:3 0.000000
+entityModifier
+	buffEntityModifierType "ShieldMitigation"
+	value
+		Level:0 0.100000
+		Level:1 0.150000
+		Level:2 0.200000
+		Level:3 0.000000
+entityModifier
+	buffEntityModifierType "EnergyWeaponCooldown"
+	value
+		Level:0 0.000000
+		Level:1 0.075000
+		Level:2 0.150000
+		Level:3 0.000000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 15.000000
+		Level:1 20.000000
+		Level:2 30.000000
+		Level:3 0.000000

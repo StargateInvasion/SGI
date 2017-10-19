@@ -1,0 +1,76 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 4
+instantAction
+	buffInstantActionType "TeleportTowardsTarget"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.500000
+	teleportStopOffset 1000.000000
+instantAction
+	buffInstantActionType "CreateFrigate"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.590000
+	frigateType "Human_CruiserHeavy_BC304"
+	numFrigates
+		Level:0 3.000000
+		Level:1 5.000000
+		Level:2 7.000000
+		Level:3 0.000000
+	matchOwnerDamageState FALSE
+	impulse 0.000000
+	expiryTime
+		Level:0 20.000000
+		Level:1 25.000000
+		Level:2 35.000000
+		Level:3 0.000000
+	spawnFrigateSoundID ""
+	postSpawnBuff "Human_BuffCapital_OmegaManeuverClone"
+instantAction
+	buffInstantActionType "ForceAttackersToRepickAttackTarget"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.620000
+instantAction
+	buffInstantActionType "ApplyBuffToSelf"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.250000
+	buffType "Goauld_BuffCapital_OmegaManeuverAttack"
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "HyperspaceChargeUp"
+		mediumEffectName "HyperspaceExit"
+		largeEffectName "HyperspaceExit"
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 2
+entityModifier
+	buffEntityModifierType "ChanceToBeNotOptimallyTargetted"
+	value
+		Level:0 0.600000
+		Level:1 0.700000
+		Level:2 0.900000
+		Level:3 0.000000
+entityModifier
+	buffEntityModifierType "EnergyWeaponCooldown"
+	value
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 0.000000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 7.000000
+		Level:1 9.000000
+		Level:2 10.000000
+		Level:3 0.000000

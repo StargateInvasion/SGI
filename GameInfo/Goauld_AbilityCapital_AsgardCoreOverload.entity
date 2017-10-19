@@ -1,0 +1,51 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffCapital_AsgardCoreOverload"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "CapitalAbility_IonBurstActivate"
+	mediumEffectName "CapitalAbility_IonBurstActivate"
+	largeEffectName "CapitalAbility_IonBurstActivate"
+	soundID "EFFECT_IONBURST"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility TRUE
+maxNumLevels 3
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 5.000000
+	Level:1 7.000000
+	Level:2 9.000000
+	Level:3 0.000000
+aiUseTime "OnlyWhenEnemyFleetWillPrevail"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 500.000000
+	Level:1 400.000000
+	Level:2 350.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 120.000000
+	Level:1 100.000000
+	Level:2 90.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYCAPITAL_ASGARDBEAMSBOMBARDMENT_NAME"
+descStringID "IDS_GOAULD_ABILITYCAPITAL_ASGARDBEAMSBOMBARDMENT_DESCRIPTION"
+hudIcon "HUDICON_RESEARCHSUBJECT_ABILITYACCESS_ASGARDCORE"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_ABILITYACCESS_ASGARDCORE"
+infoCardIcon ""

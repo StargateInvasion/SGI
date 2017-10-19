@@ -1,0 +1,82 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "DrainAntiMatter"
+	drainAntiMatterRate
+		Level:0 31.000000
+		Level:1 29.000000
+		Level:2 27.000000
+		Level:3 25.000000
+numEntityModifiers 8
+entityModifier
+	buffEntityModifierType "ChanceToIgnoreShieldsAsDamageDealer"
+	value
+		Level:0 0.250000
+		Level:1 0.500000
+		Level:2 0.750000
+		Level:3 1.000000
+entityModifier
+	buffEntityModifierType "ChanceToBeNotOptimallyTargetted"
+	value
+		Level:0 0.050000
+		Level:1 0.200000
+		Level:2 0.350000
+		Level:3 0.500000
+entityModifier
+	buffEntityModifierType "ChanceToHitAsDamageDealer"
+	value
+		Level:0 0.250000
+		Level:1 0.500000
+		Level:2 0.750000
+		Level:3 1.000000
+entityModifier
+	buffEntityModifierType "HyperspaceChargeUpRate"
+	value
+		Level:0 0.250000
+		Level:1 0.500000
+		Level:2 0.750000
+		Level:3 1.000000
+entityModifier
+	buffEntityModifierType "HyperspaceSpeed"
+	value
+		Level:0 0.250000
+		Level:1 0.500000
+		Level:2 0.750000
+		Level:3 1.000000
+entityModifier
+	buffEntityModifierType "WeaponCooldown"
+	value
+		Level:0 -0.250000
+		Level:1 -0.500000
+		Level:2 -0.750000
+		Level:3 -1.000000
+entityModifier
+	buffEntityModifierType "EnergyWeaponCooldown"
+	value
+		Level:0 -0.250000
+		Level:1 -0.500000
+		Level:2 -0.750000
+		Level:3 -1.000000
+entityModifier
+	buffEntityModifierType "WeaponRange"
+	value
+		Level:0 0.250000
+		Level:1 0.500000
+		Level:2 0.750000
+		Level:3 1.000000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "AntiMatterDepleted"
+finishCondition
+	finishConditionType "OwnerChanged"

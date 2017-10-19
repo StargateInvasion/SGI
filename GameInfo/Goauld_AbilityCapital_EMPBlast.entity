@@ -1,0 +1,90 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetWithTravel"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffCapital_EMPBlastSpawn"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 4
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 4500.000000
+	Level:1 4500.000000
+	Level:2 4500.000000
+	Level:3 0.000000
+travelSpeed 4500.000000
+hasWeaponEffects TRUE
+weaponEffectOriginType "Targetter"
+weaponEffectAttachInfo
+	attachType "Ability"
+	abilityIndex 0
+weaponEffectImpactOffsetType "Center"
+canWeaponEffectHitHull FALSE
+canWeaponEffectHitShields FALSE
+weaponEffectsDef
+	weaponType "Missile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "CapitalAbility_EMPBlastMuzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "WEAPON_GENERICFIRE"
+	hitEffectName ""
+	hitHullEffectSounds
+		soundCount 1
+		sound ""
+	hitShieldsEffectSounds
+		soundCount 1
+		sound ""
+	missileTravelEffectName "CapitalAbility_EMPBlastTravel"
+	missileStartTurningDistance 300.000000
+	missileSlowTurnRate 1.708997
+	missileMaxSlowTurnTime 6.000000
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 0.000000
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 100.000000
+	Level:1 90.000000
+	Level:2 80.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 50.000000
+	Level:1 45.000000
+	Level:2 40.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYCAPITAL_EMPBLAST_NAME"
+descStringID "IDS_GOAULD_ABILITYCAPITAL_EMPBLAST_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_EMPBLAST"
+smallHudIcon "HUDICON_ABILITY_EMPBLAST"
+infoCardIcon ""

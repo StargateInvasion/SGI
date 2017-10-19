@@ -1,0 +1,43 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit -1
+buffExclusivityForAIType "NotExclusive"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 3
+instantAction
+	buffInstantActionType "InitializeRandomMotion"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	minRandomAngularSpeed 0.150000
+	maxRandomAngularSpeed 0.500000
+	minRandomLinearSpeed 15.000000
+	maxRandomLinearSpeed 30.000000
+instantAction
+	buffInstantActionType "DoDamage"
+	instantActionTriggerType "OnDelay"
+	delayTime 2.000000
+	damage
+		Level:0 100.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+	damageAffectType "AFFECTS_ONLY_HULL"
+	damageType "PHYSICAL"
+	isDamageShared TRUE
+instantAction
+	buffInstantActionType "ChangePlayerIndexToFirstSpawner"
+	instantActionTriggerType "OnDelay"
+	delayTime 5.000000
+	isPermanent TRUE
+	failIfNotEnoughShipSlots FALSE
+	experiencePercentageToAward 0.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

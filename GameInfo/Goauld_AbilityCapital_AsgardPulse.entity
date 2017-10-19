@@ -1,0 +1,111 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffCapital_AsgardPulseDamage"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 5
+	object "Titan"
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 5500.000000
+	Level:1 6500.000000
+	Level:2 7500.000000
+	Level:3 10000.000000
+maxTargetCount
+	Level:0 2.000000
+	Level:1 3.000000
+	Level:2 4.000000
+	Level:3 6.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+travelSpeed 2500.000000
+effectStaggerDelay 0.500000
+hasWeaponEffects TRUE
+weaponEffectOriginType "Targetter"
+weaponEffectAttachInfo
+	attachType "Ability"
+	abilityIndex 2
+weaponEffectImpactOffsetType "RandomMesh"
+canWeaponEffectHitHull TRUE
+canWeaponEffectHitShields TRUE
+weaponEffectsDef
+	weaponType "Projectile"
+	burstCount 6
+	burstDelay 0.700000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_PsiCapitalPlasmaHeavy_Muzzle"
+	muzzleSoundMinRespawnTime 0.210000
+	muzzleSounds
+		soundCount 3
+		sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE"
+		sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE_ALT1"
+		sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE_ALT2"
+	hitEffectName "Weapon_PsiCapitalPlasmaHeavy_Hit"
+	hitHullEffectSounds
+		soundCount 1
+		sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
+	hitShieldsEffectSounds
+		soundCount 1
+		sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+	projectileTravelEffectName "Weapon_AsgardPulseCapitalHeavy_Travel"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 1.000000
+	Level:1 2.000000
+	Level:2 3.000000
+	Level:3 0.000000
+aiUseTime "OnlyWhenManyTargetsInRange"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 2.000000
+	Level:1 2.000000
+	Level:2 2.000000
+	Level:3 2.000000
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 5.000000
+	Level:1 7.000000
+	Level:2 9.000000
+	Level:3 12.000000
+cooldownTime
+	Level:0 1.000000
+	Level:1 1.000000
+	Level:2 1.000000
+	Level:3 1.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Goauld_Research_WeaponAccess_AsgardPlasmaPulse0"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYCAPITAL_ASGARDPULSE_NAME"
+descStringID "IDS_GOAULD_ABILITYCAPITAL_ASGARDPULSE_DESCRIPTION"
+hudIcon "HUDICON_RESEARCHSUBJECT_WEAPONDAMAGE_PLASMA1"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_WEAPONDAMAGE_PLASMA1"
+infoCardIcon ""

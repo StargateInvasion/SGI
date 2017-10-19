@@ -1,0 +1,62 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "DoDamage"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	damage
+		Level:0 75.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+	damageAffectType "AFFECTS_ONLY_HULL"
+	damageType "PHYSICAL"
+	isDamageShared FALSE
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "Buff_SabotageEngines"
+		mediumEffectName "Buff_SabotageEngines"
+		largeEffectName "Buff_SabotageEngines"
+		soundID "EFFECT_DEMOLITIONBOTS"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 2
+entityModifier
+	buffEntityModifierType "LinearMaxSpeed"
+	value
+		Level:0 -2.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+entityModifier
+	buffEntityModifierType "LinearThrust"
+	value
+		Level:0 -2.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+numEntityBoolModifiers 1
+entityBoolModifier "DisableWeapons"
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 60.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+finishCondition
+	finishConditionType "OwnerChanged"

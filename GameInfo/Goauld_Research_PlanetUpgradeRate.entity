@@ -1,0 +1,48 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_PLANETUPGRADERATE"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_PLANETUPGRADERATE"
+infoCardIcon ""
+NameStringID "IDS_GOAULD_RESEARCH_PLANETUPGRADERATE_NAME"
+DescriptionStringID "IDS_GOAULD_RESEARCH_PLANETUPGRADERATE_DESCRIPTION"
+researchWindowLocation
+	block 2
+	pos [ 1 , 2 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Goauld_Research_PlanetModuleImprove_PlanetModuleConstruction"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 45.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 600.000000
+	metal 50.000000
+	crystal 100.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 1
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "PlanetUpgradeBuildRateAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.250000
+	linkedPlanetUpgradeType "Invalid"
+researchModifier
+	modifierType "PlanetUpgradeCostAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.075000
+	linkedPlanetUpgradeType "CivilianModules"
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

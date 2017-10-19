@@ -1,0 +1,56 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyOrRemoveBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffHero_TimeDilationSelf"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+toggleStateOnNameStringID "IDS_GOAULD_ABILITYTIMEDILATIONON_NAME"
+toggleStateOnDescStringID "IDS_GOAULD_ABILITYTIMEDILATIONON_DESCRIPTION"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 1.000000
+	Level:1 2.000000
+	Level:2 3.000000
+	Level:3 5.000000
+aiUseTime "OnlyWhenManyTargetsHyperspacingTowardsMyGravityWell"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 70.000000
+	Level:1 60.000000
+	Level:2 50.000000
+	Level:3 40.000000
+cooldownTime
+	Level:0 240.000000
+	Level:1 200.000000
+	Level:2 120.000000
+	Level:3 60.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Goauld_Research_ZpmExploration"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYCRUISER_TIMEDILATION_NAME"
+descStringID "IDS_GOAULD_ABILITYCRUISER_TIMEDILATION_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_TIMEDILATION"
+smallHudIcon "HUDICON_ABILITY_TIMEDILATION"
+infoCardIcon ""

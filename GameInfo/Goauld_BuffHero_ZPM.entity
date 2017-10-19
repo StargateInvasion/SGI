@@ -1,0 +1,49 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 0
+numOverTimeActions 2
+overTimeAction
+	buffOverTimeActionType "DrainAntiMatter"
+	drainAntiMatterRate
+		Level:0 31.000000
+		Level:1 29.000000
+		Level:2 27.000000
+		Level:3 25.000000
+overTimeAction
+	buffOverTimeActionType "RestoreShields"
+	shieldRestoreRate
+		Level:0 750.000000
+		Level:1 1250.000000
+		Level:2 1500.000000
+		Level:3 1750.000000
+numEntityModifiers 2
+entityModifier
+	buffEntityModifierType "WeaponCooldown"
+	value
+		Level:0 -0.050000
+		Level:1 -0.100000
+		Level:2 -0.150000
+		Level:3 -0.200000
+entityModifier
+	buffEntityModifierType "MaxShieldPoints"
+	value
+		Level:0 5000.000000
+		Level:1 10000.000000
+		Level:2 15000.000000
+		Level:3 20000.000000
+numEntityBoolModifiers 0
+numFinishConditions 3
+finishCondition
+	finishConditionType "ShieldFailure"
+finishCondition
+	finishConditionType "AntiMatterDepleted"
+finishCondition
+	finishConditionType "OwnerChanged"
