@@ -25,10 +25,13 @@ instantAction
 	delayTime 0.000000
 	buffType "Asuran_BuffOrbital_SpaceGateModuleTarget"
 	targetFilter
-		numOwnerships 3
-		ownership "Friendly"
+		numOwnerships 6
 		ownership "Enemy"
+		ownership "Allied"
+		ownership "Friendly"
+		ownership "Player"
 		ownership "NoOwner"
+		ownership "AlliedOrEnemy"
 		numObjects 2
 		object "Planet"
 		object "Star"

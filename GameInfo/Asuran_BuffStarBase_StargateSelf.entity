@@ -26,12 +26,16 @@ instantAction
 	delayTime 0.000000
 	buffType "Asuran_BuffStarBase_StargateTarget"
 	targetFilter
-		numOwnerships 3
-		ownership "Friendly"
+		numOwnerships 6
 		ownership "Enemy"
+		ownership "Allied"
+		ownership "Friendly"
+		ownership "Player"
 		ownership "NoOwner"
-		numObjects 1
+		ownership "AlliedOrEnemy"
+		numObjects 2
 		object "Planet"
+		object "Star"
 		numSpaces 1
 		space "Normal"
 		numConstraints 0
