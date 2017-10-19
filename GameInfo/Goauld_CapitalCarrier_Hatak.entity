@@ -1,8 +1,8 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "Goauld_AbilityCapital_AsgardPulse"
-ability:1 ""
-ability:2 "Goauld_AbilityCapital_LagrangiaBeam"
+ability:0 "Goauld_AbilityCapital_TargetingUplink"
+ability:1 "Goauld_AbilityCapital_ShieldRestore"
+ability:2 "Goauld_AbilityCapital_BattleSystems"
 ability:3 "Goauld_AbilityCapital_AsgardPulseBombardment"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
@@ -12,8 +12,8 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb TRUE
 hasBombingLevels FALSE
-baseDamage 43.000000
-basePopulationKilled 1.700000
+baseDamage 36.500000
+basePopulationKilled 1.400000
 bombingFreqTime 10.000000
 baseRange 3000.000000
 bombTransitTime 12.000000
@@ -44,62 +44,62 @@ bombEffectsDef
 	missileStartTurningDistance 0.005000
 	missileSlowTurnRate 3.708997
 	missileMaxSlowTurnTime 12.000000
-mainViewIcon "MAINVIEWICON_HUMAN_CAPITALSIEGE_EXCALIBUR"
+mainViewIcon "MAINVIEWICON_HUMAN_CAPITALCARRIER_POSEIDON"
 basePrice
-	credits 4250.000000
-	metal 850.000000
-	crystal 925.000000
-slotCount 75.000000
-BuildTime 200.000000
+	credits 3300.000000
+	metal 575.000000
+	crystal 575.000000
+slotCount 53.000000
+BuildTime 140.000000
 MaxHullPoints
-	StartValue 5550.000000
-	ValueIncreasePerLevel 325.000000
+	StartValue 3850.000000
+	ValueIncreasePerLevel 145.000000
 MaxShieldPoints
-	StartValue 7500.000000
-	ValueIncreasePerLevel 435.000000
+	StartValue 5100.000000
+	ValueIncreasePerLevel 200.000000
 HullPointRestoreRate
-	StartValue 5.550000
-	ValueIncreasePerLevel 3.250000
+	StartValue 3.850000
+	ValueIncreasePerLevel 1.450000
 ShieldPointRestoreRate
-	StartValue 7.500000
-	ValueIncreasePerLevel 4.350000
+	StartValue 5.100000
+	ValueIncreasePerLevel 2.000000
 ArmorPointsFromExperience
-	StartValue 8.000000
-	ValueIncreasePerLevel 0.555600
+	StartValue 5.000000
+	ValueIncreasePerLevel 0.334000
 maxMitigation
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.000000
 MaxAntiMatter
-	StartValue 675.000000
-	ValueIncreasePerLevel 20.000000
+	StartValue 470.000000
+	ValueIncreasePerLevel 30.000000
 AntiMatterRestoreRate
-	StartValue 1.000000
-	ValueIncreasePerLevel 0.500000
+	StartValue 0.850000
+	ValueIncreasePerLevel 0.090000
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_GOAULD_CAPITALSIEGE_EXCALIBUR_NAME"
-DescriptionStringID "IDS_GOAULD_CAPITALSIEGE_EXCALIBUR_DESCRIPTION"
-picture "HUMAN_CAPITALSIEGE_EXCALIBUR_PICTURE"
+NameStringID "IDS_GOAULD_CAPITALCARRIER_HATAK_NAME"
+DescriptionStringID "IDS_GOAULD_CAPITALCARRIER_HATAK_DESCRIPTION"
+picture "HUMAN_CAPITALCARRIER_POSEIDON_PICTURE"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Goauld_Research_CapitalExcalibur"
+		Subject "Goauld_Research_CapitalPoseidon"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"
-statCountType "CapitalShipUtility1"
+statCountType "CapitalShipCarrier"
 numRandomDebrisLarge 5
-numRandomDebrisSmall 16
+numRandomDebrisSmall 18
 numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"
 armorType "CapitalShip"
-hudIcon "HUDICON_HUMAN_CAPITALSIEGE_EXCALIBUR"
-smallHudIcon "HUDICONSMALL_HUMAN_CAPITALSIEGE_EXCALIBUR"
-infoCardIcon "INFOCARDICON_HUMAN_CAPITALSIEGE_EXCALIBUR"
-minZoomDistanceMult 2.250000
-NumWeapons 4
+hudIcon "HUDICON_HUMAN_CAPITALCARRIER_POSEIDON"
+smallHudIcon "HUDICONSMALL_HUMAN_CAPITALCARRIER_POSEIDON"
+infoCardIcon "INFOCARDICON_HUMAN_CAPITALCARRIER_POSEIDON"
+minZoomDistanceMult 2.000000
+NumWeapons 3
 Weapon
 	WeaponType "Projectile"
 	damageEnums
@@ -108,38 +108,38 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 100.000000
-	DamagePerBank:BACK 40.000000
-	DamagePerBank:LEFT 100.000000
-	DamagePerBank:RIGHT 100.000000
+	DamagePerBank:FRONT 150.000000
+	DamagePerBank:BACK 30.000000
+	DamagePerBank:LEFT 60.000000
+	DamagePerBank:RIGHT 60.000000
 	Range 5000.000000
-	PreBuffCooldownTime 3.500000
+	PreBuffCooldownTime 4.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 1.000000
+	PointStaggerDelay 0.100000
 	TravelSpeed 1275.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 3
-		burstDelay 0.060000
+		burstCount 5
+		burstDelay 0.350000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Human_Muzzle"
-		muzzleSoundMinRespawnTime 0.770000
+		muzzleEffectName "Weapon_TechCapitalLaserMedium_Muzzle"
+		muzzleSoundMinRespawnTime 0.300000
 		muzzleSounds
 			soundCount 3
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE"
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT1"
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT2"
-		hitEffectName "Weapon_HumanRailguns_Hit"
+			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE"
+			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE_ALT2"
+		hitEffectName "Weapon_TechCapitalLaserMedium_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "Weapon_HumanRailgunGold_Travel"
+			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+		projectileTravelEffectName "Weapon_TechCapitalLaserMedium_Travel"
 Weapon
 	WeaponType "Missile"
 	damageEnums
@@ -148,12 +148,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 750.000000
+	DamagePerBank:FRONT 400.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 5000.000000
-	PreBuffCooldownTime 6.000000
+	Range 6000.000000
+	PreBuffCooldownTime 7.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 1.000000
@@ -162,7 +162,7 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Missile"
-		burstCount 3
+		burstCount 5
 		burstDelay 0.250000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_TechCapitalPlanetBombing_Muzzle"
@@ -193,13 +193,13 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 400.000000
-	DamagePerBank:BACK 100.000000
-	DamagePerBank:LEFT 200.000000
-	DamagePerBank:RIGHT 200.000000
-	Range 4500.000000
+	DamagePerBank:FRONT 300.000000
+	DamagePerBank:BACK 40.000000
+	DamagePerBank:LEFT 75.000000
+	DamagePerBank:RIGHT 75.000000
+	Range 5500.000000
 	PreBuffCooldownTime 6.000000
-	CanFireAtFighter FALSE
+	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 1.500000
 	TravelSpeed 1275.000000
@@ -232,77 +232,24 @@ Weapon
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
 		projectileTravelEffectName "Weapon_AsgardPulseCapitalHeavy_Travel"
-Weapon
-	WeaponType "Beam"
-	damageEnums
-		AttackType "ANTIHEAVY"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "ENERGY"
-		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 1750.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 6500.000000
-	PreBuffCooldownTime 4.0000000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 1.300000
-	TravelSpeed 0.000000
-	Duration 1.000000
-	fireConstraintType "Research"
-	researchPrerequisites
-		NumResearchPrerequisites 1
-		ResearchPrerequisite
-			Subject "Goauld_Research_Ability_AsgardBeams"
-			Level 1
-		RequiredFactionNameID ""
-		RequiredCompletedResearchSubjects 0
-	WeaponEffects
-		weaponType "Beam"
-		burstCount 1
-		burstDelay 0.000000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_Psi_BeamCapital_Muzzle"
-		muzzleSoundMinRespawnTime 1.300000
-		muzzleSounds
-			soundCount 1
-			sound "WEAPON_ASGARDBEAMS_MUZZLE"
-		hitEffectName "Weapon_Psi_BeamCapital_Hit"
-		hitHullEffectSounds
-			soundCount 1
-			sound ""
-		hitShieldsEffectSounds
-			soundCount 1
-			sound ""
-		beamEffectSounds
-			soundCount 1
-			sound ""
-		beamGlowTextureName "PsiCapitalBeam_Glow"
-		beamCoreTextureName "PsiCapitalBeam_Core"
-		beamWidth 20.000000
-		beamGlowColor ffffffff
-		beamCoreColor ffffffff
-		beamTilingRate 3.000000
-m_weaponIndexForRange 2
+m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
 TargetCountPerBank:BACK 1
 TargetCountPerBank:LEFT 1
 TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
-mass 3500.000000
-ShieldMeshName "Human_Shield_CapitalSiege_Excalibur"
+mass 3045.000000
+ShieldMeshName "Human_Shield_CapitalCarrier_Poseidon"
 renderShield TRUE
-maxAccelerationLinear 244.000000
+maxAccelerationLinear 238.000000
 maxAccelerationStrafe 170.000000
-maxDecelerationLinear 171.000000
+maxDecelerationLinear 167.000000
 maxAccelerationAngular 15.999999
-maxDecelerationAngular 26.000000
-maxSpeedLinear 488.000000
+maxDecelerationAngular 25.000000
+maxSpeedLinear 476.000000
 maxRollRate 15.999999
-maxRollAngle 43.000000
+maxRollAngle 36.000000
 squadTypeEntityDef:0 "Goauld_FighterSquad_F302"
 squadAntiMatterCost:0 0.000000
 squadTypeEntityDef:1 "Goauld_FighterSquad_F312"
@@ -311,43 +258,42 @@ squadTypeEntityDef:2 ""
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
-NumSoundsFor:ONATTACKORDERISSUED 4
-SoundID "CAPITALSHIP_TECHSIEGE_ONATTACKORDERISSUED_0"
-SoundID "CAPITALSHIP_TECHSIEGE_ONATTACKORDERISSUED_1"
-SoundID "CAPITALSHIP_TECHSIEGE_ONATTACKORDERISSUED_2"
-SoundID "CAPITALSHIP_TECHSIEGE_ONATTACKORDERISSUED_3"
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "CAPITALSHIP_TECHCARRIER_ONATTACKORDERISSUED_0"
+SoundID "CAPITALSHIP_TECHCARRIER_ONATTACKORDERISSUED_1"
+SoundID "CAPITALSHIP_TECHCARRIER_ONATTACKORDERISSUED_2"
 NumSoundsFor:ONCREATION 1
-SoundID "CAPITALSHIP_TECHSIEGE_ONCREATION"
+SoundID "CAPITALSHIP_TECHCARRIER_ONCREATION"
 NumSoundsFor:ONGENERALORDERISSUED 3
-SoundID "CAPITALSHIP_TECHSIEGE_ONGENERALORDERISSUED_0"
-SoundID "CAPITALSHIP_TECHSIEGE_ONGENERALORDERISSUED_1"
-SoundID "CAPITALSHIP_TECHSIEGE_ONGENERALORDERISSUED_2"
+SoundID "CAPITALSHIP_TECHCARRIER_ONGENERALORDERISSUED_0"
+SoundID "CAPITALSHIP_TECHCARRIER_ONGENERALORDERISSUED_1"
+SoundID "CAPITALSHIP_TECHCARRIER_ONGENERALORDERISSUED_2"
 NumSoundsFor:ONSELECTED 3
-SoundID "CAPITALSHIP_TECHSIEGE_ONSELECTED_0"
-SoundID "CAPITALSHIP_TECHSIEGE_ONSELECTED_1"
-SoundID "CAPITALSHIP_TECHSIEGE_ONSELECTED_2"
+SoundID "CAPITALSHIP_TECHCARRIER_ONSELECTED_0"
+SoundID "CAPITALSHIP_TECHCARRIER_ONSELECTED_1"
+SoundID "CAPITALSHIP_TECHCARRIER_ONSELECTED_2"
 NumSoundsFor:ONSTARTPHASEJUMP 1
-SoundID "CAPITALSHIP_TECHSIEGE_ONSTARTPHASEJUMP_0"
+SoundID "CAPITALSHIP_TECHCARRIER_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Human_CapitalSiege_Excalibur"
+	meshName "Human_CapitalCarrier_Poseidon"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
-ExhaustParticleSystemName "Exhaust_TechSiege"
+ExhaustParticleSystemName "Exhaust_TechCarrier"
 ExplosionName "CapitalShip0"
 CommandPoints
-	StartValue 0.600000
-	ValueIncreasePerLevel 0.100000
+	StartValue 3.250000
+	ValueIncreasePerLevel 0.550000
 weaponCooldownDecreasePerc
 	StartValue 0.000000
-	ValueIncreasePerLevel 0.036000
+	ValueIncreasePerLevel 0.020000
 weaponDamageIncreasePerc
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.060000
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
-formationRank 1
+formationRank 2
 minShadow 0.000000
 maxShadow 0.400000
