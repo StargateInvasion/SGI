@@ -1,0 +1,187 @@
+﻿TXT
+entityType "Frigate"
+defaultAutoAttackRange "None"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Lrm"
+statCountType "FrigateSpawnedByAbility"
+mainViewIcon "MAINVIEWICON_ASURAN_ORBITAL_WEAPONSPLATFORM"
+picture "PLANETMODULEPICTURE_PHASEORBITALMISSILEDEFENSE"
+NameStringID "IDS_ASURAN_BEAMPLATFORM_NAME"
+DescriptionStringID "IDS_ASURAN_BEAMPLATFORM_DESCRIPTION"
+counterDescriptionStringID "IDS_FRIGATE_TURRETCOMBAT_COUNTERDESC"
+basePrice
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+slotCount 0.000000
+BuildTime 1.000000
+hasLevels TRUE
+ExperiencePointsForDestroying
+	Level:0 40.000000
+	Level:1 60.000000
+	Level:2 80.000000
+	Level:3 0.000000
+MaxHullPoints
+	Level:0 750.000000
+	Level:1 1250.000000
+	Level:2 3000.000000
+	Level:3 0.000000
+MaxShieldPoints
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+HullPointRestoreRate
+	Level:0 1.000000
+	Level:1 2.000000
+	Level:2 3.500000
+	Level:3 0.000000
+ShieldPointRestoreRate
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+BaseArmorPoints
+	Level:0 12.000000
+	Level:1 13.000000
+	Level:2 16.000000
+	Level:3 0.000000
+maxMitigation
+	Level:0 0.600000
+	Level:1 0.600000
+	Level:2 0.600000
+	Level:3 0.000000
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 7
+numSpecificDebris 0
+armorType "Light"
+hudIcon "HUDICON_ASURAN_ORBITAL_WEAPONSPLATFORM"
+smallHudIcon "HUDICONSMALL_ASURAN_ORBITAL_WEAPONSPLATFORM"
+infoCardIcon "INFOCARDICON_ASURAN_ORBITAL_WEAPONSPLATFORM"
+minZoomDistanceMult 1.500000
+NumWeapons 1
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTIVERYHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "BEAM"
+	DamagePerBank:FRONT 2000.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4800.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.500000
+	TravelSpeed 0.000000
+	Duration 4.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalPlanetBombing_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Weapon_PsiCapitalBeamHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "WEAPON_PSICAPITALBEAMHEAVY_TRAVEL"
+		beamGlowTextureName "PhaseCapitalBombingBeam_Glow"
+		beamCoreTextureName "PhaseCapitalBombingBeam_Core"
+		beamWidth 10.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels TRUE
+weaponDamageMult
+	Level:0 1.000000
+	Level:1 1.200000
+	Level:2 1.400000
+	Level:3 0.000000
+weaponCooldownMult
+	Level:0 1.000000
+	Level:1 0.900000
+	Level:2 0.800000
+	Level:3 0.000000
+mass 2000.000000
+ShieldMeshName ""
+renderShield FALSE
+maxAccelerationLinear 0.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 3.000000
+maxDecelerationAngular 9.999996
+maxSpeedLinear -1.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 2
+SoundID "CAPITALSHIP_TECHCARRIER_ONATTACKORDERISSUED_0"
+SoundID "CAPITALSHIP_TECHCARRIER_ONATTACKORDERISSUED_1"
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 0
+NumSoundsFor:ONSELECTED 1
+SoundID "CAPITALSHIP_TECHCARRIER_ONSELECTED_0"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Asuran_Orbital_WeaponsPlatform1"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "CapitalBuff_Null"
+ExplosionName "Frigate0"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID ""
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 100.000000
+AntiMatterRestoreRate 0.500000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 0
+minShadow 0.000000
+maxShadow 0.500000
+allegianceDecreasePerRoundtrip 0.000000
