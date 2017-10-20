@@ -158,9 +158,9 @@ TargetCountPerBank:RIGHT 4
 canOnlyTargetStructures FALSE
 ShieldMeshName "Shield_TechStarBase"
 renderShield TRUE
-squadTypeEntityDef:0 "Goauld_FighterSquad_F302"
+squadTypeEntityDef:0 "Goauld_FighterSquad_DeathGlider"
 squadAntiMatterCost:0 0.000000
-squadTypeEntityDef:1 "Goauld_FighterSquad_F312"
+squadTypeEntityDef:1 "Goauld_FighterSquad_DeathBomber"
 squadAntiMatterCost:1 0.000000
 squadTypeEntityDef:2 ""
 squadAntiMatterCost:2 0.000000
@@ -168,7 +168,7 @@ squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
 mainViewIcon "MainViewIconStarBaseTech"
 experiencePointsForDestroying 150.000000
-nameStringID "IDS_GOAULD_STARBASEOFFENSE_HADES_NAME"
+nameStringID "IDS_GOAULD_STARBASEOFFENSE_CRONUS_NAME"
 picture "PICTURE_STARBASETECH"
 statCountType "StarBase"
 creationSourceAbility "Human_AbilityCruiser_DeployStarBase"
@@ -198,7 +198,7 @@ ExplosionName "StarBase0"
 formationRank 3
 minShadow 0.000000
 maxShadow 0.300000
-cargoShipType "Goauld_ModuleTradeShip_Midas"
+cargoShipType "Goauld_ModuleTradeShip_Nebu"
 maxCargoShipCount 5
 cargoShipRespawnTime 25.000000
 baseBuildTime 120.000000
