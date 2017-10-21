@@ -1,0 +1,91 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "CreateFrigateAtTarget"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfFirstSpawnerDoesNotHaveBuff"
+	conditionBuffType "Asuran_BuffTitan_MatterBridge"
+	conditionBuffShortName "IDS_BUFFSHORTNAME_ASURANTITANMATTERBRIDGE"
+	frigateType "Asuran_Frigate_BeamTurret"
+	numFrigates
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 0.000000
+	impulse 350000.000000
+	expiryTime
+		Level:0 65.000000
+		Level:1 70.000000
+		Level:2 75.000000
+		Level:3 0.000000
+	spawnFrigateSoundID "EFFECT_DEPLOYSIEGETURRET"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 6
+		object "Titan"
+		object "CapitalShip"
+		object "Frigate"
+		object "Corvette"
+		object "PlanetModule"
+		object "StarBase"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	range
+		Level:0 3000.000000
+		Level:1 3500.000000
+		Level:2 4000.000000
+		Level:3 0.000000
+instantAction
+	buffInstantActionType "CreateFrigateAtTarget"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfFirstSpawnerHasBuff"
+	conditionBuffType "Asuran_BuffTitan_MatterBridge"
+	conditionBuffShortName "IDS_BUFFSHORTNAME_ASURANTITANMATTERBRIDGE"
+	frigateType "Asuran_Frigate_BeamTurret"
+	numFrigates
+		Level:0 2.000000
+		Level:1 3.000000
+		Level:2 4.000000
+		Level:3 0.000000
+	impulse 350000.000000
+	expiryTime
+		Level:0 80.000000
+		Level:1 90.000000
+		Level:2 100.000000
+		Level:3 0.000000
+	spawnFrigateSoundID "EFFECT_DEPLOYSIEGETURRET"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 6
+		object "Titan"
+		object "CapitalShip"
+		object "Frigate"
+		object "Corvette"
+		object "PlanetModule"
+		object "StarBase"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	range
+		Level:0 3000.000000
+		Level:1 3500.000000
+		Level:2 4000.000000
+		Level:3 0.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AnyOnConditionInstantActionDone"
