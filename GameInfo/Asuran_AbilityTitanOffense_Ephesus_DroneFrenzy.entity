@@ -1,15 +1,16 @@
 ﻿TXT
 entityType "Ability"
-buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Asuran_BuffTitan_DroneFrenzy_Damage"
+buffType "Asuran_BuffTitan_Ephesus_DroneFrenzy"
 targetFilter
 	numOwnerships 1
 	ownership "Enemy"
-	numObjects 5
+	numObjects 6
 	object "Titan"
 	object "CapitalShip"
 	object "Frigate"
+	object "Corvette"
 	object "PlanetModule"
 	object "StarBase"
 	numSpaces 1
@@ -20,11 +21,6 @@ range
 	Level:1 6500.000000
 	Level:2 8500.000000
 	Level:3 0.000000
-maxTargetCount
-	Level:0 4.000000
-	Level:1 6.000000
-	Level:2 10.000000
-	Level:3 0.000000
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -32,38 +28,6 @@ effectInfo
 	mediumEffectName ""
 	largeEffectName ""
 	soundID ""
-travelSpeed 1000.000000
-effectStaggerDelay 0.300000
-hasWeaponEffects TRUE
-weaponEffectOriginType "Targetter"
-weaponEffectAttachInfo
-	attachType "Ability"
-	abilityIndex 0
-weaponEffectImpactOffsetType "RandomMesh"
-canWeaponEffectHitHull TRUE
-canWeaponEffectHitShields TRUE
-weaponEffectsDef
-	weaponType "Missile"
-	burstCount 250
-	burstDelay 0.020000
-	fireDelay 0.000000
-	muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
-	muzzleSoundMinRespawnTime 0.000100
-	muzzleSounds
-		soundCount 2
-		sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
-		sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
-	hitEffectName "Weapon_PhaseCapitalMissileHeavy_Hit"
-	hitHullEffectSounds
-		soundCount 1
-		sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
-	hitShieldsEffectSounds
-		soundCount 1
-		sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
-	missileTravelEffectName "Weapon_AsuranCapitalDroneUltra_Travel"
-	missileStartTurningDistance 30.000000
-	missileSlowTurnRate 0.708997
-	missileMaxSlowTurnTime 15.000000
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
@@ -73,9 +37,9 @@ levelSourceType "TitanUpgradeLevel"
 sourcePropertyType "AbilityALevel"
 aiUseTime "OnlyWhenManyTargetsInRange"
 onlyAutoCastWhenTargetCountExceedsAmount
-	Level:0 2.000000
-	Level:1 3.000000
-	Level:2 5.000000
+	Level:0 4.000000
+	Level:1 6.000000
+	Level:2 8.000000
 	Level:3 0.000000
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE

@@ -1,0 +1,155 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfFirstSpawnerDoesNotHaveBuff"
+	conditionBuffType "Asuran_BuffTitan_MatterBridge"
+	conditionBuffShortName "IDS_BUFFSHORTNAME_ASURANTITANMATTERBRIDGE"
+	buffType "Asuran_BuffTitan_DroneFrenzy_Damage"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 6
+		object "Titan"
+		object "CapitalShip"
+		object "Frigate"
+		object "Corvette"
+		object "PlanetModule"
+		object "StarBase"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	range
+		Level:0 4000.000000
+		Level:1 6500.000000
+		Level:2 8500.000000
+		Level:3 0.000000
+	maxTargetCount
+		Level:0 4.000000
+		Level:1 6.000000
+		Level:2 10.000000
+		Level:3 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+	travelSpeed 1000.000000
+	effectStaggerDelay 0.300000
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	weaponEffectImpactOffsetType "RandomMesh"
+	canWeaponEffectHitHull TRUE
+	canWeaponEffectHitShields TRUE
+	weaponEffectsDef
+		weaponType "Missile"
+		burstCount 180
+		burstDelay 0.020000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.000100
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalMissileHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		missileTravelEffectName "Weapon_AsuranCapitalDroneUltra_Travel"
+		missileStartTurningDistance 30.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 15.000000
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+	instantActionTriggerType "OnCondition"
+	instantActionConditionType "IfFirstSpawnerHasBuff"
+	conditionBuffType "Asuran_BuffTitan_MatterBridge"
+	conditionBuffShortName "IDS_BUFFSHORTNAME_ASURANTITANMATTERBRIDGE"
+	buffType "Asuran_BuffTitan_DroneFrenzy_DamageOvercharged"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 6
+		object "Titan"
+		object "CapitalShip"
+		object "Frigate"
+		object "Corvette"
+		object "PlanetModule"
+		object "StarBase"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	range
+		Level:0 4000.000000
+		Level:1 6500.000000
+		Level:2 8500.000000
+		Level:3 0.000000
+	maxTargetCount
+		Level:0 7.000000
+		Level:1 12.000000
+		Level:2 20.000000
+		Level:3 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+	travelSpeed 1000.000000
+	effectStaggerDelay 0.300000
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	weaponEffectImpactOffsetType "RandomMesh"
+	canWeaponEffectHitHull TRUE
+	canWeaponEffectHitShields TRUE
+	weaponEffectsDef
+		weaponType "Missile"
+		burstCount 250
+		burstDelay 0.020000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.000100
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalMissileHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		missileTravelEffectName "Weapon_AsuranCapitalDroneUltra_Travel"
+		missileStartTurningDistance 30.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 15.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AnyOnConditionInstantActionDone"
