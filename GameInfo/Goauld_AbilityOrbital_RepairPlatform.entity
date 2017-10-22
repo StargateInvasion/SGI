@@ -1,0 +1,77 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTarget"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffOrbital_RepairPlatform"
+targetFilter
+	numOwnerships 1
+	ownership "Friendly"
+	numObjects 6
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 2
+	constraint "NotSelf"
+	constraint "HasHullDamage"
+range
+	Level:0 12000.000000
+	Level:1 12000.000000
+	Level:2 12000.000000
+	Level:3 12000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	smallEffectName "Ability_RepairPlatformTechActivate"
+	mediumEffectName "Ability_RepairPlatformTechActivate"
+	largeEffectName "Ability_RepairPlatformTechActivate"
+	soundID "EFFECT_REPAIR_TECH"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "ResearchWithBase"
+baseSourceResearchSubject "Goauld_Research_PlanetModule_Repair"
+improveSourceResearchSubject "Goauld_Research_PlanetModuleImprove_RepairPlatform"
+aiUseTime "Anytime"
+aiUseTargetCondition "HullDamageExceedsAmount"
+onlyAutoCastWhenTargetHullDamageExceedsAmount
+	Level:0 100.000000
+	Level:1 150.000000
+	Level:2 200.000000
+	Level:3 200.000000
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 20.000000
+	Level:1 20.000000
+	Level:2 20.000000
+	Level:3 20.000000
+cooldownTime
+	Level:0 6.000000
+	Level:1 6.000000
+	Level:2 6.000000
+	Level:3 6.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Goauld_Research_PlanetModule_Repair"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYORBITAL_REPAIRPLATFORM_NAME"
+descStringID "IDS_GOAULD_ABILITYORBITAL_REPAIRPLATFORM_DESCRIPTION"
+hudIcon "HUDICON_SUPPORTABILITY_REPAIRTECHPLANETMODULE"
+smallHudIcon "HUDICON_SUPPORTABILITY_REPAIRTECHPLANETMODULE"
+infoCardIcon ""

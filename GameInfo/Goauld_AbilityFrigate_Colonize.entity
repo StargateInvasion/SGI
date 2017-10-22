@@ -1,0 +1,69 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ColonizePlanet"
+instantActionTriggerType "AlwaysPerform"
+targetFilter
+	numOwnerships 1
+	ownership "NoOwner"
+	numObjects 1
+	object "Planet"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "IsColonizable"
+range
+	Level:0 5000.000000
+	Level:1 5000.000000
+	Level:2 5000.000000
+	Level:3 5000.000000
+delayUntilColonization 2.000000
+entryVehicleType "ENTRYVEHICLE_COLONYPODTECH"
+numEntryVehicles
+	Level:0 3.000000
+	Level:1 3.000000
+	Level:2 3.000000
+	Level:3 3.000000
+travelTime 30.000000
+entryVehicleLaunchInfo
+	effectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+afterColonizeBuffType ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "NoEnemyShipsInGravityWell"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 90.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 120.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYFRIGATE_COLONIZE_NAME"
+descStringID "IDS_GOAULD_ABILITYFRIGATE_COLONIZE_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_COLONIZETECH"
+smallHudIcon "HUDICON_ABILITY_COLONIZETECH"
+infoCardIcon ""

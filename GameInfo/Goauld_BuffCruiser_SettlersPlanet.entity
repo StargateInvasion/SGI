@@ -1,0 +1,27 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "PerPlayer"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusivePerPlayer"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "PlanetMaxPopulation"
+	value
+		Level:0 0.250000
+		Level:1 0.250000
+		Level:2 0.250000
+		Level:3 0.250000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "LastSpawnerNoLongerHasBuff"
+	buffTypeToQuery "Human_BuffCruiser_SettlersSelf"

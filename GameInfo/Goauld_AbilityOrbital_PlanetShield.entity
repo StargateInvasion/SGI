@@ -1,0 +1,40 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffOrbital_PlanetShieldOnSpawner"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "ResearchWithBase"
+baseSourceResearchSubject "Goauld_Research_PlanetModule_Shield"
+improveSourceResearchSubject "Goauld_Research_PlanetModuleImprove_ShieldGenerator"
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Passive"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Goauld_Research_PlanetModule_Shield"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYORBITAL_PLANETSHIELD_NAME"
+descStringID "IDS_GOAULD_ABILITYORBITAL_PLANETSHIELD_DESCRIPTION"
+hudIcon "HUDICON_SUPPORTABILITY_PLANETSHIELD"
+smallHudIcon "HUDICON_SUPPORTABILITY_PLANETSHIELD"
+infoCardIcon ""

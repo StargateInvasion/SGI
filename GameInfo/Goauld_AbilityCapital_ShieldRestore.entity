@@ -1,0 +1,74 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffCapital_ShieldRestoreActivate"
+targetFilter
+	numOwnerships 1
+	ownership "Friendly"
+	numObjects 4
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	numSpaces 1
+	space "Normal"
+	numConstraints 2
+	constraint "NotSelf"
+	constraint "HasShieldDamage"
+range
+	Level:0 6000.000000
+	Level:1 7000.000000
+	Level:2 8000.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 0.000000
+aiUseTime "Anytime"
+aiUseTargetCondition "ShieldDamageExceedsAmount"
+onlyAutoCastWhenTargetShieldDamageExceedsAmount
+	Level:0 2000.000000
+	Level:1 5000.000000
+	Level:2 10000.000000
+	Level:3 0.000000
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 300.000000
+	Level:1 350.000000
+	Level:2 400.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 20.000000
+	Level:1 15.000000
+	Level:2 10.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYCAPITAL_SHIELDRESTORE_NAME"
+descStringID "IDS_GOAULD_ABILITYCAPITAL_SHIELDRESTORE_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_SHIELDRESTORE"
+smallHudIcon "HUDICON_ABILITY_SHIELDRESTORE"
+infoCardIcon ""

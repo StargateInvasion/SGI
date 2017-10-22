@@ -1,0 +1,54 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadius"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffOrbital_Capital_UpkeepActivated"
+targetFilter
+	numOwnerships 1
+	ownership "Player"
+	numObjects 1
+	object "CapitalShip"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "HasWeapons"
+range
+	Level:0 80000.000000
+	Level:1 80000.000000
+	Level:2 80000.000000
+	Level:3 80000.000000
+maxTargetCount
+	Level:0 -1.000000
+	Level:1 -1.000000
+	Level:2 -1.000000
+	Level:3 -1.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Passive"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYORBITAL_CAPITAL_UPKEEP_NAME"
+descStringID "IDS_GOAULD_ABILITYORBITAL_CAPITAL_UPKEEP_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_RESOURCEDRAIN"
+smallHudIcon "HUDICON_ABILITY_RESOURCEDRAIN"
+infoCardIcon ""

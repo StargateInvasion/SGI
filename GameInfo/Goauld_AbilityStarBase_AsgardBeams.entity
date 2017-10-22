@@ -1,0 +1,84 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetWithTravel"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffStarbase_AsgardBeams"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 5
+	object "Titan"
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 6500.000000
+	Level:1 7000.000000
+	Level:2 8000.000000
+	Level:3 0.000000
+travelSpeed 2500.000000
+hasWeaponEffects TRUE
+weaponEffectOriginType "Targetter"
+weaponEffectAttachInfo
+	attachType "Ability"
+	abilityIndex 0
+weaponEffectImpactOffsetType "RandomMesh"
+canWeaponEffectHitHull TRUE
+canWeaponEffectHitShields TRUE
+weaponEffectsDef
+	weaponType "Projectile"
+	burstCount 2
+	burstDelay 0.050000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_PsiCapitalBeamHeavy_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "WEAPON_ASGARDBEAMS_MUZZLE"
+	hitEffectName "Weapon_PsiCapitalBeamHeavy_Hit"
+	hitHullEffectSounds
+		soundCount 1
+		sound ""
+	hitShieldsEffectSounds
+		soundCount 1
+		sound ""
+	projectileTravelEffectName "AsgardBeam1Travel"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 2
+levelSourceType "StarBaseUpgradeLevel"
+sourcePropertyType "AbilityCLevel"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 200.000000
+	Level:1 200.000000
+	Level:2 200.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 5.000000
+	Level:1 4.500000
+	Level:2 4.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYSTARBASE_ASGARDBEAMS_NAME"
+descStringID "IDS_GOAULD_ABILITYSTARBASE_ASGARDBEAMS_DESCRIPTION"
+hudIcon "HUDICON_RESEARCHSUBJECT_WEAPONDAMAGE_BEAM1"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_WEAPONDAMAGE_BEAM1"
+infoCardIcon ""

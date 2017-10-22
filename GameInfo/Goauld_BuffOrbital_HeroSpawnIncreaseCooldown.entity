@@ -1,0 +1,21 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit -1
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "AbilityCooldownRate"
+	value
+		Level:0 -0.100000
+		Level:1 -0.100000
+		Level:2 -0.100000
+		Level:3 -0.100000
+numEntityBoolModifiers 0
+numFinishConditions 0

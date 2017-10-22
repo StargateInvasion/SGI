@@ -1,0 +1,220 @@
+﻿TXT
+entityType "StarBase"
+ability:0 "Goauld_AbilityStarBase_AsgardBeams"
+ability:1 "Goauld_AbilityStarBase_SelfDestruct"
+ability:2 "Goauld_AbilityStarBase_SpaceGate"
+ability:3 "Goauld_AbilityStarBase_DestabilizeHyperspace"
+ability:4 ""
+defaultAutoAttackRange "None"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+numRandomDebrisLarge 12
+numRandomDebrisSmall 24
+numSpecificDebris 0
+armorType "Module"
+hudIcon "HUDICON_HUMAN_STARBASESPECIAL_ZEUS"
+smallHudIcon "HUDICONSMALL_STARBASE_TECH"
+infoCardIcon "INFOCARDICON_STARBASE_TECH"
+minZoomDistanceMult 2.000000
+NumWeapons 3
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 146.000000
+	DamagePerBank:BACK 146.000000
+	DamagePerBank:LEFT 146.000000
+	DamagePerBank:RIGHT 146.000000
+	Range 8000.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.150000
+	TravelSpeed 4000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 5
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_StarbaseLaser_Muzzle"
+		muzzleSoundMinRespawnTime 0.300000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE"
+			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE_ALT2"
+		hitEffectName "Weapon_Tech_StarbaseLaser_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Tech_StarbaseLaser_Travel"
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "BEAM"
+	DamagePerBank:FRONT 256.000000
+	DamagePerBank:BACK 256.000000
+	DamagePerBank:LEFT 256.000000
+	DamagePerBank:RIGHT 256.000000
+	Range 6500.000000
+	PreBuffCooldownTime 8.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.250000
+	TravelSpeed 0.000000
+	Duration 4.000000
+	fireConstraintType "StarBaseUpgradeLevel"
+	requiredStarBaseWeaponLevel 1
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_StarbaseBeam_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Weapon_Tech_StarbaseBeam_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "WEAPON_TECHSTARBASEBEAMHEAVY_TRAVEL"
+		beamGlowTextureName "TechStarBaseBeam_Glow"
+		beamCoreTextureName "TechStarBaseBeam_Core"
+		beamWidth 80.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 8.000000
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 300.000000
+	DamagePerBank:BACK 300.000000
+	DamagePerBank:LEFT 300.000000
+	DamagePerBank:RIGHT 300.000000
+	Range 10500.000000
+	PreBuffCooldownTime 10.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.080000
+	TravelSpeed 1300.000000
+	Duration 0.000000
+	fireConstraintType "StarBaseUpgradeLevel"
+	requiredStarBaseWeaponLevel 2
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 2
+		burstDelay 0.600000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Tech_MissileCapShip_Muzzle"
+		muzzleSoundMinRespawnTime 0.500000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE"
+			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE_ALT2"
+		hitEffectName "Weapon_Tech_MissileCapShip_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_MISSILEHEAVY_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_MISSILEHEAVY_HITGENERIC"
+		missileTravelEffectName "Weapon_Tech_MissileCapShip_Travel"
+		missileStartTurningDistance 250.000000
+		missileSlowTurnRate 1.208997
+		missileMaxSlowTurnTime 6.000000
+m_weaponIndexForRange 2
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 4
+TargetCountPerBank:BACK 4
+TargetCountPerBank:LEFT 4
+TargetCountPerBank:RIGHT 4
+canOnlyTargetStructures FALSE
+ShieldMeshName "Shield_TechStarBase"
+renderShield TRUE
+squadTypeEntityDef:0 "Goauld_FighterSquad_DeathGlider"
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 "Goauld_FighterSquad_DeathBomber"
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+mainViewIcon "MainViewIconStarBaseTech"
+experiencePointsForDestroying 150.000000
+nameStringID "IDS_GOAULD_STARBASESPECIAL_UNAS_NAME"
+picture "PICTURE_STARBASETECH"
+statCountType "StarBase"
+creationSourceAbility "Human_AbilityCruiser_DeployStarBase"
+maxUpgradeLevelCount 8
+UpgradeTypeCount 8
+UpgradeType "Goauld_StarBaseUpgradeWeapons"
+UpgradeType "Goauld_StarBaseUpgradeToughness"
+UpgradeType "Goauld_StarBaseUpgradeHangar"
+UpgradeType "Goauld_StarBaseUpgradeTradePort"
+UpgradeType "Goauld_StarBaseUpgradeBlockColonize"
+UpgradeType "Goauld_StarBaseUpgradeFactory"
+UpgradeType "Goauld_StarBaseUpgradeStargate"
+UpgradeType "Goauld_StarBaseUpgradeSelfDestruct"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Human_StarbaseSpecial_Zeus"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 0
+NumSoundsFor:ONSELECTED 1
+SoundID "STARBASE_TECH_ONSELECTED"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+ExplosionName "StarBase0"
+formationRank 3
+minShadow 0.000000
+maxShadow 0.300000
+cargoShipType "Goauld_ModuleTradeShip_Nebu"
+maxCargoShipCount 5
+cargoShipRespawnTime 25.000000
+baseBuildTime 120.000000
+buildEffectName ""
+angularSpeed 0.500000
+rotateSoundName ""
+rotateFacingType "AwayFromOrbitBody"
+rotateConstantly FALSE
+maxAccelerationLinear 0.000000
+maxAccelerationStrafe 0.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 1.000000
+maxDecelerationAngular 9.999996
+maxSpeedLinear -1.000000
+maxRollRate 2.000000
+maxRollAngle 35.000000
+mass 10000.000000
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"

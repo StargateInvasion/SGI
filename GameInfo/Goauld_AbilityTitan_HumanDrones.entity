@@ -1,0 +1,106 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffTitan_HumanDrones"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 5
+	object "Titan"
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 5000.000000
+	Level:1 5500.000000
+	Level:2 6000.000000
+	Level:3 0.000000
+maxTargetCount
+	Level:0 3.000000
+	Level:1 5.000000
+	Level:2 8.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+travelSpeed 1000.000000
+effectStaggerDelay 0.300000
+hasWeaponEffects TRUE
+weaponEffectOriginType "Targetter"
+weaponEffectAttachInfo
+	attachType "Ability"
+	abilityIndex 1
+weaponEffectImpactOffsetType "RandomMesh"
+canWeaponEffectHitHull TRUE
+canWeaponEffectHitShields TRUE
+weaponEffectsDef
+	weaponType "Missile"
+	burstCount 20
+	burstDelay 0.020000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_TechCapitalMissileHeavy_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 2
+		sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
+		sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
+	hitEffectName "Weapon_PhaseCapitalMissileHeavy_Hit"
+	hitHullEffectSounds
+		soundCount 1
+		sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+	hitShieldsEffectSounds
+		soundCount 1
+		sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+	missileTravelEffectName "Weapon_AsuranCapitalDroneUltra_Travel"
+	missileStartTurningDistance 30.000000
+	missileSlowTurnRate 0.708997
+	missileMaxSlowTurnTime 1.000000
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityBLevel"
+aiUseTime "OnlyWhenManyTargetsInRange"
+onlyAutoCastWhenTargetCountExceedsAmount
+	Level:0 2.000000
+	Level:1 4.000000
+	Level:2 6.000000
+	Level:3 0.000000
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 250.000000
+	Level:1 250.000000
+	Level:2 250.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 45.000000
+	Level:1 40.000000
+	Level:2 35.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYTITAN_HUMANDRONES_NAME"
+descStringID "IDS_GOAULD_ABILITYTITAN_HUMANDRONES_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_PHASEMISSILESWARM"
+smallHudIcon "HUDICON_ABILITY_PHASEMISSILESWARM"
+infoCardIcon ""

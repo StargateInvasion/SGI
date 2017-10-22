@@ -1,0 +1,289 @@
+﻿TXT
+entityType "CapitalShip"
+ability:0 "Goauld_AbilityCapital_AsgardPulse"
+ability:1 "Goauld_AbilityHero_Nuke"
+ability:2 "Goauld_AbilityHero_EngineBoost"
+ability:3 "Goauld_AbilityCapital_Prometheus"
+ability:4 ""
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 43.000000
+basePopulationKilled 1.700000
+bombingFreqTime 10.000000
+baseRange 3000.000000
+bombTransitTime 12.000000
+bombEffectCount 3
+bombEffectAngleVariance 15.000000
+bombEffectsDef
+	weaponType "Missile"
+	burstCount 5
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_TechCapitalPlanetBombing_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "WEAPON_TECH_PLANETBOMB_MUZZLE"
+	hitEffectName "Weapon_TechCapitalPlanetBombing_Hit"
+	hitHullEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	hitShieldsEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	missileTravelEffectName "Weapon_HumanMissileHeavy_Travel"
+	missileStartTurningDistance 0.005000
+	missileSlowTurnRate 3.708997
+	missileMaxSlowTurnTime 12.000000
+mainViewIcon "MAINVIEWICON_HUMAN_CAPITALHERO_PROMETHEUS"
+basePrice
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+slotCount 10.000000
+BuildTime 0.000000
+MaxHullPoints
+	StartValue 2750.000000
+	ValueIncreasePerLevel 105.000000
+MaxShieldPoints
+	StartValue 3000.000000
+	ValueIncreasePerLevel 180.000000
+HullPointRestoreRate
+	StartValue 2.750000
+	ValueIncreasePerLevel 1.050000
+ShieldPointRestoreRate
+	StartValue 4.000000
+	ValueIncreasePerLevel 1.800000
+ArmorPointsFromExperience
+	StartValue 3.000000
+	ValueIncreasePerLevel 0.334000
+maxMitigation
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
+MaxAntiMatter
+	StartValue 460.000000
+	ValueIncreasePerLevel 35.000000
+AntiMatterRestoreRate
+	StartValue 1.000000
+	ValueIncreasePerLevel 0.500000
+CultureProtectRate
+	StartValue 0.300000
+	ValueIncreasePerLevel 0.050000
+NameStringID "IDS_GOAULD_CAPITALHERO_PROMETHEUS_NAME"
+DescriptionStringID "IDS_GOAULD_CAPITALHERO_PROMETHEUS_DESCRIPTION"
+picture "HUMAN_FRIGATELIGHT_X303_PICTURE"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+roleType "COLONY"
+statCountType "CapitalShipUtility2"
+numRandomDebrisLarge 4
+numRandomDebrisSmall 17
+numSpecificDebris 1
+specificDebrisMeshName "DebrisTechLarge"
+armorType "CapitalShip"
+hudIcon "HUDICON_HUMAN_CAPITALHERO_PROMETHEUS"
+smallHudIcon "HUDICONSMALL_HUMAN_CAPITALHERO_PROMETHEUS"
+infoCardIcon "INFOCARDICON_HUMAN_CAPITALHERO_PROMETHEUS"
+minZoomDistanceMult 2.500000
+NumWeapons 3
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIMEDIUM"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "AUTOCANNON"
+	DamagePerBank:FRONT 13.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 13.000000
+	DamagePerBank:RIGHT 13.000000
+	Range 4000.000000
+	PreBuffCooldownTime 6.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.300000
+	TravelSpeed 1275.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 2
+		burstDelay 0.015000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Human_Muzzle"
+		muzzleSoundMinRespawnTime 0.770000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE"
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT2"
+		hitEffectName "Weapon_HumanRailguns_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_HumanRailgun_Travel"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIMEDIUM"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "AUTOCANNON"
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 15.000000
+	DamagePerBank:RIGHT 15.000000
+	Range 4000.000000
+	PreBuffCooldownTime 6.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.300000
+	TravelSpeed 1275.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.015000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Human_Muzzle"
+		muzzleSoundMinRespawnTime 0.770000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE"
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT2"
+		hitEffectName "Weapon_HumanRailguns_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_HumanRailgun_Travel"
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "MISSILE"
+	DamagePerBank:FRONT 90.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4000.000000
+	PreBuffCooldownTime 8.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 1.000000
+	TravelSpeed 1050.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 3
+		burstDelay 0.250000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_TechCapitalPlanetBombing_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_TECH_PLANETBOMB_MUZZLE"
+		hitEffectName "Weapon_HumanRailguns_Hit"
+		hitHullEffectSounds
+			soundCount 3
+			sound "EXPLOSION_SUB4"
+			sound "EXPLOSION_SUB4_ALT1"
+			sound "EXPLOSION_SUB4_ALT2"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "EXPLOSION_SUB4"
+			sound "EXPLOSION_SUB4_ALT1"
+			sound "EXPLOSION_SUB4_ALT2"
+		missileTravelEffectName "Weapon_HumanMissileHeavy_Travel"
+		missileStartTurningDistance 0.005000
+		missileSlowTurnRate 3.708997
+		missileMaxSlowTurnTime 12.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 1
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+mass 4000.000000
+ShieldMeshName "Human_Shield_FrigateLight_X303"
+renderShield TRUE
+maxAccelerationLinear 100.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 65.000000
+maxAccelerationAngular 5.000000
+maxDecelerationAngular 7.999996
+maxSpeedLinear 500.000000
+maxRollRate 12.000000
+maxRollAngle 45.000000
+squadTypeEntityDef:0 "Goauld_FighterSquad_DeathGlider"
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 "Goauld_FighterSquad_DeathBomber"
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "CAPITALSHIP_TECHCOLONY_ONATTACKORDERISSUED_0"
+SoundID "CAPITALSHIP_TECHCOLONY_ONATTACKORDERISSUED_1"
+SoundID "CAPITALSHIP_TECHCOLONY_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 1
+SoundID "CAPITALSHIP_TECHCOLONY_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "CAPITALSHIP_TECHCOLONY_ONGENERALORDERISSUED_0"
+SoundID "CAPITALSHIP_TECHCOLONY_ONGENERALORDERISSUED_1"
+SoundID "CAPITALSHIP_TECHCOLONY_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "CAPITALSHIP_TECHCOLONY_ONSELECTED_0"
+SoundID "CAPITALSHIP_TECHCOLONY_ONSELECTED_1"
+SoundID "CAPITALSHIP_TECHCOLONY_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "CAPITALSHIP_TECHCOLONY_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Human_CapitalHero_Prometheus"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_TechColony"
+ExplosionName "CapitalShip0"
+CommandPoints
+	StartValue 2.000000
+	ValueIncreasePerLevel 0.500000
+weaponCooldownDecreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.035000
+weaponDamageIncreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.060000
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_TECHCAPITALSHIP"
+formationRank 2
+minShadow 0.000000
+maxShadow 0.600000

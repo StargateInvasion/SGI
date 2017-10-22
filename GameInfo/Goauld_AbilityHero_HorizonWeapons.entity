@@ -1,0 +1,54 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffHero_HorizonWeaponsFiring"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility TRUE
+maxNumLevels 4
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 3.000000
+	Level:1 5.000000
+	Level:2 7.000000
+	Level:3 9.000000
+aiUseTime "OnlyWhenEnemyFleetWillPrevail"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 250.000000
+	Level:1 200.000000
+	Level:2 150.000000
+	Level:3 100.000000
+cooldownTime
+	Level:0 300.000000
+	Level:1 240.000000
+	Level:2 180.000000
+	Level:3 120.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Goauld_Research_WeaponDamageMissile2"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYHERO_HORIZONWEAPONS_NAME"
+descStringID "IDS_GOAULD_ABILITYHERO_HORIZONWEAPONS_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_MISSILEBARRAGE"
+smallHudIcon "HUDICON_ABILITY_MISSILEBARRAGE"
+infoCardIcon ""

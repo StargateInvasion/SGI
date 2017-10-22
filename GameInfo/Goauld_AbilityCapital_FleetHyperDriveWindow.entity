@@ -1,0 +1,62 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelfNoRange"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffCapital_FleetHyperDriveSpawnerCaster"
+targetFilter
+	numOwnerships 3
+	ownership "Enemy"
+	ownership "NoOwner"
+	ownership "Friendly"
+	numObjects 2
+	object "Planet"
+	object "Star"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "CapitalAbility_PhaseGateActivate"
+	mediumEffectName "CapitalAbility_PhaseGateActivate"
+	largeEffectName "CapitalAbility_PhaseGateActivate"
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget TRUE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 1.000000
+	Level:1 2.000000
+	Level:2 3.000000
+	Level:3 0.000000
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 150.000000
+	Level:1 125.000000
+	Level:2 100.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 160.000000
+	Level:1 140.000000
+	Level:2 120.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYCAPITAL_FLEETHYPERDRIVEWINDOW_NAME"
+descStringID "IDS_GOAULD_ABILITYCAPITAL_FLEETHYPERDRIVEWINDOW_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_PHASEGATE"
+smallHudIcon "HUDICON_ABILITY_PHASEGATE"
+infoCardIcon ""

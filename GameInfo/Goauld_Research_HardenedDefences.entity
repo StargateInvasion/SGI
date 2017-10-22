@@ -1,0 +1,43 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_HARDENEDDEFENSES"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_HARDENEDDEFENSES"
+infoCardIcon ""
+NameStringID "IDS_GOAULD_RESEARCH_HARDENEDDEFENCES_NAME"
+DescriptionStringID "IDS_GOAULD_RESEARCH_HARDENEDDEFENCES_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 5 , 4 ]
+ResearchField "Defense"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 90.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1400.000000
+	metal 250.000000
+	crystal 400.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 5
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "TacticalStructureArmorAdjustment"
+	baseValue 0.000000
+	perLevelValue 2.000000
+researchModifier
+	modifierType "TacticalStructureHullPointsMaxAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.300000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

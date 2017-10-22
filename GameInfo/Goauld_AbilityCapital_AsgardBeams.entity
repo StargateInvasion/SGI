@@ -1,0 +1,91 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetWithTravel"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffCapital_AsgardBeams"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 5
+	object "Titan"
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 5000.000000
+	Level:1 5500.000000
+	Level:2 6000.000000
+	Level:3 0.000000
+travelSpeed 1750.000000
+hasWeaponEffects TRUE
+weaponEffectOriginType "Targetter"
+weaponEffectAttachInfo
+	attachType "Ability"
+	abilityIndex 0
+weaponEffectImpactOffsetType "RandomMesh"
+canWeaponEffectHitHull TRUE
+canWeaponEffectHitShields TRUE
+weaponEffectsDef
+	weaponType "Projectile"
+	burstCount 1
+	burstDelay 0.100000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_PsiCapitalBeamHeavy_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "WEAPON_ASGARDBEAMS_MUZZLE"
+	hitEffectName "CapitalAbility_BeamBlastImpact"
+	hitHullEffectSounds
+		soundCount 1
+		sound "WEAPON_ASGARDBEAMS_MUZZLE"
+	hitShieldsEffectSounds
+		soundCount 1
+		sound "WEAPON_ASGARDBEAMS_MUZZLE"
+	projectileTravelEffectName "Weapon_AsgardBeam_Travel"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget TRUE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 0.000000
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 100.000000
+	Level:1 100.000000
+	Level:2 100.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 4.000000
+	Level:1 3.500000
+	Level:2 3.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Goauld_Research_Ability_AsgardBeams"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYCAPITAL_ASGARDBEAMS_NAME"
+descStringID "IDS_GOAULD_ABILITYCAPITAL_ASGARDBEAMS_DESCRIPTION"
+hudIcon "HUDICON_RESEARCHSUBJECT_WEAPONDAMAGE_BEAM1"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_WEAPONDAMAGE_BEAM1"
+infoCardIcon ""

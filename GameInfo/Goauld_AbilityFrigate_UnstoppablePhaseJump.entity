@@ -1,0 +1,40 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffFrigate_UnstoppablePhaseJump"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithBase"
+baseSourceResearchSubject "Goauld_Research_Ability_UnstoppablePhaseJump"
+improveSourceResearchSubject ""
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Passive"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Goauld_Research_Ability_UnstoppablePhaseJump"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYFRIGATE_UNSTOPPABLEPHASEJUMP_NAME"
+descStringID "IDS_GOAULD_ABILITYFRIGATE_UNSTOPPABLEPHASEJUMP_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_UNSTOPPABLEPHASEJUMPTECH"
+smallHudIcon "HUDICON_ABILITY_UNSTOPPABLEPHASEJUMPTECH"
+infoCardIcon ""

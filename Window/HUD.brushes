@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 161
+brushCount 174
 brush
 	name "RebellionResearchOverlay"
 	content "Simple"
@@ -18,6 +18,34 @@ brush
 	pixelBox [ 0 , 0 , 1024 , 768 ]
 brush
 	name "ActionGridSlotBackdropTech"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 584 , 54 , 38 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 674 , 54 , 38 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 629 , 54 , 38 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 539 , 54 , 38 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 494 , 54 , 38 ]
+brush
+	name "ActionGridSlotBackdropGoauld"
 	content "MarginsAndStates"
 	stretchMargins
 		left 5
@@ -131,6 +159,11 @@ brush
 	fileName "Human_GUI_Skin"
 	pixelBox [ 0 , 384 , 1024 , 128 ]
 brush
+	name "BottomWindowBackdropGoauld"
+	content "Simple"
+	fileName "Goauld_GUI_Skin"
+	pixelBox [ 0 , 384 , 1024 , 128 ]
+brush
 	name "BottomWindowBackdropPsi"
 	content "Simple"
 	fileName "Skin_Psi"
@@ -144,6 +177,11 @@ brush
 	name "BottomWindowOverlayTech"
 	content "Simple"
 	fileName "Human_GUI_Skin"
+	pixelBox [ 0 , 255 , 1024 , 128 ]
+brush
+	name "BottomWindowOverlayGoauld"
+	content "Simple"
+	fileName "Goauld_GUI_Skin"
 	pixelBox [ 0 , 255 , 1024 , 128 ]
 brush
 	name "BottomWindowOverlayPsi"
@@ -913,7 +951,37 @@ brush
 	fileName "Human_GUI_Skin"
 	pixelBox [ 674 , 224 , 339 , 29 ]
 brush
+	name "InfoCardAttachedToBottomBackdropGoauld"
+	content "Margins"
+	stretchMargins
+		left 0
+		right 0
+		top 19
+		bottom 9
+	contentMargins
+		left 32
+		right 32
+		top 14
+		bottom 14
+	fileName "Goauld_GUI_Skin"
+	pixelBox [ 674 , 224 , 339 , 29 ]
+brush
 	name "InfoCardAttachedToScreenEdgeBackdropTech"
+	content "Margins"
+	stretchMargins
+		left 10
+		right 20
+		top 20
+		bottom 20
+	contentMargins
+		left 32
+		right 32
+		top 14
+		bottom 22
+	fileName "BackdropInGame_SGI"
+	pixelBox [ 2016 , 11 , 29 , 295 ]
+brush
+	name "InfoCardAttachedToScreenEdgeBackdropGoauld"
 	content "Margins"
 	stretchMargins
 		left 10
@@ -1325,9 +1393,19 @@ brush
 	fileName "Human_GUI_Skin"
 	pixelBox [ 294 , 216 , 228 , 39 ]
 brush
+	name "EmpireWindowOptionsWindowBackdropGoauld"
+	content "Simple"
+	fileName "Goauld_GUI_Skin"
+	pixelBox [ 294 , 216 , 228 , 39 ]
+brush
 	name "EmpireWindowOptionsWindowHighResBackdropTech"
 	content "Simple"
 	fileName "Human_GUI_Skin"
+	pixelBox [ 0 , 216 , 228 , 39 ]
+brush
+	name "EmpireWindowOptionsWindowHighResBackdropGoauld"
+	content "Simple"
+	fileName "Goauld_GUI_Skin"
 	pixelBox [ 0 , 216 , 228 , 39 ]
 brush
 	name "EmpireWindowOptionsWindowBackdropPsi"
@@ -1995,6 +2073,11 @@ brush
 	fileName "Human_GUI_Skin"
 	pixelBox [ 0 , 0 , 1024 , 50 ]
 brush
+	name "TopWindowBackdropGoauld"
+	content "Simple"
+	fileName "Goauld_GUI_Skin"
+	pixelBox [ 0 , 0 , 1024 , 50 ]
+brush
 	name "TopWindowBackdropPsi"
 	content "Simple"
 	fileName "Skin_Psi"
@@ -2008,6 +2091,11 @@ brush
 	name "TopWindowOverlayTech"
 	content "Simple"
 	fileName "Human_GUI_Skin"
+	pixelBox [ 0 , 51 , 1024 , 50 ]
+brush
+	name "TopWindowOverlayGoauld"
+	content "Simple"
+	fileName "Goauld_GUI_Skin"
 	pixelBox [ 0 , 51 , 1024 , 50 ]
 brush
 	name "TopWindowOverlayPsi"
@@ -2025,6 +2113,11 @@ brush
 	fileName "Human_GUI_Skin"
 	pixelBox [ 0 , 101 , 300 , 39 ]
 brush
+	name "TopWindowLeftCapLowResGoauld"
+	content "Simple"
+	fileName "Goauld_GUI_Skin"
+	pixelBox [ 0 , 101 , 300 , 39 ]
+brush
 	name "TopWindowLeftCapHighResTech"
 	content "Simple"
 	fileName "Human_GUI_Skin"
@@ -2038,6 +2131,21 @@ brush
 	name "TopWindowRightCapHighResTech"
 	content "Simple"
 	fileName "Human_GUI_Skin"
+	pixelBox [ 979 , 146 , 45 , 39 ]
+brush
+	name "TopWindowLeftCapHighResGoauld"
+	content "Simple"
+	fileName "Goauld_GUI_Skin"
+	pixelBox [ 0 , 146 , 224 , 39 ]
+brush
+	name "TopWindowRightCapLowResGoauld"
+	content "Simple"
+	fileName "Goauld_GUI_Skin"
+	pixelBox [ 713 , 101 , 310 , 39 ]
+brush
+	name "TopWindowRightCapHighResGoauld"
+	content "Simple"
+	fileName "Goauld_GUI_Skin"
 	pixelBox [ 979 , 146 , 45 , 39 ]
 brush
 	name "TopWindowLeftCapLowResPsi"

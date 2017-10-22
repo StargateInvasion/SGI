@@ -1,0 +1,64 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 1
+periodicAction
+	actionCountType "Infinite"
+	actionIntervalTime
+		Level:0 5.000000
+		Level:1 5.000000
+		Level:2 5.000000
+		Level:3 0.000000
+	buffInstantActionType "ApplyBuffToTargetsInRadius"
+	instantActionTriggerType "AlwaysPerform"
+	buffType "Goauld_BuffCapital_CommandStrikeGroupTarget"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 5
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "Fighter"
+		object "StarBase"
+		numSpaces 1
+		space "Normal"
+		numConstraints 1
+		constraint "HasWeapons"
+	range
+		Level:0 8000.000000
+		Level:1 9000.000000
+		Level:2 10000.000000
+		Level:3 0.000000
+	maxTargetCount
+		Level:0 5.000000
+		Level:1 10.000000
+		Level:2 15.000000
+		Level:3 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 20.000000
+		Level:1 25.000000
+		Level:2 30.000000
+		Level:3 0.000000
+finishCondition
+	finishConditionType "OwnerChanged"

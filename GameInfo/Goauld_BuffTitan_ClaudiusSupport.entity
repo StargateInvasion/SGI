@@ -1,0 +1,45 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "CreateFrigate"
+	instantActionTriggerType "OnDelay"
+	delayTime 1.500000
+	frigateType "Human_FrigateAntiFighter_Claudius"
+	numFrigates
+		Level:0 2.000000
+		Level:1 4.000000
+		Level:2 4.000000
+		Level:3 4.000000
+	matchOwnerDamageState TRUE
+	impulse 1000000.000000
+	expiryTime
+		Level:0 75.000000
+		Level:1 100.000000
+		Level:2 125.000000
+		Level:3 0.000000
+	spawnFrigateSoundID ""
+	postSpawnBuff ""
+instantAction
+	buffInstantActionType "ForceAttackersToRepickAttackTarget"
+	instantActionTriggerType "OnDelay"
+	delayTime 1.600000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 5.000000
+		Level:1 7.000000
+		Level:2 9.000000
+		Level:3 0.000000

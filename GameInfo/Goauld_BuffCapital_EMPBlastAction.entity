@@ -1,0 +1,37 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit -1
+buffExclusivityForAIType "NotExclusive"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "DoDamage"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	damage
+		Level:0 150.000000
+		Level:1 300.000000
+		Level:2 450.000000
+		Level:3 0.000000
+	damageAffectType "AFFECTS_ONLY_SHIELDS"
+	damageType "ENERGY"
+	isDamageShared TRUE
+instantAction
+	buffInstantActionType "RemoveAntiMatter"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	antiMatter
+		Level:0 50.000000
+		Level:1 100.000000
+		Level:2 150.000000
+		Level:3 0.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

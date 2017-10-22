@@ -1,0 +1,106 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 1
+periodicAction
+	actionCountType "Finite"
+	actionCount
+		Level:0 5.000000
+		Level:1 5.000000
+		Level:2 5.000000
+		Level:3 0.000000
+	actionIntervalTime
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 0.000000
+	buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
+	instantActionTriggerType "AlwaysPerform"
+	buffType "Goauld_BuffOrbital_AsgardPulseBombardmentTarget"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 4
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "StarBase"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	range
+		Level:0 9000.000000
+		Level:1 9000.000000
+		Level:2 9000.000000
+		Level:3 0.000000
+	maxTargetCount
+		Level:0 10.000000
+		Level:1 10.000000
+		Level:2 10.000000
+		Level:3 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+	travelSpeed 1500.000000
+	effectStaggerDelay 0.300000
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Ability"
+		abilityIndex 2
+	weaponEffectImpactOffsetType "RandomMesh"
+	canWeaponEffectHitHull TRUE
+	canWeaponEffectHitShields TRUE
+	weaponEffectsDef
+		weaponType "Projectile"
+		burstCount 15
+		burstDelay 0.500000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PsiCapitalPlasmaHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.210000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_ASGARDBEAMS_MUZZLE"
+			sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE_ALT1"
+			sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE_ALT2"
+		hitEffectName "Weapon_PsiCapitalPlasmaHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPON_ASGARDBEAMS_MUZZLE"
+		projectileTravelEffectName "Weapon_AsgardPulseCapitalHeavy_Travel"
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "DrainAntiMatterAndDoDamage"
+	drainAntiMatterRate
+		Level:0 10.000000
+		Level:1 10.000000
+		Level:2 10.000000
+		Level:3 0.000000
+	damageRate
+		Level:0 96.666672
+		Level:1 26.666668
+		Level:2 33.333332
+		Level:3 0.000000
+	isDamageShared TRUE
+numEntityModifiers 0
+numEntityBoolModifiers 1
+entityBoolModifier "DisablePhaseJump"
+numFinishConditions 2
+finishCondition
+	finishConditionType "AllPeriodicActionsDone"
+finishCondition
+	finishConditionType "OwnerChanged"

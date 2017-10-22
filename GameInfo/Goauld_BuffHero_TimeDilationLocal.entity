@@ -1,0 +1,75 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 8
+entityModifier
+	buffEntityModifierType "LinearMaxSpeed"
+	value
+		Level:0 -2.000000
+		Level:1 -7.000000
+		Level:2 -20.000000
+		Level:3 -60.000000
+entityModifier
+	buffEntityModifierType "LinearThrust"
+	value
+		Level:0 -2.000000
+		Level:1 -7.000000
+		Level:2 -20.000000
+		Level:3 -60.000000
+entityModifier
+	buffEntityModifierType "AngularThrust"
+	value
+		Level:0 -2.00000
+		Level:1 -7.000000
+		Level:2 -20.000000
+		Level:3 -60.00000
+entityModifier
+	buffEntityModifierType "HyperspaceChargeUpRate"
+	value
+		Level:0 -2.000000
+		Level:1 -7.000000
+		Level:2 -20.000000
+		Level:3 -60.000000
+entityModifier
+	buffEntityModifierType "WeaponCooldown"
+	value
+		Level:0 2.000000
+		Level:1 7.000000
+		Level:2 20.000000
+		Level:3 60.000000
+entityModifier
+	buffEntityModifierType "EnergyWeaponCooldown"
+	value
+		Level:0 2.000000
+		Level:1 7.000000
+		Level:2 20.000000
+		Level:3 60.000000
+entityModifier
+	buffEntityModifierType "ShieldPointRestoreRate"
+	value
+		Level:0 -2.000000
+		Level:1 -7.000000
+		Level:2 -20.000000
+		Level:3 -60.000000
+entityModifier
+	buffEntityModifierType "AbilityCooldownRate"
+	value
+		Level:0 -2.000000
+		Level:1 -7.000000
+		Level:2 -20.000000
+		Level:3 -60.000000
+numEntityBoolModifiers 1
+entityBoolModifier "DisablePhaseJump"
+numFinishConditions 1
+finishCondition
+	finishConditionType "FirstSpawnerNoLongerHasBuff"
+	buffTypeToQuery "Human_BuffHero_TimeDilationSelf"

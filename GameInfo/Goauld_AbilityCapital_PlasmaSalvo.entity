@@ -1,0 +1,67 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffCapital_PlasmaSalvoSelfPreLaunch"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 4
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 9000.000000
+	Level:1 9250.000000
+	Level:2 9500.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE"
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 1.000000
+	Level:1 2.000000
+	Level:2 3.000000
+	Level:3 0.000000
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 150.000000
+	Level:1 125.000000
+	Level:2 100.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 90.000000
+	Level:1 70.000000
+	Level:2 35.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYCAPITAL_PLASMASALVO_NAME"
+descStringID "IDS_GOAULD_ABILITYCAPITAL_PLASMASALVO_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_PLASMABOMBARDMENT"
+smallHudIcon "HUDICON_ABILITY_PLASMABOMBARDMENT"
+infoCardIcon ""

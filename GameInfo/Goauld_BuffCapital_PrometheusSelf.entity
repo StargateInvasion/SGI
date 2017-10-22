@@ -1,0 +1,37 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "ApplyBuffToLocalOrbitBody"
+	instantActionTriggerType "OnDelay"
+	delayTime 10.000000
+	buffType "Goauld_BuffCapital_PrometheusPlanet"
+	targetFilter
+		numOwnerships 3
+		ownership "Friendly"
+		ownership "NoOwner"
+		ownership "Enemy"
+		numObjects 1
+		object "Planet"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 0

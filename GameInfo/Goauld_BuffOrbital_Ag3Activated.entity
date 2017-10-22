@@ -1,0 +1,105 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling TRUE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantBeamEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Targetter"
+	weaponEffectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	weaponEffectImpactOffsetType "RandomMesh"
+	canWeaponEffectHitHull TRUE
+	canWeaponEffectHitShields TRUE
+	weaponEffectsDef
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Human_Orbital_HeavyDefense_AG3_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "CapitalAbility_BeamBlastImpact"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "EFFECT_BEAMBLAST_ACTIVATE"
+		beamGlowTextureName "PhaseCapitalBombingBeam_Glow"
+		beamCoreTextureName "PhaseCapitalBombingBeam_Core"
+		beamWidth 4.000000
+		beamGlowColor ffEEEE00
+		beamCoreColor ffEEEE00
+		beamTilingRate 3.000000
+numPeriodicActions 1
+periodicAction
+	actionCountType "Infinite"
+	actionIntervalTime
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 1.000000
+	buffInstantActionType "ApplyBuffToTargetsInColumn"
+	instantActionTriggerType "AlwaysPerform"
+	buffType "Goauld_BuffOrbital_Ag3Damage"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 5
+		object "CapitalShip"
+		object "Frigate"
+		object "Corvette"
+		object "StarBase"
+		object "Titan"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	columnRadius
+		Level:0 90.000000
+		Level:1 100.000000
+		Level:2 150.000000
+		Level:3 0.000000
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 4
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 3.000000
+		Level:1 3.000000
+		Level:2 3.000000
+		Level:3 0.000000
+finishCondition
+	finishConditionType "NoTarget"
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "TargetOwnerIsFriendly"

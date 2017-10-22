@@ -1,0 +1,70 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffHero_Nuke"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 5
+	object "Titan"
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 8000.000000
+	Level:1 9000.000000
+	Level:2 10000.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility TRUE
+maxNumLevels 3
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 4.000000
+	Level:1 6.000000
+	Level:2 8.000000
+	Level:3 0.000000
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Resources"
+resourceCost
+	credits 5000.000000
+	metal 2000.000000
+	crystal 500.000000
+cooldownTime
+	Level:0 600.000000
+	Level:1 600.000000
+	Level:2 600.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Goauld_Research_Ability_Nuke"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYHERO_NUKE_NAME"
+descStringID "IDS_GOAULD_ABILITYHERO_NUKE_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_HERONUKE"
+smallHudIcon "HUDICON_ABILITY_HERONUKE"
+infoCardIcon ""

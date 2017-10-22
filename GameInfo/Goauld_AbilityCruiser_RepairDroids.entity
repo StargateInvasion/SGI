@@ -1,0 +1,92 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetWithTravel"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffCruiser_RepairDroids"
+targetFilter
+	numOwnerships 1
+	ownership "Friendly"
+	numObjects 4
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	numSpaces 1
+	space "Normal"
+	numConstraints 2
+	constraint "NotSelf"
+	constraint "HasHullDamage"
+range
+	Level:0 5000.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+travelSpeed 500.000000
+hasWeaponEffects TRUE
+weaponEffectOriginType "Targetter"
+weaponEffectAttachInfo
+	attachType "Ability"
+	abilityIndex 0
+weaponEffectImpactOffsetType "Center"
+canWeaponEffectHitHull FALSE
+canWeaponEffectHitShields FALSE
+weaponEffectsDef
+	weaponType "Missile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "CapitalBuff_Null"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "EFFECT_REPAIRDROIDS"
+	hitEffectName ""
+	hitHullEffectSounds
+		soundCount 1
+		sound ""
+	hitShieldsEffectSounds
+		soundCount 1
+		sound ""
+	missileTravelEffectName "CapitalAbility_RepairDroidsTravel"
+	missileStartTurningDistance 100.000000
+	missileSlowTurnRate 0.608997
+	missileMaxSlowTurnTime 3.000000
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyWithNoOrder"
+aiUseTargetCondition "HullDamageExceedsAmount"
+onlyAutoCastWhenTargetHullDamageExceedsAmount
+	Level:0 350.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 50.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 5.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYCRUISER_REPAIRDROIDS_NAME"
+descStringID "IDS_GOAULD_ABILITYCRUISER_REPAIRDROIDS_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_REPAIRDROIDS"
+smallHudIcon "HUDICON_ABILITY_REPAIRDROIDS"
+infoCardIcon ""

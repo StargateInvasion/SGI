@@ -1,0 +1,65 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffCapital_OmegaManeuverCaster"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 2
+	object "Frigate"
+	object "CapitalShip"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 7000.000000
+	Level:1 9000.000000
+	Level:2 12000.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Above"
+	smallEffectName "HyperspaceChargeUp"
+	mediumEffectName "HyperspaceExit"
+	largeEffectName "HyperspaceExit"
+	soundID ""
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 1.000000
+	Level:1 2.000000
+	Level:2 3.000000
+	Level:3 0.000000
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "IsNotWeaponDisabled"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.100000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 100.000000
+	Level:1 90.000000
+	Level:2 75.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 60.000000
+	Level:1 45.000000
+	Level:2 30.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYCAPITAL_OMEGAMANEUVER_NAME"
+descStringID "IDS_GOAULD_ABILITYCAPITAL_OMEGAMANEUVER_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_OMEGAMANEUVER"
+smallHudIcon "HUDICON_ABILITY_OMEGAMANEUVER"
+infoCardIcon ""

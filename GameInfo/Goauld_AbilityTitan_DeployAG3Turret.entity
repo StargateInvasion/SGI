@@ -1,0 +1,68 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "CreateFrigateAtTarget"
+instantActionTriggerType "AlwaysPerform"
+frigateType "Human_FrigateAG3Turret"
+numFrigates
+	Level:0 1.000000
+	Level:1 1.000000
+	Level:2 2.000000
+	Level:3 0.000000
+impulse 350000.000000
+expiryTime
+	Level:0 65.000000
+	Level:1 70.000000
+	Level:2 65.000000
+	Level:3 0.000000
+spawnFrigateSoundID "EFFECT_DEPLOYSIEGETURRET"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 4
+	object "Frigate"
+	object "Titan"
+	object "StarBase"
+	object "CapitalShip"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 3000.000000
+	Level:1 3500.000000
+	Level:2 4000.000000
+	Level:3 0.000000
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityCLevel"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 45.000000
+	Level:1 35.000000
+	Level:2 30.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 35.000000
+	Level:1 30.000000
+	Level:2 25.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYTITAN_DEPLOYAG3TURRET_NAME"
+descStringID "IDS_GOAULD_ABILITYTITAN_DEPLOYAG3TURRET_DESCRIPTION"
+hudIcon "HUDICON_HUMAN_ORBITAL_HEAVYDEFENSE"
+smallHudIcon "HUDICON_HUMAN_ORBITAL_HEAVYDEFENSE"
+infoCardIcon ""

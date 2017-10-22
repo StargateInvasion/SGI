@@ -1,0 +1,50 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling TRUE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 3.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "Buff_DefeatShields"
+		mediumEffectName "Buff_DefeatShields"
+		largeEffectName "Buff_DefeatShields"
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToTargetNoFilterNoRange"
+	instantActionTriggerType "OnBuffFinish"
+	buffType "Goauld_BuffFrigate_TimedChargesActivated"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "DamageAsDamageTarget"
+	value
+		Level:0 0.000500
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+numEntityBoolModifiers 0
+numFinishConditions 4
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 15.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+finishCondition
+	finishConditionType "NoTarget"
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "TargetOwnerIsFriendly"

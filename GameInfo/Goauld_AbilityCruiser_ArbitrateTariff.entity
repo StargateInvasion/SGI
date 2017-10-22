@@ -1,0 +1,45 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffCruiser_ArbitrateTariffSelf"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "GrantAmnesty"
+	mediumEffectName "GrantAmnesty"
+	largeEffectName "GrantAmnesty"
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "Goauld_Research_Ability_ArbitRateTariff"
+aiUseTime "OnlyWhenOrbitingEnemyOrAlliedPlanet"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "None"
+cooldownTime
+	Level:0 120.000000
+	Level:1 120.000000
+	Level:2 120.000000
+	Level:3 120.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Goauld_Research_Ability_ArbitRateTariff"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYCRUISER_ARBITRATETARIFF_NAME"
+descStringID "IDS_GOAULD_ABILITYCRUISER_ARBITRATETARIFF_DESCRIPTION"
+hudIcon "HUDICON_RESEARCHSUBJECT_ARBITRATETARIFF"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_ARBITRATETARIFF"
+infoCardIcon ""
