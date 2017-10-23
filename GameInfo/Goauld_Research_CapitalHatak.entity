@@ -1,33 +1,33 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_HUMAN_CAPITALTRANSPORT_CONCORDIA"
-smallHudIcon "MAINVIEWICON_HUMAN_CAPITALTRANSPORT_CONCORDIA"
+hudIcon "HUDICON_HUMAN_CAPITALCARRIER_POSEIDON"
+smallHudIcon "MAINVIEWICON_HUMAN_CAPITALCARRIER_POSEIDON"
 infoCardIcon ""
-NameStringID "IDS_GOAULD_RESEARCH_CAPITALCONCORDIA_NAME"
-DescriptionStringID "IDS_GOAULD_RESEARCH_CAPITALCONCORDIA_DESCRIPTION"
+NameStringID "IDS_GOAULD_RESEARCH_CAPITALHATAK_NAME"
+DescriptionStringID "IDS_GOAULD_RESEARCH_CAPITALHATAK_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 5 , 4 ]
+	pos [ 4 , 4 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Goauld_Research_CapitalPoseidon"
+		Subject "Goauld_Research_CapitalShutak"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 90.000000
+BaseUpgradeTime 75.000000
 PerLevelUpgradeTime 10.000000
 BaseCost
-	credits 1400.000000
-	metal 250.000000
-	crystal 400.000000
+	credits 1200.000000
+	metal 200.000000
+	crystal 325.000000
 PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 5
+Tier 4
 onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 0.000000

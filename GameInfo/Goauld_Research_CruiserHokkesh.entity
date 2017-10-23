@@ -1,18 +1,18 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_HUMAN_CAPITALCARRIER_POSEIDON"
-smallHudIcon "MAINVIEWICON_HUMAN_CAPITALCARRIER_POSEIDON"
+hudIcon "HUDICON_HUMAN_CRUISERCARRIER_CERBERUS"
+smallHudIcon "MAINVIEWICON_HUMAN_CRUISERCARRIER_CERBERUS"
 infoCardIcon ""
-NameStringID "IDS_GOAULD_RESEARCH_CAPITALPOSEIDON_NAME"
-DescriptionStringID "IDS_GOAULD_RESEARCH_CAPITALPOSEIDON_DESCRIPTION"
+NameStringID "IDS_GOAULD_RESEARCH_CRUISERHOKKESH_NAME"
+DescriptionStringID "IDS_GOAULD_RESEARCH_CRUISERHOKKESH_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 4 , 4 ]
+	pos [ 4 , 2 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Goauld_Research_CapitalScorpion"
+		Subject "Goauld_Research_FrigateHorus"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

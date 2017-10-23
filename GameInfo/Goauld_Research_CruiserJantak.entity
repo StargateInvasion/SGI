@@ -1,14 +1,14 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_HUMAN_CRUISERSTARBASECONSTRUCTOR_HERA"
-smallHudIcon "MAINVIEWICON_HUMAN_CRUISERSTARBASECONSTRUCTOR_HERA"
+hudIcon "HUDICON_HUMAN_CRUISERUTILITY0_ARES"
+smallHudIcon "MAINVIEWICON_HUMAN_CRUISERUTILITY0_ARES"
 infoCardIcon ""
-NameStringID "IDS_GOAULD_RESEARCH_CRUISERHERA_NAME"
-DescriptionStringID "IDS_GOAULD_RESEARCH_CRUISERHERA_DESCRIPTION"
+NameStringID "IDS_GOAULD_RESEARCH_CRUISERJANTAK_NAME"
+DescriptionStringID "IDS_GOAULD_RESEARCH_CRUISERJANTAK_DESCRIPTION"
 researchWindowLocation
-	block 0
-	pos [ 1 , 2 ]
-ResearchField "Defense"
+	block 1
+	pos [ 1 , 3 ]
+ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""

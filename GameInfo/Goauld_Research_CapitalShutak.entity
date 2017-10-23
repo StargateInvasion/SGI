@@ -1,30 +1,33 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_HUMAN_CAPITALBATTLESHIP_ACHILLES"
-smallHudIcon "MAINVIEWICON_HUMAN_CAPITALBATTLESHIP_ACHILLES"
+hudIcon "HUDICON_HUMAN_CAPITALSUPPORT_SCORPION"
+smallHudIcon "MAINVIEWICON_HUMAN_CAPITALSUPPORT_SCORPION"
 infoCardIcon ""
-NameStringID "IDS_GOAULD_RESEARCH_CAPITALACHILLES_NAME"
-DescriptionStringID "IDS_GOAULD_RESEARCH_CAPITALACHILLES_DESCRIPTION"
+NameStringID "IDS_GOAULD_RESEARCH_CAPITALSHUTAK_NAME"
+DescriptionStringID "IDS_GOAULD_RESEARCH_CAPITALSHUTAK_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 1 , 4 ]
+	pos [ 3 , 4 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Goauld_Research_CapitalHatel"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 45.000000
+BaseUpgradeTime 60.000000
 PerLevelUpgradeTime 5.000000
 BaseCost
-	credits 600.000000
-	metal 50.000000
-	crystal 100.000000
+	credits 1000.000000
+	metal 150.000000
+	crystal 250.000000
 PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 1
+Tier 3
 onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 0.000000

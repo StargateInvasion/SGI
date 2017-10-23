@@ -3,8 +3,8 @@ entityType "ResearchSubject"
 hudIcon "HUDICON_HUMAN_FRIGATECORVETTE_MORPHEUS"
 smallHudIcon "MAINVIEWICON_HUMAN_FRIGATECORVETTE_MORPHEUS"
 infoCardIcon ""
-NameStringID "IDS_GOAULD_RESEARCH_CORVETTEMORPHEUS_NAME"
-DescriptionStringID "IDS_GOAULD_RESEARCH_CORVETTEMORPHEUS_DESCRIPTION"
+NameStringID "IDS_GOAULD_RESEARCH_FRIGATEHORUS_NAME"
+DescriptionStringID "IDS_GOAULD_RESEARCH_FRIGATEHORUS_DESCRIPTION"
 researchWindowLocation
 	block 1
 	pos [ 2 , 2 ]
@@ -12,7 +12,7 @@ ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Goauld_Research_FrigateTempest"
+		Subject "Goauld_Research_FrigateOsiris"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
