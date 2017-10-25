@@ -17,61 +17,57 @@ basePopulationKilled 2.000000
 bombingFreqTime 10.000000
 baseRange 3000.000000
 bombTransitTime 12.000000
-bombEffectCount 8
+bombEffectCount 3
 bombEffectAngleVariance 15.000000
 bombEffectsDef
 	weaponType "Projectile"
-	burstCount 5
-	burstDelay 0.000000
+	burstCount 1
+	burstDelay 0.500000
 	fireDelay 0.000000
-	muzzleEffectName "Weapon_Human_Muzzle"
-	muzzleSoundMinRespawnTime 0.100000
+	muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
+	muzzleSoundMinRespawnTime 0.500000
 	muzzleSounds
 		soundCount 1
-		sound "WEAPON_TECH_PLANETBOMB_MUZZLE"
-	hitEffectName "Weapon_TechCapitalPlanetBombing_Hit"
+		sound "Weapon_Goa'uld_Capital"
+	hitEffectName "Weapon_GoauldCapitalPlasma_Hit"
 	hitHullEffectSounds
-		soundCount 3
-		sound "EXPLOSION_SUB4"
-		sound "EXPLOSION_SUB4_ALT1"
-		sound "EXPLOSION_SUB4_ALT2"
+		soundCount 1
+		sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
 	hitShieldsEffectSounds
-		soundCount 3
-		sound "EXPLOSION_SUB4"
-		sound "EXPLOSION_SUB4_ALT1"
-		sound "EXPLOSION_SUB4_ALT2"
-	projectileTravelEffectName "Weapon_TechCapitalPlanetBombing_Travel"
+		soundCount 1
+		sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+	projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
 mainViewIcon "MAINVIEWICON_HUMAN_TITANDEFENSE_HEPHESTUS"
 basePrice
-	credits 9500.000000
-	metal 1200.000000
-	crystal 750.000000
+	credits 9000.000000
+	metal 2500.000000
+	crystal 1200.000000
 slotCount 150.000000
 BuildTime 450.000000
 MaxHullPoints
-	StartValue 10000.000000
-	ValueIncreasePerLevel 504.000000
+	StartValue 7500.000000
+	ValueIncreasePerLevel 220.000000
 MaxShieldPoints
-	StartValue 8250.000000
-	ValueIncreasePerLevel 567.000000
+	StartValue 15000.000000
+	ValueIncreasePerLevel 300.000000
 HullPointRestoreRate
-	StartValue 3.100000
-	ValueIncreasePerLevel 0.700000
+	StartValue 7.500000
+	ValueIncreasePerLevel 2.200000
 ShieldPointRestoreRate
-	StartValue 20.500000
-	ValueIncreasePerLevel 2.500000
+	StartValue 11.500000
+	ValueIncreasePerLevel 3.000000
 ArmorPointsFromExperience
-	StartValue 12.000000
-	ValueIncreasePerLevel 0.918000
+	StartValue 8.000000
+	ValueIncreasePerLevel 0.334000
 maxMitigation
-	StartValue 0.5000000
-	ValueIncreasePerLevel 0.001000
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.0000000
 MaxAntiMatter
-	StartValue 1275.000000
-	ValueIncreasePerLevel 45.000000
+	StartValue 550.000000	
+	ValueIncreasePerLevel 35.000000
 AntiMatterRestoreRate
 	StartValue 0.850000
-	ValueIncreasePerLevel 0.120000
+	ValueIncreasePerLevel 0.090000
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
@@ -87,214 +83,77 @@ Prerequisites
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"
 UpgradeTypeCount 6
-UpgradeType "Goauld_Titan_Hephestus_AbilityB"
-UpgradeType "Goauld_Titan_Hephestus_AbilityC"
-UpgradeType "Goauld_Titan_Hephestus_AbilityD"
-UpgradeType "Goauld_Titan_Hephestus_Durability"
-UpgradeType "Goauld_Titan_Hephestus_Weapons"
-UpgradeType "Goauld_Titan_Hephestus_Abilities"
+UpgradeType "Goauld_Titan_Sokar_AbilityB"
+UpgradeType "Goauld_Titan_Sokar_AbilityC"
+UpgradeType "Goauld_Titan_Sokar_AbilityD"
+UpgradeType "Goauld_Titan_Sokar_Durability"
+UpgradeType "Goauld_Titan_Sokar_Weapons"
+UpgradeType "Goauld_Titan_Sokar_Abilities"
 numRandomDebrisLarge 80
 numRandomDebrisSmall 30
-numSpecificDebris 1
-specificDebrisMeshName "DebrisTechLarge"
+numSpecificDebris 0
 armorType "Titan"
 hudIcon "HUDICON_HUMAN_TITANDEFENSE_HEPHESTUS"
 smallHudIcon "MAINVIEWICON_HUMAN_TITANDEFENSE_HEPHESTUS"
 infoCardIcon "MAINVIEWICON_HUMAN_TITANDEFENSE_HEPHESTUS"
-minZoomDistanceMult 2.000000
-NumWeapons 4
+minZoomDistanceMult 0.750000
+NumWeapons 1
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "TITAN"
+		AttackType "CAPITALSHIP"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
-		DamageType "PHYSICAL"
-		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 100.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 81.520004
-	DamagePerBank:RIGHT 81.520004
-	Range 10000.000000
-	PreBuffCooldownTime 2.500000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting TRUE
-	PointStaggerDelay 0.300000
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 650.000000
+	DamagePerBank:BACK 650.000000
+	DamagePerBank:LEFT 650.000000
+	DamagePerBank:RIGHT 650.000000
+	Range 4500.000000
+	PreBuffCooldownTime 4.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 1.000000
 	TravelSpeed 4000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 8
-		burstDelay 0.100000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_AutoCannonTitan_Muzzle"
-		muzzleSoundMinRespawnTime 10.000000
+		burstCount 1
+		burstDelay 0.00000
+		fireDelay 1.00000
+		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
+		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
-			soundCount 3
-			sound "WEAPON_TECHCAPITALAUTOCANNONMEDIUM_MUZZLE"
-			sound "WEAPON_TECHCAPITALAUTOCANNONMEDIUM_MUZZLE_ALT1"
-			sound "WEAPON_TECHCAPITALAUTOCANNONMEDIUM_MUZZLE_ALT2"
-		hitEffectName "Weapon_Tech_AutoCannonTitan_Hit"
+			soundCount 1
+			sound "Weapon_Goa'uld_Capital"
+		hitEffectName "Weapon_GoauldCapitalPlasma_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_PHYSICALMEDIUM_HITHULL"
+			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
-		projectileTravelEffectName "Weapon_Tech_AutoCannonTitan_Travel"
-Weapon
-	WeaponType "Missile"
-	damageEnums
-		AttackType "TITAN"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "PHYSICAL"
-		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 1000.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 10000.000000
-	PreBuffCooldownTime 6.500000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.150000
-	TravelSpeed 1300.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Missile"
-		burstCount 4
-		burstDelay 0.600000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_MissileCapShip_Muzzle"
-		muzzleSoundMinRespawnTime 0.500000
-		muzzleSounds
-			soundCount 3
-			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE"
-			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE_ALT1"
-			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE_ALT2"
-		hitEffectName "Weapon_Tech_MissileCapShip_Hit"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_MISSILEHEAVY_HITGENERIC"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_MISSILEHEAVY_HITGENERIC"
-		missileTravelEffectName "Weapon_Tech_MissileCapShip_Travel"
-		missileStartTurningDistance 0.500000
-		missileSlowTurnRate 0.508997
-		missileMaxSlowTurnTime 5.000000
-Weapon
-	WeaponType "Projectile"
-	damageEnums
-		AttackType "TITAN"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "PHYSICAL"
-		WeaponClassType "RAILGUN"
-	DamagePerBank:FRONT 250.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 12000.000000
-	PreBuffCooldownTime 3.000000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.000000
-	TravelSpeed 7000.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Projectile"
-		burstCount 1
-		burstDelay 0.000000
-		fireDelay 0.600000
-		muzzleEffectName "Weapon_TechRebel_TitanRailgun_Muzzle"
-		muzzleSoundMinRespawnTime 0.050000
-		muzzleSounds
-			soundCount 1
-			sound "WEAPON_TECHTITANRAILGUN_MUZZLE"
-		hitEffectName "Weapon_TechRebel_TitanRailgun_Hit"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "Weapon_TechRebel_TitanRailgun_Travel"
-Weapon
-	WeaponType "Beam"
-	damageEnums
-		AttackType "ANTIHEAVY"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "ENERGY"
-		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 1750.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 6000.000000
-	PreBuffCooldownTime 4.0000000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 1.300000
-	TravelSpeed 0.000000
-	Duration 1.000000
-	fireConstraintType "Research"
-	researchPrerequisites
-		NumResearchPrerequisites 1
-		ResearchPrerequisite
-			Subject "Goauld_Research_Ability_AsgardBeams"
-			Level 1
-		RequiredFactionNameID ""
-		RequiredCompletedResearchSubjects 0
-	WeaponEffects
-		weaponType "Beam"
-		burstCount 1
-		burstDelay 0.000000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_Psi_BeamCapital_Muzzle"
-		muzzleSoundMinRespawnTime 1.300000
-		muzzleSounds
-			soundCount 1
-			sound "WEAPON_ASGARDBEAMS_MUZZLE"
-		hitEffectName "Weapon_Psi_BeamCapital_Hit"
-		hitHullEffectSounds
-			soundCount 1
-			sound ""
-		hitShieldsEffectSounds
-			soundCount 1
-			sound ""
-		beamEffectSounds
-			soundCount 1
-			sound ""
-		beamGlowTextureName "PsiCapitalBeam_Glow"
-		beamCoreTextureName "PsiCapitalBeam_Core"
-		beamWidth 40.000000
-		beamGlowColor ffffffff
-		beamCoreColor ffffffff
-		beamTilingRate 3.000000
-m_weaponIndexForRange 3
+		projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
+m_weaponIndexForRange 0
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 1
-TargetCountPerBank:BACK 0
+TargetCountPerBank:FRONT 2
+TargetCountPerBank:BACK 2
 TargetCountPerBank:LEFT 2
 TargetCountPerBank:RIGHT 2
 canOnlyTargetStructures FALSE
-mass 100000.000000
-ShieldMeshName "Human_Shield_TitanDefense_Hephestus"
+mass 10000.000000
+ShieldMeshName "Goauld_Shield_TitanDefense_Sokar"
 renderShield TRUE
-maxAccelerationLinear 60.000000
-maxAccelerationStrafe 10.000000
-maxDecelerationLinear 500.000000
-maxAccelerationAngular 10.800000
-maxDecelerationAngular 5.999996
-maxSpeedLinear 450.000000
-maxRollRate 3.650000
-maxRollAngle 45.000000
+maxAccelerationLinear 150.000000
+maxAccelerationStrafe 150.000000
+maxDecelerationLinear 150.000000
+maxAccelerationAngular 5.000000
+maxDecelerationAngular 5.000000
+maxSpeedLinear 600.000000
+maxRollRate 5.000000
+maxRollAngle 30.000000
 squadTypeEntityDef:0 "Goauld_FighterSquad_DeathGlider"
 squadAntiMatterCost:0 0.000000
 squadTypeEntityDef:1 "Goauld_FighterSquad_DeathBomber"
@@ -303,43 +162,36 @@ squadTypeEntityDef:2 ""
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
-NumSoundsFor:ONATTACKORDERISSUED 4
-SoundID "TITAN_TECHREBEL_ONATTACKORDERISSUED_0"
-SoundID "TITAN_TECHREBEL_ONATTACKORDERISSUED_1"
-SoundID "TITAN_TECHREBEL_ONATTACKORDERISSUED_2"
-SoundID "TITAN_TECHREBEL_ONATTACKORDERISSUED_3"
+NumSoundsFor:ONATTACKORDERISSUED 1
+SoundID "CAPITALSHIP_GOAULDSIEGE_ONATTACKORDERISSUED_0"
 NumSoundsFor:ONCREATION 1
-SoundID "TITAN_TECHREBEL_ONCREATION_0"
-NumSoundsFor:ONGENERALORDERISSUED 3
-SoundID "TITAN_TECHREBEL_ONGENERALORDERISSUED_0"
-SoundID "TITAN_TECHREBEL_ONGENERALORDERISSUED_1"
-SoundID "TITAN_TECHREBEL_ONGENERALORDERISSUED_2"
-NumSoundsFor:ONSELECTED 3
-SoundID "TITAN_TECHREBEL_ONSELECTED_0"
-SoundID "TITAN_TECHREBEL_ONSELECTED_1"
-SoundID "TITAN_TECHREBEL_ONSELECTED_2"
+SoundID "CAPITALSHIP_GOAULDSIEGE_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 1
+SoundID "CAPITALSHIP_GOAULDSIEGE_ONGENERALORDERISSUED_0"
+NumSoundsFor:ONSELECTED 1
+SoundID "CAPITALSHIP_GOAULDSIEGE_ONSELECTED_0"
 NumSoundsFor:ONSTARTPHASEJUMP 1
-SoundID "TITAN_TECHREBEL_ONSTARTPHASEJUMP_0"
+SoundID "CAPITALSHIP_GOAULDSIEGE_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Human_TitanDefense_Hephestus"
+	meshName "Goauld_TitanDefense_Sokar"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
-ExhaustParticleSystemName "Exhaust_TechTitanRebel"
-ExplosionName "StarBase1"
+ExhaustParticleSystemName ""
+ExplosionName "CapitalShip0"
 CommandPoints
-	StartValue 6.600000
-	ValueIncreasePerLevel 0.200000
+	StartValue 4.000000
+	ValueIncreasePerLevel 0.700000
 weaponCooldownDecreasePerc
 	StartValue 0.000000
-	ValueIncreasePerLevel 0.034500
+	ValueIncreasePerLevel 0.030000
 weaponDamageIncreasePerc
 	StartValue 0.000000
-	ValueIncreasePerLevel 0.060000
+	ValueIncreasePerLevel 0.050000
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
-EngineSoundID "ENGINE_TECHCAPITALSHIP"
+EngineSoundID "ENGINE_GOAULDCAPITALSHIP"
 formationRank 0
 minShadow 0.000000
 maxShadow 1.000000
