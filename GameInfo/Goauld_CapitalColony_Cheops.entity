@@ -75,8 +75,8 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_GOAULD_CAPITALCOLONY_MOTHERSHIP_NAME"
-DescriptionStringID "IDS_GOAULD_CAPITALCOLONY_MOTHERSHIP_DESCRIPTION"
+NameStringID "IDS_GOAULD_CAPITALCOLONY_CHEOPS_NAME"
+DescriptionStringID "IDS_GOAULD_CAPITALCOLONY_CHEOPS_DESCRIPTION"
 picture "HUMAN_CAPITALCOLONY_DESTINY_PICTURE"
 Prerequisites
 	NumResearchPrerequisites 0
@@ -215,7 +215,7 @@ TargetCountPerBank:LEFT 1
 TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 mass 2590.000000
-ShieldMeshName "Goauld_Shield_CapitalColony_Mothership"
+ShieldMeshName "Goauld_Shield_CapitalColony_Cheops"
 renderShield TRUE
 maxAccelerationLinear 232.000000
 maxAccelerationStrafe 160.000000
@@ -245,7 +245,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "CAPITALSHIP_GOAULDCOLONY_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Goauld_CapitalColony_Mothership"
+	meshName "Goauld_CapitalColony_Cheops"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
