@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
 ability:0 "Goauld_AbilityCapital_Colonize"
-ability:1 ""
-ability:2 "Goauld_AbilityCapital_SensorGhostFleet"
-ability:3 "Goauld_AbilityCapital_OmegaManeuver"
+ability:1 "Goauld_AbilityCapital_GravityWarhead"
+ability:2 ""
+ability:3 ""
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -77,7 +77,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_GOAULD_CAPITALCOLONY_CHEOPS_NAME"
 DescriptionStringID "IDS_GOAULD_CAPITALCOLONY_CHEOPS_DESCRIPTION"
-picture "HUMAN_CAPITALCOLONY_DESTINY_PICTURE"
+picture "GOAULD_CAPITALCOLONY_CHEOPS_PICTURE"
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""

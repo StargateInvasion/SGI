@@ -1,0 +1,50 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "CapitalBuff_GravityWarhead"
+		mediumEffectName "CapitalBuff_GravityWarhead"
+		largeEffectName "CapitalBuff_GravityWarhead"
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 2
+entityModifier
+	buffEntityModifierType "LinearMaxSpeed"
+	value
+		Level:0 -0.300000
+		Level:1 -0.450000
+		Level:2 -0.600000
+		Level:3 0.000000
+entityModifier
+	buffEntityModifierType "LinearThrust"
+	value
+		Level:0 -0.600000
+		Level:1 -0.800000
+		Level:2 -1.200000
+		Level:3 0.000000
+numEntityBoolModifiers 1
+entityBoolModifier "DisablePhaseJump"
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 12.000000
+		Level:1 15.000000
+		Level:2 18.000000
+		Level:3 0.000000
+finishCondition
+	finishConditionType "OwnerChanged"
