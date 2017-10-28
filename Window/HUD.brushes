@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 174
+brushCount 176
 brush
 	name "RebellionResearchOverlay"
 	content "Simple"
@@ -2260,34 +2260,44 @@ brush
 		fileName "Buttons_Screens2_Normal_SGI"
 		pixelBox [ 447 , 69 , 64 , 30 ]
 brush
-	name "QuickMarketBackdropTech"
+	name "QuickMarketBackdropHuman"
 	content "Simple"
 	fileName "Buttons_Interface"
 	pixelBox [ 5 , 337 , 279 , 171 ]
 brush
-	name "QuickMarketBackdropNoPiratesTech"
+	name "QuickMarketBackdropNoPiratesHuman"
 	content "Simple"
 	fileName "Buttons_Interface"
 	pixelBox [ 5 , 330 , 279 , 117 ]
 brush
+	name "QuickMarketBackdropGoauld"
+	content "Simple"
+	fileName "Buttons_Interface2"
+	pixelBox [ 291 , 153 , 284 , 175 ]
+brush
+	name "QuickMarketBackdropNoPiratesGoauld"
+	content "Simple"
+	fileName "Buttons_Interface2"
+	pixelBox [ 291 , 147 , 284 , 119 ]
+brush
 	name "QuickMarketBackdropPsi"
 	content "Simple"
-	fileName "Buttons_Interface_Psi_Phase"
+	fileName "Buttons_Interface2"
 	pixelBox [ 5 , 337 , 279 , 171 ]
 brush
 	name "QuickMarketBackdropNoPiratesPsi"
 	content "Simple"
-	fileName "Buttons_Interface_Psi_Phase"
+	fileName "Buttons_Interface2"
 	pixelBox [ 5 , 337 , 279 , 102 ]
 brush
-	name "QuickMarketBackdropPhase"
+	name "QuickMarketBackdropAsuran"
 	content "Simple"
-	fileName "Buttons_Interface_Psi_Phase"
+	fileName "Buttons_Interface2"
 	pixelBox [ 5 , 155 , 284 , 175 ]
 brush
-	name "QuickMarketBackdropNoPiratesPhase"
+	name "QuickMarketBackdropNoPiratesAsuran"
 	content "Simple"
-	fileName "Buttons_Interface_Psi_Phase"
+	fileName "Buttons_Interface2"
 	pixelBox [ 5 , 155 , 284 , 104 ]
 brush
 	name "QuickPirateIncreaseBountyOnHighestEnemyButton"
