@@ -1,0 +1,52 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "CapitalBuff_NanoDisassembler_Small"
+		mediumEffectName "CapitalBuff_NanoDisassembler_Large"
+		largeEffectName "CapitalBuff_NanoDisassembler_Large"
+		soundID "EFFECT_NANODISASSEMBLER_LOOP"
+numPeriodicActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "DoDamage"
+	damageRate
+		Level:0 25.000000
+		Level:1 25.000000
+		Level:2 25.000000
+		Level:3 0.000000
+	damageAffectType "AFFECTS_ONLY_HULL"
+	damageType "PHYSICAL"
+	isDamageShared FALSE
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "ArmorAsDamageTarget"
+	value
+		Level:0 -1.500000
+		Level:1 -3.000000
+		Level:2 -4.500000
+		Level:3 0.000000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 25.000000
+		Level:1 35.000000
+		Level:2 45.000000
+		Level:3 0.000000
+finishCondition
+	finishConditionType "OwnerChanged"

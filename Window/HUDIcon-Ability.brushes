@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 286
+brushCount 287
 brush
 	name "HUDICON_ABILITY_ORBITALSHOCKWAVE"
 	content "States"
@@ -2179,6 +2179,24 @@ brush
 	Normal
 		fileName "Buttons_Research_SGI"
 		pixelBox [ 194 , 444 , 47 , 33 ]
+brush
+	name "HUDICON_ABILITY_RESOURCEDRAIN"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 362 , 808 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Research_Pressed"
+		pixelBox [ 362 , 808 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Research_CursorOver"
+		pixelBox [ 362 , 808 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 362 , 808 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 362 , 808 , 47 , 33 ]
 brush
 	name "HUDICON_ABILITY_CONVERTFIGHTERSTOMINES"
 	content "States"

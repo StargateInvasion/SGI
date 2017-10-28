@@ -1,0 +1,64 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffCapital_ResourceDrainCharging"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 1
+	object "Planet"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 6600.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility TRUE
+maxNumLevels 1
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 5.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+aiUseTime "OnlyWhenBombing"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 150.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 180.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYCAPITAL_RESOURCEDRAIN_NAME"
+descStringID "IDS_GOAULD_ABILITYCAPITAL_RESOURCEDRAIN_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_RESOURCEDRAIN"
+smallHudIcon "HUDICON_ABILITY_RESOURCEDRAIN"
+infoCardIcon ""
