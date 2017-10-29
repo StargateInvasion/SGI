@@ -1,11 +1,5 @@
 ﻿TXT
-NumStrings 8047
-StringInfo
-	ID "IDS_ABILITY_ANTIMATTER_FOUNTAIN_NAME"
-	Value "Energy Fountain"
-StringInfo
-	ID "IDS_ABILITY_ANTIMATTER_FOUNTAIN_DESCRIPTION"
-	Value "Some unknown force has ripped a tear through space time to create this particle fountain. While dangerous, ships may recharge their energy reserves here very rapidly."
+NumStrings 7836
 StringInfo
 	ID "IDS_ABILITY_ANTIMATTER_FOUNTAIN_NAME"
 	Value "Energy Fountain"
@@ -19,11 +13,41 @@ StringInfo
 	ID "IDS_ABILITY_ASTEROIDBELT_DESCRIPTION"
 	Value "Chaotic motion of fine debris complicates target acquisition, reducing the accuracy of weapons fire while in the gravity well."
 StringInfo
+	ID "IDS_ABILITY_CHASTICBURST_NAME"
+	Value "Chastic Burst"
+StringInfo
+	ID "IDS_ABILITY_CHASTICBURST_DESCRIPTION"
+	Value "A powerful burst of energy deals damage to all enemy ships near the target."
+StringInfo
 	ID "IDS_ABILITY_COMET_NAME"
 	Value "Comet"
 StringInfo
 	ID "IDS_ABILITY_COMET_DESCRIPTION"
 	Value "This icy body from the outer rim of the solar system is beautiful to behold, but the clouds of debris it spews forth slows travel."
+StringInfo
+	ID "IDS_ABILITY_DESPERATION_NAME"
+	Value "Desperation"
+StringInfo
+	ID "IDS_ABILITY_DESPERATION_DESCRIPTION"
+	Value "Negates some of the damage that the Titan takes and grants the Titan splash damage. When the Titan is dealt damage, it gains a stacking bonus to weapon cooldown for some time."
+StringInfo
+	ID "IDS_ABILITY_DISSEVER_NAME"
+	Value "Dissever"
+StringInfo
+	ID "IDS_ABILITY_DISSEVER_DESCRIPTION"
+	Value "The Titan damages all nearby enemy ships with destructive nanites. Those affected by Nano Leech take additional damage over time for the duration."
+StringInfo
+	ID "IDS_ABILITY_EXPLOSIVESHOT_NAME"
+	Value "Explosive Shot"
+StringInfo
+	ID "IDS_ABILITY_EXPLOSIVESHOT_DESCRIPTION"
+	Value "The Titan fires an explosive shell at the target ship which explodes, dealing damage and knocking back nearby enemies."
+StringInfo
+	ID "IDS_ABILITY_GRAVITYPULSE_NAME"
+	Value "Gravity Pulse"
+StringInfo
+	ID "IDS_ABILITY_GRAVITYPULSE_DESCRIPTION"
+	Value "The titan unleases a powerful gravimetric wave, slowing nearby enemies. Ships that are affected by Nano Leech are instead disabled."
 StringInfo
 	ID "IDS_ABILITY_ICE_FIELD_NAME"
 	Value "Ice Field"
@@ -36,6 +60,30 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_MAGNETICCLOUD_DESCRIPTION"
 	Value "Strong magnetic radiation in this gaseous environment destabilizes all abilities."
+StringInfo
+	ID "IDS_ABILITY_MICROPHASEJUMP_NAME"
+	Value "Micro-Phase Jump"
+StringInfo
+	ID "IDS_ABILITY_MICROPHASEJUMP_DESCRIPTION"
+	Value "Instantly transports the titan to the targeted position."
+StringInfo
+	ID "IDS_ABILITY_NANOLEECH_NAME"
+	Value "Nano Leech"
+StringInfo
+	ID "IDS_ABILITY_NANOLEECH_DESCRIPTION"
+	Value "The titan unleashes a nanite swarm, stealing hull and antimatter from nearby enemy ships while they remain in range."
+StringInfo
+	ID "IDS_ABILITY_NANOREMIT_NAME"
+	Value "Nano Remit"
+StringInfo
+	ID "IDS_ABILITY_NANOREMIT_DESCRIPTION"
+	Value "The Titan sacrifices some of its own hull and antimatter to restore the hull and antimatter to nearby friendly ships. You must have enough hull and antimatter for this effect to take place."
+StringInfo
+	ID "IDS_ABILITY_OVERCHARGE_NAME"
+	Value "Overcharge"
+StringInfo
+	ID "IDS_ABILITY_OVERCHARGE_DESCRIPTION"
+	Value "The next ability the titan uses will be enhanced for far greater effect."
 StringInfo
 	ID "IDS_ABILITY_PHASEMODULECONSTRUCTION_NAME"
 	Value "Construction"
@@ -55,17 +103,41 @@ StringInfo
 	ID "IDS_ABILITY_PSIMODULECONSTRUCTION_DESC"
 	Value "Finish constructing unbuilt structures."
 StringInfo
+	ID "IDS_ABILITY_PURIFICATION_NAME"
+	Value "Purification"
+StringInfo
+	ID "IDS_ABILITY_PURIFICATION_DESCRIPTION"
+	Value "Destroys target owned frigate or cruiser, allowing the titan to absorb its remaining hull, shields and antimatter."
+StringInfo
 	ID "IDS_ABILITY_RADIATION_STORM_NAME"
 	Value "Radiation Field"
 StringInfo
 	ID "IDS_ABILITY_RADIATION_STORM_DESCRIPTION"
 	Value "This area of space is saturated with deadly radiation, which saps energy and hinders passive regeneration. Strike craft are also kept from launching due to potential lethal exposure."
 StringInfo
+	ID "IDS_ABILITY_REPOSSESSION_NAME"
+	Value "Repossession"
+StringInfo
+	ID "IDS_ABILITY_REPOSSESSION_DESCRIPTION"
+	Value "Target enemy planet is instantly brought under your control through the will of the Unity."
+StringInfo
+	ID "IDS_ABILITY_SCATTERSHOT_NAME"
+	Value "Scattershot"
+StringInfo
+	ID "IDS_ABILITY_SCATTERSHOT_DESCRIPTION"
+	Value "The titan fires a salvo of projectiles, dealing damage and lowering armor in a cone in front of the ship."
+StringInfo
 	ID "IDS_ABILITY_SHATTERED_MOON_NAME"
 	Value "Shattered Dwarf Planet"
 StringInfo
 	ID "IDS_ABILITY_SHATTERED_MOON_DESCRIPTION"
 	Value "Some force has recently shattered this dwarf planet, making it uninhabitable. The resulting debris field causes additional damage to ships and armor."
+StringInfo
+	ID "IDS_ABILITY_SNIPE_NAME"
+	Value "Snipe"
+StringInfo
+	ID "IDS_ABILITY_SNIPE_DESCRIPTION"
+	Value "The titan fires an extremely powerful, long-range shell, dealing massive damage to a single target."
 StringInfo
 	ID "IDS_ABILITY_SOLARFLARES_NAME"
 	Value "Solar Flares"
@@ -97,6 +169,12 @@ StringInfo
 	ID "IDS_ABILITY_SOLARSTORM_DESCRIPTION"
 	Value "Energetic solar activity around this star prevents ship crews from initiating regular repairs."
 StringInfo
+	ID "IDS_ABILITY_SPAWNPHASESTABILIZER_NAME"
+	Value "Spawn Phase Stabilizer"
+StringInfo
+	ID "IDS_ABILITY_SPAWNPHASESTABILIZER_DESCRIPTION"
+	Value "Spawns a phase stabilizer module in the current gravity well. When used with Dark Fleet Beacon research, even factions without settled planets can reinforce themselves."
+StringInfo
 	ID "IDS_ABILITY_STAR_BLACKHOLE_NAME"
 	Value "Black Hole"
 StringInfo
@@ -115,17 +193,53 @@ StringInfo
 	ID "IDS_ABILITY_STAR_PULSAR_DESCRIPTION"
 	Value "This is the rapidly spinning core of a dead star which unleashes crippling waves of radiation. Ships around the Pulsar suffer more damage and targeting systems are jammed."
 StringInfo
+	ID "IDS_ABILITY_STRENGTHOFTHEFALLEN_NAME"
+	Value "Strength of the Fallen"
+StringInfo
+	ID "IDS_ABILITY_STRENGTHOFTHEFALLEN_DESCRIPTION"
+	Value "Friendly ships that are destroyed near the titan increase its weapon damage for a short period of time. This stacks for each ship destroyed."
+StringInfo
+	ID "IDS_ABILITY_SUBJUGATINGASSAULT_NAME"
+	Value "Subjugation"
+StringInfo
+	ID "IDS_ABILITY_SUBJUGATINGASSAULT_DESCRIPTION"
+	Value "Psionic energy is channeled into the titan's weapons, giving them a chance to permanently mind control enemy ships. Weapons fire depletes antimatter and deals decreased damage while this ability is active."
+StringInfo
+	ID "IDS_ABILITY_SUPPRESSIONAURA_NAME"
+	Value "Suppression Aura"
+StringInfo
+	ID "IDS_ABILITY_SUPPRESSIONAURA_DESCRIPTION"
+	Value "Nearby enemy ships are telekinetically suppressed, lowering weapon damage and movement speed."
+StringInfo
 	ID "IDS_ABILITY_TECHMODULECONSTRUCTION_NAME"
 	Value "Construction"
 StringInfo
 	ID "IDS_ABILITY_TECHMODULECONSTRUCTION_DESC"
 	Value "Finish constructing unbuilt structures."
 StringInfo
+	ID "IDS_ABILITY_THEMAW_NAME"
+	Value "The Maw"
+StringInfo
+	ID "IDS_ABILITY_THEMAW_DESCRIPTION"
+	Value "The titan becomes immobile and begins to attract nearby enemy ships in a frontal cone. Enemy ships that are drawn into the titan's maw are destroyed and converted into resources for your cause."
+StringInfo
+	ID "IDS_ABILITY_UNITYMASS_NAME"
+	Value "Unity Mass"
+StringInfo
+	ID "IDS_ABILITY_UNITYMASS_DESCRIPTION"
+	Value "The will of all nearby friendly ships is focused into a beam of hatred against an enemy target."
+StringInfo
 	ID "IDS_ABILITY_UNSTABLEGAS_NAME"
 	Value "Unstable Gas Pockets"
 StringInfo
 	ID "IDS_ABILITY_UNSTABLEGAS_DESCRIPTION"
 	Value "Volatile gases from the planet's upper atmosphere permeate the gravity well. Large explosions will cause it to combust and deal further damage to nearby ships."
+StringInfo
+	ID "IDS_ABILITY_UNYIELDINGWILL_NAME"
+	Value "Unyielding Will"
+StringInfo
+	ID "IDS_ABILITY_UNYIELDINGWILL_DESCRIPTION"
+	Value "When the titan's hull is depleted, it will become invulnerable for a short period of time before being destroyed. Ability cooldowns are greatly reduced and antimatter regeneration is massively increased."
 StringInfo
 	ID "IDS_ASURAN_ABILITYCAPITAL_ACCELERATEDNANITES_NAME"
 	Value "Accelerated Nanites"
@@ -993,12 +1107,6 @@ StringInfo
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_ABILITY_SELFREPAIR_DESCRIPTION"
 	Value "Unlocks the ability to use nanite drones to repair damage."
-StringInfo
-	ID "IDS_HUMAN_RESEARCH_ABILITY_SELFREPAIR_NAME"
-	Value "Atlantean Shield Charge"
-StringInfo
-	ID "IDS_HUMAN_RESEARCH_ABILITY_SELFREPAIR_DESCRIPTION"
-	Value "Atlantean knowledge of ancient energy systems helps the Tau'ri augment Asgard Shields with improved regeneration capabilities."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_ABILITY_SLOWENEMYHYPERSPACE_NAME"
 	Value "Disturb Hyperspace"
@@ -2860,6 +2968,12 @@ StringInfo
 	ID "IDS_HUMAN_RESEARCH_ABILITY_SABOTAGEENGINES_DESCRIPTION"
 	Value "Allows the Tau'ri to override safety protocols and modify there sub-light engines to preform at phenomenal output levels."
 StringInfo
+	ID "IDS_HUMAN_RESEARCH_ABILITY_SELFREPAIR_NAME"
+	Value "Atlantean Shield Charge"
+StringInfo
+	ID "IDS_HUMAN_RESEARCH_ABILITY_SELFREPAIR_DESCRIPTION"
+	Value "Atlantean knowledge of ancient energy systems helps the Tau'ri augment Asgard Shields with improved regeneration capabilities."
+StringInfo
 	ID "IDS_HUMAN_RESEARCH_ABILITY_SETTLERS_NAME"
 	Value "Settlers"
 StringInfo
@@ -4015,921 +4129,6 @@ StringInfo
 	ID "IDS_HUMAN_TITAN_TARTARUS_WEAPONS_DESCRIPTION"
 	Value "Upgrades to the Tartarus weapons systems increase the damage output."
 StringInfo
-	ID "IDS_GOAULD_RESEARCH_ABILITY_SELFREPAIR_NAME"
-	Value "Atlantean Shield Charge"
-StringInfo
-	ID "IDS_GOAULD_RESEARCH_ABILITY_SELFREPAIR_DESCRIPTION"
-	Value "Atlantean knowledge of ancient energy systems helps the Tau'ri augment Asgard Shields with improved regeneration capabilities."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ABILITY_SLOWENEMYHYPERSPACE_NAME"
-	Value "Disturb Hyperspace"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ABILITY_SLOWENEMYHYPERSPACE_DESCRIPTION"
-	Value "Slow Enemy Hyperspace"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ABILITY_STOPREGEN_NAME"
-	Value "Disable Regeneration"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ABILITY_STOPREGEN_DESCRIPTION"
-	Value "Modifies the orbital heavy defense platform drones to temporarily disable regeneration on impact."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ABILITY_TELEPORTDISABLE_NAME"
-	Value "String Manipulation"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ABILITY_TELEPORTDISABLE_DESCRIPTION"
-	Value "Research into string manipulation enables modification of string vibrations that cause subtle changes to the fundamental behaviour of Gravity and other forces. Multiple Abilities are unlocked including the ability to disable teleportation by making the energy beam unstable and the creation of massive gravity fields that damage to enemy ships."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ABILITY_UNSTOPPABLEPHASEJUMP_NAME"
-	Value "Hyperspace Stabilizers"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ABILITY_UNSTOPPABLEPHASEJUMP_DESCRIPTION"
-	Value "System upgrades stabilize the hyperdrives of all Asuran scout ships allowing them to jump even when enemy inhibitors are in the system."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ANTIMATTER0_NAME"
-	Value "Energy Containment"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ANTIMATTER0_DESCRIPTION"
-	Value "Upgrades all ships with larger energy containment systems."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ANTIMATTER1_NAME"
-	Value "Power Efficiency"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ANTIMATTER1_DESCRIPTION"
-	Value "Upgrades energy transference subsystems on all ships."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ANTIMATTER2_NAME"
-	Value "ZPM Capacity"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ANTIMATTER2_DESCRIPTION"
-	Value "Additional Zero Point Modules slots are added for all ships."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ARMOR0_NAME"
-	Value "Trinium Armor"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ARMOR0_DESCRIPTION"
-	Value "Upgrades all ships with a strong Trinium armor plating."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ARMOR1_NAME"
-	Value "Neutronium Armor"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ARMOR1_DESCRIPTION"
-	Value "Upgrades all ships with hardened Neutronium armor plating"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_BOUNTYMULTIPLIERCOLLECT_NAME"
-	Value "Replicator Reprogramming"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_BOUNTYMULTIPLIERCOLLECT_DESCRIPTION"
-	Value "Replicators are reprogrammed, increasing your influence."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CAPITALBATTLESHIP_ORION_NAME"
-	Value "Aurora"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CAPITALBATTLESHIP_ORION_DESCRIPTION"
-	Value "Capital - Battleship Aurora Prototype"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CAPITALCARRIER_ALASTOR_NAME"
-	Value "Alastor"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CAPITALCARRIER_ALASTOR_DESCRIPTION"
-	Value "Capital - Carrier Alastor Prototype"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CAPITALCULTUREPROTECTION_NAME"
-	Value "Capital Culture Protection"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CAPITALCULTUREPROTECTION_DESCRIPTION"
-	Value "Using Jamming technology to stop the spread of enemy culture to the capital."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CAPITALMAXBUYLEVEL0_NAME"
-	Value "Extended Crew Training"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CAPITALMAXBUYLEVEL0_DESCRIPTION"
-	Value "Allows the purchase of higher capital ship experience levels"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CAPITALSIEGE_ANTEUS_NAME"
-	Value "Antaeus"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CAPITALSIEGE_ANTEUS_DESCRIPTION"
-	Value "Having gained access to their code through Rodney McKays' modifications, the Asurans are now free to evolve and better themselves. This behemoth is the culmination of their most advanced technologies and is one of the few designs the Asurans have created themselves. This vessel is a capital ship with the power of a titan and is one of, if not the most powerful capital ships ever created."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CAPITALSUPPORT_ORIGIN_NAME"
-	Value "Origin"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CAPITALSUPPORT_ORIGIN_DESCRIPTION"
-	Value "Capital - Support Origin Prototype"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CAPITALTRANSPORT_ROMULUS_NAME"
-	Value "Romulus"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CAPITALTRANSPORT_ROMULUS_DESCRIPTION"
-	Value "As with the Antaeus, the Romulus is an Asuran design. This is one of the first unique prototypes to be created and builds on their existing knowledge of Ancient technology with increased drone carrying capacity and shield strength."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_COSTDECREASECREDITS0_NAME"
-	Value "Research Efficiency"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_COSTDECREASECREDITS0_DESCRIPTION"
-	Value "Reduces the credit cost of research"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_COSTDECREASERESOURCES0_NAME"
-	Value "Resource Efficiency"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_COSTDECREASERESOURCES0_DESCRIPTION"
-	Value "Reduces the credit cost of research"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CRUISERANTIMODULE_TYPHON_NAME"
-	Value "Typhon"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CRUISERANTIMODULE_TYPHON_DESCRIPTION"
-	Value "Cruiser - Anti Structure Typhon Prototype"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CRUISERCARRIER_CAELUS_NAME"
-	Value "Caelus"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CRUISERCARRIER_CAELUS_DESCRIPTION"
-	Value "Cruiser - Carrier Caelus Prototype"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CRUISERENVOY_MERCURY_NAME"
-	Value "Mercury"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CRUISERENVOY_MERCURY_DESCRIPTION"
-	Value "Cruiser - Envoy Mercury Prototype"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CRUISERHEAVY_ATROPOS_NAME"
-	Value "Atropos"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CRUISERHEAVY_ATROPOS_DESCRIPTION"
-	Value "Based on Ancient designs, this heavy cruiser is the backbone of the Asuran fleet. A deadly drone strike craft with the ability to cloak itself allowing it to enter deep into enemy territory for precision attacks. It's enhanced replicator repair systems increase its' ability to survive such strategic manoeuvres."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CRUISERSTARBASECONSTRUCTOR_RHEA_NAME"
-	Value "Rhea"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CRUISERSTARBASECONSTRUCTOR_RHEA_DESCRIPTION"
-	Value "Cruiser - Starbase Constructor Rhea Prototype"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CRUISERUTILITY0_FIGARO_NAME"
-	Value "Figaro"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CRUISERUTILITY0_FIGARO_DESCRIPTION"
-	Value "Cruiser - Utility0 Figaro Prototype"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CRUISERUTILITY1_KREIOS_NAME"
-	Value "Kreios"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CRUISERUTILITY1_KREIOS_DESCRIPTION"
-	Value "Cruiser - Utility1 Kreios Prototype"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CULTURERATE0_NAME"
-	Value "Culture Spread L1"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CULTURERATE0_DESCRIPTION"
-	Value "Unlocks subspace communications to increase the spread of culture."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CULTURERATE1_NAME"
-	Value "Digital Ascension"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_CULTURERATE1_DESCRIPTION"
-	Value "Scientists discover an artificial means to digitize the mind into a field of energy that exists within subspace.  Few choose this unfulfilling state, but the ability to be free to move about the galaxy unencumbered by physical existence increases the spread of Asuran culture."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ENEMYRELATIONS_NAME"
-	Value "Enemy Relations"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ENEMYRELATIONS_DESCRIPTION"
-	Value "TODO"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_EXPERTBRIBERY_NAME"
-	Value "Expert Bribery"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_EXPERTBRIBERY_DESCRIPTION"
-	Value "increases the relationship bonus from mineral transfers."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_FRIGATEANTIFIGHTER_OGEN_NAME"
-	Value "Ogen"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_FRIGATEANTIFIGHTER_OGEN_DESCRIPTION"
-	Value "Frigate - Anti Fighter Ogen Prototype"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_FRIGATELONGRANGE_ERINYES_NAME"
-	Value "Erinyes"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_FRIGATELONGRANGE_ERINYES_DESCRIPTION"
-	Value "Frigate - Long Range Erinyes Prototype"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_FRIGATESIEGE_GATESATELLITE_NAME"
-	Value "Gate Satellite"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_FRIGATESIEGE_GATESATELLITE_DESCRIPTION"
-	Value "The answer to the human pre-emptive strike on Asura. This design, while a barebones ship with little more than hyperdrive and shields, is capable of unleashing a powerful beam on both planets and ships. To tackle the problem of size and energy requirements, the Asurans simply built the weapon on Asura, connecting the beam to the satellite through a stargate. This allows them to use untold quantities of Zero Point Modules to power it indefinitely."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_HULL0_NAME"
-	Value "Improve Hull L1"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_HULL0_DESCRIPTION"
-	Value "using nanite technology the Asurans are able to improve the strength of their hull."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_HULL1_NAME"
-	Value "Improve Hull L2"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_HULL1_DESCRIPTION"
-	Value "Using nanite technology the Asurans have discovered a way to improve their ships hulls even further."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_HULL2_NAME"
-	Value "Improve Hull L3"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_HULL2_DESCRIPTION"
-	Value "Using nanite technology the Asurans have discovered a way to improve their ships hulls greatly."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_HYPERSPACEDETECTION0_NAME"
-	Value "Hyperspace Detection"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_HYPERSPACEDETECTION0_DESCRIPTION"
-	Value "unlocks short range hyperspace sensors for the detection of hyperspace events."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_HYPERSPACEDETECTION1_NAME"
-	Value "Hyperspace Monitoring"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_HYPERSPACEDETECTION1_DESCRIPTION"
-	Value "Unlocks Subspace sensors for greater detection range of hyperspace events."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_HYPERSPACEDETECTION2_NAME"
-	Value "Hyperspace Vision"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_HYPERSPACEDETECTION2_DESCRIPTION"
-	Value "Unlocks Quantum sensors for superior detection range of hyperspace events."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_HYPERSPACEGALAXYTRAVEL_NAME"
-	Value "Advanced Hyperdrive"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_HYPERSPACEGALAXYTRAVEL_DESCRIPTION"
-	Value "Allows travel between galaxies"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_HYPERSPACEGRAVITYRANGEDECREASE_NAME"
-	Value "Stabilize Hyperdrive"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_HYPERSPACEGRAVITYRANGEDECREASE_DESCRIPTION"
-	Value "Hyperspace gravity range decrease."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_HYPERSPACEWORMHOLETRAVEL_NAME"
-	Value "Wormhole Travel"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_HYPERSPACEWORMHOLETRAVEL_DESCRIPTION"
-	Value "Hyperspace wormhole travel, ships are upgraded to safely pass through discovered wormholes."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_INTERSPECIESRELATIONS0_NAME"
-	Value "Interspecies Relations L1"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_INTERSPECIESRELATIONS0_DESCRIPTION"
-	Value "Increases interspecies cohesion."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_INTERSPECIESRELATIONS1_NAME"
-	Value "Interspecies Relations L2"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_INTERSPECIESRELATIONS1_DESCRIPTION"
-	Value "Greatly increases interspecies cohesion."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_INTERSPECIESRELATIONS2_NAME"
-	Value "Interspecies Relations L3"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_INTERSPECIESRELATIONS2_DESCRIPTION"
-	Value "Vastly increases interspecies cohesion."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXCAPITALSHIPS0_NAME"
-	Value "Capital Ship Capacity L1"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXCAPITALSHIPS0_DESCRIPTION"
-	Value "Allows the construction and maintenance of additional capital ships"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXCAPITALSHIPS1_NAME"
-	Value "Capital Ship Capacity L2"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXCAPITALSHIPS1_DESCRIPTION"
-	Value "Allows the construction and maintenance of additional capital ships"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXCAPITALSHIPS2_NAME"
-	Value "Capital Ship Capacity L3"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXCAPITALSHIPS2_DESCRIPTION"
-	Value "Allows the construction and maintenance of additional capital ships"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXCAPITALSHIPS3_NAME"
-	Value "Capital Ship Capacity L4"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXCAPITALSHIPS3_DESCRIPTION"
-	Value "Allows the construction and maintenance of additional capital ships"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXCAPITALSHIPS4_NAME"
-	Value "Capital Ship Capacity L5"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXCAPITALSHIPS4_DESCRIPTION"
-	Value "Allows the construction and maintenance of additional capital ships"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXCAPITALSHIPS5_NAME"
-	Value "Capital Ship Capacity L6"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXCAPITALSHIPS5_DESCRIPTION"
-	Value "Allows the construction and maintenance of additional capital ships"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXCAPITALSHIPS6_NAME"
-	Value "Capital Ship Capacity L7"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXCAPITALSHIPS6_DESCRIPTION"
-	Value "Allows the construction and maintenance of additional capital ships"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXCAPITALSHIPS7_NAME"
-	Value "Capital Ship Capacity L8"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXCAPITALSHIPS7_DESCRIPTION"
-	Value "Allows the construction and maintenance of additional capital ships"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXSHIPSLOTS0_NAME"
-	Value "Supply Efficiency L1"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXSHIPSLOTS0_DESCRIPTION"
-	Value "Increase maximum fieldable ships by increasing supply capability"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXSHIPSLOTS1_NAME"
-	Value "Supply Efficiency L2"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXSHIPSLOTS1_DESCRIPTION"
-	Value "Increase maximum fieldable ships by increasing supply capability"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXSHIPSLOTS2_NAME"
-	Value "Supply Efficiency L3"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXSHIPSLOTS2_DESCRIPTION"
-	Value "Increase maximum fieldable ships by increasing supply capability"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXSHIPSLOTS3_NAME"
-	Value "Supply Efficiency L4"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXSHIPSLOTS3_DESCRIPTION"
-	Value "Increase maximum fieldable ships by increasing supply capability"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXSHIPSLOTS4_NAME"
-	Value "Supply Efficiency L5"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXSHIPSLOTS4_DESCRIPTION"
-	Value "Increase maximum fieldable ships by increasing supply capability"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXSHIPSLOTS5_NAME"
-	Value "Supply Efficiency L6"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXSHIPSLOTS5_DESCRIPTION"
-	Value "Increase maximum fieldable ships by increasing supply capability"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXSHIPSLOTS6_NAME"
-	Value "Supply Efficiency L7"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXSHIPSLOTS6_DESCRIPTION"
-	Value "Increase maximum fieldable ships by increasing supply capability"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXSHIPSLOTS7_NAME"
-	Value "Supply Efficiency L8"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MAXSHIPSLOTS7_DESCRIPTION"
-	Value "Increase maximum fieldable ships by increasing supply capability"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MODULEBUILDTIME_NAME"
-	Value "Module Build Time"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_MODULEBUILDTIME_DESCRIPTION"
-	Value "Improved construction methods greatly reduces build time."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_CANNON_NAME"
-	Value "Lagrangian Satellite"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_CANNON_DESCRIPTION"
-	Value "This satellite provides the Asurans with an extremely effective defensive systems, the Lagrangian Satellite beam technology was created by the Lanteans during their war with the Wraith and a defensive grid of these satellites was able to keep massive Wraith fleets from entering the inner Lantean system for decades."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_CULTURECENTER_NAME"
-	Value "Culture Center"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_CULTURECENTER_DESCRIPTION"
-	Value "A subspace mind control station allowing transmissions to travel great distance."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_HANGARDEFENSE_NAME"
-	Value "Hangar Defence"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_HANGARDEFENSE_DESCRIPTION"
-	Value "Unlocks the planetary defense fighter station."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_IMPROVEMENTNANOWEAPONJAMMER_NAME"
-	Value "Advanced Weapons Jamming"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_IMPROVEMENTNANOWEAPONJAMMER_DESCRIPTION"
-	Value "Increases the Nano Weapons Jammer effectiveness."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_IMPROVEMENTSTARGATE_NAME"
-	Value "Improve Stargate"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_IMPROVEMENTSTARGATE_DESCRIPTION"
-	Value "Improvements to the stargate increase the stability of hyperspace. Travel speed between planets where Stargates are constructed is increased."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_JUMPBLOCKER_NAME"
-	Value "Hyperspace Destabilizer"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_JUMPBLOCKER_DESCRIPTION"
-	Value "This orbital station slows down the hyperdrive charge up of enemy ships attempting to jump to another system. The Asurans were also able to acquire the Attero Device and integrate it into its systems after resolving the Stargate overload problems of the original device. While it is less potent with these modifications, Wraith ships attempting to jump away will be damaged severely."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_LAGRANGIANSATELLITE_ZPM_NAME"
-	Value "Lagrangian Satellite ZPM"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_LAGRANGIANSATELLITE_ZPM_DESCRIPTION"
-	Value "The Lagrangian Satellite is upgraded with a specially designed ZPM module capable of charging the capacitors almost instantly and substantially increasing the satellite firing rate."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_NANOWEAPONJAMMER_NAME"
-	Value "Nano Weapons Jammer"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_NANOWEAPONJAMMER_DESCRIPTION"
-	Value "Provides orbital Hyperspace Destabilizers with the Nano Weapons Jammer ability affecting enemy weapon cool down times to reduce bombing damage."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_REFINERY_NAME"
-	Value "Refinery"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_REFINERY_DESCRIPTION"
-	Value "TODO"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_REPAIRPLATFORM_NAME"
-	Value "Repair Platform"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_REPAIRPLATFORM_DESCRIPTION"
-	Value "Adapts nanite construction protocols to a repair protocol. "
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_STARGATE_NAME"
-	Value "Orbital Stargate"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_STARGATE_DESCRIPTION"
-	Value "Designed by the Ancients for almost instantaneous wormhole travel across the galaxy. These are now modified by the Asurans to reduce hyperspace fluctuations. Greater jumps are possible where gates are built. Once constructed, any faction can make use of the improved hyperspace lanes."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_TRADEPORT_NAME"
-	Value "Tradeport"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_TRADEPORT_DESCRIPTION"
-	Value "Unlocks the construction of the Resource Redistribution centre."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_SHIELDGENERATOR_NAME"
-	Value "Shield Generator"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ORBITAL_SHIELDGENERATOR_DESCRIPTION"
-	Value "Grants access to the planetary shield reducing damage from bombardment."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_PACTUNLOCKENERGYWEAPONCOOLDOWN_NAME"
-	Value "Energy Weapons Cooldown"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_PACTUNLOCKENERGYWEAPONCOOLDOWN_DESCRIPTION"
-	Value "Unlock Packt"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_PACTUNLOCKMARKET_NAME"
-	Value "Market"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_PACTUNLOCKMARKET_DESCRIPTION"
-	Value "Unlock Packt"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_PACTUNLOCKMETALCRYSTAL_NAME"
-	Value "Metal & Crystal"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_PACTUNLOCKMETALCRYSTAL_DESCRIPTION"
-	Value "Unlock Packt"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_PACTUNLOCKPHASEJUMP_NAME"
-	Value "Hyperspace Jump"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_PACTUNLOCKPHASEJUMP_DESCRIPTION"
-	Value "Unlock Packt"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_PACTUNLOCKTACTICALSLOTS_NAME"
-	Value "Capital Ship Slots"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_PACTUNLOCKTACTICALSLOTS_DESCRIPTION"
-	Value "Unlock Packt"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_PACTUNLOCKWEAPONCOOLDOWN_NAME"
-	Value "Weapons Cooldown"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_PACTUNLOCKWEAPONCOOLDOWN_DESCRIPTION"
-	Value "Unlock Packt"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_PIRATERAIDDECREASE_NAME"
-	Value "Replicator Raid Decrease"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_PIRATERAIDDECREASE_DESCRIPTION"
-	Value "Reprogrammed replicators wait longer before launching their raids."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_PLANETACCESSICE_NAME"
-	Value "Colonize Ice Planets"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_PLANETACCESSICE_DESCRIPTION"
-	Value "Unlocks Ice Planets for colonization."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_PLANETACCESSVOLCANIC_NAME"
-	Value "Colonize Volcanic Planets"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_PLANETACCESSVOLCANIC_DESCRIPTION"
-	Value "Unlocks Volcanic Planets for colonization."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_PLANETBOMBINGRANGE_NAME"
-	Value "Planet Bombing Range"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_PLANETBOMBINGRANGE_DESCRIPTION"
-	Value "Increases the range of which all siege ships can perform orbital bombardment."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_PLANETBOMBINGREDUCEDPOPULATIONKILLED_NAME"
-	Value "Bombardment Protection"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_PLANETBOMBINGREDUCEDPOPULATIONKILLED_DESCRIPTION"
-	Value "Reduces population killed during planetary bombardment"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_PLANETHEALTHCOSTDECREASE_NAME"
-	Value "Planetary Synchronization"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_PLANETHEALTHCOSTDECREASE_DESCRIPTION"
-	Value "Reduces cost of planetary modules and increases production speed"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_POPULATIONCAPICE0_NAME"
-	Value "Ice Planet Population"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_POPULATIONCAPICE0_DESCRIPTION"
-	Value "Allowing an increase of population on Ice Planets."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_POPULATIONCAPTERRAN0_NAME"
-	Value "Terran Planet Population"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_POPULATIONCAPTERRAN0_DESCRIPTION"
-	Value "Allowing an increase of population of Terran Planets."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_POPULATIONCAPVOLCANIC0_NAME"
-	Value "Volcanic Planet Population L1"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_POPULATIONCAPVOLCANIC0_DESCRIPTION"
-	Value "Allowing an increase of population of Volcanic Planets."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_POPULATIONCAPVOLCANIC1_NAME"
-	Value "Volcanic Planet Population L2"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_POPULATIONCAPVOLCANIC1_DESCRIPTION"
-	Value "Allowing an increase of population of Volcanic Planets."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_POPULATIONGROWTHRATE0_NAME"
-	Value "Population Growth Rate"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_POPULATIONGROWTHRATE0_DESCRIPTION"
-	Value "Activates additional Asuran nanite blocks to hasten population growth."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_RAIDERRELATIONS_NAME"
-	Value "Raider Relations"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_RAIDERRELATIONS_DESCRIPTION"
-	Value "Bribe the Raiders to show less interest in you during raids."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_SALVAGEDEBRIS_NAME"
-	Value "Salvage Debris"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_SALVAGEDEBRIS_DESCRIPTION"
-	Value "Allows the salvage of destroyed ships in the gravity well."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_SALVAGEEFFICIENCY_NAME"
-	Value "Salvage Efficiency"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_SALVAGEEFFICIENCY_DESCRIPTION"
-	Value "Using nanites to break down destroyed vessels to gain the raw materiels"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_SHIELDS0_NAME"
-	Value "Improve Shields L1"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_SHIELDS0_DESCRIPTION"
-	Value "Improved Shield capacitors."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_SHIELDS1_NAME"
-	Value "Improve Shields L2"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_SHIELDS1_DESCRIPTION"
-	Value "Greatly improved Shield capacitors."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_SHIELDS2_NAME"
-	Value "Improve Shields L3"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_SHIELDS2_DESCRIPTION"
-	Value "ZPM powered Shield capacitors."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_SHIPSLOTSINCREASE0_NAME"
-	Value "Supply Reorganization"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_SHIPSLOTSINCREASE0_DESCRIPTION"
-	Value "Free up more space for ship supplies allowing additional vessels construction."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_SPEEDBOOSTARMOR_NAME"
-	Value "Advanced Armor Replication"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_SPEEDBOOSTARMOR_DESCRIPTION"
-	Value "A more efficient replication protocol that increases strength and reduces the mass of Asuran armor."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STARBASEENEMYORBITBODYBUILDRATE_NAME"
-	Value "Starbase Build Rate"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STARBASEENEMYORBITBODYBUILDRATE_DESCRIPTION"
-	Value "Starbase enemy body build rate"
-StringInfo
-	ID "IDS_ASURAN_STARBASEUPGRADES_HANGER_NAME"
-	Value "Hangar defense"
-StringInfo
-	ID "IDS_ASURAN_STARBASEUPGRADES_HANGER_DESCRIPTION"
-	Value "Adds a hangar bay"
-StringInfo
-	ID "IDS_ASURAN_STARBASEUPGRADES_WEAPONS_NAME"
-	Value "Weapons"
-StringInfo
-	ID "IDS_ASURAN_STARBASEUPGRADES_WEAPONS_DESCRIPTION"
-	Value "Adds additional weapons"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STARBASEHULL_NAME"
-	Value "Starbase Hull"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STARBASEHULL_DESCRIPTION"
-	Value "Increased hull strength for Starbases."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STARBASEUPGRADEACCESSBLOCKCOLONIZE_NAME"
-	Value "Block Colonization"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STARBASEUPGRADEACCESSBLOCKCOLONIZE_DESCRIPTION"
-	Value "Starbase Upgrade that stops enemy colonization of planets in the gravity well."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STARBASEUPGRADEACCESSCITYPOPULATION_NAME"
-	Value "City Population"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STARBASEUPGRADEACCESSCITYPOPULATION_DESCRIPTION"
-	Value "Starbase Upgrade that adds a habitation level."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STARBASEUPGRADEACCESSDEBRISVACUUM_NAME"
-	Value "Debris Vacuum"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STARBASEUPGRADEACCESSDEBRISVACUUM_DESCRIPTION"
-	Value "Starbase Upgrade"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STARBASEUPGRADEACCESSDIRECTIONALSHIELD_NAME"
-	Value "Directional Shields"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STARBASEUPGRADEACCESSDIRECTIONALSHIELD_DESCRIPTION"
-	Value "Starbase Upgrade"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STARBASEUPGRADEACCESSSTARGATE_NAME"
-	Value "Onboard Stargate"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STARBASEUPGRADEACCESSSTARGATE_DESCRIPTION"
-	Value "Starbase Upgrade that adds a stargate."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STARBASEUPGRADEACCESSTRADEPORT_NAME"
-	Value "Tradeport"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STARBASEUPGRADEACCESSTRADEPORT_DESCRIPTION"
-	Value "Starbase Upgrade that adds a resource redistribution centre."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STARBASEWEAPONBANKTARGETS_NAME"
-	Value "Weapons Bank Targets"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STARBASEWEAPONBANKTARGETS_DESCRIPTION"
-	Value "Starbase Upgrade that adds an additional pulse cannon."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STRUCTUREWORKRESOURCEEXTRACT0_NAME"
-	Value "Resource Extraction L1"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STRUCTUREWORKRESOURCEEXTRACT0_DESCRIPTION"
-	Value "Improved extraction methods increase income of resources."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STRUCTUREWORKRESOURCEEXTRACT1_NAME"
-	Value "Resource Extraction L2"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STRUCTUREWORKRESOURCEEXTRACT1_DESCRIPTION"
-	Value "Greatly improved extraction methods increase income of resources."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STRUCTUREWORKRESOURCEEXTRACT2_NAME"
-	Value "Resource Extraction L3"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STRUCTUREWORKRESOURCEEXTRACT2_DESCRIPTION"
-	Value "Vastly improved extraction methods increase income of resources."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STRUCTUREWORKRESOURCEEXTRACT3_NAME"
-	Value "Resource Extraction L4"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_STRUCTUREWORKRESOURCEEXTRACT3_DESCRIPTION"
-	Value "Superior improved extraction methods increase income of resources."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_TITANDEFENSE_ATLANTIS_NAME"
-	Value "Atlantis Titan"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_TITANDEFENSE_ATLANTIS_DESCRIPTION"
-	Value "The Asurans designed this city based on data provided by the Ancients at the time of their creation. With it's vast quantities of drone weapons and ZPM powered shields it is a formidable structure capable of hyperspace travel."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_TITANOFFENSE_EPHEUS_NAME"
-	Value "Epheus Titan"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_TITANOFFENSE_EPHEUS_DESCRIPTION"
-	Value "The Epheus represents an effort by the Asurans to modify the Ancient Atlantis design for offensive engagement. It channels ZPM energy from its shields to drones and specialized weapons allowing it to cause massive damage to any ship foolish enough to stand its ground and fight."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_TRADESHIPCAPACITY0_NAME"
-	Value "Tradeship Capacity L1"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_TRADESHIPCAPACITY0_DESCRIPTION"
-	Value "Using compression beam technology to increase cargo space."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_TRADESHIPCAPACITY1_NAME"
-	Value "Tradeship Capacity L2"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_TRADESHIPCAPACITY1_DESCRIPTION"
-	Value "Vastly improved compression ratio to further increase cargo space."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_WEAPONDAMAGEDRONES0_NAME"
-	Value "Ancient Drone Damage"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_WEAPONDAMAGEDRONES0_DESCRIPTION"
-	Value "Improved warhead package for Ancient Drones."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_WEAPONDAMAGEFLASHBEAM0_NAME"
-	Value "Asuran Energy Beam L1"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_WEAPONDAMAGEFLASHBEAM0_DESCRIPTION"
-	Value "Increased energy flow to increase the damage output of beams."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_WEAPONDAMAGEFLASHBEAM1_NAME"
-	Value "Asuran Energy Beam L2"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_WEAPONDAMAGEFLASHBEAM1_DESCRIPTION"
-	Value "Increased energy flow to increase the damage output of beams."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_WEAPONDAMAGELASER0_NAME"
-	Value "Pulse Damage L1"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_WEAPONDAMAGELASER0_DESCRIPTION"
-	Value "Improved Energy capacitors to improve damage of all Pulse guns"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_WEAPONDAMAGELASER1_NAME"
-	Value "Pulse Damage L2"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_WEAPONDAMAGELASER1_DESCRIPTION"
-	Value "Improved Energy capacitors to improve damage of all Pulse guns"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_WEAPONDAMAGELASER2_NAME"
-	Value "Pulse Damage L3"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_WEAPONDAMAGELASER2_DESCRIPTION"
-	Value "Improved Energy capacitors to improve damage of all Pulse guns"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_WEAPONIGNORESHIELDSDRONES0_NAME"
-	Value "Drone Shield Penetration"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_WEAPONIGNORESHIELDSDRONES0_DESCRIPTION"
-	Value "Improved harmonic effect for greater shield penetration."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_WEAPONIGNORESHIELDSDRONES1_NAME"
-	Value "Drone Shield Penetration"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_WEAPONIGNORESHIELDSDRONES1_DESCRIPTION"
-	Value "Improved speed to increase shield penetration."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_WEAPONIGNORESHIELDSDRONES2_NAME"
-	Value "Drone Shield Penetration"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_WEAPONIGNORESHIELDSDRONES2_DESCRIPTION"
-	Value "Improved warhead to increase shield penetration."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_XENOMANIPULATION0_NAME"
-	Value "Xeno Manipulation L1"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_XENOMANIPULATION0_DESCRIPTION"
-	Value "Using mind control technology to improve relations with other species."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_XENOMANIPULATION1_NAME"
-	Value "Xeno Manipulation L2"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_XENOMANIPULATION1_DESCRIPTION"
-	Value "Using mind control technology to improve relations with other species."
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ZPMRESEARCH_NAME"
-	Value "ZPM Research"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ZPMRESEARCH_DESCRIPTION"
-	Value "Through the discovery of a Lantean ZPM, the Asurans are able to improve their Zero Point Modules to match those of the Ancients."
-StringInfo
-	ID "IDS_ASURAN_SQUADBOMBER_RAPTOR_NAME"
-	Value "Raptor"
-StringInfo
-	ID "IDS_ASURAN_SQUADBOMBER_RAPTOR_DESCRIPTION"
-	Value "Originally a shuttle that has been outfitted with heavy weapons to act as the Asurans bombers."
-StringInfo
-	ID "IDS_ASURAN_SQUADCOMBAT_JUMPER_NAME"
-	Value "Jumper"
-StringInfo
-	ID "IDS_ASURAN_SQUADCOMBAT_JUMPER_DESCRIPTION"
-	Value "The jumper was  a staple small transport vessel for the Ancients however the Asurans have adapted it to be used as a frontline fightercraft. "
-StringInfo
-	ID "IDS_ASURAN_SQUADSPECIAL_LATONA_NAME"
-	Value "TODO"
-StringInfo
-	ID "IDS_ASURAN_SQUADSPECIAL_LATONA_DESCRIPTION"
-	Value "TODO"
-StringInfo
-	ID "IDS_ASURAN_STARBASEDEFENSE_ECHIDNA_NAME"
-	Value "Starbase"
-StringInfo
-	ID "IDS_ASURAN_STARBASEOFFENSE_GAIA_NAME"
-	Value "TODO"
-StringInfo
-	ID "IDS_ASURAN_STARBASESPECIAL_ATLAS_NAME"
-	Value "TODO"
-StringInfo
-	ID "IDS_ASURAN_TITANDEFENSE_ATLANTIS_NAME"
-	Value "Atlantis"
-StringInfo
-	ID "IDS_ASURAN_TITANDEFENSE_ATLANTIS_DESCRIPTION"
-	Value "The Asurans designed this city based on data provided by the Ancients at the time of their creation. With it's vast quantities of drone weapons and ZPM powered shields it is a formidable structure capable of hyperspace travel."
-StringInfo
-	ID "IDS_ASURAN_TITANOFFENSE_EPHEUS_NAME"
-	Value "Epheus"
-StringInfo
-	ID "IDS_ASURAN_TITANOFFENSE_EPHEUS_DESCRIPTION"
-	Value "The Epheus represents an effort by the Asurans to modify the Ancient Atlantis design for offensive engagement. It channels ZPM energy from its shields to drones and specialized weapons allowing it to cause massive damage to any ship foolish enough to stand its ground and fight."
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_ATLANTIS_ABILITIES_NAME"
-	Value "Energy Systems"
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_ATLANTIS_ABILITIES_DESCRIPTION"
-	Value "These upgrades to the energy systems of Atlantis increase it's energy grid capacity. Specialized equipment can be used more extensively with this upgrade."
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_ATLANTIS_ABILITYA_NAME"
-	Value "Drone Frenzy"
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_ATLANTIS_ABILITYA_DESCRIPTION"
-	Value "A mighty onslaught of Asuran Drones target and attack multiple enemy ships, dealing massive damage and death."
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_ATLANTIS_ABILITYB_NAME"
-	Value "Replicate Ogen Frigate"
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_ATLANTIS_ABILITYB_DESCRIPTION"
-	Value "Replicates an Ogen anti-fighter frigate."
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_ATLANTIS_ABILITYC_NAME"
-	Value "Wormhole Drive"
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_ATLANTIS_ABILITYC_DESCRIPTION"
-	Value "Allows Atlantis to immediately jump a short distance from its current position."
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_ATLANTIS_ABILITYD_NAME"
-	Value "ZPM Surge"
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_ATLANTIS_ABILITYD_DESCRIPTION"
-	Value "Unleashes the full Zero Point Module power allowing it to drain quicker. The power surplus is directed to shields and weapons."
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_ATLANTIS_DURABILITY_NAME"
-	Value "Durability"
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_ATLANTIS_DURABILITY_DESCRIPTION"
-	Value "These upgrades to the structural integrity, armor and defensive systems of Atlantis improve damage absorption."
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_ATLANTIS_WEAPONS_NAME"
-	Value "Weapons Systems"
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_ATLANTIS_WEAPONS_DESCRIPTION"
-	Value "These upgrades to the Atlantis weapons systems increase the damage output."
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_EPHEUS_ABILITIES_NAME"
-	Value "Energy Systems"
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_EPHEUS_ABILITIES_DESCRIPTION"
-	Value "These upgrades to the energy systems of the Epheus increase it's energy grid capacity. Specialized equipment can be used more extensively with this upgrade."
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_EPHEUS_ABILITYA_NAME"
-	Value "Drone Frenzy"
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_EPHEUS_ABILITYA_DESCRIPTION"
-	Value "A mighty onslaught of Asuran Drones target and attack multiple enemy ships, dealing massive damage and death."
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_EPHEUS_ABILITYB_NAME"
-	Value "Replicate Laser Turret"
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_EPHEUS_ABILITYB_DESCRIPTION"
-	Value "Replicates a laser turret."
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_EPHEUS_ABILITYC_NAME"
-	Value "Lagrangian Beam"
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_EPHEUS_ABILITYC_DESCRIPTION"
-	Value "Asuran databanks contain information on all Ancient technology up to the point the Ancients attempted to destroy them. This tremendously powerful beam was created by the Ancients at the time of the Wraith war and was used in their defence satellite grid."
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_EPHEUS_ABILITYD_NAME"
-	Value "Matter Bridge"
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_EPHEUS_ABILITYD_DESCRIPTION"
-	Value "Energy is syphoned from alternative universes and combined with the ZPM, supercharging the next ability."
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_EPHEUS_DURABILITY_NAME"
-	Value "Durability"
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_EPHEUS_DURABILITY_DESCRIPTION"
-	Value "These upgrades to the structural integrity, armor and defensive systems of the Epheus to improve damage absorption."
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_EPHEUS_WEAPONS_NAME"
-	Value "Weapons Systems"
-StringInfo
-	ID "IDS_ASURAN_TITANUPGRADE_EPHEUS_WEAPONS_DESCRIPTION"
-	Value "These upgrades to the Epheus weapons systems increase the damage output."
-StringInfo
 	ID "IDS_GOAULD_ABILITYZPMON_NAME"
 	Value "TODO"
 StringInfo
@@ -5820,6 +5019,12 @@ StringInfo
 StringInfo
 	ID "IDS_GOAULD_ORBITAL_WEAPONSPLATFORM_DESCRIPTION"
 	Value "Dual Railgun Cannons defend nearby structures and the planet from hostile forces."
+StringInfo
+	ID "IDS_GOAULD_RESEARCH_ABILITY_SELFREPAIR_NAME"
+	Value "Atlantean Shield Charge"
+StringInfo
+	ID "IDS_GOAULD_RESEARCH_ABILITY_SELFREPAIR_DESCRIPTION"
+	Value "Atlantean knowledge of ancient energy systems helps the Tau'ri augment Asgard Shields with improved regeneration capabilities."
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_ABILITY_ARBITRATETARIFF_NAME"
 	Value "Arbitrate Tariff"
@@ -9502,12 +8707,6 @@ StringInfo
 	ID "IDS_INFOCARD_BUFFBOOL_IMMUNTETONONULTIMATEDISABLE"
 	Value "Cannot be Disabled"
 StringInfo
-	ID "IDS_INFOCARD_BUFFADJUSTMENT_WEAPONCOOLDOWN"
-	Value "Weapon Cooldown"
-StringInfo
-	ID "IDS_INFOCARD_BUFFADJUSTMENT_WEAPONRANGE"
-	Value "Weapon Range"
-StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_PLANETBOMBINGCOOLDOWN"
 	Value "Bombardment Cooldown"
 StringInfo
@@ -9516,6 +8715,9 @@ StringInfo
 StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_ENERGYWEAPONCOOLDOWN"
 	Value "Energy Weapon Cooldown"
+StringInfo
+	ID "IDS_INFOCARD_BUFFADJUSTMENT_WEAPONCOOLDOWN"
+	Value "Weapon Cooldown"
 StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_WEAPONRANGE"
 	Value "Weapon Range"
@@ -11419,9 +10621,6 @@ StringInfo
 	ID "IDS_GAMEMESSAGE_QUESTFAILED"
 	Value "You have failed the %s mission from %s."
 StringInfo
-	ID "IDS_GAMEMESSAGE_QUESTCOMPLETED"
-	Value "You have successfully finished the %s mission from %s."
-StringInfo
 	ID "IDS_GAMEMESSAGE_QUESTENDED"
 	Value "Your mission from %s has ended because %s has been defeated."
 StringInfo
@@ -12919,6 +12118,30 @@ StringInfo
 	ID "IDS_CAPITALSHIPAUTOATTACKRANGESTATE_ALLGRAVITYWELL"
 	Value "Gravity Well"
 StringInfo
+	ID "IDS_FIGHTERPSICOMBAT_NAME"
+	Value "Fighter"
+StringInfo
+	ID "IDS_FIGHTERPSIBOMBER_NAME"
+	Value "Bomber"
+StringInfo
+	ID "IDS_FIGHTERPSIMINELAYER_NAME"
+	Value "Homing Mine"
+StringInfo
+	ID "IDS_FIGHTERPHASECOMBAT_NAME"
+	Value "Fighter"
+StringInfo
+	ID "IDS_SQUADPSICOMBAT_NAME"
+	Value "Fighter Squadron"
+StringInfo
+	ID "IDS_SQUADPSIBOMBER_NAME"
+	Value "Bomber Squadron"
+StringInfo
+	ID "IDS_SQUADPHASECOMBAT_NAME"
+	Value "Fighter Squad"
+StringInfo
+	ID "IDS_SQUADPHASEBOMBER_NAME"
+	Value "Bomber Squadron"
+StringInfo
 	ID "IDS_FLEETCOHESIONRANGESTATE_MIXED"
 	Value "Mixed"
 StringInfo
@@ -14268,9 +13491,6 @@ StringInfo
 StringInfo
 	ID "IDS_UIMAPPINGNAME_PLANETUPGRADEINFRASTRUCTURE"
 	Value "Upgrade Infrastructure"
-StringInfo
-	ID "IDS_UIMAPPINGNAME_PLANETCANCELUPGRADEINFRASTRUCTURE"
-	Value "Cancel Upgrade Infrastructure"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_PLANETUPGRADEARTIFACTLEVEL"
 	Value "Explore Planet"
@@ -20152,6 +19372,63 @@ StringInfo
 	ID "IDS_ITITANUPGRADE_CANUPGRADETONEXTSTAGESTATUS_LEVELREQUIREMENTNOTMET"
 	Value "Level requirement not met."
 StringInfo
+	ID "IDS_STARBASEUPGRADEPSIMASSDISORIENTATION_NAME"
+	Value "Mass Disorientation"
+StringInfo
+	ID "IDS_STARBASEUPGRADEPSIMASSDISORIENTATION_DESC"
+	Value "Grants the starbase the Mass Disorientation ability, which sets enemy ships adrift to prevent them from moving and reduces their ability to acquire targets."
+StringInfo
+	ID "IDS_STARBASEUPGRADEPSICULTURE_NAME"
+	Value "Evangelization Nodes"
+StringInfo
+	ID "IDS_STARBASEUPGRADEPSICULTURE_DESC"
+	Value "PsiTech telepathy equipment is installed into the starbase, allowing it to broadcast your empire's culture and repel enemy culture."
+StringInfo
+	ID "IDS_STARBASEUPGRADEPSIHANGAR_NAME"
+	Value "Drone Capacity"
+StringInfo
+	ID "IDS_STARBASEUPGRADEPSIHANGAR_DESC"
+	Value "More hangar bays and Anima stations are installed in the starbase, allowing it to field greater numbers of drone strike craft."
+StringInfo
+	ID "IDS_STARBASEUPGRADEPSIMAXALLEGIANCE_NAME"
+	Value "Induced Reverence"
+StringInfo
+	ID "IDS_STARBASEUPGRADEPSIMAXALLEGIANCE_DESC"
+	Value "Psionics aboard the starbase compel the planet's population to be more devout to your empire, resulting in a higher max allegiance from the planet when it is under your empire's control."
+StringInfo
+	ID "IDS_STARBASEUPGRADEPSITOUGHNESS_NAME"
+	Value "Enhanced Preservation"
+StringInfo
+	ID "IDS_STARBASEUPGRADEPSITOUGHNESS_DESC"
+	Value "Increased armor plating, additional shield projection arrays, and more numerous damage repair systems greatly enhance the starbase's survivability."
+StringInfo
+	ID "IDS_STARBASEUPGRADEPSITRADEPORT_NAME"
+	Value "Merchant Docks"
+StringInfo
+	ID "IDS_STARBASEUPGRADEPSITRADEPORT_DESC"
+	Value "Cargo loading and storage facilities are added to the starbase, allowing it to extend your empire's trade network into the starbase's gravity well."
+StringInfo
+	ID "IDS_STARBASEUPGRADEPSIWEAPONS_NAME"
+	Value "Punitive Measures"
+StringInfo
+	ID "IDS_STARBASEUPGRADEPSIWEAPONS_DESC0"
+	Value "Multiple Heavy Laser Batteries add more mid-range firepower to the starbase."
+StringInfo
+	ID "IDS_STARBASEUPGRADEPSIWEAPONS_DESC1"
+	Value "Legions of Psintegrat aboard the starbase channel their talents to unleash Psionic Surge attacks against enemies at extreme range."
+StringInfo
+	ID "IDS_STARBASEUPGRADEPSIBLOCKCOLONIZE_NAME"
+	Value "Enduring Devotion"
+StringInfo
+	ID "IDS_STARBASEUPGRADEPSIBLOCKCOLONIZE_DESC"
+	Value "Psionic adepts aboard this starbase create strong support for your empire on this gravity well's planet, preventing it from being lost through bombardment and denying hostile empires from colonizing it when it becomes neutral."
+StringInfo
+	ID "IDS_STARBASEUPGRADEPSICONTROLMETEOROIDS_NAME"
+	Value "Meteoroid Control"
+StringInfo
+	ID "IDS_STARBASEUPGRADEPSICONTROLMETEOROIDS_DESC"
+	Value "Psionic Adepts aboard the starbase become able to telekinetically manipulate meteroids near this gravity well for offensive purposes."
+StringInfo
 	ID "IDS_STARBASEUPGRADEPROPERTYTYPE_WEAPONDAMAGE"
 	Value "Weapon Damage"
 StringInfo
@@ -20199,6 +19476,96 @@ StringInfo
 StringInfo
 	ID "IDS_STARBASEUPGRADEPROPERTYTYPE_POPULATION"
 	Value "Population"
+StringInfo
+	ID "IDS_TITANUPGRADE_PHASELOYALIST_ABILITIES_NAME"
+	Value "Quantum Containment"
+StringInfo
+	ID "IDS_TITANUPGRADE_PHASELOYALIST_ABILITIES_DESCRIPTION"
+	Value "Recent technology acquired by the Vorastra allows its crew to significantly enhance its use of antimatter."
+StringInfo
+	ID "IDS_TITANUPGRADE_PSILOYALIST_ABILITIES_NAME"
+	Value "Psi-Containment"
+StringInfo
+	ID "IDS_TITANUPGRADE_PSILOYALIST_ABILITIES_DESCRIPTION"
+	Value "The Coronata is upgraded with the latest advances in antimatter containment, increasing its efficiency."
+StringInfo
+	ID "IDS_TITANUPGRADE_PSILOYALIST_DURABILITY_NAME"
+	Value "Psi-Reactive Armor"
+StringInfo
+	ID "IDS_TITANUPGRADE_PSILOYALIST_DURABILITY_DESCRIPTION"
+	Value "Improvements are made to the Coronata's armor, giving the ship greater durability."
+StringInfo
+	ID "IDS_TITANUPGRADE_PSIREBEL_DURABILITY_NAME"
+	Value "Unity Armor"
+StringInfo
+	ID "IDS_TITANUPGRADE_PSIREBEL_DURABILITY_DESCRIPTION"
+	Value "Psintegrat aboard the Eradica channel the purity of the Unity into the ship's structure, making it stronger."
+StringInfo
+	ID "IDS_TITANUPGRADE_PSIREBEL_ABILITIES_NAME"
+	Value "Reactive Containment"
+StringInfo
+	ID "IDS_TITANUPGRADE_PSIREBEL_ABILITIES_DESCRIPTION"
+	Value "The Eradica is upgraded with a new reactive containment system, giving it greater antimatter capacity."
+StringInfo
+	ID "IDS_TITANUPGRADE_PSIREBEL_WEAPONS_NAME"
+	Value "Energy Manipulation"
+StringInfo
+	ID "IDS_TITANUPGRADE_PSIREBEL_WEAPONS_DESCRIPTION"
+	Value "By adjusting the frequencies of the Eradica's weapons, greater damage can be inflicted upon the enemy."
+StringInfo
+	ID "IDS_TITANUPGRADE_TECHREBEL_ABILITIES_NAME"
+	Value "Magnetic Containment"
+StringInfo
+	ID "IDS_TITANUPGRADE_TECHREBEL_ABILITIES_DESCRIPTION"
+	Value "Advances in the Ragnarov's magnetic containment system give it improved antimatter capacity and regeneration."
+StringInfo
+	ID "IDS_TITANUPGRADE_TECHREBEL_DURABILITY_NAME"
+	Value "High-Stress Alloys"
+StringInfo
+	ID "IDS_TITANUPGRADE_TECHREBEL_DURABILITY_DESCRIPTION"
+	Value "The alloys used in the hull of the Ragnarov are improved to take higher loads before failure."
+StringInfo
+	ID "IDS_TITANUPGRADE_TECHREBEL_WEAPONS_NAME"
+	Value "Composite Mounts"
+StringInfo
+	ID "IDS_TITANUPGRADE_TECHREBEL_WEAPONS_DESCRIPTION"
+	Value "The Ragnarov's weapon mounts are upgraded with superior composite alloys, greatly improving their firepower."
+StringInfo
+	ID "IDS_TITANUPGRADE_PSILOYALIST_WEAPONS_NAME"
+	Value "Adaptive Weapons"
+StringInfo
+	ID "IDS_TITANUPGRADE_PSILOYALIST_WEAPONS_DESCRIPTION"
+	Value "The Coronata's psintegrat take over the ship's weapons, giving them greater destructive power."
+StringInfo
+	ID "IDS_TITANUPGRADE_PHASELOYALIST_DURABILITY_NAME"
+	Value "Dense Composites"
+StringInfo
+	ID "IDS_TITANUPGRADE_PHASEREBEL_DURABILITY_NAME"
+	Value "Nano Fibers"
+StringInfo
+	ID "IDS_TITANUPGRADE_PHASEREBEL_DURABILITY_DESCRIPTION"
+	Value "Super strong nano fibers are woven around the Kultorask's hull, substantially increasing its ability to take damage."
+StringInfo
+	ID "IDS_TITANUPGRADE_PHASELOYALIST_DURABILITY_DESCRIPTION"
+	Value "The Vorastra uses new denser composite materials to fortify its hull from assaults."
+StringInfo
+	ID "IDS_TITANUPGRADE_PHASELOYALIST_WEAPONS_NAME"
+	Value "Nano Enhancement"
+StringInfo
+	ID "IDS_TITANUPGRADE_PHASEREBEL_WEAPONS_NAME"
+	Value "Advanced Targeting"
+StringInfo
+	ID "IDS_TITANUPGRADE_PHASEREBEL_WEAPONS_DESCRIPTION"
+	Value "The Kultorask's targeting systems are improved, allowing the ship's gunners to pinpoint the weakest sections on enemy vessels."
+StringInfo
+	ID "IDS_TITANUPGRADE_PHASELOYALIST_WEAPONS_DESCRIPTION"
+	Value "Payloads of destructive nanites are added to the Vorastra's weapons, substantially enhancing overall damage."
+StringInfo
+	ID "IDS_TITANUPGRADE_PHASEREBEL_ABILITIES_NAME"
+	Value "Harmonic Containment"
+StringInfo
+	ID "IDS_TITANUPGRADE_PHASEREBEL_ABILITIES_DESCRIPTION"
+	Value "Joint efforts with Advent scientists grant the Kultorask greatly improved antimatter generation."
 StringInfo
 	ID "IDS_TITANUPGRADEPROPERTYTYPE_WEAPONDAMAGE"
 	Value "Weapon Damage"
