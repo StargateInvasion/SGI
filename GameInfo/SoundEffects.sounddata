@@ -1,5 +1,5 @@
 TXT
-numEffects 401
+numEffects 409
 effect
 	name "EFFECT_MAGNETICSTORMIMPACT"
 	fileName "Event_MagneticStorm_Impact.ogg"
@@ -4951,6 +4951,51 @@ effect
 	fadeOutTime 0.0
 	alternateGroup ""
 effect
+    name "WEAPON_TECHFLAKBURST_MUZZLE"
+    fileName "Weapon_FlakBurst_Muzzle.ogg"
+    type "Effect"
+    is3D TRUE
+    priority 5
+    threshold 20000.000000
+    minAttenuationDist 2000.000000
+    maxNumPlayingSimultaneously 5
+    isLooping FALSE
+    isResident TRUE
+    minRespawnTime 0.1
+    fadeInTime 0.0
+    fadeOutTime 0.0
+    alternateGroup ""
+effect
+	name "WEAPON_TECHTITANRAILGUN_MUZZLE"
+	fileName "Weapon_TechTitanRailGun_Muzzle.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 30000.000000
+	minAttenuationDist 2000.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.5
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "WEAPON_ASGARDTRANS_MUZZLE"
+	fileName "Human_Asgard_Transport.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 30000.000000
+	minAttenuationDist 1600.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.03
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
 	name "PLANETMODULE_PSIORBITALFRIGATEFACTORY_ONSELECTION_0"
 	fileName "PlanetModule_PsiOrbitalFrigateFactory_OnSelection_0.ogg"
 	type "Dialogue"
@@ -5836,21 +5881,6 @@ effect
 	fadeOutTime 0.0
 	alternateGroup ""
 effect
-	name "Weapon_Tau'riRailgun_Firing"
-	fileName "Weapon_Tau'riRailgun_Firing.ogg"
-	type "Effect"
-	is3D TRUE
-	priority 5
-	threshold 30000.000000
-	minAttenuationDist 1600.000000
-	maxNumPlayingSimultaneously 3
-	isLooping FALSE
-	isResident TRUE
-	minRespawnTime 0.03
-	fadeInTime 0.0
-	fadeOutTime 0.0
-	alternateGroup ""
-effect
 	name "UI_COMMON_CANNONBUILT"
 	fileName "Common_CannonBuilt.ogg"
 	type "Effect"
@@ -5895,6 +5925,96 @@ effect
 	fadeInTime 0.0
 	fadeOutTime 0.0
 	alternateGroup ""
+effect
+	name "WEAPON_PULSEWAVE_MUZZLE"
+	fileName "Weapon_PulseWave_Muzzle.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 30000.000000
+	minAttenuationDist 1600.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup "WEAPON_PULSEWAVE_MUZZLE"
+effect
+	name "WEAPON_PULSEWAVE_MUZZLE_ALT1"
+	fileName "Weapon_PulseWave_Muzzle_Alt1.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 30000.000000
+	minAttenuationDist 1600.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup "WEAPON_PULSEWAVE_MUZZLE"
+effect
+	name "WEAPON_PHASECANNON_MUZZLE"
+	fileName "Weapon_PhaseCannon_Muzzle.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 30000.000000
+	minAttenuationDist 1600.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup "WEAPON_PHASECANNON_MUZZLE"
+effect
+	name "WEAPON_PHASECANNON_MUZZLE_ALT1"
+	fileName "Weapon_PhaseCannon_Muzzle_Alt1.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 30000.000000
+	minAttenuationDist 1600.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup "WEAPON_PHASECANNON_MUZZLE"
+effect
+	name "WEAPON_PHASECAPITALWAVEHEAVY_MUZZLE"
+	fileName "Weapon_PhaseCapitalWaveHeavy_Muzzle.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 30000.000000
+	minAttenuationDist 1200.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
+effect
+    name "WEAPON_PHASECAPITALWAVEHEAVY_MUZZLE_ALT1"
+    fileName "Weapon_PhaseCapitalWaveHeavy_Muzzle_Alt1.ogg"
+    type "Effect"
+    is3D TRUE
+    priority 5
+    threshold 30000.000000
+    minAttenuationDist 1200.000000
+    maxNumPlayingSimultaneously 5
+    isLooping FALSE
+    isResident TRUE
+    minRespawnTime 0.1
+    fadeInTime 0.0
+    fadeOutTime 0.0
+    alternateGroup ""
 effect
 	name "WEAPON_PHASECAPITALWAVEMEDIUM_MUZZLE_ALT1"
 	fileName "Weapon_PhaseCapitalWaveMedium_Muzzle_Alt1.ogg"
