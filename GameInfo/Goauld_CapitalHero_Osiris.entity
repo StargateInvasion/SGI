@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "Goauld_AbilityHero_Nuke"
+ability:0 "Goauld_AbilityHero_Cloak"
 ability:1 "Goauld_AbilityCapital_AsgardPulse"
-ability:2 "Goauld_AbilityHero_ZPM"
-ability:3 "Goauld_AbilityCapital_Daedalus"
+ability:2 "Goauld_AbilityHero_AsgardCore"
+ability:3 "Goauld_AbilityCapital_Osiris"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -44,7 +44,7 @@ bombEffectsDef
 	missileStartTurningDistance 0.005000
 	missileSlowTurnRate 3.708997
 	missileMaxSlowTurnTime 12.000000
-mainViewIcon "MAINVIEWICON_HUMAN_CAPITALHERO_DAEDALUS"
+mainViewIcon "MAINVIEWICON_HUMAN_CAPITALHERO_ODYSSEY"
 basePrice
 	credits 0.000000
 	metal 0.000000
@@ -78,13 +78,13 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_GOAULD_CAPITALHERO_DAEDALUS_NAME"
-DescriptionStringID "IDS_GOAULD_CAPITALHERO_DAEDALUS_DESCRIPTION"
+NameStringID "IDS_GOAULD_CAPITALHERO_OSIRIS_NAME"
+DescriptionStringID "IDS_GOAULD_CAPITALHERO_OSIRIS_DESCRIPTION"
 picture "HUMAN_CRUISERHEAVY_BC304_PICTURE"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Goauld_Research_Hero_Daedalus"
+		Subject "Goauld_Research_Hero_Osiris"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -95,9 +95,9 @@ numRandomDebrisSmall 17
 numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"
 armorType "CapitalShip"
-hudIcon "HUDICON_HUMAN_CAPITALHERO_DAEDALUS"
-smallHudIcon "HUDICONSMALL_HUMAN_CAPITALHERO_DAEDALUS"
-infoCardIcon "INFOCARDICON_HUMAN_CAPITALHERO_DAEDALUS"
+hudIcon "HUDICON_GOAULD_CAPITALHERO_OSIRIS"
+smallHudIcon "HUDICONSMALL_HUMAN_CAPITALHERO_ODYSSEY"
+infoCardIcon "INFOCARDICON_HUMAN_CAPITALHERO_ODYSSEY"
 minZoomDistanceMult 1.500000
 NumWeapons 3
 Weapon
@@ -198,12 +198,12 @@ Weapon
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 6500.000000
-	PreBuffCooldownTime 4.0000000
+	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 1.300000
 	TravelSpeed 0.000000
-	Duration 1.000000
+	Duration 1.800000
 	fireConstraintType "Research"
 	researchPrerequisites
 		NumResearchPrerequisites 1
@@ -264,25 +264,19 @@ squadTypeEntityDef:2 ""
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
-NumSoundsFor:ONATTACKORDERISSUED 3
-SoundID "CAPITALSHIP_TECHCOLONY_ONATTACKORDERISSUED_0"
-SoundID "CAPITALSHIP_TECHCOLONY_ONATTACKORDERISSUED_1"
-SoundID "CAPITALSHIP_TECHCOLONY_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONATTACKORDERISSUED 1
+SoundID "Human_CapitalHero_Odyssey_OnAttackOrderIssued_0"
 NumSoundsFor:ONCREATION 1
-SoundID "CAPITALSHIP_TECHCOLONY_ONCREATION"
-NumSoundsFor:ONGENERALORDERISSUED 3
-SoundID "CAPITALSHIP_TECHCOLONY_ONGENERALORDERISSUED_0"
-SoundID "CAPITALSHIP_TECHCOLONY_ONGENERALORDERISSUED_1"
-SoundID "CAPITALSHIP_TECHCOLONY_ONGENERALORDERISSUED_2"
-NumSoundsFor:ONSELECTED 3
-SoundID "CAPITALSHIP_TECHCOLONY_ONSELECTED_0"
-SoundID "CAPITALSHIP_TECHCOLONY_ONSELECTED_1"
-SoundID "CAPITALSHIP_TECHCOLONY_ONSELECTED_2"
+SoundID "Human_CapitalHero_Odyssey_OnCreation"
+NumSoundsFor:ONGENERALORDERISSUED 1
+SoundID "Human_CapitalHero_Odyssey_OnGeneralOrderIssued_0"
+NumSoundsFor:ONSELECTED 1
+SoundID "Human_CapitalHero_Odyssey_OnSelected_0"
 NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "CAPITALSHIP_TECHCOLONY_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Human_CapitalHero_Daedalus"
+	meshName "Human_CapitalHero_Odyssey"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

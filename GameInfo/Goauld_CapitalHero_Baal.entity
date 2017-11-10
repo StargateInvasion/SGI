@@ -3,7 +3,7 @@ entityType "CapitalShip"
 ability:0 "Goauld_AbilityHero_TimeDilation"
 ability:1 "Goauld_AbilityHero_HorizonWeapons"
 ability:2 "Goauld_AbilityHero_AsgardCore"
-ability:3 "Goauld_AbilityCapital_Heracles"
+ability:3 "Goauld_AbilityCapital_Baal"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -78,13 +78,13 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_GOAULD_CAPITALHERO_HERACLES_NAME"
-DescriptionStringID "IDS_GOAULD_CAPITALHERO_HERACLES_DESCRIPTION"
+NameStringID "IDS_GOAULD_CAPITALHERO_BAAL_NAME"
+DescriptionStringID "IDS_GOAULD_CAPITALHERO_BAAL_DESCRIPTION"
 picture "HUMAN_CAPITALHERO_HERACLES_PICTURE"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Goauld_Research_Hero_Heracles"
+		Subject "Goauld_Research_Hero_Baal"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -95,7 +95,7 @@ numRandomDebrisSmall 17
 numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"
 armorType "CapitalShip"
-hudIcon "HUDICON_HUMAN_CAPITALHERO_HERACLES"
+hudIcon "HUDICON_GOAULD_CAPITALHERO_BAAL"
 smallHudIcon "HUDICONSMALL_HUMAN_CAPITALHERO_HERACLES"
 infoCardIcon "INFOCARDICON_HUMAN_CAPITALHERO_HERACLES"
 minZoomDistanceMult 1.500000

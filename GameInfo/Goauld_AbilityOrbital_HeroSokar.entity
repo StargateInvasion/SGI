@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Goauld_BuffOrbital_HeroSpawnDaedalusSelf"
+buffType "Goauld_BuffOrbital_HeroSpawnPrometheusSelf"
 targetFilter
 	numOwnerships 1
 	ownership "Player"
@@ -58,14 +58,11 @@ cooldownTime
 	Level:3 600.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "Goauld_Research_Hero_Daedalus"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_GOAULD_ABILITYORBITAL_HERODAEDALUS_NAME"
-descStringID "IDS_GOAULD_ABILITYORBITAL_HERODAEDALUS_DESCRIPTION"
-hudIcon "HUDICON_HUMAN_CAPITALHERO_DAEDALUS"
-smallHudIcon "HUDICONSMALL_HUMAN_CAPITALHERO_DAEDALUS"
+nameStringID "IDS_GOAULD_ABILITYORBITAL_HEROSOKAR_NAME"
+descStringID "IDS_GOAULD_ABILITYORBITAL_HEROSOKAR_DESCRIPTION"
+hudIcon "HUDICON_GOAULD_CAPITALHERO_SOKAR"
+smallHudIcon "HUDICONSMALL_HUMAN_CAPITALHERO_PROMETHEUS"
 infoCardIcon ""

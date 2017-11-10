@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Goauld_BuffCapital_PrometheusSelf"
+buffType "Goauld_BuffCapital_OdysseySelf"
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -28,8 +28,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_GOAULD_ABILITYCAPITAL_PROMETHEUS_NAME"
-descStringID "IDS_GOAULD_ABILITYCAPITAL_PROMETHEUS_DESCRIPTION"
-hudIcon "HUDICON_HUMAN_CAPITALHERO_PROMETHEUS"
-smallHudIcon "HUDICON_HUMAN_CAPITALHERO_PROMETHEUS"
+nameStringID "IDS_GOAULD_ABILITYCAPITAL_OSIRIS_NAME"
+descStringID "IDS_GOAULD_ABILITYCAPITAL_OSIRIS_DESCRIPTION"
+hudIcon "HUDICON_GOAULD_CAPITALHERO_OSIRIS"
+smallHudIcon "HUDICONSMALL_HUMAN_CAPITALHERO_ODYSSEY"
 infoCardIcon ""

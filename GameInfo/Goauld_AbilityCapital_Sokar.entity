@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Goauld_BuffCapital_HeraclesSelf"
+buffType "Goauld_BuffCapital_PrometheusSelf"
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -28,8 +28,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_GOAULD_ABILITYCAPITAL_HERACLES_NAME"
-descStringID "IDS_GOAULD_ABILITYCAPITAL_HERACLES_DESCRIPTION"
-hudIcon "HUDICON_HUMAN_CAPITALHERO_HERACLES"
-smallHudIcon "HUDICONSMALL_HUMAN_CAPITALHERO_HERACLES"
+nameStringID "IDS_GOAULD_ABILITYCAPITAL_SOKAR_NAME"
+descStringID "IDS_GOAULD_ABILITYCAPITAL_SOKAR_DESCRIPTION"
+hudIcon "HUDICON_GOAULD_CAPITALHERO_SOKAR"
+smallHudIcon "HUDICON_GOAULD_CAPITALHERO_SOKAR"
 infoCardIcon ""

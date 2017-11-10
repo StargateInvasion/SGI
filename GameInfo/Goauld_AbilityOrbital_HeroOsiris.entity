@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Goauld_BuffOrbital_HeroSpawnPrometheusSelf"
+buffType "Goauld_BuffOrbital_HeroSpawnOdysseySelf"
 targetFilter
 	numOwnerships 1
 	ownership "Player"
@@ -58,11 +58,14 @@ cooldownTime
 	Level:3 600.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Goauld_Research_Hero_Osiris"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_GOAULD_ABILITYORBITAL_HEROPROMETHEUS_NAME"
-descStringID "IDS_GOAULD_ABILITYORBITAL_HEROPROMETHEUS_DESCRIPTION"
-hudIcon "HUDICON_HUMAN_CAPITALHERO_PROMETHEUS"
-smallHudIcon "HUDICONSMALL_HUMAN_CAPITALHERO_PROMETHEUS"
+nameStringID "IDS_GOAULD_ABILITYORBITAL_HEROOSIRIS_NAME"
+descStringID "IDS_GOAULD_ABILITYORBITAL_HEROOSIRIS_DESCRIPTION"
+hudIcon "HUDICON_GOAULD_CAPITALHERO_OSIRIS"
+smallHudIcon "HUDICONSMALL_HUMAN_CAPITALHERO_ODYSSEY"
 infoCardIcon ""

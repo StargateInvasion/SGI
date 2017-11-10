@@ -1,5 +1,5 @@
 TXT
-numEffects 409
+numEffects 406
 effect
 	name "EFFECT_MAGNETICSTORMIMPACT"
 	fileName "Event_MagneticStorm_Impact.ogg"
@@ -836,21 +836,6 @@ effect
 	maxNumPlayingSimultaneously 5
 	isLooping FALSE
 	isResident TRUE
-	minRespawnTime 0.1
-	fadeInTime 0.0
-	fadeOutTime 0.0
-	alternateGroup ""
-effect
-	name "UI_COMMON_CANNONBUILT"
-	fileName "Common_CannonBuilt.ogg"
-	type "Effect"
-	is3D FALSE
-	priority 255
-	threshold 0.000000
-	minAttenuationDist 0.000000
-	maxNumPlayingSimultaneously 1
-	isLooping FALSE
-	isResident FALSE
 	minRespawnTime 0.1
 	fadeInTime 0.0
 	fadeOutTime 0.0
@@ -3749,21 +3734,6 @@ effect
 	minRespawnTime 0.5
 	fadeInTime 0.0
 	fadeOutTime 0.0
-	alternateGroup "WEAPON_PHASECAPITALPULSEGUNHEAVY_MUZZLE"	
-effect
-	name "WEAPON_PHASECAPITALPULSEGUNHEAVY_MUZZLE"
-	fileName "Weapon_PhaseCapitalPulseGunHeavy_Muzzle.ogg"
-	type "Effect"
-	is3D TRUE
-	priority 5
-	threshold 23000.000000
-	minAttenuationDist 800.000000
-	maxNumPlayingSimultaneously 5
-	isLooping FALSE
-	isResident TRUE
-	minRespawnTime 0.5
-	fadeInTime 0.0 
-	fadeOutTime 0.0
 	alternateGroup "WEAPON_PHASECAPITALPULSEGUNHEAVY_MUZZLE"
 effect
 	name "WEAPON_PHASECAPITALCHAOSBOLT_MUZZLE_ALT1"
@@ -6015,21 +5985,6 @@ effect
     fadeInTime 0.0
     fadeOutTime 0.0
     alternateGroup ""
-effect
-	name "WEAPON_PHASECAPITALWAVEMEDIUM_MUZZLE_ALT1"
-	fileName "Weapon_PhaseCapitalWaveMedium_Muzzle_Alt1.ogg"
-	type "Effect"
-	is3D TRUE
-	priority 5
-	threshold 23000.000000
-	minAttenuationDist 800.000000
-	maxNumPlayingSimultaneously 5
-	isLooping FALSE
-	isResident TRUE
-	minRespawnTime 0.1
-	fadeInTime 0.0
-	fadeOutTime 0.0
-	alternateGroup ""
 effect
 	name "Weapon_Goa'uld_Capital"
 	fileName "Weapon_Goa'uld_Capital.ogg"

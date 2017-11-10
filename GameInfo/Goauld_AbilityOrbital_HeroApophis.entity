@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Goauld_BuffOrbital_HeroSpawnOdysseySelf"
+buffType "Goauld_BuffOrbital_HeroSpawnDaedalusSelf"
 targetFilter
 	numOwnerships 1
 	ownership "Player"
@@ -60,12 +60,12 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Goauld_Research_Hero_Odyssey"
+		Subject "Goauld_Research_Hero_Apophis"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_GOAULD_ABILITYORBITAL_HEROODYSSEY_NAME"
-descStringID "IDS_GOAULD_ABILITYORBITAL_HEROODYSSEY_DESCRIPTION"
-hudIcon "HUDICON_HUMAN_CAPITALHERO_ODYSSEY"
-smallHudIcon "HUDICONSMALL_HUMAN_CAPITALHERO_ODYSSEY"
+nameStringID "IDS_GOAULD_ABILITYORBITAL_HEROAPOPHIS_NAME"
+descStringID "IDS_GOAULD_ABILITYORBITAL_HEROAPOPHIS_DESCRIPTION"
+hudIcon "HUDICON_GOAULD_CAPITALHERO_APOPHIS"
+smallHudIcon "HUDICONSMALL_HUMAN_CAPITALHERO_DAEDALUS"
 infoCardIcon ""

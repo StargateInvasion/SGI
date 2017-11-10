@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "Goauld_AbilityCapital_AsgardPulse"
-ability:1 "Goauld_AbilityHero_Nuke"
-ability:2 "Goauld_AbilityHero_EngineBoost"
-ability:3 "Goauld_AbilityCapital_Prometheus"
+ability:0 "Goauld_AbilityHero_EngineBoost"
+ability:1 "Goauld_AbilityCapital_AsgardPulse"
+ability:2 "Goauld_AbilityHero_HorizonWeapons"
+ability:3 "Goauld_AbilityCapital_Anubis"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -44,12 +44,12 @@ bombEffectsDef
 	missileStartTurningDistance 0.005000
 	missileSlowTurnRate 3.708997
 	missileMaxSlowTurnTime 12.000000
-mainViewIcon "MAINVIEWICON_HUMAN_CAPITALHERO_PROMETHEUS"
+mainViewIcon "MAINVIEWICON_HUMAN_CAPITALHERO_APOLLO"
 basePrice
 	credits 0.000000
 	metal 0.000000
 	crystal 0.000000
-slotCount 10.000000
+slotCount 30.000000
 BuildTime 0.000000
 MaxHullPoints
 	StartValue 2750.000000
@@ -78,11 +78,14 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_GOAULD_CAPITALHERO_PROMETHEUS_NAME"
-DescriptionStringID "IDS_GOAULD_CAPITALHERO_PROMETHEUS_DESCRIPTION"
-picture "HUMAN_FRIGATELIGHT_X303_PICTURE"
+NameStringID "IDS_GOAULD_CAPITALHERO_ANUBIS_NAME"
+DescriptionStringID "IDS_GOAULD_CAPITALHERO_ANUBIS_DESCRIPTION"
+picture "HUMAN_CRUISERHEAVY_BC304_PICTURE"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Goauld_Research_Hero_Anubis"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "COLONY"
@@ -92,91 +95,51 @@ numRandomDebrisSmall 17
 numSpecificDebris 1
 specificDebrisMeshName "DebrisTechLarge"
 armorType "CapitalShip"
-hudIcon "HUDICON_HUMAN_CAPITALHERO_PROMETHEUS"
-smallHudIcon "HUDICONSMALL_HUMAN_CAPITALHERO_PROMETHEUS"
-infoCardIcon "INFOCARDICON_HUMAN_CAPITALHERO_PROMETHEUS"
-minZoomDistanceMult 2.500000
+hudIcon "HUDICON_GOAULD_CAPITALHERO_ANUBIS"
+smallHudIcon "HUDICONSMALL_HUMAN_CAPITALHERO_APOLLO"
+infoCardIcon "INFOCARDICON_HUMAN_CAPITALHERO_APOLLO"
+minZoomDistanceMult 1.500000
 NumWeapons 3
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIMEDIUM"
+		AttackType "ANTIHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 13.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 13.000000
-	DamagePerBank:RIGHT 13.000000
-	Range 4000.000000
-	PreBuffCooldownTime 6.000000
+	DamagePerBank:FRONT 40.000000
+	DamagePerBank:BACK 10.000000
+	DamagePerBank:LEFT 20.000000
+	DamagePerBank:RIGHT 20.000000
+	Range 5500.000000
+	PreBuffCooldownTime 3.000000
 	CanFireAtFighter TRUE
-	SynchronizedTargeting TRUE
-	PointStaggerDelay 0.300000
-	TravelSpeed 1275.000000
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.450000
+	TravelSpeed 4000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 2
-		burstDelay 0.015000
+		burstCount 6
+		burstDelay 0.500000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Human_Muzzle"
-		muzzleSoundMinRespawnTime 0.770000
+		muzzleEffectName "Weapon_Tech_CapitalLaser_Muzzle"
+		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
 			soundCount 3
 			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE"
 			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT1"
 			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT2"
-		hitEffectName "Weapon_HumanRailguns_Hit"
+		hitEffectName "Weapon_Tech_AutoCannonCapShip_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
-		projectileTravelEffectName "Weapon_HumanRailgun_Travel"
-Weapon
-	WeaponType "Projectile"
-	damageEnums
-		AttackType "ANTIMEDIUM"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "PHYSICAL"
-		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 0.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 15.000000
-	DamagePerBank:RIGHT 15.000000
-	Range 4000.000000
-	PreBuffCooldownTime 6.000000
-	CanFireAtFighter TRUE
-	SynchronizedTargeting TRUE
-	PointStaggerDelay 0.300000
-	TravelSpeed 1275.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Projectile"
-		burstCount 1
-		burstDelay 0.015000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_Human_Muzzle"
-		muzzleSoundMinRespawnTime 0.770000
-		muzzleSounds
-			soundCount 3
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE"
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT1"
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT2"
-		hitEffectName "Weapon_HumanRailguns_Hit"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
-		projectileTravelEffectName "Weapon_HumanRailgun_Travel"
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Tech_AutoCannonCapShip_Travel"
 Weapon
 	WeaponType "Missile"
 	damageEnums
@@ -185,25 +148,25 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 90.000000
+	DamagePerBank:FRONT 250.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 4000.000000
-	PreBuffCooldownTime 8.000000
+	DamagePerBank:LEFT 100.000000
+	DamagePerBank:RIGHT 100.000000
+	Range 6000.000000
+	PreBuffCooldownTime 10.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 1.000000
-	TravelSpeed 1050.000000
+	PointStaggerDelay 0.500000
+	TravelSpeed 1450.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Missile"
 		burstCount 3
-		burstDelay 0.250000
+		burstDelay 0.500000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_TechCapitalPlanetBombing_Muzzle"
-		muzzleSoundMinRespawnTime 0.100000
+		muzzleSoundMinRespawnTime 0.350000
 		muzzleSounds
 			soundCount 1
 			sound "WEAPON_TECH_PLANETBOMB_MUZZLE"
@@ -219,9 +182,62 @@ Weapon
 			sound "EXPLOSION_SUB4_ALT1"
 			sound "EXPLOSION_SUB4_ALT2"
 		missileTravelEffectName "Weapon_HumanMissileHeavy_Travel"
-		missileStartTurningDistance 0.005000
-		missileSlowTurnRate 3.708997
-		missileMaxSlowTurnTime 12.000000
+		missileStartTurningDistance 0.500000
+		missileSlowTurnRate 1.500000
+		missileMaxSlowTurnTime 10.000000
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "BEAM"
+	DamagePerBank:FRONT 1750.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 6500.000000
+	PreBuffCooldownTime 4.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 1.300000
+	TravelSpeed 0.000000
+	Duration 1.000000
+	fireConstraintType "Research"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "Goauld_Research_Ability_AsgardBeams"
+			Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_BeamCapital_Muzzle"
+		muzzleSoundMinRespawnTime 1.300000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_ASGARDBEAMS_MUZZLE"
+		hitEffectName "Weapon_Psi_BeamCapital_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound ""
+		beamGlowTextureName "PsiCapitalBeam_Glow"
+		beamCoreTextureName "PsiCapitalBeam_Core"
+		beamWidth 20.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
@@ -230,7 +246,7 @@ TargetCountPerBank:LEFT 1
 TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 mass 4000.000000
-ShieldMeshName "Human_Shield_FrigateLight_X303"
+ShieldMeshName "Human_Shield_CruiserHeavy_BC304"
 renderShield TRUE
 maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000
@@ -266,7 +282,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "CAPITALSHIP_TECHCOLONY_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Human_CapitalHero_Prometheus"
+	meshName "Human_CapitalHero_Apollo"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

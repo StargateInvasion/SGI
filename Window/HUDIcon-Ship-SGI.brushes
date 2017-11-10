@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 275
+brushCount 274
 brush
 	name "HUDICON_HUMAN_TITANOFFENSE_TARTARUS"
 	content "States"
@@ -1010,59 +1010,347 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 138 , 1760 , 46 , 32 ]
 brush
-	name "HUDICON_GOAULD_ORBITAL_TRINIUMEXTRACTOR"
+	name "HUDICON_GOAULD_TITANOFFENSE_ANUBIS"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
-		pixelBox [ 184 , 1056 , 46 , 32 ]
+		pixelBox [ 184 , 0 , 46 , 32 ]
 	Pressed
 		fileName "Unit_Hud_SGI"
-		pixelBox [ 230 , 1056 , 46 , 32 ]
+		pixelBox [ 230 , 0 , 46 , 32 ]
 	CursorOver
 		fileName "Unit_Hud_SGI"
-		pixelBox [ 276 , 1056 , 46 , 32 ]
+		pixelBox [ 276 , 0 , 46 , 32 ]
 	Focused
 		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 1056 , 46 , 32 ]
+		pixelBox [ 322 , 0 , 46 , 32 ]
 	Normal
 		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 1056 , 46 , 32 ]
+		pixelBox [ 322 , 0 , 46 , 32 ]
 brush
-	name "HUDICON_GOAULD_ORBITAL_NAQUADAHEXTRACTOR"
+	name "HUDICON_GOAULD_TITANDEFENSE_SOKAR"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
-		pixelBox [ 184 , 1216 , 46 , 32 ]
+		pixelBox [ 184 , 32 , 46 , 32 ]
 	Pressed
 		fileName "Unit_Hud_SGI"
-		pixelBox [ 230 , 1216 , 46 , 32 ]
+		pixelBox [ 230 , 32 , 46 , 32 ]
 	CursorOver
 		fileName "Unit_Hud_SGI"
-		pixelBox [ 276 , 1216 , 46 , 32 ]
+		pixelBox [ 276 , 32 , 46 , 32 ]
 	Focused
 		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 1216 , 46 , 32 ]
+		pixelBox [ 322 , 32 , 46 , 32 ]
 	Normal
 		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 1216 , 46 , 32 ]
+		pixelBox [ 322 , 32 , 46 , 32 ]
 brush
-	name "HUDICON_GOAULD_MODULETRADESHIP_NEBU"
+	name "HUDICON_GOAULD_CAPITALBATTLESHIP_HATEL"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
-		pixelBox [ 184 , 992 , 46 , 32 ]
+		pixelBox [ 184 , 64 , 46 , 32 ]
 	Pressed
 		fileName "Unit_Hud_SGI"
-		pixelBox [ 230 , 992 , 46 , 32 ]
+		pixelBox [ 230 , 64 , 46 , 32 ]
 	CursorOver
 		fileName "Unit_Hud_SGI"
-		pixelBox [ 276 , 992 , 46 , 32 ]
+		pixelBox [ 276 , 64 , 46 , 32 ]
 	Focused
 		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 992 , 46 , 32 ]
+		pixelBox [ 322 , 64 , 46 , 32 ]
 	Normal
 		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 992 , 46 , 32 ]
+		pixelBox [ 322 , 64 , 46 , 32 ]
+brush
+	name "HUDICON_GOAULD_CAPITALCARRIER_HATAK"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 184 , 96 , 46 , 32 ]
+	Pressed
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 230 , 96 , 46 , 32 ]
+	CursorOver
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 276 , 96 , 46 , 32 ]
+	Focused
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 96 , 46 , 32 ]
+	Normal
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 96 , 46 , 32 ]
+brush
+	name "HUDICON_GOAULD_CAPITALCOLONY_CHEOPS"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 184, 128 , 46 , 32 ]
+	Pressed
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 230 , 128 , 46 , 32 ]
+	CursorOver
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 276 , 128 , 46 , 32 ]
+	Focused
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 128 , 46 , 32 ]
+	Normal
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 128 , 46 , 32 ]
+brush
+	name "HUDICON_GOAULD_CAPITALSUPPORT_SHUTAK"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 184 , 160 , 46 , 32 ]
+	Pressed
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 230 , 160 , 46 , 32 ]
+	CursorOver
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 276 , 160 , 46 , 32 ]
+	Focused
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 160 , 46 , 32 ]
+	Normal
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 160 , 46 , 32 ]
+brush
+	name "HUDICON_GOAULD_CAPITALSIEGE_MELTAK"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 184 , 192 , 46 , 32 ]
+	Pressed
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 230 , 192 , 46 , 32 ]
+	CursorOver
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 276 , 192 , 46 , 32 ]
+	Focused
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 192 , 46 , 32 ]
+	Normal
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 192 , 46 , 32 ]
+brush
+	name "HUDICON_GOAULD_CAPITALTRANSPORT_AMDUAT"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 184 , 224 , 46 , 32 ]
+	Pressed
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 230 , 224 , 46 , 32 ]
+	CursorOver
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 276 , 224 , 46 , 32 ]
+	Focused
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 224 , 46 , 32 ]
+	Normal
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 224 , 46 , 32 ]
+brush
+	name "HUDICON_GOAULD_FRIGATESCOUT_TELTAK"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 184 , 256 , 46 , 32 ]
+	Pressed
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 230 , 256 , 46 , 32 ]
+	CursorOver
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 276 , 256 , 46 , 32 ]
+	Focused
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 256 , 46 , 32 ]
+	Normal
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 256 , 46 , 32 ]
+brush
+	name "HUDICON_GOAULD_FRIGATELIGHT_AMMIT"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 184 , 288 , 46 , 32 ]
+	Pressed
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 230 , 288 , 46 , 32 ]
+	CursorOver
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 276 , 288 , 46 , 32 ]
+	Focused
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 288 , 46 , 32 ]
+	Normal
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 288 , 46 , 32 ]
+brush
+	name "HUDICON_GOAULD_FRIGATELONGRANGE_OSIRIS"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 184 , 320 , 46 , 32 ]
+	Pressed
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 230 , 320 , 46 , 32 ]
+	CursorOver
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 276 , 320 , 46 , 32 ]
+	Focused
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 320 , 46 , 32 ]
+	Normal
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 320 , 46 , 32 ]
+brush
+	name "HUDICON_GOAULD_FRIGATESIEGE_ALKESH"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 184 , 352 , 46 , 32 ]
+	Pressed
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 230 , 352 , 46 , 32 ]
+	CursorOver
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 276 , 352 , 46 , 32 ]
+	Focused
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 352 , 46 , 32 ]
+	Normal
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 352 , 46 , 32 ]
+brush
+	name "HUDICON_GOAULD_FRIGATEANTIFIGHTER_DUAT"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 184 , 384 , 46 , 32 ]
+	Pressed
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 230 , 384 , 46 , 32 ]
+	CursorOver
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 276 , 384 , 46 , 32 ]
+	Focused
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 384 , 46 , 32 ]
+	Normal
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 384 , 46 , 32 ]
+brush
+	name "HUDICON_GOAULD_FRIGATECOLONY_ATUM"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 184 , 416 , 46 , 32 ]
+	Pressed
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 230 , 416 , 46 , 32 ]
+	CursorOver
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 276 , 416 , 46 , 32 ]
+	Focused
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 416 , 46 , 32 ]
+	Normal
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 416 , 46 , 32 ]
+brush
+	name "HUDICON_GOAULD_FRIGATECORVETTE_HORUS"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 184 , 448 , 46 , 32 ]
+	Pressed
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 230 , 448 , 46 , 32 ]
+	CursorOver
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 276 , 448 , 46 , 32 ]
+	Focused
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 448 , 46 , 32 ]
+	Normal
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 448 , 46 , 32 ]
+brush
+	name "HUDICON_GOAULD_CRUISERCARRIER_HOKKESH"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 184 , 480 , 46 , 32 ]
+	Pressed
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 230 , 480 , 46 , 32 ]
+	CursorOver
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 276 , 480 , 46 , 32 ]
+	Focused
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 480 , 46 , 32 ]
+	Normal
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 480 , 46 , 32 ]
+brush
+	name "HUDICON_GOAULD_CRUISERUTILITY0_JANTAK"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 184 , 512 , 46 , 32 ]
+	Pressed
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 230 , 512 , 46 , 32 ]
+	CursorOver
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 276 , 512 , 46 , 32 ]
+	Focused
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 512 , 46 , 32 ]
+	Normal
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 512 , 46 , 32 ]
+brush
+	name "HUDICON_GOAULD_CRUISERUTILITY1_AKHET"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 184 , 544 , 46 , 32 ]
+	Pressed
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 230 , 544 , 46 , 32 ]
+	CursorOver
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 276 , 544 , 46 , 32 ]
+	Focused
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 544 , 46 , 32 ]
+	Normal
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 544 , 46 , 32 ]
+brush
+	name "HUDICON_GOAULD_CRUISERHEAVY_MAAT"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 184 , 576 , 46 , 32 ]
+	Pressed
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 230 , 576 , 46 , 32 ]
+	CursorOver
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 276 , 576 , 46 , 32 ]
+	Focused
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 576 , 46 , 32 ]
+	Normal
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 576 , 46 , 32 ]
 brush
 	name "HUDICON_GOAULD_CRUISERSTARBASECONSTRUCTOR_HELIOPOLIS"
 	content "States"
@@ -1082,367 +1370,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 608 , 46 , 32 ]
 brush
-	name "Goauld_TitanOffenseIcon"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 184 , 0 , 46 , 32 ]
-	Pressed
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 230 , 0 , 46 , 32 ]
-	CursorOver
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 276 , 0 , 46 , 32 ]
-	Focused
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 0 , 46 , 32 ]
-	Normal
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 0 , 46 , 32 ]
-brush
-	name "Goauld_TitanDefenseIcon"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 184 , 32 , 46 , 32 ]
-	Pressed
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 230 , 32 , 46 , 32 ]
-	CursorOver
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 276 , 32 , 46 , 32 ]
-	Focused
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 32 , 46 , 32 ]
-	Normal
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 32 , 46 , 32 ]
-brush
-	name "Goauld_CapitalBattleshipIcon"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 184 , 64 , 46 , 32 ]
-	Pressed
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 230 , 64 , 46 , 32 ]
-	CursorOver
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 276 , 64 , 46 , 32 ]
-	Focused
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 64 , 46 , 32 ]
-	Normal
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 64 , 46 , 32 ]
-brush
-	name "Goauld_CapitalCarrierIcon"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 184 , 96 , 46 , 32 ]
-	Pressed
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 230 , 96 , 46 , 32 ]
-	CursorOver
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 276 , 96 , 46 , 32 ]
-	Focused
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 96 , 46 , 32 ]
-	Normal
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 96 , 46 , 32 ]
-brush
-	name "Goauld_CapitalColonyIcon"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 184 , 128 , 46 , 32 ]
-	Pressed
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 230 , 128 , 46 , 32 ]
-	CursorOver
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 276 , 128 , 46 , 32 ]
-	Focused
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 128 , 46 , 32 ]
-	Normal
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 128 , 46 , 32 ]
-brush
-	name "Goauld_CapitalSupportIcon"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 184 , 160 , 46 , 32 ]
-	Pressed
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 230 , 160 , 46 , 32 ]
-	CursorOver
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 276 , 160 , 46 , 32 ]
-	Focused
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 160 , 46 , 32 ]
-	Normal
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 160 , 46 , 32 ]
-brush
-	name "Goauld_CapitalSiegeIcon"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 184 , 192 , 46 , 32 ]
-	Pressed
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 230 , 192 , 46 , 32 ]
-	CursorOver
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 276 , 192 , 46 , 32 ]
-	Focused
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 192 , 46 , 32 ]
-	Normal
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 192 , 46 , 32 ]
-brush
-	name "Goauld_CapitalTransportIcon"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 184 , 224 , 46 , 32 ]
-	Pressed
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 230 , 224 , 46 , 32 ]
-	CursorOver
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 276 , 224 , 46 , 32 ]
-	Focused
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 224 , 46 , 32 ]
-	Normal
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 224 , 46 , 32 ]
-brush
-	name "Goauld_FrigateScoutIcon"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 184 , 256 , 46 , 32 ]
-	Pressed
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 230 , 256 , 46 , 32 ]
-	CursorOver
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 276 , 256 , 46 , 32 ]
-	Focused
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 256 , 46 , 32 ]
-	Normal
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 256 , 46 , 32 ]
-brush
-	name "Goauld_FrigateLightIcon"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 184 , 288 , 46 , 32 ]
-	Pressed
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 230 , 288 , 46 , 32 ]
-	CursorOver
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 276 , 288 , 46 , 32 ]
-	Focused
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 288 , 46 , 32 ]
-	Normal
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 288 , 46 , 32 ]
-brush
-	name "Goauld_FrigateLongRangeIcon"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 184 , 320 , 46 , 32 ]
-	Pressed
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 230 , 320 , 46 , 32 ]
-	CursorOver
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 276 , 320 , 46 , 32 ]
-	Focused
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 320 , 46 , 32 ]
-	Normal
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 320 , 46 , 32 ]
-brush
-	name "Goauld_FrigateSiegeIcon"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 184 , 352 , 46 , 32 ]
-	Pressed
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 230 , 352 , 46 , 32 ]
-	CursorOver
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 276 , 352 , 46 , 32 ]
-	Focused
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 352 , 46 , 32 ]
-	Normal
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 352 , 46 , 32 ]
-brush
-	name "Goauld_FrigateAntiFighterIcon"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 184 , 384 , 46 , 32 ]
-	Pressed
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 230 , 384 , 46 , 32 ]
-	CursorOver
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 276 , 384 , 46 , 32 ]
-	Focused
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 384 , 46 , 32 ]
-	Normal
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 384 , 46 , 32 ]
-brush
-	name "Goauld_FrigateColonyIcon"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 184 , 416 , 46 , 32 ]
-	Pressed
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 230 , 416 , 46 , 32 ]
-	CursorOver
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 276 , 416 , 46 , 32 ]
-	Focused
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 416 , 46 , 32 ]
-	Normal
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 416 , 46 , 32 ]
-brush
-	name "Goauld_FrigateCorvetteIcon"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 184 , 448 , 46 , 32 ]
-	Pressed
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 230 , 448 , 46 , 32 ]
-	CursorOver
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 276 , 448 , 46 , 32 ]
-	Focused
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 448 , 46 , 32 ]
-	Normal
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 448 , 46 , 32 ]
-brush
-	name "Goauld_CruiserCarrierIcon"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 184 , 480 , 46 , 32 ]
-	Pressed
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 230 , 480 , 46 , 32 ]
-	CursorOver
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 276 , 480 , 46 , 32 ]
-	Focused
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 480 , 46 , 32 ]
-	Normal
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 480 , 46 , 32 ]
-brush
-	name "Goauld_CruiserUtility1Icon"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 184 , 512 , 46 , 32 ]
-	Pressed
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 230 , 512 , 46 , 32 ]
-	CursorOver
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 276 , 512 , 46 , 32 ]
-	Focused
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 512 , 46 , 32 ]
-	Normal
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 512 , 46 , 32 ]
-brush
-	name "Goauld_CruiserUtility0Icon"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 184 , 544 , 46 , 32 ]
-	Pressed
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 230 , 544 , 46 , 32 ]
-	CursorOver
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 276 , 544 , 46 , 32 ]
-	Focused
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 544 , 46 , 32 ]
-	Normal
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 544 , 46 , 32 ]
-brush
-	name "Goauld_CruiserHeavyIcon"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 184 , 576 , 46 , 32 ]
-	Pressed
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 230 , 576 , 46 , 32 ]
-	CursorOver
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 276 , 576 , 46 , 32 ]
-	Focused
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 576 , 46 , 32 ]
-	Normal
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 576 , 46 , 32 ]
-brush
-	name "Goauld_CruiserStarBaseConstructorIcon"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 184 , 608 , 46 , 32 ]
-	Pressed
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 230 , 608 , 46 , 32 ]
-	CursorOver
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 276 , 608 , 46 , 32 ]
-	Focused
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 608 , 46 , 32 ]
-	Normal
-		fileName "Unit_Hud_SGI"
-		pixelBox [ 322 , 608 , 46 , 32 ]
-brush
-	name "Goauld_CruiserAntiModuleIcon"
+	name "HUDICON_GOAULD_CRUISERANTIMODULE_THOTH"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1460,7 +1388,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 640 , 46 , 32 ]
 brush
-	name "Goauld_CruiserEnvoyIcon"
+	name "HUDICON_GOAULD_CRUISERENVOY_ISIS"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1478,7 +1406,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 672 , 46 , 32 ]
 brush
-	name "Goauld_FighterCombatIcon"
+	name "HUDICON_GOAULD_FIGHTERSQUAD_DEATHGLIDER"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1496,7 +1424,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 704 , 46 , 32 ]
 brush
-	name "Goauld_FighterBomberIcon"
+	name "HUDICON_GOAULD_FIGHTERSQUAD_DEATHBOMBER"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1514,7 +1442,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 736 , 46 , 32 ]
 brush
-	name "Goauld_HeroPrometheusIcon"
+	name "HUDICON_GOAULD_FIGHTERSQUAD_NEEDLETHREADER"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1532,7 +1460,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 768 , 46 , 32 ]
 brush
-	name "Goauld_HeroApolloIcon"
+	name "HUDICON_GOAULD_CAPITALHERO_ANUBIS"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1550,7 +1478,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 800 , 46 , 32 ]
 brush
-	name "Goauld_HeroDaedalusIcon"
+	name "HUDICON_GOAULD_CAPITALHERO_SOKAR"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1568,7 +1496,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 832 , 46 , 32 ]
 brush
-	name "Goauld_HeroOdysseyIcon"
+	name "HUDICON_GOAULD_CAPITALHERO_BAAL"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1586,7 +1514,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 864 , 46 , 32 ]
 brush
-	name "Goauld_HeroHeraclesIcon"
+	name "HUDICON_GOAULD_CAPITALHERO_OSIRIS"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1604,7 +1532,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 896 , 46 , 32 ]
 brush
-	name "Goauld_ModuleConstructorIcon"
+	name "HUDICON_GOAULD_CAPITALHERO_APOPHIS"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1622,7 +1550,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 928 , 46 , 32 ]
 brush
-	name "Goauld_ModuleTradeShipIcon"
+	name "HUDICON_GOAULD_MODULECONSTRUCTOR_SESHAT"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1640,7 +1568,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 960 , 46 , 32 ]
 brush
-	name "Goauld_ModuleRefineryShipIcon"
+	name "HUDICON_GOAULD_MODULETRADESHIP_NEBU"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1658,7 +1586,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 992 , 46 , 32 ]
 brush
-	name "Goauld_OrbitalMetalExtractorIcon"
+	name "HUDICON_GOAULD_MODULEREFINERYSHIP_SOBEK"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1676,7 +1604,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 1024 , 46 , 32 ]
 brush
-	name "Goauld_OrbitalFrigateFactoryIcon"
+	name "HUDICON_GOAULD_ORBITAL_TRINIUMEXTRACTOR"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1694,7 +1622,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 1056 , 46 , 32 ]
 brush
-	name "Goauld_OrbitalCombatLaboratoryIcon"
+	name "HUDICON_GOAULD_ORBITAL_FRIGATEFACTORY"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1712,7 +1640,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 1088 , 46 , 32 ]
 brush
-	name "Goauld_OrbitalTradePortIcon"
+	name "HUDICON_GOAULD_ORBITAL_COMBATLABORATORY"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1730,7 +1658,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 1120 , 46 , 32 ]
 brush
-	name "Goauld_OrbitalCultureCenterIcon"
+	name "HUDICON_GOAULD_ORBITAL_TRADEPORT"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1748,7 +1676,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 1152 , 46 , 32 ]
 brush
-	name "Goauld_OrbitalCrystalExtractorIcon"
+	name "HUDICON_GOAULD_ORBITAL_CULTURECENTER"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1766,7 +1694,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 1184 , 46 , 32 ]
 brush
-	name "Goauld_OrbitalCapitalFactoryIcon"
+	name "HUDICON_GOAULD_ORBITAL_NAQUADAHEXTRACTOR"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1784,7 +1712,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 1216 , 46 , 32 ]
 brush
-	name "Goauld_OrbitalNonCombatLaboratoryIcon"
+	name "HUDICON_GOAULD_ORBITAL_CAPITALSHIPFACTORY"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1802,7 +1730,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 1248 , 46 , 32 ]
 brush
-	name "Goauld_OrbitalRefineryIcon"
+	name "HUDICON_GOAULD_ORBITAL_NONCOMBATLABORATORY"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1820,7 +1748,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 1280 , 46 , 32 ]
 brush
-	name "Goauld_OrbitalGaussDefenseIcon"
+	name "HUDICON_GOAULD_ORBITAL_REFINERY"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1838,7 +1766,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 1312 , 46 , 32 ]
 brush
-	name "Goauld_OrbitalHangarDefenseIcon"
+	name "HUDICON_GOAULD_ORBITAL_WEAPONSPLATFORM"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1856,7 +1784,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 1344 , 46 , 32 ]
 brush
-	name "Goauld_OrbitalJumpBlockerIcon"
+	name "HUDICON_GOAULD_ORBITAL_HANGERDEFENSE"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1874,7 +1802,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 1376 , 46 , 32 ]
 brush
-	name "Goauld_OrbitalShieldGeneratorIcon"
+	name "HUDICON_GOAULD_ORBITAL_REPAIRPLATFORM"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1892,7 +1820,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 1408 , 46 , 32 ]
 brush
-	name "Goauld_OrbitalCannonIcon"
+	name "HUDICON_GOAULD_ORBITAL_JUMPBLOCKER"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1910,7 +1838,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 1440 , 46 , 32 ]
 brush
-	name "Goauld_OrbitalDeepSpaceMineIcon"
+	name "HUDICON_GOAULD_ORBITAL_SHIELDGENERATOR"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1928,7 +1856,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 1472 , 46 , 32 ]
 brush
-	name "Goauld_OrbitalTitanFactoryIcon"
+	name "HUDICON_GOAULD_ORBITAL_CANNON"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1946,7 +1874,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 1504 , 46 , 32 ]
 brush
-	name "Goauld_OrbitalHeroIcon"
+	name "HUDICON_GOAULD_ORBITAL_MINE"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1964,7 +1892,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 1536 , 46 , 32 ]
 brush
-	name "Goauld_OrbitalStargateIcon"
+	name "HUDICON_GOAULD_ORBITAL_HEADQUARTERS"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1982,7 +1910,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 1568 , 46 , 32 ]
 brush
-	name "Goauld_StarbaseOffenseIcon"
+	name "HUDICON_GOAULD_ORBITAL_TITANFOUNDRY"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -2000,7 +1928,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 1600 , 46 , 32 ]
 brush
-	name "Goauld_StarbaseDefenseIcon"
+	name "HUDICON_GOAULD_ORBITAL_HEAVYDEFENSE"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -2018,7 +1946,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 1632 , 46 , 32 ]
 brush
-	name "Goauld_StarbaseSpecialIcon"
+	name "HUDICON_GOAULD_ORBITAL_STARGATE"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -2035,6 +1963,60 @@ brush
 	Normal
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 1664 , 46 , 32 ]
+brush
+	name "HUDICON_GOAULD_STARBASEOFFENSE_CRONUS"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 184 , 1696 , 46 , 32 ]
+	Pressed
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 230 , 1696 , 46 , 32 ]
+	CursorOver
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 276 , 1696 , 46 , 32 ]
+	Focused
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 1696 , 46 , 32 ]
+	Normal
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 1696 , 46 , 32 ]
+brush
+	name "HUDICON_GOAULD_STARBASEDEFENSE_SETESH"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 184 , 1728 , 46 , 32 ]
+	Pressed
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 230 , 1728 , 46 , 32 ]
+	CursorOver
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 276 , 1728 , 46 , 32 ]
+	Focused
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 1728 , 46 , 32 ]
+	Normal
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 1728 , 46 , 32 ]
+brush
+	name "HUDICON_GOAULD_STARBASESPECIAL_UNAS"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 184 , 1760 , 46 , 32 ]
+	Pressed
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 230 , 1760 , 46 , 32 ]
+	CursorOver
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 276 , 1760 , 46 , 32 ]
+	Focused
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 1760 , 46 , 32 ]
+	Normal
+		fileName "Unit_Hud_SGI"
+		pixelBox [ 322 , 1760 , 46 , 32 ]
 brush
 	name "Wraith_TitanOffenseIcon"
 	content "States"
