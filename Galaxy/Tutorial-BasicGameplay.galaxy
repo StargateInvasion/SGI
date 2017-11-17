@@ -65,8 +65,8 @@ star
 					owner "PlanetOwner"
 					colonizeChance 1
 					items 2
-						item "Tech:Module:FrigateFactory"
-						item "Tech:CapitalShip:Colony"
+						item "Human:Orbital:FrigateFactory"
+						item "Human:CapitalShip:Colony"
 		spawnProbability 1.00000
 		useDefaultTemplate FALSE
 		entityCount 0
@@ -124,9 +124,9 @@ star
 					owner "PlanetOwner"
 					colonizeChance 1
 					items 3
-						item "Tech:Module:GaussDefense"
-						item "Tech:Module:FrigateFactory"
-						item "Tech:Module:MetalExtractor"
+						item "Human:Orbital:WeaponsPlatform"
+						item "Human:Orbital:FrigateFactory"
+						item "Human:Orbital:MetalExtractor"
 		spawnProbability 1.000000
 		useDefaultTemplate FALSE
 		entityCount 0

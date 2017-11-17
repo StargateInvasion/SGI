@@ -662,18 +662,18 @@ template
 		owner "PlanetOwner"
 		colonizeChance 0.000000
 		items 12
-		item "Tech:Corvette:Loyalist"
-		item "Tech:Corvette:Loyalist"
-		item "Tech:Corvette:Loyalist"
-		item "Tech:Corvette:Loyalist"
-		item "Tech:Corvette:Loyalist"
-		item "Tech:Corvette:Loyalist"
-		item "Tech:Corvette:Loyalist"
-		item "Tech:Corvette:Loyalist"
-		item "Tech:Corvette:Loyalist"
-		item "Tech:Corvette:Loyalist"
-		item "Tech:Corvette:Loyalist"
-		item "Tech:Corvette:Loyalist"
+		item "Human:Frigate:Corvette"
+		item "Human:Frigate:Corvette"
+		item "Human:Frigate:Corvette"
+		item "Human:Frigate:Corvette"
+		item "Human:Frigate:Corvette"
+		item "Human:Frigate:Corvette"
+		item "Human:Frigate:Corvette"
+		item "Human:Frigate:Corvette"
+		item "Human:Frigate:Corvette"
+		item "Human:Frigate:Corvette"
+		item "Human:Frigate:Corvette"
+		item "Human:Frigate:Corvette"
 	group
 		condition
 			type "PlanetOwnerIsRaceQuickStart"
@@ -716,18 +716,18 @@ template
 		owner "PlanetOwner"
 		colonizeChance 0.000000
 		items 12
-		item "Tech:Corvette:Rebel"
-		item "Tech:Corvette:Rebel"
-		item "Tech:Corvette:Rebel"
-		item "Tech:Corvette:Rebel"
-		item "Tech:Corvette:Rebel"
-		item "Tech:Corvette:Rebel"
-		item "Tech:Corvette:Rebel"
-		item "Tech:Corvette:Rebel"
-		item "Tech:Corvette:Rebel"
-		item "Tech:Corvette:Rebel"
-		item "Tech:Corvette:Rebel"
-		item "Tech:Corvette:Rebel"
+		item "Human:Frigate:Corvette"
+		item "Human:Frigate:Corvette"
+		item "Human:Frigate:Corvette"
+		item "Human:Frigate:Corvette"
+		item "Human:Frigate:Corvette"
+		item "Human:Frigate:Corvette"
+		item "Human:Frigate:Corvette"
+		item "Human:Frigate:Corvette"
+		item "Human:Frigate:Corvette"
+		item "Human:Frigate:Corvette"
+		item "Human:Frigate:Corvette"
+		item "Human:Frigate:Corvette"
 	group
 		condition
 			type "PlanetOwnerIsRaceQuickStart"
@@ -754,15 +754,15 @@ template
 		owner "PlanetOwner"
 		colonizeChance 0.000000
 		items 9
-		item "Phase:Corvette:Rebel"
-		item "Phase:Corvette:Rebel"
-		item "Phase:Corvette:Rebel"
-		item "Phase:Corvette:Rebel"
-		item "Phase:Corvette:Rebel"
-		item "Phase:Corvette:Rebel"
-		item "Phase:Corvette:Rebel"
-		item "Phase:Corvette:Rebel"
-		item "Phase:Corvette:Rebel"
+		item "Asuran:Frigate:Corvette"
+		item "Asuran:Frigate:Corvette"
+		item "Asuran:Frigate:Corvette"
+		item "Asuran:Frigate:Corvette"
+		item "Asuran:Frigate:Corvette"
+		item "Asuran:Frigate:Corvette"
+		item "Asuran:Frigate:Corvette"
+		item "Asuran:Frigate:Corvette"
+		item "Asuran:Frigate:Corvette"
 template
 	templateName "Stuff2"
 	subTemplates 0
@@ -774,9 +774,9 @@ template
 		owner "PlanetOwner"
 		colonizeChance 0.000000
 		items 3
-		item "Tech:Module:CombatLab"
-		item "Tech:Module:CrystalExtractor"
-		item "Tech:Module:MetalExtractor"
+		item "Human:Orbital:CombatLab"
+		item "Human:Orbital:CrystalExtractor"
+		item "Human:Orbital:MetalExtractor"
 	group
 		condition
 			type "PlanetOwnerIsRaceQuickStart"
@@ -784,9 +784,9 @@ template
 		owner "PlanetOwner"
 		colonizeChance 0.000000
 		items 3
-		item "Tech:Module:CombatLab"
-		item "Tech:Module:MetalExtractor"
-		item "Tech:Module:CrystalExtractor"
+		item "Human:Orbital:CombatLab"
+		item "Human:Orbital:MetalExtractor"
+		item "Human:Orbital:CrystalExtractor"
 	group
 		condition
 			type "PlanetOwnerIsRaceQuickStart"
@@ -804,9 +804,9 @@ template
 		owner "PlanetOwner"
 		colonizeChance 0.000000
 		items 3
-		item "Phase:Module:CombatLab"
-		item "Phase:Module:CrystalExtractor"
-		item "Phase:Module:MetalExtractor"
+		item "Asuran:Orbital:CombatLab"
+		item "Asuran:Orbital:CrystalExtractor"
+		item "Asuran:Orbital:MetalExtractor"
 	group
 		condition
 			type "PlanetOwnerIsRaceQuickStart"
@@ -824,9 +824,9 @@ template
 		owner "PlanetOwner"
 		colonizeChance 0.000000
 		items 3
-		item "Phase:Module:CombatLab"
-		item "Phase:Module:MetalExtractor"
-		item "Phase:Module:CrystalExtractor"
+		item "Asuran:Orbital:CombatLab"
+		item "Asuran:Orbital:MetalExtractor"
+		item "Asuran:Orbital:CrystalExtractor"
 template
 	templateName "ArtifactVolc"
 	subTemplates 0

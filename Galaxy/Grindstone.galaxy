@@ -1031,15 +1031,15 @@ template
 		owner "PlanetOwner"
 		colonizeChance 0.000000
 		items 9
-		item "Tech:Module:GaussDefense"
-		item "Tech:Module:GaussDefense"
-		item "Tech:Module:NonCombatLab"
-		item "Tech:Module:CombatLab"
-		item "Tech:Frigate:Scout"
-		item "Tech:Frigate:Heavy"
-		item "Tech:Frigate:Heavy"
-		item "Tech:Frigate:Light"
-		item "Tech:Frigate:Light"
+		item "Human:Orbital:WeaponsPlatform"
+		item "Human:Orbital:WeaponsPlatform"
+		item "Human:Orbital:NonCombatLab"
+		item "Human:Orbital:CombatLab"
+		item "Human:Frigate:Scout"
+		item "Human:Cruiser:Heavy"
+		item "Human:Cruiser:Heavy"
+		item "Human:Frigate:Light"
+		item "Human:Frigate:Light"
 	group
 		condition
 			type "PlanetOwnerIsRaceQuickStart"
@@ -1063,13 +1063,13 @@ template
 		owner "PlanetOwner"
 		colonizeChance 0.000000
 		items 9
-		item "Phase:Module:MissileDefense"
-		item "Phase:Module:MissileDefense"
-		item "Phase:Module:NonCombatLab"
-		item "Phase:Module:CombatLab"
-		item "Phase:Frigate:Heavy"
-		item "Phase:Frigate:Heavy"
-		item "Phase:Frigate:Light"
-		item "Phase:Frigate:Light"
-		item "Phase:Frigate:Scout"
+		item "Asuran:Orbital:WeaponsPlatform"
+		item "Asuran:Orbital:WeaponsPlatform"
+		item "Asuran:Orbital:NonCombatLab"
+		item "Asuran:Orbital:CombatLab"
+		item "Asuran:Cruiser:Heavy"
+		item "Asuran:Cruiser:Heavy"
+		item "Asuran:Frigate:Light"
+		item "Asuran:Frigate:Light"
+		item "Asuran:Frigate:Scout"
 		

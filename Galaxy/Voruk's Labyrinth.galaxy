@@ -2272,10 +2272,10 @@ template
 		owner "PlanetOwner"
 		colonizeChance 0.000000
 		items 4
-		item "Tech:Frigate:Colony"
-		item "Tech:Frigate:Heavy"
-		item "Tech:Frigate:Heavy"
-		item "Tech:Frigate:Heavy"
+		item "Human:Frigate:Colony"
+		item "Human:Cruiser:Heavy"
+		item "Human:Cruiser:Heavy"
+		item "Human:Cruiser:Heavy"
 	group
 		condition
 			type "PlanetOwnerIsRaceQuickStart"
@@ -2294,10 +2294,10 @@ template
 		owner "PlanetOwner"
 		colonizeChance 0.000000
 		items 4
-		item "Phase:Frigate:Colony"
-		item "Phase:Frigate:Heavy"
-		item "Phase:Frigate:Heavy"
-		item "Phase:Frigate:Heavy"
+		item "Asuran:Frigate:Colony"
+		item "Asuran:Cruiser:Heavy"
+		item "Asuran:Cruiser:Heavy"
+		item "Asuran:Cruiser:Heavy"
 template
 	templateName "Labs"
 	subTemplates 0
@@ -2309,11 +2309,11 @@ template
 		owner "PlanetOwner"
 		colonizeChance 0.000000
 		items 5
-		item "Tech:Module:NonCombatLab"
-		item "Tech:Module:NonCombatLab"
-		item "Tech:Module:NonCombatLab"
-		item "Tech:Module:NonCombatLab"
-		item "Tech:Module:NonCombatLab"
+		item "Human:Orbital:NonCombatLab"
+		item "Human:Orbital:NonCombatLab"
+		item "Human:Orbital:NonCombatLab"
+		item "Human:Orbital:NonCombatLab"
+		item "Human:Orbital:NonCombatLab"
 	group
 		condition
 			type "PlanetOwnerIsRaceQuickStart"
@@ -2333,8 +2333,8 @@ template
 		owner "PlanetOwner"
 		colonizeChance 0.000000
 		items 5
-		item "Phase:Module:NonCombatLab"
-		item "Phase:Module:NonCombatLab"
-		item "Phase:Module:NonCombatLab"
-		item "Phase:Module:NonCombatLab"
-		item "Phase:Module:NonCombatLab"
+		item "Asuran:Orbital:NonCombatLab"
+		item "Asuran:Orbital:NonCombatLab"
+		item "Asuran:Orbital:NonCombatLab"
+		item "Asuran:Orbital:NonCombatLab"
+		item "Asuran:Orbital:NonCombatLab"
