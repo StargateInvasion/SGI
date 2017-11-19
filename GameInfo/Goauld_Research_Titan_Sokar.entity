@@ -7,13 +7,10 @@ NameStringID "IDS_GOAULD_RESEARCH_TITAN_SOKAR_NAME"
 DescriptionStringID "IDS_GOAULD_RESEARCH_TITAN_SOKAR_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 6 , 0 ]
+	pos [ 7 , 1 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "Goauld_Research_Ability_AdvancedAsgardBeams"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1

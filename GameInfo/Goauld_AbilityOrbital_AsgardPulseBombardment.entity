@@ -16,7 +16,7 @@ moveThruTarget FALSE
 isUltimateAbility TRUE
 maxNumLevels 1
 levelSourceType "ResearchWithoutBase"
-improveSourceResearchSubject "Goauld_Research_WeaponAccess_AsgardPlasmaPulse0"
+improveSourceResearchSubject "Goauld_Research_WeaponAccess_PlasmaPulse0"
 aiUseTime "OnlyWhenEnemyFleetWillPrevail"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -39,7 +39,7 @@ orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Goauld_Research_WeaponAccess_AsgardPlasmaPulse0"
+		Subject "Goauld_Research_WeaponAccess_PlasmaPulse0"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

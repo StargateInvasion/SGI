@@ -1,5 +1,5 @@
 ﻿TXT
-NumStrings 7862
+NumStrings 7838
 StringInfo
 	ID "IDS_ABILITY_ANTIMATTER_FOUNTAIN_NAME"
 	Value "Energy Fountain"
@@ -1733,7 +1733,7 @@ StringInfo
 	Value "Increased hull strength for Starbases."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_STARBASEUPGRADEACCESSBLOCKCOLONIZE_NAME"
-	Value "Block Colonization"
+	Value "Prevent Colonization"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_STARBASEUPGRADEACCESSBLOCKCOLONIZE_DESCRIPTION"
 	Value "Starbase Upgrade that stops enemy colonization of planets in the gravity well."
@@ -3028,41 +3028,11 @@ StringInfo
 	ID "IDS_HUMAN_RESEARCH_ANTIMATTER1_DESCRIPTION"
 	Value "Designs in the Ancient Database allow the Tau'ri to build Naquadah Reactors, greatly increasing power generation."
 StringInfo
-	ID "IDS_HUMAN_RESEARCH_ARMOR0_NAME"
-	Value "Tok'ra Armor"
-StringInfo
-	ID "IDS_HUMAN_RESEARCH_ARMOR0_DESCRIPTION"
-	Value "The Tok'ra and the Tau'ri have completed a advanced prototype hull design. Increasing armor on all Tau'ri ships."
-StringInfo
-	ID "IDS_HUMAN_RESEARCH_ARMOR1_NAME"
-	Value "Tollan Armor"
-StringInfo
-	ID "IDS_HUMAN_RESEARCH_ARMOR1_DESCRIPTION"
-	Value "Research Teams scouting the fallen Tollan Homeworld uncover advanced Tollan armor technology, thus increasing all Tau'ri ships armor and armor regeneration rates."
-StringInfo
-	ID "IDS_HUMAN_RESEARCH_ARMOR2_NAME"
-	Value "Asgard Armor"
-StringInfo
-	ID "IDS_HUMAN_RESEARCH_ARMOR2_DESCRIPTION"
-	Value "With the decline of the Asgard race, Asgard Armor is now shared and installed in all Tau'ri space craft."
-StringInfo
-	ID "IDS_HUMAN_RESEARCH_ARMOR3_NAME"
-	Value "Ancient Armor"
-StringInfo
-	ID "IDS_HUMAN_RESEARCH_ARMOR3_DESCRIPTION"
-	Value "Area 51 upgrade to all Tau'ri vessels enables a massive armor and armor regeneration boost using Ancient technology."
-StringInfo
 	ID "IDS_HUMAN_RESEARCH_ASGARDTECH0_NAME"
 	Value "Asgard Technology"
 StringInfo
 	ID "IDS_HUMAN_RESEARCH_ASGARDTECH0_DESCRIPTION"
 	Value "Researchers and Scientists learn how to use Asgard technology effectively."
-StringInfo
-	ID "IDS_HUMAN_RESEARCH_ASGARDTECH1_NAME"
-	Value "Advanced Asgard Technology"
-StringInfo
-	ID "IDS_HUMAN_RESEARCH_ASGARDTECH1_DESCRIPTION"
-	Value "After gaining access to more Asgard technology, researchers study and examine it."
 StringInfo
 	ID "IDS_HUMAN_RESEARCH_ASGARDTREATY0_NAME"
 	Value "First Asgard Treaty"
@@ -4153,12 +4123,6 @@ StringInfo
 	ID "IDS_GOAULD_ABILITYCAPITAL_ANUBIS_DESCRIPTION"
 	Value "TODO"
 StringInfo
-	ID "IDS_GOAULD_ABILITYCAPITAL_ASGARDBEAMS_NAME"
-	Value "Asgard Beam Weapons"
-StringInfo
-	ID "IDS_GOAULD_ABILITYCAPITAL_ASGARDBEAMS_DESCRIPTION"
-	Value "Fires the very powerful Asgard beams. Requires research of Asgard Beam Weapons."
-StringInfo
 	ID "IDS_GOAULD_ABILITYCAPITAL_ASGARDBEAMSBOMBARDMENT_NAME"
 	Value "Asgard Core Overload"
 StringInfo
@@ -4284,12 +4248,6 @@ StringInfo
 StringInfo
 	ID "IDS_GOAULD_ABILITYCRUISER_ARBITRATETARIFF_DESCRIPTION"
 	Value "Grants the Arbitrate Tariff ability to Hermes Envoy, which boosts trade and refinery ship income in order to boost relations."
-StringInfo
-	ID "IDS_GOAULD_ABILITYCRUISER_ASGARDBEAMS_NAME"
-	Value "Asgard Beam Weapons"
-StringInfo
-	ID "IDS_GOAULD_ABILITYCRUISER_ASGARDBEAMS_DESCRIPTION"
-	Value "Fires the very powerful Asgard beams. Requires research of Asgard Beam Weapons."
 StringInfo
 	ID "IDS_GOAULD_ABILITYCRUISER_PULSE_NAME"
 	Value "Goa'uld Plasma Weapons"
@@ -4441,12 +4399,6 @@ StringInfo
 	ID "IDS_GOAULD_ABILITYFRIGATE_UNSTOPPABLEPHASEJUMP_DESCRIPTION"
 	Value "Allows Tau'ri ships to engage Emergency Hyperspace windows even when anti-hyperspace devices are deployed."
 StringInfo
-	ID "IDS_GOAULD_ABILITYHERO_ASGARDBEAMS_NAME"
-	Value "Asgard Beam Weapons"
-StringInfo
-	ID "IDS_GOAULD_ABILITYHERO_ASGARDBEAMS_DESCRIPTION"
-	Value "Fires the very powerful Asgard beams. Requires research of Asgard Beam Weapons."
-StringInfo
 	ID "IDS_GOAULD_ABILITYHERO_ASGARDCORE_NAME"
 	Value "Activate Asgard Core"
 StringInfo
@@ -4466,10 +4418,10 @@ StringInfo
 	Value "Push the Apollos engine to the max to either flee or catch up to a target."
 StringInfo
 	ID "IDS_GOAULD_ABILITYHERO_HORIZONWEAPONS_NAME"
-	Value "Horizon Warheads"
+	Value "Naquadah Warheads"
 StringInfo
 	ID "IDS_GOAULD_ABILITYHERO_HORIZONWEAPONS_DESCRIPTION"
-	Value "The system consists of a large, bullet-shaped delivery module containing ten missiles, six with Mark IX tactical warheads and four decoys, the missiles themselves are released about twelve seconds prior to impact, finding individual targets and detonating simultaneously."
+	Value "TODO"
 StringInfo
 	ID "IDS_GOAULD_ABILITYHERO_NUKE_NAME"
 	Value "Mark VIII Nuke"
@@ -4615,12 +4567,6 @@ StringInfo
 	ID "IDS_GOAULD_ABILITYORBITAL_CAPITAL_UPKEEP_DESCRIPTION"
 	Value "This orbital facility provides all human Capital Ships with logistics support. Resources are transferred from the economy and provided to each ship in this class. Constructing more ships increases the drain on resources. Be mindful of your fleet size or your economy will inevitably drift into the red!"
 StringInfo
-	ID "IDS_GOAULD_ABILITYSTARBASE_ASGARDBEAMS_NAME"
-	Value "Asgard Beam Weapons"
-StringInfo
-	ID "IDS_GOAULD_ABILITYSTARBASE_ASGARDBEAMS_DESCRIPTION"
-	Value "Fires the very powerful Asgard beams. Requires research of Asgard Beam Weapons."
-StringInfo
 	ID "IDS_GOAULD_ABILITYSTARBASE_DESTABILIZEHYPERSPACE_NAME"
 	Value "Hyperdrive Disruption"
 StringInfo
@@ -4638,18 +4584,6 @@ StringInfo
 StringInfo
 	ID "IDS_GOAULD_ABILITYSTARBASE_SPACEGATE_DESCRIPTION"
 	Value "Tau'ri starbases have a Stargate enabling them to connect directly to other Stargates."
-StringInfo
-	ID "IDS_GOAULD_ABILITYTITAN_ADVANCEDASGARDBEAMS_NAME"
-	Value "Advanced Asgard Beams"
-StringInfo
-	ID "IDS_GOAULD_ABILITYTITAN_ADVANCEDASGARDBEAMS_DESCRIPTION"
-	Value "Intense Plasma Charge advancements bring new insights to containing and manipulating weaponized energy.  Scientists are able to build an upgraded version of the Asgard Beam Weapon with higher energy densities that are even more devastating to anything they touch!"
-StringInfo
-	ID "IDS_GOAULD_ABILITYTITAN_ASGARDBEAMS_NAME"
-	Value "Asgard Beam Weapons"
-StringInfo
-	ID "IDS_GOAULD_ABILITYTITAN_ASGARDBEAMS_DESCRIPTION"
-	Value "Fires the very powerful Asgard beams. Requires research of Asgard Beam Weapons."
 StringInfo
 	ID "IDS_GOAULD_ABILITYTITAN_CLAUDIUSSUPPORT_NAME"
 	Value "Claudius Takeoff"
@@ -5032,12 +4966,6 @@ StringInfo
 	ID "IDS_GOAULD_RESEARCH_ABILITY_ARBITRATETARIFF_DESCRIPTION"
 	Value "Grants the Arbitrate Tariff ability to Hermes Envoy, which boosts trade and refinery ship income in order to boost relations."
 StringInfo
-	ID "IDS_GOAULD_RESEARCH_ABILITY_ASGARDBEAMS_NAME"
-	Value "Asgard Beam Weapons"
-StringInfo
-	ID "IDS_GOAULD_RESEARCH_ABILITY_ASGARDBEAMS_DESCRIPTION"
-	Value "The Asgard's powerful beam weapons are affixed to the Tau'ri ships."
-StringInfo
 	ID "IDS_GOAULD_RESEARCH_ABILITY_CLOAK_NAME"
 	Value "Ancient Based Cloak"
 StringInfo
@@ -5181,12 +5109,6 @@ StringInfo
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_ASGARDTECH0_DESCRIPTION"
 	Value "Researchers and Scientists learn how to use Asgard technology effectively."
-StringInfo
-	ID "IDS_GOAULD_RESEARCH_ASGARDTECH1_NAME"
-	Value "Advanced Asgard Technology"
-StringInfo
-	ID "IDS_GOAULD_RESEARCH_ASGARDTECH1_DESCRIPTION"
-	Value "After gaining access to more Asgard technology, researchers study and examine it."
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_ASGARDTREATY0_NAME"
 	Value "First Asgard Treaty"
@@ -5639,10 +5561,10 @@ StringInfo
 	Value "Two factions agree to special trade incentives, boosting income and hardening their freighters from attack."
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_PLANETBOMB_DAMAGE_NAME"
-	Value "Horizon Missile System"
+	Value "Bombardment Strikes"
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_PLANETBOMB_DAMAGE_DESCRIPTION"
-	Value "Engineers equip warships with the strategic Horizon weapons system, consisting of a large, bullet-shaped delivery module containing ten missiles, six with Mark IX tactical nuclear warheads and four decoys."
+	Value "Engineers equip warships with the strategic bombardment weapons system."
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_PLANETMODULEIMPROVE_CAPITALCONSTRUCTION_NAME"
 	Value "Industrial Juggernaut"
@@ -5846,25 +5768,19 @@ StringInfo
 	Value "Energy Shields"
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_SHIELD0_DESCRIPTION"
-	Value "After further tests and research into Goa'uld ships, shields are improved further."
+	Value "Advancements in engergy barriers, shields are improved on all ships and orbitals."
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_SHIELD1_NAME"
-	Value "Asgard Shields"
+	Value "Goa'uld Shields"
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_SHIELD1_DESCRIPTION"
-	Value "Hermiod, Asgard advisor assigned to the Daedalus, provides the Tau'ri with defensive technology. Scientists are able to outfit Asgard based shields on Tau'ri ships."
+	Value "The Goa'uld further advanced their shield technology, increasing their power and ability to restore."
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_SHIELD2_NAME"
-	Value "Advanced Asgard Shields"
+	Value "Advanced Goa'uld Shields"
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_SHIELD2_DESCRIPTION"
-	Value "The Asgard further advanced their shield technology, increasing the power of Tau'ri shields."
-StringInfo
-	ID "IDS_GOAULD_RESEARCH_SHIELD3_NAME"
-	Value "Enhanced Asgard Shields"
-StringInfo
-	ID "IDS_GOAULD_RESEARCH_SHIELD3_DESCRIPTION"
-	Value "After being imbued with superhuman mental capacity, Rodney McKay increased the efficiency of the Asgard shields."
+	Value "Knowledge from Anubis allows the Goa'uld to maximize the capability of Goa'uld shields, increasing their power and ability to restore."
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_STARBASEHULL_NAME"
 	Value "Unbreachable Hull"
@@ -5998,41 +5914,53 @@ StringInfo
 	ID "IDS_GOAULD_RESEARCH_WEAPONACCESS_PLASMAPULSE0_DESCRIPTION"
 	Value "Grants access to Goa'uld designed plasma pulse weapons, as well as new ships outfitted with these weapons."
 StringInfo
-	ID "IDS_GOAULD_RESEARCH_WEAPONACCESS_ASGARDPLASMAPULSE1_NAME"
+	ID "IDS_GOAULD_RESEARCH_WEAPONACCESS_PLASMAPULSE1_NAME"
 	Value "Efficient Plasma Charge"
 StringInfo
-	ID "IDS_GOAULD_RESEARCH_WEAPONACCESS_ASGARDPLASMAPULSE1_DESCRIPTION"
+	ID "IDS_GOAULD_RESEARCH_WEAPONACCESS_PLASMAPULSE1_DESCRIPTION"
 	Value "Advances in the containment of superheated plasma result in a more forceful pulse charge, increasing the damage of all plasma weapons."
 StringInfo
-	ID "IDS_GOAULD_RESEARCH_WEAPONACCESS_ASGARDPLASMAPULSE2_NAME"
+	ID "IDS_GOAULD_RESEARCH_WEAPONACCESS_PLASMAPULSE2_NAME"
 	Value "Intense Plasma Charge"
 StringInfo
-	ID "IDS_GOAULD_RESEARCH_WEAPONACCESS_ASGARDPLASMAPULSE2_DESCRIPTION"
+	ID "IDS_GOAULD_RESEARCH_WEAPONACCESS_PLASMAPULSE2_DESCRIPTION"
 	Value "Physics boundaries are pushed to their limit to discharge intense levels of superheated plasma."
+StringInfo
+	ID "IDS_GOAULD_RESEARCH_WEAPONACCESS_PLASMARANGE0_NAME"
+	Value "Focused Plasma Release"
+StringInfo
+	ID "IDS_GOAULD_RESEARCH_WEAPONACCESS_PLASMARANGE0_DESCRIPTION"
+	Value "Plasma is focused into tighter containment, allowing it to reach farther distances."
+StringInfo
+	ID "IDS_GOAULD_RESEARCH_WEAPONACCESS_PLASMARATE0_NAME"
+	Value "Recycled Plasma Emission"
+StringInfo
+	ID "IDS_GOAULD_RESEARCH_WEAPONACCESS_PLASMARATE0_DESCRIPTION"
+	Value "Excess plasma is recycled into the next round, providing an improved rate of fire."
+StringInfo
+	ID "IDS_GOAULD_RESEARCH_WEAPONACCESS_PLASMARATE1_NAME"
+	Value "Recycled Plasma Emission II"
+StringInfo
+	ID "IDS_GOAULD_RESEARCH_WEAPONACCESS_PLASMARATE1_DESCRIPTION"
+	Value "Excess plasma is recycled into the next round, providing an improved rate of fire."
+StringInfo
+	ID "IDS_GOAULD_RESEARCH_WEAPONACCESS_PLASMASHIELD0_NAME"
+	Value "Plasma Pulse Timing"
+StringInfo
+	ID "IDS_GOAULD_RESEARCH_WEAPONACCESS_PLASMASHIELD0_DESCRIPTION"
+	Value "Plasma bursts are timed to the target's shield energy flucturations, resulting in portion bypassing shields."
+StringInfo
+	ID "IDS_GOAULD_RESEARCH_WEAPONACCESS_PLASMASHIELD1_NAME"
+	Value "Plasma Pulse Timing II"
+StringInfo
+	ID "IDS_GOAULD_RESEARCH_WEAPONACCESS_PLASMASHIELD1_DESCRIPTION"
+	Value "Plasma bursts are timed to the target's shield energy flucturations, resulting in portion bypassing shields."
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_WEAPONCOOLDOWNGAUSS_NAME"
 	Value "Quick Gauss Capacitors"
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_WEAPONCOOLDOWNGAUSS_DESCRIPTION"
 	Value "Decreases the cooldown of the gauss cannons on the defense platform."
-StringInfo
-	ID "IDS_GOAULD_RESEARCH_WEAPONDAMAGEAUTOCANNON0_NAME"
-	Value "Uranium Alloy Rounds"
-StringInfo
-	ID "IDS_GOAULD_RESEARCH_WEAPONDAMAGEAUTOCANNON0_DESCRIPTION"
-	Value "New alloy technologies allows the Tau'ri to enhance standard rail gun rounds with a new and experimental uranium alloy."
-StringInfo
-	ID "IDS_GOAULD_RESEARCH_WEAPONDAMAGEAUTOCANNON1_NAME"
-	Value "Advanced Rail Guns"
-StringInfo
-	ID "IDS_GOAULD_RESEARCH_WEAPONDAMAGEAUTOCANNON1_DESCRIPTION"
-	Value "With the help of the Tok'ra, the range, velocity and damage of all rail gun systems is improved."
-StringInfo
-	ID "IDS_GOAULD_RESEARCH_WEAPONDAMAGEAUTOCANNON2_NAME"
-	Value "Rail Gun Mastery"
-StringInfo
-	ID "IDS_GOAULD_RESEARCH_WEAPONDAMAGEAUTOCANNON2_DESCRIPTION"
-	Value "The Tau'ri have incorporated all of there knowlege into the rail guns systems. Thus making them more powerful."
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_WEAPONDAMAGELASER0_NAME"
 	Value "Basic Lasers"

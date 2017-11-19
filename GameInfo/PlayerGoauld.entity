@@ -70,10 +70,8 @@ entities
 			entityDefName "Goauld_ModuleTradeShip_Nebu"
 			entityDefName "Goauld_ModuleRefineryShip_Sobek"
 	researchInfo
-		count 166
+		count 170
 			entityDefName "Goauld_Research_Ability_ArbitRateTariff"
-			entityDefName "Goauld_Research_Ability_AsgardBeams"
-			entityDefName "Goauld_Research_Ability_AdvancedAsgardBeams"
 			entityDefName "Goauld_Research_Ability_Cloak"
 			entityDefName "Goauld_Research_Ability_DesignateTarget"
 			entityDefName "Goauld_Research_Ability_GaussDefenceMissileBurst"
@@ -93,6 +91,10 @@ entities
 			entityDefName "Goauld_Research_AncientDataBase"
 			entityDefName "Goauld_Research_Antimatter0"
 			entityDefName "Goauld_Research_Antimatter1"
+			entityDefName "Goauld_Research_Armor0"
+			entityDefName "Goauld_Research_Armor1"
+			entityDefName "Goauld_Research_Armor2"
+			entityDefName "Goauld_Research_Armor3"
 			entityDefName "Goauld_Research_AsgardTech0"
 			entityDefName "Goauld_Research_BackroomDeals"
 			entityDefName "Goauld_Research_BattlefieldPromotions"
@@ -228,13 +230,15 @@ entities
 			entityDefName "Goauld_Research_Twin_Fortresses"
 			entityDefName "Goauld_Research_UniversalNegotiation"
 			entityDefName "Goauld_Research_WarMeasuresAct"
-			entityDefName "Goauld_Research_WeaponAccess_AsgardPlasmaPulse0"
-			entityDefName "Goauld_Research_WeaponAccess_AsgardPlasmaPulse1"
-			entityDefName "Goauld_Research_WeaponAccess_AsgardPlasmaPulse2"
+			entityDefName "Goauld_Research_WeaponAccess_PlasmaPulse0"
+			entityDefName "Goauld_Research_WeaponAccess_PlasmaPulse1"
+			entityDefName "Goauld_Research_WeaponAccess_PlasmaPulse2"
+			entityDefName "Goauld_Research_WeaponAccess_PlasmaRate0"
+			entityDefName "Goauld_Research_WeaponAccess_PlasmaRate1"
+			entityDefName "Goauld_Research_WeaponAccess_PlasmaRange0"
+			entityDefName "Goauld_Research_WeaponAccess_PlasmaShield0"
+			entityDefName "Goauld_Research_WeaponAccess_PlasmaShield1"
 			entityDefName "Goauld_Research_WeaponCooldownGauss"
-			entityDefName "Goauld_Research_WeaponDamageAutoCannon0"
-			entityDefName "Goauld_Research_WeaponDamageAutoCannon1"
-			entityDefName "Goauld_Research_WeaponDamageAutoCannon2"
 			entityDefName "Goauld_Research_WeaponRangeGauss"
 			entityDefName "Goauld_Research_ZpmExploration"
 	starBaseInfo
@@ -762,19 +766,19 @@ researchScreenData
 	Combat
 		blockCount 3
 		block
-			area [ 50 , 40 , 690 , 195 ]
+			area [ 50 , 40 , 690 , 150 ]
 			backdrop "ResearchScreenBlockBackdropCombat0Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat0Tech"
 			title "IDSResearchScreenBlockTitleCombat0Tech"
 			picture "ResearchScreenBlockPictureCombat0Goauld"
 		block
-			area [ 50 , 245 , 690 , 240 ]
+			area [ 50 , 200 , 690 , 240 ]
 			backdrop "ResearchScreenBlockBackdropCombat1Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Tech"
 			title "IDSResearchScreenBlockTitleCombat1Tech"
 			picture "ResearchScreenBlockPictureCombat1Goauld"
 		block
-			area [ 50 , 495 , 690 , 195 ]
+			area [ 50 , 450 , 690 , 240 ]
 			backdrop "ResearchScreenBlockBackdropCombat2Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat2Tech"
 			title "IDSResearchScreenBlockTitleCombat2Tech"

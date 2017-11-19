@@ -1,0 +1,46 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_WEAPONDAMAGE_LASERPSI2"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_WEAPONDAMAGE_LASERPSI2"
+infoCardIcon ""
+NameStringID "IDS_GOAULD_RESEARCH_WEAPONACCESS_PLASMARANGE0_NAME"
+DescriptionStringID "IDS_GOAULD_RESEARCH_WEAPONACCESS_PLASMARANGE0_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 6 , 2 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 2
+	ResearchPrerequisite
+		Subject "Goauld_Research_WeaponAccess_PlasmaPulse2"
+		Level 2
+	ResearchPrerequisite
+		Subject "Goauld_Research_WeaponAccess_PlasmaRate1"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 105.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1600.000000
+	metal 300.000000
+	crystal 475.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 6
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 3
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "WeaponRangeAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.050000
+	linkedWeaponClass "PLASMA"
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880
