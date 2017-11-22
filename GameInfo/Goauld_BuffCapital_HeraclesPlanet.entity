@@ -11,12 +11,12 @@ numInstantActions 2
 instantAction
 	buffInstantActionType "RemoveBuffOfType"
 	instantActionTriggerType "OnBuffFinish"
-	buffTypeToRemove "Human_BuffOrbital_HeroSpawnHeraclesPlanet"
+	buffTypeToRemove "Goauld_BuffOrbital_HeroSpawnHeraclesPlanet"
 instantAction
 	buffInstantActionType "RemoveBuffOfType"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffTypeToRemove "Human_BuffOrbital_HeroSpawnHeraclesSafety"
+	buffTypeToRemove "Goauld_BuffOrbital_HeroSpawnHeraclesSafety"
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0
@@ -24,4 +24,4 @@ numEntityBoolModifiers 0
 numFinishConditions 1
 finishCondition
 	finishConditionType "LastSpawnerNoLongerHasBuff"
-	buffTypeToQuery "Human_BuffCapital_HeraclesSelf"
+	buffTypeToQuery "Goauld_BuffCapital_HeraclesSelf"

@@ -23,7 +23,7 @@ entityBoolModifier "HasShieldMeshEffect"
 numFinishConditions 3
 finishCondition
 	finishConditionType "FirstSpawnerNoLongerHasBuff"
-	buffTypeToQuery "Human_BuffOrbital_PlanetShieldOnSpawner"
+	buffTypeToQuery "Goauld_BuffOrbital_PlanetShieldOnSpawner"
 finishCondition
 	finishConditionType "ResearchNotMet"
 	researchPrerequisites
