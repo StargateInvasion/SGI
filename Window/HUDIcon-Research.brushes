@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 576
+brushCount 575
 brush
 	name "HUDICON_RESEARCHSUBJECT_POPULATIONCAP_IRON_0"
 	content "States"
@@ -8150,7 +8150,7 @@ brush
 		fileName "Buttons_Research_SGI"
 		pixelBox [ 482 , 240 , 47 , 33 ]
 brush
-	name "HUDICON_RESEARCHSUBJECT_WEAPONRATE_PLASMA0"
+	name "HUDICON_RESEARCHSUBJECT_WEAPONSHIELD_PLASMA0"
 	content "States"
 	Disabled
 		fileName "Buttons_Research_SGI"
@@ -8168,43 +8168,7 @@ brush
 		fileName "Buttons_Research_SGI"
 		pixelBox [ 482 , 274 , 47 , 33 ]
 brush
-	name "HUDICON_RESEARCHSUBJECT_WEAPONSHIELD_PLASMA0"
-	content "States"
-	Disabled
-		fileName "Buttons_Research_SGI"
-		pixelBox [ 434 , 342 , 47 , 33 ]
-	Pressed
-		fileName "Buttons_Research_SGI"
-		pixelBox [ 530 , 342 , 47 , 33 ]
-	CursorOver
-		fileName "Buttons_Research_SGI"
-		pixelBox [ 530 , 342 , 47 , 33 ]
-	Focused
-		fileName "Buttons_Research_SGI"
-		pixelBox [ 482 , 342 , 47 , 33 ]
-	Normal
-		fileName "Buttons_Research_SGI"
-		pixelBox [ 482 , 342 , 47 , 33 ]
-brush
 	name "HUDICON_RESEARCHSUBJECT_WEAPONSHIELD_PLASMA1"
-	content "States"
-	Disabled
-		fileName "Buttons_Research_SGI"
-		pixelBox [ 434 , 376 , 47 , 33 ]
-	Pressed
-		fileName "Buttons_Research_SGI"
-		pixelBox [ 530 , 376 , 47 , 33 ]
-	CursorOver
-		fileName "Buttons_Research_SGI"
-		pixelBox [ 530 , 376 , 47 , 33 ]
-	Focused
-		fileName "Buttons_Research_SGI"
-		pixelBox [ 482 , 376 , 47 , 33 ]
-	Normal
-		fileName "Buttons_Research_SGI"
-		pixelBox [ 482 , 376 , 47 , 33 ]
-brush
-	name "HUDICON_RESEARCHSUBJECT_WEAPONRATE_PLASMA1"
 	content "States"
 	Disabled
 		fileName "Buttons_Research_SGI"
@@ -8221,6 +8185,24 @@ brush
 	Normal
 		fileName "Buttons_Research_SGI"
 		pixelBox [ 482 , 308 , 47 , 33 ]
+brush
+	name "HUDICON_RESEARCHSUBJECT_ABILITYACCESS_JAFFATEAMS"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 434 , 342 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 530 , 342 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 530 , 342 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 482 , 342 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 482 , 342 , 47 , 33 ]
 brush
 	name "HUDICON_RESEARCHSUBJECT_WEAPONDAMAGE_PLASMA0"
 	content "States"
@@ -8312,7 +8294,7 @@ brush
 		fileName "Buttons_Research_Normal"
 		pixelBox [ 5 , 919 , 47 , 33 ]
 brush
-	name "HUDICON_RESEARCHSUBJECT_WEAPONDAMAGE_WAVE0"
+	name "HUDICON_RESEARCHSUBJECT_WEAPONDAMAGE_PULSE0"
 	content "States"
 	Disabled
 		fileName "Buttons_Research_SGI"
@@ -8330,7 +8312,7 @@ brush
 		fileName "Buttons_Research_SGI"
 		pixelBox [ 50 , 852 , 47 , 33 ]
 brush
-	name "HUDICON_RESEARCHSUBJECT_WEAPONDAMAGE_WAVE1"
+	name "HUDICON_RESEARCHSUBJECT_WEAPONDAMAGE_PULSE1"
 	content "States"
 	Disabled
 		fileName "Buttons_Research_SGI"
@@ -8348,7 +8330,7 @@ brush
 		fileName "Buttons_Research_SGI"
 		pixelBox [ 194 , 818 , 47 , 33 ]
 brush
-	name "HUDICON_RESEARCHSUBJECT_WEAPONDAMAGE_WAVE2"
+	name "HUDICON_RESEARCHSUBJECT_WEAPONDAMAGE_PULSE2"
 	content "States"
 	Disabled
 		fileName "Buttons_Research_SGI"
