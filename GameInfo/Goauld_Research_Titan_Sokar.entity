@@ -7,10 +7,13 @@ NameStringID "IDS_GOAULD_RESEARCH_TITAN_SOKAR_NAME"
 DescriptionStringID "IDS_GOAULD_RESEARCH_TITAN_SOKAR_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 7 , 1 ]
+	pos [ 7 , 3 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Goauld_Research_Hero_Sokar"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1

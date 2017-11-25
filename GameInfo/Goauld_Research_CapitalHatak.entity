@@ -10,9 +10,12 @@ researchWindowLocation
 	pos [ 4 , 4 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 1
+	NumResearchPrerequisites 2
 	ResearchPrerequisite
 		Subject "Goauld_Research_CapitalShutak"
+		Level 1
+	ResearchPrerequisite
+		Subject "Goauld_Research_Hero_Baal"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

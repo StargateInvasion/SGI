@@ -7,10 +7,13 @@ NameStringID "IDS_GOAULD_RESEARCH_TITAN_ANUBIS_NAME"
 DescriptionStringID "IDS_GOAULD_RESEARCH_TITAN_ANUBIS_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 7 , 0 ]
+	pos [ 7 , 2 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Goauld_Research_Hero_Anubis"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1

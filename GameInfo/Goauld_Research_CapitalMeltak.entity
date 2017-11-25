@@ -7,12 +7,12 @@ NameStringID "IDS_GOAULD_RESEARCH_CAPITALMELTAK_NAME"
 DescriptionStringID "IDS_GOAULD_RESEARCH_CAPITALMELTAK_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 6 , 4 ]
+	pos [ 6 , 1 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Goauld_Research_Ability_Lagrangia"
+		Subject "Goauld_Research_Hero_Apophis"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

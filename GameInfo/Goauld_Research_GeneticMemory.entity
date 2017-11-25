@@ -1,19 +1,16 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_ASGARDBEAMINGTECH"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_ASGARDBEAMINGTECH"
+hudIcon "HUDICON_RESEARCHSUBJECT_GENETICMEMORY"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_GENETICMEMORY"
 infoCardIcon ""
-NameStringID "IDS_GOAULD_RESEARCH_ABILITY_NUKE_NAME"
-DescriptionStringID "IDS_GOAULD_RESEARCH_ABILITY_NUKE_DESCRIPTION"
+NameStringID "IDS_GOAULD_RESEARCH_GENETICMEMORY_NAME"
+DescriptionStringID "IDS_GOAULD_RESEARCH_GENETICMEMORY_DESCRIPTION"
 researchWindowLocation
-	block 1
+	block 2
 	pos [ 1 , 1 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "Goauld_Research_AsgardTech0"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
@@ -29,10 +26,14 @@ PerLevelCostIncrease
 	crystal 25.000000
 Tier 1
 onlyWorksIfTierLabsExist FALSE
-MaxNumResearchLevels 1
-priority 0.000000
+MaxNumResearchLevels 3
+priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "ResearchBuildRateAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.211100
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880
