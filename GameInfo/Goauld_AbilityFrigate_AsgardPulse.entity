@@ -65,9 +65,8 @@ needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
-maxNumLevels 2
-levelSourceType "ResearchStartsAt0"
-improveSourceResearchSubject "Goauld_Research_WeaponAccess_PlasmaPulse0"
+maxNumLevels 1
+levelSourceType "FixedLevel0"
 aiUseTime "OnlyWhenManyTargetsInRange"
 onlyAutoCastWhenTargetCountExceedsAmount
 	Level:0 3.000000
