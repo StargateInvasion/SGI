@@ -10,7 +10,13 @@ researchWindowLocation
 	pos [ 6 , 4 ]
 ResearchField "Defense"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 2
+	ResearchPrerequisite
+		Subject "Asuran_Research_FrigateSiege_GateSatellite"
+		Level 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_Ability_Lagrangia"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1

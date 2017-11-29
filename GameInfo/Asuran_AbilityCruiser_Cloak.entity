@@ -17,12 +17,7 @@ canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
-levelSourceType "Intrinsic"
-minExperienceLevelRequired
-	Level:0 0.000000
-	Level:1 2.000000
-	Level:2 4.000000
-	Level:3 0.000000
+levelSourceType "FixedLevel0"
 aiUseTime "OnlyInCombat"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -43,7 +38,10 @@ cooldownTime
 	Level:3 0.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_Ability_Cloak"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ASURAN_ABILITYCRUISER_CLOAK_DEACTIVE_NAME"

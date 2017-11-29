@@ -70,7 +70,7 @@ entities
 			entityDefName "Asuran_ModuleTradeShip_Aurum"
 			entityDefName "Asuran_ModuleRefineryShip_Servile"
 	researchInfo
-		count 140
+		count 141
 			entityDefName "Asuran_Research_Ability_ChargedMissiles"
 			entityDefName "Asuran_Research_Ability_Cloak"
 			entityDefName "Asuran_Research_Ability_CrippleAbilities"
@@ -79,6 +79,7 @@ entities
 			entityDefName "Asuran_Research_Ability_DetectPhaseJump"
 			entityDefName "Asuran_Research_Ability_FleetBeacon"
 			entityDefName "Asuran_Research_Ability_GravityField"
+			entityDefName "Asuran_Research_Ability_Lagrangia"
 			entityDefName "Asuran_Research_Ability_PhaseOutFighters"
 			entityDefName "Asuran_Research_Ability_ProtectedShutdown"
 			entityDefName "Asuran_Research_Ability_SelfRepair"
@@ -743,13 +744,13 @@ researchScreenData
 	Combat
 		blockCount 3
 		block
-			area [ 50 , 69 , 690 , 240 ]
+			area [ 50 , 69 , 690 , 193 ]
 			backdrop "ResearchScreenBlockBackdropCombat0Phase"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat0Phase"
 			title "IDSResearchScreenBlockTitleCombat0Phase"
 			picture "ResearchScreenBlockPictureCombat0Phase"
 		block
-			area [ 50 , 319 , 690 , 144 ]
+			area [ 50 , 272 , 690 , 191 ]
 			backdrop "ResearchScreenBlockBackdropCombat1Phase"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Phase"
 			title "IDSResearchScreenBlockTitleCombat1Phase"

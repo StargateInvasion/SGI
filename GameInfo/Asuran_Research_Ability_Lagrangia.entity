@@ -1,36 +1,36 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_ASURAN_CRUISERUTILITY1_KREIOS"
-smallHudIcon "MAINVIEWICON_ASURAN_CRUISERUTILITY1_KREIOS"
+hudIcon "HUDICON_ABILITY_LAGRANGIANBEAM"
+smallHudIcon "HUDICON_ABILITY_LAGRANGIANBEAM"
 infoCardIcon ""
-NameStringID "IDS_ASURAN_RESEARCH_CRUISERUTILITY1_KREIOS_NAME"
-DescriptionStringID "IDS_ASURAN_RESEARCH_CRUISERUTILITY1_KREIOS_DESCRIPTION"
+NameStringID "IDS_ASURAN_RESEARCH_ABILITY_LAGRANGIA_NAME"
+DescriptionStringID "IDS_ASURAN_RESEARCH_ABILITY_LAGRANGIA_DESCRIPTION"
 researchWindowLocation
-	block 0
-	pos [ 4 , 2 ]
+	block 1
+	pos [ 6 , 0 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Asuran_Research_CapitalSupport_Origin"
-		Level 1
+		Subject "Asuran_Research_WeaponDamageFlashBeam1"
+		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 75.000000
+BaseUpgradeTime 105.000000
 PerLevelUpgradeTime 10.000000
 BaseCost
-	credits 1200.000000
-	metal 200.000000
-	crystal 325.000000
+	credits 1600.000000
+	metal 300.000000
+	crystal 475.000000
 PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 4
-onlyWorksIfTierLabsExist TRUE
+Tier 6
+onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
-priority 0.000000
+priority 1.000000
 researchBoolModifiers 0
 researchFloatModifiers 0
 artifactPicture ""

@@ -30,13 +30,8 @@ needsToFaceTarget TRUE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
-maxNumLevels 3
-levelSourceType "Intrinsic"
-minExperienceLevelRequired
-	Level:0 1.000000
-	Level:1 2.000000
-	Level:2 4.000000
-	Level:3 0.000000
+maxNumLevels 1
+levelSourceType "FixedLevel0"
 aiUseTime "OnlyWhenManyTargetsInRange"
 onlyAutoCastWhenTargetCountExceedsAmount
 	Level:0 1.000000
