@@ -75,143 +75,96 @@ armorType "Heavy"
 hudIcon "HUDICON_GOAULD_CRUISERANTIMODULE_THOTH"
 smallHudIcon "HUDICONSMALL_GOAULD_CRUISERANTIMODULE_THOTH"
 infoCardIcon "MAINVIEWICON_GOAULD_CRUISERANTIMODULE_THOTH"
-minZoomDistanceMult 1.600000
-NumWeapons 3
+minZoomDistanceMult 5.500000
+NumWeapons 2
 Weapon
 	WeaponType "Projectile"
 	damageEnums
 		AttackType "ANTIHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
-		DamageType "PHYSICAL"
-		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 50.000000
-	DamagePerBank:BACK 20.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 6000.000000
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 75.000000
+	DamagePerBank:BACK 75.000000
+	DamagePerBank:LEFT 75.000000
+	DamagePerBank:RIGHT 75.000000
+	Range 5500.000000
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.000000
-	TravelSpeed 1275.000000
+	PointStaggerDelay 0.200000
+	TravelSpeed 1200.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 3
-		burstDelay 0.500000
+		burstCount 1
+		burstDelay 0.350000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_TechCapitalLaserMedium_Muzzle"
-		muzzleSoundMinRespawnTime 0.300000
+		muzzleEffectName "Weapon_GoauldPlasmaHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
-			soundCount 3
-			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE"
-			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE_ALT1"
-			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE_ALT2"
-		hitEffectName "Weapon_TechCapitalLaserMedium_Hit"
+			soundCount 2
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
-		projectileTravelEffectName "Weapon_HumanRailgun_Travel"
-Weapon
-	WeaponType "Missile"
-	damageEnums
-		AttackType "CAPITALSHIP"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "PHYSICAL"
-		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 400.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 6000.000000
-	PreBuffCooldownTime 8.000000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 1.000000
-	TravelSpeed 1050.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Missile"
-		burstCount 3
-		burstDelay 0.250000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_TechCapitalPlanetBombing_Muzzle"
-		muzzleSoundMinRespawnTime 0.100000
-		muzzleSounds
-			soundCount 1
-			sound "WEAPON_TECH_PLANETBOMB_MUZZLE"
-		hitEffectName "Weapon_HumanRailguns_Hit"
-		hitHullEffectSounds
-			soundCount 3
-			sound "EXPLOSION_SUB4"
-			sound "EXPLOSION_SUB4_ALT1"
-			sound "EXPLOSION_SUB4_ALT2"
-		hitShieldsEffectSounds
-			soundCount 3
-			sound "EXPLOSION_SUB4"
-			sound "EXPLOSION_SUB4_ALT1"
-			sound "EXPLOSION_SUB4_ALT2"
-		missileTravelEffectName "Weapon_HumanMissileHeavy_Travel"
-		missileStartTurningDistance 0.005000
-		missileSlowTurnRate 3.708997
-		missileMaxSlowTurnTime 12.000000
+		projectileTravelEffectName "Weapon_GoauldPlasmaMedium_Travel"
 Weapon
 	WeaponType "Projectile"
 	damageEnums
 		AttackType "ANTIHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
-		DamageType "PHYSICAL"
-		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 50.000000
-	DamagePerBank:BACK 20.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 6000.000000
-	PreBuffCooldownTime 5.000000
-	CanFireAtFighter FALSE
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 75.000000
+	DamagePerBank:BACK 75.000000
+	DamagePerBank:LEFT 75.000000
+	DamagePerBank:RIGHT 75.000000
+	Range 5500.000000
+	PreBuffCooldownTime 5.500000
+	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.000000
-	TravelSpeed 1275.000000
+	PointStaggerDelay 0.200000
+	TravelSpeed 1200.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 3
-		burstDelay 0.500000
+		burstCount 1
+		burstDelay 0.350000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_TechCapitalLaserMedium_Muzzle"
-		muzzleSoundMinRespawnTime 0.300000
+		muzzleEffectName "Weapon_GoauldPlasmaHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
-			soundCount 3
-			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE"
-			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE_ALT1"
-			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE_ALT2"
-		hitEffectName "Weapon_TechCapitalLaserMedium_Hit"
+			soundCount 2
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
-		projectileTravelEffectName "Weapon_HumanRailgun_Travel"
+		projectileTravelEffectName "Weapon_GoauldPlasmaMedium_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
 TargetCountPerBank:BACK 1
-TargetCountPerBank:LEFT 0
-TargetCountPerBank:RIGHT 0
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
-ShieldMeshName "Human_Shield_CruiserAntiModule_Phoenix"
+ShieldMeshName "Goauld_Shield_CruiserHeavy_Maat"
 renderShield TRUE
 maxAccelerationLinear 130.000000
 maxAccelerationStrafe 10.000000
@@ -230,29 +183,23 @@ squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
 maxNumCommandPoints 0
-NumSoundsFor:ONATTACKORDERISSUED 3
-SoundID "FRIGATE_TECHSIEGE_ONATTACKORDERISSUED_0"
-SoundID "FRIGATE_TECHSIEGE_ONATTACKORDERISSUED_1"
-SoundID "FRIGATE_TECHSIEGE_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONATTACKORDERISSUED 1
+SoundID "FRIGATE_GOAULDAA_ONATTACKORDERISSUED_0"
 NumSoundsFor:ONCREATION 1
-SoundID "FRIGATE_TECHSIEGE_ONCREATION"
-NumSoundsFor:ONGENERALORDERISSUED 3
-SoundID "FRIGATE_TECHSIEGE_ONGENERALORDERISSUED_0"
-SoundID "FRIGATE_TECHSIEGE_ONGENERALORDERISSUED_1"
-SoundID "FRIGATE_TECHSIEGE_ONGENERALORDERISSUED_2"
-NumSoundsFor:ONSELECTED 3
-SoundID "FRIGATE_TECHSIEGE_ONSELECTED_0"
-SoundID "FRIGATE_TECHSIEGE_ONSELECTED_1"
-SoundID "FRIGATE_TECHSIEGE_ONSELECTED_2"
+SoundID "FRIGATE_GOAULDAA_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 1
+SoundID "FRIGATE_GOAULDAA_ONGENERALORDERISSUED_0"
+NumSoundsFor:ONSELECTED 1
+SoundID "FRIGATE_GOAULDAA_ONSELECTED_0"
 NumSoundsFor:ONSTARTPHASEJUMP 1
-SoundID "FRIGATE_TECHSIEGE_ONSTARTPHASEJUMP_0"
+SoundID "FRIGATE_GOAULDAA_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Human_CruiserAntiModule_Phoenix"
+	meshName "Goauld_CruiserHeavy_Maat"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
-ExhaustParticleSystemName "Exhaust_FrigateTechSiege"
+ExhaustParticleSystemName "Exhaust_FrigateGoauldHeavy"
 ExplosionName "Frigate0"
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"

@@ -42,8 +42,122 @@ armorType "Light"
 hudIcon "HUDICON_GOAULD_CRUISERENVOY_ISIS"
 smallHudIcon "HUDICONSMALL_GOAULD_CRUISERENVOY_ISIS"
 infoCardIcon "MAINVIEWICON_GOAULD_CRUISERENVOY_ISIS"
-minZoomDistanceMult 4.000000
-NumWeapons 0
+minZoomDistanceMult 4.60000
+NumWeapons 3
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 0.000000
+	PreBuffCooldownTime 6.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.400000
+	TravelSpeed 4000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.900000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
+		muzzleSounds
+			soundCount 1
+			sound "Weapon_Goa'uld_Capital"
+		hitEffectName "Weapon_GoauldCapitalPlasma_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 0.000000
+	PreBuffCooldownTime 6.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.400000
+	TravelSpeed 4000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.900000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
+		muzzleSounds
+			soundCount 1
+			sound "Weapon_Goa'uld_Capital"
+		hitEffectName "Weapon_GoauldCapitalPlasma_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 0.000000
+	PreBuffCooldownTime 6.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.400000
+	TravelSpeed 4000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.900000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
+		muzzleSounds
+			soundCount 1
+			sound "Weapon_Goa'uld_Capital"
+		hitEffectName "Weapon_GoauldCapitalPlasma_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 0
@@ -53,7 +167,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 10000.000000
-ShieldMeshName "Human_Shield_CruiserEnvoy_Hermes"
+ShieldMeshName "Goauld_Shield_CapitalColony_Cheops"
 renderShield TRUE
 maxAccelerationLinear 390.000000
 maxAccelerationStrafe 10.000000
@@ -74,24 +188,19 @@ squadAntiMatterCost:3 0.000000
 maxNumCommandPoints 0
 NumSoundsFor:ONATTACKORDERISSUED 0
 NumSoundsFor:ONCREATION 1
-SoundID "FRIGATE_TECHENVOY_ONCREATION"
-NumSoundsFor:ONGENERALORDERISSUED 3
-SoundID "FRIGATE_TECHENVOY_ONGENERALORDERISSUED_0"
-SoundID "FRIGATE_TECHENVOY_ONGENERALORDERISSUED_1"
-SoundID "FRIGATE_TECHENVOY_ONGENERALORDERISSUED_2"
-NumSoundsFor:ONSELECTED 3
-SoundID "FRIGATE_TECHENVOY_ONSELECTED_0"
-SoundID "FRIGATE_TECHENVOY_ONSELECTED_1"
-SoundID "FRIGATE_TECHENVOY_ONSELECTED_2"
-NumSoundsFor:ONSTARTPHASEJUMP 1
-SoundID "FRIGATE_TECHENVOY_ONSTARTPHASEJUMP"
+SoundID "FRIGATE_GOAULDENVOY_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 1
+SoundID "FRIGATE_GOAULDENVOY_ONGENERALORDERISSUED_0"
+NumSoundsFor:ONSELECTED 1
+SoundID "FRIGATE_GOAULDENVOY_ONSELECTED_0"
+NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Human_CruiserEnvoy_Hermes"
+	meshName "Goauld_CapitalColony_Cheops"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
-ExhaustParticleSystemName "Exhaust_FrigateTechModuleConstructor"
+ExhaustParticleSystemName "Exhaust_GoauldColony"
 ExplosionName "Frigate1"
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
