@@ -11,31 +11,27 @@ baseDamage 31.000000
 basePopulationKilled 2.800000
 bombingFreqTime 10.000000
 baseRange 3000.000000
-bombTransitTime 12.000000
+bombTransitTime 2.000000
 bombEffectCount 3
 bombEffectAngleVariance 15.000000
 bombEffectsDef
 	weaponType "Projectile"
-	burstCount 1
-	burstDelay 0.000000
+	burstCount 2
+	burstDelay 0.500000
 	fireDelay 0.000000
-	muzzleEffectName "Weapon_PiratePlanetBombing_Muzzle"
+	muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
 	muzzleSoundMinRespawnTime 0.100000
 	muzzleSounds
 		soundCount 1
-		sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE"
-	hitEffectName "Weapon_PiratePlanetBombing_Hit"
+		sound "Weapon_Goa'uld_Capital"
+	hitEffectName "Weapon_GoauldCapitalPlasma_Hit"
 	hitHullEffectSounds
-		soundCount 3
-		sound "EXPLOSION_SUB4"
-		sound "EXPLOSION_SUB4_ALT1"
-		sound "EXPLOSION_SUB4_ALT2"
+		soundCount 1
+		sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
 	hitShieldsEffectSounds
-		soundCount 3
-		sound "EXPLOSION_SUB4"
-		sound "EXPLOSION_SUB4_ALT1"
-		sound "EXPLOSION_SUB4_ALT2"
-	projectileTravelEffectName "Weapon_GoauldPlasmaMedium_Travel"
+		soundCount 1
+		sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+	projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
 typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
