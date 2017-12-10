@@ -1,5 +1,5 @@
 ﻿TXT
-NumStrings 7837
+NumStrings 7843
 StringInfo
 	ID "IDS_ABILITY_ANTIMATTER_FOUNTAIN_NAME"
 	Value "Energy Fountain"
@@ -66,6 +66,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_MICROPHASEJUMP_DESCRIPTION"
 	Value "Instantly transports the titan to the targeted position."
+StringInfo
+	ID "IDS_ABILITY_MUTUALTHREAT_NAME"
+	Value "Mutual Threat"
+StringInfo
+	ID "IDS_ABILITY_MUTUALTHREAT_DESCRIPTION"
+	Value "Special nano-bots are released from the envoy, speeding ship production and resource extraction for improved relations."
 StringInfo
 	ID "IDS_ABILITY_NANOLEECH_NAME"
 	Value "Nano Leech"
@@ -429,6 +435,12 @@ StringInfo
 StringInfo
 	ID "IDS_ASURAN_ABILITYCRUISER_DRONEFRENZY_DESCRIPTION"
 	Value "A mighty onslaught of Asuran Drones target and attack multiple enemy ships, dealing massive damage and death."
+StringInfo
+	ID "IDS_ASURAN_ABILITYCRUISER_GOODWILL_NAME"
+	Value "Goodwill"
+StringInfo
+	ID "IDS_ASURAN_ABILITYCRUISER_GOODWILL_DESCRIPTION"
+	Value "Goodwill missions are sent to the surface, generating higher relations with the planet's owner. The bonus degrades if the envoy leaves the gravity well."
 StringInfo
 	ID "IDS_ASURAN_ABILITYCRUISER_GRAVITYFIELD_NAME"
 	Value "Gravity Field"
@@ -1670,7 +1682,7 @@ StringInfo
 	Value "Raider Relations"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_RAIDERRELATIONS_DESCRIPTION"
-	Value "Bribe the Raiders to show less interest in you during raids."
+	Value "The Asurans emmit a field that calms replicator raider units, making them show less interest in you during raids."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_SALVAGEDEBRIS_NAME"
 	Value "Salvage Debris"
@@ -23439,6 +23451,12 @@ StringInfo
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_HYPERSPACE_CHARGEUPTIMEDECREASE_DESCRIPTION"
 	Value "New algorithms for plotting jump coordinates decrease the time required for ships to prepare for phase jump."
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_MUTUALTHREAT_NAME"
+	Value "Mutual Threat"
+StringInfo
+	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_MUTUALTHREAT_DESCRIPTION"
+	Value "Special nano-bots are released from the envoy, speeding ship production and resource extraction for improved relations."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_SPRINT_NAME"
 	Value "Intercept"

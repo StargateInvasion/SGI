@@ -1,0 +1,45 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Asuran_BuffCruiser_MutualThreatSelf"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "MutualThreat"
+	mediumEffectName "MutualThreat"
+	largeEffectName "MutualThreat"
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "Asuran_Research_Ability_MutualThreat"
+aiUseTime "OnlyWhenOrbitingEnemyOrAlliedPlanet"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "None"
+cooldownTime
+	Level:0 90.000000
+	Level:1 90.000000
+	Level:2 90.000000
+	Level:3 90.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_Ability_MutualThreat"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_MUTUALTHREAT_NAME"
+descStringID "IDS_ABILITY_MUTUALTHREAT_DESCRIPTION"
+hudIcon "HUDICON_RESEARCHSUBJECT_MINECONTROL"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_MINECONTROL"
+infoCardIcon ""
