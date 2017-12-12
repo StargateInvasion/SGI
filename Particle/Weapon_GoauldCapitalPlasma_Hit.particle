@@ -19,11 +19,11 @@ ParticleSimulation
 		ParticleMinStartAngularSpeed 0.000000
 		ParticleMaxStartAngularSpeed 0.000000
 		ParticleMinStartRotation 0.000000
-		ParticleMaxStartRotation 6.283185
+		ParticleMaxStartRotation 2.792526
 		ParticleStartMass 1.000000
 		ParticleStartColor ffff8000
-		ParticleWidth 110.000000
-		ParticleHeight 110.000000
+		ParticleWidth 30.000000
+		ParticleHeight 30.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -41,8 +41,8 @@ ParticleSimulation
 		PipelineEffectID "GS_Exhaust.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "ac4"
-		textureName "ac4"
+		textureName "Goauld_Plasma_Front"
+		textureName "Goauld_Plasma_Front"
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
 		textureAnimationOnParticleFPS 0.000000
@@ -67,11 +67,11 @@ ParticleSimulation
 		ParticleMinStartAngularSpeed 0.000000
 		ParticleMaxStartAngularSpeed 0.000000
 		ParticleMinStartRotation 0.000000
-		ParticleMaxStartRotation 4.712389
+		ParticleMaxStartRotation 2.967060
 		ParticleStartMass 1.000000
 		ParticleStartColor ffffd700
-		ParticleWidth 150.000000
-		ParticleHeight 150.000000
+		ParticleWidth 30.000000
+		ParticleHeight 35.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -89,7 +89,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "shockwave4"
+		textureName "ionshockwave2"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
