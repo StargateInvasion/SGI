@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Goauld_BuffTitan_LagrangiaBeamCharge"
+buffType "Goauld_BuffTitan_MegaBeamCharge"
 targetFilter
 	numOwnerships 1
 	ownership "Enemy"
@@ -27,7 +27,7 @@ effectInfo
 	mediumEffectName ""
 	largeEffectName ""
 	soundID ""
-needsToFaceTarget TRUE
+needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE

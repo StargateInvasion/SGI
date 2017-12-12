@@ -1,5 +1,5 @@
 ﻿TXT
-NumStrings 7843
+NumStrings 7845
 StringInfo
 	ID "IDS_ABILITY_ANTIMATTER_FOUNTAIN_NAME"
 	Value "Energy Fountain"
@@ -4621,6 +4621,12 @@ StringInfo
 	ID "IDS_GOAULD_ABILITYTITAN_DEPLOYAG3TURRET_DESCRIPTION"
 	Value "Deploys the AG-3 Tau'ri turret built after the Goa'uld memories of Daniel Jackson"
 StringInfo
+	ID "IDS_GOAULD_ABILITYTITAN_DISRUPTIONMATRIX_NAME"
+	Value "Superweapon Discharge"
+StringInfo
+	ID "IDS_GOAULD_ABILITYTITAN_DISRUPTIONMATRIX_DESCRIPTION"
+	Value "A powerful burst of electromagnetic interference deals damage over time to nearby enemy ships and prevents them from using abilities for a short period."
+StringInfo
 	ID "IDS_GOAULD_ABILITYTITAN_HUMANDRONES_NAME"
 	Value "Human Developed Drones"
 StringInfo
@@ -4628,7 +4634,7 @@ StringInfo
 	Value "Powerful Weapons built in the shape of their origin."
 StringInfo
 	ID "IDS_GOAULD_ABILITYTITAN_MEGABEAM_NAME"
-	Value "Goa'uld Beam Weapons"
+	Value "Superweapon Beam"
 StringInfo
 	ID "IDS_GOAULD_ABILITYTITAN_MEGABEAM_DESCRIPTION"
 	Value "Goa'uld designed Beam Weapon. This weapon has the ability to cause massive damage."
@@ -6079,88 +6085,88 @@ StringInfo
 	ID "IDS_GOAULD_TITANOFFENSE_ANUBIS_COSMETIC_DESCRIPTION"
 	Value "An extremely powerful, long-range warship with a superb offense."
 StringInfo
-	ID "IDS_GOAULD_TITAN_HEPHESTUS_ABILITIES_NAME"
+	ID "IDS_GOAULD_TITAN_SOKAR_ABILITIES_NAME"
 	Value "Energy Systems"
 StringInfo
-	ID "IDS_GOAULD_TITAN_HEPHESTUS_ABILITIES_DESCRIPTION"
+	ID "IDS_GOAULD_TITAN_SOKAR_ABILITIES_DESCRIPTION"
 	Value "Upgrades to the energy systems of the Hephaestus increase it's power grid capacity. Specialized equipment can be used more extensively with this upgrade."
 StringInfo
-	ID "IDS_GOAULD_TITAN_HEPHESTUS_ABILITYA_NAME"
+	ID "IDS_GOAULD_TITAN_SOKAR_ABILITYA_NAME"
 	Value "Asgard Beam Weapons"
 StringInfo
-	ID "IDS_GOAULD_TITAN_HEPHESTUS_ABILITYA_DESCRIPTION"
+	ID "IDS_GOAULD_TITAN_SOKAR_ABILITYA_DESCRIPTION"
 	Value "Upgrades the Hephaestus with Asgard beam weapons."
 StringInfo
-	ID "IDS_GOAULD_TITAN_HEPHESTUS_ABILITYB_NAME"
+	ID "IDS_GOAULD_TITAN_SOKAR_ABILITYB_NAME"
 	Value "Claudius Takeoff"
 StringInfo
-	ID "IDS_GOAULD_TITAN_HEPHESTUS_ABILITYB_DESCRIPTION"
+	ID "IDS_GOAULD_TITAN_SOKAR_ABILITYB_DESCRIPTION"
 	Value "Frigate hangars are completed giving the Hephaestus the ability to deploy Claudius class support ships."
 StringInfo
-	ID "IDS_GOAULD_TITAN_HEPHESTUS_ABILITYC_NAME"
+	ID "IDS_GOAULD_TITAN_SOKAR_ABILITYC_NAME"
 	Value "Deploy AG-3 Turret"
 StringInfo
-	ID "IDS_GOAULD_TITAN_HEPHESTUS_ABILITYC_DESCRIPTION"
+	ID "IDS_GOAULD_TITAN_SOKAR_ABILITYC_DESCRIPTION"
 	Value "Upgrades the Hephaestus with the ability to deploy the AG-3 Tau'ri turret built after the Goa'uld memories of Daniel Jackson"
 StringInfo
-	ID "IDS_GOAULD_TITAN_HEPHESTUS_ABILITYD_NAME"
+	ID "IDS_GOAULD_TITAN_SOKAR_ABILITYD_NAME"
 	Value "ZPM Cloaking"
 StringInfo
-	ID "IDS_GOAULD_TITAN_HEPHESTUS_ABILITYD_DESCRIPTION"
+	ID "IDS_GOAULD_TITAN_SOKAR_ABILITYD_DESCRIPTION"
 	Value "The Hephaestus receives upgrades based on Ancient technology allowing it to cloak itself for a limited amount of time."
 StringInfo
-	ID "IDS_GOAULD_TITAN_HEPHESTUS_DURABILITY_NAME"
+	ID "IDS_GOAULD_TITAN_SOKAR_DURABILITY_NAME"
 	Value "Durability"
 StringInfo
-	ID "IDS_GOAULD_TITAN_HEPHESTUS_DURABILITY_DESCRIPTION"
+	ID "IDS_GOAULD_TITAN_SOKAR_DURABILITY_DESCRIPTION"
 	Value "Upgrades to structural integrity, armor and defensive systems of the Hephaestus improve damage absorption."
 StringInfo
-	ID "IDS_GOAULD_TITAN_HEPHESTUS_WEAPONS_NAME"
+	ID "IDS_GOAULD_TITAN_SOKAR_WEAPONS_NAME"
 	Value "Weapons Systems"
 StringInfo
-	ID "IDS_GOAULD_TITAN_HEPHESTUS_WEAPONS_DESCRIPTION"
+	ID "IDS_GOAULD_TITAN_SOKAR_WEAPONS_DESCRIPTION"
 	Value "Upgrades to the Hephaestus weapons systems increase the damage output."
 StringInfo
-	ID "IDS_GOAULD_TITAN_TARTARUS_ABILITIES_NAME"
+	ID "IDS_GOAULD_TITAN_ANUBIS_ABILITIES_NAME"
 	Value "Energy Systems"
 StringInfo
-	ID "IDS_GOAULD_TITAN_TARTARUS_ABILITIES_DESCRIPTION"
+	ID "IDS_GOAULD_TITAN_ANUBIS_ABILITIES_DESCRIPTION"
 	Value "Upgrades to the energy systems of the Tartarus increase it's power grid capacity. Specialized equipment can be used more extensively with this upgrade."
 StringInfo
-	ID "IDS_GOAULD_TITAN_TARTARUS_ABILITYA_NAME"
+	ID "IDS_GOAULD_TITAN_ANUBIS_ABILITYA_NAME"
 	Value "Advanced Asgard Beams"
 StringInfo
-	ID "IDS_GOAULD_TITAN_TARTARUS_ABILITYA_DESCRIPTION"
+	ID "IDS_GOAULD_TITAN_ANUBIS_ABILITYA_DESCRIPTION"
 	Value "An upgraded version of the Asgard Beam Weapon with higher energy densities that is even more devastating to anything it touches!"
 StringInfo
-	ID "IDS_GOAULD_TITAN_TARTARUS_ABILITYB_NAME"
-	Value "Human Developed Drones"
+	ID "IDS_GOAULD_TITAN_ANUBIS_ABILITYB_NAME"
+	Value "Superweapon Discharge"
 StringInfo
-	ID "IDS_GOAULD_TITAN_TARTARUS_ABILITYB_DESCRIPTION"
-	Value "Powerful Weapons built in the shape of their origin."
+	ID "IDS_GOAULD_TITAN_ANUBIS_ABILITYB_DESCRIPTION"
+	Value "A powerful burst of electromagnetic interference deals damage over time to nearby enemy ships and prevents them from using abilities for a short period."
 StringInfo
-	ID "IDS_GOAULD_TITAN_TARTARUS_ABILITYC_NAME"
-	Value "Goa'uld Mega Beam"
+	ID "IDS_GOAULD_TITAN_ANUBIS_ABILITYC_NAME"
+	Value "Superweapon Beam"
 StringInfo
-	ID "IDS_GOAULD_TITAN_TARTARUS_ABILITYC_DESCRIPTION"
+	ID "IDS_GOAULD_TITAN_ANUBIS_ABILITYC_DESCRIPTION"
 	Value "Goa'uld designed Beam Weapon. This weapon has the ability to cause massive damage."
 StringInfo
-	ID "IDS_GOAULD_TITAN_TARTARUS_ABILITYD_NAME"
+	ID "IDS_GOAULD_TITAN_ANUBIS_ABILITYD_NAME"
 	Value "Tartarus Main Cannon"
 StringInfo
-	ID "IDS_GOAULD_TITAN_TARTARUS_ABILITYD_DESCRIPTION"
+	ID "IDS_GOAULD_TITAN_ANUBIS_ABILITYD_DESCRIPTION"
 	Value "Fires the Tartarus main cannon."
 StringInfo
-	ID "IDS_GOAULD_TITAN_TARTARUS_DURABILITY_NAME"
+	ID "IDS_GOAULD_TITAN_ANUBIS_DURABILITY_NAME"
 	Value "Durability"
 StringInfo
-	ID "IDS_GOAULD_TITAN_TARTARUS_DURABILITY_DESCRIPTION"
+	ID "IDS_GOAULD_TITAN_ANUBIS_DURABILITY_DESCRIPTION"
 	Value "Upgrades to structural integrity, armor and defensive systems of the Tartarus improve damage absorption."
 StringInfo
-	ID "IDS_GOAULD_TITAN_TARTARUS_WEAPONS_NAME"
+	ID "IDS_GOAULD_TITAN_ANUBIS_WEAPONS_NAME"
 	Value "Weapons Systems"
 StringInfo
-	ID "IDS_GOAULD_TITAN_TARTARUS_WEAPONS_DESCRIPTION"
+	ID "IDS_GOAULD_TITAN_ANUBIS_WEAPONS_DESCRIPTION"
 	Value "Upgrades to the Tartarus weapons systems increase the damage output."
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALMETALEXTRACTOR_NAME"

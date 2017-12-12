@@ -1,5 +1,20 @@
 TXT
-numEffects 406
+numEffects 407
+effect
+    name "EFFECT_DISTRUPTIONMATRIX_ACTIVATE"
+    fileName "Effect_DisruptionMatrixActivate.ogg"
+    type "Effect"
+    is3D TRUE
+    priority 10
+    threshold 50000.000000
+    minAttenuationDist 35000.000000
+    maxNumPlayingSimultaneously 5
+    isLooping FALSE
+    isResident FALSE
+    minRespawnTime 0.1
+    fadeInTime 0.0
+    fadeOutTime 0.0
+    alternateGroup ""
 effect
 	name "EFFECT_MAGNETICSTORMIMPACT"
 	fileName "Event_MagneticStorm_Impact.ogg"

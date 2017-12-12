@@ -1,0 +1,53 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 3
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "Goauld_TitanAbility_DisruptionMatrixDebuff_Small"
+		mediumEffectName "Goauld_TitanAbility_DisruptionMatrixDebuff_Medium"
+		largeEffectName "Goauld_TitanAbility_DisruptionMatrixDebuff_Large"
+		soundID ""
+instantAction
+	buffInstantActionType "DoInterrupt"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+instantAction
+	buffInstantActionType "DoInterruptUltimate"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+numPeriodicActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "DoDamage"
+	damageRate
+		Level:0 100.000000
+		Level:1 140.000000
+		Level:2 180.000000
+		Level:3 220.000000
+	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
+	damageType "ENERGY"
+	isDamageShared FALSE
+numEntityModifiers 0
+numEntityBoolModifiers 2
+entityBoolModifier "DisableAbilitiesUltimate"
+entityBoolModifier "DisableRegeneration"
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 5.000000
+		Level:1 6.000000
+		Level:2 7.000000
+		Level:3 8.000000
