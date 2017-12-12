@@ -12,17 +12,17 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb TRUE
 hasBombingLevels FALSE
-baseDamage 90.000000
+baseDamage 40.000000
 basePopulationKilled 2.000000
-bombingFreqTime 10.000000
-baseRange 3000.000000
-bombTransitTime 12.000000
-bombEffectCount 3
-bombEffectAngleVariance 15.000000
+bombingFreqTime 0.200000
+baseRange 2000.000000
+bombTransitTime 2.000000
+bombEffectCount 4
+bombEffectAngleVariance 30.000000
 bombEffectsDef
 	weaponType "Projectile"
 	burstCount 1
-	burstDelay 0.500000
+	burstDelay 0.200000
 	fireDelay 0.000000
 	muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
 	muzzleSoundMinRespawnTime 0.500000
@@ -106,13 +106,13 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 650.000000
-	DamagePerBank:BACK 650.000000
-	DamagePerBank:LEFT 650.000000
-	DamagePerBank:RIGHT 650.000000
+	DamagePerBank:FRONT 50.000000
+	DamagePerBank:BACK 50.000000
+	DamagePerBank:LEFT 50.000000
+	DamagePerBank:RIGHT 50.000000
 	Range 4500.000000
-	PreBuffCooldownTime 4.000000
-	CanFireAtFighter TRUE
+	PreBuffCooldownTime 1.000000
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 1.000000
 	TravelSpeed 4000.000000
@@ -122,7 +122,7 @@ Weapon
 		weaponType "Projectile"
 		burstCount 1
 		burstDelay 0.00000
-		fireDelay 1.00000
+		fireDelay 0.50000
 		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
 		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
@@ -138,22 +138,22 @@ Weapon
 		projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 2
-TargetCountPerBank:BACK 2
-TargetCountPerBank:LEFT 2
-TargetCountPerBank:RIGHT 2
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 1
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 mass 10000.000000
-ShieldMeshName "Goauld_Shield_TitanDefense_Sokar"
+ShieldMeshName "Asuran_Shield_TitanDefense_Atlantis"
 renderShield TRUE
-maxAccelerationLinear 150.000000
-maxAccelerationStrafe 150.000000
+maxAccelerationLinear 60.000000
+maxAccelerationStrafe 60.000000
 maxDecelerationLinear 150.000000
 maxAccelerationAngular 5.000000
 maxDecelerationAngular 5.000000
 maxSpeedLinear 600.000000
-maxRollRate 5.000000
-maxRollAngle 30.000000
+maxRollRate 3.000000
+maxRollAngle 10.000000
 squadTypeEntityDef:0 "Goauld_FighterSquad_DeathGlider"
 squadAntiMatterCost:0 0.000000
 squadTypeEntityDef:1 "Goauld_FighterSquad_DeathBomber"
