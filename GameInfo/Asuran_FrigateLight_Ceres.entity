@@ -35,7 +35,7 @@ Prerequisites
 numRandomDebrisLarge 0
 numRandomDebrisSmall 6
 numSpecificDebris 0
-armorType "Medium"
+armorType "Light"
 hudIcon "HUDICON_ASURAN_FRIGATELIGHT_CERES"
 smallHudIcon "HUDICONSMALL_ASURAN_FRIGATELIGHT_CERES"
 infoCardIcon "MAINVIEWICON_ASURAN_FRIGATELIGHT_CERES"
@@ -44,7 +44,7 @@ NumWeapons 2
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIMEDIUM"
+		AttackType "ANTILIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
@@ -82,7 +82,7 @@ Weapon
 Weapon
 	WeaponType "Missile"
 	damageEnums
-		AttackType "CAPITALSHIP"
+		AttackType "ANTIMEDIUM"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"

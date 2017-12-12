@@ -38,7 +38,7 @@ Prerequisites
 numRandomDebrisLarge 1
 numRandomDebrisSmall 10
 numSpecificDebris 0
-armorType "VeryHeavy"
+armorType "Heavy"
 hudIcon "HUDICON_ASURAN_CRUISERHEAVY_ATROPOS"
 smallHudIcon "HUDICONSMALL_ASURAN_CRUISERHEAVY_ATROPOS"
 infoCardIcon "MAINVIEWICON_ASURAN_CRUISERHEAVY_ATROPOS"
@@ -47,7 +47,7 @@ NumWeapons 2
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "COMPOSITE"
+		AttackType "ANTIHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
@@ -85,7 +85,7 @@ Weapon
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "COMPOSITE"
+		AttackType "ANTIHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"

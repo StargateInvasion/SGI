@@ -88,7 +88,7 @@ numRandomDebrisLarge 5
 numRandomDebrisSmall 19
 numSpecificDebris 1
 specificDebrisMeshName "DebrisPhaseCapitalShipColony"
-armorType "CapitalShip"
+armorType "VeryHeavy"
 hudIcon "HUDICON_ASURAN_CAPITALCOLONY_DESTINY"
 smallHudIcon "HUDICONSMALL_ASURAN_CAPITALCOLONY_DESTINY"
 infoCardIcon "MAINVIEWICON_ASURAN_CAPITALCOLONY_DESTINY"
@@ -97,7 +97,7 @@ NumWeapons 3
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "CAPITALSHIP"
+		AttackType "ANTIHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
@@ -135,7 +135,7 @@ Weapon
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "CAPITALSHIP"
+		AttackType "ANTIHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
@@ -173,7 +173,7 @@ Weapon
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "CAPITALSHIP"
+		AttackType "ANTIVERYHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"

@@ -37,7 +37,7 @@ Prerequisites
 numRandomDebrisLarge 0
 numRandomDebrisSmall 4
 numSpecificDebris 0
-armorType "Light"
+armorType "Verylight"
 hudIcon "HUDICON_ASURAN_FRIGATESCOUT_POLUS"
 smallHudIcon "HUDICONSMALL_ASURAN_FRIGATESCOUT_POLUS"
 infoCardIcon "MAINVIEWICON_ASURAN_FRIGATESCOUT_POLUS"
@@ -46,7 +46,7 @@ NumWeapons 1
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIMEDIUM"
+		AttackType "ANTILIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"

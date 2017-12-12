@@ -21,9 +21,9 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
-		ParticleStartColor ffffc171
-		ParticleWidth 35.000000
-		ParticleHeight 60.000000
+		ParticleStartColor ffffff80
+		ParticleWidth 15.000000
+		ParticleHeight 25.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 25.000000 ]
 		Orientation
@@ -69,9 +69,9 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 0.000000
-		ParticleStartColor ffffc171
-		ParticleWidth 20.000000
-		ParticleHeight 20.000000
+		ParticleStartColor ffffff80
+		ParticleWidth 5.000000
+		ParticleHeight 5.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 30.000000 ]
 		Orientation
@@ -89,7 +89,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "laserfront"
+		textureName "Laserfront"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -117,7 +117,7 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 0.000000
-		ParticleStartColor ffffc171
+		ParticleStartColor ffffff80
 		ParticleWidth 20.000000
 		ParticleHeight 20.000000
 		MeshName ""
@@ -165,9 +165,9 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
-		ParticleStartColor ffffc171
-		ParticleWidth 35.000000
-		ParticleHeight 60.000000
+		ParticleStartColor ffffff80
+		ParticleWidth 10.000000
+		ParticleHeight 25.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 25.000000 ]
 		Orientation
@@ -185,7 +185,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "Asuran_Laser"
+		textureName "Asuran_laser"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -198,7 +198,7 @@ ParticleSimulation
 	EmitterType "Point"
 	EmitterContents
 		Name "(copy) end point-1"
-		Enabled TRUE
+		Enabled FALSE
 		EmitRate 1.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 1
@@ -213,7 +213,7 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 0.000000
-		ParticleStartColor ffffc171
+		ParticleStartColor ffffff80
 		ParticleWidth 20.000000
 		ParticleHeight 20.000000
 		MeshName ""
@@ -233,7 +233,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "laserfront"
+		textureName "Laserfront"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -246,7 +246,7 @@ ParticleSimulation
 	EmitterType "Point"
 	EmitterContents
 		Name "(copy) end point back-1"
-		Enabled TRUE
+		Enabled FALSE
 		EmitRate 1.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 1
@@ -261,7 +261,7 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 0.000000
-		ParticleStartColor ffffc171
+		ParticleStartColor ffffff80
 		ParticleWidth 20.000000
 		ParticleHeight 20.000000
 		MeshName ""
@@ -281,7 +281,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "laserfront"
+		textureName "Laserfront"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -309,7 +309,7 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
-		ParticleStartColor ffffc171
+		ParticleStartColor ffffff80
 		ParticleWidth 40.000000
 		ParticleHeight 60.000000
 		MeshName ""

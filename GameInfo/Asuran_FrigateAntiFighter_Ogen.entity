@@ -38,7 +38,7 @@ Prerequisites
 numRandomDebrisLarge 0
 numRandomDebrisSmall 4
 numSpecificDebris 0
-armorType "Heavy"
+armorType "Light"
 hudIcon "HUDICON_ASURAN_FRIGATEANTIFIGHTER_OGEN"
 smallHudIcon "HUDICONSMALL_ASURAN_FRIGATEANTIFIGHTER_OGEN"
 infoCardIcon "MAINVIEWICON_ASURAN_FRIGATEANTIFIGHTER_OGEN"
@@ -47,7 +47,7 @@ NumWeapons 3
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIMEDIUM"
+		AttackType "ANTIVERYLIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
@@ -85,7 +85,7 @@ Weapon
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIMEDIUM"
+		AttackType "ANTIVERYLIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
@@ -123,7 +123,7 @@ Weapon
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIMEDIUM"
+		AttackType "ANTILIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"

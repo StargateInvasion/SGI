@@ -35,7 +35,7 @@ Prerequisites
 numRandomDebrisLarge 0
 numRandomDebrisSmall 6
 numSpecificDebris 0
-armorType "VeryLight"
+armorType "Medium"
 hudIcon "HUDICON_ASURAN_FRIGATECORVETTE_NEMESIS"
 smallHudIcon "HUDICONSMALL_ASURAN_FRIGATECORVETTE_NEMESIS"
 infoCardIcon "MAINVIEWICON_ASURAN_FRIGATECORVETTE_NEMESIS"
@@ -44,7 +44,7 @@ NumWeapons 2
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIHEAVY"
+		AttackType "ANTIMEDIUM"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"

@@ -38,7 +38,7 @@ Prerequisites
 numRandomDebrisLarge 1
 numRandomDebrisSmall 10
 numSpecificDebris 0
-armorType "Heavy"
+armorType "VeryHeavy"
 hudIcon "HUDICON_ASURAN_CRUISERCARRIER_CAELUS"
 smallHudIcon "HUDICONSMALL_ASURAN_CRUISERCARRIER_CAELUS"
 infoCardIcon "MAINVIEWICON_ASURAN_CRUISERCARRIER_CAELUS"
@@ -47,7 +47,7 @@ NumWeapons 2
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIHEAVY"
+		AttackType "ANTIMEDIUM"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
@@ -85,7 +85,7 @@ Weapon
 Weapon
 	WeaponType "Missile"
 	damageEnums
-		AttackType "CAPITALSHIP"
+		AttackType "ANTIHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
