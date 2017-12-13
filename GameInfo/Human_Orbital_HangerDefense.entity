@@ -100,12 +100,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 30.000000
-	DamagePerBank:BACK 30.000000
-	DamagePerBank:LEFT 30.000000
-	DamagePerBank:RIGHT 30.000000
+	DamagePerBank:FRONT 3.000000
+	DamagePerBank:BACK 3.000000
+	DamagePerBank:LEFT 3.000000
+	DamagePerBank:RIGHT 3.000000
 	Range 4500.000000
-	PreBuffCooldownTime 3.000000
+	PreBuffCooldownTime 2.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.080000
@@ -121,7 +121,7 @@ Weapon
 		RequiredCompletedResearchSubjects 0
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 6
+		burstCount 10
 		burstDelay 0.100000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_TechCapitalAutoCannonLight_Muzzle"
@@ -141,10 +141,10 @@ Weapon
 		projectileTravelEffectName "Weapon_TauriCapitalRailGunMedium_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 2
-TargetCountPerBank:BACK 2
-TargetCountPerBank:LEFT 2
-TargetCountPerBank:RIGHT 2
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 1
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 baseCommandPoints 2
 defaultAutoAttackRange "None"
