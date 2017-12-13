@@ -14,17 +14,17 @@ canBomb TRUE
 hasBombingLevels FALSE
 baseDamage 90.000000
 basePopulationKilled 2.000000
-bombingFreqTime 10.000000
+bombingFreqTime 6.000000
 baseRange 3000.000000
-bombTransitTime 12.000000
+bombTransitTime 5.000000
 bombEffectCount 8
 bombEffectAngleVariance 15.000000
 bombEffectsDef
-	weaponType "Projectile"
+	weaponType "Missile"
 	burstCount 5
 	burstDelay 0.000000
 	fireDelay 0.000000
-	muzzleEffectName "Weapon_Human_Muzzle"
+	muzzleEffectName "Weapon_Tech_MissileCapShip_Muzzle"
 	muzzleSoundMinRespawnTime 0.100000
 	muzzleSounds
 		soundCount 1
@@ -40,7 +40,10 @@ bombEffectsDef
 		sound "EXPLOSION_SUB4"
 		sound "EXPLOSION_SUB4_ALT1"
 		sound "EXPLOSION_SUB4_ALT2"
-	projectileTravelEffectName "Weapon_TechCapitalPlanetBombing_Travel"
+	missileTravelEffectName "Weapon_Tech_MissileCapShip_Travel"
+	missileStartTurningDistance 0.500000
+	missileSlowTurnRate 0.508997
+	missileMaxSlowTurnTime 5.000000
 mainViewIcon "MAINVIEWICON_HUMAN_TITANDEFENSE_HEPHESTUS"
 basePrice
 	credits 9500.000000
