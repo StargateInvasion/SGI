@@ -5,10 +5,43 @@ defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
-canBomb FALSE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 90.000000
+basePopulationKilled 2.000000
+bombingFreqTime 10.000000
+baseRange 3000.000000
+bombTransitTime 12.000000
+bombEffectCount 8
+bombEffectAngleVariance 15.000000
+bombEffectsDef
+	weaponType "Missile"
+	burstCount 5
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_TechCapitalPlanetBombing_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "WEAPON_TECH_PLANETBOMB_MUZZLE"
+	hitEffectName "Weapon_TechCapitalPlanetBombing_Hit"
+	hitHullEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	hitShieldsEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	missileTravelEffectName "Weapon_HumanMissileHeavy_Travel"
+	missileStartTurningDistance 0.005000
+	missileSlowTurnRate 3.708997
+	missileMaxSlowTurnTime 12.000000
 typeCount 1
-frigateRoleType "Carrier"
-statCountType "FrigateCarrier"
+frigateRoleType "Siege"
+statCountType "FrigateSiege"
 mainViewIcon "MAINVIEWICON_HUMAN_FRIGATESIEGE_ZEPHYR"
 picture "PICTURE_HUMAN_FRIGATESIEGE_ZEPHYR"
 NameStringID "IDS_HUMAN_FRIGATESIEGE_ZEPHYR_NAME"
