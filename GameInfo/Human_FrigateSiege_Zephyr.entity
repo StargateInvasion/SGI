@@ -71,7 +71,7 @@ Prerequisites
 numRandomDebrisLarge 1
 numRandomDebrisSmall 7
 numSpecificDebris 0
-armorType "Heavy"
+armorType "Medium"
 hudIcon "HUDICON_HUMAN_FRIGATESIEGE_ZEPHYR"
 smallHudIcon "HUDICONSMALL_HUMAN_FRIGATESIEGE_ZEPHYR"
 infoCardIcon "MAINVIEWICON_HUMAN_FRIGATESIEGE_ZEPHYR"
@@ -80,7 +80,7 @@ NumWeapons 2
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIHEAVY"
+		AttackType "ANTILIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
@@ -120,7 +120,7 @@ Weapon
 Weapon
 	WeaponType "Missile"
 	damageEnums
-		AttackType "CAPITALSHIP"
+		AttackType "ANTIMEDIUM"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"

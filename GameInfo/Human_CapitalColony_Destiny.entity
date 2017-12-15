@@ -100,7 +100,7 @@ NumWeapons 4
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "CAPITALSHIP"
+		AttackType "ANTIMEDIUM"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
@@ -140,7 +140,7 @@ Weapon
 Weapon
 	WeaponType "Missile"
 	damageEnums
-		AttackType "CAPITALSHIP"
+		AttackType "ANTIHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
@@ -232,7 +232,7 @@ Weapon
 Weapon
 	WeaponType "Beam"
 	damageEnums
-		AttackType "ANTIHEAVY"
+		AttackType "CAPITALSHIP"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"

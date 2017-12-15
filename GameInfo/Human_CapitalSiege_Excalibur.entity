@@ -16,7 +16,7 @@ baseDamage 43.000000
 basePopulationKilled 1.700000
 bombingFreqTime 10.000000
 baseRange 3000.000000
-bombTransitTime 12.000000
+bombTransitTime 10.000000
 bombEffectCount 3
 bombEffectAngleVariance 15.000000
 bombEffectsDef
@@ -103,7 +103,7 @@ NumWeapons 4
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "CAPITALSHIP"
+		AttackType "ANTIMEDIUM"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
@@ -235,7 +235,7 @@ Weapon
 Weapon
 	WeaponType "Beam"
 	damageEnums
-		AttackType "ANTIHEAVY"
+		AttackType "CAPITALSHIP"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"

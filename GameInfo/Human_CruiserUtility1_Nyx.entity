@@ -38,7 +38,7 @@ Prerequisites
 numRandomDebrisLarge 1
 numRandomDebrisSmall 9
 numSpecificDebris 0
-armorType "VeryHeavy"
+armorType "Medium"
 hudIcon "HUDICON_HUMAN_CRUISERUTILITY1_NYX"
 smallHudIcon "HUDICONSMALL_HUMAN_CRUISERUTILITY1_NYX"
 infoCardIcon "MAINVIEWICON_HUMAN_CRUISERUTILITY1_NYX"
@@ -47,7 +47,7 @@ NumWeapons 3
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIHEAVY"
+		AttackType "ANTILIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
@@ -87,7 +87,7 @@ Weapon
 Weapon
 	WeaponType "Missile"
 	damageEnums
-		AttackType "CAPITALSHIP"
+		AttackType "ANTIMODULE"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
@@ -132,7 +132,7 @@ Weapon
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIVERYHEAVY"
+		AttackType "ANTIHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"

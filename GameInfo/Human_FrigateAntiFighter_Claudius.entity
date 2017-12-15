@@ -38,7 +38,7 @@ Prerequisites
 numRandomDebrisLarge 0
 numRandomDebrisSmall 4
 numSpecificDebris 0
-armorType "Heavy"
+armorType "Medium"
 hudIcon "HUDICON_HUMAN_FRIGATEANTIFIGHTER_CLAUDIUS"
 smallHudIcon "HUDICONSMALL_HUMAN_FRIGATEANTIFIGHTER_CLAUDIUS"
 infoCardIcon "MAINVIEWICON_HUMAN_FRIGATEANTIFIGHTER_CLAUDIUS"
@@ -87,7 +87,7 @@ Weapon
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIVERYLIGHT"
+		AttackType "ANTILIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"

@@ -35,7 +35,7 @@ Prerequisites
 numRandomDebrisLarge 1
 numRandomDebrisSmall 6
 numSpecificDebris 0
-armorType "Medium"
+armorType "Light"
 hudIcon "HUDICON_HUMAN_FRIGATELIGHT_X303"
 smallHudIcon "HUDICONSMALL_HUMAN_FRIGATELIGHT_X303"
 infoCardIcon "MAINVIEWICON_HUMAN_FRIGATELIGHT_X303"
@@ -44,7 +44,7 @@ NumWeapons 3
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIHEAVY"
+		AttackType "ANTILIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
@@ -131,7 +131,7 @@ Weapon
 Weapon
 	WeaponType "Missile"
 	damageEnums
-		AttackType "CAPITALSHIP"
+		AttackType "ANTIMEDIUM"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
