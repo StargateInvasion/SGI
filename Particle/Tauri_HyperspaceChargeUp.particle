@@ -1,8 +1,8 @@
 ﻿TXT
 ParticleSimulation
 	HasInfiniteLifeTime FALSE
-	TotalLifeTime 3.000000
-	NumEmitters 2
+	TotalLifeTime 6.000000
+	NumEmitters 4
 	EmitterType "Point"
 	EmitterContents
 		Name "Entry Flash"
@@ -22,10 +22,10 @@ ParticleSimulation
 		ParticleMaxStartRotation 3.141593
 		ParticleStartMass 1.000000
 		ParticleStartColor ffffffff
-		ParticleWidth 100.000000
-		ParticleHeight 100.000000
+		ParticleWidth 50.000000
+		ParticleHeight 50.000000
 		MeshName ""
-		Position [ 0.000000 0.000000 -1000.000000 ]
+		Position [ 0.000000 0.000000 1000.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
 			 [ 0.000000 1.000000 0.000000 ]
@@ -41,7 +41,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "brightcenter.dds"
+		textureName "brightcenter"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -55,9 +55,9 @@ ParticleSimulation
 	EmitterContents
 		Name "Cloud1"
 		Enabled TRUE
-		EmitRate 1.000000
+		EmitRate 3.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 5
+		MaxEmitCount 8
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -69,11 +69,107 @@ ParticleSimulation
 		ParticleMinStartRotation 0.785398
 		ParticleMaxStartRotation 4.712389
 		ParticleStartMass 1.000000
-		ParticleStartColor ffffffff
-		ParticleWidth 500.000000
-		ParticleHeight 500.000000
+		ParticleStartColor ff80ffff
+		ParticleWidth 50.000000
+		ParticleHeight 50.000000
 		MeshName ""
-		Position [ 0.000000 0.000000 -1000.000000 ]
+		Position [ 0.000000 0.000000 1000.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 -1.000000 -0.000000 ]
+			 [ 0.000000 0.000000 -1.000000 ]
+		RotateAboutForward 180.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime FALSE
+		TotalLifeTime 3.000000
+		BillboardAnchor 0
+		ParticleFacing 2
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "cloudgauss2"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 1
+		MeshParticleRotationAxis [ 0.000000 90.000000 0.000000 ]
+		RotationDirectionType 2
+		AngleVariance 0.174533
+	EmitterType "Point"
+	EmitterContents
+		Name "Jump Flash"
+		Enabled TRUE
+		EmitRate 1.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 1
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 0.300000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.000000
+		ParticleMinStartRotation 0.785398
+		ParticleMaxStartRotation 3.141593
+		ParticleStartMass 1.000000
+		ParticleStartColor ffffffff
+		ParticleWidth 100.000000
+		ParticleHeight 100.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 1000.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 3.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "brightcenter"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate TRUE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.000000 0.000000 ]
+		RotationDirectionType 2
+		AngleVariance 3.141593
+	EmitterType "Point"
+	EmitterContents
+		Name "(copy) Entry Flash-1"
+		Enabled TRUE
+		EmitRate 1.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 1
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 4.000000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.000000
+		ParticleMinStartRotation 0.785398
+		ParticleMaxStartRotation 3.141593
+		ParticleStartMass 1.000000
+		ParticleStartColor ff80ffff
+		ParticleWidth 100.000000
+		ParticleHeight 100.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 1000.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
 			 [ 0.000000 1.000000 0.000000 ]
@@ -82,24 +178,24 @@ ParticleSimulation
 		RotateAboutUp 0.000000
 		RotateAboutCross 0.000000
 		StartTime 0.000000
-		HasInfiniteLifeTime FALSE
-		TotalLifeTime 0.500000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
 		BillboardAnchor 0
-		ParticleFacing 2
+		ParticleFacing 0
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "cloudgauss2.dds"
+		textureName "brightcenter"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
 		textureAnimationOnParticleFPS 0.000000
 		ParticlesRotate TRUE
-		MeshParticleRotationAxisType 1
-		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
-		RotationDirectionType 0
-		AngleVariance 0.174533
-	NumAffectors 5
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.000000 0.000000 ]
+		RotationDirectionType 2
+		AngleVariance 3.141593
+	NumAffectors 6
 	AffectorType "SizeOscillator"
 	AffectorContents
 		Name "Oscillator1"
@@ -117,8 +213,8 @@ ParticleSimulation
 		TransitionPeriod 0.150000
 		BeginSizeX 100.000000
 		BeginSizeY 100.000000
-		EndSizeX 4000.000000
-		EndSizeY 4000.000000
+		EndSizeX 100.000000
+		EndSizeY 100.000000
 	AffectorType "Fade"
 	AffectorContents
 		Name "Fade1"
@@ -152,9 +248,9 @@ ParticleSimulation
 		numAttachedEmitters 1
 		attachedEmitterName "Cloud1"
 		TransitionPeriod 0.250000
-		StartColor ff8080ff
+		StartColor ff80ffff
 		StartAlpha 1.000000
-		EndColor ffff80ff
+		EndColor ff00ffff
 		EndAlpha 1.000000
 	AffectorType "LinearInflate"
 	AffectorContents
@@ -162,7 +258,7 @@ ParticleSimulation
 		Enabled TRUE
 		StartTime 0.000000
 		HasInfiniteLifeTime FALSE
-		TotalLifeTime 3.000000
+		TotalLifeTime 6.000000
 		UseYoungParticleAffectThreshold FALSE
 		YoungParticleAffectThreshold 0.000000
 		UseOldParticleAffectThreshold FALSE
@@ -170,23 +266,43 @@ ParticleSimulation
 		AffectAttachedParticles TRUE
 		numAttachedEmitters 1
 		attachedEmitterName "Cloud1"
-		WidthInflateRate 1200.000000
-		HeightInflateRate 1200.000000
-	AffectorType "Fade"
+		WidthInflateRate 600.000000
+		HeightInflateRate 600.000000
+	AffectorType "SizeOscillator"
 	AffectorContents
-		Name "(new) Fade-1"
+		Name "Oscillator"
 		Enabled TRUE
-		StartTime 1.000000
+		StartTime 3.000000
 		HasInfiniteLifeTime FALSE
-		TotalLifeTime 1.000000
+		TotalLifeTime 0.300000
 		UseYoungParticleAffectThreshold FALSE
 		YoungParticleAffectThreshold 0.000000
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 0
+		numAttachedEmitters 1
+		attachedEmitterName "Jump Flash"
+		TransitionPeriod 0.150000
+		BeginSizeX 100.000000
+		BeginSizeY 100.000000
+		EndSizeX 1000.000000
+		EndSizeY 1000.000000
+	AffectorType "Fade"
+	AffectorContents
+		Name "(copy) Fade1-1"
+		Enabled TRUE
+		StartTime 3.000000
+		HasInfiniteLifeTime TRUE
+		TotalLifeTime 0.000000
+		UseYoungParticleAffectThreshold FALSE
+		YoungParticleAffectThreshold 0.000000
+		UseOldParticleAffectThreshold FALSE
+		OldParticleAffectThreshold 0.000000
+		AffectAttachedParticles TRUE
+		numAttachedEmitters 1
+		attachedEmitterName "(copy) Entry Flash-1"
 		DoFadeOut TRUE
-		FadeOutTime 1.000000
+		FadeOutTime 1.500000
 		DoFadeIn FALSE
-		FadeInTime 1.000000
+		FadeInTime 0.000000
 	length 0.000000

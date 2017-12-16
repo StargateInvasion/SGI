@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
 ability:0 ""
-ability:1 "Goauld_AbilityCapital_BattleSystems"
-ability:2 "Goauld_AbilityCapital_EMPBlast"
-ability:3 "Goauld_AbilityCapital_CommandStrikeGroup"
+ability:1 ""
+ability:2 ""
+ability:3 ""
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -12,17 +12,17 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb TRUE
 hasBombingLevels FALSE
-baseDamage 43.000000
-basePopulationKilled 1.700000
-bombingFreqTime 10.000000
-baseRange 3000.000000
-bombTransitTime 1.000000
-bombEffectCount 3
-bombEffectAngleVariance 15.000000
+baseDamage 10.000000
+basePopulationKilled 2.000000
+bombingFreqTime 0.200000
+baseRange 2000.000000
+bombTransitTime 2.000000
+bombEffectCount 1
+bombEffectAngleVariance 4.000000
 bombEffectsDef
 weaponType "Projectile"
-	burstCount 3
-	burstDelay 0.500000
+	burstCount 1
+	burstDelay 0.200000
 	fireDelay 0.000000
 	muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
 	muzzleSoundMinRespawnTime 0.100000
@@ -39,16 +39,16 @@ weaponType "Projectile"
 	projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
 mainViewIcon "MAINVIEWICON_GOAULD_CAPITALBATTLESHIP_HATEL"
 basePrice
-	credits 2325.000000
-	metal 380.000000
-	crystal 340.000000
+	credits 3000.000000
+	metal 600.000000
+	crystal 500.000000
 slotCount 44.000000
 BuildTime 120.000000
 MaxHullPoints
-	StartValue 3200.000000
+	StartValue 5000.000000
 	ValueIncreasePerLevel 130.000000
 MaxShieldPoints
-	StartValue 4000.000000
+	StartValue 7500.000000
 	ValueIncreasePerLevel 185.000000
 HullPointRestoreRate
 	StartValue 3.200000
@@ -63,7 +63,7 @@ maxMitigation
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.000000
 MaxAntiMatter
-	StartValue 480.000000
+	StartValue 400.000000
 	ValueIncreasePerLevel 45.000000
 AntiMatterRestoreRate
 	StartValue 1.000000
@@ -91,32 +91,32 @@ armorType "CapitalShip"
 hudIcon "HUDICON_GOAULD_CAPITALBATTLESHIP_HATEL"
 smallHudIcon "HUDICONSMALL_GOAULD_CAPITALBATTLESHIP_HATEL"
 infoCardIcon "MAINVIEWICON_GOAULD_CAPITALBATTLESHIP_HATEL"
-minZoomDistanceMult 3.300000
+minZoomDistanceMult 3.000000
 NumWeapons 3
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "CAPITALSHIP"
+		AttackType "ANTILIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 100.000000
-	DamagePerBank:BACK 100.000000
-	DamagePerBank:LEFT 100.000000
-	DamagePerBank:RIGHT 100.000000
-	Range 4500.000000
+	DamagePerBank:FRONT 10.000000
+	DamagePerBank:BACK 10.000000
+	DamagePerBank:LEFT 10.000000
+	DamagePerBank:RIGHT 10.000000
+	Range 3000.000000
 	PreBuffCooldownTime 3.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.500000
-	TravelSpeed 4000.000000
+	PointStaggerDelay 2.000000
+	TravelSpeed 5000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
 		burstCount 1
-		burstDelay 0.000000
+		burstDelay 0.400000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
 		muzzleSoundMinRespawnTime 0.500000
@@ -139,13 +139,13 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 280.000000
-	DamagePerBank:BACK 280.000000
-	DamagePerBank:LEFT 280.000000
-	DamagePerBank:RIGHT 280.000000
+	DamagePerBank:FRONT 30.000000
+	DamagePerBank:BACK 30.000000
+	DamagePerBank:LEFT 30.000000
+	DamagePerBank:RIGHT 30.000000
 	Range 4500.000000
 	PreBuffCooldownTime 3.000000
-	CanFireAtFighter TRUE
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.500000
 	TravelSpeed 4000.000000
@@ -154,8 +154,8 @@ Weapon
 	WeaponEffects
 		weaponType "Projectile"
 		burstCount 1
-		burstDelay 0.000000
-		fireDelay 0.000000
+		burstDelay 0.500000
+		fireDelay 0.200000
 		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
 		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
@@ -172,28 +172,28 @@ Weapon
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "CAPITALSHIP"
+		AttackType "TITAN"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 280.000000
-	DamagePerBank:BACK 280.000000
-	DamagePerBank:LEFT 280.000000
-	DamagePerBank:RIGHT 280.000000
+	DamagePerBank:FRONT 90.000000
+	DamagePerBank:BACK 90.000000
+	DamagePerBank:LEFT 90.000000
+	DamagePerBank:RIGHT 90.000000
 	Range 4500.000000
-	PreBuffCooldownTime 3.000000
-	CanFireAtFighter TRUE
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.500000
-	TravelSpeed 4000.000000
+	TravelSpeed 3000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
 		burstCount 1
-		burstDelay 0.000000
-		fireDelay 0.000000
+		burstDelay 0.5000000
+		fireDelay 0.200000
 		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
 		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
@@ -214,17 +214,17 @@ TargetCountPerBank:BACK 1
 TargetCountPerBank:LEFT 1
 TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
-mass 10000.000000
+mass 12000.000000
 ShieldMeshName "Goauld_Shield_CapitalBattleship_Hatel"
 renderShield TRUE
-maxAccelerationLinear 807.000000
-maxAccelerationStrafe 1207.000000
-maxDecelerationLinear 1207.000000
+maxAccelerationLinear 50.000000
+maxAccelerationStrafe 40.000000
+maxDecelerationLinear 100.000000
 maxAccelerationAngular 20.000000
 maxDecelerationAngular 31.999998
-maxSpeedLinear 612.000000
-maxRollRate 20.000000
-maxRollAngle 65.000000
+maxSpeedLinear 90.000000
+maxRollRate 10.000000
+maxRollAngle 15.000000
 squadTypeEntityDef:0 "Goauld_FighterSquad_DeathGlider"
 squadAntiMatterCost:0 0.000000
 squadTypeEntityDef:1 "Goauld_FighterSquad_DeathBomber"
@@ -259,7 +259,7 @@ meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_TechBattleship"
 ExplosionName "CapitalShip0"
 CommandPoints
-	StartValue 0.600000
+	StartValue 3.000000
 	ValueIncreasePerLevel 0.200000
 weaponCooldownDecreasePerc
 	StartValue 0.000000

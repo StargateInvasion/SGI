@@ -22,8 +22,8 @@ ParticleSimulation
 		ParticleMaxStartRotation 2.792526
 		ParticleStartMass 1.000000
 		ParticleStartColor ffff8000
-		ParticleWidth 30.000000
-		ParticleHeight 30.000000
+		ParticleWidth 5.000000
+		ParticleHeight 5.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -70,8 +70,8 @@ ParticleSimulation
 		ParticleMaxStartRotation 2.967060
 		ParticleStartMass 1.000000
 		ParticleStartColor ffffd700
-		ParticleWidth 30.000000
-		ParticleHeight 35.000000
+		ParticleWidth 10.000000
+		ParticleHeight 15.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -134,8 +134,8 @@ ParticleSimulation
 		numAttachedEmitters 2
 		attachedEmitterName "shock"
 		attachedEmitterName "New Emitter"
-		WidthInflateRate 100.000000
-		HeightInflateRate 100.000000
+		WidthInflateRate 30.000000
+		HeightInflateRate 30.000000
 	AffectorType "Fade"
 	AffectorContents
 		Name "(new) Fade-1"

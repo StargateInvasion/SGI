@@ -33,7 +33,7 @@ ParticleSimulation
 		RotateAboutForward 0.000000
 		RotateAboutUp 0.000000
 		RotateAboutCross 0.000000
-		StartTime 0.000000
+		StartTime 1.000000
 		HasInfiniteLifeTime TRUE
 		TotalLifeTime 0.000000
 		BillboardAnchor 0
@@ -41,7 +41,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "brightcenter.dds"
+		textureName "brightcenter"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -55,7 +55,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Cloud1"
 		Enabled TRUE
-		EmitRate 1.000000
+		EmitRate 2.000000
 		HasInfiniteEmitCount FALSE
 		MaxEmitCount 5
 		hasEmitIntervals FALSE
@@ -70,8 +70,8 @@ ParticleSimulation
 		ParticleMaxStartRotation 4.712389
 		ParticleStartMass 1.000000
 		ParticleStartColor ffffffff
-		ParticleWidth 500.000000
-		ParticleHeight 500.000000
+		ParticleWidth 50.000000
+		ParticleHeight 50.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 -1000.000000 ]
 		Orientation
@@ -89,7 +89,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "cloudgauss2.dds"
+		textureName "cloudgauss2"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -152,9 +152,9 @@ ParticleSimulation
 		numAttachedEmitters 1
 		attachedEmitterName "Cloud1"
 		TransitionPeriod 0.250000
-		StartColor ff8080ff
+		StartColor ff00ffff
 		StartAlpha 1.000000
-		EndColor ffff80ff
+		EndColor ff00ffff
 		EndAlpha 1.000000
 	AffectorType "LinearInflate"
 	AffectorContents
@@ -170,8 +170,8 @@ ParticleSimulation
 		AffectAttachedParticles TRUE
 		numAttachedEmitters 1
 		attachedEmitterName "Cloud1"
-		WidthInflateRate 1200.000000
-		HeightInflateRate 1200.000000
+		WidthInflateRate 600.000000
+		HeightInflateRate 600.000000
 	AffectorType "Fade"
 	AffectorContents
 		Name "(new) Fade-1"
