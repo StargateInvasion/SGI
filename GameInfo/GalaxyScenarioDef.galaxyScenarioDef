@@ -840,10 +840,130 @@ orbitBodyType
 	typeName "Occupied"
 	entityDefName "OccupiedPlanet"
 	defaultTemplateName "Template:OccupiedPlanet"
-planetItemTypeCount 236
+planetItemTypeCount 289
+planetItemType
+	designName "Asuran:Orbital:MineExplosive"
+	entityDefName "Asuran_DeepSpaceMine"
+planetItemType
+	designName "Asuran:Orbital:Cannon"
+	entityDefName "Asuran_Orbital_Cannon"
+planetItemType
+	designName "Asuran:Orbital:CapitalShipFactory"
+	entityDefName "Asuran_Orbital_CapitalShipFactory"
+planetItemType
+	designName "Asuran:Orbital:CombatLab"
+	entityDefName "Asuran_Orbital_CombatLaboratory"
+planetItemType
+	designName "Asuran:Orbital:CrystalExtractor"
+	entityDefName "Asuran_Orbital_NaquadahExtractor"
+planetItemType
+	designName "Asuran:Orbital:CultureCenter"
+	entityDefName "Asuran_Orbital_CultureCenter"
+planetItemType
+	designName "Asuran:Orbital:FrigateFactory"
+	entityDefName "Asuran_Orbital_FrigateFactory"
+planetItemType
+	designName "Asuran:Orbital:HangarDefense"
+	entityDefName "Asuran_Orbital_HangarDefense"
+planetItemType
+	designName "Asuran:Orbital:MetalExtractor"
+	entityDefName "Asuran_Orbital_TriniumExtractor"
+planetItemType
+	designName "Asuran:Orbital:NonCombatLab"
+	entityDefName "Asuran_Orbital_NonCombatLaboratory"
+planetItemType
+	designName "Asuran:Orbital:Refinery"
+	entityDefName "Asuran_Orbital_Refinery"
+planetItemType
+	designName "Asuran:Orbital:RepairPlatform"
+	entityDefName "Asuran_Orbital_RepairPlatform"
+planetItemType
+	designName "Asuran:Orbital:TradePort"
+	entityDefName "Asuran_Orbital_TradePort"
+planetItemType
+	designName "Asuran:Orbital:WeaponsPlatform"
+	entityDefName "Asuran_Orbital_WeaponsPlatform"
+planetItemType
+	designName "Asuran:Orbital:JumpBlocker"
+	entityDefName "Asuran_Orbital_JumpBlocker"
+planetItemType
+	designName "Asuran:Orbital:HeavyDefense"
+	entityDefName "Asuran_Orbital_HeavyDefense"
 planetItemType
 	designName "Asuran:Orbital:ShieldGenerator"
 	entityDefName "Asuran_Orbital_ShieldGenerator"
+planetItemType
+	designName "Asuran:Orbital:Spacegate"
+	entityDefName "Asuran_Orbital_Stargate"
+planetItemType
+	designName "Asuran:Orbital:TitanFactory"
+	entityDefName "Asuran_Orbital_TitanFactory"
+planetItemType
+	designName "Asuran:Frigate:AntiFighter"
+	entityDefName "Asuran_FrigateAntiFighter_Ogen"
+planetItemType
+	designName "Asuran:Frigate:Carrier"
+	entityDefName "Asuran_CruiserCarrier_Caelus"
+planetItemType
+	designName "Asuran:Frigate:Colony"
+	entityDefName "Asuran_FrigateColony_Seedship"
+planetItemType
+	designName "Asuran:Cruiser:Heavy"
+	entityDefName "Asuran_CruiserHeavy_Atropos"
+planetItemType
+	designName "Asuran:Frigate:Light"
+	entityDefName "Asuran_FrigateLight_Ceres"
+planetItemType
+	designName "Asuran:Frigate:LongRange"
+	entityDefName "Asuran_FrigateLongRange_Erinyes"
+planetItemType
+	designName "Asuran:Frigate:Scout"
+	entityDefName "Asuran_FrigateScout_Polus"
+planetItemType
+	designName "Asuran:Frigate:Siege"
+	entityDefName "Asuran_FrigateSiege_GateSatellite"
+planetItemType
+	designName "Asuran:Frigate:Utility0"
+	entityDefName "Asuran_CruiserUtility0_Figaro"
+planetItemType
+	designName "Asuran:Frigate:Utility1"
+	entityDefName "Asuran_CruiserUtility1_Kreios"
+planetItemType
+	designName "Asuran:Frigate:Constructor"
+	entityDefName "Asuran_ModuleConstructor_Ouranos"
+planetItemType
+	designName "Asuran:CapitalShip:BattleShip"
+	entityDefName "Asuran_CapitalBattleship_Orion"
+planetItemType
+	designName "Asuran:CapitalShip:Support"
+	entityDefName "Asuran_CapitalSupport_Origin"
+planetItemType
+	designName "Asuran:CapitalShip:Carrier"
+	entityDefName "Asuran_CapitalCarrier_Alastor"
+planetItemType
+	designName "Asuran:CapitalShip:Colony"
+	entityDefName "Asuran_CapitalColony_Destiny"
+planetItemType
+	designName "Asuran:CapitalShip:Transport"
+	entityDefName "Asuran_CapitalTransport_Romulus"
+planetItemType
+	designName "Asuran:CapitalShip:Siege"
+	entityDefName "Asuran_CapitalSiege_Anteus"
+planetItemType
+	designName "Asuran:Titan:Defense"
+	entityDefName "Asuran_TitanDefense_Atlantis"
+planetItemType
+	designName "Asuran:Titan:Offense"
+	entityDefName "Asuran_TitanOffense_Epheus"
+planetItemType
+	designName "Asuran:Frigate:Corvette"
+	entityDefName "Asuran_FrigateCorvette_Nemesis"
+planetItemType
+	designName "Asuran:Frigate:Envoy"
+	entityDefName "Asuran_CruiserEnvoy_Mercury"
+planetItemType
+	designName "Asuran:StarBase"
+	entityDefName "Asuran_StarBaseOffense_Gaia"
 planetItemType
 	designName "Human:CapitalShip:BattleShip"
 	entityDefName "Human_CapitalBattleship_Achilles"
@@ -906,6 +1026,9 @@ planetItemType
 	entityDefName "Human_FrigateColony_Hestia"
 planetItemType
 	designName "Human:Frigate:Corvette"
+	entityDefName "Human_FrigateCorvette_Morpheus"
+planetItemType
+	designName "Human:Corvette:Rebel"
 	entityDefName "Human_FrigateCorvette_Morpheus"
 planetItemType
 	designName "Human:Frigate:Light"
@@ -1004,65 +1127,170 @@ planetItemType
 	designName "Human:Titan:Offense"
 	entityDefName "Human_TitanOffense_Tartarus"
 planetItemType
+	designName "Goauld:CapitalShip:BattleShip"
+	entityDefName "Goauld_CapitalBattleship_Hatel"
+planetItemType
+	designName "Goauld:CapitalShip:Carrier"
+	entityDefName "Goauld_CapitalCarrier_Hatak"
+planetItemType
+	designName "Goauld:CapitalShip:Colony"
+	entityDefName "Goauld_CapitalColony_Cheops"
+planetItemType
+	designName "Goauld:CapitalHero:Anubis"
+	entityDefName "Goauld_CapitalHero_Anubis"
+planetItemType
+	designName "Goauld:CapitalHero:Apophis"
+	entityDefName "Goauld_CapitalHero_Apophis"
+planetItemType
+	designName "Goauld:CapitalHero:Baal"
+	entityDefName "Goauld_CapitalHero_Baal"
+planetItemType
+	designName "Goauld:CapitalHero:Osiris"
+	entityDefName "Goauld_CapitalHero_Osiris"
+planetItemType
+	designName "Goauld:CapitalHero:Sokar"
+	entityDefName "Goauld_CapitalHero_Sokar"
+planetItemType
+	designName "Goauld:CapitalShip:Siege"
+	entityDefName "Goauld_CapitalSiege_Meltak"
+planetItemType
+	designName "Goauld:CapitalShip:Support"
+	entityDefName "Goauld_CapitalSupport_Shutak"
+planetItemType
+	designName "Goauld:CapitalShip:Transport"
+	entityDefName "Goauld_CapitalTransport_Amduat"
+planetItemType
+	designName "Goauld:Cruiser:AntiModule"
+	entityDefName "Goauld_CruiserAntiModule_Thoth"
+planetItemType
+	designName "Goauld:Cruiser:Carrier"
+	entityDefName "Goauld_CruiserCarrier_Hokkesh"
+planetItemType
+	designName "Goauld:Cruiser:Envoy"
+	entityDefName "Goauld_CruiserEnvoy_Isis"
+planetItemType
+	designName "Goauld:Cruiser:Heavy"
+	entityDefName "Goauld_CruiserHeavy_Maat"
+planetItemType
+	designName "Goauld:Cruiser:StarbaseConstructor"
+	entityDefName "Goauld_CruiserStarbaseConstructor_Heliopolis"
+planetItemType
+	designName "Goauld:Cruiser:Utility0"
+	entityDefName "Goauld_CruiserUtility0_Jantak"
+planetItemType
+	designName "Goauld:Cruiser:Utility1"
+	entityDefName "Goauld_CruiserUtility1_Akhet"
+planetItemType
+	designName "Goauld:Frigate:AntiFighter"
+	entityDefName "Goauld_FrigateAntiFighter_Duat"
+planetItemType
+	designName "Goauld:Frigate:Colony"
+	entityDefName "Goauld_FrigateColony_Atum"
+planetItemType
+	designName "Goauld:Frigate:Corvette"
+	entityDefName "Goauld_FrigateCorvette_Horus"
+planetItemType
+	designName "Goauld:Frigate:Light"
+	entityDefName "Goauld_FrigateLight_Ammit"
+planetItemType
+	designName "Goauld:Frigate:LongRange"
+	entityDefName "Goauld_FrigateLongRange_Osiris"
+planetItemType
+	designName "Goauld:Frigate:Scout"
+	entityDefName "Goauld_FrigateScout_Teltak"
+planetItemType
+	designName "Goauld:Frigate:Siege"
+	entityDefName "Goauld_FrigateSiege_Alkesh"
+planetItemType
+	designName "Goauld:Module:Constructor"
+	entityDefName "Goauld_ModuleConstructor_Seshat"
+planetItemType
+	designName "Goauld:Module:RefineryShip"
+	entityDefName "Goauld_ModuleRefineryShip_Sobek"
+planetItemType
+	designName "Goauld:Module:TradeShip"
+	entityDefName "Goauld_ModuleTradeShip_Nebu"
+planetItemType
+	designName "Goauld:Orbital:Cannon"
+	entityDefName "Goauld_Orbital_Cannon"
+planetItemType
+	designName "Goauld:Orbital:CapitalFactory"
+	entityDefName "Goauld_Orbital_CapitalFactory"
+planetItemType
+	designName "Goauld:Orbital:CombatLab"
+	entityDefName "Goauld_Orbital_CombatLaboratory"
+planetItemType
+	designName "Goauld:Orbital:CrystalExtractor"
+	entityDefName "Goauld_Orbital_CrystalExtractor"
+planetItemType
+	designName "Goauld:Orbital:CultureCenter"
+	entityDefName "Goauld_Orbital_CultureCenter"
+planetItemType
+	designName "Goauld:Orbital:FrigateFactory"
+	entityDefName "Goauld_Orbital_FrigateFactory"
+planetItemType
+	designName "Goauld:Orbital:HangarDefense"
+	entityDefName "Goauld_Orbital_HangerDefense"
+planetItemType
+	designName "Goauld:Orbital:HeadQuarters"
+	entityDefName "Goauld_Orbital_HeadQuarters"
+planetItemType
+	designName "Goauld:Orbital:HeavyDefense"
+	entityDefName "Goauld_Orbital_HeavyDefense"
+planetItemType
+	designName "Goauld:Orbital:JumpBlocker"
+	entityDefName "Goauld_Orbital_JumpBlocker"
+planetItemType
+	designName "Goauld:Orbital:MetalExtractor"
+	entityDefName "Goauld_Orbital_MetalExtractor"
+planetItemType
+	designName "Goauld:Orbital:Mine"
+	entityDefName "Goauld_DeepSpaceMine"
+planetItemType
+	designName "Goauld:Orbital:NonCombatLab"
+	entityDefName "Goauld_Orbital_NonCombatLaboratory"
+planetItemType
+	designName "Goauld:Orbital:Refinery"
+	entityDefName "Goauld_Orbital_Refinery"
+planetItemType
+	designName "Goauld:Orbital:RepairPlatform"
+	entityDefName "Goauld_Orbital_RepairPlatform"
+planetItemType
+	designName "Goauld:Orbital:ShieldGenerator"
+	entityDefName "Goauld_Orbital_ShieldGenerator"
+planetItemType
+	designName "Goauld:Orbital:Stargate"
+	entityDefName "Goauld_Orbital_Stargate"
+planetItemType
+	designName "Goauld:Orbital:TitanFactory"
+	entityDefName "Goauld_Orbital_TitanFactory"
+planetItemType
+	designName "Goauld:Orbital:TradePort"
+	entityDefName "Goauld_Orbital_TradePort"
+planetItemType
+	designName "Goauld:Orbital:WeaponsPlatform"
+	entityDefName "Goauld_Orbital_WeaponsPlatform"
+planetItemType
+	designName "Goauld:StarBase:Defense"
+	entityDefName "Goauld_StarbaseDefense_Setesh"
+planetItemType
+	designName "Goauld:StarBase:Offense"
+	entityDefName "Goauld_StarbaseOffense_Cronus"
+planetItemType
+	designName "Goauld:StarBase:Special"
+	entityDefName "Goauld_StarbaseSpecial_Unas"
+planetItemType
+	designName "Goauld:Titan:Defense"
+	entityDefName "Goauld_TitanDefense_Sokar"
+planetItemType
+	designName "Goauld:Titan:Offense"
+	entityDefName "Goauld_TitanOffense_Anubis"
+planetItemType
 	designName "Cosmetic:Titan:Defense"	
 	entityDefName "Human_TitanDefense_Hephestus_Cosmetic"
 planetItemType
 	designName "Cosmetic:Titan:Offense"
 	entityDefName "Human_TitanOffense_Tartarus_Cosmetic"
-planetItemType
-	designName "Asuran:Orbital:MineExplosive"
-	entityDefName "Asuran_DeepSpaceMine"
-planetItemType
-	designName "Asuran:Orbital:Cannon"
-	entityDefName "Asuran_Orbital_Cannon"
-planetItemType
-	designName "Asuran:Orbital:CapitalShipFactory"
-	entityDefName "Asuran_Orbital_CapitalShipFactory"
-planetItemType
-	designName "Asuran:Orbital:CombatLab"
-	entityDefName "Asuran_Orbital_CombatLaboratory"
-planetItemType
-	designName "Asuran:Orbital:CrystalExtractor"
-	entityDefName "Asuran_Orbital_NaquadahExtractor"
-planetItemType
-	designName "Asuran:Orbital:CultureCenter"
-	entityDefName "Asuran_Orbital_CultureCenter"
-planetItemType
-	designName "Asuran:Orbital:FrigateFactory"
-	entityDefName "Asuran_Orbital_FrigateFactory"
-planetItemType
-	designName "Asuran:Orbital:HangarDefense"
-	entityDefName "Asuran_Orbital_HangarDefense"
-planetItemType
-	designName "Asuran:Orbital:MetalExtractor"
-	entityDefName "Asuran_Orbital_TriniumExtractor"
-planetItemType
-	designName "Asuran:Orbital:NonCombatLab"
-	entityDefName "Asuran_Orbital_NonCombatLaboratory"
-planetItemType
-	designName "Asuran:Orbital:Refinery"
-	entityDefName "Asuran_Orbital_Refinery"
-planetItemType
-	designName "Asuran:Orbital:RepairPlatform"
-	entityDefName "Asuran_Orbital_RepairPlatform"
-planetItemType
-	designName "Asuran:Orbital:TradePort"
-	entityDefName "Asuran_Orbital_TradePort"
-planetItemType
-	designName "Asuran:Orbital:WeaponsPlatform"
-	entityDefName "Asuran_Orbital_WeaponsPlatform"
-planetItemType
-	designName "Asuran:Orbital:JumpBlocker"
-	entityDefName "Asuran_Orbital_JumpBlocker"
-planetItemType
-	designName "Asuran:Orbital:HeavyDefense"
-	entityDefName "Asuran_Orbital_HeavyDefense"
-planetItemType
-	designName "Asuran:Orbital:Spacegate"
-	entityDefName "Asuran_Orbital_Stargate"
-planetItemType
-	designName "Asuran:Orbital:TitanFactory"
-	entityDefName "Asuran_Orbital_TitanFactory"
 planetItemType
 	designName "Psi:Module:Mine"
 	entityDefName "SpaceMinePsi"
@@ -1115,50 +1343,8 @@ planetItemType
 	designName "Pirate:Module:GaussDefense"
 	entityDefName "Human_Orbital_WeaponsPlatform"
 planetItemType
-	designName "Human:Corvette:Rebel"
-	entityDefName "Human_FrigateCorvette_Morpheus"
-planetItemType
-	designName "Asuran:Frigate:AntiFighter"
-	entityDefName "Asuran_FrigateAntiFighter_Ogen"
-planetItemType
-	designName "Asuran:Frigate:Carrier"
-	entityDefName "Asuran_CruiserCarrier_Caelus"
-planetItemType
-	designName "Asuran:Frigate:Colony"
-	entityDefName "Asuran_FrigateColony_Seedship"
-planetItemType
-	designName "Asuran:Cruiser:Heavy"
-	entityDefName "Asuran_CruiserHeavy_Atropos"
-planetItemType
-	designName "Asuran:Frigate:Light"
-	entityDefName "Asuran_FrigateLight_Ceres"
-planetItemType
-	designName "Asuran:Frigate:LongRange"
-	entityDefName "Asuran_FrigateLongRange_Erinyes"
-planetItemType
-	designName "Asuran:Frigate:Scout"
-	entityDefName "Asuran_FrigateScout_Polus"
-planetItemType
-	designName "Asuran:Frigate:Siege"
-	entityDefName "Asuran_FrigateSiege_GateSatellite"
-planetItemType
-	designName "Asuran:Frigate:Utility0"
-	entityDefName "Asuran_CruiserUtility0_Figaro"
-planetItemType
-	designName "Asuran:Frigate:Utility1"
-	entityDefName "Asuran_CruiserUtility1_Kreios"
-planetItemType
-	designName "Asuran:Frigate:Constructor"
-	entityDefName "Asuran_ModuleConstructor_Ouranos"	
-planetItemType
 	designName "Phase:Corvette:Loyalist"
 	entityDefName "CorvettePhaseLoyalist"
-planetItemType
-	designName "Asuran:Frigate:Corvette"
-	entityDefName "Asuran_FrigateCorvette_Nemesis"
-planetItemType
-	designName "Asuran:Frigate:Envoy"
-	entityDefName "Asuran_CruiserEnvoy_Mercury"
 planetItemType
 	designName "Psi:Frigate:AntiFighter"
 	entityDefName "FrigatePsiAntiFighter"
@@ -1202,29 +1388,8 @@ planetItemType
 	designName "Psi:Corvette:Rebel"
 	entityDefName "CorvettePsiRebel"
 planetItemType
-	designName "Asuran:StarBase"
-	entityDefName "Asuran_StarBaseOffense_Gaia"
-planetItemType
 	designName "Psi:StarBase"
 	entityDefName "StarBasePsi"
-planetItemType
-	designName "Asuran:CapitalShip:BattleShip"
-	entityDefName "Asuran_CapitalBattleship_Orion"
-planetItemType
-	designName "Asuran:CapitalShip:Support"
-	entityDefName "Asuran_CapitalSupport_Origin"
-planetItemType
-	designName "Asuran:CapitalShip:Carrier"
-	entityDefName "Asuran_CapitalCarrier_Alastor"
-planetItemType
-	designName "Asuran:CapitalShip:Colony"
-	entityDefName "Asuran_CapitalColony_Destiny"
-planetItemType
-	designName "Asuran:CapitalShip:Transport"
-	entityDefName "Asuran_CapitalTransport_Romulus"
-planetItemType
-	designName "Asuran:CapitalShip:Siege"
-	entityDefName "Asuran_CapitalSiege_Anteus"
 planetItemType
 	designName "Psi:CapitalShip:BattleShip"
 	entityDefName "CAPITALSHIP_PSIBATTLESHIP"
@@ -1243,12 +1408,6 @@ planetItemType
 planetItemType
 	designName "Psi:CapitalShip:PlanetPsionic"
 	entityDefName "CAPITALSHIP_PSIPLANETPSIONIC"
-planetItemType
-	designName "Asuran:Titan:Defense"
-	entityDefName "Asuran_TitanDefense_Atlantis"
-planetItemType
-	designName "Asuran:Titan:Offense"
-	entityDefName "Asuran_TitanOffense_Epheus"
 planetItemType
 	designName "Psi:Titan:Loyalist"
 	entityDefName "TITAN_PSILOYALIST"
@@ -1560,7 +1719,7 @@ playerType
 	designName "PhaseLoyalist"
 	entityDefName "PlayerPhaseLoyalist"
 playerType
-	designName "TechRebel"
+	designName "Goauld"
 	entityDefName "PlayerGoauld"
 playerType
 	designName "PsiRebel"
@@ -1730,15 +1889,15 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "TechRebel"
+				param "Goauld"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
-				item "Human:Orbital:HeadQuarters"
-				item "Human:Orbital:FrigateFactory"
-				item "Human:Orbital:FrigateFactory"
-				item "Human:Module:Constructor"
-				item "Human:Module:Constructor"
+				item "Goauld:Orbital:HeadQuarters"
+				item "Goauld:Orbital:FrigateFactory"
+				item "Goauld:Orbital:FrigateFactory"
+				item "Goauld:Module:Constructor"
+				item "Goauld:Module:Constructor"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
@@ -1809,21 +1968,21 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "TechRebel"
+				param "Goauld"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 11
-				item "Human:Orbital:HeadQuarters"
-				item "Human:Orbital:FrigateFactory"
-				item "Human:Orbital:FrigateFactory"
-				item "Human:Orbital:CapitalFactory"
-				item "Human:Orbital:MetalExtractor"
-				item "Human:Orbital:MetalExtractor"
-				item "Human:Orbital:CrystalExtractor"
-				item "Human:Module:Constructor"
-				item "Human:Module:Constructor"
-				item "Human:Frigate:Scout"
-				item "Human:Frigate:Scout"
+				item "Goauld:Orbital:HeadQuarters"
+				item "Goauld:Orbital:FrigateFactory"
+				item "Goauld:Orbital:FrigateFactory"
+				item "Goauld:Orbital:CapitalFactory"
+				item "Goauld:Orbital:MetalExtractor"
+				item "Goauld:Orbital:MetalExtractor"
+				item "Goauld:Orbital:CrystalExtractor"
+				item "Goauld:Module:Constructor"
+				item "Goauld:Module:Constructor"
+				item "Goauld:Frigate:Scout"
+				item "Goauld:Frigate:Scout"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
@@ -2085,15 +2244,15 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "TechRebel"
+				param "Goauld"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
-				item "Human:Frigate:Scout"
-				item "Human:Frigate:Light"
-				item "Human:Frigate:Light"
-				item "Human:Frigate:Light"
-				item "Human:Frigate:Light"
+				item "Goauld:Frigate:Scout"
+				item "Goauld:Frigate:Light"
+				item "Goauld:Frigate:Light"
+				item "Goauld:Frigate:Light"
+				item "Goauld:Frigate:Light"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
@@ -2121,15 +2280,15 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "TechRebel"
+				param "Goauld"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
-				item "Human:Frigate:Scout"
-				item "Human:Frigate:Light"
-				item "Human:Frigate:Light"
-				item "Human:Frigate:Light"
-				item "Human:Frigate:Light"
+				item "Goauld:Frigate:Scout"
+				item "Goauld:Frigate:Light"
+				item "Goauld:Frigate:Light"
+				item "Goauld:Frigate:Light"
+				item "Goauld:Frigate:Light"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
@@ -2839,14 +2998,16 @@ planetItemsTemplate
 				item "Asuran:Cruiser:Heavy"
 				item "Asuran:Cruiser:Heavy"
 				item "Asuran:Cruiser:Heavy"
-validPictureGroups 3
+validPictureGroups 4
 pictureGroup "PlayerPhase"
 pictureGroup "PlayerPsi"
 pictureGroup "PlayerTech"
-validThemeGroups 4
+pictureGroup "PlayerGoauld"
+validThemeGroups 5
 themeGroup "PlayerPhase"
 themeGroup "PlayerPsi"
 themeGroup "PlayerTech"
+themeGroup "PlayerGoauld"
 themeGroup "NPC"
 autoAddPlayers 4
 player
@@ -2869,7 +3030,7 @@ player
 player
 	designName "Rebel"
 	inGameName "IDSScenarioPlayerNameRebels"
-	overrideRaceName "TechRebel"
+	overrideRaceName "Goauld"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -2922,7 +3083,7 @@ autoAddMilitiaPlayers 20
 player
 	designName "Militia0"
 	inGameName "IDSScenarioPlayerNameMilitia0"
-	overrideRaceName "TechRebel"
+	overrideRaceName "Goauld"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -2956,7 +3117,7 @@ player
 player
 	designName "Militia2"
 	inGameName "IDSScenarioPlayerNameMilitia2"
-	overrideRaceName "TechRebel"
+	overrideRaceName "Goauld"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -2990,7 +3151,7 @@ player
 player
 	designName "Militia4"
 	inGameName "IDSScenarioPlayerNameMilitia4"
-	overrideRaceName "TechRebel"
+	overrideRaceName "Goauld"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -3024,7 +3185,7 @@ player
 player
 	designName "Militia6"
 	inGameName "IDSScenarioPlayerNameMilitia6"
-	overrideRaceName "TechRebel"
+	overrideRaceName "Goauld"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -3058,7 +3219,7 @@ player
 player
 	designName "Militia8"
 	inGameName "IDSScenarioPlayerNameMilitia8"
-	overrideRaceName "TechRebel"
+	overrideRaceName "Goauld"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -3092,7 +3253,7 @@ player
 player
 	designName "Militia10"
 	inGameName "IDSScenarioPlayerNameMilitia10"
-	overrideRaceName "TechRebel"
+	overrideRaceName "Goauld"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -3126,7 +3287,7 @@ player
 player
 	designName "Militia12"
 	inGameName "IDSScenarioPlayerNameMilitia12"
-	overrideRaceName "TechRebel"
+	overrideRaceName "Goauld"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -3160,7 +3321,7 @@ player
 player
 	designName "Militia14"
 	inGameName "IDSScenarioPlayerNameMilitia14"
-	overrideRaceName "TechRebel"
+	overrideRaceName "Goauld"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -3194,7 +3355,7 @@ player
 player
 	designName "Militia16"
 	inGameName "IDSScenarioPlayerNameMilitia16"
-	overrideRaceName "TechRebel"
+	overrideRaceName "Goauld"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -3211,7 +3372,7 @@ player
 player
 	designName "Militia17"
 	inGameName "IDSScenarioPlayerNameMilitia17"
-	overrideRaceName "TechRebel"
+	overrideRaceName "Goauld"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -3228,7 +3389,7 @@ player
 player
 	designName "Militia18"
 	inGameName "IDSScenarioPlayerNameMilitia18"
-	overrideRaceName "TechRebel"
+	overrideRaceName "Goauld"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
