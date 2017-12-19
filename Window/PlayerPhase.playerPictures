@@ -1,7 +1,7 @@
 TXT
 pictureCount 10
 LargeScreenPicture
-	textureName "Player_Portrait_Main_3"
+	textureName "Player_Portrait_Hud_Large3"
 	startTopLeft [0,0]
 	width 194
 	height 550
@@ -9,15 +9,15 @@ LargeScreenPicture
 	horizontalStride 194
 	verticalStride 275
 SmallScreenPicture
-	textureName "Player_Portrait_Small"
-	startTopLeft [5,292]
+	textureName "Player_Portrait_Hud_Small"
+	startTopLeft [4,278]
 	width 56
-	height 67
-	rowItemCount 8
+	height 63
+	rowItemCount 10
 	horizontalStride 61
-	verticalStride 72
+	verticalStride 68
 BottomBarPicture
-	textureName "Player_Portrait_Window"
+	textureName "Player_Portrait_Hud_Window"
 	startTopLeft [1,157]
 	width 169
 	height 77
@@ -25,19 +25,19 @@ BottomBarPicture
 	horizontalStride 170
 	verticalStride 78
 ButtonIcon
-	textureName "Player_Portrait_Button"
-	startTopLeft [3,128]
+	textureName "Player_Portrait_Hud_Button"
+	startTopLeft [6,129]
 	width 24
 	height 29
-	rowItemCount 8
+	rowItemCount 10
 	horizontalStride 27
 	verticalStride 32
 MediumScreenPicture
-	textureName "Player_Portrait_Medium"
+	textureName "Player_Portrait_Hud_Medium"
 	startTopLeft [1,442]
 	width 98
 	height 109
-	rowItemCount 8
+	rowItemCount 10
 	horizontalStride 99
 	verticalStride 108
 	
