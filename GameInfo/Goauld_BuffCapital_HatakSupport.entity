@@ -9,24 +9,22 @@ isInterruptable FALSE
 isChannelling FALSE
 numInstantActions 2
 instantAction
-	buffInstantActionType "CreateFrigate"
-	instantActionTriggerType "OnDelay"
-	delayTime 1.500000
-	frigateType "Goauld_Frigate_Hatak"
-	numFrigates
-		Level:0 1.000000
-		Level:1 2.000000
-		Level:2 2.000000
-		Level:3 2.000000
-	matchOwnerDamageState TRUE
-	impulse 1000000.000000
-	expiryTime
-		Level:0 -1.000000
-		Level:1 -1.000000
-		Level:2 -1.000000
-		Level:3 -1.000000
-	spawnFrigateSoundID ""
-	postSpawnBuff ""
+	buffInstantActionType "SpawnShipsAtPlanet"
+	instantActionTriggerType "OnAbilityUsed"
+	spawnShipsLevelCount 1
+	spawnShips
+		minFleetPoints 2.000000
+		maxFleetPoints 2.000000
+		requiredShipCount 0
+		randomShipCount 2
+		randomShip
+			type "Goauld_Frigate_Hatak"
+			weight 1
+		randomShip
+			type "Goauld_Frigate_Hatak"
+			weight 1
+	spawnShipsArrivalDelayTime 7.000000
+	spawnShipsHyperspaceSpawnType "FleetBeacon"
 instantAction
 	buffInstantActionType "ForceAttackersToRepickAttackTarget"
 	instantActionTriggerType "OnDelay"
