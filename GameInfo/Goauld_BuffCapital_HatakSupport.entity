@@ -10,19 +10,18 @@ isChannelling FALSE
 numInstantActions 2
 instantAction
 	buffInstantActionType "SpawnShipsAtPlanet"
-	instantActionTriggerType "OnAbilityUsed"
+	instantActionTriggerType "OnDelay"
+	delayTime 1.500000
 	spawnShipsLevelCount 1
 	spawnShips
-		minFleetPoints 2.000000
-		maxFleetPoints 2.000000
-		requiredShipCount 0
-		randomShipCount 2
-		randomShip
+		minFleetPoints 20.000000
+		maxFleetPoints 20.000000
+		requiredShipCount 1
+		requiredShip
 			type "Goauld_Frigate_Hatak"
-			weight 1
-		randomShip
-			type "Goauld_Frigate_Hatak"
-			weight 1
+			minCount 2
+			maxCount 2
+		randomShipCount 0
 	spawnShipsArrivalDelayTime 7.000000
 	spawnShipsHyperspaceSpawnType "FleetBeacon"
 instantAction
