@@ -1,0 +1,63 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTarget"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffTitan_RepossessionTarget"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 1
+	object "Planet"
+	numSpaces 1
+	space "Normal"
+	numConstraints 2
+	constraint "NotIsHomeworld"
+	constraint "NotIsOccupationPlanet"
+range
+	Level:0 4000.000000
+	Level:1 4000.000000
+	Level:2 4000.000000
+	Level:3 4000.000000
+effectInfo
+	effectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	smallEffectName "Goauld_TitanAbility_Repossession_Self"
+	mediumEffectName "Goauld_TitanAbility_Repossession_Self"
+	largeEffectName "Goauld_TitanAbility_Repossession_Self"
+	soundID "EFFECT_REPOSSESSION"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 2
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityDLevel"
+aiUseTime "OnlyWhenBombing"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 200.000000
+	Level:1 175.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 300.000000
+	Level:1 300.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_GOAULD_ABILITYTITAN_REPOSSESSION_NAME"
+descStringID "IDS_GOAULD_ABILITYTITAN_REPOSSESSION_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_REPOSSESSION"
+smallHudIcon "HUDICON_ABILITY_REPOSSESSION"
+infoCardIcon ""

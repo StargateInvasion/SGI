@@ -1,0 +1,47 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "ChangePlayerIndexToFirstSpawner"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	isPermanent TRUE
+	failIfNotEnoughShipSlots FALSE
+	experiencePercentageToAward 0.000000
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "Goauld_TitanAbility_Repossession_Target"
+		mediumEffectName "Goauld_TitanAbility_Repossession_Target"
+		largeEffectName "Goauld_TitanAbility_Repossession_Target"
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "PlanetUpgradeCost"
+	value
+		Level:0 -0.330000
+		Level:1 -0.660000
+		Level:2 0.000000
+		Level:3 0.000000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 360.000000
+		Level:1 480.000000
+		Level:2 600.000000
+		Level:3 600.000000

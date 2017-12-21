@@ -1,18 +1,18 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_GOAULD_CAPITALTRANSPORT_AMDUAT"
-smallHudIcon "MAINVIEWICON_GOAULD_CAPITALTRANSPORT_AMDUAT"
+hudIcon "HUDICON_ABILITY_REINFORCEMENTS"
+smallHudIcon "HUDICON_ABILITY_REINFORCEMENTS"
 infoCardIcon ""
-NameStringID "IDS_GOAULD_RESEARCH_CAPITALAMDUAT_NAME"
-DescriptionStringID "IDS_GOAULD_RESEARCH_CAPITALAMDUAT_DESCRIPTION"
+NameStringID "IDS_GOAULD_RESEARCH_ABILITY_REINFORCEMENTS_NAME"
+DescriptionStringID "IDS_GOAULD_RESEARCH_ABILITY_REINFORCEMENTS_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 5 , 2 ]
+	pos [ 5 , 4 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Goauld_Research_CruiserHokkesh"
+		Subject "Goauld_Research_CapitalHatak"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -28,7 +28,7 @@ PerLevelCostIncrease
 	metal 25.000000
 	crystal 25.000000
 Tier 5
-onlyWorksIfTierLabsExist TRUE
+onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 0.000000
 researchBoolModifiers 0
