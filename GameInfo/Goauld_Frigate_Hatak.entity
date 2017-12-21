@@ -32,22 +32,28 @@ weaponType "Projectile"
 		soundCount 1
 		sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
 	projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
+typeCount 1
+frigateRoleType "Corvette"
+statCountType "FrigateCorvette"
 mainViewIcon "MAINVIEWICON_GOAULD_CAPITALCARRIER_HATAK"
-basePrice
-	credits 0.000000
-	metal 0.000000
-	crystal 0.000000
-slotCount 0.000000
-BuildTime 0.000000
-MaxHullPoints 4350.000000
-MaxShieldPoints 7225.000000
-HullPointRestoreRate 3.500000
-ShieldPointRestoreRate 4.100000
-BaseArmorPoints 4.000000
-maxMitigation 0.000000
+picture "PICTURE_GOAULD_CAPITALCARRIER_HATAK"
 NameStringID "IDS_GOAULD_CAPITALCARRIER_HATAK_NAME"
 DescriptionStringID "IDS_GOAULD_CAPITALCARRIER_HATAK_DESCRIPTION"
-picture "PICTURE_GOAULD_CAPITALCARRIER_HATAK"
+counterDescriptionStringID "IDS_GOAULD_CAPITALCARRIER_HATAK_DESCRIPTION"
+basePrice
+	credits 1.000000
+	metal 1.000000
+	crystal 1.000000
+slotCount 1.000000
+BuildTime 1.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 10.000000
+MaxHullPoints 4350.00000
+MaxShieldPoints 7225.00000
+HullPointRestoreRate 3.50000
+ShieldPointRestoreRate 4.10000
+BaseArmorPoints 4.00000
+maxMitigation 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -55,8 +61,6 @@ Prerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-roleType "Invalid"
-statCountType "CapitalShipCarrier"
 numRandomDebrisLarge 4
 numRandomDebrisSmall 12
 numSpecificDebris 0
