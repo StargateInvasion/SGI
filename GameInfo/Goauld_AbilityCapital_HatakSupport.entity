@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Goauld_BuffTitan_ClaudiusSupport"
+buffType "Goauld_BuffCapital_HatakSupport"
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -14,9 +14,13 @@ needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
-maxNumLevels 3
-levelSourceType "TitanUpgradeLevel"
-sourcePropertyType "AbilityBLevel"
+maxNumLevels 2
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 2.000000
+	Level:1 5.000000
+	Level:2 0.000000
+	Level:3 0.000000
 aiUseTime "OnlyInCombat"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -43,12 +47,12 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Goauld_Research_FrigateDuat"
+		Subject "Goauld_Research_Ability_Reinforcements"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_GOAULD_ABILITYTITAN_CLAUDIUSSUPPORT_NAME"
-descStringID "IDS_GOAULD_ABILITYTITAN_CLAUDIUSSUPPORT_DESCRIPTION"
-hudIcon "HUDICON_GOAULD_FRIGATEANTIFIGHTER_DUAT"
-smallHudIcon "HUDICONSMALL_GOAULD_FRIGATEANTIFIGHTER_DUAT"
-infoCardIcon "MAINVIEWICON_GOAULD_FRIGATEANTIFIGHTER_DUAT"
+nameStringID "IDS_GOAULD_ABILITYCAPITAL_HATAKSUPPORT_NAME"
+descStringID "IDS_GOAULD_ABILITYCAPITAL_HATAKSUPPORT_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_REINFORCEMENTS"
+smallHudIcon "HUDICON_ABILITY_REINFORCEMENTS"
+infoCardIcon "MAINVIEWICON_GOAULD_CAPITALCARRIER_HATAK"
