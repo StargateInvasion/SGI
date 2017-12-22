@@ -43,121 +43,7 @@ hudIcon "HUDICON_GOAULD_CRUISERENVOY_ISIS"
 smallHudIcon "HUDICONSMALL_GOAULD_CRUISERENVOY_ISIS"
 infoCardIcon "MAINVIEWICON_GOAULD_CRUISERENVOY_ISIS"
 minZoomDistanceMult 4.60000
-NumWeapons 3
-Weapon
-	WeaponType "Projectile"
-	damageEnums
-		AttackType "CAPITALSHIP"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "ENERGY"
-		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 0.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 0.000000
-	PreBuffCooldownTime 6.000000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.400000
-	TravelSpeed 4000.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Projectile"
-		burstCount 3
-		burstDelay 0.900000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
-		muzzleSoundMinRespawnTime 1.000000
-		muzzleSounds
-			soundCount 1
-			sound "Weapon_Goa'uld_Capital"
-		hitEffectName "Weapon_GoauldCapitalPlasma_Hit"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
-Weapon
-	WeaponType "Projectile"
-	damageEnums
-		AttackType "CAPITALSHIP"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "ENERGY"
-		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 0.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 0.000000
-	PreBuffCooldownTime 6.000000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.400000
-	TravelSpeed 4000.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Projectile"
-		burstCount 3
-		burstDelay 0.900000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
-		muzzleSoundMinRespawnTime 1.000000
-		muzzleSounds
-			soundCount 1
-			sound "Weapon_Goa'uld_Capital"
-		hitEffectName "Weapon_GoauldCapitalPlasma_Hit"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
-Weapon
-	WeaponType "Projectile"
-	damageEnums
-		AttackType "CAPITALSHIP"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "ENERGY"
-		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 0.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 0.000000
-	PreBuffCooldownTime 6.000000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.400000
-	TravelSpeed 4000.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Projectile"
-		burstCount 3
-		burstDelay 0.900000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
-		muzzleSoundMinRespawnTime 1.000000
-		muzzleSounds
-			soundCount 1
-			sound "Weapon_Goa'uld_Capital"
-		hitEffectName "Weapon_GoauldCapitalPlasma_Hit"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
+NumWeapons 0
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 0
@@ -167,7 +53,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 10000.000000
-ShieldMeshName "Goauld_Shield_CapitalColony_Cheops"
+ShieldMeshName "Goauld_Shield_CruiserEnvoy_Isis"
 renderShield TRUE
 maxAccelerationLinear 390.000000
 maxAccelerationStrafe 10.000000
@@ -196,7 +82,7 @@ SoundID "FRIGATE_GOAULDENVOY_ONSELECTED_0"
 NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Goauld_CapitalColony_Cheops"
+	meshName "Goauld_CruiserEnvoy_Isis"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
