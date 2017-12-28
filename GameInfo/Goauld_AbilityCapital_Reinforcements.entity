@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Goauld_BuffCapital_HatakSupport"
+buffType "Goauld_BuffCapital_Reinforcements"
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -51,8 +51,8 @@ researchPrerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_GOAULD_ABILITYCAPITAL_HATAKSUPPORT_NAME"
-descStringID "IDS_GOAULD_ABILITYCAPITAL_HATAKSUPPORT_DESCRIPTION"
+nameStringID "IDS_GOAULD_ABILITYCAPITAL_REINFORCEMENTS_NAME"
+descStringID "IDS_GOAULD_ABILITYCAPITAL_REINFORCEMENTS_DESCRIPTION"
 hudIcon "HUDICON_ABILITY_REINFORCEMENTS"
 smallHudIcon "HUDICON_ABILITY_REINFORCEMENTS"
 infoCardIcon "MAINVIEWICON_GOAULD_CAPITALCARRIER_HATAK"

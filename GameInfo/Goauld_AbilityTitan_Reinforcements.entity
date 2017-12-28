@@ -1,0 +1,82 @@
+TXT
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanet"
+instantActionTriggerType "AlwaysPerform"
+spawnShipsLevelCount 4
+spawnShips
+	minFleetPoints 60.000000
+	maxFleetPoints 90.000000
+	requiredShipCount 1
+	requiredShip
+		type "Goauld_Frigate_Hatak"
+		minCount 2
+		maxCount 2
+	randomShipCount 0
+spawnShips
+	minFleetPoints 70.000000
+	maxFleetPoints 100.000000
+	requiredShipCount 1
+	requiredShip
+		type "Goauld_Frigate_Hatak"
+		minCount 3
+		maxCount 3
+	randomShipCount 0	
+spawnShips
+	minFleetPoints 80.000000
+	maxFleetPoints 110.000000
+	requiredShipCount 1
+	requiredShip
+		type "Goauld_Frigate_Hatak"
+		minCount 4
+		maxCount 4
+	randomShipCount 0
+spawnShips
+	minFleetPoints 90.000000
+	maxFleetPoints 120.000000
+	requiredShipCount 1
+	requiredShip
+		type "Goauld_Frigate_Hatak"
+		minCount 5
+		maxCount 5
+	randomShipCount 0
+spawnShipsArrivalDelayTime 4.000000
+spawnShipsHyperspaceSpawnType "FleetBeacon"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityBLevel"
+aiUseTime "OnlyWhenEnemyFleetWillPrevail"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveShipSlots"
+resourceCost
+	credits 2500.000000
+	metal 500.000000
+	crystal 150.000000
+requiredShipSlots
+	Level:0 80.000000
+	Level:1 90.000000
+	Level:2 100.000000
+	Level:3 110.000000
+cooldownTime
+	Level:0 240.000000
+	Level:1 240.000000
+	Level:2 240.000000
+	Level:3 240.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0	
+nameStringID "IDS_GOAULD_ABILITYCAPITAL_REINFORCEMENTS_NAME"
+descStringID "IDS_GOAULD_ABILITYCAPITAL_REINFORCEMENTS_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_REINFORCEMENTS"
+smallHudIcon "HUDICON_ABILITY_REINFORCEMENTS"
+infoCardIcon "MAINVIEWICON_GOAULD_CAPITALCARRIER_HATAK"
