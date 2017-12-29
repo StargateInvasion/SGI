@@ -12,17 +12,26 @@ instantAction
 	buffInstantActionType "SpawnShipsAtPlanet"
 	instantActionTriggerType "OnDelay"
 	delayTime 1.500000
-	spawnShipsLevelCount 1
+	spawnShipsLevelCount 2
 	spawnShips
 		minFleetPoints 20.000000
-		maxFleetPoints 20.000000
+		maxFleetPoints 40.000000
+		requiredShipCount 1
+		requiredShip
+			type "Goauld_Frigate_Hatak"
+			minCount 1
+			maxCount 1
+		randomShipCount 0
+	spawnShips
+		minFleetPoints 40.000000
+		maxFleetPoints 60.000000
 		requiredShipCount 1
 		requiredShip
 			type "Goauld_Frigate_Hatak"
 			minCount 2
 			maxCount 2
 		randomShipCount 0
-	spawnShipsArrivalDelayTime 7.000000
+	spawnShipsArrivalDelayTime 4.000000
 	spawnShipsHyperspaceSpawnType "FleetBeacon"
 instantAction
 	buffInstantActionType "ForceAttackersToRepickAttackTarget"
