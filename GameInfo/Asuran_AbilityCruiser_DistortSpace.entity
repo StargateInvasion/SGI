@@ -16,7 +16,7 @@ moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "ResearchWithoutBase"
-improveSourceResearchSubject "Asuran_Research_Ability_TeleportDisable"
+improveSourceResearchSubject "Asuran_Research_Ability_GravityField"
 aiUseTime "OnlyInCombat"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -39,7 +39,7 @@ orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Asuran_Research_Ability_TeleportDisable"
+		Subject "Asuran_Research_Ability_GravityField"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

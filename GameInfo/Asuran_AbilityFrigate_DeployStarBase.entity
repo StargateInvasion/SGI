@@ -13,8 +13,7 @@ canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
-levelSourceType "ResearchWithoutBase"
-improveSourceResearchSubject "Asuran_Research_Ability_DeployStarBase"
+levelSourceType "FixedLevel0"
 aiUseTime "Invalid"
 aiUseTargetCondition "Invalid"
 isAutoCastAvailable FALSE
@@ -34,10 +33,7 @@ cooldownTime
 	Level:3 0.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "Asuran_Research_Ability_DeployStarBase"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_ASURAN_ABILITYFRIGATE_DEPLOYSTARBASE_NAME"

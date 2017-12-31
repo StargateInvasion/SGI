@@ -1,5 +1,5 @@
 ﻿TXT
-NumStrings 7847
+NumStrings 7845
 StringInfo
 	ID "IDS_ABILITY_ANTIMATTER_FOUNTAIN_NAME"
 	Value "Energy Fountain"
@@ -68,7 +68,7 @@ StringInfo
 	Value "Instantly transports the titan to the targeted position."
 StringInfo
 	ID "IDS_ABILITY_MUTUALTHREAT_NAME"
-	Value "Mutual Threat"
+	Value "Nano Assembly"
 StringInfo
 	ID "IDS_ABILITY_MUTUALTHREAT_DESCRIPTION"
 	Value "Special nano-bots are released from the envoy, speeding ship production and resource extraction for improved relations."
@@ -446,7 +446,7 @@ StringInfo
 	Value "Gravity Field"
 StringInfo
 	ID "IDS_ASURAN_ABILITYCRUISER_GRAVITYFIELD_DESCRIPTION"
-	Value "Creates a gravity fields powerful enough to slow enemy ships."
+	Value "Creates a gravity field powerful enough to slow enemy ships."
 StringInfo
 	ID "IDS_ASURAN_ABILITYCRUISER_HOLOGRAMPROJECTION_NAME"
 	Value "Hologram Projection"
@@ -461,7 +461,7 @@ StringInfo
 	Value "Uses Nanite blocks to create an armored shell around selected vessel."
 StringInfo
 	ID "IDS_ASURAN_ABILITYCRUISER_SELFREPAIRHEAVY_NAME"
-	Value "Reintegration"
+	Value "Heavy Reintegration"
 StringInfo
 	ID "IDS_ASURAN_ABILITYCRUISER_SELFREPAIRHEAVY_DESCRIPTION"
 	Value "The ship enters a repair cycle, shutting down its engines and weapon systems in order to quickly regenerate its hull."
@@ -557,7 +557,7 @@ StringInfo
 	Value "Surveys local planetary clusters for neutronium resources and expansion."
 StringInfo
 	ID "IDS_ASURAN_ABILITYFRIGATE_SELFREPAIRLIGHT_NAME"
-	Value "Reintegration"
+	Value "Light Reintegration"
 StringInfo
 	ID "IDS_ASURAN_ABILITYFRIGATE_SELFREPAIRLIGHT_DESCRIPTION"
 	Value "The ship enters a repair cycle, shutting down its engines and weapon systems in order to quickly regenerate its hull."
@@ -1078,12 +1078,6 @@ StringInfo
 	ID "IDS_ASURAN_RESEARCH_ABILITY_DEPLOYSPACEMINEGRAVITY_DESCRIPTION"
 	Value "Grants access to high yield explosive gravity mines."
 StringInfo
-	ID "IDS_ASURAN_RESEARCH_ABILITY_DEPLOYSTARBASE_NAME"
-	Value "Deploy Starbase"
-StringInfo
-	ID "IDS_ASURAN_RESEARCH_ABILITY_DEPLOYSTARBASE_DESCRIPTION"
-	Value "Unlocks the Rhea Class' ability to deploy a 	Starbase."
-StringInfo
 	ID "IDS_ASURAN_RESEARCH_ABILITY_DETECTPHASEJUMP_NAME"
 	Value "Hyperspace Sensors"
 StringInfo
@@ -1100,7 +1094,7 @@ StringInfo
 	Value "Gravity Field"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_ABILITY_GRAVITYFIELD_DESCRIPTION"
-	Value "With the help of ZPM modules the Asurans can research the ability to deposit enormous amounts of concentrated energy creating localized gravity fields that slow enemy ships."
+	Value "With the help of ZPM modules, the Atropos Heavy Cruiser and Mercury Envoy gain the ability to deposit enormous amounts of concentrated energy creating localized gravity fields that slow enemy ships."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_ABILITY_LAGRANGIA_NAME"
 	Value "Lagrangian Beam"
@@ -1124,7 +1118,7 @@ StringInfo
 	Value "Self Repair"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_ABILITY_SELFREPAIR_DESCRIPTION"
-	Value "Unlocks the ability to use nanite drones to repair damage."
+	Value "Unlocks the ability on various Asuran frigates and cruisers to use nanite drones to repair damage, improving the ship's hull repair rate."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_ABILITY_SLOWENEMYHYPERSPACE_NAME"
 	Value "Disturb Hyperspace"
@@ -1283,7 +1277,7 @@ StringInfo
 	Value "Cruiser - Utility1 Kreios Prototype"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_CULTURERATE0_NAME"
-	Value "Culture Spread L1"
+	Value "Cultural Influence"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_CULTURERATE0_DESCRIPTION"
 	Value "Unlocks subspace communications to increase the spread of culture."
@@ -1325,19 +1319,19 @@ StringInfo
 	Value "The answer to the human pre-emptive strike on Asura. This design, while a barebones ship with little more than hyperdrive and shields, is capable of unleashing a powerful beam on both planets and ships. To tackle the problem of size and energy requirements, the Asurans simply built the weapon on Asura, connecting the beam to the satellite through a stargate. This allows them to use untold quantities of Zero Point Modules to power it indefinitely."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_HULL0_NAME"
-	Value "Improve Hull L1"
+	Value "Nanite Hull"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_HULL0_DESCRIPTION"
-	Value "using nanite technology the Asurans are able to improve the strength of their hull."
+	Value "Using nanite technology the Asurans are able to improve the strength of their hull."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_HULL1_NAME"
-	Value "Improve Hull L2"
+	Value "Smart Nanite Hull"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_HULL1_DESCRIPTION"
 	Value "Using nanite technology the Asurans have discovered a way to improve their ships hulls even further."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_HULL2_NAME"
-	Value "Improve Hull L3"
+	Value "Self-Learning Nanite Hull"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_HULL2_DESCRIPTION"
 	Value "Using nanite technology the Asurans have discovered a way to improve their ships hulls greatly."
@@ -1379,22 +1373,22 @@ StringInfo
 	Value "Hyperspace wormhole travel, ships are upgraded to safely pass through discovered wormholes."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_INTERSPECIESRELATIONS0_NAME"
-	Value "Interspecies Relations L1"
+	Value "Interspecies Relations"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_INTERSPECIESRELATIONS0_DESCRIPTION"
-	Value "Increases interspecies cohesion."
+	Value "Increases interspecies relations."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_INTERSPECIESRELATIONS1_NAME"
-	Value "Interspecies Relations L2"
+	Value "Interspecies Association"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_INTERSPECIESRELATIONS1_DESCRIPTION"
-	Value "Greatly increases interspecies cohesion."
+	Value "Greatly increases interspecies relations."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_INTERSPECIESRELATIONS2_NAME"
-	Value "Interspecies Relations L3"
+	Value "Interspecies Connection"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_INTERSPECIESRELATIONS2_DESCRIPTION"
-	Value "Vastly increases interspecies cohesion."
+	Value "Vastly increases interspecies relations."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_MAXCAPITALSHIPS0_NAME"
 	Value "Capital Ship Capacity L1"
@@ -1661,13 +1655,13 @@ StringInfo
 	Value "Allowing an increase of population of Terran Planets."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_POPULATIONCAPVOLCANIC0_NAME"
-	Value "Volcanic Planet Population L1"
+	Value "Volcanic Planet Adaptation"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_POPULATIONCAPVOLCANIC0_DESCRIPTION"
 	Value "Allowing an increase of population of Volcanic Planets."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_POPULATIONCAPVOLCANIC1_NAME"
-	Value "Volcanic Planet Population L2"
+	Value "Volcanic Planet Evolution"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_POPULATIONCAPVOLCANIC1_DESCRIPTION"
 	Value "Allowing an increase of population of Volcanic Planets."
@@ -1697,19 +1691,19 @@ StringInfo
 	Value "Using nanites to break down destroyed vessels to gain the raw materiels"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_SHIELDS0_NAME"
-	Value "Improve Shields L1"
+	Value "Improve Engergy Shields"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_SHIELDS0_DESCRIPTION"
 	Value "Improved Shield capacitors."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_SHIELDS1_NAME"
-	Value "Improve Shields L2"
+	Value "Superior Engergy Shields"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_SHIELDS1_DESCRIPTION"
 	Value "Greatly improved Shield capacitors."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_SHIELDS2_NAME"
-	Value "Improve Shields L3"
+	Value "Zero Point Energy Shields"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_SHIELDS2_DESCRIPTION"
 	Value "ZPM powered Shield capacitors."
@@ -1847,13 +1841,13 @@ StringInfo
 	Value "Improved warhead package for Ancient Drones."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_WEAPONDAMAGEFLASHBEAM0_NAME"
-	Value "Asuran Energy Beam L1"
+	Value "Asuran Energy Beam"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_WEAPONDAMAGEFLASHBEAM0_DESCRIPTION"
 	Value "Increased energy flow to increase the damage output of beams."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_WEAPONDAMAGEFLASHBEAM1_NAME"
-	Value "Asuran Energy Beam L2"
+	Value "Overcharged Energy Beam"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_WEAPONDAMAGEFLASHBEAM1_DESCRIPTION"
 	Value "Increased energy flow to increase the damage output of beams."
@@ -1895,13 +1889,13 @@ StringInfo
 	Value "Improved warhead to increase shield penetration."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_XENOMANIPULATION0_NAME"
-	Value "Xeno Manipulation L1"
+	Value "Xeno Manipulation"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_XENOMANIPULATION0_DESCRIPTION"
 	Value "Using mind control technology to improve relations with other species."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_XENOMANIPULATION1_NAME"
-	Value "Xeno Manipulation L2"
+	Value "Xeno Indoctrination"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_XENOMANIPULATION1_DESCRIPTION"
 	Value "Using mind control technology to improve relations with other species."
@@ -23465,7 +23459,7 @@ StringInfo
 	Value "New algorithms for plotting jump coordinates decrease the time required for ships to prepare for phase jump."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_MUTUALTHREAT_NAME"
-	Value "Mutual Threat"
+	Value "Nano Assembly"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_ABILITYACCESS_MUTUALTHREAT_DESCRIPTION"
 	Value "Special nano-bots are released from the envoy, speeding ship production and resource extraction for improved relations."
