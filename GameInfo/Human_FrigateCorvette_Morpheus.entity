@@ -15,15 +15,15 @@ NameStringID "IDS_HUMAN_FRIGATECORVETTE_MORPHEUS_NAME"
 DescriptionStringID "IDS_HUMAN_FRIGATECORVETTE_MORPHEUS_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
-	credits 650.000000
+	credits 550.000000
 	metal 125.000000
 	crystal 175.000000
-slotCount 14.000000
-BuildTime 55.000000
+slotCount 12.000000
+BuildTime 40.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 10.000000
-MaxHullPoints 900.000000
-MaxShieldPoints 1400.000000
+MaxHullPoints 700.000000
+MaxShieldPoints 1200.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.400000
 BaseArmorPoints 3.000000
@@ -52,11 +52,11 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 25.000000
-	DamagePerBank:BACK 15.000000
-	DamagePerBank:LEFT 15.000000
-	DamagePerBank:RIGHT 15.000000
-	Range 5500.000000
+	DamagePerBank:FRONT 15.000000
+	DamagePerBank:BACK 10.000000
+	DamagePerBank:LEFT 10.000000
+	DamagePerBank:RIGHT 10.000000
+	Range 3000.000000
 	PreBuffCooldownTime 3.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
@@ -92,12 +92,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 250.000000
+	DamagePerBank:FRONT 200.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 6000.000000
-	PreBuffCooldownTime 8.000000
+	PreBuffCooldownTime 5.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 1.000000
@@ -137,12 +137,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 120.000000
-	DamagePerBank:BACK 30.000000
-	DamagePerBank:LEFT 60.000000
-	DamagePerBank:RIGHT 60.000000
-	Range 5500.000000
-	PreBuffCooldownTime 7.000000
+	DamagePerBank:FRONT 160.000000
+	DamagePerBank:BACK 50.000000
+	DamagePerBank:LEFT 70.000000
+	DamagePerBank:RIGHT 70.000000
+	Range 5000.000000
+	PreBuffCooldownTime 9.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 1.500000
@@ -203,7 +203,7 @@ squadTypeEntityDef:2 ""
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
-maxNumCommandPoints 0
+maxNumCommandPoints 2
 NumSoundsFor:ONATTACKORDERISSUED 3
 SoundID "CORVETTE_TECHLOYALIST_ONATTACKORDERISSUED_0"
 SoundID "CORVETTE_TECHLOYALIST_ONATTACKORDERISSUED_1"
@@ -238,7 +238,7 @@ ability:1 "Human_AbilityFrigate_Cloak"
 ability:2 "Human_AbilityFrigate_AsgardPulse"
 ability:3 ""
 ability:4 ""
-MaxAntiMatter 300.000000
+MaxAntiMatter 200.000000
 AntiMatterRestoreRate 1.000000
 cargoType "Invalid"
 maxCargoCapacity 0.000000

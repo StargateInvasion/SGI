@@ -48,15 +48,15 @@ NameStringID "IDS_HUMAN_FRIGATESIEGE_ZEPHYR_NAME"
 DescriptionStringID "IDS_HUMAN_FRIGATESIEGE_ZEPHYR_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 700.000000
+	credits 500.000000
 	metal 100.000000
 	crystal 100.000000
-slotCount 11.000000
-BuildTime 32.000000
+slotCount 9.000000
+BuildTime 25.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 8.000000
-MaxHullPoints 800.000000
-MaxShieldPoints 1150.000000
+MaxHullPoints 500.000000
+MaxShieldPoints 1000.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.150000
 BaseArmorPoints 3.000000
@@ -85,11 +85,11 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 30.000000
+	DamagePerBank:FRONT 10.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 30.000000
-	DamagePerBank:RIGHT 30.000000
-	Range 5500.000000
+	DamagePerBank:LEFT 10.000000
+	DamagePerBank:RIGHT 10.000000
+	Range 3000.000000
 	PreBuffCooldownTime 3.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
@@ -220,7 +220,7 @@ ability:1 ""
 ability:2 ""
 ability:3 ""
 ability:4 ""
-MaxAntiMatter 400.000000
+MaxAntiMatter 200.000000
 AntiMatterRestoreRate 0.400000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
