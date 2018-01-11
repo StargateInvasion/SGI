@@ -29,7 +29,10 @@ ShieldPointRestoreRate 4.5000000
 BaseArmorPoints 3.000000
 maxMitigation 0.300000
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_FrigateCorvette_Nemesis"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 numRandomDebrisLarge 0
