@@ -15,15 +15,15 @@ NameStringID "IDS_HUMAN_CRUISERUTILITY0_ARES_NAME"
 DescriptionStringID "IDS_HUMAN_CRUISERUTILITY0_ARES_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 500.000000
-	metal 75.000000
+	credits 650.000000
+	metal 100.000000
 	crystal 150.000000
-slotCount 10.000000
+slotCount 15.000000
 BuildTime 30.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 6.000000
-MaxHullPoints 600.000000
-MaxShieldPoints 750.000000
+MaxHullPoints 500.000000
+MaxShieldPoints 950.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.000000
 BaseArmorPoints 4.000000
@@ -54,12 +54,12 @@ Weapon
 		WeaponClassType "AUTOCANNON"
 	DamagePerBank:FRONT 40.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 4000.000000
-	PreBuffCooldownTime 4.000000
+	DamagePerBank:LEFT 20.000000
+	DamagePerBank:RIGHT 20.000000
+	Range 3000.000000
+	PreBuffCooldownTime 3.000000
 	CanFireAtFighter TRUE
-	SynchronizedTargeting TRUE
+	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.450000
 	TravelSpeed 4000.000000
 	Duration 0.000000
@@ -97,7 +97,7 @@ Weapon
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 6000.000000
-	PreBuffCooldownTime 12.000000
+	PreBuffCooldownTime 8.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 1.000000
@@ -141,8 +141,8 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 8500.000000
-	PreBuffCooldownTime 7.000000
+	Range 5000.000000
+	PreBuffCooldownTime 5.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 1.500000
@@ -180,8 +180,8 @@ m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
 TargetCountPerBank:BACK 0
-TargetCountPerBank:LEFT 0
-TargetCountPerBank:RIGHT 0
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
@@ -230,7 +230,7 @@ ability:1 "Human_AbilityCruiser_SabotageEngines"
 ability:2 ""
 ability:3 ""
 ability:4 ""
-MaxAntiMatter 350.000000
+MaxAntiMatter 250.000000
 AntiMatterRestoreRate 1.000000
 cargoType "Invalid"
 maxCargoCapacity 0.000000

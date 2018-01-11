@@ -15,15 +15,15 @@ NameStringID "IDS_HUMAN_CRUISERUTILITY1_NYX_NAME"
 DescriptionStringID "IDS_HUMAN_CRUISERUTILITY1_NYX_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIMODULE"
 basePrice
-	credits 1000.000000
-	metal 275.000000
-	crystal 300.000000
-slotCount 19.000000
-BuildTime 75.000000
+	credits 850.000000
+	metal 250.000000
+	crystal 200.000000
+slotCount 20.000000
+BuildTime 55.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 15.000000
-MaxHullPoints 2150.000000
-MaxShieldPoints 2850.000000
+MaxHullPoints 550.000000
+MaxShieldPoints 1850.000000
 HullPointRestoreRate 2.150000
 ShieldPointRestoreRate 2.850000
 BaseArmorPoints 6.000000
@@ -56,7 +56,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 30.000000
 	DamagePerBank:RIGHT 30.000000
-	Range 5500.000000
+	Range 3000.000000
 	PreBuffCooldownTime 3.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
@@ -92,7 +92,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 400.000000
+	DamagePerBank:FRONT 300.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -137,14 +137,14 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 400.000000
+	DamagePerBank:FRONT 350.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 9900.000000
-	PreBuffCooldownTime 6.500000
-	CanFireAtFighter TRUE
-	SynchronizedTargeting FALSE
+	Range 5000.000000
+	PreBuffCooldownTime 5.500000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
 	PointStaggerDelay 1.500000
 	TravelSpeed 1250.000000
 	Duration 0.000000
@@ -158,7 +158,7 @@ Weapon
 		RequiredCompletedResearchSubjects 0
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 5
+		burstCount 6
 		burstDelay 0.300000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_AsgardPulse_Muzzle"
@@ -195,15 +195,15 @@ maxDecelerationAngular 15.999998
 maxSpeedLinear 500.000000
 maxRollRate 9.000000
 maxRollAngle 35.000000
-squadTypeEntityDef:0 ""
+squadTypeEntityDef:0 "Human_FighterSquad_F302"
 squadAntiMatterCost:0 0.000000
-squadTypeEntityDef:1 ""
+squadTypeEntityDef:1 "Human_FighterSquad_F312"
 squadAntiMatterCost:1 0.000000
 squadTypeEntityDef:2 ""
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
-maxNumCommandPoints 0
+maxNumCommandPoints 2
 NumSoundsFor:ONATTACKORDERISSUED 3
 SoundID "FRIGATE_TECHANTIMODULE_ONATTACKORDERISSUED_0"
 SoundID "FRIGATE_TECHANTIMODULE_ONATTACKORDERISSUED_1"
@@ -236,7 +236,7 @@ ability:1 "Human_AbilityCruiser_AsgardPulse"
 ability:2 ""
 ability:3 ""
 ability:4 ""
-MaxAntiMatter 450.000000
+MaxAntiMatter 150.000000
 AntiMatterRestoreRate 1.000000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
