@@ -1,5 +1,5 @@
 ﻿TXT
-NumStrings 7847
+NumStrings 7849
 StringInfo
 	ID "IDS_ABILITY_ANTIMATTER_FOUNTAIN_NAME"
 	Value "Energy Fountain"
@@ -1181,7 +1181,7 @@ StringInfo
 	Value "Replicators are reprogrammed, increasing your influence."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_CAPITALBATTLESHIP_ORION_NAME"
-	Value "Aurora"
+	Value "Orion"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_CAPITALBATTLESHIP_ORION_DESCRIPTION"
 	Value "Capital - Battleship Aurora Prototype"
@@ -1311,6 +1311,12 @@ StringInfo
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_FRIGATEANTIFIGHTER_OGEN_DESCRIPTION"
 	Value "Frigate - Anti Fighter Ogen Prototype"
+StringInfo
+	ID "IDS_ASURAN_RESEARCH_FRIGATECORVETTE_NEMESIS_NAME"
+	Value "Nemesis"
+StringInfo
+	ID "IDS_ASURAN_RESEARCH_FRIGATECORVETTE_NEMESIS_DESCRIPTION"
+	Value "A fast attack corvette heavily armed design mainly used to boost fleet firepower."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_FRIGATELONGRANGE_ERINYES_NAME"
 	Value "Erinyes"
@@ -1898,13 +1904,13 @@ StringInfo
 	Value "Xeno Manipulation"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_XENOMANIPULATION0_DESCRIPTION"
-	Value "Using mind control technology to improve relations with other species."
+	Value "Using mind control technology to improve relations with other species, you gain the ability to offer them missions."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_XENOMANIPULATION1_NAME"
 	Value "Xeno Indoctrination"
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_XENOMANIPULATION1_DESCRIPTION"
-	Value "Using mind control technology to improve relations with other species."
+	Value "Using mind control technology to improve relations with other species, you gain the ability to offer and demand gifts of credits and resources from them."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_ZPMRESEARCH_NAME"
 	Value "ZPM Research"
@@ -4823,7 +4829,7 @@ StringInfo
 	Value "Exploration and colonization frigate"
 StringInfo
 	ID "IDS_GOAULD_FRIGATECORVETTE_HORUS_NAME"
-	Value "Horus Class"
+	Value "Horus Corvette Class"
 StringInfo
 	ID "IDS_GOAULD_FRIGATECORVETTE_HORUS_DESCRIPTION"
 	Value "Frigate Corvette"
@@ -5234,7 +5240,7 @@ StringInfo
 	Value "Horus Design"
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_FRIGATEHORUS_DESCRIPTION"
-	Value "Grants access to Horus Class Frigates - lightly armored frigates equipped with powerful long range missiles."
+	Value "Grants access to Horus Class Corvette - lightly armored frigates equipped with powerful long range missiles."
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_COUNTERDEPLOYMENT_NAME"
 	Value "Counter-Deployment"
@@ -5960,13 +5966,13 @@ StringInfo
 	Value "Dense Plasma Compression"
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_WEAPONACCESS_PLASMARATE0_DESCRIPTION"
-	Value "Improvements in the compression of plasma lead to an improved rate of fire."
+	Value "Improvements in the compression of plasma lead to an increased rate of fire."
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_WEAPONACCESS_PLASMARATE1_NAME"
 	Value "Superdense Compression"
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_WEAPONACCESS_PLASMARATE1_DESCRIPTION"
-	Value "Improvements in the compression of plasma lead to an improved rate of fire."
+	Value "Improvements in the compression of plasma lead to an increased rate of fire."
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_WEAPONACCESS_PLASMASHIELD0_NAME"
 	Value "Plasma Pulse Timing"
@@ -20591,7 +20597,7 @@ StringInfo
 	Value "Industry"
 StringInfo
 	ID "IDSResearchScreenBlockTitleNonCombat1Tech"
-	Value "Engineering"
+	Value "Exploration"
 StringInfo
 	ID "IDSResearchScreenBlockTitleNonCombat2Tech"
 	Value "Policy"
@@ -20603,7 +20609,7 @@ StringInfo
 	Value "Jaffa Workforce"
 StringInfo
 	ID "IDSResearchScreenBlockTitleNonCombat1Goauld"
-	Value "Engineering"
+	Value "Exploration"
 StringInfo
 	ID "IDSResearchScreenBlockTitleNonCombat2Goauld"
 	Value "Command"
