@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 581
+brushCount 583
 brush
 	name "HUDICON_RESEARCHSUBJECT_POPULATIONCAP_IRON_0"
 	content "States"
@@ -7376,6 +7376,24 @@ brush
 		fileName "Buttons_Research_SGI"
 		pixelBox [ 194 , 104 , 47 , 33 ]
 brush
+	name "HUDICON_RESEARCHSUBJECT_SLAVELABOR"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 578 , 70 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 626 , 70 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 674 , 70 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 626 , 70 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 626 , 70 , 47 , 33 ]
+brush
 	name "HUDICON_RESEARCHSUBJECT_STRUCTUREWORK_CRYSTALEXTRACTTECH0"
 	content "States"
 	Disabled
@@ -7699,6 +7717,24 @@ brush
 	Normal
 		fileName "Buttons_Research_SGI"
 		pixelBox [ 194 , 138 , 47 , 33 ]
+brush
+	name "HUDICON_RESEARCHSUBJECT_CARGOSHIPCAPACITY1_GOAULD"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 578 , 104 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 626 , 104 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 674 , 104 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 626 , 104 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 626 , 104 , 47 , 33 ]
 brush
 	name "HUDICON_RESEARCHSUBJECT_ABILITYACCESS_REVENGEBOUNTY"
 	content "States"
