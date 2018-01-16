@@ -1,18 +1,18 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_LABOR_NEGOTIATIONS"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_LABOR_NEGOTIATIONS"
+hudIcon "HUDICON_RESEARCHSUBJECT_WEAK_POPULACE"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_WEAK_POPULACE"
 infoCardIcon ""
-NameStringID "IDS_GOAULD_RESEARCH_LABOR_NEGOTIATIONS_NAME"
-DescriptionStringID "IDS_GOAULD_RESEARCH_LABOR_NEGOTIATIONS_DESCRIPTION"
+NameStringID "IDS_GOAULD_RESEARCH_WEAK_POPULACE_NAME"
+DescriptionStringID "IDS_GOAULD_RESEARCH_WEAK_POPULACE_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 5 , 3 ]
-ResearchField "Diplomacy"
+	pos [ 5 , 0 ]
+ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Goauld_Research_QuestFinishedHappiness"
+		Subject "Goauld_Research_StructurePriceDecrease"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
