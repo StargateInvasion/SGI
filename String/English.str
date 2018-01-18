@@ -1,5 +1,5 @@
 ﻿TXT
-NumStrings 7849
+NumStrings 7843
 StringInfo
 	ID "IDS_ABILITY_ANTIMATTER_FOUNTAIN_NAME"
 	Value "Energy Fountain"
@@ -2213,7 +2213,7 @@ StringInfo
 	Value "Diplomatic Immunity"
 StringInfo
 	ID "IDS_HUMAN_ABILITYCRUISER_DIPLOMATICIMMUNITY_DESCRIPTION"
-	Value "Diplomatic Immunity"
+	Value "Broadcasts of peace prevent the envoy from being the target of enemy fire for a short duration."
 StringInfo
 	ID "IDS_HUMAN_ABILITYCRUISER_GOODWILL_NAME"
 	Value "Goodwill"
@@ -4073,7 +4073,7 @@ StringInfo
 	Value "Durability"
 StringInfo
 	ID "IDS_HUMAN_TITAN_HEPHESTUS_DURABILITY_DESCRIPTION"
-	Value "Upgrades to structural integrity, armor and defensive systems of the Hephaestus improve damage absorption."
+	Value "Upgrades to structural integrity, armor and defensive systems of the Hephaestus, improving damage absorption."
 StringInfo
 	ID "IDS_HUMAN_TITAN_HEPHESTUS_WEAPONS_NAME"
 	Value "Weapons Systems"
@@ -4115,7 +4115,7 @@ StringInfo
 	Value "Durability"
 StringInfo
 	ID "IDS_HUMAN_TITAN_TARTARUS_DURABILITY_DESCRIPTION"
-	Value "Upgrades to structural integrity, armor and defensive systems of the Tartarus improve damage absorption."
+	Value "Upgrades to structural integrity, armor and defensive systems of the Tartarus, improving damage absorption."
 StringInfo
 	ID "IDS_HUMAN_TITAN_TARTARUS_WEAPONS_NAME"
 	Value "Weapons Systems"
@@ -4148,10 +4148,10 @@ StringInfo
 	Value "TODO"
 StringInfo
 	ID "IDS_GOAULD_ABILITYCAPITAL_ASGARDBEAMSBOMBARDMENT_NAME"
-	Value "Asgard Core Overload"
+	Value "Power Surge"
 StringInfo
 	ID "IDS_GOAULD_ABILITYCAPITAL_ASGARDBEAMSBOMBARDMENT_DESCRIPTION"
-	Value "All energy is transfered to the Asgard core augmenting the system to increase fire rate and damage, however the system is overloading and causing damage to the ship!"
+	Value "All energy is transfered to the weapon system to increase fire rate and damage, however the system is overloading and causing damage to the ship!"
 StringInfo
 	ID "IDS_GOAULD_ABILITYCAPITAL_BONUSMODULEDAMAGE_NAME"
 	Value "Assault Specialization"
@@ -4166,10 +4166,10 @@ StringInfo
 	Value "Goa'uld designed weapons that fire a rapid long range pulse of plasma. Requires research of Goa'uld Plasma Weapons."
 StringInfo
 	ID "IDS_GOAULD_ABILITYCAPITAL_ASGARDPULSEBOMBARDMENT_NAME"
-	Value "Asgard Core Overload"
+	Value "Power Surge"
 StringInfo
 	ID "IDS_GOAULD_ABILITYCAPITAL_ASGARDPULSEBOMBARDMENT_DESCRIPTION"
-	Value "All energy is transfered to the Asgard core augmenting the system to increase fire rate and damage, however the system is overloading and causing damage to the ship!"
+	Value "All energy is transfered to the weapon system to increase fire rate and damage, however the system is overloading and causing damage to the ship!"
 StringInfo
 	ID "IDS_GOAULD_ABILITYCAPITAL_BATTLESYSTEMS_NAME"
 	Value "Emergency Assault"
@@ -4274,10 +4274,10 @@ StringInfo
 	Value "Instantly restores shield points to a friendly target, and boosts the target's shield mitigation for a brief time."
 StringInfo
 	ID "IDS_GOAULD_ABILITYCAPITAL_TARGETINGUPLINK_NAME"
-	Value "Asgard Targeting System"
+	Value "Goa'uld Targeting System"
 StringInfo
 	ID "IDS_GOAULD_ABILITYCAPITAL_TARGETINGUPLINK_DESCRIPTION"
-	Value "This ship's advanced Asgard targeting computer provides improved trajectory information to nearby ships, allowing them to target more accurately and increase the effective range of their weapons."
+	Value "This ship's advanced targeting computer provides improved trajectory information to nearby ships, allowing them to target more accurately and increase the effective range of their weapons."
 StringInfo
 	ID "IDS_GOAULD_ABILITYCRUISER_ARBITRATETARIFF_NAME"
 	Value "Arbitrate Tariff"
@@ -4307,19 +4307,13 @@ StringInfo
 	Value "Diplomatic Immunity"
 StringInfo
 	ID "IDS_GOAULD_ABILITYCRUISER_DIPLOMATICIMMUNITY_DESCRIPTION"
-	Value "Diplomatic Immunity"
+	Value "Allows safe passage through enemy space"
 StringInfo
 	ID "IDS_GOAULD_ABILITYCRUISER_GOODWILL_NAME"
 	Value "Goodwill"
 StringInfo
 	ID "IDS_GOAULD_ABILITYCRUISER_GOODWILL_DESCRIPTION"
 	Value "Goodwill missions are sent to the surface, generating higher relations with the planet's owner. The bonus degrades if the envoy leaves the gravity well."
-StringInfo
-	ID "IDS_GOAULD_ABILITYCRUISER_MININUKE_NAME"
-	Value "Tactical Mini Nuke"
-StringInfo
-	ID "IDS_GOAULD_ABILITYCRUISER_MININUKE_DESCRIPTION"
-	Value "A tactical mini nuke capable of inflicting massive damage is set with a timer and teleported to enemy ships.  Requires research of Asgard Transport Beam."
 StringInfo
 	ID "IDS_GOAULD_ABILITYCRUISER_REPAIRDROIDS_NAME"
 	Value "Repair Drones"
@@ -4409,7 +4403,7 @@ StringInfo
 	Value "Orbital Shockwave"
 StringInfo
 	ID "IDS_GOAULD_ABILITYFRIGATE_ORBITALSHOCKWAVE_DESCRIPTION"
-	Value "Earth's newest weapon capable of inflicting massive death and damage."
+	Value "Powerful weapon capable of inflicting massive death and damage."
 StringInfo
 	ID "IDS_GOAULD_ABILITYFRIGATE_PROBE_NAME"
 	Value "Micro Probes"
@@ -4436,22 +4430,22 @@ StringInfo
 	Value "Allows Goa'uld ships to engage Emergency Hyperspace windows even when anti-hyperspace devices are deployed."
 StringInfo
 	ID "IDS_GOAULD_ABILITYHERO_ASGARDCORE_NAME"
-	Value "Activate Asgard Core"
+	Value "Activate Core"
 StringInfo
 	ID "IDS_GOAULD_ABILITYHERO_ASGARDCORE_DESCRIPTION"
-	Value "Activates the Asgard Core that is onboard the Odyssey which enhances numerous systems aboard the ship."
+	Value "Activates the Core that is onboard the ship which enhances numerous systems aboard the ship."
 StringInfo
 	ID "IDS_GOAULD_ABILITYHERO_CLOAK_NAME"
 	Value "Activate Cloak"
 StringInfo
 	ID "IDS_GOAULD_ABILITYHERO_CLOAK_DESCRIPTION"
-	Value "Research teams have discovered the secrets of the Cloaking technology."
+	Value "Research teams have discovered the secrets of the cloaking technology."
 StringInfo
 	ID "IDS_GOAULD_ABILITYHERO_ENGINEBOOST_NAME"
 	Value "Overload Engines"
 StringInfo
 	ID "IDS_GOAULD_ABILITYHERO_ENGINEBOOST_DESCRIPTION"
-	Value "Push the Apollos engine to the max to either flee or catch up to a target."
+	Value "Push the ship's engine to the max to either flee or catch up to a target."
 StringInfo
 	ID "IDS_GOAULD_ABILITYHERO_HORIZONWEAPONS_NAME"
 	Value "Naquadah Warheads"
@@ -4459,23 +4453,17 @@ StringInfo
 	ID "IDS_GOAULD_ABILITYHERO_HORIZONWEAPONS_DESCRIPTION"
 	Value "TODO"
 StringInfo
-	ID "IDS_GOAULD_ABILITYHERO_NUKE_NAME"
-	Value "Mark VIII Nuke"
-StringInfo
-	ID "IDS_GOAULD_ABILITYHERO_NUKE_DESCRIPTION"
-	Value "Beams a Mark VIII Nuke aboard enemy vessels using Asgard Beaming Technology, destroying the ship instantly."
-StringInfo
 	ID "IDS_GOAULD_ABILITYHERO_ZPM_NAME"
 	Value "Activate ZPM"
 StringInfo
 	ID "IDS_GOAULD_ABILITYHERO_ZPM_DESCRIPTION"
-	Value "Plugs in the ZPM to the Daedalus which greatly increases effectiveness in all aspects."
+	Value "Plugs in the ZPM to the ship which greatly increases effectiveness in all aspects."
 StringInfo
 	ID "IDS_GOAULD_ABILITYMODULE_CONSTRUCTION_NAME"
 	Value "Construction"
 StringInfo
 	ID "IDS_GOAULD_ABILITYMODULE_CONSTRUCTION_DESCRIPTION"
-	Value "TODO"
+	Value ""
 StringInfo
 	ID "IDS_GOAULD_ABILITYMODULE_DECONSTRUCTION_NAME"
 	Value "Deconstruction"
@@ -4496,10 +4484,10 @@ StringInfo
 	Value "A advanced Goa'uld Turret with a powerful beam blast."
 StringInfo
 	ID "IDS_GOAULD_ABILITYORBITAL_ASGARDBEAMSRAILGUN_NAME"
-	Value "Asgard Beam Weapons"
+	Value "Goa'uld Beam Weapons"
 StringInfo
 	ID "IDS_GOAULD_ABILITYORBITAL_ASGARDBEAMSRAILGUN_DESCRIPTION"
-	Value "Fires the very powerful Asgard beams. Requires research of Asgard Beam Weapons."
+	Value "Fires the very powerful Goa'uld beams."
 StringInfo
 	ID "IDS_GOAULD_ABILITYORBITAL_PULSE_NAME"
 	Value "Goa'uld Plasma Weapons"
@@ -4508,10 +4496,10 @@ StringInfo
 	Value "Goa'uld designed weapons that fire a rapid long range pulse of plasma. Requires research of Goa'uld Plasma Weapons."
 StringInfo
 	ID "IDS_GOAULD_ABILITYORBITAL_ASGARDPULSEBOMBARDMENT_NAME"
-	Value "Asgard Core Overload"
+	Value "Power Surge"
 StringInfo
 	ID "IDS_GOAULD_ABILITYORBITAL_ASGARDPULSEBOMBARDMENT_DESCRIPTION"
-	Value "All energy is transfered to the Asgard core augmenting the system to increase fire rate and damage, however the system is overloading and causing damage to the ship!"
+	Value "All energy is transfered to the weapon system to increase fire rate and damage, however the system is overloading and causing damage to the ship!"
 StringInfo
 	ID "IDS_GOAULD_ABILITYORBITAL_CANNON_NAME"
 	Value "Fire Quantum Railgun"
@@ -4633,12 +4621,6 @@ StringInfo
 	ID "IDS_GOAULD_ABILITYTITAN_DISRUPTIONMATRIX_DESCRIPTION"
 	Value "A powerful burst of electromagnetic interference deals damage over time to nearby enemy ships and prevents them from using abilities for a short period."
 StringInfo
-	ID "IDS_GOAULD_ABILITYTITAN_HUMANDRONES_NAME"
-	Value "Human Developed Drones"
-StringInfo
-	ID "IDS_GOAULD_ABILITYTITAN_HUMANDRONES_DESCRIPTION"
-	Value "Powerful Weapons built in the shape of their origin."
-StringInfo
 	ID "IDS_GOAULD_ABILITYTITAN_MEGABEAM_NAME"
 	Value "Superweapon Beam"
 StringInfo
@@ -4652,10 +4634,10 @@ StringInfo
 	Value "Target enemy planet is instantly brought under your control through the domination of the Goa'uld. Kneel before your Gods!"
 StringInfo
 	ID "IDS_GOAULD_ABILITYTITAN_TARTARUSCANNON_NAME"
-	Value "Tartarus Main Cannon"
+	Value "Anubis Main Cannon"
 StringInfo
 	ID "IDS_GOAULD_ABILITYTITAN_TARTARUSCANNON_DESCRIPTION"
-	Value "Fires the Tartarus main cannon."
+	Value "Fires the Anubis main cannon."
 StringInfo
 	ID "IDS_GOAULD_ABILITYTITAN_ZPMCLOAKING_NAME"
 	Value "ZPM Cloaking"
@@ -4880,7 +4862,7 @@ StringInfo
 	Value "Meteor Cannon"
 StringInfo
 	ID "IDS_GOAULD_ORBITAL_CANNON_DESCRIPTION"
-	Value "Based on the technological knowledge gained from the Ancient Lagrangian Satellite, the Meteor Cannon is the most advanced defence platform the Goa'uld have designed."
+	Value "Based on the technological knowledge gained from an Ancient Lagrangian Satellite, the Meteor Cannon is the most advanced defence platform the Goa'uld have designed."
 StringInfo
 	ID "IDS_GOAULD_ORBITAL_CAPITALSHIPFACTORY_NAME"
 	Value "Capital Ship Factory"
@@ -4913,10 +4895,10 @@ StringInfo
 	Value ""
 StringInfo
 	ID "IDS_GOAULD_ORBITAL_HANGERDEFENSE_NAME"
-	Value "X302/F312 Hangar Bay"
+	Value "Death Glider/Bomber Hangar Bay"
 StringInfo
 	ID "IDS_GOAULD_ORBITAL_HANGERDEFENSE_DESCRIPTION"
-	Value "The Goa'uld Orbital Hangar Defence fields Squadrons of X302 and F312 craft to defend nearby structures and the planet from hostile forces."
+	Value "The Goa'uld Orbital Hangar Defence fields Squadrons of Death Glider and Death Bomber craft to defend nearby structures and the planet from hostile forces."
 StringInfo
 	ID "IDS_GOAULD_ORBITAL_HEADQUARTERS_NAME"
 	Value "High Council"
@@ -5021,10 +5003,10 @@ StringInfo
 	Value "Bombards the target area with volleys of missiles, dealing damage to all objects within the blast radius."
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_ABILITY_GAUSSDEFENCERAILGUN_NAME"
-	Value "Asgard Core Platform"
+	Value "Goa'uld Core Platform"
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_ABILITY_GAUSSDEFENCERAILGUN_DESCRIPTION"
-	Value "Grants the Asgard Platform upgrade to Railgun Defense Platforms, giving them a fully functional Asgard core for offensive and defensive measures."
+	Value "Grants the Goa'uld Platform upgrade to Railgun Defense Platforms, giving them a fully functional advanced core for offensive and defensive measures."
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_ABILITY_LAGRANGIA_NAME"
 	Value "Goa'uld Mega Beam"
@@ -6095,7 +6077,7 @@ StringInfo
 	Value "Durability"
 StringInfo
 	ID "IDS_GOAULD_TITAN_SOKAR_DURABILITY_DESCRIPTION"
-	Value "Upgrades to structural integrity, armor and defensive systems of the Sokar Titan improve damage absorption."
+	Value "Upgrades to structural integrity, armor and defensive systems of the Sokar Titan, improving damage absorption."
 StringInfo
 	ID "IDS_GOAULD_TITAN_SOKAR_WEAPONS_NAME"
 	Value "Weapons Systems"
@@ -6107,7 +6089,7 @@ StringInfo
 	Value "Energy Systems"
 StringInfo
 	ID "IDS_GOAULD_TITAN_ANUBIS_ABILITIES_DESCRIPTION"
-	Value "Upgrades to the energy systems of the Tartarus increase it's power grid capacity. Specialized equipment can be used more extensively with this upgrade."
+	Value "Upgrades to the energy systems of the Anbuis Titan increase it's power grid capacity. Specialized equipment can be used more extensively with this upgrade."
 StringInfo
 	ID "IDS_GOAULD_TITAN_ANUBIS_ABILITYA_NAME"
 	Value "Advanced Goa'uld Beams"
@@ -6128,22 +6110,22 @@ StringInfo
 	Value "Goa'uld designed Beam Weapon. This weapon has the ability to cause massive damage."
 StringInfo
 	ID "IDS_GOAULD_TITAN_ANUBIS_ABILITYD_NAME"
-	Value "Tartarus Main Cannon"
+	Value "Anubis Main Cannon"
 StringInfo
 	ID "IDS_GOAULD_TITAN_ANUBIS_ABILITYD_DESCRIPTION"
-	Value "Fires the Tartarus main cannon."
+	Value "Fires the Anubis Titan main cannon."
 StringInfo
 	ID "IDS_GOAULD_TITAN_ANUBIS_DURABILITY_NAME"
 	Value "Durability"
 StringInfo
 	ID "IDS_GOAULD_TITAN_ANUBIS_DURABILITY_DESCRIPTION"
-	Value "Upgrades to structural integrity, armor and defensive systems of the Tartarus improve damage absorption."
+	Value "Upgrades to structural integrity, armor and defensive systems of the Anubis Titan, improving damage absorption."
 StringInfo
 	ID "IDS_GOAULD_TITAN_ANUBIS_WEAPONS_NAME"
 	Value "Weapons Systems"
 StringInfo
 	ID "IDS_GOAULD_TITAN_ANUBIS_WEAPONS_DESCRIPTION"
-	Value "Upgrades to the Tartarus weapons systems increase the damage output."
+	Value "Upgrades to the Anubis Titan weapons systems increase the damage output."
 StringInfo
 	ID "IDS_PLANETMODULE_TECHORBITALMETALEXTRACTOR_NAME"
 	Value "Metal Extractor"
