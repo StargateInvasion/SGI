@@ -31,4 +31,5 @@ _If you feel your work is represented in the mod and should be credited, please 
 
 ### Asset Use
 * [Stargate - Empire at War: Pegasus Chronicles Team](https://www.stargate-eaw.de/index.php/en/info/team)
-* David Gian-Cursio (Pegasus Stargate model)
+* [Stargate Space Conflict: Phoenix Interactive Team](http://www.moddb.com/company/phoenix-interactive)
+* [David Gian-Cursio (Pegasus Stargate model)](http://www.gian-cursio.net/2006/01/stargate_model/)
