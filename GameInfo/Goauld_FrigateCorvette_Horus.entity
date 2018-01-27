@@ -15,15 +15,15 @@ NameStringID "IDS_GOAULD_FRIGATECORVETTE_HORUS_NAME"
 DescriptionStringID "IDS_GOAULD_FRIGATECORVETTE_HORUS_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
-	credits 650.000000
-	metal 125.000000
-	crystal 175.000000
-slotCount 14.000000
-BuildTime 55.000000
+	credits 225.000000
+	metal 15.000000
+	crystal 15.000000
+slotCount 4.000000
+BuildTime 10.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 10.000000
-MaxHullPoints 900.000000
-MaxShieldPoints 1400.000000
+MaxHullPoints 300.000000
+MaxShieldPoints 400.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.400000
 BaseArmorPoints 3.000000
@@ -90,7 +90,7 @@ TargetCountPerBank:LEFT 1
 TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
-mass 2000.000000
+mass 1500.000000
 ShieldMeshName "Goauld_Shield_FrigateCorvette_Horus"
 renderShield TRUE
 maxAccelerationLinear 150.000000
@@ -144,7 +144,7 @@ ability:1 "Goauld_AbilityFrigate_Cloak"
 ability:2 "Goauld_AbilityFrigate_AsgardPulse"
 ability:3 ""
 ability:4 ""
-MaxAntiMatter 300.000000
+MaxAntiMatter 250.000000
 AntiMatterRestoreRate 1.000000
 cargoType "Invalid"
 maxCargoCapacity 0.000000

@@ -7,24 +7,27 @@ NameStringID "IDS_GOAULD_RESEARCH_CRUISERTHOTH_NAME"
 DescriptionStringID "IDS_GOAULD_RESEARCH_CRUISERTHOTH_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 0 , 3 ]
+	pos [ 2 , 1 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Goauld_Research_FrigateOsiris"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 40.000000
+BaseUpgradeTime 50.000000
 PerLevelUpgradeTime 5.000000
 BaseCost
-	credits 400.000000
-	metal 0.000000
-	crystal 25.000000
+	credits 800.000000
+	metal 100.000000
+	crystal 175.000000
 PerLevelCostIncrease
 	credits 100.000000
-	metal 0.000000
+	metal 25.000000
 	crystal 25.000000
-Tier 0
+Tier 2
 onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 0.000000
