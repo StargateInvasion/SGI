@@ -1,5 +1,5 @@
 ﻿TXT
-NumStrings 7841
+NumStrings 7837
 StringInfo
 	ID "IDS_ABILITY_ANTIMATTER_FOUNTAIN_NAME"
 	Value "Energy Fountain"
@@ -4183,12 +4183,6 @@ StringInfo
 	ID "IDS_GOAULD_ABILITYCAPITAL_COMMANDSTRIKEGROUP_DESCRIPTION"
 	Value "Fires a powerful stream of nanites at a target, which deals immense damage as it deconstructs the target's hull and absorbs energy from its shields and energy. These gains are streamed back to the ship, replenishing it in turn."
 StringInfo
-	ID "IDS_GOAULD_ABILITYCAPITAL_APOPHIS_NAME"
-	Value "Apophis"
-StringInfo
-	ID "IDS_GOAULD_ABILITYCAPITAL_APOPHIS_DESCRIPTION"
-	Value "TODO"
-StringInfo
 	ID "IDS_GOAULD_ABILITYCAPITAL_EMPBLAST_NAME"
 	Value "EMP Charge"
 StringInfo
@@ -4206,12 +4200,6 @@ StringInfo
 StringInfo
 	ID "IDS_GOAULD_ABILITYCAPITAL_GRAVITYWARHEAD_DESCRIPTION"
 	Value "Slows the sublight movement of targetted enemy ships and prevents them from Phase Jumping for a short period of time."
-StringInfo
-	ID "IDS_GOAULD_ABILITYCAPITAL_BAAL_NAME"
-	Value "Ba'al"
-StringInfo
-	ID "IDS_GOAULD_ABILITYCAPITAL_BAAL_DESCRIPTION"
-	Value "TODO"
 StringInfo
 	ID "IDS_GOAULD_ABILITYCAPITAL_REINFORCEMENTS_NAME"
 	Value "Ha'tak Reinforcements"
@@ -4231,23 +4219,11 @@ StringInfo
 	ID "IDS_GOAULD_ABILITYCAPITAL_NANODISASSEMBLER_DESCRIPTION"
 	Value "Nanites eat away at the target's hull, reducing armor and dealing damage over time."
 StringInfo
-	ID "IDS_GOAULD_ABILITYCAPITAL_OSIRIS_NAME"
-	Value "Osiris"
-StringInfo
-	ID "IDS_GOAULD_ABILITYCAPITAL_OSIRIS_DESCRIPTION"
-	Value "TODO"
-StringInfo
 	ID "IDS_GOAULD_ABILITYCAPITAL_PLASMASALVO_NAME"
 	Value "Condemnation"
 StringInfo
 	ID "IDS_GOAULD_ABILITYCAPITAL_PLASMASALVO_DESCRIPTION"
 	Value "The cruiser lobs a constant stream of energy projectiles at all hostile structures near the target."
-StringInfo
-	ID "IDS_GOAULD_ABILITYCAPITAL_SOKAR_NAME"
-	Value "Sokar"
-StringInfo
-	ID "IDS_GOAULD_ABILITYCAPITAL_SOKAR_DESCRIPTION"
-	Value "TODO"
 StringInfo
 	ID "IDS_GOAULD_ABILITYCAPITAL_RESOURCEDRAIN_NAME"
 	Value "Drain Planet"
@@ -4501,35 +4477,35 @@ StringInfo
 	ID "IDS_GOAULD_ABILITYORBITAL_CANNON_DESCRIPTION"
 	Value "Launches a experimental railgun payload at a your enemies planet within this star system, causing massive loss of life and damage to infrastructure. The planet's max population cap is also greatly reduced for a long duration."
 StringInfo
-	ID "IDS_GOAULD_ABILITYORBITAL_HEROANUBIS_NAME"
-	Value "Anubis (Ha'tak class)"
-StringInfo
-	ID "IDS_GOAULD_ABILITYORBITAL_HEROANUBIS_DESCRIPTION"
-	Value "Transmit an order for the Anubis to return to the Goa'uld High Council"
-StringInfo
 	ID "IDS_GOAULD_ABILITYORBITAL_HEROAPOPHIS_NAME"
 	Value "Apophis"
 StringInfo
 	ID "IDS_GOAULD_ABILITYORBITAL_HEROAPOPHIS_DESCRIPTION"
-	Value "Transmit an order for the Apophis to return to the Goa'uld High Council"
+	Value "Transmit a request for Apophis to return to the Goa'uld High Council"
 StringInfo
 	ID "IDS_GOAULD_ABILITYORBITAL_HEROBAAL_NAME"
 	Value "Ba'al"
 StringInfo
 	ID "IDS_GOAULD_ABILITYORBITAL_HEROBAAL_DESCRIPTION"
-	Value "Transmit an order for the Ba'al to return to the Goa'uld High Council"
+	Value "Transmit a request for Ba'al to return to the Goa'uld High Council"
+StringInfo
+	ID "IDS_GOAULD_ABILITYORBITAL_HEROCRONUS_NAME"
+	Value "Cronus"
+StringInfo
+	ID "IDS_GOAULD_ABILITYORBITAL_HEROCRONUS_DESCRIPTION"
+	Value "Transmit a request for Cronus to return to the Goa'uld High Council"
 StringInfo
 	ID "IDS_GOAULD_ABILITYORBITAL_HEROOSIRIS_NAME"
 	Value "Osiris"
 StringInfo
 	ID "IDS_GOAULD_ABILITYORBITAL_HEROOSIRIS_DESCRIPTION"
-	Value "Transmit an order for the Osiris to return to the Goa'uld High Council"
+	Value "Transmit a request for Osiris to return to the Goa'uld High Council"
 StringInfo
-	ID "IDS_GOAULD_ABILITYORBITAL_HEROSOKAR_NAME"
-	Value "Sokar"
+	ID "IDS_GOAULD_ABILITYORBITAL_HEROYU_NAME"
+	Value "Yu"
 StringInfo
-	ID "IDS_GOAULD_ABILITYORBITAL_HEROSOKAR_DESCRIPTION"
-	Value "Transmit an order for the Sokar to return to the Goa'uld High Council"
+	ID "IDS_GOAULD_ABILITYORBITAL_HEROYU_DESCRIPTION"
+	Value "Transmit a request for Yu to return to the Goa'uld High Council"
 StringInfo
 	ID "IDS_GOAULD_ABILITYORBITAL_HIDEMINES_NAME"
 	Value "Hyperdimensional Cloaking"
@@ -4679,31 +4655,43 @@ StringInfo
 	Value "Anubis"
 StringInfo
 	ID "IDS_GOAULD_CAPITALHERO_ANUBIS_DESCRIPTION"
-	Value "I am Anubis. Your end of days finally approaches. There will be no mercy. You will bow to my awesome power. There is nothing that can stop the destruction I bring upon you. Prepare to meet your doom."
+	Value "I am Anubis. There is nothing that can stop the destruction I bring upon you. Prepare to meet your doom."
 StringInfo
 	ID "IDS_GOAULD_CAPITALHERO_APOPHIS_NAME"
 	Value "Apophis"
 StringInfo
 	ID "IDS_GOAULD_CAPITALHERO_APOPHIS_DESCRIPTION"
-	Value "TODO"
+	Value "Your people, they are still primitive. They will be destroyed."
 StringInfo
 	ID "IDS_GOAULD_CAPITALHERO_BAAL_NAME"
 	Value "Ba'al"
 StringInfo
 	ID "IDS_GOAULD_CAPITALHERO_BAAL_DESCRIPTION"
-	Value "TODO"
+	Value "You were born slaves and slaves you will die."
+StringInfo
+	ID "IDS_GOAULD_CAPITALHERO_CRONUS_NAME"
+	Value "Cronus"
+StringInfo
+	ID "IDS_GOAULD_CAPITALHERO_CRONUS_DESCRIPTION"
+	Value "I am your god.  Kneel before me or die."
 StringInfo
 	ID "IDS_GOAULD_CAPITALHERO_OSIRIS_NAME"
 	Value "Osiris"
 StringInfo
 	ID "IDS_GOAULD_CAPITALHERO_OSIRIS_DESCRIPTION"
-	Value "TODO"
+	Value "Make no mistake, the rivers of your planets will run red with blood."
 StringInfo
 	ID "IDS_GOAULD_CAPITALHERO_SOKAR_NAME"
 	Value "Sokar"
 StringInfo
 	ID "IDS_GOAULD_CAPITALHERO_SOKAR_DESCRIPTION"
-	Value "TODO"
+	Value "Your end of days finally approaches. There will be no mercy. You will bow to my awesome power."
+StringInfo
+	ID "IDS_GOAULD_CAPITALHERO_YU_NAME"
+	Value "Yu"
+StringInfo
+	ID "IDS_GOAULD_CAPITALHERO_YU_DESCRIPTION"
+	Value "Yu-huang Shang Ti, the Jade Emperor God"
 StringInfo
 	ID "IDS_GOAULD_CAPITALSIEGE_MELTAK_NAME"
 	Value "Mel'tak Besieger Class"

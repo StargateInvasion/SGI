@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Goauld_BuffCapital_DaedalusSelf"
+buffType "Goauld_BuffCapital_ApophisSelf"
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -28,8 +28,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_GOAULD_ABILITYCAPITAL_APOPHIS_NAME"
-descStringID "IDS_GOAULD_ABILITYCAPITAL_APOPHIS_DESCRIPTION"
+nameStringID "IDS_GOAULD_CAPITALHERO_APOPHIS_NAME"
+descStringID "IDS_GOAULD_CAPITALHERO_APOPHIS_DESCRIPTION"
 hudIcon "HUDICON_GOAULD_CAPITALHERO_APOPHIS"
 smallHudIcon "HUDICON_GOAULD_CAPITALHERO_APOPHIS"
 infoCardIcon ""

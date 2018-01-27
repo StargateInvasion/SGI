@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Goauld_BuffCapital_HeraclesSelf"
+buffType "Goauld_BuffCapital_BaalSelf"
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -28,8 +28,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_GOAULD_ABILITYCAPITAL_BAAL_NAME"
-descStringID "IDS_GOAULD_ABILITYCAPITAL_BAAL_DESCRIPTION"
+nameStringID "IDS_GOAULD_CAPITALHERO_BAAL_NAME"
+descStringID "IDS_GOAULD_CAPITALHERO_BAAL_DESCRIPTION"
 hudIcon "HUDICON_GOAULD_CAPITALHERO_BAAL"
 smallHudIcon "HUDICONSMALL_GOAULD_CAPITALHERO_BAAL"
 infoCardIcon ""

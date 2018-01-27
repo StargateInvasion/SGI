@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 274
+brushCount 276
 brush
 	name "HUDICON_HUMAN_TITANOFFENSE_TARTARUS"
 	content "States"
@@ -1460,7 +1460,43 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 768 , 46 , 32 ]
 brush
+	name "HUDICON_GOAULD_CAPITALHERO_SOKAR"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 578 , 172 , 46 , 32 ]
+	Pressed
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 626 , 172 , 46 , 32 ]
+	CursorOver
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 674 , 172 , 46 , 32 ]
+	Focused
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 626 , 172 , 46 , 32 ]
+	Normal
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 626 , 172 , 46 , 32 ]
+brush
 	name "HUDICON_GOAULD_CAPITALHERO_ANUBIS"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 578 , 206 , 46 , 32 ]
+	Pressed
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 626 , 206 , 46 , 32 ]
+	CursorOver
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 674 , 206 , 46 , 32 ]
+	Focused
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 626 , 206 , 46 , 32 ]
+	Normal
+		fileName "Buttons_Research_SGI"
+		pixelBox [ 626 , 206 , 46 , 32 ]
+brush
+	name "HUDICON_GOAULD_CAPITALHERO_CRONUS"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
@@ -1478,7 +1514,7 @@ brush
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 322 , 800 , 46 , 32 ]
 brush
-	name "HUDICON_GOAULD_CAPITALHERO_SOKAR"
+	name "HUDICON_GOAULD_CAPITALHERO_YU"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_SGI"
