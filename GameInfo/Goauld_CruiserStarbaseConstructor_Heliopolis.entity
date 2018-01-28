@@ -23,7 +23,7 @@ BuildTime 25.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 30.000000
 MaxHullPoints 1500.000000
-MaxShieldPoints 0.000000
+MaxShieldPoints 200.000000
 HullPointRestoreRate 2.000000
 ShieldPointRestoreRate 1.000000
 BaseArmorPoints 3.000000
@@ -42,7 +42,7 @@ armorType "Heavy"
 hudIcon "HUDICON_GOAULD_CRUISERSTARBASECONSTRUCTOR_HELIOPOLIS"
 smallHudIcon "HUDICONSMALL_GOAULD_CRUISERSTARBASECONSTRUCTOR_HELIOPOLIS"
 infoCardIcon "MAINVIEWICON_GOAULD_CRUISERSTARBASECONSTRUCTOR_HELIOPOLIS"
-minZoomDistanceMult 2.500000
+minZoomDistanceMult 4.500000
 NumWeapons 0
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
@@ -53,7 +53,7 @@ TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
 hasWeaponLevels FALSE
 mass 2000.000000
-ShieldMeshName "Human_Shield_CruiserStarbaseConstructor_Hera"
+ShieldMeshName "Goauld_Shield_CruiserStarbaseConstructor_Heliopolis"
 renderShield TRUE
 maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000
@@ -81,7 +81,7 @@ SoundID "FRIGATE_TECHSTARBASECONSTRUCTOR_ONSELECTED"
 NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Human_CruiserStarbaseConstructor_Hera"
+	meshName "Goauld_CruiserStarbaseConstructor_Heliopolis"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
