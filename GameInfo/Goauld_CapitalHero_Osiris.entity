@@ -90,160 +90,102 @@ Prerequisites
 	RequiredCompletedResearchSubjects 0
 roleType "COLONY"
 statCountType "CapitalShipUtility2"
-numRandomDebrisLarge 4
-numRandomDebrisSmall 17
-numSpecificDebris 1
-specificDebrisMeshName "DebrisTechLarge"
+numRandomDebrisLarge 0
+numRandomDebrisSmall 5
+numSpecificDebris 0
 armorType "CapitalShip"
-hudIcon "HUDICON_GOAULD_CAPITALHERO_OSIRIS"
-smallHudIcon "HUDICONSMALL_GOAULD_CAPITALHERO_OSIRIS"
-infoCardIcon "MAINVIEWICON_GOAULD_CAPITALHERO_OSIRIS"
-minZoomDistanceMult 1.500000
-NumWeapons 3
+hudIcon "HUDICON_GOAULD_FRIGATELONGRANGE_OSIRIS"
+smallHudIcon "HUDICONSMALL_GOAULD_FRIGATELONGRANGE_OSIRIS"
+infoCardIcon "MAINVIEWICON_GOAULD_FRIGATELONGRANGE_OSIRIS"
+minZoomDistanceMult 5.500000
+NumWeapons 2
 Weapon
 	WeaponType "Projectile"
 	damageEnums
 		AttackType "ANTIHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
-		DamageType "PHYSICAL"
-		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 40.000000
-	DamagePerBank:BACK 10.000000
-	DamagePerBank:LEFT 20.000000
-	DamagePerBank:RIGHT 20.000000
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 170.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
 	Range 5500.000000
-	PreBuffCooldownTime 3.000000
-	CanFireAtFighter TRUE
+	PreBuffCooldownTime 4.000000
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.450000
-	TravelSpeed 4000.000000
+	PointStaggerDelay 0.200000
+	TravelSpeed 1200.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 6
-		burstDelay 0.500000
+		burstCount 1
+		burstDelay 0.350000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_CapitalLaser_Muzzle"
-		muzzleSoundMinRespawnTime 0.500000
+		muzzleEffectName "Weapon_GoauldPlasmaHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
-			soundCount 3
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE"
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT1"
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT2"
-		hitEffectName "Weapon_Tech_AutoCannonCapShip_Hit"
+			soundCount 2
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "Weapon_Tech_AutoCannonCapShip_Travel"
+			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+		projectileTravelEffectName "Weapon_GoauldPlasmaMedium_Travel"
 Weapon
-	WeaponType "Missile"
-	damageEnums
-		AttackType "CAPITALSHIP"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "PHYSICAL"
-		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 250.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 100.000000
-	DamagePerBank:RIGHT 100.000000
-	Range 6000.000000
-	PreBuffCooldownTime 10.000000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.500000
-	TravelSpeed 1450.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Missile"
-		burstCount 3
-		burstDelay 0.500000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_TechCapitalPlanetBombing_Muzzle"
-		muzzleSoundMinRespawnTime 0.350000
-		muzzleSounds
-			soundCount 1
-			sound "WEAPON_TECH_PLANETBOMB_MUZZLE"
-		hitEffectName "Weapon_HumanRailguns_Hit"
-		hitHullEffectSounds
-			soundCount 3
-			sound "EXPLOSION_SUB4"
-			sound "EXPLOSION_SUB4_ALT1"
-			sound "EXPLOSION_SUB4_ALT2"
-		hitShieldsEffectSounds
-			soundCount 3
-			sound "EXPLOSION_SUB4"
-			sound "EXPLOSION_SUB4_ALT1"
-			sound "EXPLOSION_SUB4_ALT2"
-		missileTravelEffectName "Weapon_HumanMissileHeavy_Travel"
-		missileStartTurningDistance 0.500000
-		missileSlowTurnRate 1.500000
-		missileMaxSlowTurnTime 10.000000
-Weapon
-	WeaponType "Beam"
+	WeaponType "Projectile"
 	damageEnums
 		AttackType "ANTIHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
-		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 1750.000000
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 130.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 6500.000000
+	Range 5500.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 1.300000
-	TravelSpeed 0.000000
-	Duration 1.800000
-	fireConstraintType "Research"
-	researchPrerequisites
-		NumResearchPrerequisites 0
-		RequiredFactionNameID ""
-		RequiredCompletedResearchSubjects 0
+	PointStaggerDelay 0.200000
+	TravelSpeed 1200.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
-		weaponType "Beam"
+		weaponType "Projectile"
 		burstCount 1
-		burstDelay 0.000000
+		burstDelay 0.350000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Psi_BeamCapital_Muzzle"
-		muzzleSoundMinRespawnTime 1.300000
+		muzzleEffectName "Weapon_GoauldPlasmaHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
-			soundCount 1
-			sound "WEAPON_ASGARDBEAMS_MUZZLE"
-		hitEffectName "Weapon_Psi_BeamCapital_Hit"
+			soundCount 2
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound ""
+			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
-			sound ""
-		beamEffectSounds
-			soundCount 1
-			sound ""
-		beamGlowTextureName "PsiCapitalBeam_Glow"
-		beamCoreTextureName "PsiCapitalBeam_Core"
-		beamWidth 20.000000
-		beamGlowColor ffffffff
-		beamCoreColor ffffffff
-		beamTilingRate 3.000000
+			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+		projectileTravelEffectName "Weapon_GoauldPlasmaMedium_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
-TargetCountPerBank:BACK 1
-TargetCountPerBank:LEFT 1
-TargetCountPerBank:RIGHT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
-mass 4000.000000
-ShieldMeshName "Human_Shield_CruiserHeavy_BC304"
+mass 2000.000000
+ShieldMeshName "Goauld_Shield_FrigateLongRange_Osiris"
 renderShield TRUE
 maxAccelerationLinear 100.000000
 maxAccelerationStrafe 10.000000
@@ -273,12 +215,12 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "CAPITALSHIP_TECHCOLONY_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Human_CapitalHero_Odyssey"
+	meshName "Goauld_FrigateLongRange_Osiris"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
-ExhaustParticleSystemName "Exhaust_TechColony"
-ExplosionName "CapitalShip0"
+ExhaustParticleSystemName "Exhaust_FrigateTechLight"
+ExplosionName "Frigate1"
 CommandPoints
 	StartValue 2.000000
 	ValueIncreasePerLevel 0.500000
