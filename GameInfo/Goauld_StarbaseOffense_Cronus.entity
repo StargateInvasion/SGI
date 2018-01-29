@@ -16,139 +16,125 @@ armorType "Module"
 hudIcon "HUDICON_GOAULD_STARBASEOFFENSE_CRONUS"
 smallHudIcon "HUDICONSMALL_GOAULD_STARBASEOFFENSE_CRONUS"
 infoCardIcon "MAINVIEWICON_GOAULD_STARBASEOFFENSE_CRONUS"
-minZoomDistanceMult 2.000000
+minZoomDistanceMult 3.000000
 NumWeapons 3
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "CAPITALSHIP"
+		AttackType "ANTIVERYHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 146.000000
-	DamagePerBank:BACK 146.000000
-	DamagePerBank:LEFT 146.000000
-	DamagePerBank:RIGHT 146.000000
-	Range 8000.000000
+	DamagePerBank:FRONT 75.000000
+	DamagePerBank:BACK 75.000000
+	DamagePerBank:LEFT 75.000000
+	DamagePerBank:RIGHT 75.000000
+	Range 5500.000000
 	PreBuffCooldownTime 5.000000
-	CanFireAtFighter FALSE
+	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.150000
-	TravelSpeed 4000.000000
+	PointStaggerDelay 0.200000
+	TravelSpeed 1200.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 5
+		burstCount 1
 		burstDelay 0.350000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_StarbaseLaser_Muzzle"
-		muzzleSoundMinRespawnTime 0.300000
+		muzzleEffectName "Weapon_GoauldPlasmaHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
-			soundCount 3
-			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE"
-			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE_ALT1"
-			sound "WEAPON_TECHCAPITALLASERMEDIUM_MUZZLE_ALT2"
-		hitEffectName "Weapon_Tech_StarbaseLaser_Hit"
+			soundCount 2
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
-		projectileTravelEffectName "Weapon_Tech_StarbaseLaser_Travel"
+		projectileTravelEffectName "Weapon_GoauldPlasmaMedium_Travel"
 Weapon
-	WeaponType "Beam"
+	WeaponType "Projectile"
 	damageEnums
-		AttackType "CAPITALSHIP"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "OVERTIME"
-		DamageType "ENERGY"
-		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 256.000000
-	DamagePerBank:BACK 256.000000
-	DamagePerBank:LEFT 256.000000
-	DamagePerBank:RIGHT 256.000000
-	Range 6500.000000
-	PreBuffCooldownTime 8.000000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting TRUE
-	PointStaggerDelay 0.250000
-	TravelSpeed 0.000000
-	Duration 4.000000
-	fireConstraintType "StarBaseUpgradeLevel"
-	requiredStarBaseWeaponLevel 1
-	WeaponEffects
-		weaponType "Beam"
-		burstCount 1
-		burstDelay 0.000000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_StarbaseBeam_Muzzle"
-		muzzleSoundMinRespawnTime 0.100000
-		muzzleSounds
-			soundCount 1
-			sound ""
-		hitEffectName "Weapon_Tech_StarbaseBeam_Hit"
-		hitHullEffectSounds
-			soundCount 1
-			sound ""
-		hitShieldsEffectSounds
-			soundCount 1
-			sound ""
-		beamEffectSounds
-			soundCount 1
-			sound "WEAPON_TECHSTARBASEBEAMHEAVY_TRAVEL"
-		beamGlowTextureName "TechStarBaseBeam_Glow"
-		beamCoreTextureName "TechStarBaseBeam_Core"
-		beamWidth 80.000000
-		beamGlowColor ffffffff
-		beamCoreColor ffffffff
-		beamTilingRate 8.000000
-Weapon
-	WeaponType "Missile"
-	damageEnums
-		AttackType "CAPITALSHIP"
+		AttackType "ANTIHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
-		DamageType "PHYSICAL"
-		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 300.000000
-	DamagePerBank:BACK 300.000000
-	DamagePerBank:LEFT 300.000000
-	DamagePerBank:RIGHT 300.000000
-	Range 10500.000000
-	PreBuffCooldownTime 10.000000
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 100.000000
+	DamagePerBank:BACK 100.000000
+	DamagePerBank:LEFT 100.000000
+	DamagePerBank:RIGHT 100.000000
+	Range 6500.000000
+	PreBuffCooldownTime 5.500000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.080000
-	TravelSpeed 1300.000000
+	PointStaggerDelay 0.200000
+	TravelSpeed 1200.000000
 	Duration 0.000000
-	fireConstraintType "StarBaseUpgradeLevel"
-	requiredStarBaseWeaponLevel 2
+	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
-		weaponType "Missile"
-		burstCount 2
-		burstDelay 0.600000
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.350000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_MissileCapShip_Muzzle"
-		muzzleSoundMinRespawnTime 0.500000
+		muzzleEffectName "Weapon_GoauldPlasmaHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
-			soundCount 3
-			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE"
-			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE_ALT1"
-			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE_ALT2"
-		hitEffectName "Weapon_Tech_MissileCapShip_Hit"
+			soundCount 2
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_MISSILEHEAVY_HITGENERIC"
+			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_MISSILEHEAVY_HITGENERIC"
-		missileTravelEffectName "Weapon_Tech_MissileCapShip_Travel"
-		missileStartTurningDistance 250.000000
-		missileSlowTurnRate 1.208997
-		missileMaxSlowTurnTime 6.000000
+			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+		projectileTravelEffectName "Weapon_GoauldPlasmaMedium_Travel"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 150.000000
+	DamagePerBank:BACK 150.000000
+	DamagePerBank:LEFT 150.000000
+	DamagePerBank:RIGHT 150.000000
+	Range 8500.000000
+	PreBuffCooldownTime 5.500000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.200000
+	TravelSpeed 1200.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_GoauldPlasmaHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+		projectileTravelEffectName "Weapon_GoauldPlasmaMedium_Travel"
 m_weaponIndexForRange 2
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 4
@@ -156,7 +142,7 @@ TargetCountPerBank:BACK 4
 TargetCountPerBank:LEFT 4
 TargetCountPerBank:RIGHT 4
 canOnlyTargetStructures FALSE
-ShieldMeshName "Shield_TechStarBase"
+ShieldMeshName "Goauld_Shield_StarbaseOffense_Cronus"
 renderShield TRUE
 squadTypeEntityDef:0 "Goauld_FighterSquad_DeathGlider"
 squadAntiMatterCost:0 0.000000
@@ -184,7 +170,7 @@ UpgradeType "Goauld_StarBaseUpgradeStargate"
 UpgradeType "Goauld_StarBaseUpgradeSelfDestruct"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Human_StarbaseOffense_Hades"
+	meshName "Goauld_StarbaseOffense_Cronus"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
