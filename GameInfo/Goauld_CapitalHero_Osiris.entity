@@ -12,38 +12,31 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb TRUE
 hasBombingLevels FALSE
-baseDamage 43.000000
-basePopulationKilled 1.700000
+baseDamage 73.000000
+basePopulationKilled 1.550000
 bombingFreqTime 10.000000
 baseRange 3000.000000
-bombTransitTime 12.000000
-bombEffectCount 3
-bombEffectAngleVariance 15.000000
+bombTransitTime 4.000000
+bombEffectCount 2
+bombEffectAngleVariance 2.500000
 bombEffectsDef
-	weaponType "Missile"
-	burstCount 5
-	burstDelay 0.000000
+	weaponType "Projectile"
+	burstCount 2
+	burstDelay 0.500000
 	fireDelay 0.000000
-	muzzleEffectName "Weapon_TechCapitalPlanetBombing_Muzzle"
+	muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
 	muzzleSoundMinRespawnTime 0.100000
 	muzzleSounds
 		soundCount 1
-		sound "WEAPON_TECH_PLANETBOMB_MUZZLE"
-	hitEffectName "Weapon_TechCapitalPlanetBombing_Hit"
+		sound "Weapon_Goa'uld_Capital"
+	hitEffectName "Weapon_GoauldCapitalPlasma_Hit"
 	hitHullEffectSounds
-		soundCount 3
-		sound "EXPLOSION_SUB4"
-		sound "EXPLOSION_SUB4_ALT1"
-		sound "EXPLOSION_SUB4_ALT2"
+		soundCount 1
+		sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
 	hitShieldsEffectSounds
-		soundCount 3
-		sound "EXPLOSION_SUB4"
-		sound "EXPLOSION_SUB4_ALT1"
-		sound "EXPLOSION_SUB4_ALT2"
-	missileTravelEffectName "Weapon_HumanMissileHeavy_Travel"
-	missileStartTurningDistance 0.005000
-	missileSlowTurnRate 3.708997
-	missileMaxSlowTurnTime 12.000000
+		soundCount 1
+		sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+	projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
 mainViewIcon "MAINVIEWICON_GOAULD_CAPITALHERO_OSIRIS"
 basePrice
 	credits 0.000000
@@ -52,10 +45,10 @@ basePrice
 slotCount 30.000000
 BuildTime 0.000000
 MaxHullPoints
-	StartValue 2750.000000
+	StartValue 3500.000000
 	ValueIncreasePerLevel 105.000000
 MaxShieldPoints
-	StartValue 3000.000000
+	StartValue 4100.000000
 	ValueIncreasePerLevel 180.000000
 HullPointRestoreRate
 	StartValue 2.750000
@@ -94,9 +87,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 5
 numSpecificDebris 0
 armorType "CapitalShip"
-hudIcon "HUDICON_GOAULD_FRIGATELONGRANGE_OSIRIS"
-smallHudIcon "HUDICONSMALL_GOAULD_FRIGATELONGRANGE_OSIRIS"
-infoCardIcon "MAINVIEWICON_GOAULD_FRIGATELONGRANGE_OSIRIS"
+hudIcon "HUDICON_GOAULD_CAPITALHERO_OSIRIS"
+smallHudIcon "HUDICONSMALL_GOAULD_CAPITALHERO_OSIRIS"
+infoCardIcon "MAINVIEWICON_GOAULD_CAPITALHERO_OSIRIS"
 minZoomDistanceMult 5.500000
 NumWeapons 2
 Weapon
@@ -107,7 +100,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 170.000000
+	DamagePerBank:FRONT 400.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -146,7 +139,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 130.000000
+	DamagePerBank:FRONT 250.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
