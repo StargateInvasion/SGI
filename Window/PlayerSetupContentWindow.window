@@ -1,13 +1,13 @@
 TXT
 picturePreviewWindow
-	area [5, 235, 784 , 589]
+	area [5, 220, 784 , 589]
 	backdrop "PlayerSetupPicturePreviewWindowBackdrop"
 	overlay "PlayerSetupPicturePreviewWindowOverlay"
-	racePictureArea-0 [63, 22, 195 , 219]
-	racePictureArea-1 [296, 22, 195 , 219]
-	racePictureArea-2 [529, 22, 195 , 219]
+	racePictureArea-0 [62, 61, 195 , 485]
+	racePictureArea-1 [298, 61, 195 , 485]
+	racePictureArea-2 [535, 61, 195 , 485]
 changeNameButton
-	area [60, 125, 220, 46]
+	area [60, 115, 220, 46]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 22
 	textOffsetFromLeft 70
@@ -16,7 +16,7 @@ changeNameButton
 	icon "PlayerSetupChangeNameButton"
 	text "IDSPlayerSetupChangeNameButton"	
 changeThemeButton
-	area [58, 180, 220, 46]
+	area [58, 170, 220, 46]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 22
 	textOffsetFromLeft 70
@@ -25,7 +25,7 @@ changeThemeButton
 	icon "PlayerSetupChangeThemeButton"
 	text "IDSPlayerSetupChangeThemeButton"
 changePictureButton
-	area [540, 180, 220, 46]
+	area [540, 170, 220, 46]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 22
 	textOffsetFromLeft 70

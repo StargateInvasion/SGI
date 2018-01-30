@@ -40,120 +40,120 @@ tabWindow
 relationshipsTabContentWindowDef
 	currentPlayerFrame
 		hoverArea [250,150,265,350]
-		portraitFrameArea [145, 120, 0 , 0]
-		portraitPictureArea [145, 133, 0 , 0]
-		portraitDeadOverlayArea [145, 120, 0 , 0]
-		diplomaticPointsArea [145, 310, 0, 0]
-		diplomaticPointsLabelArea [145, 280, 0, 0]
+		portraitFrameArea [145, 150, 0 , 0]
+		portraitPictureArea [145, 333, 0 , 0]
+		portraitDeadOverlayArea [146, 150, 0 , 0]
+		diplomaticPointsArea [145, 340, 0, 0]
+		diplomaticPointsLabelArea [145, 310, 0, 0]
 		portraitUnderlay "PlayerScreenPortraitUnderlay"
 		portraitOverlay "PlayerScreenPortraitOverlay"
 		portraitOverlayWhenDead "PlayerScreenPortraitOverlayWhenDead"
-		portraitBackdrop "PlayerScreenHappinessBackdropForHumanPlayer"
-		portraitBackdropArea [145,315,0,0]
-		iconArea [140, -100, 0, 0]
-		nameArea [145, -40, 0, 0]	
+		portraitBackdrop "PlayerFullBackdrop"
+		portraitBackdropArea [145,215,0,0]
+		iconArea [140, -60, 0, 0]
+		nameArea [145, 0, 0, 0]	
 		nameFont "NotificationPlayer"
 		diplomacyPointsFont "WindowSubTitle2"
 		diplomacyPointsLabelFont "Label"
 	otherPlayersCount 9
 		otherPlayerFrame
-			hoverArea [88,60,104,122]
-			portraitFrameArea [46, 90, 0 , 0]
-			portraitPictureArea [24, 26, 43 , 68]
-			portraitDeadOverlayArea [24, 26, 43 , 68]
+			hoverArea [88,50,104,122]
+			portraitFrameArea [46, 80, 0 , 0]
+			portraitPictureArea [24, 16, 43 , 68]
+			portraitDeadOverlayArea [27, -4, 43 , 68]
 			portraitUnderlay "PlayerScreenPortraitUnderlay"
 			portraitOverlay "PlayerScreenPortraitOverlayMedium"
 			portraitOverlayWhenDead "PlayerScreenPortraitOverlayWhenDeadMedium"
-			iconArea [20, 151, 0, 0]
-			relationshipArea [55, 150, 0, 0]	
+			iconArea [20, 141, 0, 0]
+			relationshipArea [55, 140, 0, 0]	
 			relationshipFont "StatisticsNumber"
 		otherPlayerFrame
-			hoverArea [88,250,104,122]
-			portraitFrameArea [45, 90, 0 , 0]
-			portraitPictureArea [24, 26, 43 , 68]
-			portraitDeadOverlayArea [24, 26, 43 , 68]
+			hoverArea [88,235,104,122]
+			portraitFrameArea [45, 75, 0 , 0]
+			portraitPictureArea [24, 11, 43 , 68]
+			portraitDeadOverlayArea [27, -9, 43 , 68]
 			portraitUnderlay "PlayerScreenPortraitUnderlay"
 			portraitOverlay "PlayerScreenPortraitOverlayMedium"
 			portraitOverlayWhenDead "PlayerScreenPortraitOverlayWhenDeadMedium"
-			iconArea [20, 151, 0, 0]
-			relationshipArea [55, 150, 0, 0]	
+			iconArea [20, 136, 0, 0]
+			relationshipArea [55, 135, 0, 0]	
 			relationshipFont "StatisticsNumber"
 		otherPlayerFrame
-			hoverArea [88,440,104,122]
-			portraitFrameArea [45, 90, 0 , 0]
-			portraitPictureArea [24, 26, 43 , 68]
-			portraitDeadOverlayArea [24, 26, 43 , 68]
+			hoverArea [88,420,104,122]
+			portraitFrameArea [45, 70, 0 , 0]
+			portraitPictureArea [24, 6, 43 , 68]
+			portraitDeadOverlayArea [27, -14, 43 , 68]
 			portraitUnderlay "PlayerScreenPortraitUnderlay"
 			portraitOverlay "PlayerScreenPortraitOverlayMedium"
 			portraitOverlayWhenDead "PlayerScreenPortraitOverlayWhenDeadMedium"
-			iconArea [20, 151, 0, 0]
-			relationshipArea [55, 150, 0, 0]		
+			iconArea [20, 131, 0, 0]
+			relationshipArea [55, 130, 0, 0]		
 			relationshipFont "StatisticsNumber"
 		otherPlayerFrame
 			hoverArea [217,545,104,122]
-			portraitFrameArea [45, 90, 0 , 0]
-			portraitPictureArea [24, 26, 43 , 68]
-			portraitDeadOverlayArea [24, 26, 43 , 68]
+			portraitFrameArea [45, 70, 0 , 0]
+			portraitPictureArea [24, 6, 43 , 68]
+			portraitDeadOverlayArea [27, -14, 43 , 68]
 			portraitUnderlay "PlayerScreenPortraitUnderlay"
 			portraitOverlay "PlayerScreenPortraitOverlayMedium"
 			portraitOverlayWhenDead "PlayerScreenPortraitOverlayWhenDeadMedium"
-			iconArea [20, 151, 0, 0]
-			relationshipArea [55, 150, 0, 0]		
+			iconArea [20, 131, 0, 0]
+			relationshipArea [55, 130, 0, 0]		
 			relationshipFont "StatisticsNumber"
 		otherPlayerFrame
 			hoverArea [350,545,104,122]
-			portraitFrameArea [45, 90, 0 , 0]
-			portraitPictureArea [24, 26, 43 , 68]
-			portraitDeadOverlayArea [24, 26, 43 , 68]
+			portraitFrameArea [45, 70, 0 , 0]
+			portraitPictureArea [24, 6, 43 , 68]
+			portraitDeadOverlayArea [27, -14, 43 , 68]
 			portraitUnderlay "PlayerScreenPortraitUnderlay"
 			portraitOverlay "PlayerScreenPortraitOverlayMedium"
 			portraitOverlayWhenDead "PlayerScreenPortraitOverlayWhenDeadMedium"
-			iconArea [20, 151, 0, 0]
-			relationshipArea [55, 150, 0, 0]	
+			iconArea [20, 131, 0, 0]
+			relationshipArea [55, 130, 0, 0]	
 			relationshipFont "StatisticsNumber"
 		otherPlayerFrame
 			hoverArea [482,545,104,122]
-			portraitFrameArea [45, 90, 0 , 0]
-			portraitPictureArea [24, 26, 43 , 68]
-			portraitDeadOverlayArea [24, 26, 43 , 68]
+			portraitFrameArea [45, 70, 0 , 0]
+			portraitPictureArea [24, 6, 43 , 68]
+			portraitDeadOverlayArea [27, -14, 43 , 68]
 			portraitUnderlay "PlayerScreenPortraitUnderlay"
 			portraitOverlay "PlayerScreenPortraitOverlayMedium"
 			portraitOverlayWhenDead "PlayerScreenPortraitOverlayWhenDeadMedium"
-			iconArea [20, 151, 0, 0]
-			relationshipArea [55, 150, 0, 0]	
+			iconArea [20, 131, 0, 0]
+			relationshipArea [55, 130, 0, 0]	
 			relationshipFont "StatisticsNumber"
 		otherPlayerFrame
-			hoverArea [615,440,104,122]
-			portraitFrameArea [43, 90, 0 , 0]
-			portraitPictureArea [24, 26, 43 , 68]
-			portraitDeadOverlayArea [24, 26, 43 , 68]
+			hoverArea [615,420,104,122]
+			portraitFrameArea [43, 70, 0 , 0]
+			portraitPictureArea [24, 6, 43 , 68]
+			portraitDeadOverlayArea [27, -14, 43 , 68]
 			portraitUnderlay "PlayerScreenPortraitUnderlay"
 			portraitOverlay "PlayerScreenPortraitOverlayMedium"
 			portraitOverlayWhenDead "PlayerScreenPortraitOverlayWhenDeadMedium"
-			iconArea [20, 151, 0, 0]
-			relationshipArea [55, 150, 0, 0]		
+			iconArea [20, 131, 0, 0]
+			relationshipArea [55, 130, 0, 0]		
 			relationshipFont "StatisticsNumber"
 		otherPlayerFrame
-			hoverArea [613,250,104,122]
-			portraitFrameArea [45, 90, 0 , 0]
-			portraitPictureArea [24, 26, 43 , 68]
-			portraitDeadOverlayArea [24, 26, 43 , 68]
+			hoverArea [613,235,104,122]
+			portraitFrameArea [45, 75, 0 , 0]
+			portraitPictureArea [24, 11, 43 , 68]
+			portraitDeadOverlayArea [27, -9, 43 , 68]
 			portraitUnderlay "PlayerScreenPortraitUnderlay"
 			portraitOverlay "PlayerScreenPortraitOverlayMedium"
 			portraitOverlayWhenDead "PlayerScreenPortraitOverlayWhenDeadMedium"
-			iconArea [20, 151, 0, 0]
-			relationshipArea [55, 150, 0, 0]	
+			iconArea [20, 136, 0, 0]
+			relationshipArea [55, 135, 0, 0]	
 			relationshipFont "StatisticsNumber"
 		otherPlayerFrame
-			hoverArea [613,60,104,122]
-			portraitFrameArea [45, 90, 0 , 0]
-			portraitPictureArea [24, 26, 43 , 68]
-			portraitDeadOverlayArea [24, 26, 43 , 68]
+			hoverArea [613,50,104,122]
+			portraitFrameArea [45, 80, 0 , 0]
+			portraitPictureArea [24, 16, 43 , 68]
+			portraitDeadOverlayArea [27, -4, 43 , 68]
 			portraitUnderlay "PlayerScreenPortraitUnderlay"
 			portraitOverlay "PlayerScreenPortraitOverlayMedium"
 			portraitOverlayWhenDead "PlayerScreenPortraitOverlayWhenDeadMedium"
-			iconArea [20, 151, 0, 0]
-			relationshipArea [55, 150, 0, 0]	
+			iconArea [20, 141, 0, 0]
+			relationshipArea [55, 140, 0, 0]	
 			relationshipFont "StatisticsNumber"
 	leftUpTube "RelationshipScreenTubeUpLeft"
 	rightUpTube "RelationshipScreenTubeUpRight"
@@ -167,15 +167,15 @@ relationshipsTabContentWindowDef
 	leftDownTubeCaps "RelationshipScreenTubeDownLeftCaps"
 	rightDownTubeCaps "RelationshipScreenTubeDownRightCaps"
 	downTubeCaps "RelationshipScreenTubeDownCaps"
-	otherPlayerOneTubeArea [235, 180, 0, 0]
-	otherPlayerTwoTubeArea [236, 320, 0, 0]
-	otherPlayerThreeTubeArea [236, 470, 0, 0]
-	otherPlayerFourTubeArea [300, 520, 0, 0]
-	otherPlayerFiveTubeArea [395, 521, 0, 0]
-	otherPlayerSixTubeArea [490, 520, 0, 0]
-	otherPlayerSevenTubeArea [552, 470, 0, 0]
-	otherPlayerEightTubeArea [552, 320, 0, 0]
-	otherPlayerNineTubeArea [552, 180, 0, 0]
+	otherPlayerOneTubeArea [235,200, 0, 0]
+	otherPlayerTwoTubeArea [236, 310, 0, 0]
+	otherPlayerThreeTubeArea [236, 430, 0, 0]
+	otherPlayerFourTubeArea [300, 500, 0, 0]
+	otherPlayerFiveTubeArea [392, 501, 0, 0]
+	otherPlayerSixTubeArea [490, 500, 0, 0]
+	otherPlayerSevenTubeArea [552, 430, 0, 0]
+	otherPlayerEightTubeArea [552, 310, 0, 0]
+	otherPlayerNineTubeArea [552, 200, 0, 0]
 	legendArea [395,145,0,0]
 	legendFont "ButtonLabel"
 				
