@@ -108,13 +108,13 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 100.000000
+	DamagePerBank:FRONT 80.000000--
 	DamagePerBank:BACK 40.000000
-	DamagePerBank:LEFT 100.000000
-	DamagePerBank:RIGHT 100.000000
+	DamagePerBank:LEFT 80.000000
+	DamagePerBank:RIGHT 80.000000
 	Range 5000.000000
-	PreBuffCooldownTime 3.500000
-	CanFireAtFighter TRUE
+	PreBuffCooldownTime 4.00000
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 1.000000
 	TravelSpeed 1275.000000
@@ -153,7 +153,7 @@ Weapon
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 8000.000000
-	PreBuffCooldownTime 20.0000000
+	PreBuffCooldownTime 25.0000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.200000
@@ -201,12 +201,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 1750.000000
+	DamagePerBank:FRONT 1250.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 6500.000000
-	PreBuffCooldownTime 4.0000000
+	PreBuffCooldownTime 6.0000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 1.300000
