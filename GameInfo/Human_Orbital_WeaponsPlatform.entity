@@ -111,7 +111,7 @@ NumWeapons 3
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIHEAVY"
+		AttackType "ANTILIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
@@ -120,7 +120,7 @@ Weapon
 	DamagePerBank:BACK 100.000000
 	DamagePerBank:LEFT 100.000000
 	DamagePerBank:RIGHT 100.000000
-	Range 5500.000000
+	Range 4500.000000
 	PreBuffCooldownTime 3.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
@@ -151,7 +151,7 @@ Weapon
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "TITAN"
+		AttackType "ANTIHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
@@ -160,7 +160,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 7500.000000
+	Range 5500.000000
 	PreBuffCooldownTime 3.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -196,7 +196,7 @@ Weapon
 Weapon
 	WeaponType "Beam"
 	damageEnums
-		AttackType "ANTIHEAVY"
+		AttackType "TITAN"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
@@ -205,7 +205,7 @@ Weapon
 	DamagePerBank:BACK 500.000000
 	DamagePerBank:LEFT 500.000000
 	DamagePerBank:RIGHT 500.000000
-	Range 6500.000000
+	Range 6000.000000
 	PreBuffCooldownTime 6.0000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE

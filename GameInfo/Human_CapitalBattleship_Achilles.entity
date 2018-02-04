@@ -52,10 +52,10 @@ basePrice
 slotCount 44.000000
 BuildTime 120.000000
 MaxHullPoints
-	StartValue 3200.000000
+	StartValue 4000.000000
 	ValueIncreasePerLevel 130.000000
 MaxShieldPoints
-	StartValue 4000.000000
+	StartValue 6000.000000
 	ValueIncreasePerLevel 185.000000
 HullPointRestoreRate
 	StartValue 3.200000
@@ -112,7 +112,7 @@ Weapon
 	DamagePerBank:BACK 30.000000
 	DamagePerBank:LEFT 50.000000
 	DamagePerBank:RIGHT 50.000000
-	Range 5000.000000
+	Range 4500.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
@@ -152,7 +152,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 5000.000000
+	Range 6000.000000
 	PreBuffCooldownTime 7.500000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -197,7 +197,7 @@ Weapon
 	DamagePerBank:BACK 40.000000
 	DamagePerBank:LEFT 80.000000
 	DamagePerBank:RIGHT 80.000000
-	Range 4500.000000
+	Range 5000.000000
 	PreBuffCooldownTime 6.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -244,7 +244,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 6500.000000
+	Range 4500.000000
 	PreBuffCooldownTime 4.0000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -337,7 +337,7 @@ meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_TechBattleship"
 ExplosionName "CapitalShip0"
 CommandPoints
-	StartValue 0.600000
+	StartValue 2.000000
 	ValueIncreasePerLevel 0.200000
 weaponCooldownDecreasePerc
 	StartValue 0.000000

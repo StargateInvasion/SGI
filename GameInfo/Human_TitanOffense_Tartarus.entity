@@ -44,15 +44,15 @@ bombEffectsDef
 mainViewIcon "MAINVIEWICON_HUMAN_TITANOFFENSE_TARTARUS"
 basePrice
 	credits 9500.000000
-	metal 1200.000000
-	crystal 750.000000
+	metal 1750.000000
+	crystal 1750.000000
 slotCount 150.000000
 BuildTime 450.000000
 MaxHullPoints
-	StartValue 7000.000000
+	StartValue 5000.000000
 	ValueIncreasePerLevel 504.000000
 MaxShieldPoints
-	StartValue 5250.000000
+	StartValue 7550.000000
 	ValueIncreasePerLevel 567.000000
 HullPointRestoreRate
 	StartValue 3.100000
@@ -113,12 +113,12 @@ Weapon
 		WeaponClassType "AUTOCANNON"
 	DamagePerBank:FRONT 100.000000
 	DamagePerBank:BACK 50.000000
-	DamagePerBank:LEFT 81.520004
-	DamagePerBank:RIGHT 81.520004
-	Range 10000.000000
+	DamagePerBank:LEFT 80.000000
+	DamagePerBank:RIGHT 80.000000 		
+	Range 7000.000000
 	PreBuffCooldownTime 2.500000
 	CanFireAtFighter FALSE
-	SynchronizedTargeting TRUE
+	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.300000
 	TravelSpeed 4000.000000
 	Duration 0.000000
@@ -155,7 +155,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 10000.000000
+	Range 9000.000000
 	PreBuffCooldownTime 6.500000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -198,7 +198,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 150.000000
 	DamagePerBank:RIGHT 150.000000
-	Range 12000.000000
+	Range 10000.000000
 	PreBuffCooldownTime 3.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -236,7 +236,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 7000.000000
+	Range 6000.000000
 	PreBuffCooldownTime 5.0000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -329,7 +329,7 @@ meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_TechTitanRebel"
 ExplosionName "StarBase1"
 CommandPoints
-	StartValue 6.600000
+	StartValue 5.000000
 	ValueIncreasePerLevel 0.200000
 weaponCooldownDecreasePerc
 	StartValue 0.000000

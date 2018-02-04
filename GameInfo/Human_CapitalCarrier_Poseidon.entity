@@ -46,16 +46,16 @@ bombEffectsDef
 	missileMaxSlowTurnTime 12.000000
 mainViewIcon "MAINVIEWICON_HUMAN_CAPITALCARRIER_POSEIDON"
 basePrice
-	credits 3300.000000
-	metal 575.000000
-	crystal 575.000000
-slotCount 53.000000
+	credits 2500.000000
+	metal 500.000000
+	crystal 500.000000
+slotCount 50.000000
 BuildTime 140.000000
 MaxHullPoints
-	StartValue 3850.000000
+	StartValue 3800.000000
 	ValueIncreasePerLevel 145.000000
 MaxShieldPoints
-	StartValue 5100.000000
+	StartValue 5000.000000
 	ValueIncreasePerLevel 200.000000
 HullPointRestoreRate
 	StartValue 3.850000
@@ -199,7 +199,7 @@ Weapon
 	DamagePerBank:RIGHT 75.000000
 	Range 5500.000000
 	PreBuffCooldownTime 6.000000
-	CanFireAtFighter TRUE
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 1.500000
 	TravelSpeed 1275.000000
@@ -283,7 +283,7 @@ meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_TechCarrier"
 ExplosionName "CapitalShip0"
 CommandPoints
-	StartValue 3.250000
+	StartValue 3.000000
 	ValueIncreasePerLevel 0.550000
 weaponCooldownDecreasePerc
 	StartValue 0.000000

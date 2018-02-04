@@ -46,16 +46,16 @@ bombEffectsDef
 	missileMaxSlowTurnTime 12.000000
 mainViewIcon "MAINVIEWICON_HUMAN_CAPITALSUPPORT_SCORPION"
 basePrice
-	credits 2325.000000
+	credits 2000.000000
 	metal 380.000000
-	crystal 340.000000
+	crystal 350.000000
 slotCount 44.000000
 BuildTime 120.000000
 MaxHullPoints
-	StartValue 4400.000000
+	StartValue 4500.000000
 	ValueIncreasePerLevel 205.000000
 MaxShieldPoints
-	StartValue 5800.000000
+	StartValue 6000.000000
 	ValueIncreasePerLevel 300.000000
 HullPointRestoreRate
 	StartValue 4.400000
@@ -148,12 +148,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 700.000000
+	DamagePerBank:FRONT 500.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 5000.000000
-	PreBuffCooldownTime 7.500000
+	Range 6000.000000
+	PreBuffCooldownTime 6.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 1.000000
@@ -199,7 +199,7 @@ Weapon
 	DamagePerBank:RIGHT 150.000000
 	Range 5500.000000
 	PreBuffCooldownTime 7.000000
-	CanFireAtFighter TRUE
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 1.500000
 	TravelSpeed 1275.000000
@@ -240,11 +240,11 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 1750.000000
+	DamagePerBank:FRONT 1100.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 6500.000000
+	Range 5500.000000
 	PreBuffCooldownTime 7.0000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -337,7 +337,7 @@ meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_TechSupport"
 ExplosionName "CapitalShip0"
 CommandPoints
-	StartValue 1.200000
+	StartValue 2.000000
 	ValueIncreasePerLevel 0.250000
 weaponCooldownDecreasePerc
 	StartValue 0.000000
