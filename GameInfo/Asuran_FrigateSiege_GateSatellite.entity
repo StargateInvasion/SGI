@@ -7,10 +7,10 @@ usesFighterAttack FALSE
 autoJoinFleetDefault FALSE
 canBomb TRUE
 hasBombingLevels FALSE
-baseDamage 33.000000
-basePopulationKilled 2.800000
+baseDamage 50.000000
+basePopulationKilled 5.000000
 bombingFreqTime 10.000000
-baseRange 500.000000
+baseRange 1500.000000
 bombTransitTime 10.000000
 bombEffectCount 1
 bombEffectAngleVariance 2.500000
@@ -49,18 +49,18 @@ NameStringID "IDS_ASURAN_FRIGATESIEGE_GATESATELLITE_NAME"
 DescriptionStringID "IDS_ASURAN_FRIGATESIEGE_GATESATELLITE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 2000.000000
-	metal 500.000000
-	crystal 650.000000
+	credits 1200.000000
+	metal 750.000000
+	crystal 450.000000
 slotCount 40.000000
 BuildTime 80.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 25.000000
-MaxHullPoints 1000.000000
-MaxShieldPoints 2000.000000
-HullPointRestoreRate 2.000000
-ShieldPointRestoreRate 60.000000
-BaseArmorPoints 0.000000
+MaxHullPoints 600.000000
+MaxShieldPoints 4500.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 9.000000
+BaseArmorPoints 1.000000
 maxMitigation 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
@@ -81,22 +81,22 @@ NumWeapons 1
 Weapon
 	WeaponType "Beam"
 	damageEnums
-		AttackType "ANTIVERYHEAVY"
+		AttackType "ANTIMODULE"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 2000.000000
+	DamagePerBank:FRONT 1000.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 500.000000
+	Range 1500.000000
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.500000
 	TravelSpeed 0.000000
-	Duration 4.000000
+	Duration 5.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Beam"

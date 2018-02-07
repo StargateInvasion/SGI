@@ -15,17 +15,17 @@ NameStringID "IDS_ASURAN_CRUISERUTILITY1_KREIOS_NAME"
 DescriptionStringID "IDS_ASURAN_CRUISERUTILITY1_KREIOS_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 2925.000000
-	metal 750.000000
-	crystal 800.000000
-slotCount 37.000000
+	credits 2000.000000
+	metal 1500.000000
+	crystal 500.000000
+slotCount 23.000000
 BuildTime 110.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 42.000000
-MaxHullPoints 2800.000000
-MaxShieldPoints 7450.000000
-HullPointRestoreRate 4.800000
-ShieldPointRestoreRate 12.5625000
+MaxHullPoints 2000.000000
+MaxShieldPoints 7500.000000
+HullPointRestoreRate 4.000000
+ShieldPointRestoreRate 12.000000
 BaseArmorPoints 5.000000
 maxMitigation 0.350000
 Prerequisites
@@ -52,11 +52,11 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "PHASEMISSILE"
-	DamagePerBank:FRONT 300.000000
+	DamagePerBank:FRONT 150.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 5500.000000
+	Range 6000.000000
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -99,7 +99,7 @@ Weapon
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 6000.000000
-	PreBuffCooldownTime 4.500000
+	PreBuffCooldownTime 5.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.300000
@@ -134,8 +134,8 @@ Weapon
 		WeaponClassType "PULSEGUN"
 	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 100.000000
-	DamagePerBank:RIGHT 100.000000
+	DamagePerBank:LEFT 90.000000
+	DamagePerBank:RIGHT 90.000000
 	Range 6000.000000
 	PreBuffCooldownTime 6.000000
 	CanFireAtFighter FALSE

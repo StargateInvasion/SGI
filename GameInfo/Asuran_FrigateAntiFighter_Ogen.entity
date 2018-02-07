@@ -15,17 +15,17 @@ NameStringID "IDS_ASURAN_FRIGATEANTIFIGHTER_OGEN_NAME"
 DescriptionStringID "IDS_ASURAN_FRIGATEANTIFIGHTER_OGEN_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"
 basePrice
-	credits 625.000000
-	metal 100.000000
-	crystal 60.000000
+	credits 350.000000
+	metal 250.000000
+	crystal 150.000000
 slotCount 12.000000
 BuildTime 50.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 7.000000
-MaxHullPoints 1200.000000
-MaxShieldPoints 2550.000000
-HullPointRestoreRate 1.800000
-ShieldPointRestoreRate 3.382500
+MaxHullPoints 400.000000
+MaxShieldPoints 3000.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 5.000000
 BaseArmorPoints 3.000000
 maxMitigation 0.000000
 Prerequisites
@@ -52,11 +52,11 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PULSEGUN"
-	DamagePerBank:FRONT 45.000000
-	DamagePerBank:BACK 45.000000
-	DamagePerBank:LEFT 45.000000
-	DamagePerBank:RIGHT 45.000000
-	Range 3500.000000
+	DamagePerBank:FRONT 25.000000
+	DamagePerBank:BACK 25.000000
+	DamagePerBank:LEFT 25.000000
+	DamagePerBank:RIGHT 25.000000
+	Range 4000.000000
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
@@ -91,10 +91,10 @@ Weapon
 		DamageType "ENERGY"
 		WeaponClassType "PULSEGUN"
 	DamagePerBank:FRONT 0.000000
-	DamagePerBank:BACK 40.000000
-	DamagePerBank:LEFT 40.000000
-	DamagePerBank:RIGHT 40.000000
-	Range 3500.000000
+	DamagePerBank:BACK 30.000000
+	DamagePerBank:LEFT 30.000000
+	DamagePerBank:RIGHT 30.000000
+	Range 4000.000000
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
@@ -128,11 +128,11 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PULSEGUN"
-	DamagePerBank:FRONT 145.000000
+	DamagePerBank:FRONT 45.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 3500.000000
+	Range 4000.000000
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE

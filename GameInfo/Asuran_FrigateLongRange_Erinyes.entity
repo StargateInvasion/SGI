@@ -15,17 +15,17 @@ NameStringID "IDS_ASURAN_FRIGATELONGRANGE_ERINYES_NAME"
 DescriptionStringID "IDS_ASURAN_FRIGATELONGRANGE_ERINYES_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
-	credits 1350.000000
-	metal 365.000000
-	crystal 335.000000
+	credits 1000.000000
+	metal 550.000000
+	crystal 300.000000
 slotCount 25.000000
 BuildTime 60.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 15.000000
-MaxHullPoints 1450.000000
-MaxShieldPoints 4200.000000
-HullPointRestoreRate 4.375000
-ShieldPointRestoreRate 7.125000
+MaxHullPoints 500.000000
+MaxShieldPoints 3500.000000
+HullPointRestoreRate 3.000000
+ShieldPointRestoreRate 7.000000
 BaseArmorPoints 3.000000
 maxMitigation 0.000000
 Prerequisites
@@ -52,12 +52,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "PHASEMISSILE"
-	DamagePerBank:FRONT 400.000000
+	DamagePerBank:FRONT 300.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 6000.000000
-	PreBuffCooldownTime 5.500000
+	Range 5500.000000
+	PreBuffCooldownTime 5.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.080000
@@ -94,12 +94,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "PHASEMISSILE"
-	DamagePerBank:FRONT 400.000000
+	DamagePerBank:FRONT 300.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 6000.000000
-	PreBuffCooldownTime 5.500000
+	Range 5500.000000
+	PreBuffCooldownTime 5.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.080000
