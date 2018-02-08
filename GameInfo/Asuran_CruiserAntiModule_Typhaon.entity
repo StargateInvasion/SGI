@@ -16,17 +16,17 @@ NameStringID "IDS_ASURAN_CRUISERANTIMODULE_TYPHON_NAME"
 DescriptionStringID "IDS_ASURAN_CRUISERANTIMODULE_TYPHON_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 450.000000
-	metal 110.000000
-	crystal 100.000000
+	credits 1450.000000
+	metal 1000.000000
+	crystal 250.000000
 slotCount 7.000000
 BuildTime 34.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 14.000000
-MaxHullPoints 775.000000
-MaxShieldPoints 500.000000
+MaxHullPoints 500.000000
+MaxShieldPoints 3500.000000
 HullPointRestoreRate 1.000000
-ShieldPointRestoreRate 0.500000
+ShieldPointRestoreRate 5.000000
 BaseArmorPoints 2.000000
 maxMitigation 0.100000
 Prerequisites
@@ -53,11 +53,11 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PULSEGUN"
-	DamagePerBank:FRONT 15.000000
-	DamagePerBank:BACK 15.000000
-	DamagePerBank:LEFT 15.000000
-	DamagePerBank:RIGHT 15.000000
-	Range 3500.000000
+	DamagePerBank:FRONT 20.000000
+	DamagePerBank:BACK 20.000000
+	DamagePerBank:LEFT 20.000000
+	DamagePerBank:RIGHT 20.000000
+	Range 5000.000000
 	PreBuffCooldownTime 2.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting TRUE
@@ -91,12 +91,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "PHASEMISSILE"
-	DamagePerBank:FRONT 100.000000
+	DamagePerBank:FRONT 90.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 5500.000000
-	PreBuffCooldownTime 5.500000
+	Range 6000.000000
+	PreBuffCooldownTime 5.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.080000

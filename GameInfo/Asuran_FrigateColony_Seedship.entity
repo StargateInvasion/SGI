@@ -17,18 +17,18 @@ NameStringID "IDS_ASURAN_FRIGATECOLONY_SEEDSHIP_NAME"
 DescriptionStringID "IDS_ASURAN_FRIGATECOLONY_SEEDSHIP_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 425.000000
-	metal 140.000000
-	crystal 50.000000
+	credits 225.000000
+	metal 300.000000
+	crystal 150.000000
 slotCount 6.000000
 BuildTime 40.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 20.000000
-MaxHullPoints 1000.000000
-MaxShieldPoints 225.000000
+MaxHullPoints 100.000000
+MaxShieldPoints 2000.000000
 HullPointRestoreRate 1.000000
-ShieldPointRestoreRate 0.250000
-BaseArmorPoints 0.000000
+ShieldPointRestoreRate 5.000000
+BaseArmorPoints 1.000000
 maxMitigation 0.200000
 Prerequisites
 	NumResearchPrerequisites 0
@@ -51,7 +51,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PULSEGUN"
-	DamagePerBank:FRONT 45.000000
+	DamagePerBank:FRONT 15.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -89,10 +89,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "PHASEMISSILE"
-	DamagePerBank:FRONT 50.000000
-	DamagePerBank:BACK 50.000000
-	DamagePerBank:LEFT 50.000000
-	DamagePerBank:RIGHT 50.000000
+	DamagePerBank:FRONT 30.000000
+	DamagePerBank:BACK 30.000000
+	DamagePerBank:LEFT 30.000000
+	DamagePerBank:RIGHT 30.000000
 	Range 4500.000000
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter TRUE
