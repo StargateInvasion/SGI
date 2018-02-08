@@ -29,17 +29,17 @@ NumWeapons 2
 Weapon
 	WeaponType "Missile"
 	damageEnums
-		AttackType "ANTIVERYHEAVY"
+		AttackType "ANTIMEDIUM"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 44.400002
+	DamagePerBank:FRONT 45.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 2400.000000
-	PreBuffCooldownTime 13.500000
+	Range 3000.000000
+	PreBuffCooldownTime 10.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.500000
@@ -71,17 +71,17 @@ Weapon
 Weapon
 	WeaponType "Missile"
 	damageEnums
-		AttackType "ANTIVERYHEAVY"
+		AttackType "ANTIMEDIUM"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 44.400002
+	DamagePerBank:FRONT 45.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 2400.000000
-	PreBuffCooldownTime 13.500000
+	Range 3000.000000
+	PreBuffCooldownTime 10.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.500000
@@ -123,8 +123,8 @@ ExplosionName "Fighter0"
 exhaustTrailTextureName "ExhaustTrail"
 exhaustTrailWidth 8.000000
 engineSoundID "ENGINE_TECHSUPPORTSHIP"
-maxHullPoints 100.000000
-hullPointRestoreRate 0.489000
+maxHullPoints 120.000000
+hullPointRestoreRate 0.500000
 armorPoints 2.000000
 maxMitigation 0.600000
 experiencePointsForDestroying 6.500000

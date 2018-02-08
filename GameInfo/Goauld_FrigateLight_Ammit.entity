@@ -15,17 +15,17 @@ NameStringID "IDS_GOAULD_FRIGATELIGHT_AMMIT_NAME"
 DescriptionStringID "IDS_GOAULD_FRIGATELIGHT_AMMIT_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 225.000000
-	metal 50.000000
-	crystal 25.000000
+	credits 200.000000
+	metal 70.000000
+	crystal 100.000000
 slotCount 5.000000
-BuildTime 11.000000
+BuildTime 25.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 3.000000
-MaxHullPoints 400.000000
-MaxShieldPoints 500.000000
+MaxHullPoints 750.000000
+MaxShieldPoints 1000.000000
 HullPointRestoreRate 1.000000
-ShieldPointRestoreRate 1.000000
+ShieldPointRestoreRate 2.000000
 BaseArmorPoints 4.000000
 maxMitigation 0.000000
 Prerequisites
@@ -44,15 +44,15 @@ NumWeapons 1
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIVERYHEAVY"
+		AttackType "ANTIMEDIUM"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 75.000000
-	DamagePerBank:BACK 75.000000
-	DamagePerBank:LEFT 75.000000
-	DamagePerBank:RIGHT 75.000000
+	DamagePerBank:FRONT 25.000000
+	DamagePerBank:BACK 25.000000
+	DamagePerBank:LEFT 25.000000
+	DamagePerBank:RIGHT 25.000000
 	Range 5500.000000
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter TRUE

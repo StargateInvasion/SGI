@@ -43,23 +43,23 @@ bombEffectsDef
 	projectileTravelEffectName "Weapon_PsiCapitalPlanetBombing_Travel"
 mainViewIcon "MAINVIEWICON_ASURAN_CAPITALBATTLESHIP_ORION"
 basePrice
-	credits 5500.000000
-	metal 1600.000000
+	credits 3500.000000
+	metal 5500.000000
 	crystal 2000.000000
-slotCount 95.000000
-BuildTime 200.000000
+slotCount 90.000000
+BuildTime 220.000000
 MaxHullPoints
-	StartValue 7150.000000
-	ValueIncreasePerLevel 315.000000
+	StartValue 5500.000000
+	ValueIncreasePerLevel 500.000000
 MaxShieldPoints
-	StartValue 22300.000000
-	ValueIncreasePerLevel 965.000000
+	StartValue 20000.000000
+	ValueIncreasePerLevel 1000.000000
 HullPointRestoreRate
-	StartValue 16.000000
+	StartValue 10.000000
 	ValueIncreasePerLevel 6.300000
 ShieldPointRestoreRate
 	StartValue 50.000000
-	ValueIncreasePerLevel 19.299999
+	ValueIncreasePerLevel 20.000000
 ArmorPointsFromExperience
 	StartValue 5.000000
 	ValueIncreasePerLevel 0.450000
@@ -109,9 +109,9 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 5500.000000
-	PreBuffCooldownTime 3.500000
-	CanFireAtFighter TRUE
+	Range 6500.000000
+	PreBuffCooldownTime 4.500000
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.080000
 	TravelSpeed 900.000000
@@ -147,12 +147,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PULSEGUN"
-	DamagePerBank:FRONT 300.000000
+	DamagePerBank:FRONT 350.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 250.000000
-	DamagePerBank:RIGHT 250.000000
-	Range 5000.000000
-	PreBuffCooldownTime 4.000000
+	DamagePerBank:LEFT 300.000000
+	DamagePerBank:RIGHT 300.000000
+	Range 6000.000000
+	PreBuffCooldownTime 4.500000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.300000

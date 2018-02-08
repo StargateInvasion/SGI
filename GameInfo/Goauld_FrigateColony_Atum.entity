@@ -16,18 +16,18 @@ NameStringID "IDS_GOAULD_FRIGATECOLONY_ATUM_NAME"
 DescriptionStringID "IDS_GOAULD_FRIGATECOLONY_ATUM_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 450.000000
+	credits 250.000000
 	metal 100.000000
-	crystal 50.000000
+	crystal 150.000000
 slotCount 6.000000
 BuildTime 40.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 20.000000
-MaxHullPoints 1150.000000
-MaxShieldPoints 125.000000
+MaxHullPoints 1000.000000
+MaxShieldPoints 550.000000
 HullPointRestoreRate 1.000000
-ShieldPointRestoreRate 0.500000
-BaseArmorPoints 0.000000
+ShieldPointRestoreRate 2.000000
+BaseArmorPoints 1.000000
 maxMitigation 0.600000
 Prerequisites
 	NumResearchPrerequisites 0
@@ -45,17 +45,17 @@ NumWeapons 1
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIHEAVY"
+		AttackType "ANTILIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 10.000000
-	DamagePerBank:BACK 10.000000
-	DamagePerBank:LEFT 10.000000
-	DamagePerBank:RIGHT 10.000000
-	Range 2500.000000
-	PreBuffCooldownTime 1.000000
+	DamagePerBank:FRONT 15.000000
+	DamagePerBank:BACK 15.000000
+	DamagePerBank:LEFT 15.000000
+	DamagePerBank:RIGHT 15.000000
+	Range 2250.000000
+	PreBuffCooldownTime 3.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.000000

@@ -41,17 +41,17 @@ NameStringID "IDS_GOAULD_FRIGATESIEGE_ALKESH_NAME"
 DescriptionStringID "IDS_GOAULD_FRIGATESIEGE_ALKESH_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 625.000000
-	metal 90.000000
-	crystal 70.000000
+	credits 300.000000
+	metal 120.000000
+	crystal 170.000000
 slotCount 12.000000
-BuildTime 52.000000
+BuildTime 30.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 65.000000
-MaxHullPoints 475.000000
-MaxShieldPoints 285.000000
+MaxHullPoints 400.000000
+MaxShieldPoints 350.000000
 HullPointRestoreRate 1.000000
-ShieldPointRestoreRate 1.000000
+ShieldPointRestoreRate 2.000000
 BaseArmorPoints 2.000000
 maxMitigation 0.000000
 Prerequisites
@@ -73,17 +73,17 @@ NumWeapons 1
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIHEAVY"
+		AttackType "ANTILIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 10.000000
-	DamagePerBank:BACK 10.000000
-	DamagePerBank:LEFT 10.000000
-	DamagePerBank:RIGHT 10.000000
+	DamagePerBank:FRONT 20.000000
+	DamagePerBank:BACK 20.000000
+	DamagePerBank:LEFT 20.000000
+	DamagePerBank:RIGHT 20.000000
 	Range 2500.000000
-	PreBuffCooldownTime 1.000000
+	PreBuffCooldownTime 2.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.000000

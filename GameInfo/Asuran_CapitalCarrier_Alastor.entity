@@ -43,23 +43,23 @@ bombEffectsDef
 	projectileTravelEffectName "Weapon_AsuranCapitalDroneUltra_Travel"
 mainViewIcon "MAINVIEWICON_ASURAN_CAPITALCARRIER_ALASTOR"
 basePrice
-	credits 6000.000000
-	metal 1550.000000
-	crystal 1800.000000
-slotCount 95.000000
-BuildTime 200.000000
+	credits 3000.000000
+	metal 4500.000000
+	crystal 1500.000000
+slotCount 90.000000
+BuildTime 180.000000
 MaxHullPoints
-	StartValue 8550.000000
-	ValueIncreasePerLevel 330.000000
+	StartValue 4500.000000
+	ValueIncreasePerLevel 250.000000
 MaxShieldPoints
-	StartValue 23500.000000
-	ValueIncreasePerLevel 1165.000000
+	StartValue 12000.000000
+	ValueIncreasePerLevel 1000.000000
 HullPointRestoreRate
-	StartValue 24.000000
-	ValueIncreasePerLevel 6.600000
+	StartValue 15.000000
+	ValueIncreasePerLevel 6.000000
 ShieldPointRestoreRate
-	StartValue 66.000000
-	ValueIncreasePerLevel 23.299999
+	StartValue 55.000000
+	ValueIncreasePerLevel 25.000000
 ArmorPointsFromExperience
 	StartValue 3.000000
 	ValueIncreasePerLevel 0.340000
@@ -105,13 +105,13 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "PHASEMISSILE"
-	DamagePerBank:FRONT 450.000000
+	DamagePerBank:FRONT 250.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 150.000000
-	DamagePerBank:RIGHT 150.000000
+	DamagePerBank:LEFT 100.000000
+	DamagePerBank:RIGHT 100.000000
 	Range 5500.000000
 	PreBuffCooldownTime 4.000000
-	CanFireAtFighter TRUE
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 1.080000
 	TravelSpeed 1150.000000
@@ -147,14 +147,14 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PULSEGUN"
-	DamagePerBank:FRONT 400.000000
+	DamagePerBank:FRONT 200.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 150.000000
-	DamagePerBank:RIGHT 150.000000
-	Range 5000.000000
+	DamagePerBank:LEFT 100.000000
+	DamagePerBank:RIGHT 100.000000
+	Range 5500.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
-	SynchronizedTargeting TRUE
+	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.300000
 	TravelSpeed 1200.000000
 	Duration 0.000000
@@ -228,8 +228,8 @@ meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_PhaseCarrier"
 ExplosionName "CapitalShip0"
 CommandPoints
-	StartValue 6.000000
-	ValueIncreasePerLevel 0.900000
+	StartValue 4.000000
+	ValueIncreasePerLevel 0.500000
 weaponCooldownDecreasePerc
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.020000

@@ -15,17 +15,17 @@ NameStringID "IDS_GOAULD_FRIGATEANTIFIGHTER_DUAT_NAME"
 DescriptionStringID "IDS_GOAULD_FRIGATEANTIFIGHTER_DUAT_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"
 basePrice
-	credits 375.000000
-	metal 60.000000
-	crystal 30.000000
+	credits 275.000000
+	metal 160.000000
+	crystal 200.000000
 slotCount 5.000000
-BuildTime 20.000000
+BuildTime 30.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 3.000000
-MaxHullPoints 550.000000
-MaxShieldPoints 700.000000
+MaxHullPoints 600.000000
+MaxShieldPoints 900.000000
 HullPointRestoreRate 1.000000
-ShieldPointRestoreRate 1.000000
+ShieldPointRestoreRate 2.000000
 BaseArmorPoints 3.000000
 maxMitigation 0.000000
 Prerequisites
@@ -47,17 +47,17 @@ NumWeapons 1
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIHEAVY"
+		AttackType "ANTILIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 10.000000
-	DamagePerBank:BACK 10.000000
-	DamagePerBank:LEFT 10.000000
-	DamagePerBank:RIGHT 10.000000
-	Range 2500.000000
-	PreBuffCooldownTime 1.000000
+	DamagePerBank:FRONT 20.000000
+	DamagePerBank:BACK 20.000000
+	DamagePerBank:LEFT 20.000000
+	DamagePerBank:RIGHT 20.000000
+	Range 2250.000000
+	PreBuffCooldownTime 2.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.000000

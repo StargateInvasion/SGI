@@ -47,25 +47,25 @@ bombEffectsDef
 	beamTilingRate 3.000000
 mainViewIcon "MAINVIEWICON_ASURAN_TITANDEFENSE_ATLANTIS"
 basePrice
-	credits 9500.000000
-	metal 1200.000000
-	crystal 750.000000
-slotCount 150.000000
-BuildTime 450.000000
+	credits 5500.000000
+	metal 12000.000000
+	crystal 4750.000000
+slotCount 200.000000
+BuildTime 400.000000
 MaxHullPoints
-	StartValue 8000.180176
-	ValueIncreasePerLevel 436.406311
+	StartValue 10000.000000
+	ValueIncreasePerLevel 500.000000
 MaxShieldPoints
-	StartValue 60000.819092
-	ValueIncreasePerLevel 1006.531250
+	StartValue 40000.000000
+	ValueIncreasePerLevel 1500.000000
 HullPointRestoreRate
-	StartValue 4.700000
-	ValueIncreasePerLevel 0.330000
+	StartValue 20.000000
+	ValueIncreasePerLevel 10.000000
 ShieldPointRestoreRate
-	StartValue 10.300000
-	ValueIncreasePerLevel 0.950000
+	StartValue 50.000000
+	ValueIncreasePerLevel 20.000000
 ArmorPointsFromExperience
-	StartValue 9.500000
+	StartValue 11.000000
 	ValueIncreasePerLevel 0.510000
 maxMitigation
 	StartValue 0.00000
@@ -116,12 +116,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "PHASEMISSILE"
-	DamagePerBank:FRONT 350.000000
-	DamagePerBank:BACK 350.000000
-	DamagePerBank:LEFT 350.000000
-	DamagePerBank:RIGHT 350.000000
-	Range 5500.000000
-	PreBuffCooldownTime 5.500000
+	DamagePerBank:FRONT 250.000000
+	DamagePerBank:BACK 250.000000
+	DamagePerBank:LEFT 250.000000
+	DamagePerBank:RIGHT 250.000000
+	Range 6000.000000
+	PreBuffCooldownTime 5.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.080000
@@ -158,13 +158,13 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PULSEGUN"
-	DamagePerBank:FRONT 350.000000
-	DamagePerBank:BACK 350.000000
-	DamagePerBank:LEFT 350.000000
-	DamagePerBank:RIGHT 350.000000
-	Range 5000.000000
-	PreBuffCooldownTime 5.500000
-	CanFireAtFighter TRUE
+	DamagePerBank:FRONT 175.000000
+	DamagePerBank:BACK 175.000000
+	DamagePerBank:LEFT 175.000000
+	DamagePerBank:RIGHT 175.000000
+	Range 6000.000000
+	PreBuffCooldownTime 6.000000
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.300000
 	TravelSpeed 1200.000000

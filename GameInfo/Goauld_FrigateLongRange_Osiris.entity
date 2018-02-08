@@ -15,15 +15,15 @@ NameStringID "IDS_GOAULD_FRIGATELONGRANGE_OSIRIS_NAME"
 DescriptionStringID "IDS_GOAULD_FRIGATELONGRANGE_OSIRIS_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
 basePrice
-	credits 325.000000
-	metal 35.000000
-	crystal 50.000000
+	credits 225.000000
+	metal 135.000000
+	crystal 150.000000
 slotCount 7.000000
-BuildTime 18.000000
+BuildTime 25.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 5.000000
-MaxHullPoints 600.000000
-MaxShieldPoints 900.000000
+MaxHullPoints 750.000000
+MaxShieldPoints 1200.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.000000
 BaseArmorPoints 3.000000
@@ -56,7 +56,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 50.000000
 	DamagePerBank:RIGHT 50.000000
-	Range 5500.000000
+	Range 6500.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -91,11 +91,11 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 100.000000
+	DamagePerBank:FRONT 75.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 5500.000000
+	Range 6500.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE

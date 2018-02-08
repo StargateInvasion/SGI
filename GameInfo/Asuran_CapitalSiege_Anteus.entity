@@ -47,26 +47,26 @@ bombEffectsDef
 	beamTilingRate 3.000000
 mainViewIcon "MAINVIEWICON_ASURAN_CAPITALSIEGE_ANTEUS"
 basePrice
-	credits 7200.000000
-	metal 4000.000000
+	credits 6000.000000
+	metal 7500.000000
 	crystal 4500.000000
-slotCount 300.000000
-BuildTime 360.000000
+slotCount 150.000000
+BuildTime 300.000000
 MaxHullPoints
-	StartValue 17800.000000
-	ValueIncreasePerLevel 660.000000
+	StartValue 7500.000000
+	ValueIncreasePerLevel 500.000000
 MaxShieldPoints
-	StartValue 38000.000000
-	ValueIncreasePerLevel 1700.000000
+	StartValue 20000.000000
+	ValueIncreasePerLevel 2000.000000
 HullPointRestoreRate
 	StartValue 40.000000
-	ValueIncreasePerLevel 13.200000
+	ValueIncreasePerLevel 10.000000
 ShieldPointRestoreRate
-	StartValue 130.000000
-	ValueIncreasePerLevel 34.000000
+	StartValue 100.000000
+	ValueIncreasePerLevel 50.000000
 ArmorPointsFromExperience
-	StartValue 10.000000
-	ValueIncreasePerLevel 0.670000
+	StartValue 8.000000
+	ValueIncreasePerLevel 0.500000
 maxMitigation
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.05000
@@ -108,13 +108,13 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PULSEGUN"
-	DamagePerBank:FRONT 600.000000
-	DamagePerBank:BACK 400.000000
-	DamagePerBank:LEFT 400.000000
-	DamagePerBank:RIGHT 200.000000
-	Range 5000.000000
-	PreBuffCooldownTime 4.500000
-	CanFireAtFighter TRUE
+	DamagePerBank:FRONT 300.000000
+	DamagePerBank:BACK 225.000000
+	DamagePerBank:LEFT 225.000000
+	DamagePerBank:RIGHT 150.000000
+	Range 5500.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.300000
 	TravelSpeed 1200.000000
@@ -146,12 +146,12 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 2000.000000
+	DamagePerBank:FRONT 1500.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 4800.000000
-	PreBuffCooldownTime 5.000000
+	Range 4500.000000
+	PreBuffCooldownTime 7.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.500000
@@ -192,13 +192,13 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PULSEGUN"
-	DamagePerBank:FRONT 600.000000
-	DamagePerBank:BACK 400.000000
-	DamagePerBank:LEFT 400.000000
-	DamagePerBank:RIGHT 400.000000
-	Range 5000.000000
-	PreBuffCooldownTime 4.500000
-	CanFireAtFighter TRUE
+	DamagePerBank:FRONT 400.000000
+	DamagePerBank:BACK 200.000000
+	DamagePerBank:LEFT 200.000000
+	DamagePerBank:RIGHT 150.000000
+	Range 5500.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.300000
 	TravelSpeed 1200.000000
