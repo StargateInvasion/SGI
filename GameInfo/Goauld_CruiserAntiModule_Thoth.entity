@@ -48,9 +48,9 @@ NameStringID "IDS_GOAULD_CRUISERANTIMODULE_THOTH_NAME"
 DescriptionStringID "IDS_GOAULD_CRUISERANTIMODULE_THOTH_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 1200.000000
-	metal 350.000000
-	crystal 300.000000
+	credits 800.000000
+	metal 550.000000
+	crystal 1000.000000
 slotCount 25.000000
 BuildTime 65.000000
 hasLevels FALSE
@@ -58,7 +58,7 @@ ExperiencePointsForDestroying 10.000000
 MaxHullPoints 2000.000000
 MaxShieldPoints 2500.000000
 HullPointRestoreRate 2.000000
-ShieldPointRestoreRate 2.500000
+ShieldPointRestoreRate 4.500000
 BaseArmorPoints 3.000000
 maxMitigation 0.000000
 Prerequisites
@@ -89,7 +89,7 @@ Weapon
 	DamagePerBank:BACK 75.000000
 	DamagePerBank:LEFT 75.000000
 	DamagePerBank:RIGHT 75.000000
-	Range 5500.000000
+	Range 6000.000000
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -128,9 +128,9 @@ Weapon
 	DamagePerBank:BACK 75.000000
 	DamagePerBank:LEFT 75.000000
 	DamagePerBank:RIGHT 75.000000
-	Range 5500.000000
+	Range 6000.000000
 	PreBuffCooldownTime 5.500000
-	CanFireAtFighter TRUE
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.200000
 	TravelSpeed 1200.000000

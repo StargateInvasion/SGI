@@ -39,26 +39,26 @@ bombEffectsDef
 	projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
 mainViewIcon "MAINVIEWICON_GOAULD_TITANDEFENSE_SOKAR"
 basePrice
-	credits 9000.000000
+	credits 6000.000000
 	metal 2500.000000
-	crystal 1200.000000
+	crystal 5000.000000
 slotCount 150.000000
 BuildTime 450.000000
 MaxHullPoints
-	StartValue 7500.000000
-	ValueIncreasePerLevel 220.000000
+	StartValue 10000.000000
+	ValueIncreasePerLevel 500.000000
 MaxShieldPoints
 	StartValue 15000.000000
-	ValueIncreasePerLevel 300.000000
+	ValueIncreasePerLevel 500.000000
 HullPointRestoreRate
-	StartValue 7.500000
-	ValueIncreasePerLevel 2.200000
+	StartValue 20.000000
+	ValueIncreasePerLevel 5.000000
 ShieldPointRestoreRate
-	StartValue 11.500000
-	ValueIncreasePerLevel 3.000000
+	StartValue 25.000000
+	ValueIncreasePerLevel 5.000000
 ArmorPointsFromExperience
-	StartValue 8.000000
-	ValueIncreasePerLevel 0.334000
+	StartValue 12.000000
+	ValueIncreasePerLevel 0.500000
 maxMitigation
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.0000000
@@ -106,12 +106,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 50.000000
-	DamagePerBank:BACK 50.000000
-	DamagePerBank:LEFT 50.000000
-	DamagePerBank:RIGHT 50.000000
-	Range 4500.000000
-	PreBuffCooldownTime 1.000000
+	DamagePerBank:FRONT 150.000000
+	DamagePerBank:BACK 150.000000
+	DamagePerBank:LEFT 150.000000
+	DamagePerBank:RIGHT 150.000000
+	Range 6500.000000
+	PreBuffCooldownTime 2.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 1.000000
@@ -182,7 +182,7 @@ ExhaustParticleSystemName ""
 ExplosionName "CapitalShip0"
 CommandPoints
 	StartValue 4.000000
-	ValueIncreasePerLevel 0.700000
+	ValueIncreasePerLevel 0.500000
 weaponCooldownDecreasePerc
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.030000

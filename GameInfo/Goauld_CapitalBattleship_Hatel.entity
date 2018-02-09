@@ -39,25 +39,25 @@ weaponType "Projectile"
 	projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
 mainViewIcon "MAINVIEWICON_GOAULD_CAPITALBATTLESHIP_HATEL"
 basePrice
-	credits 3000.000000
-	metal 600.000000
-	crystal 500.000000
-slotCount 44.000000
-BuildTime 120.000000
+	credits 2000.000000
+	metal 750.000000
+	crystal 1500.000000
+slotCount 45.000000
+BuildTime 100.000000
 MaxHullPoints
-	StartValue 5000.000000
-	ValueIncreasePerLevel 130.000000
+	StartValue 5500.000000
+	ValueIncreasePerLevel 500.000000
 MaxShieldPoints
-	StartValue 7500.000000
-	ValueIncreasePerLevel 185.000000
+	StartValue 6500.000000
+	ValueIncreasePerLevel 500.000000
 HullPointRestoreRate
 	StartValue 3.200000
 	ValueIncreasePerLevel 1.300000
 ShieldPointRestoreRate
-	StartValue 4.000000
+	StartValue 6.000000
 	ValueIncreasePerLevel 1.850000
 ArmorPointsFromExperience
-	StartValue 5.000000
+	StartValue 6.000000
 	ValueIncreasePerLevel 0.334000
 maxMitigation
 	StartValue 0.000000
@@ -101,10 +101,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 10.000000
-	DamagePerBank:BACK 10.000000
-	DamagePerBank:LEFT 10.000000
-	DamagePerBank:RIGHT 10.000000
+	DamagePerBank:FRONT 20.000000
+	DamagePerBank:BACK 20.000000
+	DamagePerBank:LEFT 20.000000
+	DamagePerBank:RIGHT 20.000000
 	Range 3000.000000
 	PreBuffCooldownTime 3.000000
 	CanFireAtFighter TRUE
@@ -139,12 +139,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 30.000000
-	DamagePerBank:BACK 30.000000
-	DamagePerBank:LEFT 30.000000
-	DamagePerBank:RIGHT 30.000000
-	Range 4500.000000
-	PreBuffCooldownTime 3.000000
+	DamagePerBank:FRONT 50.000000
+	DamagePerBank:BACK 50.000000
+	DamagePerBank:LEFT 50.000000
+	DamagePerBank:RIGHT 50.000000
+	Range 6000.000000
+	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.500000
@@ -177,12 +177,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 90.000000
-	DamagePerBank:BACK 90.000000
-	DamagePerBank:LEFT 90.000000
-	DamagePerBank:RIGHT 90.000000
-	Range 4500.000000
-	PreBuffCooldownTime 5.000000
+	DamagePerBank:FRONT 100.000000
+	DamagePerBank:BACK 100.000000
+	DamagePerBank:LEFT 100.000000
+	DamagePerBank:RIGHT 100.000000
+	Range 6500.000000
+	PreBuffCooldownTime 6.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.500000
@@ -259,8 +259,8 @@ meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_TechBattleship"
 ExplosionName "CapitalShip0"
 CommandPoints
-	StartValue 3.000000
-	ValueIncreasePerLevel 0.200000
+	StartValue 2.000000
+	ValueIncreasePerLevel 0.500000
 weaponCooldownDecreasePerc
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.031500

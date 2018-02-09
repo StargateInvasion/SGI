@@ -39,26 +39,26 @@ weaponType "Projectile"
 	projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
 mainViewIcon "MAINVIEWICON_GOAULD_CAPITALCARRIER_HATAK"
 basePrice
-	credits 3000.000000
-	metal 400.000000
-	crystal 250.000000
+	credits 2000.000000
+	metal 550.000000
+	crystal 1250.000000
 slotCount 50.000000
-BuildTime 85.000000
+BuildTime 80.000000
 MaxHullPoints
-	StartValue 4350.000000
-	ValueIncreasePerLevel 105.000000
+	StartValue 4500.000000
+	ValueIncreasePerLevel 100.000000
 MaxShieldPoints
-	StartValue 7225.000000
-	ValueIncreasePerLevel 150.000000
+	StartValue 7500.000000
+	ValueIncreasePerLevel 500.000000
 HullPointRestoreRate
 	StartValue 3.500000
 	ValueIncreasePerLevel 1.050000
 ShieldPointRestoreRate
-	StartValue 4.100000
-	ValueIncreasePerLevel 1.200000
+	StartValue 7.500000
+	ValueIncreasePerLevel 1.500000
 ArmorPointsFromExperience
 	StartValue 4.000000
-	ValueIncreasePerLevel 0.333333
+	ValueIncreasePerLevel 0.500000
 maxMitigation
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.0000000
@@ -100,12 +100,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 250.000000
-	DamagePerBank:BACK 250.000000
-	DamagePerBank:LEFT 250.000000
-	DamagePerBank:RIGHT 250.000000
-	Range 5000.000000
-	PreBuffCooldownTime 1.500000
+	DamagePerBank:FRONT 150.000000
+	DamagePerBank:BACK 150.000000
+	DamagePerBank:LEFT 150.000000
+	DamagePerBank:RIGHT 150.000000
+	Range 6000.000000
+	PreBuffCooldownTime 2.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.500000

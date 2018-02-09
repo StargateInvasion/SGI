@@ -39,26 +39,26 @@ bombEffectsDef
 	projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
 mainViewIcon "MAINVIEWICON_GOAULD_TITANOFFENSE_ANUBIS"
 basePrice
-	credits 9500.000000
-	metal 1700.000000
-	crystal 1850.000000
+	credits 7500.000000
+	metal 2000.000000
+	crystal 5000.000000
 slotCount 150.000000
 BuildTime 450.000000
 MaxHullPoints
-	StartValue 14000.000000
-	ValueIncreasePerLevel 400.000000
+	StartValue 10000.000000
+	ValueIncreasePerLevel 500.000000
 MaxShieldPoints
-	StartValue 22000.000000
+	StartValue 20000.000000
 	ValueIncreasePerLevel 550.000000
 HullPointRestoreRate
-	StartValue 14.000000
-	ValueIncreasePerLevel 4.000000
+	StartValue 15.000000
+	ValueIncreasePerLevel 5.000000
 ShieldPointRestoreRate
-	StartValue 22.000000
-	ValueIncreasePerLevel 55.000000
+	StartValue 25.000000
+	ValueIncreasePerLevel 20.000000
 ArmorPointsFromExperience
-	StartValue 10.000000
-	ValueIncreasePerLevel 0.556000
+	StartValue 8.000000
+	ValueIncreasePerLevel 0.500000
 maxMitigation
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.0000000
@@ -106,13 +106,13 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 650.000000
-	DamagePerBank:BACK 650.000000
-	DamagePerBank:LEFT 650.000000
-	DamagePerBank:RIGHT 650.000000
-	Range 4500.000000
+	DamagePerBank:FRONT 500.000000
+	DamagePerBank:BACK 500.000000
+	DamagePerBank:LEFT 500.000000
+	DamagePerBank:RIGHT 500.000000
+	Range 6000.000000
 	PreBuffCooldownTime 4.000000
-	CanFireAtFighter TRUE
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 1.000000
 	TravelSpeed 4000.000000
@@ -138,7 +138,7 @@ Weapon
 		projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 4
+TargetCountPerBank:FRONT 3
 TargetCountPerBank:BACK 2
 TargetCountPerBank:LEFT 3
 TargetCountPerBank:RIGHT 3
@@ -182,7 +182,7 @@ ExhaustParticleSystemName "Exhaust_GoauldBattleship"
 ExplosionName "CapitalShip0"
 CommandPoints
 	StartValue 4.00000
-	ValueIncreasePerLevel 0.200000
+	ValueIncreasePerLevel 0.250000
 weaponCooldownDecreasePerc
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.030000

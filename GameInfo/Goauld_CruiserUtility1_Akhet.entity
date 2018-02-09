@@ -15,17 +15,17 @@ NameStringID "IDS_GOAULD_CRUISERUTILITY1_AKHET_NAME"
 DescriptionStringID "IDS_GOAULD_CRUISERUTILITY1_AKHET_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIMODULE"
 basePrice
-	credits 1000.000000
-	metal 275.000000
-	crystal 300.000000
-slotCount 19.000000
+	credits 550.000000
+	metal 300.000000
+	crystal 950.000000
+slotCount 20.000000
 BuildTime 75.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 15.000000
-MaxHullPoints 2150.000000
-MaxShieldPoints 2850.000000
-HullPointRestoreRate 2.150000
-ShieldPointRestoreRate 2.850000
+MaxHullPoints 1500.000000
+MaxShieldPoints 2000.000000
+HullPointRestoreRate 2.000000
+ShieldPointRestoreRate 4.000000
 BaseArmorPoints 6.000000
 maxMitigation 0.000000
 Prerequisites
@@ -52,13 +52,13 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 30.000000
-	DamagePerBank:BACK 30.000000
-	DamagePerBank:LEFT 30.000000
-	DamagePerBank:RIGHT 30.000000
+	DamagePerBank:FRONT 40.000000
+	DamagePerBank:BACK 40.000000
+	DamagePerBank:LEFT 40.000000
+	DamagePerBank:RIGHT 40.000000
 	Range 5500.000000
-	PreBuffCooldownTime 5.000000
-	CanFireAtFighter TRUE
+	PreBuffCooldownTime 4.000000
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.200000
 	TravelSpeed 1200.000000
@@ -96,8 +96,8 @@ Weapon
 	DamagePerBank:LEFT 75.000000
 	DamagePerBank:RIGHT 75.000000
 	Range 5500.000000
-	PreBuffCooldownTime 5.500000
-	CanFireAtFighter TRUE
+	PreBuffCooldownTime 6.000000
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.200000
 	TravelSpeed 1200.000000
@@ -172,7 +172,7 @@ HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_TECHCAPITALSHIP"
 ability:0 ""
-ability:1 "Goauld_AbilityCruiser_AsgardPulse"
+ability:1 ""
 ability:2 ""
 ability:3 ""
 ability:4 ""

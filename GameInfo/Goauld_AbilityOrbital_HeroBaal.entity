@@ -38,9 +38,9 @@ ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "ResourcesAndMustHaveCapitalCrew"
 resourceCost
-	credits 0.000000
-	metal 0.000000
-	crystal 0.000000
+	credits 2000.000000
+	metal 550.000000
+	crystal 1250.000000
 requiredShipSlots
 	Level:0 50.000000
 	Level:1 50.000000
@@ -52,10 +52,10 @@ requiredCapitalShipSlots
 	Level:2 1.000000
 	Level:3 1.000000
 cooldownTime
-	Level:0 600.000000
-	Level:1 600.000000
-	Level:2 600.000000
-	Level:3 600.000000
+	Level:0 200.000000
+	Level:1 200.000000
+	Level:2 200.000000
+	Level:3 200.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1

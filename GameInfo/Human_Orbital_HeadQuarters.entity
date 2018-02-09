@@ -32,7 +32,7 @@ Prerequisites
 MaxHullPoints 35000.000000
 HullPointRestoreRate 2.000000
 BaseArmorPoints 6.000000
-MaxShieldPoints 0.000000
+MaxShieldPoints 15000.000000
 ShieldPointRestoreRate 0.000000
 maxShieldMitigation 0.000000
 ExperiencePointsForDestroying 25.000000
@@ -48,8 +48,8 @@ angularSpeed 19.999992
 rotateSoundName ""
 rotateFacingType "None"
 rotateConstantly FALSE
-ShieldMeshName ""
-renderShield FALSE
+ShieldMeshName "Human_Shield_TitanOffense_Tartarus"
+renderShield TRUE
 NumSoundsFor:ONATTACKORDERISSUED 0
 NumSoundsFor:ONCREATION 0
 NumSoundsFor:ONGENERALORDERISSUED 0

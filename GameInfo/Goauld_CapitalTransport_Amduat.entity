@@ -46,23 +46,23 @@ bombEffectsDef
 	missileMaxSlowTurnTime 12.000000
 mainViewIcon "MAINVIEWICON_GOAULD_CAPITALTRANSPORT_AMDUAT"
 basePrice
-	credits 3250.000000
-	metal 850.000000
-	crystal 925.000000
+	credits 2000.000000
+	metal 750.000000
+	crystal 2500.000000
 slotCount 55.000000
 BuildTime 100.000000
 MaxHullPoints
-	StartValue 5000.000000
-	ValueIncreasePerLevel 300.000000
+	StartValue 4500.000000
+	ValueIncreasePerLevel 250.000000
 MaxShieldPoints
-	StartValue 8000.000000
-	ValueIncreasePerLevel 450.000000
+	StartValue 7500.000000
+	ValueIncreasePerLevel 500.000000
 HullPointRestoreRate
 	StartValue 5.000000
-	ValueIncreasePerLevel 3.000000
+	ValueIncreasePerLevel 5.000000
 ShieldPointRestoreRate
-	StartValue 8.000000
-	ValueIncreasePerLevel 4.500000
+	StartValue 15.000000
+	ValueIncreasePerLevel 5.000000
 ArmorPointsFromExperience
 	StartValue 7.000000
 	ValueIncreasePerLevel 0.555600
@@ -229,8 +229,8 @@ meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_TechBattleship"
 ExplosionName "CapitalShip0"
 CommandPoints
-	StartValue 0.600000
-	ValueIncreasePerLevel 0.200000
+	StartValue 4.000000
+	ValueIncreasePerLevel 0.500000
 weaponCooldownDecreasePerc
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.030000

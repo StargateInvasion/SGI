@@ -15,17 +15,17 @@ NameStringID "IDS_GOAULD_CRUISERCARRIER_HOKKESH_NAME"
 DescriptionStringID "IDS_GOAULD_CRUISERCARRIER_HOKKESH_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
-	credits 810.000000
+	credits 310.000000
 	metal 160.000000
-	crystal 140.000000
-slotCount 14.000000
-BuildTime 63.000000
+	crystal 540.000000
+slotCount 15.000000
+BuildTime 55.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 80.000000
-MaxHullPoints 1460.000000
-MaxShieldPoints 480.000000
+MaxHullPoints 1000.000000
+MaxShieldPoints 1500.000000
 HullPointRestoreRate 1.500000
-ShieldPointRestoreRate 1.000000
+ShieldPointRestoreRate 3.000000
 BaseArmorPoints 3.000000
 maxMitigation 0.000000
 Prerequisites
@@ -52,12 +52,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 75.000000
-	DamagePerBank:BACK 75.000000
-	DamagePerBank:LEFT 75.000000
-	DamagePerBank:RIGHT 75.000000
+	DamagePerBank:FRONT 60.000000
+	DamagePerBank:BACK 60.000000
+	DamagePerBank:LEFT 60.000000
+	DamagePerBank:RIGHT 60.000000
 	Range 5500.000000
-	PreBuffCooldownTime 5.500000
+	PreBuffCooldownTime 4.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.200000
@@ -110,7 +110,7 @@ squadTypeEntityDef:2 ""
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
-maxNumCommandPoints 3
+maxNumCommandPoints 4
 NumSoundsFor:ONATTACKORDERISSUED 3
 SoundID "FRIGATE_TECHLONGRANGE_ONATTACKORDERISSUED_0"
 SoundID "FRIGATE_TECHLONGRANGE_ONATTACKORDERISSUED_1"

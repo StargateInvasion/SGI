@@ -46,23 +46,23 @@ bombEffectsDef
 	missileMaxSlowTurnTime 12.000000
 mainViewIcon "MAINVIEWICON_GOAULD_CAPITALSIEGE_MELTAK"
 basePrice
-	credits 4250.000000
-	metal 850.000000
-	crystal 925.000000
+	credits 2000.000000
+	metal 750.000000
+	crystal 3000.000000
 slotCount 75.000000
-BuildTime 200.000000
+BuildTime 125.000000
 MaxHullPoints
-	StartValue 5550.000000
-	ValueIncreasePerLevel 325.000000
+	StartValue 5500.000000
+	ValueIncreasePerLevel 500.000000
 MaxShieldPoints
 	StartValue 7500.000000
-	ValueIncreasePerLevel 435.000000
+	ValueIncreasePerLevel 500.000000
 HullPointRestoreRate
-	StartValue 5.550000
-	ValueIncreasePerLevel 3.250000
+	StartValue 5.500000
+	ValueIncreasePerLevel 3.500000
 ShieldPointRestoreRate
-	StartValue 7.500000
-	ValueIncreasePerLevel 4.350000
+	StartValue 10.000000
+	ValueIncreasePerLevel 5.000000
 ArmorPointsFromExperience
 	StartValue 8.000000
 	ValueIncreasePerLevel 0.555600
@@ -117,7 +117,7 @@ Weapon
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.200000
-	TravelSpeed 1200.000000
+	TravelSpeed 2000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
@@ -151,12 +151,12 @@ Weapon
 	DamagePerBank:BACK 100.000000
 	DamagePerBank:LEFT 100.000000
 	DamagePerBank:RIGHT 100.000000
-	Range 5500.000000
-	PreBuffCooldownTime 5.500000
+	Range 6000.000000
+	PreBuffCooldownTime 5.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.200000
-	TravelSpeed 1200.000000
+	TravelSpeed 2000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
@@ -190,12 +190,12 @@ Weapon
 	DamagePerBank:BACK 150.000000
 	DamagePerBank:LEFT 150.000000
 	DamagePerBank:RIGHT 150.000000
-	Range 6500.000000
-	PreBuffCooldownTime 5.500000
+	Range 6000.000000
+	PreBuffCooldownTime 5.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.200000
-	TravelSpeed 1200.000000
+	TravelSpeed 2000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
@@ -269,8 +269,8 @@ meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_TechSiege"
 ExplosionName "CapitalShip0"
 CommandPoints
-	StartValue 0.600000
-	ValueIncreasePerLevel 0.100000
+	StartValue 2.000000
+	ValueIncreasePerLevel 0.500000
 weaponCooldownDecreasePerc
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.036000
