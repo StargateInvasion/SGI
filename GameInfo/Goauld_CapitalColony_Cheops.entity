@@ -21,26 +21,22 @@ bombEffectCount 3
 bombEffectAngleVariance 15.000000
 bombEffectsDef
 	weaponType "Projectile"
-	burstCount 1
-	burstDelay 0.000000
+	burstCount 2
+	burstDelay 0.500000
 	fireDelay 0.000000
-	muzzleEffectName "Weapon_TechCapitalPlanetBombing_Muzzle"
+	muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
 	muzzleSoundMinRespawnTime 0.100000
 	muzzleSounds
 		soundCount 1
-		sound "WEAPON_TECH_PLANETBOMB_MUZZLE"
-	hitEffectName "Weapon_TechCapitalPlanetBombing_Hit"
+		sound "Weapon_Goa'uld_Capital"
+	hitEffectName "Weapon_GoauldCapitalPlasma_Hit"
 	hitHullEffectSounds
-		soundCount 3
-		sound "EXPLOSION_SUB4"
-		sound "EXPLOSION_SUB4_ALT1"
-		sound "EXPLOSION_SUB4_ALT2"
+		soundCount 1
+		sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
 	hitShieldsEffectSounds
-		soundCount 3
-		sound "EXPLOSION_SUB4"
-		sound "EXPLOSION_SUB4_ALT1"
-		sound "EXPLOSION_SUB4_ALT2"
-	projectileTravelEffectName "Weapon_GoauldPlasmaCapital_Travel"
+		soundCount 1
+		sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+	projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
 mainViewIcon "MAINVIEWICON_GOAULD_CAPITALCOLONY_CHEOPS"
 basePrice
 	credits 1000.000000

@@ -20,31 +20,23 @@ bombTransitTime 4.000000
 bombEffectCount 2
 bombEffectAngleVariance 2.500000
 bombEffectsDef
-	weaponType "Beam"
-	burstCount 1
-	burstDelay 0.000000
+	weaponType "Projectile"
+	burstCount 2
+	burstDelay 0.500000
 	fireDelay 0.000000
-	muzzleEffectName "Weapon_PhaseCapitalPlanetBombing_Muzzle"
+	muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
 	muzzleSoundMinRespawnTime 0.100000
 	muzzleSounds
 		soundCount 1
-		sound ""
-	hitEffectName "Weapon_PhaseCapitalPlanetBombing_Hit"
+		sound "Weapon_Goa'uld_Capital"
+	hitEffectName "Weapon_GoauldCapitalPlasma_Hit"
 	hitHullEffectSounds
 		soundCount 1
-		sound ""
+		sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
 	hitShieldsEffectSounds
 		soundCount 1
-		sound ""
-	beamEffectSounds
-		soundCount 1
-		sound "WEAPON_PHASEPLANETBOMB_LOOP"
-	beamGlowTextureName "PhaseCapitalBombingBeam_Glow"
-	beamCoreTextureName "PhaseCapitalBombingBeam_Core"
-	beamWidth 30.000000
-	beamGlowColor ffffffff
-	beamCoreColor ffffffff
-	beamTilingRate 3.000000
+		sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+	projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
 mainViewIcon "MAINVIEWICON_GOAULD_CAPITALSUPPORT_SHUTAK"
 basePrice
 	credits 2500.000000
@@ -117,7 +109,7 @@ Weapon
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.200000
-	TravelSpeed 1200.000000
+	TravelSpeed 2000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
@@ -125,7 +117,7 @@ Weapon
 		burstCount 1
 		burstDelay 0.350000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_GoauldPlasmaHeavy_Muzzle"
+		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 2
@@ -138,7 +130,7 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
-		projectileTravelEffectName "Weapon_GoauldPlasmaMedium_Travel"
+		projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1

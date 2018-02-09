@@ -33,7 +33,7 @@ Weapon
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
-		WeaponClassType "AUTOCANNON"
+		WeaponClassType "PLASMA"
 	DamagePerBank:FRONT 20.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
@@ -43,7 +43,7 @@ Weapon
 	CanFireAtFighter TRUE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000
-	TravelSpeed 4000.000000
+	TravelSpeed 2500.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
@@ -51,7 +51,7 @@ Weapon
 		burstCount 8
 		burstDelay 0.150000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_AutoCannonFighter_Muzzle"
+		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 3
@@ -65,7 +65,7 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
-		projectileTravelEffectName "Weapon_Tech_AutoCannonFighter_Travel"
+		projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
 Weapon
 	WeaponType "Projectile"
 	damageEnums
@@ -73,7 +73,7 @@ Weapon
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
-		WeaponClassType "AUTOCANNON"
+		WeaponClassType "PLASMA"
 	DamagePerBank:FRONT 20.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
@@ -83,7 +83,7 @@ Weapon
 	CanFireAtFighter TRUE
 	SynchronizedTargeting TRUE
 	PointStaggerDelay 0.000000
-	TravelSpeed 4000.000000
+	TravelSpeed 2500.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
@@ -91,7 +91,7 @@ Weapon
 		burstCount 8
 		burstDelay 0.150000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_AutoCannonFighter_Muzzle"
+		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 3
@@ -105,7 +105,7 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
-		projectileTravelEffectName "Weapon_Tech_AutoCannonFighter_Travel"
+		projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1

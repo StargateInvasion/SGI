@@ -58,7 +58,7 @@ Weapon
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.200000
-	TravelSpeed 1200.000000
+	TravelSpeed 2000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
@@ -79,7 +79,7 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
-		projectileTravelEffectName "Weapon_GoauldPlasmaMedium_Travel"
+		projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
