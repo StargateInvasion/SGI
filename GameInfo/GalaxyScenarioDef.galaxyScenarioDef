@@ -1892,12 +1892,62 @@ planetItemsTemplate
 				param "Goauld"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 5
+			items 19
 				item "Goauld:Orbital:HeadQuarters"
 				item "Goauld:Orbital:FrigateFactory"
 				item "Goauld:Orbital:FrigateFactory"
+				item "Goauld:Orbital:CapitalFactory"
+				item "Goauld:Orbital:MetalExtractor"
+				item "Goauld:Orbital:MetalExtractor"
+				item "Goauld:Orbital:CrystalExtractor"
 				item "Goauld:Module:Constructor"
 				item "Goauld:Module:Constructor"
+				item "Goauld:CapitalShip:Colony"
+				item "Goauld:Cruiser:Heavy"
+				item "Goauld:Frigate:Siege"
+				item "Goauld:Frigate:Siege"
+				item "Goauld:Frigate:Scout"
+				item "Goauld:Frigate:Scout"
+				item "Goauld:Orbital:WeaponsPlatform"
+				item "Goauld:Orbital:HangarDefense"
+				item "Goauld:Orbital:HeavyDefense"
+				item "Goauld:Orbital:RepairPlatform"
+		group
+			condition
+				type "PlanetOwnerIsRaceQuickStart"
+				param "Goauld"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 29
+				item "Goauld:Orbital:HeadQuarters"
+				item "Goauld:Orbital:FrigateFactory"
+				item "Goauld:Orbital:FrigateFactory"
+				item "Goauld:Orbital:CapitalFactory"
+				item "Goauld:Orbital:MetalExtractor"
+				item "Goauld:Orbital:MetalExtractor"
+				item "Goauld:Orbital:CrystalExtractor"
+				item "Goauld:Module:Constructor"
+				item "Goauld:Module:Constructor"
+				item "Goauld:CapitalShip:Colony"
+				item "Goauld:Cruiser:Heavy"
+				item "Goauld:Frigate:Siege"
+				item "Goauld:Frigate:Siege"
+				item "Goauld:Frigate:Light"
+				item "Goauld:Frigate:Light"
+				item "Goauld:Frigate:Light"
+				item "Goauld:Frigate:Light"
+				item "Goauld:Frigate:Light"
+				item "Goauld:Frigate:Scout"
+				item "Goauld:Frigate:Scout"
+				item "Goauld:Orbital:WeaponsPlatform"
+				item "Goauld:Orbital:WeaponsPlatform"
+				item "Goauld:Orbital:WeaponsPlatform"
+				item "Goauld:Orbital:WeaponsPlatform"
+				item "Goauld:Orbital:HangarDefense"
+				item "Goauld:Orbital:HangarDefense"
+				item "Goauld:Orbital:HangarDefense"
+				item "Goauld:Orbital:HeavyDefense"
+				item "Goauld:Orbital:RepairPlatform"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
@@ -1965,24 +2015,6 @@ planetItemsTemplate
 				item "Asuran:Frigate:Constructor"
 				item "Asuran:Frigate:Scout"
 				item "Asuran:Frigate:Scout"
-		group
-			condition
-				type "PlanetOwnerIsRaceQuickStart"
-				param "Goauld"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 11
-				item "Goauld:Orbital:HeadQuarters"
-				item "Goauld:Orbital:FrigateFactory"
-				item "Goauld:Orbital:FrigateFactory"
-				item "Goauld:Orbital:CapitalFactory"
-				item "Goauld:Orbital:MetalExtractor"
-				item "Goauld:Orbital:MetalExtractor"
-				item "Goauld:Orbital:CrystalExtractor"
-				item "Goauld:Module:Constructor"
-				item "Goauld:Module:Constructor"
-				item "Goauld:Frigate:Scout"
-				item "Goauld:Frigate:Scout"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
