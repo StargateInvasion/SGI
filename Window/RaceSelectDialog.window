@@ -168,8 +168,8 @@ numFactionWindows 5
 			rightFactionTechFive "RESEARCHSUBJECT_PIRATE_HYPERSPACE_CHARGEUPTIMEDECREASE"
 			rightFactionTechSix "RESEARCHSUBJECT_PIRATE_WEAPONRANGE"
 		selectLeftButton
-			area [-778, 377, 200 , 80]
-			underlayBrush "RaceSelectButtonDisabled"
+			area [778, 377, 200 , 80]
+			underlayBrush "RaceSelectButton"
 			buttonTextFont "TextEntry"
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
 			buttonTextArea [-9999,2,80,50]
