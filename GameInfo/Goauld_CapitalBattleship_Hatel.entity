@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
 ability:0 ""
-ability:1 ""
-ability:2 ""
-ability:3 ""
+ability:1 "Goauld_AbilityCapital_BattleSystems"
+ability:2 "Goauld_AbilityCapital_EMPBlast"
+ability:3 "Goauld_AbilityCapital_CommandStrikeGroup"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -222,7 +222,7 @@ maxAccelerationStrafe 40.000000
 maxDecelerationLinear 100.000000
 maxAccelerationAngular 20.000000
 maxDecelerationAngular 31.999998
-maxSpeedLinear 90.000000
+maxSpeedLinear 500.000000
 maxRollRate 10.000000
 maxRollAngle 15.000000
 squadTypeEntityDef:0 "Goauld_FighterSquad_DeathGlider"
