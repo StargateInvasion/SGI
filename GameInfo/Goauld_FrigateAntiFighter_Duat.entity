@@ -52,16 +52,16 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 20.000000
-	DamagePerBank:BACK 20.000000
-	DamagePerBank:LEFT 20.000000
-	DamagePerBank:RIGHT 20.000000
-	Range 2250.000000
+	DamagePerBank:FRONT 25.000000
+	DamagePerBank:BACK 25.000000
+	DamagePerBank:LEFT 25.000000
+	DamagePerBank:RIGHT 25.000000
+	Range 3500.000000
 	PreBuffCooldownTime 2.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.200000
-	TravelSpeed 2000.000000
+	TravelSpeed 2500.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
