@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "Titan"
-ability:0 "Goauld_AbilityTitan_DeployAG3Turret"
-ability:1 "Goauld_AbilityTitan_Repossession"
-ability:2 "Goauld_AbilityTitan_Sokar"
-ability:3 ""
+ability:0 ""
+ability:1 "Goauld_AbilityTitan_DeployAG3Turret"
+ability:2 "Goauld_AbilityTitan_Repossession"
+ability:3 "Goauld_AbilityTitan_Sokar"
 ability:4 "Goauld_AbilityTitanDefense_Hephestus_Upkeep"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -82,8 +82,7 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"
-UpgradeTypeCount 6
-UpgradeType "Goauld_Titan_Sokar_AbilityB"
+UpgradeTypeCount 5
 UpgradeType "Goauld_Titan_Sokar_AbilityC"
 UpgradeType "Goauld_Titan_Sokar_AbilityD"
 UpgradeType "Goauld_Titan_Sokar_Durability"
