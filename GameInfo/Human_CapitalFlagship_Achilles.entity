@@ -46,16 +46,16 @@ bombEffectsDef
 	missileMaxSlowTurnTime 12.000000
 mainViewIcon "MAINVIEWICON_HUMAN_CAPITALBATTLESHIP_ACHILLES"
 basePrice
-	credits 2325.000000
-	metal 380.000000
-	crystal 340.000000
-slotCount 44.000000
-BuildTime 120.000000
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+slotCount 1.000000
+BuildTime 1.000000
 MaxHullPoints
-	StartValue 3200.000000
+	StartValue 6400.000000
 	ValueIncreasePerLevel 130.000000
 MaxShieldPoints
-	StartValue 4000.000000
+	StartValue 8000.000000
 	ValueIncreasePerLevel 185.000000
 HullPointRestoreRate
 	StartValue 3.200000
@@ -99,7 +99,7 @@ hudIcon "HUDICON_HUMAN_CAPITALBATTLESHIP_ACHILLES"
 smallHudIcon "HUDICONSMALL_HUMAN_CAPITALBATTLESHIP_ACHILLES"
 infoCardIcon "MAINVIEWICON_HUMAN_CAPITALBATTLESHIP_ACHILLES"
 minZoomDistanceMult 2.000000
-NumWeapons 3
+NumWeapons 4
 Weapon
 	WeaponType "Projectile"
 	damageEnums
@@ -112,7 +112,7 @@ Weapon
 	DamagePerBank:BACK 30.000000
 	DamagePerBank:LEFT 50.000000
 	DamagePerBank:RIGHT 50.000000
-	Range 5000.000000
+	Range 4500.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
@@ -152,7 +152,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 5000.000000
+	Range 6000.000000
 	PreBuffCooldownTime 7.500000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -197,7 +197,7 @@ Weapon
 	DamagePerBank:BACK 40.000000
 	DamagePerBank:LEFT 80.000000
 	DamagePerBank:RIGHT 80.000000
-	Range 4500.000000
+	Range 5000.000000
 	PreBuffCooldownTime 6.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -232,6 +232,59 @@ Weapon
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
 		projectileTravelEffectName "Weapon_AsgardPulseCapitalMedium_Travel"
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "TITAN"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "BEAM"
+	DamagePerBank:FRONT 1250.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4500.000000
+	PreBuffCooldownTime 4.0000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 1.300000
+	TravelSpeed 0.000000
+	Duration 1.000000
+	fireConstraintType "Research"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "Human_Research_Ability_AsgardBeams"
+			Level 1
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_BeamCapital_Muzzle"
+		muzzleSoundMinRespawnTime 1.300000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_ASGARDBEAMS_MUZZLE"
+		hitEffectName "Weapon_Psi_BeamCapital_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound ""
+		beamGlowTextureName "PsiCapitalBeam_Glow"
+		beamCoreTextureName "PsiCapitalBeam_Core"
+		beamWidth 20.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
