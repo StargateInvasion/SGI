@@ -67,7 +67,7 @@ periodicAction
 		burstCount 15
 		burstDelay 0.500000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_PsiCapitalPlasmaHeavy_Muzzle"
+		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
 		muzzleSoundMinRespawnTime 0.210000
 		muzzleSounds
 			soundCount 3
@@ -81,7 +81,7 @@ periodicAction
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPON_ASGARDBEAMS_MUZZLE"
-		projectileTravelEffectName "Weapon_AsgardPulseCapitalHeavy_Travel"
+		projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
 numOverTimeActions 1
 overTimeAction
 	buffOverTimeActionType "DrainAntiMatterAndDoDamage"

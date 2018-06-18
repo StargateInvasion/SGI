@@ -245,10 +245,10 @@ Weapon
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 4500.000000
-	PreBuffCooldownTime 4.0000000
+	PreBuffCooldownTime 6.0000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 1.300000
+	PointStaggerDelay 1.800000
 	TravelSpeed 0.000000
 	Duration 1.000000
 	fireConstraintType "Research"
@@ -262,7 +262,7 @@ Weapon
 	WeaponEffects
 		weaponType "Beam"
 		burstCount 1
-		burstDelay 0.000000
+		burstDelay 0.200000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_Psi_BeamCapital_Muzzle"
 		muzzleSoundMinRespawnTime 1.300000

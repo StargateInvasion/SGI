@@ -32,7 +32,7 @@ effectInfo
 	mediumEffectName ""
 	largeEffectName ""
 	soundID ""
-travelSpeed 2500.000000
+travelSpeed 3500.000000
 effectStaggerDelay 0.500000
 hasWeaponEffects TRUE
 weaponEffectOriginType "Targetter"
@@ -45,23 +45,23 @@ canWeaponEffectHitShields TRUE
 weaponEffectsDef
 	weaponType "Projectile"
 	burstCount 6
-	burstDelay 0.700000
+	burstDelay 0.200000
 	fireDelay 0.000000
 	muzzleEffectName "Weapon_PsiCapitalPlasmaHeavy_Muzzle"
 	muzzleSoundMinRespawnTime 0.210000
 	muzzleSounds
 		soundCount 3
-		sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE"
+		sound "Weapon_Goa'uld_Capital"
 		sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE_ALT1"
 		sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE_ALT2"
-	hitEffectName "Weapon_PsiCapitalPlasmaHeavy_Hit"
+	hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
 	hitHullEffectSounds
 		soundCount 1
 		sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
 	hitShieldsEffectSounds
 		soundCount 1
 		sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
-	projectileTravelEffectName "Weapon_AsgardPulseCapitalHeavy_Travel"
+	projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
@@ -92,10 +92,10 @@ antiMatterCost
 	Level:2 9.000000
 	Level:3 12.000000
 cooldownTime
-	Level:0 1.000000
-	Level:1 1.000000
-	Level:2 1.000000
-	Level:3 1.000000
+	Level:0 10.000000
+	Level:1 15.000000
+	Level:2 20.000000
+	Level:3 25.000000
 orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1

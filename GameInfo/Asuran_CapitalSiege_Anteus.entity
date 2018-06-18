@@ -12,8 +12,8 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb TRUE
 hasBombingLevels FALSE
-baseDamage 45.000000
-basePopulationKilled 1.750000
+baseDamage 65.000000
+basePopulationKilled 2.750000
 bombingFreqTime 10.000000
 baseRange 5000.000000
 bombTransitTime 10.000000
@@ -57,12 +57,12 @@ MaxHullPoints
 	ValueIncreasePerLevel 500.000000
 MaxShieldPoints
 	StartValue 20000.000000
-	ValueIncreasePerLevel 2000.000000
+	ValueIncreasePerLevel 1000.000000
 HullPointRestoreRate
 	StartValue 40.000000
 	ValueIncreasePerLevel 10.000000
 ShieldPointRestoreRate
-	StartValue 100.000000
+	StartValue 50.000000
 	ValueIncreasePerLevel 50.000000
 ArmorPointsFromExperience
 	StartValue 8.000000
@@ -71,7 +71,7 @@ maxMitigation
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.05000
 MaxAntiMatter
-	StartValue 1225.000000
+	StartValue 1000.000000
 	ValueIncreasePerLevel 40.000000
 AntiMatterRestoreRate
 	StartValue 1.250000
@@ -146,7 +146,7 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 1500.000000
+	DamagePerBank:FRONT 1000.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -275,7 +275,7 @@ meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_PhaseSiege"
 ExplosionName "CapitalShip0"
 CommandPoints
-	StartValue 3.500000
+	StartValue 0.500000
 	ValueIncreasePerLevel 0.500000
 weaponCooldownDecreasePerc
 	StartValue 0.000000
