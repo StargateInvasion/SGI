@@ -7,7 +7,6 @@ titleStringId "IDSMainMenuScreenTitle"
 titleFont "TabbedScreenTitle"
 titleOverlayRefArea [304, 84,  414 , 90 ]
 titleOverlay "MainMenuScreenTitleOverlay"
-hasUpdateButton FALSE
 singlePlayerButton
 	area [402, 209,  220, 46 ]
 	fontId "ButtonLabel"
@@ -34,7 +33,7 @@ icoButton
 	underlay "ScreenButtonUnderlayLarge"
 	overlay "ScreenButtonOverlayLarge"		
 	icon "MainMenuScreenIcoButton"
-	text "IDSMainMenuScreenIcoButton"	
+	text "IDSMainMenuScreenIcoButton"
 optionsButton
 	area [402, 410,  220, 46 ]
 	fontId "ButtonLabel"
@@ -44,6 +43,15 @@ optionsButton
 	overlay "ScreenButtonOverlayLarge"		
 	icon "MainMenuScreenOptionsButton"
 	text "IDSMainMenuScreenOptionsButton"
+privacyPolicyButton
+	area [402, 750,  220, 46 ]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 32
+	textOffsetFromLeft 60
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"		
+	icon "MainMenuScreenPrivacyPolicyButton"
+	text "IDSMainMenuScreenPrivacyPolicyButton"
 quitButton
 	area [402, 477,  220, 46 ]
 	fontId "ButtonLabel"
@@ -80,4 +88,58 @@ dlc1BackFrameRefArea [-9999, 545, 250, 213]
 dlc1BackNoFrameRefArea [-9999, 624, 250, 213]
 dlc2BackFrameRefArea [-9999, 545, 250, 213]
 dlc2BackNoFrameRefArea [-9999, 624, 250, 213]
-/n
+privacyPolicyCommandLine "privacypolicy.bat"
+gdprDialog
+	backdropDimPercentage 0.8
+	backdropBrush "PlayerInfoScreenBackdrop"
+	titleOverlayBrush "PlayerInfoScreenTitleOverlay"
+	size [693 , 645]
+	contentRefArea [93, 100, 508, 435]
+	titleRefArea [90, 40, 508, 30]
+	titleOverlayRefArea [0, 0, 693, 90]
+	cancelButton
+		area [264, 550, 170, 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 30
+		textOffsetFromLeft 60
+		underlay "TabButtonUnderlayActive"
+		overlay "TabButtonOverlayActive"	
+		icon "DialogScreenCloseButton"
+		text "IDS_GDPRDIALOG_CANCELBUTTON"
+	acceptButton
+		area [441, 550, 170, 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 30
+		textOffsetFromLeft 60
+		underlay "TabButtonUnderlayActive"
+		overlay "TabButtonOverlayActive"		
+		icon "DialogScreenAcceptButton"
+		text "IDS_DIALOGWINDOW_ACCEPTBUTTON"	
+	titleTextId "IDS_GDPRDialogTitle"
+	privacyPolicyButton
+		area [86, 550, 170, 46]
+		fontId "ButtonLabel"
+		iconOffsetFromLeft 32
+		textOffsetFromLeft 60
+		underlay "TabButtonUnderlayActive"
+		overlay "TabButtonOverlayActive"		
+		icon "MainMenuScreenPrivacyPolicyButton"
+		text "IDSMainMenuScreenPrivacyPolicyButton"
+	privacyPolicyCommandLine "privacyPolicy.bat"
+	paragraphs 13
+	paragraph "IDS_GDPRParagraph0"
+	paragraph "IDS_GDPRParagraph1"
+	paragraph "IDS_GDPRParagraph2"
+	paragraph "IDS_GDPRParagraph3"
+	paragraph "IDS_GDPRParagraph4"
+	paragraph "IDS_GDPRParagraph5"
+	paragraph "IDS_GDPRParagraph6"
+	paragraph "IDS_GDPRParagraph7"
+	paragraph "IDS_GDPRParagraph8"
+	paragraph "IDS_GDPRParagraph9"
+	paragraph "IDS_GDPRParagraph10"
+	paragraph "IDS_GDPRParagraph11"
+	paragraph "IDS_GDPRParagraph12"
+textEntryDef
+	labelFontId "Label"
+	textEntryFontId "TextEntry"
