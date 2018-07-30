@@ -17,7 +17,7 @@ singlePlayerButton
 	icon "MainMenuScreenSinglePlayerButton"
 	text "IDSMainMenuScreenSinglePlayerButton"
 multiPlayerButton
-	area [402, 343,  220, 46 ]
+	area [402, 318,  220, 46 ]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 32
 	textOffsetFromLeft 60
@@ -26,7 +26,7 @@ multiPlayerButton
 	icon "MainMenuScreenMultiPlayerButton"
 	text "IDSMainMenuScreenMultiPlayerButton"	
 icoButton
-	area [402, 276,  220, 46 ]
+	area [402, 261,  220, 46 ]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 32
 	textOffsetFromLeft 60
@@ -35,7 +35,7 @@ icoButton
 	icon "MainMenuScreenIcoButton"
 	text "IDSMainMenuScreenIcoButton"
 optionsButton
-	area [402, 410,  220, 46 ]
+	area [402, 373,  220, 46 ]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 32
 	textOffsetFromLeft 60
@@ -44,7 +44,7 @@ optionsButton
 	icon "MainMenuScreenOptionsButton"
 	text "IDSMainMenuScreenOptionsButton"
 privacyPolicyButton
-	area [402, 750,  220, 46 ]
+	area [402, 430,  220, 46 ]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 32
 	textOffsetFromLeft 60
@@ -53,7 +53,7 @@ privacyPolicyButton
 	icon "MainMenuScreenPrivacyPolicyButton"
 	text "IDSMainMenuScreenPrivacyPolicyButton"
 quitButton
-	area [402, 477,  220, 46 ]
+	area [402, 487,  220, 46 ]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 32
 	textOffsetFromLeft 60
@@ -98,7 +98,7 @@ gdprDialog
 	titleRefArea [90, 40, 508, 30]
 	titleOverlayRefArea [0, 0, 693, 90]
 	cancelButton
-		area [264, 550, 170, 46]
+		area [290, 550, 170, 46]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 30
 		textOffsetFromLeft 60
@@ -107,10 +107,10 @@ gdprDialog
 		icon "DialogScreenCloseButton"
 		text "IDS_GDPRDIALOG_CANCELBUTTON"
 	acceptButton
-		area [441, 550, 170, 46]
+		area [451, 550, 170, 46]
 		fontId "ButtonLabel"
 		iconOffsetFromLeft 30
-		textOffsetFromLeft 60
+		textOffsetFromLeft 80
 		underlay "TabButtonUnderlayActive"
 		overlay "TabButtonOverlayActive"		
 		icon "DialogScreenAcceptButton"

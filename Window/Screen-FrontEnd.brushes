@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 222
+brushCount 223
 brush
 	name "DLCButtonBackgroundAshes"
 	content "Simple"
@@ -2880,6 +2880,24 @@ brush
 		pixelBox [ 268 , 331 , 85 , 38 ]
 brush
 	name "MainMenuScreenOptionsButton"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens_Disabled_SGI"
+		pixelBox [ 268 , 372 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens_Normal_SGI"
+		pixelBox [ 268 , 372 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens_CursorOver_SGI"
+		pixelBox [ 268 , 372 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens_Normal_SGI"
+		pixelBox [ 268 , 372 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens_Normal_SGI"
+		pixelBox [ 268 , 372 , 85 , 38 ]
+brush
+	name "MainMenuScreenPrivacyPolicyButton"
 	content "States"
 	Disabled
 		fileName "Buttons_Screens_Disabled_SGI"
