@@ -5,7 +5,37 @@ defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
-canBomb FALSE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 45.000000
+basePopulationKilled 1.750000
+bombingFreqTime 4.000000
+baseRange 5000.000000
+bombTransitTime 0.500000
+bombEffectCount 1
+bombEffectAngleVariance 3.500000
+bombEffectsDef
+	weaponType "Projectile"
+	burstCount 4
+	burstDelay 0.500000
+	fireDelay 1.000000
+	muzzleEffectName "Weapon_PsiCapitalPlanetBombing_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "Asuran_PulseCannon_Firing"
+	hitEffectName "Weapon_PsiCapitalPlanetBombing_Hit"
+	hitHullEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	hitShieldsEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	projectileTravelEffectName "Weapon_AsuranCapitalLaserLight_Travel"
 typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
