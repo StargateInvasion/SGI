@@ -1,4 +1,5 @@
-TXT
+TXT2
+SinsArchiveVersion 193
 tabWindow
 	topLeftOffset [0, -20]
 	buttonTopLeftOffset [33, 97]
@@ -369,8 +370,26 @@ joinGameContentWindow
 			valueOffsetFromLeft 130
 			iconOffsetFromLeft 110
 			iconWidth 30
-		areOutlawSectorsActiveAreas
+		areOutlawSectorsMilitiaActiveAreas
+			area [255, 210, 100, 30]
+			labelOffsetFromLeft 0
+			valueOffsetFromLeft 130
+			iconOffsetFromLeft 110
+			iconWidth 30
+		areMinorFactionsActiveAreas
+			area [255, 240, 100, 30]
+			labelOffsetFromLeft 0
+			valueOffsetFromLeft 130
+			iconOffsetFromLeft 110
+			iconWidth 30
+		areSuperWeaponsActiveAreas
 			area [0, 120, 100, 30]
+			labelOffsetFromLeft 0
+			valueOffsetFromLeft 130
+			iconOffsetFromLeft 110
+			iconWidth 30
+		isAISurrenderActiveAreas
+			area [255, 270, 100, 30]
 			labelOffsetFromLeft 0
 			valueOffsetFromLeft 130
 			iconOffsetFromLeft 110

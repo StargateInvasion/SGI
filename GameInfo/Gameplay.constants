@@ -1,4 +1,5 @@
-TXT
+TXT2
+SinsArchiveVersion 193
 GameplayConstants
 	pingTime 10
 	zoomDistanceLevel0ScalarForPlanets 1.5
@@ -16,6 +17,7 @@ GameplayConstants
 	gravWellThickness 1.0
 	cannonsPerGravityWellRatio 1
 	cannonGravityWellRatioDenominator 4
+	maxAiCannons 3
 	preferNewAssetsGameCountThreshold 5
 	EconomyData
 		DefaultSalvageRefundPercent 0.30
@@ -289,13 +291,13 @@ GameplayConstants
 		DamagePercentBonus:TITAN:Module 1.25
 		DamagePercentBonus:TITAN:Pirate 1.0
 		DamagePercentBonus:TITAN:Titan 1.5
-		DamagePercentBonus:CORVETTE:CapitalShip 0.65
+		DamagePercentBonus:CORVETTE:CapitalShip 0.55
 		DamagePercentBonus:CORVETTE:VeryLight 0.50
 		DamagePercentBonus:CORVETTE:Light 1.5
 		DamagePercentBonus:CORVETTE:Medium 0.6
-		DamagePercentBonus:CORVETTE:Heavy 0.5
+		DamagePercentBonus:CORVETTE:Heavy 0.40
 		DamagePercentBonus:CORVETTE:VeryHeavy 0.55
-		DamagePercentBonus:CORVETTE:Module 0.35
+		DamagePercentBonus:CORVETTE:Module 0.25
 		DamagePercentBonus:CORVETTE:Pirate 0.50
 		DamagePercentBonus:CORVETTE:Titan 0.7		
 		HullPointPercentageIncreasePerArmorPoint 0.05
@@ -984,31 +986,164 @@ GameplayConstants
 		occupationVictoryPlanetTemplate "Template:OccupiedPlanet"
 		occupationVictoryTime 1200
 	outlawSectorsData
-		militiaMainViewXOffsetScalar 0
-		militiaMainViewYOffsetScalar -.75		
-		militiaMainViewIconSizeScalar .55
-		militiaMainViewIconXOffsetScalar 0.0
-		militiaMainViewIconYOffsetScalar -.4		
-		militiaHUDIconSizeScalar .4
-		militiaHUDIconXOffsetScalar 0.0
-		militiaHUDIconYOffsetScalar .05
-		spawnShips
-			minFleetPoints 20.000000
-			maxFleetPoints 20.000000
-			requiredShipCount 0
-			randomShipCount 4
-			randomShip
-				type "FrigatePirateScout"
-				weight 4
-			randomShip
-				type "FrigatePirateMedium"
-				weight 5
-			randomShip
-				type "FrigatePirateHeavy"
-				weight 6
-			randomShip
-				type "FrigatePirateAntiFighter"
-				weight 3
+		npcIconOffset:Mesh
+			xOffset 0
+			yOffset -35
+		npcIconOffset:MainViewIcon
+			xOffset 0
+			yOffset -10
+		npcIconOffset:HUDIcon
+			xOffset -9
+			yOffset -9
+		npcIconOffset:PlanetIcon
+			xOffset 0
+			yOffset -52
+		outlawSpawnShipsType "MatchPlayerRace"
+		numOutlawSpawnShipsOptionsCount 6
+		outlawSpawnShipsOptions
+			raceEntityName "PlayerTechRebel"
+			spawnShips
+				minFleetPoints 20.000000
+				maxFleetPoints 20.000000
+				requiredShipCount 0
+				randomShipCount 4
+				randomShip
+					type "FrigatePirateScout"
+					weight 4
+				randomShip
+					type "FrigatePirateMedium"
+					weight 5
+				randomShip
+					type "FrigatePirateHeavy"
+					weight 6
+				randomShip
+					type "FrigatePirateAntiFighter"
+					weight 3
+		outlawSpawnShipsOptions
+			raceEntityName "PlayerTechLoyalist"
+			spawnShips
+				minFleetPoints 20.000000
+				maxFleetPoints 20.000000
+				requiredShipCount 0
+				randomShipCount 6
+				randomShip
+					type "FrigateTECHLight"
+					weight 4
+				randomShip
+					type "FrigateTECHLongRange"
+					weight 5
+				randomShip
+					type "FrigateTECHHeavy"
+					weight 6
+				randomShip
+					type "FrigateTECHAntiFighter"
+					weight 3
+				randomShip
+					type "CorvetteTECHRebel"
+					weight 2
+				randomShip
+					type "FrigateTECHCarrier"
+					weight 1
+		outlawSpawnShipsOptions
+			raceEntityName "PlayerPsiRebel"
+			spawnShips
+				minFleetPoints 20.000000
+				maxFleetPoints 20.000000
+				requiredShipCount 0
+				randomShipCount 6
+				randomShip
+					type "FrigatePSILight"
+					weight 4
+				randomShip
+					type "FrigatePSILongRange"
+					weight 5
+				randomShip
+					type "FrigatePSIHeavy"
+					weight 6
+				randomShip
+					type "FrigatePSIAntiFighter"
+					weight 3
+				randomShip
+					type "CorvettePSIRebel"
+					weight 2
+				randomShip
+					type "FrigatePSICarrier"
+					weight 1
+		outlawSpawnShipsOptions
+			raceEntityName "PlayerPsiLoyalist"
+			spawnShips
+				minFleetPoints 20.000000
+				maxFleetPoints 20.000000
+				requiredShipCount 0
+				randomShipCount 6
+				randomShip
+					type "FrigatePSILight"
+					weight 4
+				randomShip
+					type "FrigatePSILongRange"
+					weight 5
+				randomShip
+					type "FrigatePSIHeavy"
+					weight 6
+				randomShip
+					type "FrigatePSIAntiFighter"
+					weight 3
+				randomShip
+					type "CorvettePSIRebel"
+					weight 2
+				randomShip
+					type "FrigatePSICarrier"
+					weight 1
+		outlawSpawnShipsOptions
+			raceEntityName "PlayerPhaseRebel"
+			spawnShips
+				minFleetPoints 20.000000
+				maxFleetPoints 20.000000
+				requiredShipCount 0
+				randomShipCount 6
+				randomShip
+					type "FrigatePHASELight"
+					weight 4
+				randomShip
+					type "FrigatePHASELongRange"
+					weight 5
+				randomShip
+					type "FrigatePHASEHeavy"
+					weight 6
+				randomShip
+					type "FrigatePHASEAntiFighter"
+					weight 3
+				randomShip
+					type "CorvettePHASERebel"
+					weight 2
+				randomShip
+					type "FrigatePHASECarrier"
+					weight 1
+		outlawSpawnShipsOptions
+			raceEntityName "PlayerPhaseLoyalist"
+			spawnShips
+				minFleetPoints 20.000000
+				maxFleetPoints 20.000000
+				requiredShipCount 0
+				randomShipCount 6
+				randomShip
+					type "FrigatePHASELight"
+					weight 4
+				randomShip
+					type "FrigatePHASELongRange"
+					weight 5
+				randomShip
+					type "FrigatePHASEHeavy"
+					weight 6
+				randomShip
+					type "FrigatePHASEAntiFighter"
+					weight 3
+				randomShip
+					type "CorvettePHASERebel"
+					weight 2
+				randomShip
+					type "FrigatePHASECarrier"
+					weight 1
 		baseFleetCapacity 20.0
 		maxFleetSupplyPerPlanetPopulation .025
 		fleetSupplyMin 100.0
@@ -1024,3 +1159,168 @@ GameplayConstants
 		maxPlanetsFleetSupplyScalar .15
 		pirateBountyBonusScalar 1.25
 		pirateRaidRaidTimeScalar .85
+	minorFactionsData
+		npcIconOffset:Mesh
+			xOffset 0
+			yOffset -35
+		npcIconOffset:MainViewIcon
+			xOffset 0
+			yOffset -10
+		npcIconOffset:HUDIcon
+			xOffset -9
+			yOffset -9
+		npcIconOffset:PlanetIcon
+			xOffset 0
+			yOffset -52
+		colonizePlanetBlackListCount 2
+		planet "PlanetShipGraveyard"
+		planet "PlanetDeadAsteroid"
+		colonizablePlanetsWithMinorFactionsPercent 0.25
+		minConnectionDistanceToColonizedPlanets 2
+		minConnectionDistanceToSameFactionPlanets 5
+		minAdjacentPlanetCount 2
+		infrastructurePlanetUpgradeLevel 2
+		populationPlanetUpgradeLevel 3
+		civilianModulesUpgradeLevel 2
+		tacticalModulesUpgradeLevel 1
+		planetIncomeScalar 0.33333
+		planetCultureRepelAdditiveBonus 1.5
+		spawnTime 600
+		spawnTimeVariance 120
+		minorFactionPlayerDefCount 17
+		minorFactionPlayerDef
+			name "DefaultTech"
+			planetAbilities
+				ability:0 "AbilityMinorFactionRepairShips"
+				ability:1 "AbilityMinorFactionTradeMetalForCredits"
+				ability:2 "AbilityMinorFactionSpawnDefenseRaidTech"
+				ability:3 "AbilityMinorFactionSpawnAttackRaidTech"
+				ability:4 ""
+		minorFactionPlayerDef
+			name "DefaultPsi"
+			planetAbilities
+				ability:0 "AbilityMinorFactionFarSight"
+				ability:1 "AbilityMinorFactionTradeCrystalForCredits"
+				ability:2 "AbilityMinorFactionSpawnDefenseRaidPsi"
+				ability:3 "AbilityMinorFactionSpawnAttackRaidPsi"
+				ability:4 ""
+		minorFactionPlayerDef
+			name "DefaultPhase"
+			planetAbilities
+				ability:0 "AbilityMinorFactionSpawnAttackRaidPhase"
+				ability:1 "AbilityMinorFactionSpawnDefenseRaidPhase"
+				ability:2 "AbilityMinorFactionTradeCreditsForMetal"
+				ability:3 ""
+				ability:4 ""
+		minorFactionPlayerDef
+			name "TechMiners"
+			planetAbilities
+				ability:0 "AbilityMinorFactionTradeMetalForCreditsBetterRate"
+				ability:1 "AbilityMinorFactionTradeCrystalForCreditsBetterRate"
+				ability:2 ""
+				ability:3 ""
+				ability:4 ""
+		minorFactionPlayerDef
+			name "TechScrappers"
+			planetAbilities
+				ability:0 "AbilityMinorFactionScrapFrigates"
+				ability:1 "AbilityMinorFactionArmorBonus"
+				ability:2 "AbilityMinorFactionRepairShips"
+				ability:3 "AbilityMinorFactionTradeMetalForCredits"
+				ability:4 ""
+		minorFactionPlayerDef
+			name "TechSiegeRaiders"
+			planetAbilities
+				ability:0 "AbilityMinorFactionSpawnAttackRaidTech"
+				ability:1 "AbilityMinorFactionSpawnSiegeRaidTech"
+				ability:2 "AbilityMinorFactionBombingDamageBonus"
+				ability:3 "AbilityMinorFactionTradeCreditsForCrystal"
+				ability:4 ""
+		minorFactionPlayerDef
+			name "TechDemolitionists"
+			planetAbilities
+				ability:0 "AbilityMinorFactionSpawnAntiModuleRaidTech"
+				ability:1 "AbilityMinorFactionAntiModuleDamageBonus"
+				ability:2 ""
+				ability:3 ""
+				ability:4 ""
+		minorFactionPlayerDef
+			name "TechXenophobes"
+			planetAbilities
+				ability:0 "AbilityMinorFactionSpawnAttackRaidNonTechTarget0"
+				ability:1 "AbilityMinorFactionSpawnAttackRaidNonTechTarget1"
+				ability:2 "AbilityMinorFactionCultureResistance"
+				ability:3 "AbilityMinorFactionTradeCreditsForMetal"
+				ability:4 ""
+		minorFactionPlayerDef
+			name "TechDefensive"
+			planetAbilities
+				ability:0 "AbilityMinorFactionRepairShips"
+				ability:1 "AbilityMinorFactionSpawnDefenseRaidTech"
+				ability:2 ""
+				ability:3 ""
+				ability:4 ""
+		minorFactionPlayerDef
+			name "TechUsedFrigates"
+			planetAbilities
+				ability:0 "AbilityMinorFactionSellFrigatesAntiFighter"
+				ability:1 "AbilityMinorFactionSellFrigatesLongRange"
+				ability:2 "AbilityMinorFactionSellFrigatesHeavy"
+				ability:3 ""
+				ability:4 ""
+		minorFactionPlayerDef
+			name "PsiPacifists"
+			planetAbilities
+				ability:0 "AbilityMinorFactionFarSight"
+				ability:1 "AbilityMinorFactionAntiMatterRestoreBonus"
+				ability:2 "AbilityMinorFactionShieldRestoreBonus"
+				ability:3 ""
+				ability:4 ""
+		minorFactionPlayerDef
+			name "PsiCulture"
+			planetAbilities
+				ability:0 "AbilityMinorFactionSpreadCulture"
+				ability:1 "AbilityMinorFactionSpawnDefenseRaidPsiUtility"
+				ability:2 "AbilityMinorFactionTradeCreditsForCrystal"
+				ability:3 ""
+				ability:4 ""
+		minorFactionPlayerDef
+			name "PsiDoomCult"
+			planetAbilities
+				ability:0 "AbilityMinorFactionSpawnRandomAttackRaids"
+				ability:1 "AbilityMinorFactionStealAdjacentPlanetPopulation"
+				ability:2 "AbilityMinorFactionSacrificePopulationForDamage"
+				ability:3 ""
+				ability:4 ""
+		minorFactionPlayerDef
+			name "PsiSiegeRaiders"
+			planetAbilities
+				ability:0 "AbilityMinorFactionSpawnAttackRaidPsi"
+				ability:1 "AbilityMinorFactionSpawnSiegeRaidPsi"
+				ability:2 ""
+				ability:3 ""
+				ability:4 ""
+		minorFactionPlayerDef
+			name "PhaseTransporters"
+			planetAbilities
+				ability:0 "AbilityMinorFactionSpawnRemoteAttackRaidPhase"
+				ability:1 "AbilityMinorFactionHyperspaceSpeedBonus"
+				ability:2 "AbilityMinorFactionSellCapitalShipPhaseScout"
+				ability:3 ""
+				ability:4 ""
+		minorFactionPlayerDef
+			name "PhaseExpedition"
+			planetAbilities
+				ability:0 "AbilityMinorFactionExploreNearbyPlanets"
+				ability:1 "AbilityMinorFactionColonizeBonus"
+				ability:2 "AbilityMinorFactionSpawnScoutRaidPhase"
+				ability:3 "AbilityMinorFactionSpeedBonus"
+				ability:4 ""
+		minorFactionPlayerDef
+			name "PhaseArmsDealers"
+			planetAbilities
+				ability:0 "AbilityMinorFactionWeaponDamageBonus"
+				ability:1 "AbilityMinorFactionBombingDamageBonusPhase"
+				ability:2 "AbilityMinorFactionTradeCreditsForMetal"
+				ability:3 ""
+				ability:4 ""

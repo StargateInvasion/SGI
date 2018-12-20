@@ -1,4 +1,5 @@
-TXT
+TXT2
+SinsArchiveVersion 193
 resetSelectedGameEventTime 8
 showNewGameEventTime 30
 fadeGameEventTime 4
@@ -1673,6 +1674,16 @@ GameEventDef:UseAbilityUnmetConstraintHasAbilityWithCooldown
 	onlyAddIfSelected FALSE
 	onlyAddIfNotInView FALSE
 	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintHasColonizeAbility
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
 GameEventDef:UseAbilityUnmetConstraintHasAntimatter
 	categoryId "Default"
 	hudButtonBrush ""
@@ -1773,6 +1784,16 @@ GameEventDef:UseAbilityUnmetConstraintIsExplored
 	onlyAddIfSelected FALSE
 	onlyAddIfNotInView FALSE
 	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintNotIsExplored
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
 GameEventDef:UseAbilityUnmetConstraintIsResourceExtractor
 	categoryId "Default"
 	hudButtonBrush ""
@@ -1794,6 +1815,16 @@ GameEventDef:UseAbilityUnmetConstraintIsMovingToLocalOrbitBody
 	onlyAddIfNotInView FALSE
 	shouldRemoveAllSimilarEvents TRUE
 GameEventDef:UseAbilityUnmetConstraintIsPsi
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintNotIsTech
 	categoryId "Default"
 	hudButtonBrush ""
 	entityThrottleTime 0.0
@@ -1913,6 +1944,26 @@ GameEventDef:UseAbilityUnmetConstraintIsInNonFriendlyGravityWell
 	onlyAddIfSelected FALSE
 	onlyAddIfNotInView FALSE
 	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintNotIsMinorFactionOwned
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetConstraintNotIsOutlaw
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
 GameEventDef:UseAbilityUnmetOwnerLinked
 	categoryId "Default"
 	hudButtonBrush ""
@@ -1964,6 +2015,16 @@ GameEventDef:UseAbilityUnmetOwnerNoOwner
 	onlyAddIfNotInView FALSE
 	shouldRemoveAllSimilarEvents TRUE
 GameEventDef:UseAbilityUnmetOwnerAlliedOrEnemy
+	categoryId "Default"
+	hudButtonBrush ""
+	entityThrottleTime 0.0
+	globalSoundThrottleTime 0.0
+	thottleSharedGameEventId "Invalid"
+	onlyAddIfNotFocused FALSE
+	onlyAddIfSelected FALSE
+	onlyAddIfNotInView FALSE
+	shouldRemoveAllSimilarEvents TRUE
+GameEventDef:UseAbilityUnmetOwnerUncontrolledMinorFaction
 	categoryId "Default"
 	hudButtonBrush ""
 	entityThrottleTime 0.0

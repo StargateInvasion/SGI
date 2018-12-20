@@ -1,4 +1,5 @@
-TXT
+TXT2
+SinsArchiveVersion 193
 backdropDimPercentage 0.7
 backdropBrush "GameOptionsScreenBackdrop"
 titleOverlayBrush "GameOptionsScreenTitleOverlay"
@@ -42,7 +43,7 @@ arePiratesActiveButton
 	false
 		icon "GameOptionsArePiratesActiveFalse"
 		text "IDSGameOptionsArePiratesActiveFalse"
-areOutlawSectorsActiveButton
+areOutlawSectorsMilitiaActiveButton
 	area [25, 172, 220 , 46]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
@@ -50,15 +51,54 @@ areOutlawSectorsActiveButton
 	underlay "ScreenButtonUnderlayLarge"
 	overlay "ScreenButtonOverlayLarge"			
 	true
-		icon "GameOptionsAreOutlawSectorsActiveTrue"
-		text "IDSGameOptionsAreOutlawSectorsActiveTrue"
+		icon "GameOptionsAreOutlawSectorsMilitiaActiveTrue"
+		text "IDSGameOptionsAreOutlawSectorsMilitiaActiveTrue"
 	false
-		icon "GameOptionsAreOutlawSectorsActiveFalse"
-		text "IDSGameOptionsAreOutlawSectorsActiveFalse"
-useQuickStartButton
+		icon "GameOptionsAreOutlawSectorsMilitiaActiveFalse"
+		text "IDSGameOptionsAreOutlawSectorsMilitiaActiveFalse"
+areMinorFactionsActiveButton
 	area [25, 224, 220 , 46]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	true
+		icon "GameOptionsAreMinorFactionsActiveTrue"
+		text "IDSGameOptionsAreMinorFactionsActiveTrue"
+	false
+		icon "GameOptionsAreMinorFactionsActiveFalse"
+		text "IDSGameOptionsAreMinorFactionsActiveFalse"
+areSuperWeaponsActiveButton
+	area [25, 276, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	true
+		icon "GameOptionsAreSuperWeaponsActiveTrue"
+		text "IDSGameOptionsAreSuperWeaponsActiveTrue"
+	false
+		icon "GameOptionsAreSuperWeaponsActiveFalse"
+		text "IDSGameOptionsAreSuperWeaponsActiveFalse"
+isAISurrenderActiveButton
+	area [25, 328, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 22
+	textOffsetFromLeft 70
+	underlay "ScreenButtonUnderlayLarge"
+	overlay "ScreenButtonOverlayLarge"			
+	true
+		icon "GameOptionsIsAISurrenderActiveTrue"
+		text "IDSGameOptionsIsAISurrenderActiveTrue"
+	false
+		icon "GameOptionsIsAISurrenderActiveFalse"
+		text "IDSGameOptionsIsAISurrenderActiveFalse"
+useQuickStartButton
+	area [25, 380, 220 , 46]
+	fontId "ButtonLabel"
+	iconOffsetFromLeft 2
 	textOffsetFromLeft 70
 	underlay "ScreenButtonUnderlayLarge"
 	overlay "ScreenButtonOverlayLarge"			
@@ -69,7 +109,7 @@ useQuickStartButton
 		icon "GameOptionsUseQuickStartFalse"
 		text "IDSGameOptionsUseQuickStartFalse"
 randomEventsEnabledButton
-	area [25, 276, 220 , 46]
+	area [257, 328, 220 , 46]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
 	textOffsetFromLeft 70

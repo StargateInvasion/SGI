@@ -1,4 +1,5 @@
-TXT
+TXT2
+SinsArchiveVersion 193
 starTypeCount 9
 starType
 	designName "RandomStar"
@@ -771,7 +772,7 @@ orbitBodyType
 orbitBodyType	
 	typeName "DeadAsteroid"
 	entityDefName "PlanetDeadAsteroid"
-	defaultTemplateName ""	
+	defaultTemplateName "Template:DefaultStart_DeadAsteroid"
 orbitBodyType	
 	typeName "AsteroidBelt"
 	entityDefName "PlanetAsteroidBelt"
@@ -1343,7 +1344,7 @@ planetItemType
 	designName "Pirate:Module:GaussDefense"
 	entityDefName "Human_Orbital_WeaponsPlatform"
 planetItemType
-	designName "Phase:Corvette:Loyalist"
+	designName "Goauld:Corvette:Loyalist"
 	entityDefName "CorvettePhaseLoyalist"
 planetItemType
 	designName "Psi:Frigate:AntiFighter"
@@ -1730,14 +1731,15 @@ playerType
 playerType
 	designName "Pirate"
 	entityDefName "PlayerPirate"
-planetItemsTemplateCount 59
+planetItemsTemplateCount 60
 planetItemsTemplate
 	templateName "Empty"
 	subTemplates 0
 	groups 0		
 planetItemsTemplate
 	templateName "Template:DefaultHomePlanetSetup"
-	subTemplates 0
+	subTemplates 1
+		template "Template:DefaultMinorFaction"
 	groups 12
 		group
 			condition
@@ -2058,12 +2060,14 @@ planetItemsTemplate
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_DeadAsteroid"
-	subTemplates 1
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitia_DeadAsteroid"
 	groups 0
 planetItemsTemplate
 	templateName "Template:DefaultStart_ShipGraveyard"
-	subTemplates 1
+	subTemplates 2
+		template "Template:DefaultHomePlanetSetup"
 		template "Template:LocalMilitia_ShipGraveyard"
 	groups 0
 planetItemsTemplate
@@ -3030,6 +3034,525 @@ planetItemsTemplate
 				item "Asuran:Cruiser:Heavy"
 				item "Asuran:Cruiser:Heavy"
 				item "Asuran:Cruiser:Heavy"
+planetItemsTemplate
+	templateName "Template:DefaultMinorFaction"
+	subTemplates 0
+	groups 17
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "DefaultTech"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 22
+				item "Human:Module:FrigateFactory"
+				item "Human:Module:TradePort"
+				item "Human:Module:RepairPlatform"
+				item "Human:Module:GaussDefense"	
+				item "Human:Module:GaussDefense"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Frigate:Light"
+				item "Human:Frigate:Light"
+				item "Human:Frigate:Light"
+				item "Human:Frigate:LongRange"
+				item "Human:Frigate:LongRange"
+				item "Human:Frigate:AntiFighter"
+				item "Human:Frigate:Heavy"
+				item "Human:Frigate:Constructor"
+				item "Human:Frigate:Constructor"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "DefaultPsi"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 22
+				item "Psi:Module:FrigateFactory"
+				item "Psi:Module:TradePort"
+				item "Psi:Module:RepairPlatform"
+				item "Psi:Module:BeamDefense"	
+				item "Psi:Module:BeamDefense"
+				item "Psi:Module:CrystalExtractor"
+				item "Psi:Module:CrystalExtractor"
+				item "Psi:Module:CrystalExtractor"
+				item "Psi:Module:CrystalExtractor"
+				item "Psi:Module:MetalExtractor"
+				item "Psi:Module:MetalExtractor"
+				item "Psi:Module:MetalExtractor"
+				item "Psi:Module:MetalExtractor"
+				item "Psi:Frigate:Light"
+				item "Psi:Frigate:Light"
+				item "Psi:Frigate:Light"
+				item "Psi:Frigate:LongRange"
+				item "Psi:Frigate:LongRange"
+				item "Psi:Frigate:AntiFighter"
+				item "Psi:Frigate:Heavy"
+				item "Psi:Frigate:Constructor"
+				item "Psi:Frigate:Constructor"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "DefaultPhase"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 20
+				item "Goauld:Module:FrigateFactory"
+				item "Goauld:Module:TradePort"
+				item "Goauld:Module:RepairPlatform"
+				item "Goauld:Module:MissileDefense"	
+				item "Goauld:Module:MissileDefense"	
+				item "Goauld:Module:CrystalExtractor"
+				item "Goauld:Module:CrystalExtractor"
+				item "Goauld:Module:CrystalExtractor"
+				item "Goauld:Module:CrystalExtractor"
+				item "Goauld:Module:MetalExtractor"
+				item "Goauld:Module:MetalExtractor"
+				item "Goauld:Module:MetalExtractor"
+				item "Goauld:Module:MetalExtractor"
+				item "Goauld:Frigate:Light"
+				item "Goauld:Frigate:Light"
+				item "Goauld:Frigate:LongRange"
+				item "Goauld:Frigate:AntiFighter"
+				item "Goauld:Frigate:Heavy"
+				item "Goauld:Frigate:Constructor"
+				item "Goauld:Frigate:Constructor"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "TechMiners"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 23
+				item "Human:Module:FrigateFactory"
+				item "Human:Module:TradePort"
+				item "Human:Module:RepairPlatform"
+				item "Human:Module:GaussDefense"	
+				item "Human:Module:GaussDefense"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Module:Refinery"
+				item "Human:Frigate:Light"
+				item "Human:Frigate:Light"
+				item "Human:Frigate:Light"
+				item "Human:Frigate:LongRange"
+				item "Human:Frigate:LongRange"
+				item "Human:Frigate:AntiFighter"
+				item "Human:Frigate:Heavy"
+				item "Human:Frigate:Constructor"
+				item "Human:Frigate:Constructor"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "TechScrappers"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 22
+				item "Human:Module:FrigateFactory"
+				item "Human:Module:TradePort"
+				item "Human:Module:RepairPlatform"
+				item "Human:Module:GaussDefense"	
+				item "Human:Module:GaussDefense"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Frigate:Light"
+				item "Human:Frigate:Light"
+				item "Human:Frigate:Light"
+				item "Human:Frigate:LongRange"
+				item "Human:Frigate:LongRange"
+				item "Human:Frigate:AntiFighter"
+				item "Human:Frigate:Heavy"
+				item "Human:Frigate:Constructor"
+				item "Human:Frigate:Constructor"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "TechSiegeRaiders"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 28
+				item "Human:Module:FrigateFactory"
+				item "Human:Module:CapitalShipFactory"
+				item "Human:Module:TradePort"
+				item "Human:Module:RepairPlatform"
+				item "Human:Module:GaussDefense"	
+				item "Human:Module:GaussDefense"
+				item "Human:Module:GaussDefense"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:CapitalShip:Siege"
+				item "Human:Frigate:Light"
+				item "Human:Frigate:Light"
+				item "Human:Frigate:Light"
+				item "Human:Frigate:LongRange"
+				item "Human:Frigate:LongRange"
+				item "Human:Frigate:AntiFighter"
+				item "Human:Frigate:Heavy"
+				item "Human:Frigate:Heavy"
+				item "Human:Frigate:Siege"
+				item "Human:Frigate:Siege"
+				item "Human:Frigate:Constructor"
+				item "Human:Frigate:Constructor"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "TechDemolitionists"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 25
+				item "Human:Module:FrigateFactory"
+				item "Human:Module:TradePort"
+				item "Human:Module:RepairPlatform"
+				item "Human:Module:GaussDefense"	
+				item "Human:Module:GaussDefense"
+				item "Human:Module:GaussDefense"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Frigate:Light"
+				item "Human:Frigate:Light"
+				item "Human:Frigate:Light"
+				item "Human:Frigate:LongRange"
+				item "Human:Frigate:LongRange"
+				item "Human:Frigate:AntiFighter"
+				item "Human:Frigate:Heavy"
+				item "Human:Frigate:Heavy"
+				item "Human:Frigate:AntiModule"
+				item "Human:Frigate:Constructor"
+				item "Human:Frigate:Constructor"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "TechXenophobes"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 29
+				item "Human:Module:FrigateFactory"
+				item "Human:Module:FrigateFactory"
+				item "Human:Module:TradePort"
+				item "Human:Module:RepairPlatform"
+				item "Human:Module:GaussDefense"	
+				item "Human:Module:GaussDefense"
+				item "Human:Module:GaussDefense"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Frigate:Light"
+				item "Human:Frigate:Light"
+				item "Human:Frigate:Light"
+				item "Human:Frigate:Light"
+				item "Human:Frigate:LongRange"
+				item "Human:Frigate:LongRange"
+				item "Human:Frigate:LongRange"
+				item "Human:Frigate:AntiFighter"
+				item "Human:Frigate:AntiFighter"
+				item "Human:Frigate:Heavy"
+				item "Human:Frigate:Heavy"
+				item "Human:Frigate:Heavy"
+				item "Human:Frigate:Constructor"
+				item "Human:Frigate:Constructor"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "TechDefensive"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 22
+				item "Human:Module:FrigateFactory"
+				item "Human:Module:TradePort"
+				item "Human:Module:RepairPlatform"
+				item "Human:Module:GaussDefense"	
+				item "Human:Module:GaussDefense"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:CrystalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Human:Frigate:Light"
+				item "Human:Frigate:Light"
+				item "Human:Frigate:Light"
+				item "Human:Frigate:LongRange"
+				item "Human:Frigate:LongRange"
+				item "Human:Frigate:AntiFighter"
+				item "Human:Frigate:Heavy"
+				item "Human:Frigate:Constructor"
+				item "Human:Frigate:Constructor"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "TechUsedFrigates"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 23
+				item "Psi:Module:FrigateFactory"
+				item "Goauld:Module:FrigateFactory"
+				item "Human:Module:TradePort"
+				item "Human:Module:GaussDefense"	
+				item "Psi:Module:BeamDefense"
+				item "Goauld:Module:MissileDefense"
+				item "Human:Module:CrystalExtractor"
+				item "Goauld:Module:CrystalExtractor"
+				item "Psi:Module:CrystalExtractor"
+				item "Human:Module:CrystalExtractor"
+				item "Goauld:Module:MetalExtractor"
+				item "Psi:Module:MetalExtractor"
+				item "Human:Module:MetalExtractor"
+				item "Goauld:Module:MetalExtractor"
+				item "Human:Frigate:Light"
+				item "Psi:Frigate:Light"
+				item "Goauld:Frigate:Light"
+				item "Human:Frigate:LongRange"
+				item "Goauld:Frigate:LongRange"
+				item "Human:Frigate:AntiFighter"
+				item "Psi:Frigate:Heavy"
+				item "Human:Frigate:Constructor"
+				item "Human:Frigate:Constructor"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "PsiPacifists"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 24
+				item "Psi:Module:FrigateFactory"
+				item "Psi:Module:CapitalShipFactory"
+				item "Psi:Module:TradePort"
+				item "Psi:Module:RepairPlatform"
+				item "Psi:Module:BeamDefense"	
+				item "Psi:Module:BeamDefense"
+				item "Psi:Module:CrystalExtractor"
+				item "Psi:Module:CrystalExtractor"
+				item "Psi:Module:CrystalExtractor"
+				item "Psi:Module:CrystalExtractor"
+				item "Psi:Module:MetalExtractor"
+				item "Psi:Module:MetalExtractor"
+				item "Psi:Module:MetalExtractor"
+				item "Psi:Module:MetalExtractor"
+				item "Psi:CapitalShip:PlanetPsionic"
+				item "Psi:Frigate:Light"
+				item "Psi:Frigate:Light"
+				item "Psi:Frigate:Light"
+				item "Psi:Frigate:LongRange"
+				item "Psi:Frigate:LongRange"
+				item "Psi:Frigate:AntiFighter"
+				item "Psi:Frigate:Heavy"
+				item "Psi:Frigate:Constructor"
+				item "Psi:Frigate:Constructor"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "PsiCulture"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 23
+				item "Psi:Module:FrigateFactory"
+				item "Psi:Module:TradePort"
+				item "Psi:Module:RepairPlatform"
+				item "Psi:Module:BeamDefense"	
+				item "Psi:Module:BeamDefense"
+				item "Psi:Module:CrystalExtractor"
+				item "Psi:Module:CrystalExtractor"
+				item "Psi:Module:CrystalExtractor"
+				item "Psi:Module:CrystalExtractor"
+				item "Psi:Module:MetalExtractor"
+				item "Psi:Module:MetalExtractor"
+				item "Psi:Module:MetalExtractor"
+				item "Psi:Module:MetalExtractor"
+				item "Psi:Module:NonCombatLab"
+				item "Psi:Frigate:Light"
+				item "Psi:Frigate:Light"
+				item "Psi:Frigate:Light"
+				item "Psi:Frigate:LongRange"
+				item "Psi:Frigate:LongRange"
+				item "Psi:Frigate:AntiFighter"
+				item "Psi:Frigate:Heavy"
+				item "Psi:Frigate:Constructor"
+				item "Psi:Frigate:Constructor"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "PsiDoomCult"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 22
+				item "Psi:Module:FrigateFactory"
+				item "Psi:Module:TradePort"
+				item "Psi:Module:RepairPlatform"
+				item "Psi:Module:BeamDefense"	
+				item "Psi:Module:BeamDefense"
+				item "Psi:Module:CrystalExtractor"
+				item "Psi:Module:CrystalExtractor"
+				item "Psi:Module:CrystalExtractor"
+				item "Psi:Module:CrystalExtractor"
+				item "Psi:Module:MetalExtractor"
+				item "Psi:Module:MetalExtractor"
+				item "Psi:Module:MetalExtractor"
+				item "Psi:Module:MetalExtractor"
+				item "Psi:Frigate:Light"
+				item "Psi:Frigate:Light"
+				item "Psi:Frigate:Light"
+				item "Psi:Frigate:LongRange"
+				item "Psi:Frigate:LongRange"
+				item "Psi:Frigate:AntiFighter"
+				item "Psi:Frigate:Heavy"
+				item "Psi:Frigate:Constructor"
+				item "Psi:Frigate:Constructor"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "PsiSiegeRaiders"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 25
+				item "Psi:Module:FrigateFactory"
+				item "Psi:Module:TradePort"
+				item "Psi:Module:RepairPlatform"
+				item "Psi:Module:BeamDefense"	
+				item "Psi:Module:BeamDefense"
+				item "Psi:Module:BeamDefense"
+				item "Psi:Module:CrystalExtractor"
+				item "Psi:Module:CrystalExtractor"
+				item "Psi:Module:CrystalExtractor"
+				item "Psi:Module:CrystalExtractor"
+				item "Psi:Module:MetalExtractor"
+				item "Psi:Module:MetalExtractor"
+				item "Psi:Module:MetalExtractor"
+				item "Psi:Module:MetalExtractor"
+				item "Psi:Frigate:Light"
+				item "Psi:Frigate:Light"
+				item "Psi:Frigate:Light"
+				item "Psi:Frigate:LongRange"
+				item "Psi:Frigate:LongRange"
+				item "Psi:Frigate:LongRange"
+				item "Psi:Frigate:AntiFighter"
+				item "Psi:Frigate:Heavy"
+				item "Psi:Frigate:Heavy"
+				item "Psi:Frigate:Constructor"
+				item "Psi:Frigate:Constructor"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "PhaseTransporters"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 23
+				item "Goauld:Module:FrigateFactory"
+				item "Goauld:Module:CapitalShipFactory"
+				item "Goauld:Module:TradePort"
+				item "Goauld:Module:RepairPlatform"
+				item "Goauld:Module:MissileDefense"	
+				item "Goauld:Module:MissileDefense"	
+				item "Goauld:Module:CrystalExtractor"
+				item "Goauld:Module:CrystalExtractor"
+				item "Goauld:Module:CrystalExtractor"
+				item "Goauld:Module:CrystalExtractor"
+				item "Goauld:Module:MetalExtractor"
+				item "Goauld:Module:MetalExtractor"
+				item "Goauld:Module:MetalExtractor"
+				item "Goauld:Module:MetalExtractor"
+				item "Goauld:Module:PhaseGate"
+				item "Goauld:CapitalShip:Scout"
+				item "Goauld:Frigate:Light"
+				item "Goauld:Frigate:Light"
+				item "Goauld:Frigate:LongRange"
+				item "Goauld:Frigate:AntiFighter"
+				item "Goauld:Frigate:Heavy"
+				item "Goauld:Frigate:Constructor"
+				item "Goauld:Frigate:Constructor"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "PhaseExpedition"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 22
+				item "Goauld:Module:FrigateFactory"
+				item "Goauld:Module:TradePort"
+				item "Goauld:Module:RepairPlatform"
+				item "Goauld:Module:MissileDefense"	
+				item "Goauld:Module:MissileDefense"	
+				item "Goauld:Module:CrystalExtractor"
+				item "Goauld:Module:CrystalExtractor"
+				item "Goauld:Module:CrystalExtractor"
+				item "Goauld:Module:CrystalExtractor"
+				item "Goauld:Module:MetalExtractor"
+				item "Goauld:Module:MetalExtractor"
+				item "Goauld:Module:MetalExtractor"
+				item "Goauld:Module:MetalExtractor"
+				item "Goauld:Frigate:Light"
+				item "Goauld:Frigate:Light"
+				item "Goauld:Frigate:LongRange"
+				item "Goauld:Frigate:AntiFighter"
+				item "Goauld:Frigate:Heavy"
+				item "Goauld:Frigate:Scout"
+				item "Goauld:Frigate:Scout"
+				item "Goauld:Frigate:Constructor"
+				item "Goauld:Frigate:Constructor"
+		group
+			condition
+				type "PlanetOwnerIsMinorFactionWithFactionName"
+				param "PhaseArmsDealers"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 21
+				item "Goauld:Module:FrigateFactory"
+				item "Goauld:Module:TradePort"
+				item "Goauld:Module:RepairPlatform"
+				item "Goauld:Module:MissileDefense"	
+				item "Goauld:Module:MissileDefense"	
+				item "Goauld:Module:CrystalExtractor"
+				item "Goauld:Module:CrystalExtractor"
+				item "Goauld:Module:CrystalExtractor"
+				item "Goauld:Module:CrystalExtractor"
+				item "Goauld:Module:MetalExtractor"
+				item "Goauld:Module:MetalExtractor"
+				item "Goauld:Module:MetalExtractor"
+				item "Goauld:Module:MetalExtractor"
+				item "Goauld:Frigate:Light"
+				item "Goauld:Frigate:Light"
+				item "Goauld:Frigate:LongRange"
+				item "Goauld:Frigate:AntiFighter"
+				item "Goauld:Frigate:Heavy"
+				item "Goauld:Frigate:Siege"
+				item "Goauld:Frigate:Constructor"
+				item "Goauld:Frigate:Constructor"
 validPictureGroups 4
 pictureGroup "PlayerPhase"
 pictureGroup "PlayerPsi"
@@ -3041,7 +3564,7 @@ themeGroup "PlayerPsi"
 themeGroup "PlayerTech"
 themeGroup "PlayerGoauld"
 themeGroup "NPC"
-autoAddPlayers 4
+npcPlayers 39
 player
 	designName "Pirate"
 	inGameName "IDSScenarioPlayerNamePirates"
@@ -3050,11 +3573,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer TRUE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCPirateRaider"
 	themeGroup "SpecialNPC"
 	themeIndex 0
 	pictureGroup "NPC"
@@ -3067,11 +3586,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer TRUE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCRebel"
 	themeGroup "SpecialNPC"
 	themeIndex 1
 	pictureGroup "NPC"
@@ -3084,11 +3599,7 @@ player
 	startingCredits 0
 	startingMetal 0
 	startingCrystal 0
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer TRUE
-	isMadVasariPlayer FALSE
+	playerType "NPCOccupationVictory"
 	themeGroup "NPC"
 	themeIndex 0
 	pictureGroup "NPC"
@@ -3101,17 +3612,11 @@ player
 	startingCredits 0
 	startingMetal 0
 	startingCrystal 0
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer TRUE
+	playerType "NPCMadVasari"
 	themeGroup "PlayerPhase"
 	themeIndex 15
 	pictureGroup "PlayerPhase"
 	pictureIndex 15
-autoAddMiltiaPlayerCountPerGalaxy 5
-autoAddMilitiaPlayers 20
 player
 	designName "Militia0"
 	inGameName "IDSScenarioPlayerNameMilitia0"
@@ -3120,11 +3625,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 2
 	pictureGroup "NPC"
@@ -3137,11 +3638,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 3
 	pictureGroup "NPC"
@@ -3154,11 +3651,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 4
 	pictureGroup "NPC"
@@ -3171,11 +3664,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 5
 	pictureGroup "NPC"
@@ -3188,11 +3677,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 6
 	pictureGroup "NPC"
@@ -3205,11 +3690,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 7
 	pictureGroup "NPC"
@@ -3222,11 +3703,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 8
 	pictureGroup "NPC"
@@ -3239,11 +3716,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 9
 	pictureGroup "NPC"
@@ -3256,11 +3729,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 10
 	pictureGroup "NPC"
@@ -3273,11 +3742,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 11
 	pictureGroup "NPC"
@@ -3290,11 +3755,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 12
 	pictureGroup "NPC"
@@ -3307,11 +3768,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 13
 	pictureGroup "NPC"
@@ -3324,11 +3781,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 14
 	pictureGroup "NPC"
@@ -3341,11 +3794,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 15
 	pictureGroup "NPC"
@@ -3358,11 +3807,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 16
 	pictureGroup "NPC"
@@ -3375,11 +3820,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 17
 	pictureGroup "NPC"
@@ -3392,11 +3833,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 18
 	pictureGroup "NPC"
@@ -3409,11 +3846,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 19
 	pictureGroup "NPC"
@@ -3426,11 +3859,7 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 20
 	pictureGroup "NPC"
@@ -3443,12 +3872,219 @@ player
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
-	isNormalPlayer FALSE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "NPCMilitia"
 	themeGroup "NPC"
 	themeIndex 21
 	pictureGroup "NPC"
 	pictureIndex 2
+player
+	designName "MinorFaction0"
+	inGameName "IDSScenarioPlayerNameMinorFactionTech0"
+	overrideRaceName "Human"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "TechMiners"
+	themeGroup "NPCMinorFactions"
+	themeIndex 11
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction1"
+	inGameName "IDSScenarioPlayerNameMinorFactionTech1"
+	overrideRaceName "Human"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "TechScrappers"
+	themeGroup "NPCMinorFactions"
+	themeIndex 1
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction2"
+	inGameName "IDSScenarioPlayerNameMinorFactionTech2"
+	overrideRaceName "Goauld"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "TechSiegeRaiders"
+	themeGroup "NPCMinorFactions"
+	themeIndex 2
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction3"
+	inGameName "IDSScenarioPlayerNameMinorFactionTech3"
+	overrideRaceName "Goauld"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "TechDemolitionists"
+	themeGroup "NPCMinorFactions"
+	themeIndex 10
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction4"
+	inGameName "IDSScenarioPlayerNameMinorFactionTech4"
+	overrideRaceName "Goauld"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "TechXenophobes"
+	themeGroup "NPCMinorFactions"
+	themeIndex 3
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction5"
+	inGameName "IDSScenarioPlayerNameMinorFactionTech5"
+	overrideRaceName "Human"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "TechUsedFrigates"
+	themeGroup "NPCMinorFactions"
+	themeIndex 9
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction6"
+	inGameName "IDSScenarioPlayerNameMinorFactionTech6"
+	overrideRaceName "Human"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "TechDefensive"
+	themeGroup "NPCMinorFactions"
+	themeIndex 4
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction7"
+	inGameName "IDSScenarioPlayerNameMinorFactionPsi0"
+	overrideRaceName "PsiRebel"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "PsiPacifists"
+	themeGroup "NPCMinorFactions"
+	themeIndex 8
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction8"
+	inGameName "IDSScenarioPlayerNameMinorFactionPsi1"
+	overrideRaceName "PsiRebel"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "PsiCulture"
+	themeGroup "NPCMinorFactions"
+	themeIndex 12
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction9"
+	inGameName "IDSScenarioPlayerNameMinorFactionPsi2"
+	overrideRaceName "PsiRebel"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "PsiDoomCult"
+	themeGroup "NPCMinorFactions"
+	themeIndex 14
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction10"
+	inGameName "IDSScenarioPlayerNameMinorFactionPsi3"
+	overrideRaceName "PsiLoyalist"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "PsiSiegeRaiders"
+	themeGroup "NPCMinorFactions"
+	themeIndex 5
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction11"
+	inGameName "IDSScenarioPlayerNameMinorFactionPhase0"
+	overrideRaceName "Asuran"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "PhaseTransporters"
+	themeGroup "NPCMinorFactions"
+	themeIndex 13
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction12"
+	inGameName "IDSScenarioPlayerNameMinorFactionPhase1"
+	overrideRaceName "Asuran"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "PhaseExpedition"
+	themeGroup "NPCMinorFactions"
+	themeIndex 0
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction13"
+	inGameName "IDSScenarioPlayerNameMinorFactionPhase2"
+	overrideRaceName "Asuran"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "PhaseArmsDealers"
+	themeGroup "NPCMinorFactions"
+	themeIndex 7
+	pictureGroup "NPC"
+	pictureIndex 2
+player
+	designName "MinorFaction14"
+	inGameName "IDSScenarioPlayerNameMinorFactionPhase3"
+	overrideRaceName "PhaseLoyalist"
+	teamIndex -1
+	startingCredits 1000
+	startingMetal 300
+	startingCrystal 100
+	playerType "NPCMinorFaction"
+	minorFactionPlayerDefName "DefaultPhase"
+	themeGroup "NPCMinorFactions"
+	themeIndex 6
+	pictureGroup "NPC"
+	pictureIndex 2
+npcMiltiaPlayerCountPerGalaxy 5

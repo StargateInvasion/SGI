@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 223
+brushCount 229
 brush
 	name "DLCButtonBackgroundAshes"
 	content "Simple"
@@ -1970,7 +1970,7 @@ brush
 		fileName "Buttons_Screens2_Normal_SGI"
 		pixelBox [ 72 , 208 , 105 , 38 ]
 brush
-	name "GameOptionsAreOutlawSectorsActiveTrue"
+	name "GameOptionsAreOutlawSectorsMilitiaActiveTrue"
 	content "States"
 	Disabled
 		fileName "Buttons_Screens2_Disabled_SGI"
@@ -1988,7 +1988,7 @@ brush
 		fileName "Buttons_Screens2_Normal_SGI"
 		pixelBox [ 917 , 3 , 105 , 38 ]
 brush
-	name "GameOptionsAreOutlawSectorsActiveFalse"
+	name "GameOptionsAreOutlawSectorsMilitiaActiveFalse"
 	content "States"
 	Disabled
 		fileName "Buttons_Screens2_Disabled_SGI"
@@ -2005,6 +2005,114 @@ brush
 	Normal
 		fileName "Buttons_Screens2_Normal_SGI"
 		pixelBox [ 917 , 44 , 105 , 38 ]
+brush
+	name "GameOptionsAreMinorFactionsActiveTrue"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled_SGI"
+		pixelBox [ 937 , 167 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal_SGI"
+		pixelBox [ 937 , 167 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver_SGI"
+		pixelBox [ 937 , 167 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal_SGI"
+		pixelBox [ 937 , 167 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal_SGI"
+		pixelBox [ 937 , 167 , 85 , 38 ]
+brush
+	name "GameOptionsAreMinorFactionsActiveFalse"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled_SGI"
+		pixelBox [ 937 , 208 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal_SGI"
+		pixelBox [ 937 , 208 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver_SGI"
+		pixelBox [ 937 , 208 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal_SGI"
+		pixelBox [ 937 , 208 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal_SGI"
+		pixelBox [ 937 , 208 , 85 , 38 ]
+brush
+	name "GameOptionsAreSuperWeaponsActiveTrue"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled_SGI"
+		pixelBox [ 937 , 249 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal_SGI"
+		pixelBox [ 937 , 249 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver_SGI"
+		pixelBox [ 937 , 249 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal_SGI"
+		pixelBox [ 937 , 249 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal_SGI"
+		pixelBox [ 937 , 249 , 85 , 38 ]
+brush
+	name "GameOptionsAreSuperWeaponsActiveFalse"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled_SGI"
+		pixelBox [ 937 , 293 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal_SGI"
+		pixelBox [ 937 , 293 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver_SGI"
+		pixelBox [ 937 , 293 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal_SGI"
+		pixelBox [ 937 , 293 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal_SGI"
+		pixelBox [ 937 , 293 , 85 , 38 ]
+brush
+	name "GameOptionsIsAISurrenderActiveTrue"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled_SGI"
+		pixelBox [ 937 , 331 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal_SGI"
+		pixelBox [ 937 , 331 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver_SGI"
+		pixelBox [ 937 , 331 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal_SGI"
+		pixelBox [ 937 , 331 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal_SGI"
+		pixelBox [ 937 , 331 , 85 , 38 ]
+brush
+	name "GameOptionsIsAISurrenderActiveFalse"
+	content "States"
+	Disabled
+		fileName "Buttons_Screens2_Disabled_SGI"
+		pixelBox [ 937 , 372 , 85 , 38 ]
+	Pressed
+		fileName "Buttons_Screens2_Normal_SGI"
+		pixelBox [ 937 , 372 , 85 , 38 ]
+	CursorOver
+		fileName "Buttons_Screens2_CursorOver_SGI"
+		pixelBox [ 937 , 372 , 85 , 38 ]
+	Focused
+		fileName "Buttons_Screens2_Normal_SGI"
+		pixelBox [ 937 , 372 , 85 , 38 ]
+	Normal
+		fileName "Buttons_Screens2_Normal_SGI"
+		pixelBox [ 937 , 372 , 85 , 38 ]
 brush
 	name "GameOptionsUseQuickStartTrue"
 	content "States"
