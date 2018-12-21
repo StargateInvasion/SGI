@@ -841,7 +841,7 @@ orbitBodyType
 	typeName "Occupied"
 	entityDefName "OccupiedPlanet"
 	defaultTemplateName "Template:OccupiedPlanet"
-planetItemTypeCount 289
+planetItemTypeCount 285
 planetItemType
 	designName "Asuran:Orbital:MineExplosive"
 	entityDefName "Asuran_DeepSpaceMine"
@@ -1113,14 +1113,8 @@ planetItemType
 	designName "Human:Orbital:WeaponsPlatform"
 	entityDefName "Human_Orbital_WeaponsPlatform"
 planetItemType
-	designName "Human:StarBase:Defense"
-	entityDefName "Human_StarbaseDefense_Apollo"
-planetItemType
 	designName "Human:StarBase:Offense"
 	entityDefName "Human_StarbaseOffense_Hades"
-planetItemType
-	designName "Human:StarBase:Special"
-	entityDefName "Human_StarbaseSpecial_Zeus"
 planetItemType
 	designName "Human:Titan:Defense"
 	entityDefName "Human_TitanDefense_Hephestus"
@@ -1272,14 +1266,8 @@ planetItemType
 	designName "Goauld:Orbital:WeaponsPlatform"
 	entityDefName "Goauld_Orbital_WeaponsPlatform"
 planetItemType
-	designName "Goauld:StarBase:Defense"
-	entityDefName "Goauld_StarbaseDefense_Setesh"
-planetItemType
 	designName "Goauld:StarBase:Offense"
 	entityDefName "Goauld_StarbaseOffense_Cronus"
-planetItemType
-	designName "Goauld:StarBase:Special"
-	entityDefName "Goauld_StarbaseSpecial_Unas"
 planetItemType
 	designName "Goauld:Titan:Defense"
 	entityDefName "Goauld_TitanDefense_Sokar"
@@ -1390,7 +1378,7 @@ planetItemType
 	entityDefName "CorvettePsiRebel"
 planetItemType
 	designName "Psi:StarBase"
-	entityDefName "StarBasePsi"
+	entityDefName "Goauld_StarbaseOffense_Cronus"
 planetItemType
 	designName "Psi:CapitalShip:BattleShip"
 	entityDefName "CAPITALSHIP_PSIBATTLESHIP"

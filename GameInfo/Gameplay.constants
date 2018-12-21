@@ -999,7 +999,7 @@ GameplayConstants
 			xOffset 0
 			yOffset -52
 		outlawSpawnShipsType "MatchPlayerRace"
-		numOutlawSpawnShipsOptionsCount 6
+		numOutlawSpawnShipsOptionsCount 1
 		outlawSpawnShipsOptions
 			raceEntityName "PlayerTechRebel"
 			spawnShips
@@ -1019,131 +1019,6 @@ GameplayConstants
 				randomShip
 					type "FrigatePirateAntiFighter"
 					weight 3
-		outlawSpawnShipsOptions
-			raceEntityName "PlayerTechLoyalist"
-			spawnShips
-				minFleetPoints 20.000000
-				maxFleetPoints 20.000000
-				requiredShipCount 0
-				randomShipCount 6
-				randomShip
-					type "FrigateTECHLight"
-					weight 4
-				randomShip
-					type "FrigateTECHLongRange"
-					weight 5
-				randomShip
-					type "FrigateTECHHeavy"
-					weight 6
-				randomShip
-					type "FrigateTECHAntiFighter"
-					weight 3
-				randomShip
-					type "CorvetteTECHRebel"
-					weight 2
-				randomShip
-					type "FrigateTECHCarrier"
-					weight 1
-		outlawSpawnShipsOptions
-			raceEntityName "PlayerPsiRebel"
-			spawnShips
-				minFleetPoints 20.000000
-				maxFleetPoints 20.000000
-				requiredShipCount 0
-				randomShipCount 6
-				randomShip
-					type "FrigatePSILight"
-					weight 4
-				randomShip
-					type "FrigatePSILongRange"
-					weight 5
-				randomShip
-					type "FrigatePSIHeavy"
-					weight 6
-				randomShip
-					type "FrigatePSIAntiFighter"
-					weight 3
-				randomShip
-					type "CorvettePSIRebel"
-					weight 2
-				randomShip
-					type "FrigatePSICarrier"
-					weight 1
-		outlawSpawnShipsOptions
-			raceEntityName "PlayerPsiLoyalist"
-			spawnShips
-				minFleetPoints 20.000000
-				maxFleetPoints 20.000000
-				requiredShipCount 0
-				randomShipCount 6
-				randomShip
-					type "FrigatePSILight"
-					weight 4
-				randomShip
-					type "FrigatePSILongRange"
-					weight 5
-				randomShip
-					type "FrigatePSIHeavy"
-					weight 6
-				randomShip
-					type "FrigatePSIAntiFighter"
-					weight 3
-				randomShip
-					type "CorvettePSIRebel"
-					weight 2
-				randomShip
-					type "FrigatePSICarrier"
-					weight 1
-		outlawSpawnShipsOptions
-			raceEntityName "PlayerPhaseRebel"
-			spawnShips
-				minFleetPoints 20.000000
-				maxFleetPoints 20.000000
-				requiredShipCount 0
-				randomShipCount 6
-				randomShip
-					type "FrigatePHASELight"
-					weight 4
-				randomShip
-					type "FrigatePHASELongRange"
-					weight 5
-				randomShip
-					type "FrigatePHASEHeavy"
-					weight 6
-				randomShip
-					type "FrigatePHASEAntiFighter"
-					weight 3
-				randomShip
-					type "CorvettePHASERebel"
-					weight 2
-				randomShip
-					type "FrigatePHASECarrier"
-					weight 1
-		outlawSpawnShipsOptions
-			raceEntityName "PlayerPhaseLoyalist"
-			spawnShips
-				minFleetPoints 20.000000
-				maxFleetPoints 20.000000
-				requiredShipCount 0
-				randomShipCount 6
-				randomShip
-					type "FrigatePHASELight"
-					weight 4
-				randomShip
-					type "FrigatePHASELongRange"
-					weight 5
-				randomShip
-					type "FrigatePHASEHeavy"
-					weight 6
-				randomShip
-					type "FrigatePHASEAntiFighter"
-					weight 3
-				randomShip
-					type "CorvettePHASERebel"
-					weight 2
-				randomShip
-					type "FrigatePHASECarrier"
-					weight 1
 		baseFleetCapacity 20.0
 		maxFleetSupplyPerPlanetPopulation .025
 		fleetSupplyMin 100.0
@@ -1324,3 +1199,4 @@ GameplayConstants
 				ability:2 "AbilityMinorFactionTradeCreditsForMetal"
 				ability:3 ""
 				ability:4 ""
+				
