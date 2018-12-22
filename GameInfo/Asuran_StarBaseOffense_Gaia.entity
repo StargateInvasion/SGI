@@ -14,7 +14,7 @@ numRandomDebrisSmall 24
 numSpecificDebris 0
 armorType "Module"
 hudIcon "HUDICON_STARBASE_PHASE"
-smallHudIcon "HUDICONSMALL_ASURAN_STARBASEOFFENSE_GAIA"
+smallHudIcon "HUDICONSMALL_STARBASE_PHASE"
 infoCardIcon "MAINVIEWICON_ASURAN_STARBASEOFFENSE_GAIA"
 minZoomDistanceMult 1.500000
 NumWeapons 3
@@ -157,7 +157,7 @@ squadTypeEntityDef:2 ""
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
-mainViewIcon "MAINVIEWICON_ASURAN_STARBASEOFFENSE_GAIA"
+mainViewIcon "MainViewIconStarBasePhase"
 experiencePointsForDestroying 150.000000
 nameStringID "IDS_ASURAN_STARBASEOFFENSE_GAIA_NAME"
 picture "PICTURE_STARBASEPHASE"
@@ -176,10 +176,10 @@ UpgradeType "StarBaseUpgradePhaseDirectionalShield"
 UpgradeType "StarBaseUpgradePhasePhaseGate"
 MeshNameInfoCount 6
 MeshNameInfo
-	meshName "Asuran_StarbaseOffense_Gaia"
+	meshName "StarBasePhase"
 	criteriaType "None"
 MeshNameInfo
-	meshName "Asuran_StarbaseOffense_Gaia"
+	meshName "StarBasePhase-Trade"
 	criteriaType "StarBaseUpgradeLevel"
 	levelRequirements
 		levelRequirementCount 1
@@ -187,7 +187,7 @@ MeshNameInfo
 			upgradePropertyType "TradePortMeshLevel"
 			upgradeLevel 1
 MeshNameInfo
-	meshName "Asuran_StarbaseOffense_Gaia"
+	meshName "StarBasePhase-Weapon1"
 	criteriaType "StarBaseUpgradeLevel"
 	levelRequirements
 		levelRequirementCount 1
@@ -195,7 +195,7 @@ MeshNameInfo
 			upgradePropertyType "WeaponUpgradeLevel"
 			upgradeLevel 1
 MeshNameInfo
-	meshName "Asuran_StarbaseOffense_Gaia"
+	meshName "StarBasePhase-TradeWeapon1"
 	criteriaType "StarBaseUpgradeLevel"
 	levelRequirements
 		levelRequirementCount 2
@@ -206,7 +206,7 @@ MeshNameInfo
 			upgradePropertyType "WeaponUpgradeLevel"
 			upgradeLevel 1
 MeshNameInfo
-	meshName "Asuran_StarbaseOffense_Gaia"
+	meshName "StarBasePhase-Weapon2"
 	criteriaType "StarBaseUpgradeLevel"
 	levelRequirements
 		levelRequirementCount 1
@@ -214,7 +214,7 @@ MeshNameInfo
 			upgradePropertyType "WeaponUpgradeLevel"
 			upgradeLevel 2
 MeshNameInfo
-	meshName "Asuran_StarbaseOffense_Gaia"
+	meshName "StarBasePhase-TradeWeapon2"
 	criteriaType "StarBaseUpgradeLevel"
 	levelRequirements
 		levelRequirementCount 2
