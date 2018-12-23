@@ -1,8 +1,9 @@
-﻿TXT
+TXT2
+SinsArchiveVersion 193
 entityType "Player"
 raceNameStringID "IDS_PLAYERRACENAME_PHASEREBEL"
 canColonize TRUE
-isPsi FALSE
+playerRaceType "Phase"
 isSelectable TRUE
 selectablePriorty 0
 randomCapitalShipNamePrefix "IDS_CAPITALSHIPNAME_PHASE"
@@ -70,7 +71,7 @@ entities
 			entityDefName "Asuran_ModuleTradeShip_Aurum"
 			entityDefName "Asuran_ModuleRefineryShip_Servile"
 	researchInfo
-		count 143
+		count 145
 			entityDefName "Asuran_Research_Ability_ChargedMissiles"
 			entityDefName "Asuran_Research_Ability_Cloak"
 			entityDefName "Asuran_Research_Ability_CrippleAbilities"
@@ -146,6 +147,8 @@ entities
 			entityDefName "Asuran_Research_MaxShipSlots5"
 			entityDefName "Asuran_Research_MaxShipSlots6"
 			entityDefName "Asuran_Research_MaxShipSlots7"
+			entityDefName "Asuran_Research_MinorFactionAbility0"
+			entityDefName "Asuran_Research_MinorFactionAbility1"
 			entityDefName "Asuran_Research_ModuleBuildTime"
 			entityDefName "Asuran_Research_Orbital_Cannon"
 			entityDefName "Asuran_Research_Orbital_CultureCenter"
@@ -157,6 +160,7 @@ entities
 			entityDefName "Asuran_Research_Orbital_NanoWeaponJammer"
 			entityDefName "Asuran_Research_Orbital_Refinery"
 			entityDefName "Asuran_Research_Orbital_Repairplatform"
+			entityDefName "Asuran_Research_Orbital_ShieldGenerator"
 			entityDefName "Asuran_Research_Orbital_Stargate"
 			entityDefName "Asuran_Research_Orbital_TradePort"
 			entityDefName "Asuran_Research_PactunlockMetalCrystal"
@@ -171,7 +175,6 @@ entities
 			entityDefName "Asuran_Research_PlanetBombingRange"
 			entityDefName "Asuran_Research_PlanetBombingReducedPopulationKilled"
 			entityDefName "Asuran_Research_PlanetHealthCostDecrease"
-			entityDefName "Asuran_Research_Orbital_ShieldGenerator"
 			entityDefName "Asuran_Research_PopulationCapIce0"
 			entityDefName "Asuran_Research_PopulationCapTerran0"
 			entityDefName "Asuran_Research_PopulationCapVolcanic0"
@@ -448,6 +451,7 @@ gameEventData
 	GameEventSound:UseAbilityUnmetConstraintCanSpreadWeaponDamage "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintCanPhaseDodge "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintHasAbilityWithCooldown "UI_COMMON_DEFAULTERROR"
+	GameEventSound:UseAbilityUnmetConstraintHasColonizeAbility "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintHasAntimatter "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintHasPhaseMissiles "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintHasPopulation "UI_COMMON_DEFAULTERROR"
@@ -458,9 +462,11 @@ gameEventData
 	GameEventSound:UseAbilityUnmetConstraintHasWeapons "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintIsCargoShip "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintIsExplored "UI_COMMON_DEFAULTERROR"
+	GameEventSound:UseAbilityUnmetConstraintNotIsExplored "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintIsResourceExtractor "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintIsMovingToLocalOrbitBody "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintIsPsi "UI_COMMON_DEFAULTERROR"
+	GameEventSound:UseAbilityUnmetConstraintNotIsTech "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintLinkedCargoShip "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintLinkedSquad "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintNotSelf "UI_COMMON_DEFAULTERROR"
@@ -472,12 +478,15 @@ gameEventData
 	GameEventSound:UseAbilityUnmetConstraintNotInvulnerable "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintIsInFriendlyGravityWell "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintIsInNonFriendlyGravityWell "UI_COMMON_DEFAULTERROR"
+	GameEventSound:UseAbilityUnmetConstraintNotIsMinorFactionOwned "UI_COMMON_DEFAULTERROR"
+	GameEventSound:UseAbilityUnmetConstraintNotIsOutlaw "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetOwnerLinked "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetOwnerPlayer "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetOwnerFriendly "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetOwnerHostile "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetOwnerNoOwner "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetOwnerAlliedOrEnemy "UI_COMMON_DEFAULTERROR"
+	GameEventSound:UseAbilityUnmetOwnerUncontrolledMinorFaction "UI_COMMON_DEFAULTERROR"
 	GameEventSound:GameStart ""
 	GameEventSound:GameWin "EVENTPHASE_GAMEWIN"
 	GameEventSound:AllyGameWin "EVENTPHASE_ALLIEDGAMEWIN"
@@ -794,7 +803,7 @@ researchScreenData
 	Diplomacy
 		blockCount 1
 		block
-			area [ 50 , 93 , 690 , 238 ]
+			area [ 50 , 93 , 690 , 288 ]
 			backdrop "ResearchScreenBlockBackdropCombat0Phase"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat0Phase"
 			title "IDSResearchScreenBlockTitleDiplomacy0Phase"

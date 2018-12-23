@@ -1,8 +1,9 @@
-﻿TXT
+﻿TXT2
+SinsArchiveVersion 193
 entityType "Player"
 raceNameStringID "IDS_PLAYERRACENAME_TECHREBEL"
 canColonize TRUE
-isPsi FALSE
+playerRaceType "Psi"
 isSelectable TRUE
 selectablePriorty 2
 randomCapitalShipNamePrefix "IDS_CAPITALSHIPNAME_PSI"
@@ -70,7 +71,7 @@ entities
 			entityDefName "Goauld_ModuleTradeShip_Nebu"
 			entityDefName "Goauld_ModuleRefineryShip_Sobek"
 	researchInfo
-		count 167
+		count 169
 			entityDefName "Goauld_Research_Ability_ArbitRateTariff"
 			entityDefName "Goauld_Research_Ability_Cloak"
 			entityDefName "Goauld_Research_Ability_DesignateTarget"
@@ -165,6 +166,8 @@ entities
 			entityDefName "Goauld_Research_MaxShips7"
 			entityDefName "Goauld_Research_MilitiaArmor"
 			entityDefName "Goauld_Research_MilitiaWeaponry"
+			entityDefName "Goauld_Research_MinorFactionAbility0"
+			entityDefName "Goauld_Research_MinorFactionAbility1"
 			entityDefName "Goauld_Research_PactUnlock_Research"
 			entityDefName "Goauld_Research_PactUnlock_Culture"
 			entityDefName "Goauld_Research_PactUnlock_Antimatter"
@@ -469,6 +472,7 @@ gameEventData
 	GameEventSound:UseAbilityUnmetConstraintCanSpreadWeaponDamage "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintCanPhaseDodge "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintHasAbilityWithCooldown "UI_COMMON_DEFAULTERROR"
+	GameEventSound:UseAbilityUnmetConstraintHasColonizeAbility "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintHasAntimatter "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintHasPhaseMissiles "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintHasPopulation "UI_COMMON_DEFAULTERROR"
@@ -479,9 +483,11 @@ gameEventData
 	GameEventSound:UseAbilityUnmetConstraintHasWeapons "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintIsCargoShip "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintIsExplored "UI_COMMON_DEFAULTERROR"
+	GameEventSound:UseAbilityUnmetConstraintNotIsExplored "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintIsResourceExtractor "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintIsMovingToLocalOrbitBody "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintIsPsi "UI_COMMON_DEFAULTERROR"
+	GameEventSound:UseAbilityUnmetConstraintNotIsTech "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintLinkedCargoShip "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintLinkedSquad "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintNotSelf "UI_COMMON_DEFAULTERROR"
@@ -493,12 +499,15 @@ gameEventData
 	GameEventSound:UseAbilityUnmetConstraintNotInvulnerable "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintIsInFriendlyGravityWell "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetConstraintIsInNonFriendlyGravityWell "UI_COMMON_DEFAULTERROR"
+	GameEventSound:UseAbilityUnmetConstraintNotIsMinorFactionOwned "UI_COMMON_DEFAULTERROR"
+	GameEventSound:UseAbilityUnmetConstraintNotIsOutlaw "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetOwnerLinked "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetOwnerPlayer "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetOwnerFriendly "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetOwnerHostile "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetOwnerNoOwner "UI_COMMON_DEFAULTERROR"
 	GameEventSound:UseAbilityUnmetOwnerAlliedOrEnemy "UI_COMMON_DEFAULTERROR"
+	GameEventSound:UseAbilityUnmetOwnerUncontrolledMinorFaction "UI_COMMON_DEFAULTERROR"
 	GameEventSound:GameStart ""
 	GameEventSound:GameWin "EVENTTECH_GAMEWIN"
 	GameEventSound:AllyGameWin "EVENTTECH_ALLIEDGAMEWIN"
@@ -809,7 +818,7 @@ researchScreenData
 	Diplomacy
 		blockCount 1
 		block
-			area [ 50 , 93 , 690 , 235 ]
+			area [ 50 , 93 , 690 , 288 ]
 			backdrop "ResearchScreenBlockBackdropCombat0Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat0Tech"
 			title "IDSResearchScreenBlockTitleDiplomacy0Goauld"
