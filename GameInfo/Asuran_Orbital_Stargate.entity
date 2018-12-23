@@ -26,7 +26,10 @@ DescriptionStringID "IDS_ASURAN_ORBITAL_STARGATE_DESCRIPTION"
 planetModuleRoleType "PHASEGATE"
 statCountType "ModuleUtility"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_Orbital_Stargate"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MaxHullPoints 4000.000000
