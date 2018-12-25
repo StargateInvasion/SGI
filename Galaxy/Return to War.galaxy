@@ -1,5 +1,5 @@
 ﻿TXT
-versionNumber 6
+versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-ReturntoWar"
 browseName "IDS_CUSTOMGALAXY_NAME_RETURNTOWAR"
@@ -565,11 +565,7 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 250
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -582,11 +578,7 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 250
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -623,4 +615,4 @@ template
 		item "Human:Orbital:WeaponsPlatform"
 		item "Human:Orbital:WeaponsPlatform"
 		item "Human:Orbital:WeaponsPlatform"
-dlcID 487280
+dlcID 204880

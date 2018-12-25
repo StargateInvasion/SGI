@@ -1,5 +1,5 @@
 TXT
-versionNumber 5
+versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-QuickStrike"
 browseName "IDS_CUSTOMGALAXY_NAME_QUICKSTRIKE"
@@ -273,11 +273,7 @@ player
 	startingCredits 3000
 	startingMetal 500
 	startingCrystal 1000
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -290,11 +286,7 @@ player
 	startingCredits 3000
 	startingMetal 500
 	startingCrystal 1000
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -448,3 +440,4 @@ template
 		item "Psi:Frigate:Light"
 		item "Psi:Frigate:Light"
 		item "Psi:Frigate:Light"
+dlcID 204880

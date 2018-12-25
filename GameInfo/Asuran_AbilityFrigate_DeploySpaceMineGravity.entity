@@ -1,4 +1,5 @@
-﻿TXT
+TXT2
+SinsArchiveVersion 193
 entityType "Ability"
 buffInstantActionType "CreateSpaceMine"
 instantActionTriggerType "AlwaysPerform"
@@ -31,10 +32,21 @@ pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "Resources"
-resourceCost
-	credits 570.000000
-	metal 135.000000
-	crystal 70.000000
+creditCost
+	Level:0 570.000000
+	Level:1 570.000000
+	Level:2 570.000000
+	Level:3 570.000000
+metalCost
+	Level:0 135.000000
+	Level:1 135.000000
+	Level:2 135.000000
+	Level:3 135.000000
+crystalCost
+	Level:0 70.000000
+	Level:1 70.000000
+	Level:2 70.000000
+	Level:3 70.000000
 cooldownTime
 	Level:0 15.000000
 	Level:1 15.000000

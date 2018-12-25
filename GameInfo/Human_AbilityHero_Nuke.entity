@@ -1,4 +1,5 @@
-﻿TXT
+TXT2
+SinsArchiveVersion 193
 entityType "Ability"
 buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
@@ -46,10 +47,21 @@ pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "Resources"
-resourceCost
-	credits 5000.000000
-	metal 2000.000000
-	crystal 500.000000
+creditCost
+	Level:0 5000.000000
+	Level:1 5000.000000
+	Level:2 5000.000000
+	Level:3 5000.000000
+metalCost
+	Level:0 2000.000000
+	Level:1 2000.000000
+	Level:2 2000.000000
+	Level:3 2000.000000
+crystalCost
+	Level:0 500.000000
+	Level:1 500.000000
+	Level:2 500.000000
+	Level:3 500.000000
 cooldownTime
 	Level:0 600.000000
 	Level:1 600.000000

@@ -1,4 +1,5 @@
-﻿TXT
+TXT2
+SinsArchiveVersion 193
 entityType "Buff"
 onReapplyDuplicateType "PrioritizeOldBuffs"
 buffStackingLimitType "ForAllPlayers"
@@ -64,6 +65,9 @@ instantAction
 			weight 1
 	spawnShipsArrivalDelayTime 7.000000
 	spawnShipsHyperspaceSpawnType "FleetBeacon"
+	shouldAdoptFirstSpawnersMinorFactionState FALSE
+	spawnShipsMinStartingHullPerc 1.0
+	spawnShipsMaxStartingHullPerc 1.0
 numPeriodicActions 0
 numOverTimeActions 0
 numEntityModifiers 0

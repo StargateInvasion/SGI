@@ -1,5 +1,5 @@
 TXT
-versionNumber 5
+versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-VoruksLabyrinth"
 browseName "IDS_CUSTOMGALAXY_NAME_VORUKSLABYRINTH"
@@ -2199,11 +2199,7 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 500
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -2216,11 +2212,7 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 500
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -2233,11 +2225,7 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 500
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -2250,11 +2238,7 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 500
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -2338,3 +2322,4 @@ template
 		item "Asuran:Orbital:NonCombatLab"
 		item "Asuran:Orbital:NonCombatLab"
 		item "Asuran:Orbital:NonCombatLab"
+dlcID 204880

@@ -1,5 +1,5 @@
 ﻿TXT
-versionNumber 5
+versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-TheVoid"
 browseName "IDS_CUSTOMGALAXY_NAME_THEVOID"
@@ -259,11 +259,7 @@ player
 	startingCredits 30000
 	startingMetal 7500
 	startingCrystal 7500
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -276,11 +272,7 @@ player
 	startingCredits 30000
 	startingMetal 7500
 	startingCrystal 7500
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -766,3 +758,4 @@ template
 		colonizeChance 0.000000
 		items 1
 		item "Artifact:AntimatterRegen"
+dlcID 204880

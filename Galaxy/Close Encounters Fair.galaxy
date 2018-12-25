@@ -1,5 +1,5 @@
 TXT
-versionNumber 5
+versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-CloseEncountersCompetitive"
 browseName "IDS_CUSTOMGALAXY_NAME_CLOSEENCOUNTERSFair"
@@ -346,11 +346,7 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 250
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup "PlayerTech"
 	themeIndex 0
 	pictureGroup "PlayerTech"
@@ -363,13 +359,10 @@ player
 	startingCredits 3000
 	startingMetal 800
 	startingCrystal 250
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup "PlayerTech"
 	themeIndex 0
 	pictureGroup "PlayerTech"
 	pictureIndex 0
 templates 0
+dlcID 204880

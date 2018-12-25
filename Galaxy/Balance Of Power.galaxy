@@ -1,5 +1,5 @@
 ﻿TXT
-versionNumber 5
+versionNumber 193
 isBrowsable TRUE
 browsePictureName "ScenarioPicture-BalanceOfPower"
 browseName "IDS_CUSTOMGALAXY_NAME_BALANCEOFPOWER"
@@ -474,11 +474,7 @@ player
 	startingCredits 3000
 	startingMetal 300
 	startingCrystal 800
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -491,11 +487,7 @@ player
 	startingCredits 3000
 	startingMetal 300
 	startingCrystal 800
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -508,11 +500,7 @@ player
 	startingCredits 3000
 	startingMetal 300
 	startingCrystal 800
-	isNormalPlayer TRUE
-	isRaidingPlayer FALSE
-	isInsurgentPlayer FALSE
-	isOccupationPlayer FALSE
-	isMadVasariPlayer FALSE
+	playerType "Normal"
 	themeGroup ""
 	themeIndex 0
 	pictureGroup ""
@@ -599,3 +587,4 @@ template
 		item "Psi:Frigate:LongRange"
 		item "Psi:Frigate:LongRange"
 		item "Psi:Frigate:LongRange"
+dlcID 204880

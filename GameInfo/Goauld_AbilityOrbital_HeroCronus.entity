@@ -1,4 +1,5 @@
-﻿TXT
+TXT2
+SinsArchiveVersion 193
 entityType "Ability"
 buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
@@ -37,10 +38,21 @@ pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "ResourcesAndMustHaveCapitalCrew"
-resourceCost
-	credits 750.000000
-	metal 500.000000
-	crystal 700.000000
+creditCost
+	Level:0 750.000000
+	Level:1 750.000000
+	Level:2 750.000000
+	Level:3 750.000000
+metalCost
+	Level:0 500.000000
+	Level:1 500.000000
+	Level:2 500.000000
+	Level:3 500.000000
+crystalCost
+	Level:0 700.000000
+	Level:1 700.000000
+	Level:2 700.000000
+	Level:3 700.000000
 requiredShipSlots
 	Level:0 30.000000
 	Level:1 30.000000
