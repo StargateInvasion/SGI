@@ -1,4 +1,5 @@
-﻿TXT
+﻿TXT2
+SinsArchiveVersion 193
 entityType "Frigate"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -28,6 +29,7 @@ HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.000000
 BaseArmorPoints 4.000000
 maxMitigation 0.000000
+relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
@@ -89,16 +91,16 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 0.000000
+	DamagePerBank:FRONT 20.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 20.000000
 	DamagePerBank:RIGHT 20.000000
 	Range 4000.000000
 	PreBuffCooldownTime 5.000000
-	CanFireAtFighter TRUE
-	SynchronizedTargeting TRUE
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.300000
-	TravelSpeed 1275.000000
+	TravelSpeed 1575.000000
 	Duration 0.000000
 	fireConstraintType "Research"
 	researchPrerequisites
@@ -110,24 +112,24 @@ Weapon
 		RequiredCompletedResearchSubjects 0
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 1
-		burstDelay 0.015000
+		burstCount 5
+		burstDelay 0.500000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Human_Muzzle"
+		muzzleEffectName "Weapon_AsgardPulse_Muzzle"
 		muzzleSoundMinRespawnTime 0.770000
 		muzzleSounds
 			soundCount 3
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE"
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT1"
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT2"
-		hitEffectName "Weapon_HumanRailguns_Hit"
+			sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE"
+			sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE_ALT1"
+			sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE_ALT2"
+		hitEffectName "Weapon_PsiCapitalPlasmaMedium_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
-		projectileTravelEffectName "Weapon_HumanRailgun_Travel"
+			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+		projectileTravelEffectName "Weapon_AsgardPulseCapitalMedium_Travel"
 Weapon
 	WeaponType "Missile"
 	damageEnums
@@ -217,7 +219,7 @@ MeshNameInfo
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
-ExhaustParticleSystemName "Exhaust_FrigateTechUtility0"
+ExhaustParticleSystemName "Exhaust_FrigateLightX303"
 ExplosionName "Frigate0"
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
