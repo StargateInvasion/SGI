@@ -1606,7 +1606,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "Tech"
+				param "Human"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 25
@@ -1638,7 +1638,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "Tech"
+				param "Human"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 40
@@ -1685,7 +1685,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "Phase"
+				param "Asuran"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 21
@@ -1713,7 +1713,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "Phase"
+				param "Asuran"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 33
@@ -1753,7 +1753,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "Psi"
+				param "Goauld"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 19
@@ -1779,7 +1779,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "Psi"
+				param "Goauld"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 29
@@ -1815,7 +1815,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "Psi"
+				param "Goauld"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 4		
@@ -1826,7 +1826,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "Tech"
+				param "Human"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 4		
@@ -1837,7 +1837,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "Phase"
+				param "Asuran"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 4
@@ -1848,7 +1848,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "Tech"
+				param "Human"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 10
@@ -1865,7 +1865,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "Phase"
+				param "Asuran"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 10
@@ -1882,7 +1882,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "Psi"
+				param "Goauld"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 10
@@ -2070,7 +2070,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "Tech"
+				param "Human"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
@@ -2082,7 +2082,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "Phase"
+				param "Asuran"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
@@ -2094,7 +2094,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "Psi"
+				param "Goauld"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
@@ -2106,7 +2106,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "Tech"
+				param "Human"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
@@ -2118,7 +2118,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "Phase"
+				param "Asuran"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 6
@@ -2142,7 +2142,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "Psi"
+				param "Goauld"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
@@ -2154,7 +2154,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "Phase"
+				param "Asuran"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 6
@@ -2167,7 +2167,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "Phase"
+				param "Asuran"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 4
@@ -2178,7 +2178,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "Psi"
+				param "Goauld"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
@@ -2190,7 +2190,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "Phase"
+				param "Asuran"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 6
@@ -2203,7 +2203,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "Phase"
+				param "Asuran"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 4
