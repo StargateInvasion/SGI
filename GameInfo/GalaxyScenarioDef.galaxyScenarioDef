@@ -841,7 +841,7 @@ orbitBodyType
 	typeName "Occupied"
 	entityDefName "OccupiedPlanet"
 	defaultTemplateName "Template:OccupiedPlanet"
-planetItemTypeCount 285
+planetItemTypeCount 246
 planetItemType
 	designName "Asuran:Orbital:MineExplosive"
 	entityDefName "Asuran_DeepSpaceMine"
@@ -1275,134 +1275,11 @@ planetItemType
 	designName "Goauld:Titan:Offense"
 	entityDefName "Goauld_TitanOffense_Anubis"
 planetItemType
-	designName "Cosmetic:Titan:Defense"	
-	entityDefName "Human_TitanDefense_Hephestus_Cosmetic"
-planetItemType
-	designName "Cosmetic:Titan:Offense"
-	entityDefName "Human_TitanOffense_Tartarus_Cosmetic"
-planetItemType
-	designName "Psi:Module:Mine"
-	entityDefName "SpaceMinePsi"
-planetItemType
-	designName "Psi:Module:Cannon"
-	entityDefName "PLANETMODULE_PSIORBITALCANNON"
-planetItemType
-	designName "Psi:Module:CapitalShipFactory"
-	entityDefName "PLANETMODULE_PSIORBITALCAPITALSHIPFACTORY"
-planetItemType
-	designName "Psi:Module:CombatLab"
-	entityDefName "PLANETMODULE_PSIORBITALCOMBATLABORATORY"
-planetItemType
-	designName "Psi:Module:CrystalExtractor"
-	entityDefName "PLANETMODULE_PSIORBITALCRYSTALEXTRACTOR"
-planetItemType
-	designName "Psi:Module:CultureCenter"
-	entityDefName "PLANETMODULE_PSIORBITALCULTURECENTER"
-planetItemType
-	designName "Psi:Module:FrigateFactory"
-	entityDefName "PLANETMODULE_PSIORBITALFRIGATEFACTORY"
-planetItemType
-	designName "Psi:Module:HangarDefense"
-	entityDefName "PLANETMODULE_PSIORBITALHANGARDEFENSE"
-planetItemType
-	designName "Psi:Module:MetalExtractor"
-	entityDefName "PLANETMODULE_PSIORBITALMETALEXTRACTOR"
-planetItemType
-	designName "Psi:Module:NonCombatLab"
-	entityDefName "PLANETMODULE_PSIORBITALNONCOMBATLABORATORY"
-planetItemType
-	designName "Psi:Module:RepairPlatform"
-	entityDefName "PLANETMODULE_PSIORBITALREPAIRPLATFORM"
-planetItemType
-	designName "Psi:Module:TradePort"
-	entityDefName "PLANETMODULE_PSIORBITALTRADEPORT"
-planetItemType
-	designName "Psi:Module:BeamDefense"
-	entityDefName "PLANETMODULE_PSIORBITALBEAMDEFENSE"
-planetItemType
-	designName "Psi:Module:JumpBlocker"
-	entityDefName "PLANETMODULE_PSIORBITALJUMPBLOCKER"
-planetItemType
-	designName "Psi:Module:AntiMatterRecharger"
-	entityDefName "PLANETMODULE_PSIORBITALANTIMATTERRECHARGER"
-planetItemType
-	designName "Psi:Module:TitanFactory"
-	entityDefName "PLANETMODULE_PSILOYALISTORBITALTITANFACTORY"
+	designName "Goauld:Frigate:Corvette"
+	entityDefName "Goauld_FrigateCorvette_Horus"
 planetItemType
 	designName "Pirate:Module:GaussDefense"
 	entityDefName "Human_Orbital_WeaponsPlatform"
-planetItemType
-	designName "Goauld:Corvette:Loyalist"
-	entityDefName "CorvettePhaseLoyalist"
-planetItemType
-	designName "Psi:Frigate:AntiFighter"
-	entityDefName "FrigatePsiAntiFighter"
-planetItemType
-	designName "Psi:Frigate:Carrier"
-	entityDefName "FrigatePsiCarrier"
-planetItemType
-	designName "Psi:Frigate:Colony"
-	entityDefName "FrigatePsiColony"
-planetItemType
-	designName "Psi:Frigate:Heavy"
-	entityDefName "FrigatePsiHeavy"
-planetItemType
-	designName "Psi:Frigate:Light"
-	entityDefName "FrigatePsiLight"
-planetItemType
-	designName "Psi:Frigate:LongRange"
-	entityDefName "FrigatePsiLongRange"
-planetItemType
-	designName "Psi:Frigate:Scout"
-	entityDefName "FrigatePsiScout"
-planetItemType
-	designName "Psi:Frigate:Siege"
-	entityDefName "FrigatePsiSiege"
-planetItemType
-	designName "Psi:Frigate:Utility0"
-	entityDefName "FrigatePsiUtility0"
-planetItemType
-	designName "Psi:Frigate:Utility1"
-	entityDefName "FrigatePsiUtility1"
-planetItemType
-	designName "Psi:Frigate:Constructor"
-	entityDefName "FrigatePsiModuleConstructor"
-planetItemType
-	designName "Psi:Frigate:Envoy"
-	entityDefName "FrigatePsiEnvoy"
-planetItemType
-	designName "Psi:Corvette:Loyalist"
-	entityDefName "CorvettePsiLoyalist"
-planetItemType
-	designName "Psi:Corvette:Rebel"
-	entityDefName "CorvettePsiRebel"
-planetItemType
-	designName "Psi:StarBase"
-	entityDefName "Goauld_StarbaseOffense_Cronus"
-planetItemType
-	designName "Psi:CapitalShip:BattleShip"
-	entityDefName "CAPITALSHIP_PSIBATTLESHIP"
-planetItemType
-	designName "Psi:CapitalShip:BattleShip2"
-	entityDefName "CAPITALSHIP_PSIBATTLESHIP2"
-planetItemType
-	designName "Psi:CapitalShip:Carrier"
-	entityDefName "CAPITALSHIP_PSICARRIER"
-planetItemType
-	designName "Psi:CapitalShip:Colony"
-	entityDefName "CAPITALSHIP_PSICOLONY"
-planetItemType
-	designName "Psi:CapitalShip:BattlePsionic"
-	entityDefName "CAPITALSHIP_PSIBATTLEPSIONIC"
-planetItemType
-	designName "Psi:CapitalShip:PlanetPsionic"
-	entityDefName "CAPITALSHIP_PSIPLANETPSIONIC"
-planetItemType
-	designName "Psi:Titan:Loyalist"
-	entityDefName "TITAN_PSILOYALIST"
-planetItemType
-	designName "Psi:Titan:Rebel"
-	entityDefName "TITAN_PSIREBEL"
 planetItemType
 	designName "Pirate:Frigate:Medium"
 	entityDefName "Human_FrigateLight_X303"
@@ -1680,39 +1557,36 @@ planetItemType
 	designName "Artifact:MatterCompressor"
 	entityDefName "RESEARCHSUBJECT_ARTIFACT_TRADEINCOME"
 planetItemType
-	designName "Cosmetic:TitanPsiLoyalist"
-	entityDefName "TITAN_PSILOYALIST_COSMETIC"
-planetItemType
-	designName "Cosmetic:TitanPsiRebel"
-	entityDefName "TITAN_PSIREBEL_COSMETIC"
-planetItemType
 	designName "Cosmetic:TitanAsuranOffense"
 	entityDefName "Asuran_TitanOffense_EpheusCosmetic"
 planetItemType
 	designName "Cosmetic:TitanAsuranDefense"
 	entityDefName "Asuran_TitanDefense_AtlantisCosmetic"
 planetItemType
+	designName "Cosmetic:TitanGoauldOffense"
+	entityDefName "Goauld_TitanOffense_Anubis_Cosmetic"
+planetItemType
+	designName "Cosmetic:TitanGoauldDefense"
+	entityDefName "Goauld_TitanDefense_Sokar_Cosmetic"
+planetItemType
+	designName "Cosmetic:Titan:Defense"	
+	entityDefName "Human_TitanDefense_Hephestus_Cosmetic"
+planetItemType
+	designName "Cosmetic:Titan:Offense"
+	entityDefName "Human_TitanOffense_Tartarus_Cosmetic"
+planetItemType
 	designName "Pirate:Module:HangarDefense"
 	entityDefName "Human_Orbital_HangerDefense"
 planetItemType
 	designName "Pirate:Module:RepairPlatform"
 	entityDefName "Human_Orbital_RepairPlatform"
-playerTypeCount 7
+playerTypeCount 4
 playerType
 	designName "Human"
 	entityDefName "PlayerHuman"
 playerType
-	designName "PsiLoyalist"
-	entityDefName "PlayerPsiLoyalist"
-playerType
-	designName "PhaseLoyalist"
-	entityDefName "PlayerPhaseLoyalist"
-playerType
 	designName "Goauld"
 	entityDefName "PlayerGoauld"
-playerType
-	designName "PsiRebel"
-	entityDefName "PlayerPsiRebel"
 playerType
 	designName "Asuran"
 	entityDefName "PlayerAsuran"
@@ -1732,7 +1606,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "Human"
+				param "Tech"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 25
@@ -1764,7 +1638,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "Human"
+				param "Tech"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 40
@@ -1811,7 +1685,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "Asuran"
+				param "Phase"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 21
@@ -1839,7 +1713,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "Asuran"
+				param "Phase"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 33
@@ -1879,7 +1753,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "Goauld"
+				param "Psi"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 19
@@ -1905,7 +1779,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "Goauld"
+				param "Psi"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 29
@@ -1941,29 +1815,29 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "PsiLoyalist"
+				param "Psi"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 4		
-				item "Psi:Module:FrigateFactory"
-				item "Psi:Module:FrigateFactory"
-				item "Psi:Frigate:Constructor"
-				item "Psi:Frigate:Constructor"
+				item "Goauld:Orbital:FrigateFactory"
+				item "Goauld:Orbital:FrigateFactory"
+				item "Goauld:Module:Constructor"
+				item "Goauld:Module:Constructor"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "PsiRebel"
+				param "Tech"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 4		
-				item "Psi:Module:FrigateFactory"
-				item "Psi:Module:FrigateFactory"
-				item "Psi:Frigate:Constructor"
-				item "Psi:Frigate:Constructor"
+				item "Human:Orbital:FrigateFactory"
+				item "Human:Orbital:FrigateFactory"
+				item "Human:Module:Constructor"
+				item "Human:Module:Constructor"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "PhaseLoyalist"
+				param "Phase"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 4
@@ -1974,24 +1848,24 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "PsiLoyalist"
+				param "Tech"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 10
-				item "Psi:Module:FrigateFactory"
-				item "Psi:Module:FrigateFactory"
-				item "Psi:Module:CapitalShipFactory"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Module:CrystalExtractor"
-				item "Psi:Frigate:Constructor"
-				item "Psi:Frigate:Constructor"
-				item "Psi:Frigate:Scout"
-				item "Psi:Frigate:Scout"
+				item "Human:Orbital:FrigateFactory"
+				item "Human:Orbital:FrigateFactory"
+				item "Human:Orbital:CapitalFactory"
+				item "Human:Orbital:MetalExtractor"
+				item "Human:Orbital:MetalExtractor"
+				item "Human:Orbital:CrystalExtractor"
+				item "Human:Module:Constructor"
+				item "Human:Module:Constructor"
+				item "Human:Frigate:Scout"
+				item "Human:Frigate:Scout"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "PhaseLoyalist"
+				param "Phase"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 10
@@ -2008,20 +1882,20 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "PsiRebel"
+				param "Psi"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 10
-				item "Psi:Module:FrigateFactory"
-				item "Psi:Module:FrigateFactory"
-				item "Psi:Module:CapitalShipFactory"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Module:CrystalExtractor"
-				item "Psi:Frigate:Constructor"
-				item "Psi:Frigate:Constructor"
-				item "Psi:Frigate:Scout"
-				item "Psi:Frigate:Scout"
+				item "Goauld:Orbital:FrigateFactory"
+				item "Goauld:Orbital:FrigateFactory"
+				item "Goauld:Orbital:CapitalFactory"
+				item "Goauld:Orbital:MetalExtractor"
+				item "Goauld:Orbital:MetalExtractor"
+				item "Goauld:Orbital:CrystalExtractor"
+				item "Goauld:Module:Constructor"
+				item "Goauld:Module:Constructor"
+				item "Goauld:Frigate:Scout"
+				item "Goauld:Frigate:Scout"
 planetItemsTemplate
 	templateName "Template:DefaultStart_Terran"
 	subTemplates 2
@@ -2196,7 +2070,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "Human"
+				param "Tech"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
@@ -2208,31 +2082,31 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "PsiLoyalist"
+				param "Phase"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 6
-				item "Psi:Frigate:Scout"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-		group
-			condition
-				type "PlanetOwnerIsRaceNormalStart"
-				param "PhaseLoyalist"
-			owner "PlanetOwner"
-			colonizeChance 1
-			items 4
+			items 5
 				item "Asuran:Frigate:Scout"
 				item "Asuran:Frigate:Light"
 				item "Asuran:Frigate:Light"
 				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:Light"
+		group
+			condition
+				type "PlanetOwnerIsRaceNormalStart"
+				param "Psi"
+			owner "PlanetOwner"
+			colonizeChance 1
+			items 5
+				item "Goauld:Frigate:Scout"
+				item "Goauld:Frigate:Light"
+				item "Goauld:Frigate:Light"
+				item "Goauld:Frigate:Light"
+				item "Goauld:Frigate:Light"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "Human"
+				param "Tech"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
@@ -2244,16 +2118,16 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "PsiLoyalist"
+				param "Phase"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 6
-				item "Psi:Frigate:Scout"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
+				item "Asuran:Frigate:Scout"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:Light"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
@@ -2268,7 +2142,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "Goauld"
+				param "Psi"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
@@ -2280,20 +2154,20 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "PsiRebel"
+				param "Phase"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 6
-				item "Psi:Frigate:Scout"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
+				item "Asuran:Frigate:Scout"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:Light"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
-				param "Asuran"
+				param "Phase"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 4
@@ -2304,7 +2178,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "Goauld"
+				param "Psi"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 5
@@ -2316,20 +2190,20 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "PsiRebel"
+				param "Phase"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 6
-				item "Psi:Frigate:Scout"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
+				item "Asuran:Frigate:Scout"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:Light"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "Asuran"
+				param "Phase"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 4
@@ -3062,28 +2936,28 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 22
-				item "Psi:Module:FrigateFactory"
-				item "Psi:Module:TradePort"
-				item "Psi:Module:RepairPlatform"
-				item "Psi:Module:BeamDefense"	
-				item "Psi:Module:BeamDefense"
-				item "Psi:Module:CrystalExtractor"
-				item "Psi:Module:CrystalExtractor"
-				item "Psi:Module:CrystalExtractor"
-				item "Psi:Module:CrystalExtractor"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:LongRange"
-				item "Psi:Frigate:LongRange"
-				item "Psi:Frigate:AntiFighter"
-				item "Psi:Frigate:Heavy"
-				item "Psi:Frigate:Constructor"
-				item "Psi:Frigate:Constructor"
+				item "Asuran:Orbital:FrigateFactory"
+				item "Asuran:Orbital:TradePort"
+				item "Asuran:Orbital:RepairPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"	
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:CrystalExtractor"
+				item "Asuran:Orbital:CrystalExtractor"
+				item "Asuran:Orbital:CrystalExtractor"
+				item "Asuran:Orbital:CrystalExtractor"
+				item "Asuran:Orbital:MetalExtractor"
+				item "Asuran:Orbital:MetalExtractor"
+				item "Asuran:Orbital:MetalExtractor"
+				item "Asuran:Orbital:MetalExtractor"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:LongRange"
+				item "Asuran:Frigate:LongRange"
+				item "Asuran:Frigate:AntiFighter"
+				item "Asuran:Cruiser:Heavy"
+				item "Asuran:Frigate:Constructor"
+				item "Asuran:Frigate:Constructor"
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
@@ -3309,27 +3183,27 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 23
-				item "Psi:Module:FrigateFactory"
+				item "Asuran:Orbital:FrigateFactory"
 				item "Goauld:Orbital:FrigateFactory"
 				item "Human:Orbital:TradePort"
 				item "Human:Orbital:WeaponsPlatform"	
-				item "Psi:Module:BeamDefense"
+				item "Asuran:Orbital:WeaponsPlatform"
 				item "Goauld:Orbital:WeaponsPlatform"
 				item "Human:Orbital:CrystalExtractor"
 				item "Goauld:Orbital:CrystalExtractor"
-				item "Psi:Module:CrystalExtractor"
+				item "Asuran:Orbital:CrystalExtractor"
 				item "Human:Orbital:CrystalExtractor"
 				item "Goauld:Orbital:MetalExtractor"
-				item "Psi:Module:MetalExtractor"
+				item "Asuran:Orbital:MetalExtractor"
 				item "Human:Orbital:MetalExtractor"
 				item "Goauld:Orbital:MetalExtractor"
 				item "Human:Frigate:Light"
-				item "Psi:Frigate:Light"
+				item "Asuran:Frigate:Light"
 				item "Goauld:Frigate:Light"
 				item "Human:Frigate:LongRange"
 				item "Goauld:Frigate:LongRange"
 				item "Human:Frigate:AntiFighter"
-				item "Psi:Frigate:Heavy"
+				item "Asuran:Cruiser:Heavy"
 				item "Human:Module:Constructor"
 				item "Human:Module:Constructor"
 		group
@@ -3339,30 +3213,30 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 24
-				item "Psi:Module:FrigateFactory"
-				item "Psi:Module:CapitalShipFactory"
-				item "Psi:Module:TradePort"
-				item "Psi:Module:RepairPlatform"
-				item "Psi:Module:BeamDefense"	
-				item "Psi:Module:BeamDefense"
-				item "Psi:Module:CrystalExtractor"
-				item "Psi:Module:CrystalExtractor"
-				item "Psi:Module:CrystalExtractor"
-				item "Psi:Module:CrystalExtractor"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:CapitalShip:PlanetPsionic"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:LongRange"
-				item "Psi:Frigate:LongRange"
-				item "Psi:Frigate:AntiFighter"
-				item "Psi:Frigate:Heavy"
-				item "Psi:Frigate:Constructor"
-				item "Psi:Frigate:Constructor"
+				item "Asuran:Orbital:FrigateFactory"
+				item "Asuran:Orbital:CapitalShipFactory"
+				item "Asuran:Orbital:TradePort"
+				item "Asuran:Orbital:RepairPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"	
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:CrystalExtractor"
+				item "Asuran:Orbital:CrystalExtractor"
+				item "Asuran:Orbital:CrystalExtractor"
+				item "Asuran:Orbital:CrystalExtractor"
+				item "Asuran:Orbital:MetalExtractor"
+				item "Asuran:Orbital:MetalExtractor"
+				item "Asuran:Orbital:MetalExtractor"
+				item "Asuran:Orbital:MetalExtractor"
+				item "Asuran:CapitalShip:Colony"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:LongRange"
+				item "Asuran:Frigate:LongRange"
+				item "Asuran:Frigate:AntiFighter"
+				item "Asuran:Cruiser:Heavy"
+				item "Asuran:Frigate:Constructor"
+				item "Asuran:Frigate:Constructor"
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
@@ -3370,29 +3244,29 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 23
-				item "Psi:Module:FrigateFactory"
-				item "Psi:Module:TradePort"
-				item "Psi:Module:RepairPlatform"
-				item "Psi:Module:BeamDefense"	
-				item "Psi:Module:BeamDefense"
-				item "Psi:Module:CrystalExtractor"
-				item "Psi:Module:CrystalExtractor"
-				item "Psi:Module:CrystalExtractor"
-				item "Psi:Module:CrystalExtractor"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Module:NonCombatLab"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:LongRange"
-				item "Psi:Frigate:LongRange"
-				item "Psi:Frigate:AntiFighter"
-				item "Psi:Frigate:Heavy"
-				item "Psi:Frigate:Constructor"
-				item "Psi:Frigate:Constructor"
+				item "Asuran:Orbital:FrigateFactory"
+				item "Asuran:Orbital:TradePort"
+				item "Asuran:Orbital:RepairPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"	
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:CrystalExtractor"
+				item "Asuran:Orbital:CrystalExtractor"
+				item "Asuran:Orbital:CrystalExtractor"
+				item "Asuran:Orbital:CrystalExtractor"
+				item "Asuran:Orbital:MetalExtractor"
+				item "Asuran:Orbital:MetalExtractor"
+				item "Asuran:Orbital:MetalExtractor"
+				item "Asuran:Orbital:MetalExtractor"
+				item "Asuran:Orbital:NonCombatLab"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:LongRange"
+				item "Asuran:Frigate:LongRange"
+				item "Asuran:Frigate:AntiFighter"
+				item "Asuran:Cruiser:Heavy"
+				item "Asuran:Frigate:Constructor"
+				item "Asuran:Frigate:Constructor"
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
@@ -3400,28 +3274,28 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 22
-				item "Psi:Module:FrigateFactory"
-				item "Psi:Module:TradePort"
-				item "Psi:Module:RepairPlatform"
-				item "Psi:Module:BeamDefense"	
-				item "Psi:Module:BeamDefense"
-				item "Psi:Module:CrystalExtractor"
-				item "Psi:Module:CrystalExtractor"
-				item "Psi:Module:CrystalExtractor"
-				item "Psi:Module:CrystalExtractor"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:LongRange"
-				item "Psi:Frigate:LongRange"
-				item "Psi:Frigate:AntiFighter"
-				item "Psi:Frigate:Heavy"
-				item "Psi:Frigate:Constructor"
-				item "Psi:Frigate:Constructor"
+				item "Asuran:Orbital:FrigateFactory"
+				item "Asuran:Orbital:TradePort"
+				item "Asuran:Orbital:RepairPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"	
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:CrystalExtractor"
+				item "Asuran:Orbital:CrystalExtractor"
+				item "Asuran:Orbital:CrystalExtractor"
+				item "Asuran:Orbital:CrystalExtractor"
+				item "Asuran:Orbital:MetalExtractor"
+				item "Asuran:Orbital:MetalExtractor"
+				item "Asuran:Orbital:MetalExtractor"
+				item "Asuran:Orbital:MetalExtractor"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:LongRange"
+				item "Asuran:Frigate:LongRange"
+				item "Asuran:Frigate:AntiFighter"
+				item "Asuran:Cruiser:Heavy"
+				item "Asuran:Frigate:Constructor"
+				item "Asuran:Frigate:Constructor"
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
@@ -3429,31 +3303,31 @@ planetItemsTemplate
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 25
-				item "Psi:Module:FrigateFactory"
-				item "Psi:Module:TradePort"
-				item "Psi:Module:RepairPlatform"
-				item "Psi:Module:BeamDefense"	
-				item "Psi:Module:BeamDefense"
-				item "Psi:Module:BeamDefense"
-				item "Psi:Module:CrystalExtractor"
-				item "Psi:Module:CrystalExtractor"
-				item "Psi:Module:CrystalExtractor"
-				item "Psi:Module:CrystalExtractor"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Module:MetalExtractor"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:Light"
-				item "Psi:Frigate:LongRange"
-				item "Psi:Frigate:LongRange"
-				item "Psi:Frigate:LongRange"
-				item "Psi:Frigate:AntiFighter"
-				item "Psi:Frigate:Heavy"
-				item "Psi:Frigate:Heavy"
-				item "Psi:Frigate:Constructor"
-				item "Psi:Frigate:Constructor"
+				item "Asuran:Orbital:FrigateFactory"
+				item "Asuran:Orbital:TradePort"
+				item "Asuran:Orbital:RepairPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"	
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:WeaponsPlatform"
+				item "Asuran:Orbital:CrystalExtractor"
+				item "Asuran:Orbital:CrystalExtractor"
+				item "Asuran:Orbital:CrystalExtractor"
+				item "Asuran:Orbital:CrystalExtractor"
+				item "Asuran:Orbital:MetalExtractor"
+				item "Asuran:Orbital:MetalExtractor"
+				item "Asuran:Orbital:MetalExtractor"
+				item "Asuran:Orbital:MetalExtractor"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:Light"
+				item "Asuran:Frigate:LongRange"
+				item "Asuran:Frigate:LongRange"
+				item "Asuran:Frigate:LongRange"
+				item "Asuran:Frigate:AntiFighter"
+				item "Asuran:Cruiser:Heavy"
+				item "Asuran:Cruiser:Heavy"
+				item "Asuran:Frigate:Constructor"
+				item "Asuran:Frigate:Constructor"
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
@@ -3595,7 +3469,7 @@ player
 player
 	designName "MadVasari"
 	inGameName "IDSScenarioPlayerNameMadVasari"
-	overrideRaceName "PhaseLoyalist"
+	overrideRaceName "Goauld"
 	teamIndex -1
 	startingCredits 0
 	startingMetal 0
@@ -3966,7 +3840,7 @@ player
 player
 	designName "MinorFaction7"
 	inGameName "IDSScenarioPlayerNameMinorFactionPsi0"
-	overrideRaceName "PsiRebel"
+	overrideRaceName "Asuran"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -3980,7 +3854,7 @@ player
 player
 	designName "MinorFaction8"
 	inGameName "IDSScenarioPlayerNameMinorFactionPsi1"
-	overrideRaceName "PsiRebel"
+	overrideRaceName "Asuran"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -3994,7 +3868,7 @@ player
 player
 	designName "MinorFaction9"
 	inGameName "IDSScenarioPlayerNameMinorFactionPsi2"
-	overrideRaceName "PsiRebel"
+	overrideRaceName "Asuran"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -4008,7 +3882,7 @@ player
 player
 	designName "MinorFaction10"
 	inGameName "IDSScenarioPlayerNameMinorFactionPsi3"
-	overrideRaceName "PsiLoyalist"
+	overrideRaceName "Asuran"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
@@ -4064,7 +3938,7 @@ player
 player
 	designName "MinorFaction14"
 	inGameName "IDSScenarioPlayerNameMinorFactionPhase3"
-	overrideRaceName "PhaseLoyalist"
+	overrideRaceName "Goauld"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300

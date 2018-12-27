@@ -1015,15 +1015,15 @@ template
 		owner "PlanetOwner"
 		colonizeChance 0.000000
 		items 9
-		item "Psi:Frigate:Scout"
-		item "Psi:Frigate:Light"
-		item "Psi:Frigate:Light"
-		item "Psi:Frigate:Heavy"
-		item "Psi:Frigate:Heavy"
-		item "Psi:Module:CombatLab"
-		item "Psi:Module:NonCombatLab"
-		item "Psi:Module:BeamDefense"
-		item "Psi:Module:BeamDefense"
+		item "Goauld:Frigate:Scout"
+		item "Goauld:Frigate:Light"
+		item "Goauld:Frigate:Light"
+		item "Goauld:Cruiser:Heavy"
+		item "Goauld:Cruiser:Heavy"
+		item "Goauld:Orbital:CombatLab"
+		item "Goauld:Orbital:NonCombatLab"
+		item "Goauld:Orbital:WeaponsPlatform"
+		item "Goauld:Orbital:WeaponsPlatform"
 	group
 		condition
 			type "PlanetOwnerIsRaceQuickStart"

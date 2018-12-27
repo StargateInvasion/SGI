@@ -2267,10 +2267,10 @@ template
 		owner "PlanetOwner"
 		colonizeChance 0.000000
 		items 4
-		item "Psi:Frigate:Colony"
-		item "Psi:Frigate:Heavy"
-		item "Psi:Frigate:Heavy"
-		item "Psi:Frigate:Heavy"
+		item "Goauld:Frigate:Colony"
+		item "Goauld:Cruiser:Heavy"
+		item "Goauld:Cruiser:Heavy"
+		item "Goauld:Cruiser:Heavy"
 	group
 		condition
 			type "PlanetOwnerIsRaceQuickStart"
@@ -2305,11 +2305,11 @@ template
 		owner "PlanetOwner"
 		colonizeChance 0.000000
 		items 5
-		item "Psi:Module:NonCombatLab"
-		item "Psi:Module:NonCombatLab"
-		item "Psi:Module:NonCombatLab"
-		item "Psi:Module:NonCombatLab"
-		item "Psi:Module:NonCombatLab"
+		item "Goauld:Orbital:NonCombatLab"
+		item "Goauld:Orbital:NonCombatLab"
+		item "Goauld:Orbital:NonCombatLab"
+		item "Goauld:Orbital:NonCombatLab"
+		item "Goauld:Orbital:NonCombatLab"
 	group
 		condition
 			type "PlanetOwnerIsRaceQuickStart"
