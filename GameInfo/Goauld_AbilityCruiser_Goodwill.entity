@@ -1,8 +1,22 @@
 ﻿TXT
 entityType "Ability"
-buffInstantActionType "ApplyBuffToSelf"
+buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
 buffType "Goauld_BuffCruiser_Goodwill"
+targetFilter
+	numOwnerships 1
+	ownership "UncontrolledMinorFaction"
+	numObjects 1
+	object "Planet"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "IsExplored"
+range
+	Level:0 6600.000000
+	Level:1 6600.000000
+	Level:2 0.000000
+	Level:3 0.000000
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -10,20 +24,26 @@ effectInfo
 	mediumEffectName ""
 	largeEffectName ""
 	soundID ""
-needsToFaceTarget FALSE
+needsToFaceTarget TRUE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "FixedLevel0"
-aiUseTime "Invalid"
-aiUseTargetCondition "Invalid"
-isAutoCastAvailable FALSE
-isAutoCastOnByDefault FALSE
+aiUseTime "OnlyWhenOrbitingEnemyOrAlliedPlanet"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
-useCostType "Passive"
+useCostType "None"
+cooldownTime
+	Level:0 60.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
