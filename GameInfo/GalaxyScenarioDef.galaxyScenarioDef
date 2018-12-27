@@ -3415,15 +3415,13 @@ planetItemsTemplate
 				item "Goauld:Frigate:Siege"
 				item "Goauld:Module:Constructor"
 				item "Goauld:Module:Constructor"
-validPictureGroups 4
-pictureGroup "PlayerPhase"
-pictureGroup "PlayerPsi"
-pictureGroup "PlayerTech"
+validPictureGroups 3
+pictureGroup "PlayerAsuran"
+pictureGroup "PlayerHuman"
 pictureGroup "PlayerGoauld"
-validThemeGroups 5
-themeGroup "PlayerPhase"
-themeGroup "PlayerPsi"
-themeGroup "PlayerTech"
+validThemeGroups 4
+themeGroup "PlayerAsuran"
+themeGroup "PlayerHuman"
 themeGroup "PlayerGoauld"
 themeGroup "NPC"
 npcPlayers 39
@@ -3475,9 +3473,9 @@ player
 	startingMetal 0
 	startingCrystal 0
 	playerType "NPCMadVasari"
-	themeGroup "PlayerPhase"
+	themeGroup "PlayerGoauld"
 	themeIndex 15
-	pictureGroup "PlayerPhase"
+	pictureGroup "PlayerGoauld"
 	pictureIndex 15
 player
 	designName "Militia0"
