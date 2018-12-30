@@ -2131,7 +2131,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
-				param "PhaseLoyalist"
+				param "Asuran"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 4
@@ -2903,7 +2903,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
-				param "DefaultTech"
+				param "DefaultHuman"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 22
@@ -2932,7 +2932,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
-				param "DefaultPsi"
+				param "DefaultAsuran"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 22
@@ -2961,7 +2961,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
-				param "DefaultPhase"
+				param "DefaultGoauld"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 20
@@ -2988,7 +2988,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
-				param "TechMiners"
+				param "HumanMiners"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 23
@@ -3018,7 +3018,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
-				param "TechScrappers"
+				param "HumanScrappers"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 22
@@ -3047,7 +3047,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
-				param "TechSiegeRaiders"
+				param "HumanSiegeRaiders"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 28
@@ -3082,7 +3082,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
-				param "TechDemolitionists"
+				param "HumanDemolitionists"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 25
@@ -3114,7 +3114,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
-				param "TechXenophobes"
+				param "HumanXenophobes"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 29
@@ -3150,7 +3150,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
-				param "TechDefensive"
+				param "HumanDefensive"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 22
@@ -3179,7 +3179,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
-				param "TechUsedFrigates"
+				param "HumanUsedFrigates"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 23
@@ -3209,7 +3209,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
-				param "PsiPacifists"
+				param "AsuranPacifists"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 24
@@ -3240,7 +3240,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
-				param "PsiCulture"
+				param "AsuranCulture"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 23
@@ -3270,7 +3270,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
-				param "PsiDoomCult"
+				param "AsuranDoomCult"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 22
@@ -3299,7 +3299,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
-				param "PsiSiegeRaiders"
+				param "AsuranSiegeRaiders"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 25
@@ -3331,7 +3331,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
-				param "PhaseTransporters"
+				param "GoauldTransporters"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 23
@@ -3361,7 +3361,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
-				param "PhaseExpedition"
+				param "GoauldExpedition"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 22
@@ -3390,7 +3390,7 @@ planetItemsTemplate
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
-				param "PhaseArmsDealers"
+				param "GoauldArmsDealers"
 			owner "PlanetOwner"
 			colonizeChance 1
 			items 21
@@ -3739,210 +3739,210 @@ player
 	pictureIndex 2
 player
 	designName "MinorFaction0"
-	inGameName "IDSScenarioPlayerNameMinorFactionTech0"
+	inGameName "IDSScenarioPlayerNameMinorFactionHuman0"
 	overrideRaceName "Human"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
 	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "TechMiners"
+	minorFactionPlayerDefName "HumanMiners"
 	themeGroup "NPCMinorFactions"
 	themeIndex 11
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "MinorFaction1"
-	inGameName "IDSScenarioPlayerNameMinorFactionTech1"
+	inGameName "IDSScenarioPlayerNameMinorFactionHuman1"
 	overrideRaceName "Human"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
 	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "TechScrappers"
+	minorFactionPlayerDefName "HumanScrappers"
 	themeGroup "NPCMinorFactions"
 	themeIndex 1
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "MinorFaction2"
-	inGameName "IDSScenarioPlayerNameMinorFactionTech2"
+	inGameName "IDSScenarioPlayerNameMinorFactionHuman2"
 	overrideRaceName "Goauld"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
 	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "TechSiegeRaiders"
+	minorFactionPlayerDefName "HumanSiegeRaiders"
 	themeGroup "NPCMinorFactions"
 	themeIndex 2
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "MinorFaction3"
-	inGameName "IDSScenarioPlayerNameMinorFactionTech3"
+	inGameName "IDSScenarioPlayerNameMinorFactionHuman3"
 	overrideRaceName "Goauld"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
 	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "TechDemolitionists"
+	minorFactionPlayerDefName "HumanDemolitionists"
 	themeGroup "NPCMinorFactions"
 	themeIndex 10
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "MinorFaction4"
-	inGameName "IDSScenarioPlayerNameMinorFactionTech4"
+	inGameName "IDSScenarioPlayerNameMinorFactionHuman4"
 	overrideRaceName "Goauld"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
 	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "TechXenophobes"
+	minorFactionPlayerDefName "HumanXenophobes"
 	themeGroup "NPCMinorFactions"
 	themeIndex 3
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "MinorFaction5"
-	inGameName "IDSScenarioPlayerNameMinorFactionTech5"
+	inGameName "IDSScenarioPlayerNameMinorFactionHuman5"
 	overrideRaceName "Human"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
 	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "TechUsedFrigates"
+	minorFactionPlayerDefName "HumanUsedFrigates"
 	themeGroup "NPCMinorFactions"
 	themeIndex 9
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "MinorFaction6"
-	inGameName "IDSScenarioPlayerNameMinorFactionTech6"
+	inGameName "IDSScenarioPlayerNameMinorFactionHuman6"
 	overrideRaceName "Human"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
 	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "TechDefensive"
+	minorFactionPlayerDefName "HumanDefensive"
 	themeGroup "NPCMinorFactions"
 	themeIndex 4
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "MinorFaction7"
-	inGameName "IDSScenarioPlayerNameMinorFactionPsi0"
+	inGameName "IDSScenarioPlayerNameMinorFactionAsuran0"
 	overrideRaceName "Asuran"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
 	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "PsiPacifists"
+	minorFactionPlayerDefName "AsuranPacifists"
 	themeGroup "NPCMinorFactions"
 	themeIndex 8
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "MinorFaction8"
-	inGameName "IDSScenarioPlayerNameMinorFactionPsi1"
+	inGameName "IDSScenarioPlayerNameMinorFactionAsuran1"
 	overrideRaceName "Asuran"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
 	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "PsiCulture"
+	minorFactionPlayerDefName "AsuranCulture"
 	themeGroup "NPCMinorFactions"
 	themeIndex 12
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "MinorFaction9"
-	inGameName "IDSScenarioPlayerNameMinorFactionPsi2"
+	inGameName "IDSScenarioPlayerNameMinorFactionAsuran2"
 	overrideRaceName "Asuran"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
 	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "PsiDoomCult"
+	minorFactionPlayerDefName "AsuranDoomCult"
 	themeGroup "NPCMinorFactions"
 	themeIndex 14
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "MinorFaction10"
-	inGameName "IDSScenarioPlayerNameMinorFactionPsi3"
+	inGameName "IDSScenarioPlayerNameMinorFactionAsuran3"
 	overrideRaceName "Asuran"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
 	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "PsiSiegeRaiders"
+	minorFactionPlayerDefName "AsuranSiegeRaiders"
 	themeGroup "NPCMinorFactions"
 	themeIndex 5
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "MinorFaction11"
-	inGameName "IDSScenarioPlayerNameMinorFactionPhase0"
+	inGameName "IDSScenarioPlayerNameMinorFactionGoauld0"
 	overrideRaceName "Asuran"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
 	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "PhaseTransporters"
+	minorFactionPlayerDefName "GoauldTransporters"
 	themeGroup "NPCMinorFactions"
 	themeIndex 13
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "MinorFaction12"
-	inGameName "IDSScenarioPlayerNameMinorFactionPhase1"
+	inGameName "IDSScenarioPlayerNameMinorFactionGoauld1"
 	overrideRaceName "Asuran"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
 	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "PhaseExpedition"
+	minorFactionPlayerDefName "GoauldExpedition"
 	themeGroup "NPCMinorFactions"
 	themeIndex 0
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "MinorFaction13"
-	inGameName "IDSScenarioPlayerNameMinorFactionPhase2"
+	inGameName "IDSScenarioPlayerNameMinorFactionGoauld2"
 	overrideRaceName "Asuran"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
 	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "PhaseArmsDealers"
+	minorFactionPlayerDefName "GoauldArmsDealers"
 	themeGroup "NPCMinorFactions"
 	themeIndex 7
 	pictureGroup "NPC"
 	pictureIndex 2
 player
 	designName "MinorFaction14"
-	inGameName "IDSScenarioPlayerNameMinorFactionPhase3"
+	inGameName "IDSScenarioPlayerNameMinorFactionGoauld3"
 	overrideRaceName "Goauld"
 	teamIndex -1
 	startingCredits 1000
 	startingMetal 300
 	startingCrystal 100
 	playerType "NPCMinorFaction"
-	minorFactionPlayerDefName "DefaultPhase"
+	minorFactionPlayerDefName "DefaultGoauld"
 	themeGroup "NPCMinorFactions"
 	themeIndex 6
 	pictureGroup "NPC"

@@ -1,0 +1,67 @@
+﻿TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetNoRange"
+instantActionTriggerType "AlwaysPerform"
+buffType "Goauld_BuffMinorFactionSpawn_RemoteAttackRaid"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 1
+	object "Planet"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "IsExplored"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "ResearchFloatModifierValue"
+	sourceResearchFloatModifierType "MinorFactionAbilityLevel"
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget TRUE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Resources"
+creditCost
+	Level:0 1250.000000
+	Level:1 2500.000000
+	Level:2 3750.000000
+	Level:3 3000.000000
+metalCost
+	Level:0 100.000000
+	Level:1 200.000000
+	Level:2 300.000000
+	Level:3 300.000000
+crystalCost
+	Level:0 135.000000
+	Level:1 270.000000
+	Level:2 300.000000
+	Level:3 300.000000
+cooldownTime
+	Level:0 480.000000
+	Level:1 480.000000
+	Level:2 480.000000
+	Level:3 480.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_MINORFACTIONSPAWNREMOTEATTACKRAIDPHASE_NAME"
+descStringID "IDS_ABILITY_MINORFACTIONSPAWNREMOTEATTACKRAIDPHASE_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_MINORFACTIONSPAWNREMOTEATTACKRAIDPHASE"
+smallHudIcon "HUDICON_ABILITY_MINORFACTIONSPAWNREMOTEATTACKRAIDPHASE"
+infoCardIcon ""
