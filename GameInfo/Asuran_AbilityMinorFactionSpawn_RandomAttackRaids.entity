@@ -1,0 +1,58 @@
+﻿TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Asuran_BuffMinorFactionSpawn_RandomAttackRaids"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "ResearchFloatModifierValue"
+	sourceResearchFloatModifierType "MinorFactionAbilityLevel"
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Resources"
+creditCost
+	Level:0 2000.000000
+	Level:1 4000.000000
+	Level:2 6000.000000
+	Level:3 6000.000000
+metalCost
+	Level:0 150.000000
+	Level:1 300.000000
+	Level:2 450.000000
+	Level:3 450.000000
+crystalCost
+	Level:0 200.000000
+	Level:1 400.000000
+	Level:2 600.000000
+	Level:3 600.000000
+cooldownTime
+	Level:0 480.000000
+	Level:1 480.000000
+	Level:2 480.000000
+	Level:3 480.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_MINORFACTIONSPAWNRANDOMATTACKRAIDS_NAME"
+descStringID "IDS_ABILITY_MINORFACTIONSPAWNRANDOMATTACKRAIDS_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_MINORFACTIONSPAWNRANDOMATTACKRAIDS"
+smallHudIcon "HUDICON_ABILITY_MINORFACTIONSPAWNRANDOMATTACKRAIDS"
+infoCardIcon ""

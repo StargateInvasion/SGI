@@ -1,0 +1,123 @@
+﻿TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 1
+periodicAction
+	actionCountType "Finite"
+	actionCount
+		Level:0 8.000000
+		Level:1 8.000000
+		Level:2 8.000000
+		Level:3 8.000000
+	actionIntervalTime
+		Level:0 15.000000
+		Level:1 15.000000
+		Level:2 15.000000
+		Level:3 15.000000
+	buffInstantActionType "SpawnShipsAtPlanetWithRandomTarget"
+	instantActionTriggerType "AlwaysPerform"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 1
+		object "Planet"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	spawnShipsLevelCount 3
+	spawnShips
+		minFleetPoints 20.000000
+		maxFleetPoints 30.000000
+		requiredShipCount 2
+		requiredShip
+			type "Asuran_FrigateLight_Ceres"
+			minCount 1
+			maxCount 1
+		requiredShip
+			type "Asuran_FrigateLongRange_Erinyes"
+			minCount 1
+			maxCount 1
+		randomShipCount 4
+		randomShip
+			type "Asuran_FrigateLight_Ceres"
+			weight 6
+		randomShip
+			type "Asuran_FrigateLongRange_Erinyes"
+			weight 6
+		randomShip
+			type "Asuran_CruiserHeavy_Atropos"
+			weight 1
+		randomShip
+			type "Asuran_FrigateAntiFighter_Ogen"
+			weight 2
+	spawnShips
+		minFleetPoints 30.000000
+		maxFleetPoints 40.000000
+		requiredShipCount 2
+		requiredShip
+			type "Asuran_FrigateLight_Ceres"
+			minCount 2
+			maxCount 2
+		requiredShip
+			type "Asuran_FrigateLongRange_Erinyes"
+			minCount 2
+			maxCount 2
+		randomShipCount 4
+		randomShip
+			type "Asuran_FrigateLight_Ceres"
+			weight 6
+		randomShip
+			type "Asuran_FrigateLongRange_Erinyes"
+			weight 6
+		randomShip
+			type "Asuran_CruiserHeavy_Atropos"
+			weight 2
+		randomShip
+			type "Asuran_FrigateAntiFighter_Ogen"
+			weight 2
+	spawnShips
+		minFleetPoints 40.000000
+		maxFleetPoints 50.000000
+		requiredShipCount 2
+		requiredShip
+			type "Asuran_FrigateLight_Ceres"
+			minCount 3
+			maxCount 3
+		requiredShip
+			type "Asuran_FrigateLongRange_Erinyes"
+			minCount 3
+			maxCount 3
+		randomShipCount 4
+		randomShip
+			type "Asuran_FrigateLight_Ceres"
+			weight 6
+		randomShip
+			type "Asuran_FrigateLongRange_Erinyes"
+			weight 6
+		randomShip
+			type "Asuran_CruiserHeavy_Atropos"
+			weight 4
+		randomShip
+			type "Asuran_FrigateAntiFighter_Ogen"
+			weight 2
+	spawnShipsArrivalDelayTime 3.000000
+	spawnShipsHyperspaceSpawnType "MinorFactionAttackRaid"
+	shouldAdoptFirstSpawnersMinorFactionState TRUE
+	spawnShipsMinStartingHullPerc 1.0
+	spawnShipsMaxStartingHullPerc 1.0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "AllPeriodicActionsDone"
+finishCondition
+	finishConditionType "OwnerChanged"

@@ -1,0 +1,123 @@
+﻿TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "SpawnShipsAtPlanetWithTarget"
+instantActionTriggerType "AlwaysPerform"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 1
+	object "Planet"
+	numSpaces 1
+	space "Normal"
+	numConstraints 2
+	constraint "IsExplored"
+	constraint "NotIsTech"
+spawnShipsLevelCount 3
+spawnShips
+	minFleetPoints 25.000000
+	maxFleetPoints 40.000000
+	requiredShipCount 0
+	randomShipCount 4
+	randomShip
+		type "Human_FrigateLight_X303"
+		weight 6
+	randomShip
+		type "Human_FrigateLongRange_Tempest"
+		weight 4
+	randomShip
+		type "Human_CruiserHeavy_BC304"
+		weight 1
+	randomShip
+		type "Human_FrigateAntiFighter_Claudius"
+		weight 2
+spawnShips
+	minFleetPoints 45.000000
+	maxFleetPoints 60.000000
+	requiredShipCount 0
+	randomShipCount 5
+	randomShip
+		type "Human_FrigateLight_X303"
+		weight 5
+	randomShip
+		type "Human_FrigateLongRange_Tempest"
+		weight 5
+	randomShip
+		type "Human_CruiserHeavy_BC304"
+		weight 2
+	randomShip
+		type "Human_FrigateAntiFighter_Claudius"
+		weight 2
+	randomShip
+		type "Human_CruiserCarrier_Cerberus"
+		weight 1
+spawnShips
+	minFleetPoints 65.000000
+	maxFleetPoints 80.000000
+	requiredShipCount 0
+	randomShipCount 5
+	randomShip
+		type "Human_FrigateLight_X303"
+		weight 3
+	randomShip
+		type "Human_FrigateLongRange_Tempest"
+		weight 3
+	randomShip
+		type "Human_CruiserHeavy_BC304"
+		weight 4
+	randomShip
+		type "Human_FrigateAntiFighter_Claudius"
+		weight 2
+	randomShip
+		type "Human_CruiserCarrier_Cerberus"
+		weight 2
+spawnShipsArrivalDelayTime 7.000000
+spawnShipsHyperspaceSpawnType "MinorFactionAttackRaid"
+shouldAdoptFirstSpawnersMinorFactionState TRUE
+spawnShipsMinStartingHullPerc 1.0
+spawnShipsMaxStartingHullPerc 1.0
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "ResearchFloatModifierValue"
+	sourceResearchFloatModifierType "MinorFactionAbilityLevel"
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Resources"
+creditCost
+	Level:0 1000.000000
+	Level:1 2000.000000
+	Level:2 3000.000000
+	Level:3 3000.000000
+metalCost
+	Level:0 75.000000
+	Level:1 150.000000
+	Level:2 225.000000
+	Level:3 225.000000
+crystalCost
+	Level:0 100.000000
+	Level:1 200.000000
+	Level:2 300.000000
+	Level:3 300.000000
+cooldownTime
+	Level:0 480.000000
+	Level:1 480.000000
+	Level:2 480.000000
+	Level:3 480.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_MINORFACTIONSPAWNATTACKRAIDNONTECHTARGET_NAME"
+descStringID "IDS_ABILITY_MINORFACTIONSPAWNATTACKRAIDNONTECHTARGET_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_MINORFACTIONSPAWNATTACKRAIDNONTECHTARGET0"
+smallHudIcon "HUDICON_ABILITY_MINORFACTIONSPAWNATTACKRAIDNONTECHTARGET0"
+infoCardIcon ""
