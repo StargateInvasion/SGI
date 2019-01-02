@@ -1,0 +1,55 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE"
+smallHudIcon "HUDICONSMALL_RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_ARTIFACT_STRONGCULTURE_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 0 , 1 ]
+ResearchField "Artifact"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel 1
+BaseUpgradeTime 75.000000
+PerLevelUpgradeTime 15.000000
+BaseCost
+	credits 1200.000000
+	metal 250.000000
+	crystal 250.000000
+PerLevelCostIncrease
+	credits 300.000000
+	metal 100.000000
+	crystal 100.000000
+Tier 0
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 5
+researchModifier
+	modifierType "CultureSpreadRateAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.300000
+researchModifier
+	modifierType "CultureResistPercent"
+	baseValue 0.000000
+	perLevelValue 0.200000
+researchModifier
+	modifierType "RelationshipBonus"
+	baseValue 0.000000
+	perLevelValue 4.000000
+researchModifier
+	modifierType "QuestRewardHappinessAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
+researchModifier
+	modifierType "QuestFailureHappinessAdjustment"
+	baseValue 0.000000
+	perLevelValue -0.050000
+artifactPicture "ArtifactPictureStrongCulture"
+uniqueOverlayBrush ""
+dlcId 204880

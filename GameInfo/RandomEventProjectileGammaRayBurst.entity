@@ -1,0 +1,25 @@
+﻿TXT
+entityType "CannonShell"
+acceleration 300.000000
+startingSpeed 500.000000
+maxSpeed 10000.000000
+buffToApplyOnImpact "RandomEventGammaRayBurst"
+planetImpactEffectName "GammaRayBurst_Impact"
+planetImpactSounds
+	soundCount 1
+	sound "EXPLOSION_GRBIMPACT"
+planetImpactCameraShakeMaxSize 980000.000000
+planetImpactCameraShakeStrength 1.500000
+planetImpactCameraShakeDuration 0.000000
+meshName "GammaRayBurst_Mesh"
+mainViewIcon "MainViewIconRandomEventSmall"
+picture "RandomEventProjectileGammaRayBurst"
+nameStringID "IDS_RANDOMEVENT_GAMMARAYBURST_NAME"
+descStringID "IDS_RANDOMEVENT_GAMMARAYBURST_DESC"
+renderMesh FALSE
+minZoomDistanceMult 7.500000
+hudIcon "HUDIconGammaRayBurst"
+smallHudIcon "MainViewIconRandomEventSmall"
+infoCardIcon "MainViewIconRandomEventSmall"
+minShadow 0.000000
+maxShadow 0.500000

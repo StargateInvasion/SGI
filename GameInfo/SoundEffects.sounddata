@@ -1,5 +1,5 @@
 TXT
-numEffects 408
+numEffects 409
 effect
     name "EFFECT_REPOSSESSION"
     fileName "Effect_Repossession.ogg"
@@ -2445,6 +2445,21 @@ effect
 	fadeInTime 0.3
 	fadeOutTime 1.0
 	alternateGroup ""
+effect
+    name "EFFECT_WAILOFTHESACRIFICED"
+    fileName "Effect_WailoftheSacrificed.ogg"
+    type "Effect"
+    is3D TRUE
+    priority 10
+    threshold 100000.000000
+    minAttenuationDist 90000.000000
+    maxNumPlayingSimultaneously 5
+    isLooping FALSE
+    isResident FALSE
+    minRespawnTime 0.1
+    fadeInTime 0.0
+    fadeOutTime 0.0
+    alternateGroup ""
 effect
 	name "EFFECT_WEAPONJAM"
 	fileName "Effect_WeaponJam.ogg"

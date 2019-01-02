@@ -1,0 +1,29 @@
+﻿TXT
+entityType "Quest"
+titleStringId "IDSQuestGiveMetal"
+infoCardDescStringId "IDSQuestInfoCardDescGiveMetal"
+questType "GiveResources"
+duration 900.000000
+relationshipDecayRate 0.000000
+happinessChangeForSuccess 0.240000
+happinessChangeForFailure -0.120000
+reward
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+priceDemanded
+	credits 0.000000
+	metal 1200.000000
+	crystal 0.000000
+valueToKill 0.000000
+numReceiverConstraints 2
+ReceiverConstraint
+	type "TargetHappiness"
+	min 12.500000
+	max 20.000000
+ReceiverConstraint
+	type "TargetMetalIncome"
+	min 4.000000
+	max 9999.000000
+numTargetConstraints 0
+weight 1.000000

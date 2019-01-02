@@ -1,0 +1,47 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_ARTIFACT_HULLREPAIROVERTIMEINCREASE"
+smallHudIcon "HUDICONSMALL_RESEARCHSUBJECT_ARTIFACT_HULLREPAIROVERTIMEINCREASE"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_ARTIFACT_HULLREPAIROVERTIMEINCREASE_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_ARTIFACT_HULLREPAIROVERTIMEINCREASE_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 2 , 0 ]
+ResearchField "Artifact"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel 1
+BaseUpgradeTime 75.000000
+PerLevelUpgradeTime 15.000000
+BaseCost
+	credits 1200.000000
+	metal 250.000000
+	crystal 250.000000
+PerLevelCostIncrease
+	credits 300.000000
+	metal 100.000000
+	crystal 100.000000
+Tier 0
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 3
+researchModifier
+	modifierType "HullPointsRegenAdjustment"
+	baseValue 0.000000
+	perLevelValue 1.500000
+researchModifier
+	modifierType "ArmorBaseAdjustment"
+	baseValue 0.000000
+	perLevelValue 3.000000
+researchModifier
+	modifierType "BombingDamageAsDamageTargetAdjustment"
+	baseValue 0.000000
+	perLevelValue -0.100000
+artifactPicture "ArtifactPictureHullRepairOverTimeIncrease"
+uniqueOverlayBrush ""
+dlcId 204880

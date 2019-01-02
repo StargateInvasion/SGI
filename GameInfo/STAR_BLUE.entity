@@ -1,0 +1,49 @@
+﻿TXT
+entityType "Star"
+coronaStartColor 8aff
+coronaEndColor ff008bff
+coronaStartColorDistance 0.000000
+coronaEndColorDistance 2.000000
+farIcon "HUDICON_SOLARSYSTEM_BLUE"
+coloredSkyboxMeshInfoCount 5
+meshInfo
+	meshName "SkyboxBackdrop2"
+	shouldPrefer TRUE
+meshInfo
+	meshName "SkyboxBackdrop4"
+	shouldPrefer FALSE
+meshInfo
+	meshName "SkyboxBackdrop5"
+	shouldPrefer TRUE
+meshInfo
+	meshName "SkyboxBackdrop6"
+	shouldPrefer TRUE
+meshInfo
+	meshName "SkyboxBackdrop8"
+	shouldPrefer FALSE
+deepSpaceSkyboxMeshInfoCount 1
+meshInfo
+	meshName "SkyboxBackdrop7"
+	shouldPrefer FALSE
+iconTextureName "starcore-blue"
+dlcID 204880
+ability:0 "AbilitySolarRegeneration"
+ability:1 "AbilitySolarStorm"
+ability:2 ""
+ability:3 ""
+ability:4 ""
+hudIcon "HUDICON_STAR_BLUE"
+smallHudIcon "HUDICONSMALL_STAR_BLUE"
+infoCardIcon "INFOCARDICON_STAR_BLUE"
+minZoomDistanceMult 2.000000
+moveAreaRadius 60000.000000
+hyperspaceExitRadius 50000.000000
+isWormhole FALSE
+maxStarBaseCountPerPlayer 4
+maxSpaceMineCountPerPlayer 500
+mainViewIcon "MAINVIEWICON_STAR_BLUE"
+picture "STARPICTURE_BLUE"
+MeshName "Star_Blue"
+MaxMeshVisibilityDistanceToCamera -1.000000
+minShadow 0.000000
+maxShadow 0.000000

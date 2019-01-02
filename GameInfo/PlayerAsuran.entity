@@ -1,7 +1,7 @@
 TXT2
 SinsArchiveVersion 193
 entityType "Player"
-raceNameStringID "IDS_PLAYERRACENAME_PHASEREBEL"
+raceNameStringID "IDS_PLAYERRACENAME_ASURAN"
 canColonize TRUE
 playerRaceType "Phase"
 isSelectable TRUE
@@ -897,9 +897,9 @@ field "IDS_PHASE_RESEARCHFIELD_ARTIFACT"
 field "IDS_PHASE_RESEARCHFIELD_FLEET"
 playerThemeGroupName "PlayerAsuran"
 playerPictureGroupName "PlayerAsuran"
-raceRelationsModCount 6
+raceRelationsModCount 5
 raceRelationsModifier
-	raceNameID "IDS_PLAYERRACENAME_TECHREBEL"
+	raceNameID "IDS_PLAYERRACENAME_GOAULD"
 	modifierMin -1.500000
 	modifierMax -1.000000
 	factionRelationsModCount 1
@@ -919,7 +919,7 @@ raceRelationsModifier
 		modifierMin 0.250000
 		modifierMax 0.500000
 raceRelationsModifier
-	raceNameID "IDS_PLAYERRACENAME_PSIREBEL"
+	raceNameID "IDS_PLAYERRACENAME_ASGARD"
 	modifierMin -1.000000
 	modifierMax -0.500000
 	factionRelationsModCount 1
@@ -929,17 +929,7 @@ raceRelationsModifier
 		modifierMin 0.000000
 		modifierMax 0.250000
 raceRelationsModifier
-	raceNameID "IDS_PLAYERRACENAME_PSILOYALIST"
-	modifierMin -1.000000
-	modifierMax -0.500000
-	factionRelationsModCount 1
-	factionRelationsModifier
-		factionNameID "IDS_PLAYERFACTIONNAME_REBEL"
-		otherFactionNameID "IDS_PLAYERFACTIONNAME_LOYALIST"
-		modifierMin 0.000000
-		modifierMax 0.250000
-raceRelationsModifier
-	raceNameID "IDS_PLAYERRACENAME_PHASEREBEL"
+	raceNameID "IDS_PLAYERRACENAME_ASURAN"
 	modifierMin 0.100000
 	modifierMax 1.000000
 	factionRelationsModCount 1
@@ -949,7 +939,7 @@ raceRelationsModifier
 		modifierMin 0.500000
 		modifierMax 1.000000
 raceRelationsModifier
-	raceNameID "IDS_PLAYERRACENAME_PHASELOYALIST"
+	raceNameID "IDS_PLAYERRACENAME_WRAITH"
 	modifierMin 0.100000
 	modifierMax 1.000000
 	factionRelationsModCount 1

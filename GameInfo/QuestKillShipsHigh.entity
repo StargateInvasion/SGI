@@ -1,0 +1,37 @@
+﻿TXT
+entityType "Quest"
+titleStringId "IDSQuestKillShips"
+infoCardDescStringId "IDSQuestInfoCardDescKillShips"
+questType "KillShips"
+duration 3000.000000
+relationshipDecayRate 0.000000
+happinessChangeForSuccess 1.000000
+happinessChangeForFailure -0.500000
+reward
+	credits 3000.000000
+	metal 600.000000
+	crystal 400.000000
+priceDemanded
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+valueToKill 20.000000
+numReceiverConstraints 1
+ReceiverConstraint
+	type "TargetHappiness"
+	min 12.000000
+	max 20.000000
+numTargetConstraints 3
+TargetConstraint
+	type "TargetHappiness"
+	min 0.000000
+	max 6.500000
+TargetConstraint
+	type "TargetDist"
+	min 0.000000
+	max 3.000000
+TargetConstraint
+	type "TargetShipSlots"
+	min 20.000000
+	max 99999.000000
+weight 5.000000

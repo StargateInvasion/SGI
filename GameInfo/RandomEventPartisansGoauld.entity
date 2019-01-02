@@ -1,0 +1,73 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "SpawnShipsAtPlanet"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	spawnShipsLevelCount 1
+	spawnShips
+		minFleetPoints 150.000000
+		maxFleetPoints 350.000000
+		requiredShipCount 7
+		requiredShip
+			type "Goauld_FrigateAntiFighter_Duat"
+			minCount 2
+			maxCount 3
+		requiredShip
+			type "Goauld_CruiserCarrier_Hokkesh"
+			minCount 2
+			maxCount 3
+		requiredShip
+			type "Goauld_FrigateCorvette_Horus"
+			minCount 5
+			maxCount 6
+		requiredShip
+			type "Goauld_CruiserHeavy_Maat"
+			minCount 3
+			maxCount 6
+		requiredShip
+			type "Goauld_FrigateLight_Ammit"
+			minCount 5
+			maxCount 10
+		requiredShip
+			type "Goauld_FrigateLongRange_Osiris"
+			minCount 2
+			maxCount 6
+		requiredShip
+			type "Goauld_FrigateSiege_Alkesh"
+			minCount 2
+			maxCount 2
+		randomShipCount 4
+		randomShip
+			type "Goauld_CapitalBattleship_Hatel"
+			weight 1
+		randomShip
+			type "Goauld_CapitalSupport_Shutak"
+			weight 1
+		randomShip
+			type "Goauld_CapitalCarrier_Hatak"
+			weight 1
+		randomShip
+			type "Goauld_CapitalSiege_Meltak"
+			weight 1
+	spawnShipsArrivalDelayTime 7.000000
+	spawnShipsHyperspaceSpawnType "FleetBeacon"
+	shouldAdoptFirstSpawnersMinorFactionState TRUE
+	spawnShipsMinStartingHullPerc 1.0
+	spawnShipsMaxStartingHullPerc 1.0
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

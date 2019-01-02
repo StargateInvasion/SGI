@@ -1,0 +1,72 @@
+﻿TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToAllFirstSpawnerShipsAndStructures"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffMinorFactionHyperspaceSpeedBonus"
+targetFilter
+	numOwnerships 1
+	ownership "Player"
+	numObjects 5
+	object "CapitalShip"
+	object "Frigate"
+	object "StarBase"
+	object "Titan"
+	object "Corvette"
+	numSpaces 1
+	space "Normal"
+	numConstraints 2
+	constraint "NotIsMinorFactionOwned"
+	constraint "NotIsOutlaw"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "ResearchFloatModifierValue"
+	sourceResearchFloatModifierType "MinorFactionAbilityLevel"
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Resources"
+creditCost
+	Level:0 1500.000000
+	Level:1 1500.000000
+	Level:2 1500.000000
+	Level:3 1500.000000
+metalCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+crystalCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 300.000000
+	Level:1 300.000000
+	Level:2 300.000000
+	Level:3 300.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_MINORFACTIONHYPERSPACESPEEDBONUS_NAME"
+descStringID "IDS_ABILITY_MINORFACTIONHYPERSPACESPEEDBONUS_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_MINORFACTIONHYPERSPACESPEEDBONUS"
+smallHudIcon "HUDICON_ABILITY_MINORFACTIONHYPERSPACESPEEDBONUS"
+infoCardIcon ""

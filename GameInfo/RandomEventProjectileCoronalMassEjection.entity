@@ -1,0 +1,25 @@
+﻿TXT
+entityType "CannonShell"
+acceleration 300.000000
+startingSpeed 500.000000
+maxSpeed 10000.000000
+buffToApplyOnImpact "RandomEventCoronalMassEjection"
+planetImpactEffectName "CoronalMassEjection_Impact"
+planetImpactSounds
+	soundCount 1
+	sound "EXPLOSION_CMEIMPACT"
+planetImpactCameraShakeMaxSize 980000.000000
+planetImpactCameraShakeStrength 1.500000
+planetImpactCameraShakeDuration 0.000000
+meshName "CoronalMassEjection_Mesh"
+mainViewIcon "MainViewIconRandomEventLarge"
+picture "RandomEventProjectileCoronalMassEjection"
+nameStringID "IDS_RANDOMEVENT_CORONALMASSEJECTION_NAME"
+descStringID "IDS_RANDOMEVENT_CORONALMASSEJECTION_DESC"
+renderMesh FALSE
+minZoomDistanceMult 7.500000
+hudIcon "HUDIconCoronalMassEjection"
+smallHudIcon "MainViewIconRandomEventLarge"
+infoCardIcon "MainViewIconRandomEventLarge"
+minShadow 0.000000
+maxShadow 0.500000

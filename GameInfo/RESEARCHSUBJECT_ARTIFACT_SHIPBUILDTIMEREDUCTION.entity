@@ -1,0 +1,47 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION"
+smallHudIcon "HUDICONSMALL_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_ARTIFACT_SHIPBUILDTIMEREDUCTION_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 1 , 0 ]
+ResearchField "Artifact"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel 1
+BaseUpgradeTime 75.000000
+PerLevelUpgradeTime 15.000000
+BaseCost
+	credits 1200.000000
+	metal 250.000000
+	crystal 250.000000
+PerLevelCostIncrease
+	credits 300.000000
+	metal 100.000000
+	crystal 100.000000
+Tier 0
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 3
+researchModifier
+	modifierType "ShipBuildRateAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.300000
+researchModifier
+	modifierType "ModuleBuildRateAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.300000
+researchModifier
+	modifierType "PlanetSlotsCivilianIncrease"
+	baseValue 0.000000
+	perLevelValue 4.000000
+artifactPicture "ArtifactPictureShipBuildTimeReduction"
+uniqueOverlayBrush ""
+dlcId 204880

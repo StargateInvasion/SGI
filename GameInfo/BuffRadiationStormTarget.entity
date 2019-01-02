@@ -1,0 +1,48 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "RemoveAntiMatter"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	antiMatter
+		Level:0 200.000000
+		Level:1 200.000000
+		Level:2 200.000000
+		Level:3 200.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 3
+entityModifier
+	buffEntityModifierType "AntimatterRestoreRate"
+	value
+		Level:0 -2.500000
+		Level:1 -2.500000
+		Level:2 -2.500000
+		Level:3 -2.500000
+entityModifier
+	buffEntityModifierType "HullPointRestoreRate"
+	value
+		Level:0 -2.500000
+		Level:1 -2.500000
+		Level:2 -2.500000
+		Level:3 -2.500000
+entityModifier
+	buffEntityModifierType "ShieldPointRestoreRate"
+	value
+		Level:0 -2.500000
+		Level:1 -2.500000
+		Level:2 -2.500000
+		Level:3 -2.500000
+numEntityBoolModifiers 1
+entityBoolModifier "DisableFighterLaunch"
+numFinishConditions 1
+finishCondition
+	finishConditionType "EnterHyperspace"

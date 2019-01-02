@@ -1,0 +1,52 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetsAtOrbitBody"
+instantActionTriggerType "AlwaysPerform"
+buffType "BuffPlasmaStorm"
+targetFilter
+	numOwnerships 0
+	numObjects 5
+	object "CapitalShip"
+	object "Frigate"
+	object "StarBase"
+	object "Titan"
+	object "PlanetModule"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "CanHaveFighters"
+maxTargetCount
+	Level:0 -1.000000
+	Level:1 -1.000000
+	Level:2 -1.000000
+	Level:3 -1.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Passive"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_PLASMASTORM_NAME"
+descStringID "IDS_ABILITY_PLASMASTORM_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_PLASMASTORM"
+smallHudIcon "HUDICON_ABILITY_PLASMASTORM"
+infoCardIcon ""

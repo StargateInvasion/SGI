@@ -19,12 +19,12 @@ range
 	Level:0 5000.000000
 	Level:1 5500.000000
 	Level:2 6000.000000
-	Level:3 0.000000
+	Level:3 6500.000000
 maxTargetCount
 	Level:0 3.000000
 	Level:1 5.000000
 	Level:2 8.000000
-	Level:3 0.000000
+	Level:3 10.00000
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -68,7 +68,7 @@ needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
-maxNumLevels 3
+maxNumLevels 4
 levelSourceType "TitanUpgradeLevel"
 sourcePropertyType "AbilityBLevel"
 aiUseTime "OnlyWhenManyTargetsInRange"
@@ -76,7 +76,7 @@ onlyAutoCastWhenTargetCountExceedsAmount
 	Level:0 2.000000
 	Level:1 4.000000
 	Level:2 6.000000
-	Level:3 0.000000
+	Level:3 6.000000
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
@@ -88,12 +88,12 @@ antiMatterCost
 	Level:0 250.000000
 	Level:1 250.000000
 	Level:2 250.000000
-	Level:3 0.000000
+	Level:3 250.000000
 cooldownTime
 	Level:0 45.000000
 	Level:1 40.000000
 	Level:2 35.000000
-	Level:3 0.000000
+	Level:3 35.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

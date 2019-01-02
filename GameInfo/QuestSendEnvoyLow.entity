@@ -1,0 +1,37 @@
+﻿TXT
+entityType "Quest"
+titleStringId "IDSQuestSendEnvoy"
+infoCardDescStringId "IDSQuestInfoCardDescSendEnvoy"
+questType "SendEnvoy"
+duration 1800.000000
+relationshipDecayRate 0.000000
+happinessChangeForSuccess 0.050000
+happinessChangeForFailure -0.030000
+reward
+	credits 550.000000
+	metal 70.000000
+	crystal 10.000000
+priceDemanded
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+valueToKill 0.000000
+numReceiverConstraints 1
+ReceiverConstraint
+	type "TargetHappiness"
+	min 3.500000
+	max 20.000000
+numTargetConstraints 3
+TargetConstraint
+	type "TargetHappiness"
+	min 3.500000
+	max 20.000000
+TargetConstraint
+	type "TargetDist"
+	min 0.000000
+	max 5.000000
+TargetConstraint
+	type "TargetShipSlots"
+	min 5.000000
+	max 99999.000000
+weight 5.000000

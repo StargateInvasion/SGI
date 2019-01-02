@@ -1,0 +1,37 @@
+﻿TXT
+entityType "Quest"
+titleStringId "IDSQuestKillCapitalShips"
+infoCardDescStringId "IDSQuestInfoCardDescKillCapitalShips"
+questType "KillCapitalShips"
+duration 1800.000000
+relationshipDecayRate 0.000000
+happinessChangeForSuccess 1.000000
+happinessChangeForFailure -0.500000
+reward
+	credits 1750.000000
+	metal 350.000000
+	crystal 250.000000
+priceDemanded
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+valueToKill 1.000000
+numReceiverConstraints 1
+ReceiverConstraint
+	type "TargetHappiness"
+	min 5.000000
+	max 20.000000
+numTargetConstraints 3
+TargetConstraint
+	type "TargetHappiness"
+	min 0.000000
+	max 7.000000
+TargetConstraint
+	type "TargetDist"
+	min 0.000000
+	max 2.000000
+TargetConstraint
+	type "TargetShipSlots"
+	min 10.000000
+	max 99999.000000
+weight 5.000000

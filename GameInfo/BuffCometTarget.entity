@@ -1,0 +1,38 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 3
+entityModifier
+	buffEntityModifierType "LinearMaxSpeed"
+	value
+		Level:0 -0.300000
+		Level:1 -0.300000
+		Level:2 -0.300000
+		Level:3 -0.300000
+entityModifier
+	buffEntityModifierType "LinearThrust"
+	value
+		Level:0 -0.300000
+		Level:1 -0.300000
+		Level:2 -0.300000
+		Level:3 -0.300000
+entityModifier
+	buffEntityModifierType "AngularThrust"
+	value
+		Level:0 -0.300000
+		Level:1 -0.300000
+		Level:2 -0.300000
+		Level:3 -0.300000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "EnterHyperspace"

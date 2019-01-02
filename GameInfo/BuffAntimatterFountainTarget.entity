@@ -1,0 +1,33 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "ConvertDamageToAntiMatter"
+	instantActionTriggerType "OnDamageTaken"
+	damageType "ENERGY"
+	antiMatterFromDamagePerc
+		Level:0 0.250000
+		Level:1 0.250000
+		Level:2 0.250000
+		Level:3 0.250000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "AntimatterRestoreRate"
+	value
+		Level:0 1.500000
+		Level:1 1.500000
+		Level:2 1.500000
+		Level:3 1.500000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "EnterHyperspace"
