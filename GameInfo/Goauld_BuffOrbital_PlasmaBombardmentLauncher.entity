@@ -23,7 +23,7 @@ periodicAction
 		Level:3 0.000000
 	buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
 	instantActionTriggerType "AlwaysPerform"
-	buffType "Goauld_BuffCapital_AsgardPulseBombardmentTarget"
+	buffType "Goauld_BuffOrbital_PlasmaBombardmentTarget"
 	targetFilter
 		numOwnerships 1
 		ownership "Enemy"
@@ -41,9 +41,9 @@ periodicAction
 		Level:2 9000.000000
 		Level:3 0.000000
 	maxTargetCount
-		Level:0 30.000000
-		Level:1 30.000000
-		Level:2 30.000000
+		Level:0 10.000000
+		Level:1 10.000000
+		Level:2 10.000000
 		Level:3 0.000000
 	effectInfo
 		effectAttachInfo
@@ -58,7 +58,7 @@ periodicAction
 	weaponEffectOriginType "Targetter"
 	weaponEffectAttachInfo
 		attachType "Ability"
-		abilityIndex 0
+		abilityIndex 2
 	weaponEffectImpactOffsetType "RandomMesh"
 	canWeaponEffectHitHull TRUE
 	canWeaponEffectHitShields TRUE
@@ -67,11 +67,11 @@ periodicAction
 		burstCount 15
 		burstDelay 0.500000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
+		muzzleEffectName "Weapon_PsiCapitalPlasmaHeavy_Muzzle"
 		muzzleSoundMinRespawnTime 0.210000
 		muzzleSounds
 			soundCount 3
-			sound "WEAPON_ASGARDBEAMS_MUZZLE"
+			sound "Weapon_Goa'uld_Capital"
 			sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE_ALT1"
 			sound "WEAPON_PSICAPITALPLASMAMEDIUM_MUZZLE_ALT2"
 		hitEffectName "Weapon_PsiCapitalPlasmaHeavy_Hit"
@@ -80,7 +80,7 @@ periodicAction
 			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
-			sound "WEAPON_ASGARDBEAMS_MUZZLE"
+			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
 		projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
 numOverTimeActions 1
 overTimeAction

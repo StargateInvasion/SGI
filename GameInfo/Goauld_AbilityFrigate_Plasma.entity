@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToTargetsInRadiusWithTravel"
 instantActionTriggerType "AlwaysPerform"
-buffType "Goauld_BuffFrigate_AsgardPulseDamage"
+buffType "Goauld_BuffFrigate_PlasmaDamage"
 targetFilter
 	numOwnerships 1
 	ownership "Enemy"
@@ -60,7 +60,7 @@ weaponEffectsDef
 	hitShieldsEffectSounds
 		soundCount 1
 		sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
-	projectileTravelEffectName "Weapon_AsgardPulseCapitalHeavy_Travel"
+	projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE

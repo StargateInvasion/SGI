@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "StarBase"
-ability:0 ""
-ability:1 ""
-ability:2 ""
-ability:3 ""
+ability:0 "Asuran_AbilityStarBase_DebrisVacuum"
+ability:1 "Asuran_AbilityStarBase_DestabilizeHyperspace"
+ability:2 "Asuran_AbilityStarBase_DirectionalShield"
+ability:3 "Asuran_AbilityStarBase_Stargate"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -147,7 +147,7 @@ TargetCountPerBank:BACK 4
 TargetCountPerBank:LEFT 4
 TargetCountPerBank:RIGHT 4
 canOnlyTargetStructures FALSE
-ShieldMeshName "Shield_PhaseStarBase"
+ShieldMeshName "Human_Shield_StarbaseSpecial_Zeus"
 renderShield TRUE
 squadTypeEntityDef:0 "Asuran_SquadCombat_Jumper"
 squadAntiMatterCost:0 0.000000
@@ -157,10 +157,10 @@ squadTypeEntityDef:2 ""
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
-mainViewIcon "MainViewIconStarBasePhase"
+mainViewIcon "MAINVIEWICON_HUMAN_STARBASESPECIAL_ZEUS"
 experiencePointsForDestroying 150.000000
 nameStringID "IDS_ASURAN_STARBASEOFFENSE_GAIA_NAME"
-picture "PICTURE_STARBASEPHASE"
+picture "PICTURE_STARBASETECH"
 statCountType "StarBase"
 creationSourceAbility "Asuran_AbilityCruiser_DeployStarbase"
 maxUpgradeLevelCount 8
@@ -174,56 +174,10 @@ UpgradeType "Asuran_StarBaseUpgradeCityPopulation"
 UpgradeType "Asuran_StarBaseUpgradeDebrisVacuum"
 UpgradeType "Asuran_StarBaseUpgradeDirectionalShield"
 UpgradeType "Asuran_StarBaseUpgradeStarGate"
-MeshNameInfoCount 6
+MeshNameInfoCount 1
 MeshNameInfo
-	meshName "StarBasePhase"
+	meshName "Human_StarbaseSpecial_Zeus"
 	criteriaType "None"
-MeshNameInfo
-	meshName "StarBasePhase-Trade"
-	criteriaType "StarBaseUpgradeLevel"
-	levelRequirements
-		levelRequirementCount 1
-		levelRequirement
-			upgradePropertyType "TradePortMeshLevel"
-			upgradeLevel 1
-MeshNameInfo
-	meshName "StarBasePhase-Weapon1"
-	criteriaType "StarBaseUpgradeLevel"
-	levelRequirements
-		levelRequirementCount 1
-		levelRequirement
-			upgradePropertyType "WeaponUpgradeLevel"
-			upgradeLevel 1
-MeshNameInfo
-	meshName "StarBasePhase-TradeWeapon1"
-	criteriaType "StarBaseUpgradeLevel"
-	levelRequirements
-		levelRequirementCount 2
-		levelRequirement
-			upgradePropertyType "TradePortMeshLevel"
-			upgradeLevel 1
-		levelRequirement
-			upgradePropertyType "WeaponUpgradeLevel"
-			upgradeLevel 1
-MeshNameInfo
-	meshName "StarBasePhase-Weapon2"
-	criteriaType "StarBaseUpgradeLevel"
-	levelRequirements
-		levelRequirementCount 1
-		levelRequirement
-			upgradePropertyType "WeaponUpgradeLevel"
-			upgradeLevel 2
-MeshNameInfo
-	meshName "StarBasePhase-TradeWeapon2"
-	criteriaType "StarBaseUpgradeLevel"
-	levelRequirements
-		levelRequirementCount 2
-		levelRequirement
-			upgradePropertyType "TradePortMeshLevel"
-			upgradeLevel 1
-		levelRequirement
-			upgradePropertyType "WeaponUpgradeLevel"
-			upgradeLevel 2
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 NumSoundsFor:ONATTACKORDERISSUED 0

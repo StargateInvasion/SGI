@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Goauld_BuffModule_Deconstruction"
+buffType "Asuran_BuffModule_Deconstruction"
 targetFilter
 	numOwnerships 1
 	ownership "Enemy"
@@ -53,8 +53,8 @@ researchPrerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_GOAULD_ABILITYMODULE_DECONSTRUCTION_NAME"
-descStringID "IDS_GOAULD_ABILITYMODULE_DECONSTRUCTION_DESCRIPTION"
-hudIcon "HUDICON_ABILITY_PSIMODULEDECONSTRUCTION"
-smallHudIcon "HUDICON_ABILITY_PSIMODULEDECONSTRUCTION"
+nameStringID "IDS_ASURAN_ABILITYMODULE_DECONSTRUCTION_NAME"
+descStringID "IDS_ASURAN_ABILITYMODULE_DECONSTRUCTION_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_TECHMODULEDECONSTRUCTION"
+smallHudIcon "HUDICON_ABILITY_TECHMODULEDECONSTRUCTION"
 infoCardIcon ""

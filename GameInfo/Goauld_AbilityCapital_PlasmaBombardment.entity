@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Goauld_BuffOrbital_AsgardPulseBombardmentLauncher"
+buffType "Goauld_BuffCapital_PlasmaBombardmentLauncher"
 effectInfo
 	effectAttachInfo
 		attachType "Invalid"
@@ -15,8 +15,12 @@ canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility TRUE
 maxNumLevels 1
-levelSourceType "ResearchWithoutBase"
-improveSourceResearchSubject "Goauld_Research_WeaponAccess_PlasmaPulse0"
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 3.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
 aiUseTime "OnlyWhenEnemyFleetWillPrevail"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -37,14 +41,11 @@ cooldownTime
 	Level:3 0.000000
 orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "Goauld_Research_WeaponAccess_PlasmaPulse0"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_GOAULD_ABILITYORBITAL_ASGARDPULSEBOMBARDMENT_NAME"
-descStringID "IDS_GOAULD_ABILITYORBITAL_ASGARDPULSEBOMBARDMENT_DESCRIPTION"
-hudIcon "HUDICON_RESEARCHSUBJECT_ABILITYACCESS_ASGARDCORE"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_ABILITYACCESS_ASGARDCORE"
+nameStringID "IDS_GOAULD_ABILITYCAPITAL_PLASMABOMBARDMENT_NAME"
+descStringID "IDS_GOAULD_ABILITYCAPITAL_PLASMABOMBARDMENT_DESCRIPTION"
+hudIcon "HUDICON_RESEARCHSUBJECT_ABILITYACCESS_PLASMABOMBARDMENT"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_ABILITYACCESS_PLASMABOMBARDMENT"
 infoCardIcon ""

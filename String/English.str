@@ -1,5 +1,5 @@
 ﻿TXT
-NumStrings 8014
+NumStrings 8016
 StringInfo
 	ID "IDS_GDPRDIALOG_CANCELBUTTON"
 	Value "Decline"
@@ -846,6 +846,12 @@ StringInfo
 StringInfo
 	ID "IDS_ASURAN_ABILITYMODULE_CONSTRUCTION_DESCRIPTION"
 	Value ""
+StringInfo
+	ID "IDS_ASURAN_ABILITYMODULE_DECONSTRUCTION_NAME"
+	Value "Deconstruction"
+StringInfo
+	ID "IDS_ASURAN_ABILITYMODULE_DECONSTRUCTION_DESCRIPTION"
+	Value "Tear down enemy structures"
 StringInfo
 	ID "IDS_ASURAN_ABILITYORBITAL_ATAROSDEVICE_NAME"
 	Value "Ataros Device"
@@ -2360,7 +2366,7 @@ StringInfo
 	Value "Emergency Assault"
 StringInfo
 	ID "IDS_HUMAN_ABILITYCAPITAL_BATTLESYSTEMS_DESCRIPTION"
-	Value "The ships crew divert all available power to tactical  systems, thus augmenting these systems for a period of time."
+	Value "The ships crew divert all available power to tactical systems, thus augmenting these systems for a period of time."
 StringInfo
 	ID "IDS_HUMAN_ABILITYCAPITAL_COLONIZE_NAME"
 	Value "Liberate"
@@ -4420,17 +4426,17 @@ StringInfo
 	ID "IDS_GOAULD_ABILITYCAPITAL_PULSE_DESCRIPTION"
 	Value "Goa'uld designed weapons that fire a rapid long range pulse of plasma. Requires research of Goa'uld Plasma Weapons."
 StringInfo
-	ID "IDS_GOAULD_ABILITYCAPITAL_ASGARDPULSEBOMBARDMENT_NAME"
-	Value "Power Surge"
+	ID "IDS_GOAULD_ABILITYCAPITAL_PLASMABOMBARDMENT_NAME"
+	Value "Plasma Bombardment"
 StringInfo
-	ID "IDS_GOAULD_ABILITYCAPITAL_ASGARDPULSEBOMBARDMENT_DESCRIPTION"
-	Value "All energy is transfered to the weapon system to increase fire rate and damage, however the system is overloading and causing damage to the ship!"
+	ID "IDS_GOAULD_ABILITYCAPITAL_PLASMABOMBARDMENT_DESCRIPTION"
+	Value "Engineers equip warships with the strategic bombardment weapons system."
 StringInfo
 	ID "IDS_GOAULD_ABILITYCAPITAL_BATTLESYSTEMS_NAME"
 	Value "Emergency Assault"
 StringInfo
 	ID "IDS_GOAULD_ABILITYCAPITAL_BATTLESYSTEMS_DESCRIPTION"
-	Value "The ships crew divert all available power to tactical  systems, thus augmenting these systems for a period of time."
+	Value "The ships crew divert all available power to tactical systems, thus augmenting these systems for a period of time."
 StringInfo
 	ID "IDS_GOAULD_ABILITYCAPITAL_COLONIZE_NAME"
 	Value "Dominate"
@@ -4720,11 +4726,11 @@ StringInfo
 	ID "IDS_GOAULD_ABILITYORBITAL_PULSE_DESCRIPTION"
 	Value "Goa'uld designed weapons that fire a rapid long range pulse of plasma. Requires research of Goa'uld Plasma Weapons."
 StringInfo
-	ID "IDS_GOAULD_ABILITYORBITAL_ASGARDPULSEBOMBARDMENT_NAME"
-	Value "Power Surge"
+	ID "IDS_GOAULD_ABILITYORBITAL_PLASMABOMBARDMENT_NAME"
+	Value "Plasma Bombardment"
 StringInfo
-	ID "IDS_GOAULD_ABILITYORBITAL_ASGARDPULSEBOMBARDMENT_DESCRIPTION"
-	Value "All energy is transfered to the weapon system to increase fire rate and damage, however the system is overloading and causing damage to the ship!"
+	ID "IDS_GOAULD_ABILITYORBITAL_PLASMABOMBARDMENT_DESCRIPTION"
+	Value "Engineers equip orbitals with the strategic bombardment weapons system."
 StringInfo
 	ID "IDS_GOAULD_ABILITYORBITAL_CANNON_NAME"
 	Value "Fire Quantum Railgun"
