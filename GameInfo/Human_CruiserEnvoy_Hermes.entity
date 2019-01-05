@@ -1,4 +1,5 @@
-﻿TXT
+﻿TXT2
+SinsArchiveVersion 193
 entityType "Frigate"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn FALSE
@@ -6,8 +7,9 @@ prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault FALSE
 canBomb FALSE
-typeCount 1
+typeCount 2
 frigateRoleType "Envoy"
+frigateRoleType "MinorFactionCapturer"
 statCountType "FrigateEnvoy"
 mainViewIcon "MAINVIEWICON_HUMAN_CRUISERENVOY_HERMES"
 picture "PICTURE_HUMAN_CRUISERENVOY_HERMES"
@@ -28,6 +30,7 @@ HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.000000
 BaseArmorPoints 1.000000
 maxMitigation 0.600000
+relationshipChangeRate 0.000667
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -100,7 +103,7 @@ ability:0 "Human_AbilityCruiser_DiplomaticImmunity"
 ability:1 "Human_AbilityCruiser_Goodwill"
 ability:2 "Human_AbilityCruiser_Settlers"
 ability:3 "Human_AbilityCruiser_WorthCause"
-ability:4 ""
+ability:4 "Human_AbilityCruiser_ArbitrateTariff"
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000
 cargoType "Invalid"
