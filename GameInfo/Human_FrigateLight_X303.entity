@@ -1,5 +1,4 @@
-﻿TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Frigate"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -16,7 +15,7 @@ NameStringID "IDS_HUMAN_FRIGATELIGHT_X303_NAME"
 DescriptionStringID "IDS_HUMAN_FRIGATELIGHT_X303_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 155.000000
+	credits 120.000000
 	metal 50.000000
 	crystal 25.000000
 slotCount 5.000000
@@ -24,12 +23,11 @@ BuildTime 11.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 3.000000
 MaxHullPoints 300.000000
-MaxShieldPoints 750.000000
+MaxShieldPoints 1000.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.000000
 BaseArmorPoints 4.000000
 maxMitigation 0.000000
-relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
@@ -191,9 +189,9 @@ maxAccelerationStrafe 410.000000
 maxDecelerationLinear 412.000000
 maxAccelerationAngular 27.000000
 maxDecelerationAngular 43.000000
-maxSpeedLinear 549.000000
+maxSpeedLinear 1000.000000
 maxRollRate 27.000000
-maxRollAngle 63.999996
+maxRollAngle 75.000000
 squadTypeEntityDef:0 "Human_FighterSquad_F302"
 squadAntiMatterCost:0 0.000000
 squadTypeEntityDef:1 ""

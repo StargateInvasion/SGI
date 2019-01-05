@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Frigate"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -16,11 +15,11 @@ NameStringID "IDS_HUMAN_CRUISERUTILITY0_ARES_NAME"
 DescriptionStringID "IDS_HUMAN_CRUISERUTILITY0_ARES_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 650.000000
+	credits 450.000000
 	metal 100.000000
 	crystal 150.000000
 slotCount 15.000000
-BuildTime 30.000000
+BuildTime 20.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 6.000000
 MaxHullPoints 500.000000
@@ -29,7 +28,6 @@ HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.000000
 BaseArmorPoints 4.000000
 maxMitigation 0.000000
-relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -189,14 +187,14 @@ hasWeaponLevels FALSE
 mass 2000.000000
 ShieldMeshName "Human_Shield_CruiserUtility0_Ares"
 renderShield TRUE
-maxAccelerationLinear 150.000000
+maxAccelerationLinear 170.000000
 maxAccelerationStrafe 20.000000
-maxDecelerationLinear 145.000000
-maxAccelerationAngular 23.650000
-maxDecelerationAngular 19.999996
-maxSpeedLinear 500.000000
-maxRollRate 10.000000
-maxRollAngle 55.000000
+maxDecelerationLinear 155.000000
+maxAccelerationAngular 25.650000
+maxDecelerationAngular 21.999996
+maxSpeedLinear 750.000000
+maxRollRate 20.000000
+maxRollAngle 65.000000
 squadTypeEntityDef:0 ""
 squadAntiMatterCost:0 0.000000
 squadTypeEntityDef:1 ""

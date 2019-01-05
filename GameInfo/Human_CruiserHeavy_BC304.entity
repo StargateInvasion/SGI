@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Frigate"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -16,11 +15,11 @@ NameStringID "IDS_HUMAN_CRUISERHEAVY_BC304_NAME"
 DescriptionStringID "IDS_HUMAN_CRUISERHEAVY_BC304_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_HEAVY"
 basePrice
-	credits 750.000000
+	credits 550.000000
 	metal 250.000000
 	crystal 155.000000
 slotCount 25.000000
-BuildTime 65.000000
+BuildTime 45.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 10.000000
 MaxHullPoints 850.000000
@@ -29,7 +28,6 @@ HullPointRestoreRate 1.450000
 ShieldPointRestoreRate 1.950000
 BaseArmorPoints 5.000000
 maxMitigation 0.000000
-relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -242,14 +240,14 @@ hasWeaponLevels FALSE
 mass 4000.000000
 ShieldMeshName "Human_Shield_CruiserHeavy_BC304"
 renderShield TRUE
-maxAccelerationLinear 100.000000
-maxAccelerationStrafe 10.000000
-maxDecelerationLinear 65.000000
-maxAccelerationAngular 5.000000
-maxDecelerationAngular 7.999996
-maxSpeedLinear 500.000000
-maxRollRate 12.000000
-maxRollAngle 45.000000
+maxAccelerationLinear 200.000000
+maxAccelerationStrafe 20.000000
+maxDecelerationLinear 55.000000
+maxAccelerationAngular 25.000000
+maxDecelerationAngular 20.999996
+maxSpeedLinear 1200.000000
+maxRollRate 20.000000
+maxRollAngle 75.000000
 squadTypeEntityDef:0 "Human_FighterSquad_F302"
 squadAntiMatterCost:0 0.000000
 squadTypeEntityDef:1 ""

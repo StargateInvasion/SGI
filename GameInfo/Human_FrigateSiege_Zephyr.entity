@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Frigate"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -49,20 +48,19 @@ NameStringID "IDS_HUMAN_FRIGATESIEGE_ZEPHYR_NAME"
 DescriptionStringID "IDS_HUMAN_FRIGATESIEGE_ZEPHYR_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 500.000000
+	credits 350.000000
 	metal 100.000000
 	crystal 100.000000
 slotCount 9.000000
-BuildTime 25.000000
+BuildTime 15.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 8.000000
-MaxHullPoints 500.000000
-MaxShieldPoints 1000.000000
+MaxHullPoints 600.000000
+MaxShieldPoints 1200.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.150000
 BaseArmorPoints 3.000000
 maxMitigation 0.000000
-relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -175,14 +173,14 @@ hasWeaponLevels FALSE
 mass 2000.000000
 ShieldMeshName "Human_Shield_FrigateSiege_Zephyr"
 renderShield TRUE
-maxAccelerationLinear 100.000000
-maxAccelerationStrafe 15.000000
-maxDecelerationLinear 90.000000
-maxAccelerationAngular 21.650000
+maxAccelerationLinear 220.000000
+maxAccelerationStrafe 50.000000
+maxDecelerationLinear 100.000000
+maxAccelerationAngular 41.650000
 maxDecelerationAngular 19.999996
-maxSpeedLinear 500.000000
-maxRollRate 12.000000
-maxRollAngle 35.000000
+maxSpeedLinear 750.000000
+maxRollRate 20.000000
+maxRollAngle 70.000000
 squadTypeEntityDef:0 "Human_FighterSquad_F302"
 squadAntiMatterCost:0 0.000000
 squadTypeEntityDef:1 "Human_FighterSquad_F312"

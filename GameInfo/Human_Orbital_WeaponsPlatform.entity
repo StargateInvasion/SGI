@@ -16,9 +16,9 @@ hudIcon "HUDICON_HUMAN_ORBITAL_WEAPONSPLATFORM"
 smallHudIcon "HUDICONSMALL_HUMAN_ORBITAL_WEAPONSPLATFORM"
 infoCardIcon "MAINVIEWICON_HUMAN_ORBITAL_WEAPONSPLATFORM"
 planetUpgradeSlotType "Tactical"
-planetUpgradeSlotCount 3.000000
+planetUpgradeSlotCount 1.000000
 basePrice
-	credits 350.000000
+	credits 250.000000
 	metal 60.000000
 	crystal 40.000000
 NameStringID "IDS_HUMAN_ORBITAL_WEAPONSPLATFORM_NAME"
@@ -29,11 +29,11 @@ Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-MaxHullPoints 1000.000000
+MaxHullPoints 1500.000000
 HullPointRestoreRate 10.000000
 BaseArmorPoints 10.000000
-MaxShieldPoints 0.000000
-ShieldPointRestoreRate 0.000000
+MaxShieldPoints 2000.000000
+ShieldPointRestoreRate 5.000000
 maxShieldMitigation 0.000000
 ExperiencePointsForDestroying 5.000000
 resourceExtractionType "Invalid"
@@ -41,7 +41,7 @@ cultureSpreadRate 0.000000
 isAffectedBySimilarModuleCostResearch FALSE
 placementRadius 360.000000
 nearPlacementDistOffset 0.000000
-farPlacementDistOffset 9000.000000
+farPlacementDistOffset 4000.000000
 spawnCount 1
 swapMineType ""
 angularSpeed 99.999992

@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Frigate"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -16,11 +15,11 @@ NameStringID "IDS_HUMAN_FRIGATECORVETTE_MORPHEUS_NAME"
 DescriptionStringID "IDS_HUMAN_FRIGATECORVETTE_MORPHEUS_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_CORVETTE_TECH"
 basePrice
-	credits 550.000000
-	metal 125.000000
-	crystal 175.000000
+	credits 450.000000
+	metal 100.000000
+	crystal 125.000000
 slotCount 12.000000
-BuildTime 40.000000
+BuildTime 20.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 10.000000
 MaxHullPoints 700.000000
@@ -29,7 +28,6 @@ HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.400000
 BaseArmorPoints 3.000000
 maxMitigation 0.000000
-relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -189,23 +187,23 @@ hasWeaponLevels FALSE
 mass 2000.000000
 ShieldMeshName "Human_Shield_FrigateCorvette_Morpheus"
 renderShield TRUE
-maxAccelerationLinear 150.000000
-maxAccelerationStrafe 10.000000
+maxAccelerationLinear 170.000000
+maxAccelerationStrafe 20.000000
 maxDecelerationLinear 125.000000
-maxAccelerationAngular 15.000000
-maxDecelerationAngular 19.999996
-maxSpeedLinear 500.000000
-maxRollRate 10.000000
+maxAccelerationAngular 20.000000
+maxDecelerationAngular 19.000000
+maxSpeedLinear 750.000000
+maxRollRate 20.000000
 maxRollAngle 75.000000
-squadTypeEntityDef:0 ""
+squadTypeEntityDef:0 "Human_FighterSquad_F302"
 squadAntiMatterCost:0 0.000000
-squadTypeEntityDef:1 ""
+squadTypeEntityDef:1 "Human_FighterSquad_F312"
 squadAntiMatterCost:1 0.000000
 squadTypeEntityDef:2 ""
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
-maxNumCommandPoints 0
+maxNumCommandPoints 2
 NumSoundsFor:ONATTACKORDERISSUED 3
 SoundID "CORVETTE_TECHLOYALIST_ONATTACKORDERISSUED_0"
 SoundID "CORVETTE_TECHLOYALIST_ONATTACKORDERISSUED_1"

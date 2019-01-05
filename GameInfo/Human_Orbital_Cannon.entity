@@ -16,11 +16,11 @@ hudIcon "HUDICON_HUMAN_ORBITAL_CANNON"
 smallHudIcon "HUDICONSMALL_HUMAN_ORBITAL_CANNON"
 infoCardIcon "MAINVIEWICON_HUMAN_ORBITAL_CANNON"
 planetUpgradeSlotType "Tactical"
-planetUpgradeSlotCount 8.000000
+planetUpgradeSlotCount 5.000000
 basePrice
-	credits 10000.000000
-	metal 1500.000000
-	crystal 1500.000000
+	credits 7000.000000
+	metal 1000.000000
+	crystal 1000.000000
 NameStringID "IDS_HUMAN_ORBITAL_CANNON_NAME"
 DescriptionStringID "IDS_HUMAN_ORBITAL_CANNON_DESCRIPTION"
 planetModuleRoleType "WEAPONDEFENSE"
@@ -35,8 +35,8 @@ Prerequisites
 MaxHullPoints 5556.000000
 HullPointRestoreRate 2.900000
 BaseArmorPoints 0.000000
-MaxShieldPoints 0.000000
-ShieldPointRestoreRate 0.000000
+MaxShieldPoints 1000.000000
+ShieldPointRestoreRate 1.000000
 maxShieldMitigation 0.000000
 ExperiencePointsForDestroying 150.000000
 resourceExtractionType "Invalid"

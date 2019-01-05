@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Frigate"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -49,11 +48,11 @@ NameStringID "IDS_HUMAN_CRUISERANTIMODULE_PHOENIX_NAME"
 DescriptionStringID "IDS_HUMAN_CRUISERANTIMODULE_PHOENIX_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 1000.000000
+	credits 500.000000
 	metal 350.000000
 	crystal 300.000000
 slotCount 20.000000
-BuildTime 55.000000
+BuildTime 35.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 10.000000
 MaxHullPoints 1000.000000
@@ -62,7 +61,6 @@ HullPointRestoreRate 2.000000
 ShieldPointRestoreRate 2.500000
 BaseArmorPoints 3.000000
 maxMitigation 0.000000
-relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -216,13 +214,13 @@ mass 2000.000000
 ShieldMeshName "Human_Shield_CruiserAntiModule_Phoenix"
 renderShield TRUE
 maxAccelerationLinear 130.000000
-maxAccelerationStrafe 10.000000
+maxAccelerationStrafe 20.000000
 maxDecelerationLinear 125.000000
-maxAccelerationAngular 12.200000
-maxDecelerationAngular 11.999996
-maxSpeedLinear 525.000000
-maxRollRate 2.000000
-maxRollAngle 35.000000
+maxAccelerationAngular 20.200000
+maxDecelerationAngular 19.999996
+maxSpeedLinear 750.000000
+maxRollRate 20.000000
+maxRollAngle 65.000000
 squadTypeEntityDef:0 "Human_FighterSquad_F302"
 squadAntiMatterCost:0 0.000000
 squadTypeEntityDef:1 "Human_FighterSquad_F312"

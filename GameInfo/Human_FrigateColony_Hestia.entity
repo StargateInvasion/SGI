@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Frigate"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn FALSE
@@ -21,7 +20,7 @@ basePrice
 	metal 100.000000
 	crystal 50.000000
 slotCount 6.000000
-BuildTime 30.000000
+BuildTime 15.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 20.000000
 MaxHullPoints 250.000000
@@ -30,7 +29,6 @@ HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 0.500000
 BaseArmorPoints 1.000000
 maxMitigation 0.600000
-relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
@@ -95,14 +93,14 @@ hasWeaponLevels FALSE
 mass 2000.000000
 ShieldMeshName "Human_Shield_FrigateColony_Hestia"
 renderShield TRUE
-maxAccelerationLinear 100.000000
-maxAccelerationStrafe 10.000000
+maxAccelerationLinear 150.000000
+maxAccelerationStrafe 20.000000
 maxDecelerationLinear 90.000000
-maxAccelerationAngular 21.650000
-maxDecelerationAngular 39.999996
-maxSpeedLinear 525.000000
-maxRollRate 12.000000
-maxRollAngle 55.000000
+maxAccelerationAngular 30.650000
+maxDecelerationAngular 25.999996
+maxSpeedLinear 750.000000
+maxRollRate 20.000000
+maxRollAngle 75.000000
 squadTypeEntityDef:0 ""
 squadAntiMatterCost:0 0.000000
 squadTypeEntityDef:1 ""

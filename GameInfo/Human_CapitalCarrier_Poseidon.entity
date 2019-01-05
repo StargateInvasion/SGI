@@ -46,11 +46,11 @@ bombEffectsDef
 	missileMaxSlowTurnTime 12.000000
 mainViewIcon "MAINVIEWICON_HUMAN_CAPITALCARRIER_POSEIDON"
 basePrice
-	credits 2500.000000
-	metal 500.000000
-	crystal 500.000000
+	credits 2000.000000
+	metal 400.000000
+	crystal 400.000000
 slotCount 50.000000
-BuildTime 140.000000
+BuildTime 100.000000
 MaxHullPoints
 	StartValue 3800.000000
 	ValueIncreasePerLevel 145.000000
@@ -242,14 +242,14 @@ canOnlyTargetStructures FALSE
 mass 3045.000000
 ShieldMeshName "Human_Shield_CapitalCarrier_Poseidon"
 renderShield TRUE
-maxAccelerationLinear 238.000000
-maxAccelerationStrafe 170.000000
+maxAccelerationLinear 200.000000
+maxAccelerationStrafe 25.000000
 maxDecelerationLinear 167.000000
-maxAccelerationAngular 15.999999
+maxAccelerationAngular 30.000000
 maxDecelerationAngular 25.000000
-maxSpeedLinear 476.000000
-maxRollRate 15.999999
-maxRollAngle 36.000000
+maxSpeedLinear 650.000000
+maxRollRate 20.000000
+maxRollAngle 65.000000
 squadTypeEntityDef:0 "Human_FighterSquad_F302"
 squadAntiMatterCost:0 0.000000
 squadTypeEntityDef:1 "Human_FighterSquad_F312"

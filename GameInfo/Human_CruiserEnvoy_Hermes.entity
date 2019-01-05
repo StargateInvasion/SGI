@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Frigate"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn FALSE
@@ -7,9 +6,8 @@ prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault FALSE
 canBomb FALSE
-typeCount 2
+typeCount 1
 frigateRoleType "Envoy"
-frigateRoleType "MinorFactionCapturer"
 statCountType "FrigateEnvoy"
 mainViewIcon "MAINVIEWICON_HUMAN_CRUISERENVOY_HERMES"
 picture "PICTURE_HUMAN_CRUISERENVOY_HERMES"
@@ -17,20 +15,19 @@ NameStringID "IDS_HUMAN_CRUISERENVOY_HERMES_NAME"
 DescriptionStringID "IDS_HUMAN_CRUISERENVOY_HERMES_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
-	credits 550.000000
+	credits 250.000000
 	metal 70.000000
 	crystal 10.000000
 slotCount 4.000000
-BuildTime 40.000000
+BuildTime 20.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 4.000000
 MaxHullPoints 400.000000
-MaxShieldPoints 400.000000
+MaxShieldPoints 800.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.000000
 BaseArmorPoints 1.000000
 maxMitigation 0.600000
-relationshipChangeRate 0.000667
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -59,13 +56,13 @@ mass 10000.000000
 ShieldMeshName "Human_Shield_CruiserEnvoy_Hermes"
 renderShield TRUE
 maxAccelerationLinear 390.000000
-maxAccelerationStrafe 10.000000
+maxAccelerationStrafe 20.000000
 maxDecelerationLinear 500.000000
-maxAccelerationAngular 13.000000
-maxDecelerationAngular 9.999996
-maxSpeedLinear 500.000000
-maxRollRate 2.000000
-maxRollAngle 35.000000
+maxAccelerationAngular 25.000000
+maxDecelerationAngular 20.999996
+maxSpeedLinear 1000.000000
+maxRollRate 20.000000
+maxRollAngle 75.000000
 squadTypeEntityDef:0 ""
 squadAntiMatterCost:0 0.000000
 squadTypeEntityDef:1 ""
@@ -103,7 +100,7 @@ ability:0 "Human_AbilityCruiser_DiplomaticImmunity"
 ability:1 "Human_AbilityCruiser_Goodwill"
 ability:2 "Human_AbilityCruiser_Settlers"
 ability:3 "Human_AbilityCruiser_WorthCause"
-ability:4 "Human_AbilityCruiser_ArbitrateTariff"
+ability:4 ""
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000
 cargoType "Invalid"

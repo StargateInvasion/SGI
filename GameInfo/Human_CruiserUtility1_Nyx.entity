@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Frigate"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -16,11 +15,11 @@ NameStringID "IDS_HUMAN_CRUISERUTILITY1_NYX_NAME"
 DescriptionStringID "IDS_HUMAN_CRUISERUTILITY1_NYX_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIMODULE"
 basePrice
-	credits 850.000000
+	credits 550.000000
 	metal 250.000000
 	crystal 200.000000
 slotCount 20.000000
-BuildTime 55.000000
+BuildTime 35.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 15.000000
 MaxHullPoints 550.000000
@@ -29,7 +28,6 @@ HullPointRestoreRate 2.150000
 ShieldPointRestoreRate 2.850000
 BaseArmorPoints 6.000000
 maxMitigation 0.000000
-relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -245,11 +243,11 @@ renderShield TRUE
 maxAccelerationLinear 140.000000
 maxAccelerationStrafe 20.000000
 maxDecelerationLinear 130.000000
-maxAccelerationAngular 10.650000
+maxAccelerationAngular 15.650000
 maxDecelerationAngular 15.999998
-maxSpeedLinear 500.000000
-maxRollRate 9.000000
-maxRollAngle 35.000000
+maxSpeedLinear 750.000000
+maxRollRate 15.000000
+maxRollAngle 65.000000
 squadTypeEntityDef:0 "Human_FighterSquad_F302"
 squadAntiMatterCost:0 0.000000
 squadTypeEntityDef:1 "Human_FighterSquad_F312"

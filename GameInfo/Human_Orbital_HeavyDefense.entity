@@ -16,9 +16,9 @@ hudIcon "HUDICON_HUMAN_ORBITAL_HEAVYDEFENSE"
 smallHudIcon "HUDICONSMALL_HUMAN_ORBITAL_HEAVYDEFENSE"
 infoCardIcon "MAINVIEWICON_HUMAN_ORBITAL_HEAVYDEFENSE"
 planetUpgradeSlotType "Tactical"
-planetUpgradeSlotCount 5.000000
+planetUpgradeSlotCount 3.000000
 basePrice
-	credits 4000.000000
+	credits 2000.000000
 	metal 600.000000
 	crystal 500.000000
 NameStringID "IDS_HUMAN_ORBITAL_HEAVYDEFENSE_NAME"
@@ -35,8 +35,8 @@ Prerequisites
 MaxHullPoints 2500.000000
 HullPointRestoreRate 5.000000
 BaseArmorPoints 10.000000
-MaxShieldPoints 0.000000
-ShieldPointRestoreRate 0.000000
+MaxShieldPoints 500.000000
+ShieldPointRestoreRate 5.000000
 maxShieldMitigation 0.000000
 ExperiencePointsForDestroying 150.000000
 resourceExtractionType "Invalid"

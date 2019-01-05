@@ -1,5 +1,4 @@
-TXT2
-SinsArchiveVersion 193
+﻿TXT
 entityType "Frigate"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -16,11 +15,11 @@ NameStringID "IDS_HUMAN_FRIGATELONGRANGE_TEMPEST_NAME"
 DescriptionStringID "IDS_HUMAN_FRIGATELONGRANGE_TEMPEST_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
 basePrice
-	credits 300.000000
+	credits 200.000000
 	metal 35.000000
 	crystal 50.000000
 slotCount 6.000000
-BuildTime 18.000000
+BuildTime 12.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 5.000000
 MaxHullPoints 400.000000
@@ -29,7 +28,6 @@ HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 1.000000
 BaseArmorPoints 3.000000
 maxMitigation 0.000000
-relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -187,14 +185,14 @@ hasWeaponLevels FALSE
 mass 2000.000000
 ShieldMeshName "Human_Shield_FrigateLongRange_Tempest"
 renderShield TRUE
-maxAccelerationLinear 150.000000
-maxAccelerationStrafe 15.000000
+maxAccelerationLinear 180.000000
+maxAccelerationStrafe 20.000000
 maxDecelerationLinear 145.000000
-maxAccelerationAngular 15.300001
-maxDecelerationAngular 19.999996
-maxSpeedLinear 500.000000
-maxRollRate 10.000000
-maxRollAngle 65.000000
+maxAccelerationAngular 40.300001
+maxDecelerationAngular 25.999996
+maxSpeedLinear 750.000000
+maxRollRate 20.000000
+maxRollAngle 75.000000
 squadTypeEntityDef:0 ""
 squadAntiMatterCost:0 0.000000
 squadTypeEntityDef:1 ""
