@@ -1,5 +1,5 @@
 TXT
-numEffects 409
+numEffects 412
 effect
     name "EFFECT_REPOSSESSION"
     fileName "Effect_Repossession.ogg"
@@ -6135,3 +6135,48 @@ effect
 	fadeInTime 1.0
 	fadeOutTime 0.7
 	alternateGroup "ONCREATION_PHASECORVETTE_ALT1"
+effect
+	name "Weapon_Ori_BeamHeavy_Muzzle"
+	fileName "Weapon_Ori_BeamHeavy_Muzzle.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 25000.000000
+	minAttenuationDist 1000.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup "Weapon_Ori_BeamHeavy_Muzzle"
+effect
+	name "Weapon_Ori_BeamHeavy_Muzzle_Alt1"
+	fileName "Weapon_Ori_BeamHeavy_Muzzle_Alt1.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 25000.000000
+	minAttenuationDist 1000.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup "Weapon_Ori_BeamHeavy_Muzzle"
+effect
+	name "Weapon_Ori_BeamHeavy_Muzzle_Alt2"
+	fileName "Weapon_Ori_BeamHeavy_Muzzle_Alt2.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 25000.000000
+	minAttenuationDist 1000.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup "Weapon_Ori_BeamHeavy_Muzzle"

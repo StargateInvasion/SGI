@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 276
+brushCount 277
 brush
 	name "HUDICON_HUMAN_TITANOFFENSE_TARTARUS"
 	content "States"
@@ -4969,3 +4969,21 @@ brush
 	Normal
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 874 , 1760 , 46 , 32 ]
+brush
+	name "HUDICON_ORI_MOTHERSHIP_DELIVERANCE"
+	content "States"
+	Disabled
+		fileName "Icons_Planets"
+		pixelBox [ 2 , 1566 , 46 , 32 ]
+	Pressed
+		fileName "Icons_Planets"
+		pixelBox [ 98 , 1566 , 46 , 32 ]
+	CursorOver
+		fileName "Icons_Planets"
+		pixelBox [ 98 , 1566 , 46 , 32 ]
+	Focused
+		fileName "Icons_Planets"
+		pixelBox [ 98 , 1566 , 46 , 32 ]
+	Normal
+		fileName "Icons_Planets"
+		pixelBox [ 50 , 1566 , 46 , 32 ]

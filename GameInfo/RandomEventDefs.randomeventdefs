@@ -5,7 +5,7 @@ failedRespawnTimeMin 120.0
 failedRespawnTimeMax 300.0
 lowAllegianceCheckPeriod 600.0
 lowAllegianceThreshold 0.15
-randomEventDefCount 12
+randomEventDefCount 13
 	randomEventDef
 		id "CORONALMASSEJECTION"
 		nameID "IDS_RANDOMEVENT_CORONALMASSEJECTION_NAME"
@@ -81,6 +81,20 @@ randomEventDefCount 12
 		nextSpawnTimeMin 300.0
 		nextSpawnTimeMax 1200.0
 		spawnWeight 0.01
+	randomEventDef
+		id "ORIFLEET"
+		nameID "IDS_ORIFLEET_DETECTED_NAME"
+		warningID "IDS_ORIFLEET_DETECTED_DESCRIPTION"
+		spawnType "BuffAtLocation"
+		spawnEntity "RandomEventOriFleet"
+		playerOwnerType "MadVasari"
+		spawnLocation "RandomStar"
+		excludedSpawnLocationCount 0
+		spawnRequirement "Timer"
+		respawnCount 5
+		nextSpawnTimeMin 500.0
+		nextSpawnTimeMax 900.0
+		spawnWeight 0.5
 	randomEventDef
 		id "PARTISANS"
 		nameID "IDS_RANDOMEVENT_PARTISANS_NAME"
