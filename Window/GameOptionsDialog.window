@@ -11,7 +11,7 @@ acceptButton
 	area [347, 548, 220, 46]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 22
-	textOffsetFromLeft 70
+	textOffsetFromLeft 80
 	underlay "ScreenButtonUnderlayLarge"
 	overlay "ScreenButtonOverlayLarge"		
 	icon "DialogScreenAcceptButton"
@@ -21,7 +21,7 @@ areTeamsLockedButton
 	area [25, 16, 220 , 46]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
-	textOffsetFromLeft 70
+	textOffsetFromLeft 80
 	underlay "ScreenButtonUnderlayLarge"
 	overlay "ScreenButtonOverlayLarge"			
 	true
@@ -34,7 +34,7 @@ arePiratesActiveButton
 	area [25, 120, 220 , 46]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
-	textOffsetFromLeft 70
+	textOffsetFromLeft 80
 	underlay "ScreenButtonUnderlayLarge"
 	overlay "ScreenButtonOverlayLarge"			
 	true
@@ -47,7 +47,7 @@ areOutlawSectorsMilitiaActiveButton
 	area [25, 172, 220 , 46]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
-	textOffsetFromLeft 70
+	textOffsetFromLeft 80
 	underlay "ScreenButtonUnderlayLarge"
 	overlay "ScreenButtonOverlayLarge"			
 	true
@@ -59,8 +59,8 @@ areOutlawSectorsMilitiaActiveButton
 areMinorFactionsActiveButton
 	area [25, 224, 220 , 46]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 22
-	textOffsetFromLeft 70
+	iconOffsetFromLeft 0
+	textOffsetFromLeft 80
 	underlay "ScreenButtonUnderlayLarge"
 	overlay "ScreenButtonOverlayLarge"			
 	true
@@ -72,8 +72,8 @@ areMinorFactionsActiveButton
 areSuperWeaponsActiveButton
 	area [25, 276, 220 , 46]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 22
-	textOffsetFromLeft 70
+	iconOffsetFromLeft 0
+	textOffsetFromLeft 80
 	underlay "ScreenButtonUnderlayLarge"
 	overlay "ScreenButtonOverlayLarge"			
 	true
@@ -85,8 +85,8 @@ areSuperWeaponsActiveButton
 isAISurrenderActiveButton
 	area [25, 328, 220 , 46]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 22
-	textOffsetFromLeft 70
+	iconOffsetFromLeft 0
+	textOffsetFromLeft 80
 	underlay "ScreenButtonUnderlayLarge"
 	overlay "ScreenButtonOverlayLarge"			
 	true
@@ -98,8 +98,8 @@ isAISurrenderActiveButton
 useQuickStartButton
 	area [25, 380, 220 , 46]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 2
-	textOffsetFromLeft 70
+	iconOffsetFromLeft 0
+	textOffsetFromLeft 80
 	underlay "ScreenButtonUnderlayLarge"
 	overlay "ScreenButtonOverlayLarge"			
 	true
@@ -111,8 +111,8 @@ useQuickStartButton
 randomEventsEnabledButton
 	area [257, 328, 220 , 46]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 0
-	textOffsetFromLeft 70
+	iconOffsetFromLeft 5
+	textOffsetFromLeft 85
 	underlay "ScreenButtonUnderlayLarge"
 	overlay "ScreenButtonOverlayLarge"			
 	true
@@ -124,8 +124,8 @@ randomEventsEnabledButton
 buildSpeedButton
 	area [257, 68, 220 , 46]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 22
-	textOffsetFromLeft 70
+	iconOffsetFromLeft 0
+	textOffsetFromLeft 85
 	underlay "ScreenButtonUnderlayLarge"
 	overlay "ScreenButtonOverlayLarge"			
 	Slow
@@ -143,8 +143,8 @@ buildSpeedButton
 cultureSpeedButton
 	area [257, 224, 220 , 46]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 22
-	textOffsetFromLeft 70
+	iconOffsetFromLeft 0
+	textOffsetFromLeft 85
 	underlay "ScreenButtonUnderlayLarge"
 	overlay "ScreenButtonOverlayLarge"			
 	Slow
@@ -162,8 +162,8 @@ cultureSpeedButton
 researchSpeedButton
 	area [257, 172, 220 , 46]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 22
-	textOffsetFromLeft 70
+	iconOffsetFromLeft 0
+	textOffsetFromLeft 85
 	underlay "ScreenButtonUnderlayLarge"
 	overlay "ScreenButtonOverlayLarge"			
 	Slow
@@ -181,8 +181,8 @@ researchSpeedButton
 incomeSpeedButton
 	area [257, 16, 220 , 46]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 22
-	textOffsetFromLeft 70
+	iconOffsetFromLeft 0
+	textOffsetFromLeft 85
 	underlay "ScreenButtonUnderlayLarge"
 	overlay "ScreenButtonOverlayLarge"			
 	Slow
@@ -200,8 +200,8 @@ incomeSpeedButton
 shipPhysicsSpeedButton
 	area [257, 120, 220 , 46]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 22
-	textOffsetFromLeft 70
+	iconOffsetFromLeft 0
+	textOffsetFromLeft 85
 	underlay "ScreenButtonUnderlayLarge"
 	overlay "ScreenButtonOverlayLarge"			
 	Slow
@@ -220,7 +220,7 @@ fleetSupplyScalarButton
 	area [25, 68, 220 , 46]
 	fontId "ButtonLabel"
 	iconOffsetFromLeft 0
-	textOffsetFromLeft 70
+	textOffsetFromLeft 85
 	underlay "ScreenButtonUnderlayLarge"
 	overlay "ScreenButtonOverlayLarge"			
 	Small
@@ -235,8 +235,8 @@ fleetSupplyScalarButton
 victorySpeedButton
 	area [257, 276, 220 , 46]
 	fontId "ButtonLabel"
-	iconOffsetFromLeft 22
-	textOffsetFromLeft 70
+	iconOffsetFromLeft 0
+	textOffsetFromLeft 85
 	underlay "ScreenButtonUnderlayLarge"
 	overlay "ScreenButtonOverlayLarge"			
 	Slow
