@@ -11,24 +11,24 @@ typeCount 1
 frigateRoleType "Lrm"
 statCountType "FrigateLongRange"
 mainViewIcon "MAINVIEWICON_ASURAN_FRIGATELONGRANGE_ERINYES"
-picture "PICTURE_FRIGATE_PHASELONGRANGE"
+picture "PICTURE_ASURAN_FRIGATELONGRANGE_ERINYES"
 NameStringID "IDS_ASURAN_FRIGATELONGRANGE_ERINYES_NAME"
 DescriptionStringID "IDS_ASURAN_FRIGATELONGRANGE_ERINYES_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
 basePrice
-	credits 1000.000000
-	metal 550.000000
-	crystal 300.000000
-slotCount 25.000000
-BuildTime 60.000000
+	credits 1200.000000
+	metal 1000.000000
+	crystal 500.000000
+slotCount 26.000000
+BuildTime 80.000000
 hasLevels FALSE
-ExperiencePointsForDestroying 15.000000
-MaxHullPoints 500.000000
-MaxShieldPoints 3500.000000
+ExperiencePointsForDestroying 56.000000
+MaxHullPoints 1500.000000
+MaxShieldPoints 5500.000000
 HullPointRestoreRate 3.000000
-ShieldPointRestoreRate 7.000000
+ShieldPointRestoreRate 7.0000000
 BaseArmorPoints 3.000000
-maxMitigation 0.000000
+maxMitigation 0.300000
 relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
@@ -47,89 +47,81 @@ infoCardIcon "MAINVIEWICON_ASURAN_FRIGATELONGRANGE_ERINYES"
 minZoomDistanceMult 4.500000
 NumWeapons 2
 Weapon
-	WeaponType "Missile"
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIMEDIUM"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PULSEGUN"
+	DamagePerBank:FRONT 200.000000
+	DamagePerBank:BACK 200.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4500.000000
+	PreBuffCooldownTime 4.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.300000
+	TravelSpeed 1100.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.300000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Human_Muzzle"
+		muzzleSoundMinRespawnTime 0.770000
+		muzzleSounds
+			soundCount 1
+			sound "Asuran_PulseCannon_Firing"
+		hitEffectName "Weapon_PhaseCapitalPulseGunLight_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_AsuranCapitalLaserLight_Travel"
+Weapon
+	WeaponType "Projectile"
 	damageEnums
 		AttackType "ANTIHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
-		DamageType "PHYSICAL"
-		WeaponClassType "PHASEMISSILE"
-	DamagePerBank:FRONT 300.000000
+		DamageType "ENERGY"
+		WeaponClassType "PULSEGUN"
+	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 5500.000000
-	PreBuffCooldownTime 5.000000
-	CanFireAtFighter TRUE
+	DamagePerBank:LEFT 180.000000
+	DamagePerBank:RIGHT 180.000000
+	Range 5000.000000
+	PreBuffCooldownTime 4.000000
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.080000
-	TravelSpeed 900.000000
+	PointStaggerDelay 0.300000
+	TravelSpeed 1100.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
-		weaponType "Missile"
-		burstCount 1
-		burstDelay 5.500000
-		fireDelay 0.500000
-		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
-		muzzleSoundMinRespawnTime 0.100000
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.300000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Human_Muzzle"
+		muzzleSoundMinRespawnTime 0.770000
 		muzzleSounds
-			soundCount 2
-			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
-			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
-		hitEffectName "Weapon_PhaseCapitalMissileHeavy_Hit"
+			soundCount 1
+			sound "Asuran_PulseCannon_Firing"
+		hitEffectName "Weapon_PhaseCapitalPulseGunLight_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
-		missileTravelEffectName "Weapon_AsuranCapitalDroneUltra_Travel"
-		missileStartTurningDistance 5.000000
-		missileSlowTurnRate 0.708997
-		missileMaxSlowTurnTime 3.000000
-Weapon
-	WeaponType "Missile"
-	damageEnums
-		AttackType "CAPITALSHIP"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "PHYSICAL"
-		WeaponClassType "PHASEMISSILE"
-	DamagePerBank:FRONT 300.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 5500.000000
-	PreBuffCooldownTime 5.000000
-	CanFireAtFighter TRUE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.080000
-	TravelSpeed 900.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Missile"
-		burstCount 1
-		burstDelay 5.500000
-		fireDelay 1.000000
-		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
-		muzzleSoundMinRespawnTime 0.100000
-		muzzleSounds
-			soundCount 2
-			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
-			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
-		hitEffectName "Weapon_PhaseCapitalMissileHeavy_Hit"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
-		missileTravelEffectName "Weapon_AsuranCapitalDroneUltra_Travel"
-		missileStartTurningDistance 5.000000
-		missileSlowTurnRate 0.708997
-		missileMaxSlowTurnTime 3.000000
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_AsuranCapitalLaserLight_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
@@ -141,14 +133,14 @@ hasWeaponLevels FALSE
 mass 810.000000
 ShieldMeshName "Asuran_Shield_FrigateLongRange_Erinyes"
 renderShield TRUE
-maxAccelerationLinear 419.000000
-maxAccelerationStrafe 450.000000
-maxDecelerationLinear 449.000000
-maxAccelerationAngular 28.999998
-maxDecelerationAngular 47.000000
-maxSpeedLinear 599.000000
-maxRollRate 30.000000
-maxRollAngle 71.000000
+maxAccelerationLinear 357.000000
+maxAccelerationStrafe 380.000000
+maxDecelerationLinear 382.000000
+maxAccelerationAngular 25.000000
+maxDecelerationAngular 40.000000
+maxSpeedLinear 509.000000
+maxRollRate 12.000000
+maxRollAngle 63.999996
 squadTypeEntityDef:0 ""
 squadAntiMatterCost:0 0.000000
 squadTypeEntityDef:1 ""

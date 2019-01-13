@@ -11,23 +11,23 @@ typeCount 1
 frigateRoleType "Light"
 statCountType "FrigateLight"
 mainViewIcon "MAINVIEWICON_ASURAN_FRIGATELIGHT_CERES"
-picture "PICTURE_FRIGATE_PHASELIGHT"
+picture "PICTURE_ASURAN_FRIGATELIGHT_CERES"
 NameStringID "IDS_ASURAN_FRIGATELIGHT_CERES_NAME"
 DescriptionStringID "IDS_ASURAN_FRIGATELIGHT_CERES_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
 basePrice
-	credits 400.000000
-	metal 250.000000
-	crystal 175.000000
-slotCount 16.000000
-BuildTime 35.000000
+	credits 800.000000
+	metal 450.000000
+	crystal 300.000000
+slotCount 18.000000
+BuildTime 40.000000
 hasLevels FALSE
-ExperiencePointsForDestroying 10.000000
-MaxHullPoints 650.000000
-MaxShieldPoints 2500.000000
-HullPointRestoreRate 1.000000
-ShieldPointRestoreRate 4.000000
-BaseArmorPoints 2.000000
+ExperiencePointsForDestroying 20.000000
+MaxHullPoints 850.000000
+MaxShieldPoints 3200.000000
+HullPointRestoreRate 2.000000
+ShieldPointRestoreRate 6.000000
+BaseArmorPoints 3.000000
 maxMitigation 0.000000
 relationshipChangeRate 0.000000
 Prerequisites
@@ -44,52 +44,14 @@ infoCardIcon "MAINVIEWICON_ASURAN_FRIGATELIGHT_CERES"
 minZoomDistanceMult 5.000000
 NumWeapons 2
 Weapon
-	WeaponType "Projectile"
-	damageEnums
-		AttackType "ANTILIGHT"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "ENERGY"
-		WeaponClassType "PULSEGUN"
-	DamagePerBank:FRONT 40.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 4000.000000
-	PreBuffCooldownTime 4.000000
-	CanFireAtFighter TRUE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.200000
-	TravelSpeed 1200.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Projectile"
-		burstCount 3
-		burstDelay 0.350000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_PhaseCapitalPulseGunMedium_Muzzle"
-		muzzleSoundMinRespawnTime 1.000000
-		muzzleSounds
-			soundCount 1
-			sound "Asuran_PulseCannon_Firing"
-		hitEffectName "Weapon_PhaseCapitalPulseGunMedium_Hit"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
-		projectileTravelEffectName "Weapon_AsuranCapitalLaserLight_Travel"
-Weapon
 	WeaponType "Missile"
 	damageEnums
-		AttackType "ANTIMEDIUM"
+		AttackType "ANTIHEAVY"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "PHASEMISSILE"
-	DamagePerBank:FRONT 150.000000
+	DamagePerBank:FRONT 300.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -98,14 +60,56 @@ Weapon
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.080000
-	TravelSpeed 1150.000000
+	TravelSpeed 900.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Missile"
-		burstCount 3
-		burstDelay 0.500000
-		fireDelay 0.000000
+		burstCount 1
+		burstDelay 5.500000
+		fireDelay 0.500000
+		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalMissileHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		missileTravelEffectName "Weapon_AsuranCapitalDroneUltra_Travel"
+		missileStartTurningDistance 5.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 3.000000
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "PHASEMISSILE"
+	DamagePerBank:FRONT 300.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 5500.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.080000
+	TravelSpeed 900.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 1
+		burstDelay 5.500000
+		fireDelay 1.000000
 		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
@@ -179,7 +183,7 @@ ability:1 "Asuran_AbilityFrigate_SelfRepairLight"
 ability:2 ""
 ability:3 ""
 ability:4 ""
-MaxAntiMatter 100.000000
+MaxAntiMatter 125.000000
 AntiMatterRestoreRate 0.500000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
