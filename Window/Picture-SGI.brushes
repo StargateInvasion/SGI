@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 154
+brushCount 170
 brush
 	name "PICTURE_ASURAN_TITANOFFENSE_EPHEUS"
 	content "Simple"
@@ -197,7 +197,7 @@ brush
 	fileName "Unit_Picture_SGI"
 	pixelBox [ 668 , 3225 , 167 , 75 ]
 brush
-	name "PICTURE_ASURAN_ORBITAL_REPAIRBAY"
+	name "PICTURE_ASURAN_ORBITAL_REPAIRPLATFORM"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
 	pixelBox [ 668 , 3300 , 167 , 75 ]
@@ -462,6 +462,11 @@ brush
 	fileName "Unit_Picture_SGI"
 	pixelBox [ 167 , 2625 , 167 , 75 ]
 brush
+	name "PICTURE_GOAULD_ORBITAL_TRADEPORT"
+	content "Simple"
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 167 , 2700 , 167 , 75 ]
+brush
 	name "PICTURE_GOAULD_ORBITAL_CULTURECENTER"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
@@ -487,6 +492,31 @@ brush
 	fileName "Unit_Picture_SGI"
 	pixelBox [ 167 , 3075 , 167 , 75 ]
 brush
+	name "PICTURE_GOAULD_ORBITAL_WEAPONSPLATFORM"
+	content "Simple"
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 167 , 3150 , 167 , 75 ]
+brush
+	name "PICTURE_GOAULD_ORBITAL_HANGARDEFENSE"
+	content "Simple"
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 167 , 3225 , 167 , 75 ]
+brush
+	name "PICTURE_GOAULD_ORBITAL_REPAIRPLATFORM"
+	content "Simple"
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 167 , 3300 , 167 , 75 ]
+brush
+	name "PICTURE_GOAULD_ORBITAL_JUMPBLOCKER"
+	content "Simple"
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 167 , 3375 , 167 , 75 ]
+brush
+	name "PICTURE_GOAULD_ORBITAL_SHIELDGENERATOR"
+	content "Simple"
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 167 , 3450 , 167 , 75 ]
+brush
 	name "PICTURE_GOAULD_ORBITAL_CANNON"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
@@ -496,6 +526,11 @@ brush
 	content "Simple"
 	fileName "Unit_Picture_SGI"
 	pixelBox [ 167 , 3600 , 167 , 75 ]
+brush
+	name "PICTURE_GOAULD_ORBITAL_HEADQUARTERS"
+	content "Simple"
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 167 , 3675 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_ORBITAL_TITANFACTORY"
 	content "Simple"
@@ -687,6 +722,11 @@ brush
 	fileName "Unit_Picture_SGI"
 	pixelBox [ 0 , 2625 , 167 , 75 ]
 brush
+	name "PICTURE_HUMAN_ORBITAL_TRADEPORT"
+	content "Simple"
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 0 , 2700 , 167 , 75 ]
+brush
 	name "PICTURE_HUMAN_ORBITAL_CULTURECENTER"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
@@ -702,10 +742,40 @@ brush
 	fileName "Unit_Picture_SGI"
 	pixelBox [ 0 , 2925 , 167 , 75 ]
 brush
+	name "PICTURE_HUMAN_ORBITAL_NONCOMBATLABORATORY"
+	content "Simple"
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 0 , 3000 , 167 , 75 ]
+brush
 	name "PICTURE_HUMAN_ORBITAL_REFINERY"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
 	pixelBox [ 0 , 3075 , 167 , 75 ]
+brush
+	name "PICTURE_HUMAN_ORBITAL_WEAPONSPLATFORM"
+	content "Simple"
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 0 , 3150 , 167 , 75 ]
+brush
+	name "PICTURE_HUMAN_ORBITAL_HANGARDEFENSE"
+	content "Simple"
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 0 , 3225 , 167 , 75 ]
+brush
+	name "PICTURE_HUMAN_ORBITAL_REPAIRPLATFORM"
+	content "Simple"
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 0 , 3300 , 167 , 75 ]
+brush
+	name "PICTURE_HUMAN_ORBITAL_JUMPBLOCKER"
+	content "Simple"
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 0 , 3375 , 167 , 75 ]
+brush
+	name "PICTURE_HUMAN_ORBITAL_SHIELDGENERATOR"
+	content "Simple"
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 0 , 3450 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_ORBITAL_CANNON"
 	content "Simple"
@@ -717,10 +787,20 @@ brush
 	fileName "Unit_Picture_SGI"
 	pixelBox [ 0 , 3600 , 167 , 75 ]
 brush
+	name "PICTURE_HUMAN_ORBITAL_HEADQUARTERS"
+	content "Simple"
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 0 , 3675 , 167 , 75 ]
+brush
+	name "PICTURE_HUMAN_ORBITAL_TITANFACTORY"
+	content "Simple"
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 0 , 3750 , 167 , 75 ]
+brush
 	name "PICTURE_HUMAN_ORBITAL_HEAVYDEFENSE"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 3825 , 167 , 75 ]
+	pixelBox [ 0 , 3825 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_ORBITAL_STARGATE"
 	content "Simple"
@@ -747,27 +827,27 @@ brush
 	fileName "Icons_Planets"
 	pixelBox [ 2 , 1444 , 167 , 75 ]
 brush
-	name "PICTURE_REPLICATOR_FRIGATEMEDIUM"
+	name "PICTURE_REPLICATOR_FRIGATELIGHT"
 	content "Simple"
-	fileName "Unit_Picture"
-	pixelBox [ 682 , 938 , 167 , 75 ]
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 0 , 4275 , 167 , 75 ]
 brush
 	name "PICTURE_REPLICATOR_FRIGATEHEAVY"
 	content "Simple"
-	fileName "Unit_Picture"
-	pixelBox [ 172 , 938 , 167 , 75 ]
-brush
-	name "PICTURE_REPLICATOR_FRIGATEANTIFIGHTER"
-	content "Simple"
-	fileName "Unit_Picture"
-	pixelBox [ 512 , 938 , 167 , 75 ]
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 167 , 4275 , 167 , 75 ]
 brush
 	name "PICTURE_REPLICATOR_FRIGATESIEGE"
 	content "Simple"
-	fileName "Unit_Picture"
-	pixelBox [ 342 , 938 , 167 , 75 ]
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 334 , 4275 , 167 , 75 ]
 brush
-	name "PICTURE_REPLICATOR_FRIGATELIGHT"
+	name "PICTURE_REPLICATOR_FRIGATEANTIFIGHTER"
 	content "Simple"
-	fileName "Unit_Picture"
-	pixelBox [ 2 , 938 , 167 , 75 ]
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 501 , 4275 , 167 , 75 ]
+brush
+	name "PICTURE_REPLICATOR_FRIGATEMEDIUM"
+	content "Simple"
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 668 , 4275 , 167 , 75 ]
