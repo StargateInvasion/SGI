@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "PlanetModuleWeaponDefense"
-minZoomDistanceMult 8.00000
+minZoomDistanceMult 2.500000
 ability:0 ""
 ability:1 "Goauld_AbilityOrbital_MissleTurret"
 ability:2 "Goauld_AbilityOrbital_Plasma"
@@ -39,7 +39,7 @@ ExperiencePointsForDestroying 5.000000
 resourceExtractionType "Invalid"
 cultureSpreadRate 0.000000
 isAffectedBySimilarModuleCostResearch FALSE
-placementRadius 360.000000
+placementRadius 340.000000
 nearPlacementDistOffset 0.000000
 farPlacementDistOffset 9000.000000
 spawnCount 1
@@ -48,8 +48,8 @@ angularSpeed 99.999992
 rotateSoundName ""
 rotateFacingType "None"
 rotateConstantly FALSE
-ShieldMeshName ""
-renderShield FALSE
+ShieldMeshName "Goauld_Shield_Orbital_WeaponsPlatform"
+renderShield TRUE
 NumSoundsFor:ONATTACKORDERISSUED 0
 NumSoundsFor:ONCREATION 0
 NumSoundsFor:ONGENERALORDERISSUED 0
@@ -58,10 +58,10 @@ SoundID "PLANETMODULE_TECHORBITALGAUSSDEFENSE_ONSELECTION_0"
 NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 4
 MeshNameInfo
-	meshName "Human_Orbital_WeaponsPlatform1"
+	meshName "Goauld_Orbital_WeaponsPlatform1"
 	criteriaType "None"
 MeshNameInfo
-	meshName "Human_Orbital_WeaponsPlatform2"
+	meshName "Goauld_Orbital_WeaponsPlatform1"
 	criteriaType "Research"
 	prerequisites
 		NumResearchPrerequisites 1
@@ -71,7 +71,7 @@ MeshNameInfo
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
 MeshNameInfo
-	meshName "Human_Orbital_WeaponsPlatform3"
+	meshName "Goauld_Orbital_WeaponsPlatform2"
 	criteriaType "Research"
 	prerequisites
 		NumResearchPrerequisites 1
@@ -81,7 +81,7 @@ MeshNameInfo
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
 MeshNameInfo
-	meshName "Human_Orbital_WeaponsPlatform4"
+	meshName "Goauld_Orbital_WeaponsPlatform2"
 	criteriaType "Research"
 	prerequisites
 		NumResearchPrerequisites 2
@@ -99,7 +99,7 @@ ExplosionName "PlanetModuleSmall"
 mainViewIcon "MAINVIEWICON_GOAULD_ORBITAL_WEAPONSPLATFORM"
 picture "PICTURE_GOAULD_ORBITAL_WEAPONSPLATFORM"
 minShadow 0.000000
-maxShadow 0.600000
+maxShadow 0.300000
 formationRank 3
 baseBuildTime 55.000000
 buildEffectName ""

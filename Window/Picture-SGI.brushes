@@ -1,6 +1,31 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 170
+brushCount 179
+brush
+	name "PICTURE_ASURAN_CAPITALHERO_OBEROTH"
+	content "Simple"
+	fileName "Player_Portrait_Hud_Window"
+	pixelBox [ 1 , 312 , 167 , 75 ]
+brush
+	name "PICTURE_ASURAN_CAPITALHERO_WEIR"
+	content "Simple"
+	fileName "Player_Portrait_Hud_Window"
+	pixelBox [ 341 , 78 , 167 , 75 ]
+brush
+	name "PICTURE_ASURAN_CAPITALHERO_NIAM"
+	content "Simple"
+	fileName "Player_Portrait_Hud_Window"
+	pixelBox [ 341 , 312 , 167 , 75 ]
+brush
+	name "PICTURE_ASURAN_CAPITALHERO_FRAN"
+	content "Simple"
+	fileName "Player_Portrait_Hud_Window"
+	pixelBox [ 851 , 312 , 167 , 75 ]
+brush
+	name "PICTURE_ASURAN_CAPITALHERO_KORACEN"
+	content "Simple"
+	fileName "Player_Portrait_Hud_Window"
+	pixelBox [ 1191 , 312 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_TITANOFFENSE_EPHEUS"
 	content "Simple"
@@ -130,157 +155,182 @@ brush
 	name "PICTURE_ASURAN_MODULECONSTRUCTOR_OURANOS"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 2250 , 167 , 75 ]
+	pixelBox [ 668 , 1875 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_MODULETRADESHIP_AURUM"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 2325 , 167 , 75 ]
+	pixelBox [ 668 , 1950 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_MODULEREFINERYSHIP_SERVILE"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 2400 , 167 , 75 ]
+	pixelBox [ 668 , 2025 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_ORBITAL_TRINIUMEXTRACTOR"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 2475 , 167 , 75 ]
+	pixelBox [ 668 , 2100 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_ORBITAL_FRIGATEFACTORY"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 2550 , 167 , 75 ]
+	pixelBox [ 668 , 2175 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_ORBITAL_COMBATLABORATORY"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 2625 , 167 , 75 ]
+	pixelBox [ 668 , 2250 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_ORBITAL_TRADEPORT"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 2700 , 167 , 75 ]
+	pixelBox [ 668 , 2325 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_ORBITAL_CULTURECENTER"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 2775 , 167 , 75 ]
+	pixelBox [ 668 , 2400 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_ORBITAL_NAQUADAHEXTRACTOR"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 2850 , 167 , 75 ]
+	pixelBox [ 668 , 2475 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_ORBITAL_CAPITALSHIPFACTORY"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 2925 , 167 , 75 ]
+	pixelBox [ 668 , 2550 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_ORBITAL_NONCOMBATLABORATORY"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 3000 , 167 , 75 ]
+	pixelBox [ 668 , 2625 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_ORBITAL_REFINERY"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 3075 , 167 , 75 ]
+	pixelBox [ 668 , 2700 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_ORBITAL_WEAPONSPLATFORM"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 3150 , 167 , 75 ]
+	pixelBox [ 668 , 2775 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_ORBITAL_HANGARDEFENSE"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 3225 , 167 , 75 ]
+	pixelBox [ 668 , 2850 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_ORBITAL_REPAIRPLATFORM"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 3300 , 167 , 75 ]
+	pixelBox [ 668 , 2925 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_ORBITAL_JUMPBLOCKER"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 3375 , 167 , 75 ]
+	pixelBox [ 668 , 3000 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_ORBITAL_SHIELDGENERATOR"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 3450 , 167 , 75 ]
+	pixelBox [ 668 , 3075 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_ORBITAL_LAGRANGIANSATELLITE"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 3525 , 167 , 75 ]
+	pixelBox [ 668 , 3150 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_ORBITAL_MINE"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 3600 , 167 , 75 ]
+	pixelBox [ 668 , 3225 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_ORBITAL_HEADQUARTERS"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 3675 , 167 , 75 ]
+	pixelBox [ 668 , 3300 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_ORBITAL_TITANFACTORY"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 3750 , 167 , 75 ]
+	pixelBox [ 668 , 3375 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_ORBITAL_HEAVYDEFENSE"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 3825 , 167 , 75 ]
+	pixelBox [ 668 , 3450 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_ORBITAL_STARGATE"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 3900 , 167 , 75 ]
+	pixelBox [ 668 , 3525 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_STARBASEOFFENSE_GAIA"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 3975 , 167 , 75 ]
+	pixelBox [ 668 , 3600 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_STARBASEDEFENSE_ECHIDNA"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 4050 , 167 , 75 ]
+	pixelBox [ 668 , 3675 , 167 , 75 ]
 brush
 	name "PICTURE_ASURAN_STARBASESPECIAL_ATLAS"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 4125 , 167 , 75 ]
+	pixelBox [ 668 , 3750 , 167 , 75 ]
 brush
 	name "PICTURE_CANNONSHELL_BLAST"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 4200 , 167 , 75 ]
+	pixelBox [ 0 , 3825 , 167 , 75 ]
 brush
 	name "PICTURE_CANNONSHELL_WAVE"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 4200 , 167 , 75 ]
+	pixelBox [ 167 , 3825 , 167 , 75 ]
 brush
 	name "PICTURE_CANNONSHELL_GUN"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 334 , 4200 , 167 , 75 ]
+	pixelBox [ 334 , 3825 , 167 , 75 ]
 brush
 	name "PICTURE_CANNONSHELL_PULSE"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 501 , 4200 , 167 , 75 ]
+	pixelBox [ 501 , 3825 , 167 , 75 ]
 brush
 	name "PICTURE_CANNONSHELL_MISSLE"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 4200 , 167 , 75 ]
+	pixelBox [ 668 , 3825 , 167 , 75 ]
+brush
+	name "PICTURE_GOAULD_CAPITALHERO_APOPHIS"
+	content "Simple"
+	fileName "Player_Portrait_Hud_Window"
+	pixelBox [ 511 , 156 , 167 , 75 ]
+brush
+	name "PICTURE_GOAULD_CAPITALHERO_BAAL"
+	content "Simple"
+	fileName "Player_Portrait_Hud_Window"
+	pixelBox [ 1 , 156 , 167 , 75 ]
+brush
+	name "PICTURE_GOAULD_CAPITALHERO_CRONUS"
+	content "Simple"
+	fileName "Player_Portrait_Hud_Window"
+	pixelBox [ 1361 , 156 , 167 , 75 ]
+brush
+	name "PICTURE_GOAULD_CAPITALHERO_OSIRIS"
+	content "Simple"
+	fileName "Player_Portrait_Hud_Window"
+	pixelBox [ 171 , 156 , 167 , 75 ]
+brush
+	name "PICTURE_GOAULD_CAPITALHERO_YU"
+	content "Simple"
+	fileName "Player_Portrait_Hud_Window"
+	pixelBox [ 851 , 156 , 167 , 75 ]
 brush
     name "PICTURE_GOAULD_TITANOFFENSE_ANUBIS"
     content "Simple"
@@ -291,31 +341,6 @@ brush
     content "Simple"
 	fileName "Unit_Picture_SGI"
 	pixelBox [ 167 , 75 , 167 , 75 ]
-brush
-	name "PICTURE_GOAULD_HERO_APOPHIS"
-	content "Simple"
-	fileName "Player_Portrait_Hud_Window"
-	pixelBox [ 511 , 156 , 167 , 75 ]
-brush
-	name "PICTURE_GOAULD_HERO_BAAL"
-	content "Simple"
-	fileName "Player_Portrait_Hud_Window"
-	pixelBox [ 1 , 156 , 167 , 75 ]
-brush
-	name "PICTURE_GOAULD_HERO_CRONUS"
-	content "Simple"
-	fileName "Player_Portrait_Hud_Window"
-	pixelBox [ 1361 , 156 , 167 , 75 ]
-brush
-	name "PICTURE_GOAULD_HERO_OSIRIS"
-	content "Simple"
-	fileName "Player_Portrait_Hud_Window"
-	pixelBox [ 171 , 156 , 167 , 75 ]
-brush
-	name "PICTURE_GOAULD_HERO_YU"
-	content "Simple"
-	fileName "Player_Portrait_Hud_Window"
-	pixelBox [ 851 , 156 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_CAPITALBATTLESHIP_HATEL"
 	content "Simple"
@@ -435,132 +460,157 @@ brush
 	name "PICTURE_GOAULD_MODULECONSTRUCTOR_SESHAT"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 2250 , 167 , 75 ]
+	pixelBox [ 167 , 1875 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_MODULETRADESHIP_NEBU"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 2325 , 167 , 75 ]
+	pixelBox [ 167 , 1950 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_MODULEREFINERYSHIP_SOBEK"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 2400 , 167 , 75 ]
+	pixelBox [ 167 , 2025 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_ORBITAL_TRINIUMEXTRACTOR"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 2475 , 167 , 75 ]
+	pixelBox [ 167 , 2100 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_ORBITAL_FRIGATEFACTORY"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 2550 , 167 , 75 ]
+	pixelBox [ 167 , 2175 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_ORBITAL_COMBATLABORATORY"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 2625 , 167 , 75 ]
+	pixelBox [ 167 , 2250 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_ORBITAL_TRADEPORT"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 2700 , 167 , 75 ]
+	pixelBox [ 167 , 2325 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_ORBITAL_CULTURECENTER"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 2775 , 167 , 75 ]
+	pixelBox [ 167 , 2400 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_ORBITAL_NAQUADAHEXTRACTOR"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 2850 , 167 , 75 ]
+	pixelBox [ 167 , 2475 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_ORBITAL_CAPITALSHIPFACTORY"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 2925 , 167 , 75 ]
+	pixelBox [ 167 , 2550 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_ORBITAL_NONCOMBATLABORATORY"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 3000 , 167 , 75 ]
+	pixelBox [ 167 , 2625 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_ORBITAL_REFINERY"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 3075 , 167 , 75 ]
+	pixelBox [ 167 , 2700 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_ORBITAL_WEAPONSPLATFORM"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 3150 , 167 , 75 ]
+	pixelBox [ 167 , 2775 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_ORBITAL_HANGARDEFENSE"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 3225 , 167 , 75 ]
+	pixelBox [ 167 , 2850 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_ORBITAL_REPAIRPLATFORM"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 3300 , 167 , 75 ]
+	pixelBox [ 167 , 2925 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_ORBITAL_JUMPBLOCKER"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 3375 , 167 , 75 ]
+	pixelBox [ 167 , 3000 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_ORBITAL_SHIELDGENERATOR"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 3450 , 167 , 75 ]
+	pixelBox [ 167 , 3075 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_ORBITAL_CANNON"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 3525 , 167 , 75 ]
+	pixelBox [ 167 , 3150 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_ORBITAL_MINE"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 3600 , 167 , 75 ]
+	pixelBox [ 167 , 3225 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_ORBITAL_HEADQUARTERS"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 3675 , 167 , 75 ]
+	pixelBox [ 167 , 3300 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_ORBITAL_TITANFACTORY"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 3750 , 167 , 75 ]
+	pixelBox [ 167 , 3375 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_ORBITAL_HEAVYDEFENSE"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 3825 , 167 , 75 ]
+	pixelBox [ 167 , 3450 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_ORBITAL_STARGATE"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 3900 , 167 , 75 ]
+	pixelBox [ 167 , 3525 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_STARBASEOFFENSE_CRONUS"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 3975 , 167 , 75 ]
+	pixelBox [ 167 , 3600 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_STARBASEDEFENSE_SETESH"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 4050 , 167 , 75 ]
+	pixelBox [ 167 , 3675 , 167 , 75 ]
 brush
 	name "PICTURE_GOAULD_STARBASESPECIAL_UNAS"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 4125 , 167 , 75 ]
+	pixelBox [ 167 , 3750 , 167 , 75 ]
+brush
+	name "PICTURE_HUMAN_CAPITALHERO_HERACLES"
+	content "Simple"
+	fileName "Player_Portrait_Hud_Window"
+	pixelBox [ 171 , 78 , 167 , 75 ]
+brush
+	name "PICTURE_HUMAN_CAPITALHERO_ODYSSEY"
+	content "Simple"
+	fileName "Player_Portrait_Hud_Window"
+	pixelBox [ 511 , 78 , 167 , 75 ]
+brush
+	name "PICTURE_HUMAN_CAPITALHERO_PROMETHEUS"
+	content "Simple"
+	fileName "Player_Portrait_Hud_Window"
+	pixelBox [ 1701 , 78 , 167 , 75 ]
+brush
+	name "PICTURE_HUMAN_CAPITALHERO_APOLLO"
+	content "Simple"
+	fileName "Player_Portrait_Hud_Window"
+	pixelBox [ 1871 , 3 , 167 , 75 ]
+brush
+	name "PICTURE_HUMAN_CAPITALHERO_DAEDALUS"
+	content "Simple"
+	fileName "Player_Portrait_Hud_Window"
+	pixelBox [ 1871 , 78 , 78 , 75 ]
 brush
     name "PICTURE_HUMAN_TITANOFFENSE_TARTARUS"
     content "Simple"
@@ -687,167 +737,162 @@ brush
 	fileName "Unit_Picture_SGI"
 	pixelBox [ 0 , 1800 , 167 , 75 ]
 brush
-	name "PICTURE_HUMAN_CAPITALHERO_HERACLES"
-	content "Simple"
-	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 2175 , 167 , 75 ]
-brush
 	name "PICTURE_HUMAN_MODULECONSTRUCTOR_ATHENA"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 2250 , 167 , 75 ]
+	pixelBox [ 0 , 1875 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_MODULETRADESHIP_MIDAS"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 2325 , 167 , 75 ]
+	pixelBox [ 0 , 1950 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_MODULEREFINERYSHIP_DEMETER"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 2400 , 167 , 75 ]
+	pixelBox [ 0 , 2025 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_ORBITAL_TRINIUMEXTRACTOR"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 2475 , 167 , 75 ]
+	pixelBox [ 0 , 2100 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_ORBITAL_FRIGATEFACTORY"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 2550 , 167 , 75 ]
+	pixelBox [ 0 , 2175 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_ORBITAL_COMBATLABORATORY"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 2625 , 167 , 75 ]
+	pixelBox [ 0 , 2250 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_ORBITAL_TRADEPORT"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 2700 , 167 , 75 ]
+	pixelBox [ 0 , 2325 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_ORBITAL_CULTURECENTER"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 2775 , 167 , 75 ]
+	pixelBox [ 0 , 2400 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_ORBITAL_NAQUADAHEXTRACTOR"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 2850 , 167 , 75 ]
+	pixelBox [ 0 , 2475 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_ORBITAL_CAPITALSHIPFACTORY"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 2925 , 167 , 75 ]
+	pixelBox [ 0 , 2550 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_ORBITAL_NONCOMBATLABORATORY"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 3000 , 167 , 75 ]
+	pixelBox [ 0 , 2625 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_ORBITAL_REFINERY"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 3075 , 167 , 75 ]
+	pixelBox [ 0 , 2700 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_ORBITAL_WEAPONSPLATFORM"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 3150 , 167 , 75 ]
+	pixelBox [ 0 , 2775 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_ORBITAL_HANGARDEFENSE"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 3225 , 167 , 75 ]
+	pixelBox [ 0 , 2850 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_ORBITAL_REPAIRPLATFORM"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 3300 , 167 , 75 ]
+	pixelBox [ 0 , 2925 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_ORBITAL_JUMPBLOCKER"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 3375 , 167 , 75 ]
+	pixelBox [ 0 , 3000 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_ORBITAL_SHIELDGENERATOR"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 3450 , 167 , 75 ]
+	pixelBox [ 0 , 3075 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_ORBITAL_CANNON"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 3525 , 167 , 75 ]
+	pixelBox [ 0 , 3150 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_ORBITAL_MINE"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 3600 , 167 , 75 ]
+	pixelBox [ 0 , 3225 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_ORBITAL_HEADQUARTERS"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 3675 , 167 , 75 ]
+	pixelBox [ 0 , 3300 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_ORBITAL_TITANFACTORY"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 3750 , 167 , 75 ]
+	pixelBox [ 0 , 3375 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_ORBITAL_HEAVYDEFENSE"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 3825 , 167 , 75 ]
+	pixelBox [ 0 , 3450 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_ORBITAL_STARGATE"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 3900 , 167 , 75 ]
+	pixelBox [ 0 , 3525 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_STARBASEOFFENSE_HADES"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 3975 , 167 , 75 ]
+	pixelBox [ 0 , 3600 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_STARBASEDEFENSE_APOLLO"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 4050 , 167 , 75 ]
+	pixelBox [ 0 , 3675 , 167 , 75 ]
 brush
 	name "PICTURE_HUMAN_STARBASESPECIAL_ZEUS"
 	content "Simple"
 	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 4125 , 167 , 75 ]
+	pixelBox [ 0 , 3750 , 167 , 75 ]
+brush
+	name "PICTURE_REPLICATOR_FRIGATELIGHT"
+	content "Simple"
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 0 , 3900 , 167 , 75 ]
+brush
+	name "PICTURE_REPLICATOR_FRIGATEHEAVY"
+	content "Simple"
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 167 , 3900 , 167 , 75 ]
+brush
+	name "PICTURE_REPLICATOR_FRIGATESIEGE"
+	content "Simple"
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 334 , 3900 , 167 , 75 ]
+brush
+	name "PICTURE_REPLICATOR_FRIGATEANTIFIGHTER"
+	content "Simple"
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 501 , 3900 , 167 , 75 ]
+brush
+	name "PICTURE_REPLICATOR_FRIGATEMEDIUM"
+	content "Simple"
+	fileName "Unit_Picture_SGI"
+	pixelBox [ 668 , 3900 , 167 , 75 ]
 brush
 	name "PICTURE_ORI_MOTHERSHIP_DELIVERANCE"
 	content "Simple"
 	fileName "Icons_Planets"
 	pixelBox [ 2 , 1444 , 167 , 75 ]
-brush
-	name "PICTURE_REPLICATOR_FRIGATELIGHT"
-	content "Simple"
-	fileName "Unit_Picture_SGI"
-	pixelBox [ 0 , 4275 , 167 , 75 ]
-brush
-	name "PICTURE_REPLICATOR_FRIGATEHEAVY"
-	content "Simple"
-	fileName "Unit_Picture_SGI"
-	pixelBox [ 167 , 4275 , 167 , 75 ]
-brush
-	name "PICTURE_REPLICATOR_FRIGATESIEGE"
-	content "Simple"
-	fileName "Unit_Picture_SGI"
-	pixelBox [ 334 , 4275 , 167 , 75 ]
-brush
-	name "PICTURE_REPLICATOR_FRIGATEANTIFIGHTER"
-	content "Simple"
-	fileName "Unit_Picture_SGI"
-	pixelBox [ 501 , 4275 , 167 , 75 ]
-brush
-	name "PICTURE_REPLICATOR_FRIGATEMEDIUM"
-	content "Simple"
-	fileName "Unit_Picture_SGI"
-	pixelBox [ 668 , 4275 , 167 , 75 ]
