@@ -1,0 +1,42 @@
+﻿TXT
+entityType "Squad"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+hudIcon "HUDICON_GOAULD_FIGHTERSQUAD_DEATHGLIDER"
+smallHudIcon "HUDICONSMALL_GOAULD_FIGHTERSQUAD_DEATHGLIDER"
+infoCardIcon "MAINVIEWICON_GOAULD_FIGHTERSQUAD_DEATHGLIDER"
+fighterEntityDef "Goauld_FighterCombat_DeathGlider"
+fighterIllusionEntityDef ""
+scuttleTime 10.000000
+fighterConstructionTime 15.000000
+decayWithoutOwnerRate 0.050000
+baseMaxNumFighters 4
+role "Combat"
+statCountType "SquadCombat"
+mainViewIcon "MAINVIEWICON_GOAULD_FIGHTERSQUAD_DEATHGLIDER"
+picture "PICTURE_GOAULD_FIGHTERSQUAD_DEATHGLIDER"
+launchIcon "HUDICONLAUNCH_SQUADPHASECOMBAT"
+dockIcon "HUDICONDOCK_SQUADPHASECOMBAT"
+nameStringID "IDS_GOAULD_FIGHTERSQUAD_DEATHGLIDER_NAME"
+descriptionStringID "IDS_GOAULD_FIGHTERSQUAD_DEATHGLIDER_DESCRIPTION"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+NumSoundsFor:ONATTACKORDERISSUED 1
+SoundID "Human_FighterCombat_F302_OnAttackOrderIssued_0"
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 1
+SoundID "Human_FighterCombat_F302_OnGeneralOrderIssued_0"
+NumSoundsFor:ONSELECTED 1
+SoundID "Human_FighterCombat_F302_OnSelected_0"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+minShadow 0.000000
+maxShadow 0.000000
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
