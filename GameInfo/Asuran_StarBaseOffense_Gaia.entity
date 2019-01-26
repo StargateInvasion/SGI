@@ -19,85 +19,6 @@ infoCardIcon "MAINVIEWICON_ASURAN_STARBASEOFFENSE_GAIA"
 minZoomDistanceMult 1.500000
 NumWeapons 3
 Weapon
-	WeaponType "Projectile"
-	damageEnums
-		AttackType "ANTIHEAVY"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "ENERGY"
-		WeaponClassType "WAVE"
-	DamagePerBank:FRONT 186.000000
-	DamagePerBank:BACK 186.000000
-	DamagePerBank:LEFT 186.000000
-	DamagePerBank:RIGHT 186.000000
-	Range 8000.000000
-	PreBuffCooldownTime 5.000000
-	CanFireAtFighter TRUE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.200000
-	TravelSpeed 3000.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Projectile"
-		burstCount 3
-		burstDelay 0.350000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_PhaseCapitalPulseGunHeavy_Muzzle"
-		muzzleSoundMinRespawnTime 1.000000
-		muzzleSounds
-			soundCount 2
-			sound "WEAPON_PHASECAPITALPULSEGUNHEAVY_MUZZLE"
-			sound "WEAPON_PHASECAPITALPULSEGUNHEAVY_MUZZLE_ALT1"
-		hitEffectName "Weapon_PhaseCapitalPulseGunHeavy_Hit"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "Weapon_AsuranCapitalLaserLight_Travel"
-Weapon
-	WeaponType "Projectile"
-	damageEnums
-		AttackType "ANTIMODULE"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "OVERTIME"
-		DamageType "ENERGY"
-		WeaponClassType "CHAOSBOLT"
-	DamagePerBank:FRONT 16400.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 8000.000000
-	PreBuffCooldownTime 30.000000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting TRUE
-	PointStaggerDelay 0.900000
-	TravelSpeed 1800.000000
-	Duration 0.000000
-	fireConstraintType "StarBaseUpgradeLevel"
-	requiredStarBaseWeaponLevel 1
-	WeaponEffects
-		weaponType "Projectile"
-		burstCount 1
-		burstDelay 0.100000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_PhaseStarBaseChaosBolt_Muzzle"
-		muzzleSoundMinRespawnTime 0.300000
-		muzzleSounds
-			soundCount 2
-			sound "WEAPON_PHASECAPITALCHAOSBOLT_MUZZLE_ALT1"
-			sound "WEAPON_PHASECAPITALCHAOSBOLT_MUZZLE"
-		hitEffectName "Weapon_PhaseStarBaseChaosBolt_Hit"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "Weapon_AsuranCapitalLagarianPulse_Travel"
-Weapon
 	WeaponType "Missile"
 	damageEnums
 		AttackType "CAPITALSHIP"
@@ -116,8 +37,7 @@ Weapon
 	PointStaggerDelay 0.080000
 	TravelSpeed 1500.000000
 	Duration 0.000000
-	fireConstraintType "StarBaseUpgradeLevel"
-	requiredStarBaseWeaponLevel 2
+	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Missile"
 		burstCount 2
@@ -140,6 +60,94 @@ Weapon
 		missileStartTurningDistance 250.000000
 		missileSlowTurnRate 2.708997
 		missileMaxSlowTurnTime 6.000000
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "BEAM"
+	DamagePerBank:FRONT 280.000000
+	DamagePerBank:BACK 280.000000
+	DamagePerBank:LEFT 280.000000
+	DamagePerBank:RIGHT 280.000000
+	Range 10500.000000
+	PreBuffCooldownTime 7.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.500000
+	TravelSpeed 0.000000
+	Duration 4.000000
+	fireConstraintType "StarBaseUpgradeLevel"
+	requiredStarBaseWeaponLevel 1
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalPlanetBombing_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Weapon_PsiCapitalBeamHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "WEAPON_PSICAPITALBEAMHEAVY_TRAVEL"
+		beamGlowTextureName "PhaseCapitalBombingBeam_Glow"
+		beamCoreTextureName "PhaseCapitalBombingBeam_Core"
+		beamWidth 30.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIMEDIUM"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PULSEGUN"
+	DamagePerBank:FRONT 132.000000
+	DamagePerBank:BACK 132.000000
+	DamagePerBank:LEFT 132.000000
+	DamagePerBank:RIGHT 132.000000
+	Range 8000.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.300000
+	TravelSpeed 1200.000000
+	Duration 0.000000
+	fireConstraintType "StarBaseUpgradeLevel"
+	requiredStarBaseWeaponLevel 2
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Human_Muzzle"
+		muzzleSoundMinRespawnTime 0.770000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE"
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT2"
+		hitEffectName "Weapon_HumanRailguns_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_AsuranCapitalLaserLight_Travel"
 m_weaponIndexForRange 2
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 4
@@ -147,7 +155,7 @@ TargetCountPerBank:BACK 4
 TargetCountPerBank:LEFT 4
 TargetCountPerBank:RIGHT 4
 canOnlyTargetStructures FALSE
-ShieldMeshName "Human_Shield_StarbaseSpecial_Zeus"
+ShieldMeshName "Asuran_Shield_StarbaseOffense_Gaia"
 renderShield TRUE
 squadTypeEntityDef:0 "Asuran_SquadCombat_Jumper"
 squadAntiMatterCost:0 0.000000
@@ -176,7 +184,7 @@ UpgradeType "Asuran_StarBaseUpgradeDirectionalShield"
 UpgradeType "Asuran_StarBaseUpgradeStarGate"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Human_StarbaseSpecial_Zeus"
+	meshName "Asuran_StarbaseOffense_Gaia"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
