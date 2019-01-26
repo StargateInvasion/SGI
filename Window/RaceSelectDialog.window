@@ -8,7 +8,7 @@ titleRefArea [90, 40, 508, 30]
 titleOverlayRefArea [0, 0, 693, 90]
 numFactionWindows 5
 	factionSelectWindowDef
-		backdropBrush "RaceSelectDialogBackground"
+		backdropBrush "RaceSelectDialogBackgroundHuman"
 		backdropArea [22,12,974,743]
 		smallFactionPortraitOverlay "RaceSelectSmallPortraitOverlay"
 		smallFactionPortraitOffset [0,0]
@@ -45,10 +45,10 @@ numFactionWindows 5
 			overlay ""
 		sharedTechsStartPosition [587,280]
 		spaceBetweenSharedTechs 5
-			sharedTechOne "Human_Research_Titan_Tartarus"
-			sharedTechTwo "Human_Research_PlanetModule_Cannon"
-			sharedTechThree "Human_Research_PlanetModule_Stargate"
-			sharedTechFour "Human_Research_Titan_Hephestus"
+			sharedTechOne "UI_ResearchIcon_Blank"
+			sharedTechTwo "Human_Research_Titan_Tartarus"
+			sharedTechThree "Human_Research_Titan_Hephestus"
+			sharedTechFour "Human_Research_CruiserEnvoy"
 		sharedCapitalShipsStartPosition [684,316]
 		spaceBetweenSharedCapitalShips 5
 			sharedCapitalShipOne "Human_CapitalBattleship_Achilles"
@@ -103,7 +103,7 @@ numFactionWindows 5
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
 			buttonTextArea [-9999,2,80,50]
 	factionSelectWindowDef
-		backdropBrush "RaceSelectDialogBackground"
+		backdropBrush "RaceSelectDialogBackgroundGoauld"
 		backdropArea [22,12,974,743]
 		smallFactionPortraitOverlay "RaceSelectSmallPortraitOverlay"
 		smallFactionPortraitOffset [0,0]
@@ -140,10 +140,10 @@ numFactionWindows 5
 			overlay ""
 		sharedTechsStartPosition [587,280]
 		spaceBetweenSharedTechs 5
-			sharedTechOne "Goauld_Research_Titan_Anubis"
-			sharedTechTwo "Goauld_Research_PlanetModule_Cannon"
-			sharedTechThree "Goauld_Research_PlanetModule_Stargate"
-			sharedTechFour "Goauld_Research_Titan_Sokar"
+			sharedTechOne "UI_ResearchIcon_Blank"
+			sharedTechTwo "Goauld_Research_Titan_Anubis"
+			sharedTechThree "Goauld_Research_Titan_Sokar"
+			sharedTechFour "Goauld_Research_CruiserEnvoy"
 		sharedCapitalShipsStartPosition [684,316]
 		spaceBetweenSharedCapitalShips 5
 			sharedCapitalShipOne "Goauld_CapitalBattleship_Hatel"
@@ -198,7 +198,7 @@ numFactionWindows 5
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
 			buttonTextArea [-9999,2,80,50]
 	factionSelectWindowDef
-		backdropBrush "RaceSelectDialogBackground"
+		backdropBrush "RaceSelectDialogBackgroundWraith"
 		backdropArea [22,12,974,743]
 		smallFactionPortraitOverlay "RaceSelectSmallPortraitOverlay"
 		smallFactionPortraitOffset [0,0]
@@ -206,8 +206,8 @@ numFactionWindows 5
 		previousFactionPortraitArea [688, 469, 120 , 190]
 		nextFactionPortraitBrush "RaceSelectDialogAsgardPortraitSmall"
 		nextFactionPortraitArea [844, 469, 120 , 190]
-		leftPlayer "PlayerHuman"
-		rightPlayer "PlayerHuman"
+		leftPlayer "PlayerWraith"
+		rightPlayer "PlayerWraith"
 		raceNameFont "WindowTitle"
 		raceNameID "IDS_GALAXY_PEGASUS"
 		raceNameArea [430,38,0,0]
@@ -235,26 +235,26 @@ numFactionWindows 5
 			overlay ""
 		sharedTechsStartPosition [587,280]
 		spaceBetweenSharedTechs 5
-			sharedTechOne "Human_Research_Titan_Tartarus"
-			sharedTechTwo "Human_Research_PlanetModule_Cannon"
-			sharedTechThree "Human_Research_PlanetModule_Stargate"
-			sharedTechFour "Human_Research_Titan_Hephestus"
+			sharedTechOne "UI_ResearchIcon_Blank"
+			sharedTechTwo "Wraith_Research_Placeholder"
+			sharedTechThree "Wraith_Research_Placeholder"
+			sharedTechFour "Wraith_Research_Placeholder"
 		sharedCapitalShipsStartPosition [684,316]
 		spaceBetweenSharedCapitalShips 5
-			sharedCapitalShipOne "Human_CapitalBattleship_Achilles"
-			sharedCapitalShipTwo "Human_CapitalCarrier_Poseidon"
-			sharedCapitalShipThree "Human_CapitalColony_Destiny"
-			sharedCapitalShipFour "Human_CapitalSiege_Excalibur"
-			sharedCapitalShipFive "Human_CapitalSupport_Scorpion"
-			sharedCapitalShipSix "Human_CapitalTransport_Concordia"
+			sharedCapitalShipOne "Wraith_Capital_Placeholder"
+			sharedCapitalShipTwo "Wraith_Capital_Placeholder"
+			sharedCapitalShipThree "Wraith_Capital_Placeholder"
+			sharedCapitalShipFour "Wraith_Capital_Placeholder"
+			sharedCapitalShipFive "Wraith_Capital_Placeholder"
+			sharedCapitalShipSix "Wraith_Capital_Placeholder"
 		spaceBetweenFactionTechs 5
 		leftFactionTechsStartPosition [852, 280]
-			leftFactionTechOne "Human_Research_CruiserDaedalus"
-			leftFactionTechTwo "Human_Research_CruiserCerberus"
-			leftFactionTechThree "Human_Research_CruiserNyx"
-			leftFactionTechFour "Human_Research_CruiserPhoenix"
-			leftFactionTechFive "Human_Research_CruiserAres"
-			leftFactionTechSix "Human_Research_FrigateMorpheus"
+			leftFactionTechOne "Wraith_Research_Placeholder"
+			leftFactionTechTwo "Wraith_Research_Placeholder"
+			leftFactionTechThree "Wraith_Research_Placeholder"
+			leftFactionTechFour "Wraith_Research_Placeholder"
+			leftFactionTechFive "Wraith_Research_Placeholder"
+			leftFactionTechSix "Wraith_Research_Placeholder"
 		rightFactionTechsStartPosition [-9553, 583]
 			rightFactionTechOne "Replicator_Research_Armor1"
 			rightFactionTechTwo "Replicator_Research_Armor2"
@@ -293,7 +293,7 @@ numFactionWindows 5
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
 			buttonTextArea [-9999,2,80,50]
 	factionSelectWindowDef
-		backdropBrush "RaceSelectDialogBackground"
+		backdropBrush "RaceSelectDialogBackgroundAsgard"
 		backdropArea [22,12,974,743]
 		smallFactionPortraitOverlay "RaceSelectSmallPortraitOverlay"
 		smallFactionPortraitOffset [0,0]
@@ -301,8 +301,8 @@ numFactionWindows 5
 		previousFactionPortraitArea [688, 469, 120 , 190]
 		nextFactionPortraitBrush "RaceSelectDialogAsuransPortraitSmall"
 		nextFactionPortraitArea [844, 469, 120 , 190]
-		leftPlayer "PlayerHuman"
-		rightPlayer "PlayerHuman"
+		leftPlayer "PlayerAsgard"
+		rightPlayer "PlayerAsgard"
 		raceNameFont "WindowTitle"
 		raceNameID "IDS_GALAXY_PEGASUS"
 		raceNameArea [430,38,0,0]
@@ -330,26 +330,26 @@ numFactionWindows 5
 			overlay ""
 		sharedTechsStartPosition [587,280]
 		spaceBetweenSharedTechs 5
-			sharedTechOne "Human_Research_Titan_Tartarus"
-			sharedTechTwo "Human_Research_PlanetModule_Cannon"
-			sharedTechThree "Human_Research_PlanetModule_Stargate"
-			sharedTechFour "Human_Research_Titan_Hephestus"
+			sharedTechOne "UI_ResearchIcon_Blank"
+			sharedTechTwo "Asgard_Research_Placeholder"
+			sharedTechThree "Asgard_Research_Placeholder"
+			sharedTechFour "Asgard_Research_Placeholder"
 		sharedCapitalShipsStartPosition [684,316]
 		spaceBetweenSharedCapitalShips 5
-			sharedCapitalShipOne "Human_CapitalBattleship_Achilles"
-			sharedCapitalShipTwo "Human_CapitalCarrier_Poseidon"
-			sharedCapitalShipThree "Human_CapitalColony_Destiny"
-			sharedCapitalShipFour "Human_CapitalSiege_Excalibur"
-			sharedCapitalShipFive "Human_CapitalSupport_Scorpion"
-			sharedCapitalShipSix "Human_CapitalTransport_Concordia"
+			sharedCapitalShipOne "Asgard_Capital_Placeholder"
+			sharedCapitalShipTwo "Asgard_Capital_Placeholder"
+			sharedCapitalShipThree "Asgard_Capital_Placeholder"
+			sharedCapitalShipFour "Asgard_Capital_Placeholder"
+			sharedCapitalShipFive "Asgard_Capital_Placeholder"
+			sharedCapitalShipSix "Asgard_Capital_Placeholder"
 		spaceBetweenFactionTechs 5
 		leftFactionTechsStartPosition [852, 280]
-			leftFactionTechOne "Human_Research_CruiserDaedalus"
-			leftFactionTechTwo "Human_Research_CruiserCerberus"
-			leftFactionTechThree "Human_Research_CruiserNyx"
-			leftFactionTechFour "Human_Research_CruiserPhoenix"
-			leftFactionTechFive "Human_Research_CruiserAres"
-			leftFactionTechSix "Human_Research_FrigateMorpheus"
+			leftFactionTechOne "Asgard_Research_Placeholder"
+			leftFactionTechTwo "Asgard_Research_Placeholder"
+			leftFactionTechThree "Asgard_Research_Placeholder"
+			leftFactionTechFour "Asgard_Research_Placeholder"
+			leftFactionTechFive "Asgard_Research_Placeholder"
+			leftFactionTechSix "Asgard_Research_Placeholder"
 		rightFactionTechsStartPosition [-9553, 583]
 			rightFactionTechOne "Replicator_Research_Armor1"
 			rightFactionTechTwo "Replicator_Research_Armor2"
@@ -388,7 +388,7 @@ numFactionWindows 5
 			buttonTextID "IDS_RACESELECTDIALOG_SELECTRANDOM"
 			buttonTextArea [-9999,2,80,50]
 	factionSelectWindowDef
-		backdropBrush "RaceSelectDialogBackground"
+		backdropBrush "RaceSelectDialogBackgroundAsuran"
 		backdropArea [22,12,974,743]
 		smallFactionPortraitOverlay "RaceSelectSmallPortraitOverlay"
 		smallFactionPortraitOffset [0,0]
@@ -425,10 +425,10 @@ numFactionWindows 5
 			overlay ""
 		sharedTechsStartPosition [587,280]
 		spaceBetweenSharedTechs 5
-			sharedTechOne "Asuran_Research_TitanDefense_Atlantis"
-			sharedTechTwo "Asuran_Research_Orbital_Cannon"
-			sharedTechThree "Asuran_Research_FrigateSiege_GateSatellite"
-			sharedTechFour "Asuran_Research_TitanOffense_Epheus"
+			sharedTechOne "UI_ResearchIcon_Blank"
+			sharedTechTwo "Asuran_Research_TitanDefense_Atlantis"
+			sharedTechThree "Asuran_Research_TitanOffense_Epheus"
+			sharedTechFour "Asuran_Research_CruiserEnvoy_Mercury"
 		sharedCapitalShipsStartPosition [684,316]
 		spaceBetweenSharedCapitalShips 5
 			sharedCapitalShipOne "Asuran_CapitalBattleship_Orion"
@@ -442,7 +442,7 @@ numFactionWindows 5
 			leftFactionTechOne "Asuran_Research_CruiserAntiModule_Typhaon"
 			leftFactionTechTwo "Asuran_Research_CruiserCarrier_Caelus"
 			leftFactionTechThree "Asuran_Research_CruiserHeavy_Atropos"
-			leftFactionTechFour "Asuran_Research_CruiserEnvoy_Mercury"
+			leftFactionTechFour "Asuran_Research_FrigateSiege_GateSatellite"
 			leftFactionTechFive "Asuran_Research_FrigateLongRange_Erinyes"
 			leftFactionTechSix "Asuran_Research_FrigateAntiFighter_Ogen"
 		rightFactionTechsStartPosition [-9553, 583]

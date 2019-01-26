@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 229
+brushCount 233
 brush
 	name "DLCButtonBackgroundAshes"
 	content "Simple"
@@ -140,9 +140,29 @@ brush
 	fileName "BackdropInGame_SGI"
 	pixelBox [ 1048 , 1027 , 67 , 78 ]
 brush
-	name "RaceSelectDialogBackground"
+	name "RaceSelectDialogBackgroundAsgard"
 	content "Simple"
-	fileName "FactionSelectScreen_Normal_SGI"
+	fileName "FactionSelectScreen_Asgard"
+	pixelBox [ 0 , 0 , 974 , 743 ]
+brush
+	name "RaceSelectDialogBackgroundAsuran"
+	content "Simple"
+	fileName "FactionSelectScreen_Asuran"
+	pixelBox [ 0 , 0 , 974 , 743 ]
+brush
+	name "RaceSelectDialogBackgroundGoauld"
+	content "Simple"
+	fileName "FactionSelectScreen_Goauld"
+	pixelBox [ 0 , 0 , 974 , 743 ]
+brush
+	name "RaceSelectDialogBackgroundHuman"
+	content "Simple"
+	fileName "FactionSelectScreen_Human"
+	pixelBox [ 0 , 0 , 974 , 743 ]
+brush
+	name "RaceSelectDialogBackgroundWraith"
+	content "Simple"
+	fileName "FactionSelectScreen_Wraith"
 	pixelBox [ 0 , 0 , 974 , 743 ]
 brush
 	name "RaceSelectDialogTauriPortraitSmall"
