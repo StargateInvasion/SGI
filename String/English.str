@@ -1,5 +1,5 @@
 ﻿TXT
-NumStrings 8024
+NumStrings 8018
 StringInfo
 	ID "IDS_GDPRDIALOG_CANCELBUTTON"
 	Value "Decline"
@@ -4726,6 +4726,12 @@ StringInfo
 	ID "IDS_GOAULD_ABILITYORBITAL_AG3_DESCRIPTION"
 	Value "A advanced Goa'uld Turret with a powerful beam blast."
 StringInfo
+	ID "IDS_GOAULD_ABILITYORBITAL_DEFENSESYNERGY_NAME"
+	Value "Synergy"
+StringInfo
+	ID "IDS_GOAULD_ABILITYORBITAL_DEFENSESYNERGY_DESCRIPTION"
+	Value "Nearby Plasma Defense Platforms jointly reinforce each other, granting a stacking attack and shield bonus."
+StringInfo
 	ID "IDS_GOAULD_ABILITYORBITAL_PULSE_NAME"
 	Value "Goa'uld Plasma Weapons"
 StringInfo
@@ -5222,10 +5228,10 @@ StringInfo
 	Value "Allows the establishment of new trade routes."
 StringInfo
 	ID "IDS_GOAULD_ORBITAL_WEAPONSPLATFORM_NAME"
-	Value "Railgun Defense Platform"
+	Value "Plasma Defense Platform"
 StringInfo
 	ID "IDS_GOAULD_ORBITAL_WEAPONSPLATFORM_DESCRIPTION"
-	Value "Dual Railgun Cannons defend nearby structures and the planet from hostile forces."
+	Value "An array of Plasma Weapons defend nearby structures and the planet from hostile ships."
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_ABILITY_ARBITRATETARIFF_NAME"
 	Value "Arbitrate Tariff"
@@ -5244,18 +5250,6 @@ StringInfo
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_ABILITY_DESIGNATETARGET_DESCRIPTION"
 	Value "Goa'uld advance the targeting systems, which allows them to augment the damage of friendly ships against a specific target and increase their range."
-StringInfo
-	ID "IDS_GOAULD_RESEARCH_ABILITY_GAUSSDEFENCEMISSILEBURST_NAME"
-	Value "Missile Barrage"
-StringInfo
-	ID "IDS_GOAULD_RESEARCH_ABILITY_GAUSSDEFENCEMISSILEBURST_DESCRIPTION"
-	Value "Bombards the target area with volleys of missiles, dealing damage to all objects within the blast radius."
-StringInfo
-	ID "IDS_GOAULD_RESEARCH_ABILITY_GAUSSDEFENCERAILGUN_NAME"
-	Value "Goa'uld Core Platform"
-StringInfo
-	ID "IDS_GOAULD_RESEARCH_ABILITY_GAUSSDEFENCERAILGUN_DESCRIPTION"
-	Value "Grants the Goa'uld Platform upgrade to Railgun Defense Platforms, giving them a fully functional advanced core for offensive and defensive measures."
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_ABILITY_LAGRANGIA_NAME"
 	Value "Goa'uld Mega Beam"
@@ -6186,18 +6180,6 @@ StringInfo
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_WEAPONACCESS_PLASMASHIELD1_DESCRIPTION"
 	Value "Plasma bursts are timed to target the energy fluctuations from constant pulse bombardment and take advantage of momentary reductions in shield strength."
-StringInfo
-	ID "IDS_GOAULD_RESEARCH_WEAPONCOOLDOWNGAUSS_NAME"
-	Value "Quick Gauss Capacitors"
-StringInfo
-	ID "IDS_GOAULD_RESEARCH_WEAPONCOOLDOWNGAUSS_DESCRIPTION"
-	Value "Decreases the cooldown of the gauss cannons on the defense platform."
-StringInfo
-	ID "IDS_GOAULD_RESEARCH_WEAPONRANGEGAUSS_NAME"
-	Value "Highly Conductive Rails"
-StringInfo
-	ID "IDS_GOAULD_RESEARCH_WEAPONRANGEGAUSS_DESCRIPTION"
-	Value "Improvements in materials science reduces the conduction resistance of gauss cannon rails, allowing Gauss defenses to engage more distant targets."
 StringInfo
 	ID "IDS_GOAULD_RESEARCH_ZPMEXPLORATION_NAME"
 	Value "ZPM Research"

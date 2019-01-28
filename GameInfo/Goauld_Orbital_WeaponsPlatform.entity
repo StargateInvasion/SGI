@@ -1,10 +1,10 @@
 ﻿TXT
 entityType "PlanetModuleWeaponDefense"
 minZoomDistanceMult 2.500000
-ability:0 ""
-ability:1 "Goauld_AbilityOrbital_MissleTurret"
-ability:2 "Goauld_AbilityOrbital_Plasma"
-ability:3 "Goauld_AbilityOrbital_PlasmaBombardment"
+ability:0 "Goauld_AbilityOrbital_PlasmaWeapon"
+ability:1 "Goauld_AbilityOrbital_PlasmaBombardment"
+ability:2 "Goauld_AbilityOrbital_DefenseSynergy"
+ability:3 ""
 ability:4 ""
 MaxAntiMatter 600.000000
 AntiMatterRestoreRate 1.000000
@@ -16,11 +16,11 @@ hudIcon "HUDICON_GOAULD_ORBITAL_WEAPONSPLATFORM"
 smallHudIcon "HUDICONSMALL_GOAULD_ORBITAL_WEAPONSPLATFORM"
 infoCardIcon "MAINVIEWICON_GOAULD_ORBITAL_WEAPONSPLATFORM"
 planetUpgradeSlotType "Tactical"
-planetUpgradeSlotCount 4.000000
+planetUpgradeSlotCount 2.000000
 basePrice
-	credits 350.000000
-	metal 60.000000
-	crystal 40.000000
+	credits 150.000000
+	metal 30.000000
+	crystal 20.000000
 NameStringID "IDS_GOAULD_ORBITAL_WEAPONSPLATFORM_NAME"
 DescriptionStringID "IDS_GOAULD_ORBITAL_WEAPONSPLATFORM_DESCRIPTION"
 planetModuleRoleType "WEAPONDEFENSE"
@@ -56,45 +56,22 @@ NumSoundsFor:ONGENERALORDERISSUED 0
 NumSoundsFor:ONSELECTED 1
 SoundID "PLANETMODULE_TECHORBITALGAUSSDEFENSE_ONSELECTION_0"
 NumSoundsFor:ONSTARTPHASEJUMP 0
-MeshNameInfoCount 4
+MeshNameInfoCount 2
 MeshNameInfo
 	meshName "Goauld_Orbital_WeaponsPlatform1"
 	criteriaType "None"
 MeshNameInfo
-	meshName "Goauld_Orbital_WeaponsPlatform1"
-	criteriaType "Research"
-	prerequisites
-		NumResearchPrerequisites 1
-		ResearchPrerequisite
-			Subject "Goauld_Research_Ability_GaussDefenceRailGun"
-			Level 1
-		RequiredFactionNameID ""
-		RequiredCompletedResearchSubjects 0
-MeshNameInfo
 	meshName "Goauld_Orbital_WeaponsPlatform2"
 	criteriaType "Research"
 	prerequisites
 		NumResearchPrerequisites 1
 		ResearchPrerequisite
-			Subject "Goauld_Research_Ability_GaussDefenceMissileBurst"
+			Subject "Goauld_Research_Ability_Synergy"
 			Level 1
 		RequiredFactionNameID ""
 		RequiredCompletedResearchSubjects 0
-MeshNameInfo
-	meshName "Goauld_Orbital_WeaponsPlatform2"
-	criteriaType "Research"
-	prerequisites
-		NumResearchPrerequisites 2
-		ResearchPrerequisite
-			Subject "Goauld_Research_Ability_GaussDefenceMissileBurst"
-			Level 1
-		ResearchPrerequisite
-			Subject "Goauld_Research_Ability_GaussDefenceRailGun"
-			Level 1
-		RequiredFactionNameID ""
-		RequiredCompletedResearchSubjects 0
-meshNameIncreasedEffectName "GaussGetupgrade"
-meshNameDecreasedEffectName "Gaussloseupgrade"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleSmall"
 mainViewIcon "MAINVIEWICON_GOAULD_ORBITAL_WEAPONSPLATFORM"
 picture "PICTURE_GOAULD_ORBITAL_WEAPONSPLATFORM"
@@ -107,92 +84,7 @@ defaultAutoAttackRange "None"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
-NumWeapons 3
-Weapon
-	WeaponType "Projectile"
-	damageEnums
-		AttackType "ANTIHEAVY"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "PHYSICAL"
-		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 100.000000
-	DamagePerBank:BACK 100.000000
-	DamagePerBank:LEFT 100.000000
-	DamagePerBank:RIGHT 100.000000
-	Range 5500.000000
-	PreBuffCooldownTime 3.000000
-	CanFireAtFighter TRUE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.450000
-	TravelSpeed 4000.000000
-	Duration 0.000000
-	fireConstraintType "CanAlwaysFire"
-	WeaponEffects
-		weaponType "Projectile"
-		burstCount 6
-		burstDelay 0.500000
-		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_CapitalLaser_Muzzle"
-		muzzleSoundMinRespawnTime 0.500000
-		muzzleSounds
-			soundCount 3
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE"
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT1"
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT2"
-		hitEffectName "Weapon_Tech_AutoCannonCapShip_Hit"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "Weapon_Tech_AutoCannonCapShip_Travel"
-Weapon
-	WeaponType "Projectile"
-	damageEnums
-		AttackType "TITAN"
-		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
-		DamageApplyType "BACKLOADED"
-		DamageType "PHYSICAL"
-		WeaponClassType "RAILGUN"
-	DamagePerBank:FRONT 250.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
-	Range 7500.000000
-	PreBuffCooldownTime 3.000000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.100000
-	TravelSpeed 7000.000000
-	Duration 0.000000
-	fireConstraintType "Research"
-	researchPrerequisites
-		NumResearchPrerequisites 1
-		ResearchPrerequisite
-			Subject "Goauld_Research_Ability_GaussDefenceRailGun"
-			Level 1
-		RequiredFactionNameID ""
-		RequiredCompletedResearchSubjects 0
-	WeaponEffects
-		weaponType "Projectile"
-		burstCount 1
-		burstDelay 0.000000
-		fireDelay 0.600000
-		muzzleEffectName "Weapon_TechRebel_TitanRailgun_Muzzle"
-		muzzleSoundMinRespawnTime 0.050000
-		muzzleSounds
-			soundCount 1
-			sound "WEAPON_TECHTITANRAILGUN_MUZZLE"
-		hitEffectName "Weapon_TechRebel_TitanRailgun_Hit"
-		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
-		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "Weapon_TechRebel_TitanRailgun_Travel"
+NumWeapons 1
 Weapon
 	WeaponType "Projectile"
 	damageEnums
@@ -201,44 +93,36 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 500.000000
-	DamagePerBank:BACK 500.000000
-	DamagePerBank:LEFT 500.000000
-	DamagePerBank:RIGHT 500.000000
-	Range 5000.000000
-	PreBuffCooldownTime 6.0000000
-	CanFireAtFighter FALSE
-	SynchronizedTargeting TRUE
-	PointStaggerDelay 0.400000
-	TravelSpeed 2000.000000
+	DamagePerBank:FRONT 400.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 5500.000000
+	PreBuffCooldownTime 1.500000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.450000
+	TravelSpeed 4000.000000
 	Duration 0.000000
-	fireConstraintType "Research"
-	researchPrerequisites
-		NumResearchPrerequisites 1
-		ResearchPrerequisite
-			Subject "Goauld_Research_WeaponAccess_PlasmaPulse0"
-			Level 1
-		RequiredFactionNameID ""
-		RequiredCompletedResearchSubjects 0
+	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 3
-		burstDelay 0.750000
-		fireDelay 0.010000
-		muzzleEffectName "Weapon_Psi_PlasmaTitan_Muzzle"
-		muzzleSoundMinRespawnTime 0.100000
+		burstCount 1
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
-			soundCount 3
-			sound "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE"
-			sound "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE_ALT1"
-			sound "WEAPON_PSICAPITALPLASMAHEAVY_MUZZLE_ALT2"
-		hitEffectName "Weapon_Psi_PlasmaTitan_Hit"
+			soundCount 2
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
 		projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
 m_weaponIndexForRange 2
 firingAlignmentType "Default"
