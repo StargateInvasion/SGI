@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Human_BuffCapital_LagrangiaBeamCharge"
+buffType "Human_BuffCapital_LagrangianBeamCharge"
 targetFilter
 	numOwnerships 1
 	ownership "Enemy"
@@ -65,12 +65,12 @@ orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Human_Research_Ability_Lagrangia"
+		Subject "Human_Research_Ability_Lagrangian"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_HUMAN_ABILITYCAPITAL_LAGRANGIABEAM_NAME"
-descStringID "IDS_HUMAN_ABILITYCAPITAL_LAGRANGIABEAM_DESCRIPTION"
+nameStringID "IDS_HUMAN_ABILITYCAPITAL_LAGRANGIANBEAM_NAME"
+descStringID "IDS_HUMAN_ABILITYCAPITAL_LAGRANGIANBEAM_DESCRIPTION"
 hudIcon "HUDICON_ABILITY_LAGRANGIANBEAM"
 smallHudIcon "HUDICON_ABILITY_LAGRANGIANBEAM"
 infoCardIcon ""

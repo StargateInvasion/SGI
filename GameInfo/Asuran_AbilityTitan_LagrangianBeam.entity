@@ -2,23 +2,22 @@
 entityType "Ability"
 buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Human_BuffTitan_LagrangiaBeamCharge"
+buffType "Asuran_BuffTitan_LagrangianCharge"
 targetFilter
 	numOwnerships 1
 	ownership "Enemy"
-	numObjects 5
+	numObjects 4
 	object "Titan"
 	object "CapitalShip"
-	object "Frigate"
 	object "PlanetModule"
 	object "StarBase"
 	numSpaces 1
 	space "Normal"
 	numConstraints 0
 range
-	Level:0 8000.000000
-	Level:1 8000.000000
-	Level:2 8000.000000
+	Level:0 9000.000000
+	Level:1 12000.000000
+	Level:2 15000.000000
 	Level:3 0.000000
 effectInfo
 	effectAttachInfo
@@ -48,25 +47,25 @@ ignoreNonCombatShipsForAutoCastTarget FALSE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
-	Level:0 400.000000
-	Level:1 425.000000
+	Level:0 350.000000
+	Level:1 400.000000
 	Level:2 450.000000
 	Level:3 0.000000
 cooldownTime
-	Level:0 20.000000
-	Level:1 25.000000
-	Level:2 30.000000
+	Level:0 75.000000
+	Level:1 100.000000
+	Level:2 125.000000
 	Level:3 0.000000
 orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Human_Research_Ability_Lagrangia"
+		Subject "Asuran_Research_Ability_Lagrangian"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_HUMAN_ABILITYTITAN_LAGRANGIABEAM_NAME"
-descStringID "IDS_HUMAN_ABILITYTITAN_LAGRANGIABEAM_DESCRIPTION"
+nameStringID "IDS_ASURAN_ABILITYTITAN_LAGRANGIAN_NAME"
+descStringID "IDS_ASURAN_ABILITYTITAN_LAGRANGIAN_DESCRIPTION"
 hudIcon "HUDICON_ABILITY_LAGRANGIANBEAM"
 smallHudIcon "HUDICON_ABILITY_LAGRANGIANBEAM"
 infoCardIcon ""

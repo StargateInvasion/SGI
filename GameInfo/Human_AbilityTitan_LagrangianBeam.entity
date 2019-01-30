@@ -2,22 +2,23 @@
 entityType "Ability"
 buffInstantActionType "ApplyTargettedBuffToSelf"
 instantActionTriggerType "AlwaysPerform"
-buffType "Asuran_BuffCapital_MegaBeamCharge"
+buffType "Human_BuffTitan_LagrangianBeamCharge"
 targetFilter
 	numOwnerships 1
 	ownership "Enemy"
-	numObjects 4
+	numObjects 5
 	object "Titan"
 	object "CapitalShip"
+	object "Frigate"
 	object "PlanetModule"
 	object "StarBase"
 	numSpaces 1
 	space "Normal"
 	numConstraints 0
 range
-	Level:0 7000.000000
-	Level:1 10000.000000
-	Level:2 13000.000000
+	Level:0 8000.000000
+	Level:1 8000.000000
+	Level:2 8000.000000
 	Level:3 0.000000
 effectInfo
 	effectAttachInfo
@@ -31,19 +32,15 @@ canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 3
-levelSourceType "Intrinsic"
-minExperienceLevelRequired
-	Level:0 1.000000
-	Level:1 2.000000
-	Level:2 4.000000
-	Level:3 0.000000
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityCLevel"
 aiUseTime "OnlyWhenManyTargetsInRange"
 onlyAutoCastWhenTargetCountExceedsAmount
 	Level:0 1.000000
 	Level:1 1.000000
 	Level:2 1.000000
 	Level:3 1.000000
-aiUseTargetCondition "IsCapitalShipOrStarbaseOrTitan"
+aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
 isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
@@ -51,22 +48,25 @@ ignoreNonCombatShipsForAutoCastTarget FALSE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "AntiMatter"
 antiMatterCost
-	Level:0 650.000000
-	Level:1 700.000000
-	Level:2 1000.000000
+	Level:0 400.000000
+	Level:1 425.000000
+	Level:2 450.000000
 	Level:3 0.000000
 cooldownTime
-	Level:0 100.000000
-	Level:1 175.000000
-	Level:2 250.000000
+	Level:0 20.000000
+	Level:1 25.000000
+	Level:2 30.000000
 	Level:3 0.000000
 orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Human_Research_Ability_Lagrangian"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_ASURAN_ABILITYCAPITAL_MEGABEAM_NAME"
-descStringID "IDS_ASURAN_ABILITYCAPITAL_MEGABEAM_DESCRIPTION"
+nameStringID "IDS_HUMAN_ABILITYTITAN_LAGRANGIANBEAM_NAME"
+descStringID "IDS_HUMAN_ABILITYTITAN_LAGRANGIANBEAM_DESCRIPTION"
 hudIcon "HUDICON_ABILITY_LAGRANGIANBEAM"
 smallHudIcon "HUDICON_ABILITY_LAGRANGIANBEAM"
 infoCardIcon ""

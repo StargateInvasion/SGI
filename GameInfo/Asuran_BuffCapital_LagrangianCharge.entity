@@ -7,7 +7,7 @@ allowFirstSpawnerToStack FALSE
 buffExclusivityForAIType "ExclusiveForAllPlayers"
 isInterruptable TRUE
 isChannelling TRUE
-numInstantActions 3
+numInstantActions 5
 instantAction
 	buffInstantActionType "PlayAttachedEffect"
 	instantActionTriggerType "OnDelay"
@@ -24,7 +24,7 @@ instantAction
 	buffInstantActionType "ApplyTargettedBuffToSelfNoFilterNoRange"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "Human_BuffCapital_LagrangiaBeamActivated"
+	buffType "Asuran_BuffCapital_LagrangianActivated"
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"
@@ -36,7 +36,31 @@ instantAction
 	buffInstantActionType "ApplyTargettedBuffToSelfNoFilterNoRange"
 	instantActionTriggerType "OnDelay"
 	delayTime 0.000000
-	buffType "Human_BuffCapital_LagrangiaBeamActivatedA"
+	buffType "Asuran_BuffCapital_LagrangianActivatedA"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyTargettedBuffToSelfNoFilterNoRange"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "Asuran_BuffCapital_LagrangianActivatedB"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyTargettedBuffToSelfNoFilterNoRange"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "Asuran_BuffCapital_LagrangianActivatedC"
 	effectInfo
 		effectAttachInfo
 			attachType "Invalid"

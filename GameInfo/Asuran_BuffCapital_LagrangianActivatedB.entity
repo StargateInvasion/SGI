@@ -16,7 +16,7 @@ instantAction
 	weaponEffectOriginType "Targetter"
 	weaponEffectAttachInfo
 		attachType "Ability"
-		abilityIndex 3
+		abilityIndex 1
 	weaponEffectImpactOffsetType "RandomMesh"
 	canWeaponEffectHitHull TRUE
 	canWeaponEffectHitShields TRUE
@@ -25,12 +25,12 @@ instantAction
 		burstCount 1
 		burstDelay 0.000000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Lagrangia_Muzzle"
+		muzzleEffectName "Weapon_Lagrangian_Muzzle"
 		muzzleSoundMinRespawnTime 0.000000
 		muzzleSounds
 			soundCount 1
 			sound ""
-		hitEffectName "Weapon_Lagrangia_Hit"
+		hitEffectName "Weapon_Lagrangian_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound ""
@@ -40,8 +40,8 @@ instantAction
 		beamEffectSounds
 			soundCount 1
 			sound "WEAPON_PSICAPITALBEAMHEAVY_TRAVEL"
-		beamGlowTextureName "Lagrangia_Glow"
-		beamCoreTextureName "Lagrangia_Core"
+		beamGlowTextureName "Lagrangian_Glow"
+		beamCoreTextureName "Lagrangian_Core"
 		beamWidth 40.000000
 		beamGlowColor ffffffff
 		beamCoreColor ffffffff
