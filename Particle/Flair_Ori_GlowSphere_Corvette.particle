@@ -8,7 +8,7 @@ ParticleSimulation
 	EmitterContents
 		Name "Rays"
 		Enabled TRUE
-		EmitRate 100.000000
+		EmitRate 20.000000
 		HasInfiniteEmitCount TRUE
 		MaxEmitCount 0
 		hasEmitIntervals FALSE
@@ -23,8 +23,8 @@ ParticleSimulation
 		ParticleMaxStartRotation 0.349066
 		ParticleStartMass 1.000000
 		ParticleStartColor ffffffff
-		ParticleWidth 1.500000
-		ParticleHeight 300.000000
+		ParticleWidth 1.000000
+		ParticleHeight 40.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -51,12 +51,12 @@ ParticleSimulation
 		MeshParticleRotationAxisType 0
 		MeshParticleRotationAxis [ 0.000000 0.000000 0.000000 ]
 		RotationDirectionType 2
-		SphereRadiusXMax 1.000000
-		SphereRadiusXMin 1.000000
-		SphereRadiusYMax 1.000000
-		SphereRadiusYMin 1.000000
-		SphereRadiusZMax 1.000000
-		SphereRadiusZMin 1.000000
+		SphereRadiusXMax 0.010000
+		SphereRadiusXMin 0.010000
+		SphereRadiusYMax 0.010000
+		SphereRadiusYMin 0.010000
+		SphereRadiusZMax 0.010000
+		SphereRadiusZMin 0.010000
 		ParticleMaxStartSpeedAzimuthalTangential 0.000000
 		ParticleMaxStartSpeedPolarTangential 0.000000
 		ScaleStartSpeedsByRadius FALSE
@@ -83,8 +83,8 @@ ParticleSimulation
 		ParticleMaxStartRotation 0.349066
 		ParticleStartMass 1.000000
 		ParticleStartColor ffafeeee
-		ParticleWidth 80.000000
-		ParticleHeight 200.000000
+		ParticleWidth 1000.000000
+		ParticleHeight 2500.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -143,8 +143,8 @@ ParticleSimulation
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
 		ParticleStartColor ff87cefa
-		ParticleWidth 800.000000
-		ParticleHeight 800.000000
+		ParticleWidth 50.000000
+		ParticleHeight 50.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
