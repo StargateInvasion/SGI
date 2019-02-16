@@ -1,5 +1,5 @@
 TXT
-numEffects 412
+numEffects 418
 effect
     name "EFFECT_REPOSSESSION"
     fileName "Effect_Repossession.ogg"
@@ -855,6 +855,96 @@ effect
 	fadeInTime 0.0
 	fadeOutTime 0.0
 	alternateGroup ""	
+effect
+	name "WEAPON_GOAULDPLASMAHEAVY_MUZZLE"
+	fileName "Weapon_Goauld_Plasma_Heavy_Muzzle.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 25000.000000
+	minAttenuationDist 1000.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup "WEAPON_GOAULDPLASMAHEAVY_MUZZLE"
+effect
+	name "WEAPON_GOAULDPLASMAHEAVY_MUZZLE_ALT1"
+	fileName "Weapon_Goauld_Plasma_Heavy_Muzzle_alt1.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 25000.000000
+	minAttenuationDist 1000.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup "WEAPON_GOAULDPLASMAHEAVY_MUZZLE"
+effect
+	name "WEAPON_GOAULDPLASMAHEAVY_MUZZLE_ALT2"
+	fileName "Weapon_Goauld_Plasma_Heavy_Muzzle_alt2.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 25000.000000
+	minAttenuationDist 1000.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup "WEAPON_GOAULDPLASMAHEAVY_MUZZLE"
+effect
+	name "WEAPON_GOAULDPLASMASTAFF_MUZZLE"
+	fileName "Weapon_Goauld_Plasma_Staff_Muzzle.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 8000.000000
+	minAttenuationDist 250.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup "WEAPON_GOAULDPLASMASTAFF_MUZZLE"
+effect
+	name "WEAPON_GOAULDPLASMASTAFF_MUZZLE_ALT1"
+	fileName "Weapon_Goauld_Plasma_Staff_Muzzle_alt1.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 8000.000000
+	minAttenuationDist 250.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup "WEAPON_GOAULDPLASMASTAFF_MUZZLE"
+effect
+	name "WEAPON_GOAULDPLASMASTAFF_MUZZLE_ALT2"
+	fileName "Weapon_Goauld_Plasma_Staff_Muzzle_alt2.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 8000.000000
+	minAttenuationDist 250.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup "WEAPON_GOAULDPLASMASTAFF_MUZZLE"
 effect
 	name "WEAPON_PHASECAPITALWAVEMEDIUM_MUZZLE_ALT1"
 	fileName "Weapon_PhaseCapitalWaveMedium_Muzzle_Alt1.ogg"

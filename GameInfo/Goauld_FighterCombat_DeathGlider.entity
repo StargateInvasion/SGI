@@ -11,7 +11,7 @@ armorType "VeryLight"
 hudIcon "HUDICON_GOAULD_FIGHTERSQUAD_DEATHGLIDER"
 smallHudIcon "MAINVIEWICON_GOAULD_FIGHTERSQUAD_DEATHGLIDER"
 infoCardIcon "MAINVIEWICON_GOAULD_FIGHTERSQUAD_DEATHGLIDER"
-minZoomDistanceMult 9.000000
+minZoomDistanceMult 3.500000
 nameStringID "IDS_GOAULD_FIGHTERCOMBAT_DEATHGLIDER_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_FIGHTER_COMBAT"
 statCountType "FighterCombat"
@@ -32,7 +32,7 @@ Weapon
 		AttackType "ANTIVERYLIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
-		DamageType "PHYSICAL"
+		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
 	DamagePerBank:FRONT 20.000000
 	DamagePerBank:BACK 0.000000
@@ -48,31 +48,31 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 8
-		burstDelay 0.150000
+		burstCount 3
+		burstDelay 0.400000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
-		muzzleSoundMinRespawnTime 1.000000
+		muzzleEffectName "Weapon_GoauldPlasmaLight_Muzzle"
+		muzzleSoundMinRespawnTime 0.400000
 		muzzleSounds
 			soundCount 3
-			sound "WEAPON_TECHSUPPORTAUTOCANNONLIGHT_MUZZLE"
-			sound "WEAPON_TECHSUPPORTAUTOCANNONLIGHT_MUZZLE_ALT1"
-			sound "WEAPON_TECHSUPPORTAUTOCANNONLIGHT_MUZZLE_ALT2"
-		hitEffectName "Weapon_Tech_AutoCannonFighter_Hit"
+			sound "WEAPON_GOAULDPLASMASTAFF_MUZZLE"
+			sound "WEAPON_GOAULDPLASMASTAFF_MUZZLE_ALT1"
+			sound "WEAPON_GOAULDPLASMASTAFF_MUZZLE_ALT2"
+		hitEffectName "Weapon_GoauldPlasmaLight_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_PHYSICALLIGHT_HITHULL"
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
-		projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
+		projectileTravelEffectName "Weapon_GoauldPlasmaLight_Travel"
 Weapon
 	WeaponType "Projectile"
 	damageEnums
 		AttackType "ANTIVERYLIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
-		DamageType "PHYSICAL"
+		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
 	DamagePerBank:FRONT 20.000000
 	DamagePerBank:BACK 0.000000
@@ -88,24 +88,24 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 8
-		burstDelay 0.150000
+		burstCount 3
+		burstDelay 0.400000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
-		muzzleSoundMinRespawnTime 1.000000
+		muzzleEffectName "Weapon_GoauldPlasmaLight_Muzzle"
+		muzzleSoundMinRespawnTime 0.400000
 		muzzleSounds
 			soundCount 3
-			sound "WEAPON_TECHSUPPORTAUTOCANNONLIGHT_MUZZLE"
-			sound "WEAPON_TECHSUPPORTAUTOCANNONLIGHT_MUZZLE_ALT1"
-			sound "WEAPON_TECHSUPPORTAUTOCANNONLIGHT_MUZZLE_ALT2"
-		hitEffectName "Weapon_Tech_AutoCannonFighter_Hit"
+			sound "WEAPON_GOAULDPLASMASTAFF_MUZZLE"
+			sound "WEAPON_GOAULDPLASMASTAFF_MUZZLE_ALT1"
+			sound "WEAPON_GOAULDPLASMASTAFF_MUZZLE_ALT2"
+		hitEffectName "Weapon_GoauldPlasmaLight_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_PHYSICALLIGHT_HITHULL"
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
-		projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
+		projectileTravelEffectName "Weapon_GoauldPlasmaLight_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
