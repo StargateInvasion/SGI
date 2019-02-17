@@ -7,12 +7,12 @@ NameStringID "IDS_ASURAN_RESEARCH_TITANDEFENSE_ATLANTIS_NAME"
 DescriptionStringID "IDS_ASURAN_RESEARCH_TITANDEFENSE_ATLANTIS_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 7 , 1 ]
+	pos [ 7 , 2 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Asuran_Research_WeaponDamageDrones0"
+		Subject "Asuran_Research_WeaponIgnoreShieldsDrones2"
 		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

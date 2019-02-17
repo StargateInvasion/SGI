@@ -1,5 +1,5 @@
 ﻿TXT
-NumStrings 8020
+NumStrings 8022
 StringInfo
 	ID "IDS_GDPRDIALOG_CANCELBUTTON"
 	Value "Decline"
@@ -188,7 +188,7 @@ StringInfo
 	Value "Scrap For Parts"
 StringInfo
 	ID "IDS_ABILITY_MINORFACTIONSCRAPFRIGATES_DESCRIPTION"
-	Value "The Scrappers dismantle the targeted frigates and give you credits based on their fleet supply cost."
+	Value "The Scrappers dismantle the targeted frigates and give you a fraction of its build cost."
 StringInfo
 	ID "IDS_ABILITY_MINORFACTIONSELLCAPITALSHIPPHASESCOUT_NAME"
 	Value "Buy Antorak Marauder"
@@ -1980,6 +1980,12 @@ StringInfo
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_SALVAGEEFFICIENCY_DESCRIPTION"
 	Value "Using nanites to break down destroyed vessels to gain the raw materiels"
+StringInfo
+	ID "IDS_ASURAN_RESEARCH_SHAREDNETWORK_NAME"
+	Value "Shared Network"
+StringInfo
+	ID "IDS_ASURAN_RESEARCH_SHAREDNETWORK_DESCRIPTION"
+	Value "Allows your allies to utilize your stargate networks."
 StringInfo
 	ID "IDS_ASURAN_RESEARCH_SHIELDS0_NAME"
 	Value "Improve Energy Shields"
@@ -21245,7 +21251,7 @@ StringInfo
 	Value "*VALUE0*'s Relationship:"
 StringInfo
 	ID "IDSPlayerScreenInfoCardRelationshipWindowBonsuRelationshipStatusNumbers"
-	Value "*VALUE0* / *VALUE1*     *VALUE2"
+	Value "*VALUE0* / *VALUE1*     *VALUE2*"
 StringInfo
 	ID "IDSPlayerScreenInfoCardRejectMissionTitle"
 	Value "Reject Mission"
@@ -23951,7 +23957,7 @@ StringInfo
 	Value "Commodity Boom"
 StringInfo
 	ID "IDS_FRIGATE_TURRETCOMBAT_COUNTERDESC"
-	Value "Strong vs. none."
+	Value "Strong vs. light frigates."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_AUTOCANNON0_NAME"
 	Value "Ferro-Uranite Rounds"

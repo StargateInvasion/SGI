@@ -7,13 +7,13 @@ NameStringID "IDS_ASURAN_RESEARCH_TITANOFFENSE_EPHEUS_NAME"
 DescriptionStringID "IDS_ASURAN_RESEARCH_TITANOFFENSE_EPHEUS_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 7 , 2 ]
+	pos [ 7 , 1 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Asuran_Research_WeaponDamageDrones0"
-		Level 2
+		Subject "Asuran_Research_Ability_Lagrangian"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
