@@ -71,7 +71,7 @@ entities
 			entityDefName "Asuran_ModuleTradeShip_Aurum"
 			entityDefName "Asuran_ModuleRefineryShip_Servile"
 	researchInfo
-		count 147
+		count 152
 			entityDefName "Asuran_Research_Ability_ChargedMissiles"
 			entityDefName "Asuran_Research_Ability_Cloak"
 			entityDefName "Asuran_Research_Ability_CrippleAbilities"
@@ -119,6 +119,11 @@ entities
 			entityDefName "Asuran_Research_FrigateCorvette_Nemesis"
 			entityDefName "Asuran_Research_FrigateLongRange_Erinyes"
 			entityDefName "Asuran_Research_FrigateSiege_GateSatellite"
+			entityDefName "Asuran_Research_Hero_Koracen"
+			entityDefName "Asuran_Research_Hero_Niam"
+			entityDefName "Asuran_Research_Hero_Oberoth"
+			entityDefName "Asuran_Research_Hero_Talus"
+			entityDefName "Asuran_Research_Hero_Weir"
 			entityDefName "Asuran_Research_Hull0"
 			entityDefName "Asuran_Research_Hull1"
 			entityDefName "Asuran_Research_Hull2"
@@ -755,19 +760,19 @@ researchScreenData
 	Combat
 		blockCount 3
 		block
-			area [ 50 , 69 , 690 , 193 ]
+			area [ 50 , 49 , 690 , 193 ]
 			backdrop "ResearchScreenBlockBackdropCombat0Phase"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat0Phase"
 			title "IDSResearchScreenBlockTitleCombat0Phase"
 			picture "ResearchScreenBlockPictureCombat0Phase"
 		block
-			area [ 50 , 272 , 690 , 191 ]
+			area [ 50 , 252 , 690 , 236 ]
 			backdrop "ResearchScreenBlockBackdropCombat1Phase"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Phase"
 			title "IDSResearchScreenBlockTitleCombat1Phase"
 			picture "ResearchScreenBlockPictureCombat1Phase"
 		block
-			area [ 50 , 473 , 690 , 192 ]
+			area [ 50 , 498 , 690 , 192 ]
 			backdrop "ResearchScreenBlockBackdropCombat2Phase"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat2Phase"
 			title "IDSResearchScreenBlockTitleCombat2Phase"

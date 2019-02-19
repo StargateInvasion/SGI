@@ -1,0 +1,43 @@
+﻿TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "Asuran_BuffCapital_SuppressionTarget"
+		mediumEffectName "Asuran_BuffCapital_SuppressionTarget"
+		largeEffectName "Asuran_BuffCapital_SuppressionTarget"
+		soundID ""
+instantAction
+	buffInstantActionType "DoInterrupt"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 3
+entityBoolModifier "DisableWeapons"
+entityBoolModifier "DisableAbilities"
+entityBoolModifier "DisableConstruction"
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 90.000000
+		Level:1 90.000000
+		Level:2 90.000000
+		Level:3 90.000000
+finishCondition
+	finishConditionType "OwnerChanged"

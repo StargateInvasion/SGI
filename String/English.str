@@ -1,5 +1,5 @@
 ﻿TXT
-NumStrings 8022
+NumStrings 8046
 StringInfo
 	ID "IDS_GDPRDIALOG_CANCELBUTTON"
 	Value "Decline"
@@ -655,6 +655,12 @@ StringInfo
 	ID "IDS_ASURAN_ABILITYCAPITAL_SUBVERSION_DESCRIPTION"
 	Value "Sends an espionage team to the planet's surface to perform reconnaissance and tamper with construction."
 StringInfo
+	ID "IDS_ASURAN_ABILITYCAPITAL_SUPPRESSION_NAME"
+	Value "Ghost In The Machine"
+StringInfo
+	ID "IDS_ASURAN_ABILITYCAPITAL_SUPPRESSION_DESCRIPTION"
+	Value "Weir extends her consciousness as a field of energy into subspace, allowing her mind to overpower the crew and systems of the target ship, preventing them from moving, attacking, or using abilities."
+StringInfo
 	ID "IDS_ASURAN_ABILITYCRUISER_CITYZPMACTIVE_NAME"
 	Value "ZPM Surge Active"
 StringInfo
@@ -889,6 +895,36 @@ StringInfo
 	ID "IDS_ASURAN_ABILITYORBITAL_FLEETBEACON_DESCRIPTION"
 	Value "A beacon requesting backup from nearby Asuran fleets."
 StringInfo
+	ID "IDS_ASURAN_ABILITYORBITAL_HERONIAM_NAME"
+	Value "Niam"
+StringInfo
+	ID "IDS_ASURAN_ABILITYORBITAL_HERONIAM_DESCRIPTION"
+	Value "Transmit a request for Niam to return to the Asuran High Council"
+StringInfo
+	ID "IDS_ASURAN_ABILITYORBITAL_HEROWEIR_NAME"
+	Value "Weir"
+StringInfo
+	ID "IDS_ASURAN_ABILITYORBITAL_HEROWEIR_DESCRIPTION"
+	Value "Transmit a request for Weir to return to the Asuran High Council"
+StringInfo
+	ID "IDS_ASURAN_ABILITYORBITAL_HEROOBEROTH_NAME"
+	Value "Oberoth"
+StringInfo
+	ID "IDS_ASURAN_ABILITYORBITAL_HEROOBEROTH_DESCRIPTION"
+	Value "Transmit a request for Oberoth to return to the Asuran High Council"
+StringInfo
+	ID "IDS_ASURAN_ABILITYORBITAL_HEROTALUS_NAME"
+	Value "Talus"
+StringInfo
+	ID "IDS_ASURAN_ABILITYORBITAL_HEROTALUS_DESCRIPTION"
+	Value "Transmit a request for Talus to return to the Asuran High Council"
+StringInfo
+	ID "IDS_ASURAN_ABILITYORBITAL_HEROKORACEN_NAME"
+	Value "Koracen"
+StringInfo
+	ID "IDS_ASURAN_ABILITYORBITAL_HEROKORACEN_DESCRIPTION"
+	Value "Transmit a request for Koracen to return to the Asuran High Council"
+StringInfo
 	ID "IDS_ASURAN_ABILITYORBITAL_HYPERSPACEDISRUPTION_NAME"
 	Value "Hyperspace Disruption"
 StringInfo
@@ -1075,6 +1111,36 @@ StringInfo
 	ID "IDS_ASURAN_CAPITALFLAGSHIP_AURORA_DESCRIPTION"
 	Value "A heavily armed and armored warship, it lead the Ancient armada into battle in the past but now serves the Asurans."
 StringInfo
+	ID "IDS_ASURAN_CAPITALHERO_NIAM_NAME"
+	Value "Niam"
+StringInfo
+	ID "IDS_ASURAN_CAPITALHERO_NIAM_DESCRIPTION"
+	Value "I wish it were not so, but we attack as a result of our programming."
+StringInfo
+	ID "IDS_ASURAN_CAPITALHERO_TALUS_NAME"
+	Value "Talus"
+StringInfo
+	ID "IDS_ASURAN_CAPITALHERO_TALUS_DESCRIPTION"
+	Value "I will lead this Asuran force as when I destroyed the Lanteans of Atlantis."
+StringInfo
+	ID "IDS_ASURAN_CAPITALHERO_OBEROTH_NAME"
+	Value "Oberoth"
+StringInfo
+	ID "IDS_ASURAN_CAPITALHERO_OBEROTH_DESCRIPTION"
+	Value "We will eliminate our foes at a time of our choosing."
+StringInfo
+	ID "IDS_ASURAN_CAPITALHERO_KORACEN_NAME"
+	Value "Koracen"
+StringInfo
+	ID "IDS_ASURAN_CAPITALHERO_KORACEN_DESCRIPTION"
+	Value "The Asurans will achive digital ascension and the galaxy will be ours."
+StringInfo
+	ID "IDS_ASURAN_CAPITALHERO_WEIR_NAME"
+	Value "Nanite Elizebth Weir"
+StringInfo
+	ID "IDS_ASURAN_CAPITALHERO_WEIR_DESCRIPTION"
+	Value "Created by a faction of the Replicators as a means to attaining ascension."
+StringInfo
 	ID "IDS_ASURAN_CAPITALSIEGE_ANTEUS_NAME"
 	Value "Anteus Besieger Class"
 StringInfo
@@ -1250,7 +1316,7 @@ StringInfo
 	Value "The orbital hangar defense is an allround defensive structure that is protected by a shield. It is armed with drones as well as fielding squadrons of fighters and bombers."
 StringInfo
 	ID "IDS_ASURAN_ORBITAL_HEADQUARTERS_NAME"
-	Value "HQ"
+	Value "Asuran High Council"
 StringInfo
 	ID "IDS_ASURAN_ORBITAL_HEADQUARTERS_DESCRIPTION"
 	Value "Orbital home of the Asuran Fleet Command used to organise and coordinate all Asuran fleet actions."
@@ -23958,6 +24024,12 @@ StringInfo
 StringInfo
 	ID "IDS_FRIGATE_TURRETCOMBAT_COUNTERDESC"
 	Value "Strong vs. light frigates."
+StringInfo
+	ID "IDS_REPLICATOR_FRIGATESCOUT_NAME"
+	Value "Replicator Scout"
+StringInfo
+	ID "IDS_REPLICATOR_FRIGATESCOUT_DESCRIPTION"
+	Value "A light replicator raider ship, no trade ship is safe!"
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_WEAPONDAMAGE_AUTOCANNON0_NAME"
 	Value "Ferro-Uranite Rounds"

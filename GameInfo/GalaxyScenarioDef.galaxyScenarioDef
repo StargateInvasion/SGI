@@ -841,7 +841,7 @@ orbitBodyType
 	typeName "Occupied"
 	entityDefName "OccupiedPlanet"
 	defaultTemplateName "Template:OccupiedPlanet"
-planetItemTypeCount 246
+planetItemTypeCount 247
 planetItemType
 	designName "Asuran:Orbital:MineExplosive"
 	entityDefName "Asuran_DeepSpaceMine"
@@ -866,6 +866,9 @@ planetItemType
 planetItemType
 	designName "Asuran:Orbital:HangarDefense"
 	entityDefName "Asuran_Orbital_HangarDefense"
+planetItemType
+	designName "Asuran:Orbital:HeadQuarters"
+	entityDefName "Asuran_Orbital_HeadQuarters"
 planetItemType
 	designName "Asuran:Orbital:MetalExtractor"
 	entityDefName "Asuran_Orbital_TriniumExtractor"
@@ -1688,7 +1691,8 @@ planetItemsTemplate
 				param "Asuran"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 21
+			items 22
+				item "Asuran:Orbital:HeadQuarters"
 				item "Asuran:Orbital:CapitalShipFactory"
 				item "Asuran:Orbital:FrigateFactory"
 				item "Asuran:Orbital:FrigateFactory"
@@ -1716,7 +1720,8 @@ planetItemsTemplate
 				param "Asuran"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 33
+			items 34
+				item "Asuran:Orbital:HeadQuarters"
 				item "Asuran:Orbital:CapitalShipFactory"
 				item "Asuran:Orbital:FrigateFactory"
 				item "Asuran:Orbital:FrigateFactory"
