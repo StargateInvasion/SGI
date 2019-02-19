@@ -1,9 +1,9 @@
 ﻿TXT
-entityType "Titan"
-ability:0 "Asuran_AbilityTitan_DroneFrenzy"
-ability:1 "Asuran_AbilityTitan_SpawnAntiFighter"
-ability:2 "Asuran_AbilityTitan_Zpm"
-ability:3 "Asuran_AbilityCapital_Oberoth"
+entityType "CapitalShip"
+ability:0 "Asuran_AbilityCapital_Oberoth"
+ability:1 "Asuran_AbilityCapital_DroneFrenzy"
+ability:2 "Asuran_AbilityTitan_SpawnAntiFighter"
+ability:3 "Asuran_AbilityTitan_Zpm"
 ability:4 "Asuran_AbilityTitanDefense_Atlantis_Upkeep"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -24,7 +24,7 @@ bombEffectsDef
 	burstCount 1
 	burstDelay 0.000000
 	fireDelay 0.000000
-	muzzleEffectName "Weapon_PhaseCapitalPlanetBombing_Muzzle"
+	muzzleEffectName "Weapon_Human_Orbital_Lagrangian_Muzzle"
 	muzzleSoundMinRespawnTime 0.100000
 	muzzleSounds
 		soundCount 1
@@ -89,15 +89,8 @@ Prerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-statCountType "Titan"
-UpgradeTypeCount 7
-UpgradeType "Asuran_TitanUpgrade_Atlantis_AbilityA"
-UpgradeType "Asuran_TitanUpgrade_Atlantis_AbilityB"
-UpgradeType "Asuran_TitanUpgrade_Atlantis_AbilityC"
-UpgradeType "Asuran_TitanUpgrade_Atlantis_AbilityD"
-UpgradeType "Asuran_TitanUpgrade_Atlantis_Durability"
-UpgradeType "Asuran_TitanUpgrade_Atlantis_Weapons"
-UpgradeType "Asuran_TitanUpgrade_Atlantis_Abilities"
+roleType "Invalid"
+statCountType "CapitalShipBattleship"
 numRandomDebrisLarge 80
 numRandomDebrisSmall 30
 numSpecificDebris 1
@@ -106,10 +99,10 @@ armorType "Titan"
 hudIcon "HUDICON_ASURAN_TITANDEFENSE_ATLANTIS"
 smallHudIcon "HUDICONSMALL_ASURAN_TITANDEFENSE_ATLANTIS"
 infoCardIcon "MAINVIEWICON_ASURAN_TITANDEFENSE_ATLANTIS"
-minZoomDistanceMult 2.000000
+minZoomDistanceMult 1.850000
 NumWeapons 2
 Weapon
-	WeaponType "Missile"
+WeaponType "Missile"
 	damageEnums
 		AttackType "CAPITALSHIP"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
