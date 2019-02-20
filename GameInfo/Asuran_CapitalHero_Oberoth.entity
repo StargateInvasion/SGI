@@ -1,10 +1,10 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "Asuran_AbilityCapital_Oberoth"
+ability:0 "Asuran_AbilityCapital_DroneFrenzy"
 ability:1 "Asuran_AbilityCapital_DroneFrenzy"
-ability:2 "Asuran_AbilityTitan_SpawnAntiFighter"
-ability:3 "Asuran_AbilityTitan_Zpm"
-ability:4 "Asuran_AbilityTitanDefense_Atlantis_Upkeep"
+ability:2 "Asuran_AbilityCapital_Zpm"
+ability:3 "Asuran_AbilityCapital_Oberoth"
+ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
@@ -102,7 +102,7 @@ infoCardIcon "MAINVIEWICON_ASURAN_TITANDEFENSE_ATLANTIS"
 minZoomDistanceMult 1.850000
 NumWeapons 2
 Weapon
-WeaponType "Missile"
+	WeaponType "Missile"
 	damageEnums
 		AttackType "CAPITALSHIP"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
