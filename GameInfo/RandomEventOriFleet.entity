@@ -16,16 +16,16 @@ instantAction
 	spawnShipsLevelCount 1
 	spawnShips
 		minFleetPoints 200.000000
-		maxFleetPoints 450.000000
+		maxFleetPoints 750.000000
 		requiredShipCount 2
 		requiredShip
 			type "Ori_CruiserMothership_Deliverance"
 			minCount 1
-			maxCount 2
+			maxCount 4
 		requiredShip
 			type "Ori_FrigateCorvette_Interceptor"
 			minCount 5
-			maxCount 15
+			maxCount 35
 		randomShipCount 0
 	spawnShipsArrivalDelayTime 7.000000
 	spawnShipsHyperspaceSpawnType "FleetBeacon"
