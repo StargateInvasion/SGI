@@ -1,4 +1,4 @@
-#define PBR
+#define PBR 
 
 float4x4 g_World : World;
 float4x4 g_WorldViewProjection : WorldViewProjection;
@@ -63,13 +63,13 @@ float4 GetPixelColor( float2 iTexCoord )
 
 	//Self Illumination
 	float selfIlluminationScalar = dataSample.g;
-	
+
+#ifdef PBR	
 	//Bloom
-	#ifdef PBR
-		float bloomScalar = dataSample.b;
-	#else
-		float bloomScalar = dataSample.a;
-	#endif
+	float bloomScalar = dataSample.b;
+#else
+	float bloomScalar = dataSample.a;
+#endif
 	float4 oColor = colorSample * colorMultiplier * bloomScalar;
 	return oColor;
 }

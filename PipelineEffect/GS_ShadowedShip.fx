@@ -43,13 +43,13 @@
 // debug
 //#define NORMALMAP 		// Shows the normal map in normal space (-1 to 1 range)
 //#define NORMALVERTEX 		// Shows the vertex normals in world space, good for debugging where to apply smoothing groups/hard edges!
-//#define NORMALMAPPED			// Shows the normal mapped normals in world space - good for debugging if your X or Y normal map channel is flipped
+//#define NORMALMAPPED		// Shows the normal mapped normals in world space - good for debugging if your X or Y normal map channel is flipped
 //#define BASECOLOR			// Shows the pure basecolor with too low PBR vaules as RED and too high as GREEN
 //#define METALLIC			// Shows the pure metallic
 //#define DIFFUSECOLOR		// Shows the color that the diffuse lighting will use after metallic split. Note metal is very dark here!
 //#define SPECULARCOLOR		// Shows the color that the specular lighting will use after metallic split. Note non metal is dark here!
 //#define ROUGHNESS			// Shows the roughness
-//#define AODIFFUSE				// Shows the AO used for diffuse light
+//#define AODIFFUSE			// Shows the AO used for diffuse light
 //#define AOSPECULAR		// Shows the AO used for specular light, note that it simulates micro shadows of roughness.
 //#define PUREREFLECTION	// Shows the PURE ambient reflection - good for debugging environment map direction
 //#define REFLECTION		// Shows the roughness blurred ambient reflection with roughness base specular occlusions - good for roughness tweaking
@@ -464,9 +464,9 @@ float4 RenderScenePS(VsOutput input) : COLOR0
 		PBRProperties Output;
 		Output.SpecularColor 		= max((float3)0.04, dataSample.r * colorSample.rgb);
 		Output.DiffuseColor 		= saturate(colorSample.rgb  - Output.SpecularColor);
-		Output.EmissiveColor 		= colorSample * dataSample.g;
+		Output.EmissiveColor 		= float4(Square(colorSample.rgb) * 8.0, colorSample.a) * ToLinear(dataSample.g);
 		Output.Roughness 			= max(0.02, dataSample.w);
-		Output.RoughnessMip 		= dataSample.w * 6.0;
+		Output.RoughnessMip 		= dataSample.w * 8.0;
 		Output.AO 					= normalSample.b;
 		return Output;
 	}
@@ -652,7 +652,6 @@ float4 RenderScenePS(VsOutput input) : COLOR0
 		AmbientReflection 			= lerp(texCUBElod(Cubemap, float4(Vector.x, VectorWrap.y, Vector.z, RoughnessMip)).rgb, AmbientReflection, CubeGradients.x);
 		AmbientReflection 			= lerp(AmbientReflection, texCUBElod(Cubemap, float4(Vector.x, Vector.y, VectorWrap.z, RoughnessMip)).rgb, CubeGradients.y);
 		return AmbientReflection;
-
 	}	
 	
 float4 GetFinalPixelColorPBR(float2 texCoord, float3 pos, float3 normal, float3 shadowUV[ShadowMapCount])
@@ -736,7 +735,7 @@ float4 GetFinalPixelColorPBR(float2 texCoord, float3 pos, float3 normal, float3 
 	#ifdef REFLECTION
 		return 					LinearToSRGB(float4(ReflectionSample, 0.0));
 	#endif
-	
+	//ReflectionSample * 
 	specular 					+= ReflectionSample * AmbientBRDF(saturate(abs(dot(view, normal))), Properties);
 
 //	float3 DiffuseDirection 	= GetDiffuseDominantDir(normal, view, NoV, Properties);

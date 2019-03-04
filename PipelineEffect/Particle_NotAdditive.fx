@@ -1,7 +1,14 @@
+#define COLORPRESERVE
 shared float4x4	g_ViewProjection		: ViewProjection;
 
 texture g_TextureDiffuse0 : Diffuse;
 float colorMultiplier = 1.f;
+
+// removes any above 1 values to reduce white bloom
+float3 preserveColor(float3 col)
+{
+	return 1.0 - (1.0 / (1 + pow(col, 2.2)));
+}
 
 void RenderSceneVS(
 	float3 iPosition : POSITION, 
@@ -12,7 +19,11 @@ void RenderSceneVS(
     out float2 oTexCoord0 : TEXCOORD0)
 {
     oPosition = mul(float4(iPosition, 1), g_ViewProjection);
-    oColor0	= float4(iColor0.rgb * colorMultiplier, iColor0.a);    
+	#ifdef COLORPRESERVE
+		oColor0	= float4(preserveColor(iColor0.rgb * colorMultiplier), iColor0.a);    
+	#else
+	    oColor0	= float4(iColor0.rgb * colorMultiplier, iColor0.a);   
+	#endif
     oTexCoord0 = iTexCoord0;     
 }
 
