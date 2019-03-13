@@ -44,7 +44,7 @@ float Square(float x)
 	return x * x;
 }
 //regularBloom
-static const float mainBloomBoost = 1.0;
+static const float mainBloomBoost = 0.65;
 
 //specularBloom, note this is a rather expensive extra bloom for spcular light direct emissive backdrop stars and other minor details missed by main bloom
 static const float bloomScale = 1.0; // scale of bloom! 0-1 range
@@ -108,11 +108,11 @@ float luminance(float3 color)
 
 float3 Tonemap_Lottes(float3 x) {
     // Lottes 2016, "Advanced Techniques and Optimization of HDR Color Pipelines"
-    const float a = 1.6;
+    const float a = 1.25;	//Was 1.6
     const float d = 0.977;
     const float hdrMax = 16.0;
     const float midIn = 0.0625; // 1/16
-    const float midOut = 0.267;
+    const float midOut = 0.1;	//Was 0.267, then 0.1
 
     // Can be precomputed
     const float b =

@@ -55,6 +55,7 @@
 //#define REFLECTION		// Shows the roughness blurred ambient reflection with roughness base specular occlusions - good for roughness tweaking
 //#define PURERADIANCE		// Shows the ambient diffuse - good for debugging radiance map direction
 //#define RADIANCE			// Shows the ambient diffuse combined
+//#define SHOWSUBSURFACE	// Shows the pure combined ambient and direct lighting subsurface scattering
 
 float4x4 g_World : World;
 float4x4 g_WorldViewProjection : WorldViewProjection;
@@ -390,7 +391,7 @@ float4 RenderScenePS(VsOutput input) : COLOR0
 { 
 	return GetFinalPixelColor(input.TexCoord, input.LightTangent, input.ViewTangent, input.ShadowUV);
 }
-
+/////////////////////////////////////////////////PBR////////////////////////////////
 	// If we want to do image based PBR lighting, we need to work in world space
 	// Note we will skip tangent binormals and instead do per pixel cotangent derivative mapping, which allows the modders a lot more freedom in uv mapping
 	struct VsOutputWS
@@ -457,6 +458,7 @@ float4 RenderScenePS(VsOutput input) : COLOR0
 		float Roughness;
 		float RoughnessMip;
 		float AO;
+		float SubsurfaceOpacity;
 	};
 
 	PBRProperties UnpackProperties(float4 colorSample, float4 dataSample, float4 normalSample)
@@ -468,6 +470,7 @@ float4 RenderScenePS(VsOutput input) : COLOR0
 		Output.Roughness 			= max(0.02, dataSample.w);
 		Output.RoughnessMip 		= dataSample.w * 8.0;
 		Output.AO 					= normalSample.b;
+		Output.SubsurfaceOpacity	= normalSample.r;
 		return Output;
 	}
 	
@@ -641,8 +644,8 @@ float4 RenderScenePS(VsOutput input) : COLOR0
 		const float fFadeParam = 1.1;
 		return saturate(1 + fFadeParam * dot(vR, vertNormalNormalized));
 	}
-
-	// fixes the DX9 hard cubemap edges and roughness blurs.
+	//NOT worth it
+	// fixes the DX9 hard cubemap edges.
 	float3 GetFixedCubemapSample(samplerCUBE Cubemap, float3 Vector, float RoughnessMip)
 	{
 		float3 VectorWrap			= Vector * (3.0 - sqrt(abs(Vector)) * 2.0);
@@ -652,7 +655,7 @@ float4 RenderScenePS(VsOutput input) : COLOR0
 		AmbientReflection 			= lerp(texCUBElod(Cubemap, float4(Vector.x, VectorWrap.y, Vector.z, RoughnessMip)).rgb, AmbientReflection, CubeGradients.x);
 		AmbientReflection 			= lerp(AmbientReflection, texCUBElod(Cubemap, float4(Vector.x, Vector.y, VectorWrap.z, RoughnessMip)).rgb, CubeGradients.y);
 		return AmbientReflection;
-	}	
+	}
 	
 float4 GetFinalPixelColorPBR(float2 texCoord, float3 pos, float3 normal, float3 shadowUV[ShadowMapCount])
 {   
@@ -746,12 +749,32 @@ float4 GetFinalPixelColorPBR(float2 texCoord, float3 pos, float3 normal, float3 
 	#endif
 	
 	diffuse 					+= Properties.DiffuseColor * DiffuseSample;
-
+	
 	#ifdef RADIANCE
 		return 					LinearToSRGB(float4(diffuse, 0.0));
 	#endif
 	
-	float shadowScalar 			= GetShadowScalar(shadowUV, light, normal) * saturate(dot(normal, light));
+	float3 subsurfaceScatter 	= 0.0;
+	
+	float shadowScalar 			= dot(normal, light);
+	if(Properties.SubsurfaceOpacity > 0)
+	{
+		float3 subsurfaceColor 		= Square(SRGBToLinear(tex2Dbias(TextureColorSampler, float4(texCoord, 0.0, 2.0)).rgb));	
+		float InScatter				= pow(saturate(dot(light, -view)), 12) * lerp(3, .1f, Properties.SubsurfaceOpacity);
+		float NormalContribution	= saturate(dot(normal, normalize(view + light)) * Properties.SubsurfaceOpacity + 1.0 - Properties.SubsurfaceOpacity);
+		float BackScatter		 	= Properties.AO * NormalContribution * 0.1591549431;
+		subsurfaceScatter 			= lerp(BackScatter, 1, InScatter) * subsurfaceColor * saturate(shadowScalar + Properties.SubsurfaceOpacity);
+		
+		InScatter					= pow(NoV, 12) * lerp(3, .1f, Properties.SubsurfaceOpacity);
+		NormalContribution			= saturate(dot(normal, reflection) * Properties.SubsurfaceOpacity + 1.0 - Properties.SubsurfaceOpacity);
+		BackScatter		 			= Properties.AO * NormalContribution * 0.1591549431;
+		subsurfaceScatter	 		+= subsurfaceColor * lerp(BackScatter, 1, InScatter) * SRGBToLinear(texCUBE(EnvironmentIlluminationCubeSampler, -normal)).rgb;
+		
+	}
+	#ifdef SHOWSUBSURFACE
+		return LinearToSRGB(float4(subsurfaceScatter, 1.0));
+	#endif
+	shadowScalar 				= GetShadowScalar(shadowUV, light, normal) * saturate(shadowScalar);
 	
 	if(shadowScalar > 0.0)
 	{
@@ -762,7 +785,8 @@ float4 GetFinalPixelColorPBR(float2 texCoord, float3 pos, float3 normal, float3 
 		
 	}
 	
-	finalColor.rgb 				+= (diffuse * Properties.AO + specular * SpecularAO);
+	
+	finalColor.rgb 				+= (diffuse * Properties.AO * (1.0 - Properties.SubsurfaceOpacity) + specular * SpecularAO) + subsurfaceScatter;
 
 	return LinearToSRGB(finalColor);
 }
