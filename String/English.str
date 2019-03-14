@@ -1,5 +1,5 @@
 ﻿TXT
-NumStrings 8046
+NumStrings 8044
 StringInfo
 	ID "IDS_GDPRDIALOG_CANCELBUTTON"
 	Value "Decline"
@@ -8897,13 +8897,10 @@ StringInfo
 	Value "Planet bombing absorption"
 StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_ENERGYWEAPONCOOLDOWN"
-	Value "Energy Weapon Cooldown"
+	Value "Energy weapon cooldown"
 StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_WEAPONCOOLDOWN"
 	Value "Weapon cooldown"
-StringInfo
-	ID "IDS_INFOCARD_BUFFADJUSTMENT_WEAPONRANGE"
-	Value "Weapon range"
 StringInfo
 	ID "IDS_INFOCARD_BUFFADJUSTMENT_PLANETBOMBINGDAMAGE"
 	Value "Bombardment damage output"
@@ -9123,6 +9120,9 @@ StringInfo
 StringInfo
 	ID "IDS_INFOCARD_BUFFVALUE_CRYSTALEARNED"
 	Value "Crystal earned"
+StringInfo
+	ID "IDS_INFOCARD_BUFFVALUE_SCUTTLEREFUNDPERCENTAGE"
+	Value "Salvage value"
 StringInfo
 	ID "IDS_INFOCARD_BUFFVALUE_RELATIONSHIPINCREASE"
 	Value "Relationship increase"
@@ -10842,9 +10842,6 @@ StringInfo
 StringInfo
 	ID "IDS_GAMEMESSAGE_QUESTADDED"
 	Value "%s has a mission for you."
-StringInfo
-	ID "IDS_GAMEMESSAGE_QUESTCOMPLETED"
-	Value "You have completed the %s mission from %s."
 StringInfo
 	ID "IDS_GAMEMESSAGE_QUESTFAILED"
 	Value "You have failed the %s mission from %s."
@@ -13797,9 +13794,6 @@ StringInfo
 StringInfo
 	ID "IDS_UIMAPPINGNAME_PLANETCANCELUPGRADEPOPULATION"
 	Value "Cancel Upgrade Population"
-StringInfo
-	ID "IDS_UIMAPPINGNAME_PLANETCANCELUPGRADEINFRASTRUCTURE"
-	Value "Cancel Upgrade Infrastructure"
 StringInfo
 	ID "IDS_UIMAPPINGNAME_PLANETCANCELUPGRADECIVILIANMODULE"
 	Value "Cancel Upgrade Logistics Capacity"

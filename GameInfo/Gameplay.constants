@@ -1,5 +1,5 @@
 TXT2
-SinsArchiveVersion 193
+SinsArchiveVersion 194
 GameplayConstants
 	pingTime 10
 	zoomDistanceLevel0ScalarForPlanets 1.5
@@ -1199,3 +1199,26 @@ GameplayConstants
 				ability:2 "AbilityMinorFactionTradeCreditsForMetal"
 				ability:3 ""
 				ability:4 ""
+	miscEntityDefNames
+		weaponDefName = "Weapon"
+		debrisDefName = "Debris"
+		missionAttackPlanetDefName = "MissionAttackPlanet"
+		missionCaptureResourcesDefName = "MissionCaptureResources"
+		missionCaptureMinorFactionDefName = "MissionCaptureMinorFaction"
+		missionColonizeDefName = "MissionColonize"
+		missionDefendFlagshipDefName = "MissionDefendFlagship"
+		missionBuildStarBaseDefName = "MissionBuildStarBase"
+		missionBuildMinesDefName = "MissionBuildMines"
+		missionFosterRelationshipsDefName = "MissionFosterRelationships"
+		missionExploreDefName = "MissionExplore"
+		missionRaidDefName = "MissionRaid"
+		empireWindowNodeDefName = "EmpireWindowNode"
+		resourceAsteroidMetalDefName = "ResourceAsteroidMetal"
+		resourceAsteroidCrystalDefName = "ResourceAsteroidCrystal"
+		neutralMetalExtractorDefName = "PLANETMODULE_TECHORBITALMETALEXTRACTOR"
+		neutralCrystalExtractorDefName = "PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR"
+		neutralCaptureBuffDefName = "BuffNeutralCapturableEntity"
+		fleetDefName = "Fleet"
+		formationDefName = "Formation"
+		spacePonyBonusDefName = "PlanetBonusSpacePony"
+		decloakMineForMovementBuffDefName = "BuffDecloakMineForMovement"
