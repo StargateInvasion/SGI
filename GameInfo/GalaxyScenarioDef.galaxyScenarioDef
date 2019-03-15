@@ -841,7 +841,7 @@ orbitBodyType
 	typeName "Occupied"
 	entityDefName "OccupiedPlanet"
 	defaultTemplateName "Template:OccupiedPlanet"
-planetItemTypeCount 247
+planetItemTypeCount 244
 planetItemType
 	designName "Asuran:Orbital:MineExplosive"
 	entityDefName "Asuran_DeepSpaceMine"
@@ -1278,9 +1278,6 @@ planetItemType
 	designName "Goauld:Titan:Offense"
 	entityDefName "Goauld_TitanOffense_Anubis"
 planetItemType
-	designName "Goauld:Frigate:Corvette"
-	entityDefName "Goauld_FrigateCorvette_Horus"
-planetItemType
 	designName "Pirate:Module:GaussDefense"
 	entityDefName "Human_Orbital_WeaponsPlatform"
 planetItemType
@@ -1361,12 +1358,6 @@ planetItemType
 planetItemType
 	designName "Bonus:FW:ChaoticSociety"
 	entityDefName "PlanetBonusChaoticSociety"
-planetItemType
-	designName "Bonus:ConductiveInterior"
-	entityDefName "PlanetBonusConductiveInterior"
-planetItemType
-	designName "Bonus:CrystalMiners"
-	entityDefName "PlanetBonusCrystalMiners"
 planetItemType
 	designName "Bonus:FW:DeathWorld"
 	entityDefName "PlanetBonusDeathWorld"
@@ -3478,9 +3469,9 @@ player
 	startingMetal 0
 	startingCrystal 0
 	playerType "NPCMadVasari"
-	themeGroup "Asuran"
+	themeGroup "PlayerAsuran"
 	themeIndex 15
-	pictureGroup "Asuran"
+	pictureGroup "PlayerAsuran"
 	pictureIndex 15
 player
 	designName "Militia0"
