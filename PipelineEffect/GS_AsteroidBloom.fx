@@ -52,19 +52,19 @@ RenderSceneVS(
 float4 GetPixelColor( float2 iTexCoord )
 {
 	float4 colorSample = tex2D(TextureColorSampler, iTexCoord); 
-    float4 dataSample = tex2D(TextureDataSampler, iTexCoord);
-    
-    //Team Color
-    float4 teamColorScalar = (dataSample.r * g_TeamColor.a); 
-	colorSample *= (1.f - teamColorScalar);
-	colorSample += (g_TeamColor * teamColorScalar);
-
-	//Self Illumination
-	float selfIlluminationScalar = dataSample.g;
-	
-	//Bloom
-	float bloomScalar = dataSample.a;
-	float4 oColor = colorSample * colorMultiplier * bloomScalar;
+	float4 dataSample = tex2D(TextureDataSampler, iTexCoord);
+//   
+//   //Team Color
+//   float4 teamColorScalar = (dataSample.r * g_TeamColor.a); 
+//	colorSample *= (1.f - teamColorScalar);
+//	colorSample += (g_TeamColor * teamColorScalar);
+//
+//	//Self Illumination
+//	float selfIlluminationScalar = dataSample.g;
+//	
+//	//Bloom
+//	float bloomScalar = dataSample.a;
+	float4 oColor = float4(1.0 - rcp(1.0 + colorSample.rgb * dataSample.b * 2.0), 1.0);// * colorMultiplier * bloomScalar;
 	return oColor;
 }
 

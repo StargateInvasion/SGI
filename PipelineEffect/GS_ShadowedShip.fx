@@ -786,7 +786,9 @@ float4 GetFinalPixelColorPBR(float2 texCoord, float3 pos, float3 normal, float3 
 	}
 	
 	
-	finalColor.rgb 				+= (diffuse * Properties.AO * (1.0 - Properties.SubsurfaceOpacity) + specular * SpecularAO) + subsurfaceScatter;
+	//finalColor.rgb 				+= (diffuse * Properties.AO * (1.0 - Properties.SubsurfaceOpacity) + specular * SpecularAO) + subsurfaceScatter;
+	//finalColor.rgb                 += (diffuse * Properties.AO + specular * SpecularAO) + subsurfaceScatter;
+	finalColor.rgb                 += (diffuse * Properties.AO * (1.0 - Square(Properties.SubsurfaceOpacity)) + specular * SpecularAO) + subsurfaceScatter;
 
 	return LinearToSRGB(finalColor);
 }
