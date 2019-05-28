@@ -16,7 +16,7 @@ hudIcon "HUDICON_ASURAN_ORBITAL_HANGARDEFENSE"
 smallHudIcon "HUDICONSMALL_ASURAN_ORBITAL_HANGARDEFENSE"
 infoCardIcon "MAINVIEWICON_ASURAN_ORBITAL_HANGARDEFENSE"
 planetUpgradeSlotType "Tactical"
-planetUpgradeSlotCount 4.000000
+planetUpgradeSlotCount 6.000000
 basePrice
 	credits 700.000000
 	metal 120.000000
@@ -32,12 +32,12 @@ Prerequisites
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-MaxHullPoints 4000.000000
-HullPointRestoreRate 2.000000
+MaxHullPoints 6000.000000
+HullPointRestoreRate 3.000000
 BaseArmorPoints 8.000000
-MaxShieldPoints 10000.000000
-ShieldPointRestoreRate 10.000000
-maxShieldMitigation 0.000000
+MaxShieldPoints 15000.000000
+ShieldPointRestoreRate 15.000000
+maxShieldMitigation 0.15000
 ExperiencePointsForDestroying 75.000000
 resourceExtractionType "Invalid"
 cultureSpreadRate 0.000000
@@ -141,7 +141,7 @@ TargetCountPerBank:BACK 1
 TargetCountPerBank:LEFT 1
 TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
-baseCommandPoints 2
+baseCommandPoints 3
 defaultAutoAttackRange "None"
 defaultAutoAttackOn TRUE
 prefersToFocusFire FALSE

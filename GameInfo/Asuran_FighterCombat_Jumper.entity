@@ -34,7 +34,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "PHASEMISSILE"
-	DamagePerBank:FRONT 70.000000
+	DamagePerBank:FRONT 210.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -81,10 +81,10 @@ ExplosionName "Fighter0"
 exhaustTrailTextureName "ExhaustTrail"
 exhaustTrailWidth 2.000000
 engineSoundID "ENGINE_PHASESUPPORTSHIP"
-maxHullPoints 90.000000
-hullPointRestoreRate 1.000000
+maxHullPoints 270.000000
+hullPointRestoreRate 3.000000
 armorPoints 3.000000
 maxMitigation 0.000000
-experiencePointsForDestroying 5.000000
+experiencePointsForDestroying 15.000000
 minShadow 0.000000
 maxShadow 0.500000

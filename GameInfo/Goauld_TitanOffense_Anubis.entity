@@ -135,13 +135,13 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
-		projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
+		projectileTravelEffectName "Weapon_GoauldPlasmaMedium_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 3
 TargetCountPerBank:BACK 2
-TargetCountPerBank:LEFT 3
-TargetCountPerBank:RIGHT 3
+TargetCountPerBank:LEFT 2
+TargetCountPerBank:RIGHT 2
 canOnlyTargetStructures FALSE
 mass 3500.000000
 ShieldMeshName "Goauld_Shield_TitanOffense_Anubis"

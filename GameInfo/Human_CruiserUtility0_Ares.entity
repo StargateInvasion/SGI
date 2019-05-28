@@ -62,14 +62,14 @@ Weapon
 	PreBuffCooldownTime 3.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.450000
+	PointStaggerDelay 0.70000
 	TravelSpeed 4000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
 		burstCount 6
-		burstDelay 0.500000
+		burstDelay 0.05000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_Tech_CapitalLaser_Muzzle"
 		muzzleSoundMinRespawnTime 0.500000
@@ -108,7 +108,7 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Missile"
-		burstCount 3
+		burstCount 1
 		burstDelay 0.250000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_TechCapitalPlanetBombing_Muzzle"
@@ -160,7 +160,7 @@ Weapon
 		RequiredCompletedResearchSubjects 0
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 5
+		burstCount 2
 		burstDelay 0.300000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_AsgardPulse_Muzzle"

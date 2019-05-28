@@ -116,14 +116,14 @@ Weapon
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 1.000000
-	TravelSpeed 1275.000000
+	PointStaggerDelay 0.700000
+	TravelSpeed 2000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 3
-		burstDelay 0.060000
+		burstCount 6
+		burstDelay 0.050000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_Human_Muzzle"
 		muzzleSoundMinRespawnTime 0.770000
@@ -201,8 +201,8 @@ Weapon
 	PreBuffCooldownTime 6.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 1.500000
-	TravelSpeed 1275.000000
+	PointStaggerDelay 0.300000
+	TravelSpeed 2500.000000
 	Duration 0.000000
 	fireConstraintType "Research"
 	researchPrerequisites
@@ -214,8 +214,8 @@ Weapon
 		RequiredCompletedResearchSubjects 0
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 5
-		burstDelay 0.300000
+		burstCount 2
+		burstDelay 0.150000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_AsgardPulse_Muzzle"
 		muzzleSoundMinRespawnTime 0.210000
