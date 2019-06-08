@@ -665,10 +665,10 @@ GameplayConstants
 	playerAISharedDef
 		table-Aggressive
 			BuildShip 27
-			BuildModuleTactical 5
-			BuildModuleCivilian 3
-			BuildModuleResearch 800
-			UpgradeResearch 1000
+			BuildModuleTactical 2
+			BuildModuleCivilian 1
+			BuildModuleResearch 3
+			UpgradeResearch 3
 			UpgradePlanetArtifactLevel 1
 			UpgradePlanetPopulation 1
 			UpgradePlanetInfastructure 1
@@ -679,10 +679,10 @@ GameplayConstants
 			BuildMines 1
 		table-Defensive
 			BuildShip 23
-			BuildModuleTactical 10
-			BuildModuleCivilian 4
-			BuildModuleResearch 800
-			UpgradeResearch 1000
+			BuildModuleTactical 4
+			BuildModuleCivilian 2
+			BuildModuleResearch 2
+			UpgradeResearch 3
 			UpgradePlanetArtifactLevel 0
 			UpgradePlanetPopulation 1
 			UpgradePlanetInfastructure 2
@@ -695,8 +695,8 @@ GameplayConstants
 			BuildShip 23
 			BuildModuleTactical 2
 			BuildModuleCivilian 2
-			BuildModuleResearch 800
-			UpgradeResearch 1000
+			BuildModuleResearch 5
+			UpgradeResearch 5
 			UpgradePlanetArtifactLevel 2
 			UpgradePlanetPopulation 1
 			UpgradePlanetInfastructure 1
@@ -709,8 +709,8 @@ GameplayConstants
 			BuildShip 24
 			BuildModuleTactical 2
 			BuildModuleCivilian 3
-			BuildModuleResearch 800
-			UpgradeResearch 1000
+			BuildModuleResearch 2
+			UpgradeResearch 2
 			UpgradePlanetArtifactLevel 2
 			UpgradePlanetPopulation 3
 			UpgradePlanetInfastructure 3
@@ -977,7 +977,7 @@ GameplayConstants
 		incomeRateBonusPerLongestNodeDistanceNode .075
 	targetTypeCounterData
 	aiData
-		aiRetreatThreshold 0.05
+		aiRetreatThreshold 0.25
 	victoryData
 		occupationVictoryStarType "STAR_RED"
 		occupationVictoryStarName "OccupationStar"
@@ -999,7 +999,7 @@ GameplayConstants
 			xOffset 0
 			yOffset -52
 		outlawSpawnShipsType "MatchPlayerRace"
-		numOutlawSpawnShipsOptionsCount 1
+		numOutlawSpawnShipsOptionsCount 6
 		outlawSpawnShipsOptions
 			raceEntityName "PlayerHuman"
 			spawnShips
