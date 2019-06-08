@@ -55,10 +55,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PULSEGUN"
-	DamagePerBank:FRONT 20.000000
-	DamagePerBank:BACK 20.000000
-	DamagePerBank:LEFT 20.000000
-	DamagePerBank:RIGHT 20.000000
+	DamagePerBank:FRONT 10.000000
+	DamagePerBank:BACK 10.000000
+	DamagePerBank:LEFT 30.000000
+	DamagePerBank:RIGHT 30.000000
 	Range 5000.000000
 	PreBuffCooldownTime 2.000000
 	CanFireAtFighter TRUE
@@ -72,12 +72,12 @@ Weapon
 		burstCount 1
 		burstDelay 0.350000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_PhaseCapitalPulseGunMedium_Muzzle"
+		muzzleEffectName "Weapon_TechCapitalLaserLight_Muzzle"
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 1
 			sound "Asuran_PulseCannon_Firing"
-		hitEffectName "Weapon_PhaseCapitalPulseGunMedium_Hit"
+		hitEffectName "Weapon_Tech_AutoCannonCapShip_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
@@ -93,12 +93,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "PHASEMISSILE"
-	DamagePerBank:FRONT 90.000000
+	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
+	DamagePerBank:LEFT 180.000000
+	DamagePerBank:RIGHT 180.000000
 	Range 6000.000000
-	PreBuffCooldownTime 5.000000
+	PreBuffCooldownTime 20.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.080000
@@ -107,7 +107,7 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Missile"
-		burstCount 4
+		burstCount 1
 		burstDelay 0.500000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"

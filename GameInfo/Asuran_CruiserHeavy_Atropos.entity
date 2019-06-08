@@ -101,12 +101,12 @@ Weapon
 		burstCount 3
 		burstDelay 0.300000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_PhaseCapitalWaveMedium_Muzzle"
+		muzzleEffectName "Weapon_TechCapitalLaserLight_Muzzle"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 1
 			sound "Asuran_PulseCannon_Firing"
-		hitEffectName "Weapon_PhaseWaveCannon_Frigate_Hit"
+		hitEffectName "Weapon_Tech_AutoCannonCapShip_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
@@ -139,13 +139,12 @@ Weapon
 		burstCount 3
 		burstDelay 0.300000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_PhaseCapitalWaveMedium_Muzzle"
+		muzzleEffectName "Weapon_TechCapitalLaserLight_Muzzle"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
-			soundCount 2
-			sound "WEAPON_PHASECAPITALWAVEMEDIUM_MUZZLE"
-			sound "WEAPON_PHASECAPITALWAVEMEDIUM_MUZZLE_ALT1"
-		hitEffectName "Weapon_PhaseWaveCannon_Frigate_Hit"
+			soundCount 1
+			sound "Asuran_PulseCannon_Firing"
+		hitEffectName "Weapon_Tech_AutoCannonCapShip_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
