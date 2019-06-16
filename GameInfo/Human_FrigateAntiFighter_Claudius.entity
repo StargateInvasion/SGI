@@ -62,22 +62,22 @@ Weapon
 	PreBuffCooldownTime 2.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 1.500000
-	TravelSpeed 1275.000000
+	PointStaggerDelay 0.70000
+	TravelSpeed 3800.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 16
-		burstDelay 0.015000
+		burstCount 4
+		burstDelay 0.5000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_HumanAntifighter_Claudius"
-		muzzleSoundMinRespawnTime 0.770000
+		muzzleEffectName "Weapon_Tech_AutoCannonFrigate_Muzzle"
+		muzzleSoundMinRespawnTime 1.200000
 		muzzleSounds
 			soundCount 3
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE"
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT1"
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT2"
+			sound "WEAPON_TECHCAPITALAUTOCANNONMEDIUM_MUZZLE"
+			sound "WEAPON_TECHCAPITALAUTOCANNONMEDIUM_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALAUTOCANNONMEDIUM_MUZZLE_ALT2"
 		hitEffectName "Weapon_HumanRailguns_Hit"
 		hitHullEffectSounds
 			soundCount 1
@@ -85,7 +85,7 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "Weapon_HumanRailgun_Travel"
+		projectileTravelEffectName "Weapon_HumanRailgunGold_Travel"
 Weapon
 	WeaponType "Projectile"
 	damageEnums
@@ -102,22 +102,22 @@ Weapon
 	PreBuffCooldownTime 2.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 1.500000
-	TravelSpeed 1275.000000
+	PointStaggerDelay 0.75000
+	TravelSpeed 2800.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
 		burstCount 16
-		burstDelay 0.015000
+		burstDelay 0.0150000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_HumanAntifighter_Claudius"
-		muzzleSoundMinRespawnTime 0.770000
+		muzzleEffectName "Weapon_Tech_AutoCannonFrigate_Muzzle"
+		muzzleSoundMinRespawnTime 1.200000
 		muzzleSounds
 			soundCount 3
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE"
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT1"
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT2"
+			sound "WEAPON_TECHCAPITALAUTOCANNONLIGHT_MUZZLE"
+			sound "WEAPON_TECHCAPITALAUTOCANNONLIGHT_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALAUTOCANNONLIGHT_MUZZLE_ALT2"
 		hitEffectName "Weapon_HumanRailguns_Hit"
 		hitHullEffectSounds
 			soundCount 1

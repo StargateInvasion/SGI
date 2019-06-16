@@ -100,16 +100,16 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 12.000000
-	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
+	DamagePerBank:FRONT 40.000000
+	DamagePerBank:BACK 40.000000
+	DamagePerBank:LEFT 40.000000
+	DamagePerBank:RIGHT 40.000000
 	Range 4500.000000
 	PreBuffCooldownTime 2.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.080000
-	TravelSpeed 2000.000000
+	TravelSpeed 2900.000000
 	Duration 0.000000
 	fireConstraintType "Research"
 	researchPrerequisites
@@ -122,10 +122,10 @@ Weapon
 	WeaponEffects
 		weaponType "Projectile"
 		burstCount 10
-		burstDelay 0.100000
+		burstDelay 0.040000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_TechCapitalAutoCannonLight_Muzzle"
-		muzzleSoundMinRespawnTime 10.000000
+		muzzleSoundMinRespawnTime 1.20000
 		muzzleSounds
 			soundCount 3
 			sound "WEAPON_TECHCAPITALAUTOCANNONLIGHT_MUZZLE"

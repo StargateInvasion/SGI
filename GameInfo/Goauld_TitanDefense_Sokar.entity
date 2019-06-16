@@ -48,7 +48,7 @@ MaxHullPoints
 	StartValue 10000.000000
 	ValueIncreasePerLevel 500.000000
 MaxShieldPoints
-	StartValue 15000.000000
+	StartValue 35000.000000
 	ValueIncreasePerLevel 500.000000
 HullPointRestoreRate
 	StartValue 20.000000
@@ -109,25 +109,25 @@ Weapon
 	DamagePerBank:BACK 150.000000
 	DamagePerBank:LEFT 150.000000
 	DamagePerBank:RIGHT 150.000000
-	Range 6500.000000
+	Range 12000.000000
 	PreBuffCooldownTime 2.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 1.000000
+	PointStaggerDelay 0.500000
 	TravelSpeed 4000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
 		burstCount 1
-		burstDelay 0.00000
-		fireDelay 0.50000
+		burstDelay 0.50000
+		fireDelay 0.0000
 		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
 		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
 			soundCount 1
 			sound "Weapon_Goa'uld_Capital"
-		hitEffectName "Weapon_GoauldCapitalPlasma_Hit"
+		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
@@ -137,10 +137,10 @@ Weapon
 		projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 1
-TargetCountPerBank:BACK 1
-TargetCountPerBank:LEFT 1
-TargetCountPerBank:RIGHT 1
+TargetCountPerBank:FRONT 5
+TargetCountPerBank:BACK 5
+TargetCountPerBank:LEFT 5
+TargetCountPerBank:RIGHT 5
 canOnlyTargetStructures FALSE
 mass 10000.000000
 ShieldMeshName "Goauld_Shield_TitanDefense_Sokar"

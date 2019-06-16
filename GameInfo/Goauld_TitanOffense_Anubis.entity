@@ -115,7 +115,7 @@ Weapon
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 1.000000
-	TravelSpeed 4000.000000
+	TravelSpeed 2900.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
@@ -128,20 +128,20 @@ Weapon
 		muzzleSounds
 			soundCount 1
 			sound "Weapon_Goa'uld_Capital"
-		hitEffectName "Weapon_GoauldCapitalPlasma_Hit"
+		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
-		projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
+		projectileTravelEffectName "Weapon_GoauldPlasmaMedium_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 3
 TargetCountPerBank:BACK 2
-TargetCountPerBank:LEFT 3
-TargetCountPerBank:RIGHT 3
+TargetCountPerBank:LEFT 2
+TargetCountPerBank:RIGHT 2
 canOnlyTargetStructures FALSE
 mass 3500.000000
 ShieldMeshName "Goauld_Shield_TitanOffense_Anubis"

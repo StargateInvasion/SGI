@@ -55,7 +55,7 @@ MaxHullPoints
 	StartValue 9000.000000
 	ValueIncreasePerLevel 504.000000
 MaxShieldPoints
-	StartValue 10000.000000
+	StartValue 20000.000000
 	ValueIncreasePerLevel 567.000000
 HullPointRestoreRate
 	StartValue 3.100000
@@ -67,7 +67,7 @@ ArmorPointsFromExperience
 	StartValue 12.000000
 	ValueIncreasePerLevel 0.918000
 maxMitigation
-	StartValue 0.5000000
+	StartValue 0.0000000
 	ValueIncreasePerLevel 0.001000
 MaxAntiMatter
 	StartValue 1275.000000
@@ -129,16 +129,16 @@ Weapon
 	WeaponEffects
 		weaponType "Projectile"
 		burstCount 8
-		burstDelay 0.100000
+		burstDelay 0.050000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_Tech_AutoCannonTitan_Muzzle"
-		muzzleSoundMinRespawnTime 10.000000
+		muzzleSoundMinRespawnTime 1.200000
 		muzzleSounds
 			soundCount 3
 			sound "WEAPON_TECHCAPITALAUTOCANNONMEDIUM_MUZZLE"
 			sound "WEAPON_TECHCAPITALAUTOCANNONMEDIUM_MUZZLE_ALT1"
 			sound "WEAPON_TECHCAPITALAUTOCANNONMEDIUM_MUZZLE_ALT2"
-		hitEffectName "Weapon_Tech_AutoCannonTitan_Hit"
+		hitEffectName "Weapon_HumanRailguns_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_PHYSICALMEDIUM_HITHULL"
@@ -169,23 +169,21 @@ Weapon
 	WeaponEffects
 		weaponType "Missile"
 		burstCount 4
-		burstDelay 0.600000
+		burstDelay 1.00000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_MissileCapShip_Muzzle"
+		muzzleEffectName "Weapon_TechCapitalPlanetBombing_Muzzle"
 		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
-			soundCount 3
-			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE"
-			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE_ALT1"
-			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE_ALT2"
-		hitEffectName "Weapon_Tech_MissileCapShip_Hit"
+			soundCount 1
+			sound "WEAPON_TECH_PLANETBOMB_MUZZLE"
+		hitEffectName "Weapon_Tech_AutoCannonCapShip_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_MISSILEHEAVY_HITGENERIC"
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_MISSILEHEAVY_HITGENERIC"
-		missileTravelEffectName "Weapon_Tech_MissileCapShip_Travel"
+		missileTravelEffectName "Weapon_HumanMissileHeavy_Travel"
 		missileStartTurningDistance 0.500000
 		missileSlowTurnRate 0.508997
 		missileMaxSlowTurnTime 5.000000
@@ -197,12 +195,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "RAILGUN"
-	DamagePerBank:FRONT 250.000000
+	DamagePerBank:FRONT 1000.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 10000.000000
-	PreBuffCooldownTime 3.000000
+	PreBuffCooldownTime 12.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.000000

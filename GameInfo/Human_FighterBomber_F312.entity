@@ -34,7 +34,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 50.00000
+	DamagePerBank:FRONT 150.00000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -51,20 +51,23 @@ Weapon
 		burstCount 1
 		burstDelay 0.000000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_MissileFighter_Muzzle"
+		muzzleEffectName "Weapon_TechCapitalPlanetBombing_Muzzle"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
-			soundCount 2
-			sound "WEAPON_TECHSUPPORTMISSILELIGHT_MUZZLE"
-			sound "WEAPON_TECHSUPPORTMISSILELIGHT_MUZZLE_ALT1"
-		hitEffectName "Weapon_Tech_MissileFighter_Hit"
+			soundCount 1
+			sound "WEAPON_TECH_PLANETBOMB_MUZZLE"
+		hitEffectName "Weapon_Tech_AutoCannonCapShip_Hit"
 		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_MISSILELIGHT_HITGENERIC"
+			soundCount 3
+			sound "EXPLOSION_SUB4"
+			sound "EXPLOSION_SUB4_ALT1"
+			sound "EXPLOSION_SUB4_ALT2"
 		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_MISSILELIGHT_HITGENERIC"
-		missileTravelEffectName "Weapon_Tech_MissileFighter_Travel"
+			soundCount 3
+			sound "EXPLOSION_SUB4"
+			sound "EXPLOSION_SUB4_ALT1"
+			sound "EXPLOSION_SUB4_ALT2"
+		missileTravelEffectName "Weapon_HumanMissileHeavy_Travel"
 		missileStartTurningDistance 10.000000
 		missileSlowTurnRate 3.141593
 		missileMaxSlowTurnTime 1.000000
@@ -76,7 +79,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "MISSILE"
-	DamagePerBank:FRONT 50.000000
+	DamagePerBank:FRONT 150.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -93,20 +96,23 @@ Weapon
 		burstCount 1
 		burstDelay 0.000000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_MissileFighter_Muzzle"
+		muzzleEffectName "Weapon_TechCapitalPlanetBombing_Muzzle"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
-			soundCount 2
-			sound "WEAPON_TECHSUPPORTMISSILELIGHT_MUZZLE"
-			sound "WEAPON_TECHSUPPORTMISSILELIGHT_MUZZLE_ALT1"
-		hitEffectName "Weapon_Tech_MissileFighter_Hit"
+			soundCount 1
+			sound "WEAPON_TECH_PLANETBOMB_MUZZLE"
+		hitEffectName "Weapon_Tech_AutoCannonCapShip_Hit"
 		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_MISSILELIGHT_HITGENERIC"
+			soundCount 3
+			sound "EXPLOSION_SUB4"
+			sound "EXPLOSION_SUB4_ALT1"
+			sound "EXPLOSION_SUB4_ALT2"
 		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_MISSILELIGHT_HITGENERIC"
-		missileTravelEffectName "Weapon_Tech_MissileFighter_Travel"
+			soundCount 3
+			sound "EXPLOSION_SUB4"
+			sound "EXPLOSION_SUB4_ALT1"
+			sound "EXPLOSION_SUB4_ALT2"
+		missileTravelEffectName "Weapon_HumanMissileHeavy_Travel"
 		missileStartTurningDistance 10.000000
 		missileSlowTurnRate 3.141593
 		missileMaxSlowTurnTime 1.000000
@@ -123,10 +129,10 @@ ExplosionName "Fighter0"
 exhaustTrailTextureName "ExhaustTrail"
 exhaustTrailWidth 8.000000
 engineSoundID "ENGINE_TECHSUPPORTSHIP"
-maxHullPoints 100.000000
-hullPointRestoreRate 0.489000
+maxHullPoints 300.000000
+hullPointRestoreRate 1.467000
 armorPoints 2.000000
 maxMitigation 0.600000
-experiencePointsForDestroying 6.500000
+experiencePointsForDestroying 19.500000
 minShadow 0.000000
 maxShadow 0.500000

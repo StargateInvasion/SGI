@@ -62,22 +62,22 @@ Weapon
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 1.500000
-	TravelSpeed 1275.000000
+	PointStaggerDelay 1.50000
+	TravelSpeed 2800.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 2
-		burstDelay 0.045000
+		burstCount 6
+		burstDelay 0.04500
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Human_Muzzle"
-		muzzleSoundMinRespawnTime 0.770000
+		muzzleEffectName "Weapon_Tech_AutoCannonFrigate_Muzzle"
+		muzzleSoundMinRespawnTime 1.200000
 		muzzleSounds
 			soundCount 3
-			sound "WEAPON_TECHCAPITALLASERLIGHT_MUZZLE"
-			sound "WEAPON_TECHCAPITALLASERLIGHT_MUZZLE_ALT1"
-			sound "WEAPON_TECHCAPITALLASERLIGHT_MUZZLE_ALT2"
+			sound "WEAPON_TECHCAPITALAUTOCANNONMEDIUM_MUZZLE"
+			sound "WEAPON_TECHCAPITALAUTOCANNONMEDIUM_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALAUTOCANNONMEDIUM_MUZZLE_ALT2"
 		hitEffectName "Weapon_HumanRailguns_Hit"
 		hitHullEffectSounds
 			soundCount 1
@@ -116,7 +116,7 @@ Weapon
 		muzzleSounds
 			soundCount 1
 			sound "WEAPON_TECH_PLANETBOMB_MUZZLE"
-		hitEffectName "Weapon_HumanRailguns_Hit"
+		hitEffectName "Weapon_Tech_AutoCannonCapShip_Hit"
 		hitHullEffectSounds
 			soundCount 3
 			sound "EXPLOSION_SUB4"
@@ -148,7 +148,7 @@ Weapon
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 1.000000
-	TravelSpeed 1050.000000
+	TravelSpeed 1250.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
@@ -161,7 +161,7 @@ Weapon
 		muzzleSounds
 			soundCount 1
 			sound "WEAPON_TECH_PLANETBOMB_MUZZLE"
-		hitEffectName "Weapon_HumanRailguns_Hit"
+		hitEffectName "Weapon_Tech_AutoCannonCapShip_Hit"
 		hitHullEffectSounds
 			soundCount 3
 			sound "EXPLOSION_SUB4"

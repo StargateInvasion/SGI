@@ -116,8 +116,8 @@ Weapon
 	PreBuffCooldownTime 3.500000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 1.000000
-	TravelSpeed 1275.000000
+	PointStaggerDelay 1.00000
+	TravelSpeed 2000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
@@ -125,7 +125,7 @@ Weapon
 		burstCount 3
 		burstDelay 0.060000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Human_Muzzle"
+		muzzleEffectName "Weapon_Tech_AutoCannonFrigate_Muzzle"
 		muzzleSoundMinRespawnTime 0.770000
 		muzzleSounds
 			soundCount 3
@@ -139,7 +139,7 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-		projectileTravelEffectName "Weapon_HumanRailgunGold_Travel"
+		projectileTravelEffectName "Weapon_Tech_AutoCannonCapShip_Travel"
 Weapon
 	WeaponType "Missile"
 	damageEnums
@@ -156,13 +156,13 @@ Weapon
 	PreBuffCooldownTime 6.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 1.000000
+	PointStaggerDelay 1.00000
 	TravelSpeed 1050.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Missile"
-		burstCount 3
+		burstCount 1
 		burstDelay 0.250000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_TechCapitalPlanetBombing_Muzzle"
@@ -170,7 +170,7 @@ Weapon
 		muzzleSounds
 			soundCount 1
 			sound "WEAPON_TECH_PLANETBOMB_MUZZLE"
-		hitEffectName "Weapon_HumanRailguns_Hit"
+		hitEffectName "Weapon_Tech_AutoCannonCapShip_Hit"
 		hitHullEffectSounds
 			soundCount 3
 			sound "EXPLOSION_SUB4"
@@ -201,8 +201,8 @@ Weapon
 	PreBuffCooldownTime 6.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 1.500000
-	TravelSpeed 1275.000000
+	PointStaggerDelay 0.300000
+	TravelSpeed 1500.000000
 	Duration 0.000000
 	fireConstraintType "Research"
 	researchPrerequisites
@@ -214,8 +214,8 @@ Weapon
 		RequiredCompletedResearchSubjects 0
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 5
-		burstDelay 0.300000
+		burstCount 4
+		burstDelay 0.150000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_AsgardPulse_Muzzle"
 		muzzleSoundMinRespawnTime 0.210000
