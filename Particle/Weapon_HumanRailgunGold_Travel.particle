@@ -1,15 +1,15 @@
 ﻿TXT
 ParticleSimulation
 	HasInfiniteLifeTime TRUE
-	TotalLifeTime 1000.000000
+	TotalLifeTime 10.000000
 	NumEmitters 1
 	EmitterType "Point"
 	EmitterContents
 		Name "RailgunGold"
 		Enabled TRUE
-		EmitRate 48.000000
+		EmitRate 1.000000
 		HasInfiniteEmitCount FALSE
-		MaxEmitCount 3
+		MaxEmitCount 1
 		hasEmitIntervals FALSE
 		emitIntervalRunDuration 0.000000
 		emitIntervalWaitDuration 0.000000
@@ -22,8 +22,8 @@ ParticleSimulation
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
 		ParticleStartColor ffffc080
-		ParticleWidth 5.000000
-		ParticleHeight 19.000000
+		ParticleWidth 7.000000
+		ParticleHeight 60.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -35,7 +35,7 @@ ParticleSimulation
 		RotateAboutCross 0.000000
 		StartTime 0.000000
 		HasInfiniteLifeTime TRUE
-		TotalLifeTime 0.000000
+		TotalLifeTime 100.000000
 		BillboardAnchor 0
 		ParticleFacing 1
 		PipelineEffectID "Particle_Additive.fx"
