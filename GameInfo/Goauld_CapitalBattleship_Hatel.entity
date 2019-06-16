@@ -148,7 +148,7 @@ Weapon
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.500000
-	TravelSpeed 4000.000000
+	TravelSpeed 3000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
@@ -161,7 +161,7 @@ Weapon
 		muzzleSounds
 			soundCount 1
 			sound "Weapon_Goa'uld_Capital"
-		hitEffectName "Weapon_GoauldCapitalPlasma_Hit"
+		hitEffectName "Weapon_Tech_AutoCannonCapShip_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
@@ -186,7 +186,7 @@ Weapon
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.500000
-	TravelSpeed 3000.000000
+	TravelSpeed 2000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
@@ -199,7 +199,7 @@ Weapon
 		muzzleSounds
 			soundCount 1
 			sound "Weapon_Goa'uld_Capital"
-		hitEffectName "Weapon_GoauldCapitalPlasma_Hit"
+		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"

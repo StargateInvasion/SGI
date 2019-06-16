@@ -26,30 +26,30 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "PHASEMISSILE"
-	DamagePerBank:FRONT 325.000000
-	DamagePerBank:BACK 325.000000
-	DamagePerBank:LEFT 325.000000
-	DamagePerBank:RIGHT 325.000000
+	DamagePerBank:FRONT 650.000000
+	DamagePerBank:BACK 650.000000
+	DamagePerBank:LEFT 650.000000
+	DamagePerBank:RIGHT 650.000000
 	Range 10500.000000
 	PreBuffCooldownTime 10.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.080000
-	TravelSpeed 1500.000000
+	PointStaggerDelay 0.350000
+	TravelSpeed 900.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Missile"
-		burstCount 2
-		burstDelay 0.600000
+		burstCount 7
+		burstDelay 0.10000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_PhaseCapitalMissileStarbase_Muzzle"
+		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 2
 			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
 			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
-		hitEffectName "Weapon_PhaseCapitalMissileStarbase_Hit"
+		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
@@ -68,12 +68,12 @@ Weapon
 		DamageApplyType "OVERTIME"
 		DamageType "ENERGY"
 		WeaponClassType "BEAM"
-	DamagePerBank:FRONT 280.000000
-	DamagePerBank:BACK 280.000000
-	DamagePerBank:LEFT 280.000000
-	DamagePerBank:RIGHT 280.000000
-	Range 10500.000000
-	PreBuffCooldownTime 7.000000
+	DamagePerBank:FRONT 1120.000000
+	DamagePerBank:BACK 1120.000000
+	DamagePerBank:LEFT 1120.000000
+	DamagePerBank:RIGHT 1120.000000
+	Range 7500.000000
+	PreBuffCooldownTime 14.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.500000
@@ -115,32 +115,31 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PULSEGUN"
-	DamagePerBank:FRONT 132.000000
-	DamagePerBank:BACK 132.000000
-	DamagePerBank:LEFT 132.000000
-	DamagePerBank:RIGHT 132.000000
+	DamagePerBank:FRONT 264.000000
+	DamagePerBank:BACK 264.000000
+	DamagePerBank:LEFT 264.000000
+	DamagePerBank:RIGHT 264.000000
 	Range 8000.000000
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.300000
-	TravelSpeed 1200.000000
+	TravelSpeed 3200.000000
 	Duration 0.000000
 	fireConstraintType "StarBaseUpgradeLevel"
 	requiredStarBaseWeaponLevel 2
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 1
+		burstCount 4
 		burstDelay 0.350000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Human_Muzzle"
-		muzzleSoundMinRespawnTime 0.770000
+		muzzleEffectName "Weapon_TechCapitalLaserLight_Muzzle"
+		muzzleSoundMinRespawnTime 1.2000
 		muzzleSounds
-			soundCount 3
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE"
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT1"
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT2"
-		hitEffectName "Weapon_HumanRailguns_Hit"
+			soundCount 2
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_Tech_AutoCannonFighter_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"

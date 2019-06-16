@@ -63,20 +63,21 @@ Weapon
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.300000
-	TravelSpeed 1000.000000
+	TravelSpeed 2000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 3
+		burstCount 2
 		burstDelay 0.350000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_PhaseCapitalPulseGunLight_Muzzle"
-		muzzleSoundMinRespawnTime 0.770000
+		muzzleEffectName "Weapon_TechCapitalLaserLight_Muzzle"
+		muzzleSoundMinRespawnTime 1.2000
 		muzzleSounds
-			soundCount 1
-			sound "Asuran_PulseCannon_Firing"
-		hitEffectName "Weapon_PhaseCapitalPulseGunLight_Hit"
+			soundCount 2
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_Tech_AutoCannonCapShip_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
@@ -106,7 +107,7 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Missile"
-		burstCount 10
+		burstCount 3
 		burstDelay 0.500000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
@@ -115,7 +116,7 @@ Weapon
 			soundCount 2
 			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
 			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
-		hitEffectName "Weapon_PhaseCapitalMissileHeavy_Hit"
+		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"

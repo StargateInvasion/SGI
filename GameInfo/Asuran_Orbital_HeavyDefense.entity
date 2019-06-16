@@ -98,7 +98,7 @@ Weapon
 	WeaponEffects
 		weaponType "Missile"
 		burstCount 10
-		burstDelay 0.300000
+		burstDelay 0.16000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
 		muzzleSoundMinRespawnTime 0.100000
@@ -106,7 +106,7 @@ Weapon
 			soundCount 2
 			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
 			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
-		hitEffectName "Weapon_PhaseCapitalMissileHeavy_Hit"
+		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"

@@ -57,27 +57,28 @@ Weapon
 		WeaponClassType "PULSEGUN"
 	DamagePerBank:FRONT 20.000000
 	DamagePerBank:BACK 20.000000
-	DamagePerBank:LEFT 20.000000
-	DamagePerBank:RIGHT 20.000000
+	DamagePerBank:LEFT 60.000000
+	DamagePerBank:RIGHT 60.000000
 	Range 5000.000000
-	PreBuffCooldownTime 2.000000
+	PreBuffCooldownTime 4.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting TRUE
-	PointStaggerDelay 0.200000
-	TravelSpeed 1200.000000
+	PointStaggerDelay 0.300000
+	TravelSpeed 3000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 1
+		burstCount 3
 		burstDelay 0.350000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_PhaseCapitalPulseGunMedium_Muzzle"
-		muzzleSoundMinRespawnTime 1.000000
+		muzzleEffectName "Weapon_TechCapitalLaserLight_Muzzle"
+		muzzleSoundMinRespawnTime 1.2000
 		muzzleSounds
-			soundCount 1
-			sound "Asuran_PulseCannon_Firing"
-		hitEffectName "Weapon_PhaseCapitalPulseGunMedium_Hit"
+			soundCount 2
+			sound "WEAPON_PHASECAPITALPULSEGUNLIGHT_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNLIGHT_MUZZLE_ALT1"
+		hitEffectName "Weapon_Tech_AutoCannonFighter_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
@@ -93,12 +94,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "PHASEMISSILE"
-	DamagePerBank:FRONT 90.000000
+	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 0.000000
-	DamagePerBank:RIGHT 0.000000
+	DamagePerBank:LEFT 90.000000
+	DamagePerBank:RIGHT 90.000000
 	Range 6000.000000
-	PreBuffCooldownTime 5.000000
+	PreBuffCooldownTime 10.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.080000
@@ -107,7 +108,7 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Missile"
-		burstCount 4
+		burstCount 1
 		burstDelay 0.500000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
@@ -116,7 +117,7 @@ Weapon
 			soundCount 2
 			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
 			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
-		hitEffectName "Weapon_PhaseCapitalMissileHeavy_Hit"
+		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"

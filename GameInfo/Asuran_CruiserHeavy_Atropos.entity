@@ -93,7 +93,7 @@ Weapon
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.300000
-	TravelSpeed 1100.000000
+	TravelSpeed 2100.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
@@ -101,12 +101,13 @@ Weapon
 		burstCount 3
 		burstDelay 0.300000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_PhaseCapitalWaveMedium_Muzzle"
-		muzzleSoundMinRespawnTime 0.100000
+		muzzleEffectName "Weapon_TechCapitalLaserLight_Muzzle"
+		muzzleSoundMinRespawnTime 1.2000
 		muzzleSounds
-			soundCount 1
-			sound "Asuran_PulseCannon_Firing"
-		hitEffectName "Weapon_PhaseWaveCannon_Frigate_Hit"
+			soundCount 2
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_Tech_AutoCannonFighter_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
@@ -131,7 +132,7 @@ Weapon
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.300000
-	TravelSpeed 1100.000000
+	TravelSpeed 2300.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
@@ -139,13 +140,13 @@ Weapon
 		burstCount 3
 		burstDelay 0.300000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_PhaseCapitalWaveMedium_Muzzle"
-		muzzleSoundMinRespawnTime 0.100000
+		muzzleEffectName "Weapon_TechCapitalLaserLight_Muzzle"
+		muzzleSoundMinRespawnTime 1.2000
 		muzzleSounds
 			soundCount 2
-			sound "WEAPON_PHASECAPITALWAVEMEDIUM_MUZZLE"
-			sound "WEAPON_PHASECAPITALWAVEMEDIUM_MUZZLE_ALT1"
-		hitEffectName "Weapon_PhaseWaveCannon_Frigate_Hit"
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_Tech_AutoCannonFighter_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"

@@ -100,10 +100,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 150.000000
-	DamagePerBank:BACK 100.000000
-	DamagePerBank:LEFT 100.000000
-	DamagePerBank:RIGHT 150.000000
+	DamagePerBank:FRONT 125.000000
+	DamagePerBank:BACK 125.000000
+	DamagePerBank:LEFT 125.000000
+	DamagePerBank:RIGHT 125.000000
 	Range 6000.000000
 	PreBuffCooldownTime 3.000000
 	CanFireAtFighter FALSE
@@ -114,15 +114,15 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 1
-		burstDelay 0.350000
+		burstCount 2
+		burstDelay 0.550000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 2
-			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE"
-			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE_ALT1"
+			sound "WEAPON_GOAULDPLASMAHEAVY_MUZZLE"
+			sound "WEAPON_GOAULDPLASMAHEAVY_MUZZLE_ALT1"
 		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1

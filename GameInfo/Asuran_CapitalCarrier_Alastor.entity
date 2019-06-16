@@ -24,11 +24,12 @@ bombEffectsDef
 	burstCount 3
 	burstDelay 0.500000
 	fireDelay 0.000000
-	muzzleEffectName "Weapon_TechCapitalPlanetBombing_Muzzle"
+	muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
 	muzzleSoundMinRespawnTime 0.100000
 	muzzleSounds
-		soundCount 1
-		sound ""
+		soundCount 2
+		sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
+		sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
 	hitEffectName "Weapon_TechFrigatePlanetBombing_Hit"
 	hitHullEffectSounds
 		soundCount 3
@@ -56,10 +57,10 @@ MaxShieldPoints
 	ValueIncreasePerLevel 1000.000000
 HullPointRestoreRate
 	StartValue 15.000000
-	ValueIncreasePerLevel 6.000000
+	ValueIncreasePerLevel 1.2000000
 ShieldPointRestoreRate
 	StartValue 55.000000
-	ValueIncreasePerLevel 25.000000
+	ValueIncreasePerLevel 5.000000
 ArmorPointsFromExperience
 	StartValue 3.000000
 	ValueIncreasePerLevel 0.340000
@@ -113,13 +114,13 @@ Weapon
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 1.080000
+	PointStaggerDelay 0.650000
 	TravelSpeed 1150.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Missile"
-		burstCount 7
+		burstCount 4
 		burstDelay 1.750000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
@@ -128,7 +129,7 @@ Weapon
 			soundCount 2
 			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
 			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
-		hitEffectName "Weapon_PhaseCapitalMissileHeavy_Hit"
+		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
@@ -142,7 +143,7 @@ Weapon
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIHEAVY"
+		AttackType "CAPITALSHIP"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
@@ -156,20 +157,21 @@ Weapon
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.300000
-	TravelSpeed 1200.000000
+	TravelSpeed 2500.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 1
-		burstDelay 0.010000
+		burstCount 3
+		burstDelay 0.350000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_TechCapitalLaserLight_Muzzle"
-		muzzleSoundMinRespawnTime 0.400000
+		muzzleSoundMinRespawnTime 1.2000
 		muzzleSounds
-			soundCount 1
-			sound "Asuran_PulseCannon_Firing"
-		hitEffectName "Weapon_TechCapitalLaserLight_Hit"
+			soundCount 2
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_Tech_AutoCannonFighter_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"

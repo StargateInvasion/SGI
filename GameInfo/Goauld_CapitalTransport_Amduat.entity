@@ -109,8 +109,8 @@ Weapon
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.200000
-	TravelSpeed 2000.000000
+	PointStaggerDelay 0.3500000
+	TravelSpeed 2300.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
@@ -122,9 +122,9 @@ Weapon
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 2
-			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE"
-			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE_ALT1"
-		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
+			sound "WEAPON_GOAULDPLASMAHEAVY_MUZZLE"
+			sound "WEAPON_GOAULDPLASMAHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_Tech_AutoCannonCapShip_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
@@ -148,21 +148,21 @@ Weapon
 	PreBuffCooldownTime 5.500000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.200000
+	PointStaggerDelay 0.500000
 	TravelSpeed 2000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
 		burstCount 1
-		burstDelay 0.350000
+		burstDelay 2.00000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 2
-			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE"
-			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE_ALT1"
+			sound "WEAPON_GOAULDPLASMAHEAVY_MUZZLE"
+			sound "WEAPON_GOAULDPLASMAHEAVY_MUZZLE_ALT1"
 		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1

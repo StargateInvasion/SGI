@@ -101,7 +101,7 @@ Weapon
 	DamagePerBank:BACK 75.000000
 	DamagePerBank:LEFT 75.000000
 	DamagePerBank:RIGHT 75.000000
-	Range 5500.000000
+	Range 5300.000000
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -139,25 +139,25 @@ Weapon
 	DamagePerBank:BACK 75.000000
 	DamagePerBank:LEFT 75.000000
 	DamagePerBank:RIGHT 75.000000
-	Range 5500.000000
+	Range 5400.000000
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.400000
-	TravelSpeed 4000.000000
+	PointStaggerDelay 0.500000
+	TravelSpeed 2900.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
 		burstCount 3
-		burstDelay 0.900000
+		burstDelay 1.100000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 1
 			sound "Weapon_Goa'uld_Capital"
-		hitEffectName "Weapon_GoauldCapitalPlasma_Hit"
+		hitEffectName "Weapon_Tech_AutoCannonCapShip_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
@@ -181,21 +181,21 @@ Weapon
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.400000
-	TravelSpeed 4000.000000
+	PointStaggerDelay 0.500000
+	TravelSpeed 1500.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
 		burstCount 3
-		burstDelay 0.900000
+		burstDelay 1.500000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 1
 			sound "Weapon_Goa'uld_Capital"
-		hitEffectName "Weapon_GoauldCapitalPlasma_Hit"
+		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"

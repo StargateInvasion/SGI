@@ -5,7 +5,7 @@ defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
-autoJoinFleetDefault FALSE
+autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 1
 frigateRoleType "AntiModule"
@@ -75,9 +75,9 @@ Weapon
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 2
-			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE"
-			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE_ALT1"
-		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
+			sound "WEAPON_GOAULDPLASMAHEAVY_MUZZLE"
+			sound "WEAPON_GOAULDPLASMAHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_Tech_AutoCannonCapShip_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
@@ -114,8 +114,8 @@ Weapon
 		muzzleSoundMinRespawnTime 1.000000
 		muzzleSounds
 			soundCount 2
-			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE"
-			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE_ALT1"
+			sound "WEAPON_GOAULDPLASMAHEAVY_MUZZLE"
+			sound "WEAPON_GOAULDPLASMAHEAVY_MUZZLE_ALT1"
 		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1

@@ -6,9 +6,10 @@ buffType "Asuran_BuffCapital_HeavyTurret"
 targetFilter
 	numOwnerships 1
 	ownership "Enemy"
-	numObjects 4
+	numObjects 5
 	object "Titan"
 	object "CapitalShip"
+	object "Frigate"
 	object "StarBase"
 	object "PlanetModule"
 	numSpaces 1
@@ -30,22 +31,22 @@ canWeaponEffectHitHull TRUE
 canWeaponEffectHitShields TRUE
 weaponEffectsDef
 	weaponType "Projectile"
-	burstCount 1
-	burstDelay 0.000000
+	burstCount 3
+	burstDelay 0.600000
 	fireDelay 0.000000
-	muzzleEffectName "CapitalAbility_IonBlastMuzzle"
+	muzzleEffectName "Weapon_Tech_TitanGaussCannon_Muzzle"
 	muzzleSoundMinRespawnTime 0.100000
 	muzzleSounds
 		soundCount 1
-		sound "EFFECT_IONBLAST"
-	hitEffectName ""
+			sound "WEAPON_PHASECAPITALPULSEGUNHEAVY_MUZZLE_ALT1"
+	hitEffectName "Weapon_Tech_TitanGaussCannon_Hit"
 	hitHullEffectSounds
 		soundCount 1
 		sound ""
 	hitShieldsEffectSounds
 		soundCount 1
 		sound ""
-	projectileTravelEffectName "CapitalAbility_IonBlastTravel"
+	projectileTravelEffectName "Weapon_Tech_TitanGaussCannon_Travel"
 needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
@@ -53,7 +54,7 @@ isUltimateAbility FALSE
 maxNumLevels 3
 levelSourceType "Intrinsic"
 minExperienceLevelRequired
-	Level:0 0.000000
+	Level:0 1.000000
 	Level:1 2.000000
 	Level:2 4.000000
 	Level:3 6.000000

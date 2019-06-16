@@ -1,5 +1,5 @@
 TXT2
-SinsArchiveVersion 194
+SinsArchiveVersion 193
 GameplayConstants
 	pingTime 10
 	zoomDistanceLevel0ScalarForPlanets 1.5
@@ -999,9 +999,9 @@ GameplayConstants
 			xOffset 0
 			yOffset -52
 		outlawSpawnShipsType "MatchPlayerRace"
-		numOutlawSpawnShipsOptionsCount 1
+		numOutlawSpawnShipsOptionsCount 6
 		outlawSpawnShipsOptions
-			raceEntityName "PlayerHuman"
+			raceEntityName "PlayerTechRebel"
 			spawnShips
 				minFleetPoints 20.000000
 				maxFleetPoints 20.000000
@@ -1064,31 +1064,31 @@ GameplayConstants
 		spawnTimeVariance 120
 		minorFactionPlayerDefCount 17
 		minorFactionPlayerDef
-			name "DefaultHuman"
+			name "DefaultTech"
 			planetAbilities
 				ability:0 "AbilityMinorFactionRepairShips"
 				ability:1 "AbilityMinorFactionTradeMetalForCredits"
-				ability:2 "Human_AbilityMinorFactionSpawn_DefenseRaid"
-				ability:3 "Human_AbilityMinorFactionSpawn_AttackRaid"
+				ability:2 "AbilityMinorFactionSpawnDefenseRaidTech"
+				ability:3 "AbilityMinorFactionSpawnAttackRaidTech"
 				ability:4 ""
 		minorFactionPlayerDef
-			name "DefaultAsuran"
+			name "DefaultPsi"
 			planetAbilities
 				ability:0 "AbilityMinorFactionFarSight"
 				ability:1 "AbilityMinorFactionTradeCrystalForCredits"
-				ability:2 "Asuran_AbilityMinorFactionSpawn_DefenseRaid"
-				ability:3 "Asuran_AbilityMinorFactionSpawn_AttackRaid"
+				ability:2 "AbilityMinorFactionSpawnDefenseRaidPsi"
+				ability:3 "AbilityMinorFactionSpawnAttackRaidPsi"
 				ability:4 ""
 		minorFactionPlayerDef
-			name "DefaultGoauld"
+			name "DefaultPhase"
 			planetAbilities
-				ability:0 "Goauld_AbilityMinorFactionSpawn_AttackRaid"
-				ability:1 "Goauld_AbilityMinorFactionSpawn_DefenseRaid"
+				ability:0 "AbilityMinorFactionSpawnAttackRaidPhase"
+				ability:1 "AbilityMinorFactionSpawnDefenseRaidPhase"
 				ability:2 "AbilityMinorFactionTradeCreditsForMetal"
 				ability:3 ""
 				ability:4 ""
 		minorFactionPlayerDef
-			name "HumanMiners"
+			name "TechMiners"
 			planetAbilities
 				ability:0 "AbilityMinorFactionTradeMetalForCreditsBetterRate"
 				ability:1 "AbilityMinorFactionTradeCrystalForCreditsBetterRate"
@@ -1096,7 +1096,7 @@ GameplayConstants
 				ability:3 ""
 				ability:4 ""
 		minorFactionPlayerDef
-			name "HumanScrappers"
+			name "TechScrappers"
 			planetAbilities
 				ability:0 "AbilityMinorFactionScrapFrigates"
 				ability:1 "AbilityMinorFactionArmorBonus"
@@ -1104,47 +1104,47 @@ GameplayConstants
 				ability:3 "AbilityMinorFactionTradeMetalForCredits"
 				ability:4 ""
 		minorFactionPlayerDef
-			name "HumanSiegeRaiders"
+			name "TechSiegeRaiders"
 			planetAbilities
-				ability:0 "Human_AbilityMinorFactionSpawn_AttackRaid"
-				ability:1 "Human_AbilityMinorFactionSpawn_SiegeRaid"
+				ability:0 "AbilityMinorFactionSpawnAttackRaidTech"
+				ability:1 "AbilityMinorFactionSpawnSiegeRaidTech"
 				ability:2 "AbilityMinorFactionBombingDamageBonus"
 				ability:3 "AbilityMinorFactionTradeCreditsForCrystal"
 				ability:4 ""
 		minorFactionPlayerDef
-			name "HumanDemolitionists"
+			name "TechDemolitionists"
 			planetAbilities
-				ability:0 "Human_AbilityMinorFactionSpawn_AntiModuleRaid"
+				ability:0 "AbilityMinorFactionSpawnAntiModuleRaidTech"
 				ability:1 "AbilityMinorFactionAntiModuleDamageBonus"
 				ability:2 ""
 				ability:3 ""
 				ability:4 ""
 		minorFactionPlayerDef
-			name "HumanXenophobes"
+			name "TechXenophobes"
 			planetAbilities
-				ability:0 "Human_AbilityMinorFactionSpawn_AttackRaidNonHumanTarget0"
-				ability:1 "Human_AbilityMinorFactionSpawn_AttackRaidNonHumanTarget1"
+				ability:0 "AbilityMinorFactionSpawnAttackRaidNonTechTarget0"
+				ability:1 "AbilityMinorFactionSpawnAttackRaidNonTechTarget1"
 				ability:2 "AbilityMinorFactionCultureResistance"
 				ability:3 "AbilityMinorFactionTradeCreditsForMetal"
 				ability:4 ""
 		minorFactionPlayerDef
-			name "HumanDefensive"
+			name "TechDefensive"
 			planetAbilities
 				ability:0 "AbilityMinorFactionRepairShips"
-				ability:1 "Human_AbilityMinorFactionSpawn_DefenseRaid"
+				ability:1 "AbilityMinorFactionSpawnDefenseRaidTech"
 				ability:2 ""
 				ability:3 ""
 				ability:4 ""
 		minorFactionPlayerDef
-			name "HumanUsedFrigates"
+			name "TechUsedFrigates"
 			planetAbilities
-				ability:0 "Human_AbilityMinorFactionSell_FrigatesAntiFighter"
-				ability:1 "Human_AbilityMinorFactionSell_FrigatesLongRange"
-				ability:2 "Human_AbilityMinorFactionSell_FrigatesHeavy"
+				ability:0 "AbilityMinorFactionSellFrigatesAntiFighter"
+				ability:1 "AbilityMinorFactionSellFrigatesLongRange"
+				ability:2 "AbilityMinorFactionSellFrigatesHeavy"
 				ability:3 ""
 				ability:4 ""
 		minorFactionPlayerDef
-			name "AsuranPacifists"
+			name "PsiPacifists"
 			planetAbilities
 				ability:0 "AbilityMinorFactionFarSight"
 				ability:1 "AbilityMinorFactionAntiMatterRestoreBonus"
@@ -1152,73 +1152,50 @@ GameplayConstants
 				ability:3 ""
 				ability:4 ""
 		minorFactionPlayerDef
-			name "AsuranCulture"
+			name "PsiCulture"
 			planetAbilities
 				ability:0 "AbilityMinorFactionSpreadCulture"
-				ability:1 "Asuran_AbilityMinorFactionSpawn_DefenseRaidUtility"
-				ability:2 "Asuran_AbilityMinorFactionSell_CapitalShipScout"
+				ability:1 "AbilityMinorFactionSpawnDefenseRaidPsiUtility"
+				ability:2 "AbilityMinorFactionTradeCreditsForCrystal"
 				ability:3 ""
 				ability:4 ""
 		minorFactionPlayerDef
-			name "AsuranDoomCult"
+			name "PsiDoomCult"
 			planetAbilities
-				ability:0 "Asuran_AbilityMinorFactionSpawn_RandomAttackRaids"
+				ability:0 "AbilityMinorFactionSpawnRandomAttackRaids"
 				ability:1 "AbilityMinorFactionStealAdjacentPlanetPopulation"
 				ability:2 "AbilityMinorFactionSacrificePopulationForDamage"
 				ability:3 ""
 				ability:4 ""
 		minorFactionPlayerDef
-			name "AsuranSiegeRaiders"
+			name "PsiSiegeRaiders"
 			planetAbilities
-				ability:0 "Asuran_AbilityMinorFactionSpawn_AttackRaid"
-				ability:1 "Asuran_AbilityMinorFactionSpawn_SiegeRaid"
+				ability:0 "AbilityMinorFactionSpawnAttackRaidPsi"
+				ability:1 "AbilityMinorFactionSpawnSiegeRaidPsi"
 				ability:2 ""
 				ability:3 ""
 				ability:4 ""
 		minorFactionPlayerDef
-			name "GoauldTransporters"
+			name "PhaseTransporters"
 			planetAbilities
-				ability:0 "Goauld_AbilityMinorFactionSpawn_RemoteAttackRaid"
+				ability:0 "AbilityMinorFactionSpawnRemoteAttackRaidPhase"
 				ability:1 "AbilityMinorFactionHyperspaceSpeedBonus"
-				ability:2 "AbilityMinorFactionTradeCreditsForCrystal"
+				ability:2 "AbilityMinorFactionSellCapitalShipPhaseScout"
 				ability:3 ""
 				ability:4 ""
 		minorFactionPlayerDef
-			name "GoauldExpedition"
+			name "PhaseExpedition"
 			planetAbilities
 				ability:0 "AbilityMinorFactionExploreNearbyPlanets"
 				ability:1 "AbilityMinorFactionColonizeBonus"
-				ability:2 "Goauld_AbilityMinorFactionSpawn_ScoutRaid"
+				ability:2 "AbilityMinorFactionSpawnScoutRaidPhase"
 				ability:3 "AbilityMinorFactionSpeedBonus"
 				ability:4 ""
 		minorFactionPlayerDef
-			name "GoauldArmsDealers"
+			name "PhaseArmsDealers"
 			planetAbilities
 				ability:0 "AbilityMinorFactionWeaponDamageBonus"
 				ability:1 "AbilityMinorFactionBombingDamageBonusPhase"
 				ability:2 "AbilityMinorFactionTradeCreditsForMetal"
 				ability:3 ""
 				ability:4 ""
-	miscEntityDefNames
-		weaponDefName = "Weapon"
-		debrisDefName = "Debris"
-		missionAttackPlanetDefName = "MissionAttackPlanet"
-		missionCaptureResourcesDefName = "MissionCaptureResources"
-		missionCaptureMinorFactionDefName = "MissionCaptureMinorFaction"
-		missionColonizeDefName = "MissionColonize"
-		missionDefendFlagshipDefName = "MissionDefendFlagship"
-		missionBuildStarBaseDefName = "MissionBuildStarBase"
-		missionBuildMinesDefName = "MissionBuildMines"
-		missionFosterRelationshipsDefName = "MissionFosterRelationships"
-		missionExploreDefName = "MissionExplore"
-		missionRaidDefName = "MissionRaid"
-		empireWindowNodeDefName = "EmpireWindowNode"
-		resourceAsteroidMetalDefName = "ResourceAsteroidMetal"
-		resourceAsteroidCrystalDefName = "ResourceAsteroidCrystal"
-		neutralMetalExtractorDefName = "PLANETMODULE_TECHORBITALMETALEXTRACTOR"
-		neutralCrystalExtractorDefName = "PLANETMODULE_TECHORBITALCRYSTALEXTRACTOR"
-		neutralCaptureBuffDefName = "BuffNeutralCapturableEntity"
-		fleetDefName = "Fleet"
-		formationDefName = "Formation"
-		spacePonyBonusDefName = "PlanetBonusSpacePony"
-		decloakMineForMovementBuffDefName = "BuffDecloakMineForMovement"

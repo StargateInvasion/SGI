@@ -56,10 +56,10 @@ MaxShieldPoints
 	ValueIncreasePerLevel 500.000000
 HullPointRestoreRate
 	StartValue 15.000000
-	ValueIncreasePerLevel 2.000000
+	ValueIncreasePerLevel 0.400000
 ShieldPointRestoreRate
 	StartValue 30.000000
-	ValueIncreasePerLevel 10.000000
+	ValueIncreasePerLevel 2.000000
 ArmorPointsFromExperience
 	StartValue 4.000000
 	ValueIncreasePerLevel 0.340000
@@ -107,27 +107,28 @@ Weapon
 		WeaponClassType "PULSEGUN"
 	DamagePerBank:FRONT 125.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 175.000000
-	DamagePerBank:RIGHT 175.000000
+	DamagePerBank:LEFT 125.000000
+	DamagePerBank:RIGHT 125.000000
 	Range 5000.000000
 	PreBuffCooldownTime 4.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.300000
-	TravelSpeed 900.000000
+	TravelSpeed 1900.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 1
+		burstCount 3
 		burstDelay 0.350000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Human_Muzzle"
-		muzzleSoundMinRespawnTime 0.770000
+		muzzleEffectName "Weapon_TechCapitalLaserLight_Muzzle"
+		muzzleSoundMinRespawnTime 1.2000
 		muzzleSounds
-			soundCount 1
-			sound "Asuran_PulseCannon_Firing"
-		hitEffectName "Weapon_HumanRailguns_Hit"
+			soundCount 2
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_Tech_AutoCannonFighter_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
@@ -157,8 +158,8 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Missile"
-		burstCount 8
-		burstDelay 0.130000
+		burstCount 7
+		burstDelay 0.160000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
 		muzzleSoundMinRespawnTime 0.100000
@@ -166,7 +167,7 @@ Weapon
 			soundCount 2
 			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
 			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
-		hitEffectName "Weapon_PhaseCapitalMissileHeavy_Hit"
+		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"

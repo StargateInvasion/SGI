@@ -56,10 +56,10 @@ MaxShieldPoints
 	ValueIncreasePerLevel 1000.000000
 HullPointRestoreRate
 	StartValue 5.000000
-	ValueIncreasePerLevel 5.000000
+	ValueIncreasePerLevel 1.0000000
 ShieldPointRestoreRate
 	StartValue 20.000000
-	ValueIncreasePerLevel 5.000000
+	ValueIncreasePerLevel 1.000000
 ArmorPointsFromExperience
 	StartValue 2.000000
 	ValueIncreasePerLevel 0.500000
@@ -111,20 +111,21 @@ Weapon
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.300000
-	TravelSpeed 1200.000000
+	TravelSpeed 2600.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
 		burstCount 3
-		burstDelay 0.350000
+		burstDelay 0.35000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Human_Muzzle"
-		muzzleSoundMinRespawnTime 0.770000
+		muzzleEffectName "Weapon_TechCapitalLaserLight_Muzzle"
+		muzzleSoundMinRespawnTime 1.2000
 		muzzleSounds
-			soundCount 1
-			sound "Asuran_PulseCannon_Firing"
-		hitEffectName "Weapon_HumanRailguns_Hit"
+			soundCount 2
+			sound "WEAPON_PHASECAPITALPULSEGUNLIGHT_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNLIGHT_MUZZLE_ALT1"
+		hitEffectName "Weapon_Tech_AutoCannonFighter_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
@@ -149,20 +150,21 @@ Weapon
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.300000
-	TravelSpeed 1200.000000
+	TravelSpeed 2200.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 1
+		burstCount 2
 		burstDelay 0.350000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Human_Muzzle"
-		muzzleSoundMinRespawnTime 0.770000
+		muzzleEffectName "Weapon_TechCapitalLaserLight_Muzzle"
+		muzzleSoundMinRespawnTime 1.2000
 		muzzleSounds
-			soundCount 1
-			sound "Asuran_PulseCannon_Firing"
-		hitEffectName "Weapon_HumanRailguns_Hit"
+			soundCount 2
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_Tech_AutoCannonFighter_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
@@ -178,36 +180,36 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PULSEGUN"
-	DamagePerBank:FRONT 150.000000
+	DamagePerBank:FRONT 750.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
 	Range 4750.000000
-	PreBuffCooldownTime 5.500000
-	CanFireAtFighter TRUE
+	PreBuffCooldownTime 27.500000
+	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.300000
-	TravelSpeed 1200.000000
+	PointStaggerDelay 0.7000
+	TravelSpeed 4500.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 1
-		burstDelay 1.000000
+		burstCount 2
+		burstDelay 2.1000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Human_Muzzle"
-		muzzleSoundMinRespawnTime 2.000000
+		muzzleEffectName "Weapon_TechCapitalLaserLight_Muzzle"
+		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
 			soundCount 1
-			sound "Asuran_PulseCannon_Firing"
-		hitEffectName "Weapon_HumanRailguns_Hit"
+			sound "WEAPON_PHASECAPITALPULSEGUNHEAVY_MUZZLE"
+		hitEffectName "Weapon_Tech_AutoCannonCapShip_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
-		projectileTravelEffectName "Weapon_AsuranCapitalLaserLight_Travel"
+		projectileTravelEffectName "Weapon_GoauldPlasmaMedium_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1

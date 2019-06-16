@@ -56,10 +56,10 @@ MaxShieldPoints
 	ValueIncreasePerLevel 500.000000
 HullPointRestoreRate
 	StartValue 15.000000
-	ValueIncreasePerLevel 5.000000
+	ValueIncreasePerLevel 1.000000
 ShieldPointRestoreRate
 	StartValue 50.000000
-	ValueIncreasePerLevel 20.000000
+	ValueIncreasePerLevel 4.000000
 ArmorPointsFromExperience
 	StartValue 5.000000
 	ValueIncreasePerLevel 0.500000
@@ -104,7 +104,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "PHASEMISSILE"
-	DamagePerBank:FRONT 250.000000
+	DamagePerBank:FRONT 400.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -119,7 +119,7 @@ Weapon
 	WeaponEffects
 		weaponType "Missile"
 		burstCount 10
-		burstDelay 0.130000
+		burstDelay 0.160000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
 		muzzleSoundMinRespawnTime 0.100000
@@ -127,7 +127,7 @@ Weapon
 			soundCount 2
 			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
 			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
-		hitEffectName "Weapon_PhaseCapitalMissileHeavy_Hit"
+		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
@@ -146,12 +146,12 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "PHASEMISSILE"
-	DamagePerBank:FRONT 150.000000
+	DamagePerBank:FRONT 0.000000
 	DamagePerBank:BACK 0.000000
-	DamagePerBank:LEFT 100.000000
-	DamagePerBank:RIGHT 100.000000
+	DamagePerBank:LEFT 600.000000
+	DamagePerBank:RIGHT 600.000000
 	Range 6000.000000
-	PreBuffCooldownTime 4.000000
+	PreBuffCooldownTime 24.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.080000
@@ -160,8 +160,8 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Missile"
-		burstCount 10
-		burstDelay 0.130000
+		burstCount 1
+		burstDelay 0.160000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
 		muzzleSoundMinRespawnTime 0.100000
@@ -169,7 +169,7 @@ Weapon
 			soundCount 2
 			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
 			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
-		hitEffectName "Weapon_PhaseCapitalMissileHeavy_Hit"
+		hitEffectName "Weapon_GoauldPlasmaHeavy_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"

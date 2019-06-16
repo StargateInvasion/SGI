@@ -62,13 +62,13 @@ Weapon
 	PreBuffCooldownTime 2.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.200000
+	PointStaggerDelay 0.500000
 	TravelSpeed 2000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 2
+		burstCount 1
 		burstDelay 0.200000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
@@ -76,7 +76,7 @@ Weapon
 		muzzleSounds
 			soundCount 1
 			sound "Weapon_Goa'uld_Capital"
-		hitEffectName "Weapon_PhaseCapitalWaveLight_Hit"
+		hitEffectName "Weapon_Tech_AutoCannonCapShip_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
