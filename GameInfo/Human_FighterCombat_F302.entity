@@ -34,7 +34,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 10.000000
+	DamagePerBank:FRONT 20.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -74,7 +74,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "PHYSICAL"
 		WeaponClassType "AUTOCANNON"
-	DamagePerBank:FRONT 10.000000
+	DamagePerBank:FRONT 20.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -119,10 +119,10 @@ ExplosionName "Fighter0"
 exhaustTrailTextureName "ExhaustTrail"
 exhaustTrailWidth 9.000000
 engineSoundID "ENGINE_TECHSUPPORTSHIP"
-maxHullPoints 60.000000
-hullPointRestoreRate 0.332000
+maxHullPoints 120.000000
+hullPointRestoreRate 0.664000
 armorPoints 1.000000
 maxMitigation 0.600000
-experiencePointsForDestroying 3.500000
+experiencePointsForDestroying 7.000000
 minShadow 0.000000
 maxShadow 0.500000

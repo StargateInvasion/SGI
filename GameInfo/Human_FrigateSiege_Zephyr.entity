@@ -95,16 +95,16 @@ Weapon
 	PreBuffCooldownTime 3.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 1.500000
-	TravelSpeed 1275.000000
+	PointStaggerDelay 0.70000
+	TravelSpeed 2000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 2
-		burstDelay 0.055000
+		burstCount 4
+		burstDelay 0.030000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Human_Muzzle"
+		muzzleEffectName "Weapon_Human_LaserHeavy_Muzzle"
 		muzzleSoundMinRespawnTime 0.770000
 		muzzleSounds
 			soundCount 3
