@@ -130,7 +130,7 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Missile"
-		burstCount 10
+		burstCount 4
 		burstDelay 0.100000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
@@ -172,17 +172,15 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 1
+		burstCount 3
 		burstDelay 0.350000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_Human_Muzzle"
 		muzzleSoundMinRespawnTime 0.770000
 		muzzleSounds
-			soundCount 3
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE"
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT1"
-			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT2"
-		hitEffectName "Weapon_HumanRailguns_Hit"
+			soundCount 1
+			sound "Asuran_PulseCannon_Firing"
+		hitEffectName "Weapon_Tech_AutoCannonCapShip_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
