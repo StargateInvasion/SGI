@@ -62,29 +62,30 @@ Weapon
 	PreBuffCooldownTime 3.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.050000
+	PointStaggerDelay 0.70000
 	TravelSpeed 4000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 4
-		burstDelay 0.150000
+		burstCount 6
+		burstDelay 0.0500
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_AutoCannonFrigate_Muzzle"
-		muzzleSoundMinRespawnTime 10.000000
+		muzzleEffectName "Weapon_Tech_CapitalLaser_Muzzle"
+		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
-			soundCount 2
-			sound "WEAPON_TECHCAPITALAUTOCANNONMEDIUM_MUZZLE_ALT1"
-			sound "WEAPON_TECHCAPITALAUTOCANNONMEDIUM_MUZZLE_ALT2"
-		hitEffectName "Weapon_Tech_AutoCannonFrigate_Hit"
+			soundCount 3
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE"
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT2"
+		hitEffectName "Weapon_Tech_AutoCannonCapShip_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_PHYSICALMEDIUM_HITHULL"
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
-		projectileTravelEffectName "Weapon_Tech_AutoCannonFrigate_Travel"
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Tech_AutoCannonCapShip_Travel"
 Weapon
 	WeaponType "Projectile"
 	damageEnums
@@ -101,29 +102,30 @@ Weapon
 	PreBuffCooldownTime 3.000000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.050000
-	TravelSpeed 4000.000000
+	PointStaggerDelay 0.70000
+	TravelSpeed 2000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 4
-		burstDelay 0.150000
+		burstCount 8
+		burstDelay 0.030000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_AutoCannonFrigate_Muzzle"
-		muzzleSoundMinRespawnTime 10.000000
+		muzzleEffectName "Weapon_Human_LaserHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.770000
 		muzzleSounds
-			soundCount 2
-			sound "WEAPON_TECHCAPITALAUTOCANNONMEDIUM_MUZZLE_ALT1"
-			sound "WEAPON_TECHCAPITALAUTOCANNONMEDIUM_MUZZLE_ALT2"
-		hitEffectName "Weapon_Tech_AutoCannonFrigate_Hit"
+			soundCount 3
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE"
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT1"
+			sound "WEAPON_TECHCAPITALAUTOCANNONHEAVY_MUZZLE_ALT2"
+		hitEffectName "Weapon_HumanRailguns_Hit"
 		hitHullEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_PHYSICALMEDIUM_HITHULL"
+			sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
 		hitShieldsEffectSounds
 			soundCount 1
-			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
-		projectileTravelEffectName "Weapon_Tech_AutoCannonFrigate_Travel"
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_HumanRailgun_Travel"
 Weapon
 	WeaponType "Missile"
 	damageEnums
@@ -140,7 +142,7 @@ Weapon
 	PreBuffCooldownTime 5.500000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.150000
+	PointStaggerDelay 0.50000
 	TravelSpeed 1300.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
@@ -149,21 +151,23 @@ Weapon
 		burstCount 1
 		burstDelay 0.600000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Tech_MissileFrigate_Muzzle"
-		muzzleSoundMinRespawnTime 0.500000
+		muzzleEffectName "Weapon_TechCapitalPlanetBombing_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
-			soundCount 3
-			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE"
-			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE_ALT1"
-			sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE_ALT2"
-		hitEffectName "Weapon_Tech_MissileFrigate_Hit"
+			soundCount 1
+			sound "WEAPON_TECH_PLANETBOMB_MUZZLE"
+		hitEffectName "Weapon_HumanRailguns_Hit"
 		hitHullEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_MISSILEHEAVY_HITGENERIC"
+			soundCount 3
+			sound "EXPLOSION_SUB4"
+			sound "EXPLOSION_SUB4_ALT1"
+			sound "EXPLOSION_SUB4_ALT2"
 		hitShieldsEffectSounds
-			soundCount 1
-			sound "WEAPONIMPACT_MISSILEHEAVY_HITGENERIC"
-		missileTravelEffectName "Weapon_Tech_MissileFrigate_Travel"
+			soundCount 3
+			sound "EXPLOSION_SUB4"
+			sound "EXPLOSION_SUB4_ALT1"
+			sound "EXPLOSION_SUB4_ALT2"
+		missileTravelEffectName "Weapon_HumanMissileHeavy_Travel"
 		missileStartTurningDistance 250.000000
 		missileSlowTurnRate 1.208997
 		missileMaxSlowTurnTime 6.000000

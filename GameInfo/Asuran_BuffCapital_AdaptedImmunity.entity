@@ -30,24 +30,24 @@ entityModifier
 	buffEntityModifierType "AbilityCooldownRate"
 	value
 		Level:0 -1.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 -1.000000
 entityModifier
 	buffEntityModifierType "AntimatterCostOfNonUltimates"
 	value
 		Level:0 1.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 1.000000
 numEntityBoolModifiers 0
 numFinishConditions 2
 finishCondition
 	finishConditionType "TimeElapsed"
 	time
 		Level:0 30.000000
-		Level:1 0.000000
-		Level:2 0.000000
-		Level:3 0.000000
+		Level:1 30.000000
+		Level:2 30.000000
+		Level:3 30.000000
 finishCondition
 	finishConditionType "OwnerChanged"

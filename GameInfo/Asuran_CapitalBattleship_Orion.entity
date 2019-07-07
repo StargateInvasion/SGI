@@ -24,12 +24,12 @@ bombEffectsDef
 	burstCount 1
 	burstDelay 0.000000
 	fireDelay 0.000000
-	muzzleEffectName "Weapon_PsiCapitalPlanetBombing_Muzzle"
+	muzzleEffectName "Weapon_TechCapitalPlanetBombing_Muzzle"
 	muzzleSoundMinRespawnTime 0.100000
 	muzzleSounds
 		soundCount 1
-		sound "WEAPON_PSI_PLANETBOMB_MUZZLE"
-	hitEffectName "Weapon_PsiCapitalPlanetBombing_Hit"
+		sound ""
+	hitEffectName "Weapon_TechFrigatePlanetBombing_Hit"
 	hitHullEffectSounds
 		soundCount 3
 		sound "EXPLOSION_SUB4"
@@ -40,7 +40,7 @@ bombEffectsDef
 		sound "EXPLOSION_SUB4"
 		sound "EXPLOSION_SUB4_ALT1"
 		sound "EXPLOSION_SUB4_ALT2"
-	projectileTravelEffectName "Weapon_PsiCapitalPlanetBombing_Travel"
+	projectileTravelEffectName "Weapon_AsuranCapitalDroneUltra_Travel"
 mainViewIcon "MAINVIEWICON_ASURAN_CAPITALBATTLESHIP_ORION"
 basePrice
 	credits 3500.000000
@@ -119,8 +119,8 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Missile"
-		burstCount 5
-		burstDelay 0.020000
+		burstCount 14
+		burstDelay 0.320000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
 		muzzleSoundMinRespawnTime 0.100000
@@ -155,21 +155,21 @@ Weapon
 	PreBuffCooldownTime 4.500000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.300000
+	PointStaggerDelay 0.010000
 	TravelSpeed 1200.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 2
-		burstDelay 0.350000
+		burstCount 12
+		burstDelay 0.370000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Human_Muzzle"
+		muzzleEffectName "Weapon_AsuranCapitalLaserLight_Muzzle"
 		muzzleSoundMinRespawnTime 0.770000
 		muzzleSounds
 			soundCount 1
 			sound "Asuran_PulseCannon_Firing"
-		hitEffectName "Weapon_HumanRailguns_Hit"
+		hitEffectName "Weapon_AsuranAutoCannonCapShip_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"

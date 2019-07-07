@@ -109,9 +109,9 @@ Weapon
 		DamageType "ENERGY"
 		WeaponClassType "PULSEGUN"
 	DamagePerBank:FRONT 300.000000
-	DamagePerBank:BACK 225.000000
+	DamagePerBank:BACK 150.000000
 	DamagePerBank:LEFT 225.000000
-	DamagePerBank:RIGHT 150.000000
+	DamagePerBank:RIGHT 225.000000
 	Range 5500.000000
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter FALSE
@@ -122,15 +122,15 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 1
+		burstCount 3
 		burstDelay 0.350000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Human_Muzzle"
+		muzzleEffectName "Weapon_AsuranCapitalLaserLight_Muzzle"
 		muzzleSoundMinRespawnTime 0.770000
 		muzzleSounds
 			soundCount 1
 			sound "Asuran_PulseCannon_Firing"
-		hitEffectName "Weapon_HumanRailguns_Hit"
+		hitEffectName "Weapon_AsuranAutoCannonCapShip_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
@@ -193,9 +193,9 @@ Weapon
 		DamageType "ENERGY"
 		WeaponClassType "PULSEGUN"
 	DamagePerBank:FRONT 400.000000
-	DamagePerBank:BACK 200.000000
+	DamagePerBank:BACK 150.000000
 	DamagePerBank:LEFT 200.000000
-	DamagePerBank:RIGHT 150.000000
+	DamagePerBank:RIGHT 200.000000
 	Range 5500.000000
 	PreBuffCooldownTime 5.000000
 	CanFireAtFighter FALSE
@@ -206,15 +206,15 @@ Weapon
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 1
+		burstCount 3
 		burstDelay 0.350000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_Human_Muzzle"
+		muzzleEffectName "Weapon_AsuranCapitalLaserLight_Muzzle"
 		muzzleSoundMinRespawnTime 0.770000
 		muzzleSounds
 			soundCount 1
 			sound "Asuran_PulseCannon_Firing"
-		hitEffectName "Weapon_HumanRailguns_Hit"
+		hitEffectName "Weapon_AsuranAutoCannonCapShip_Hit"
 		hitHullEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
