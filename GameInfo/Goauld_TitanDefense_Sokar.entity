@@ -48,7 +48,7 @@ MaxHullPoints
 	StartValue 10000.000000
 	ValueIncreasePerLevel 500.000000
 MaxShieldPoints
-	StartValue 15000.000000
+	StartValue 35000.000000
 	ValueIncreasePerLevel 500.000000
 HullPointRestoreRate
 	StartValue 20.000000
@@ -109,7 +109,7 @@ Weapon
 	DamagePerBank:BACK 150.000000
 	DamagePerBank:LEFT 150.000000
 	DamagePerBank:RIGHT 150.000000
-	Range 6500.000000
+	Range 12000.000000
 	PreBuffCooldownTime 2.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -134,13 +134,13 @@ Weapon
 		hitShieldsEffectSounds
 			soundCount 1
 			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
-		projectileTravelEffectName "Weapon_GoauldCapitalPlasma_Travel"
+		projectileTravelEffectName "Weapon_GoauldPlasmaMedium_Travel"
 m_weaponIndexForRange 0
 firingAlignmentType "Default"
-TargetCountPerBank:FRONT 1
-TargetCountPerBank:BACK 1
-TargetCountPerBank:LEFT 1
-TargetCountPerBank:RIGHT 1
+TargetCountPerBank:FRONT 5
+TargetCountPerBank:BACK 5
+TargetCountPerBank:LEFT 5
+TargetCountPerBank:RIGHT 5
 canOnlyTargetStructures FALSE
 mass 10000.000000
 ShieldMeshName "Goauld_Shield_TitanDefense_Sokar"
