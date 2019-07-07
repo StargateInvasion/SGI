@@ -29,9 +29,9 @@ Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-MaxHullPoints 1000.000000
+MaxHullPoints 3000.000000
 HullPointRestoreRate 10.000000
-BaseArmorPoints 10.000000
+BaseArmorPoints 15.000000
 MaxShieldPoints 0.000000
 ShieldPointRestoreRate 0.000000
 maxShieldMitigation 0.000000
@@ -88,16 +88,16 @@ NumWeapons 1
 Weapon
 	WeaponType "Projectile"
 	damageEnums
-		AttackType "ANTIHEAVY"
+		AttackType "ANTILIGHT"
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
-		DamageType "ENERGY"
-		WeaponClassType "PLASMA"
+		DamageType "PHYSICAL"
+		WeaponClassType "AUTOCANNON"
 	DamagePerBank:FRONT 400.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 5500.000000
+	Range 4500.000000
 	PreBuffCooldownTime 1.500000
 	CanFireAtFighter TRUE
 	SynchronizedTargeting FALSE
@@ -108,7 +108,7 @@ Weapon
 	WeaponEffects
 		weaponType "Projectile"
 		burstCount 1
-		burstDelay 0.350000
+		burstDelay 0.300000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_GoauldCapitalPlasma_Muzzle"
 		muzzleSoundMinRespawnTime 1.000000
@@ -127,7 +127,7 @@ Weapon
 m_weaponIndexForRange 2
 firingAlignmentType "Default"
 TargetCountPerBank:FRONT 1
-TargetCountPerBank:BACK 1
-TargetCountPerBank:LEFT 1
-TargetCountPerBank:RIGHT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
