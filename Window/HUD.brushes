@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 176
+brushCount 187
 brush
 	name "RebellionResearchOverlay"
 	content "Simple"
@@ -17,7 +17,35 @@ brush
 	fileName "DebugOverlay"
 	pixelBox [ 0 , 0 , 1024 , 768 ]
 brush
-	name "ActionGridSlotBackdropTech"
+	name "ActionGridSlotBackdropAsgard"
+	content "MarginsAndStates"
+	stretchMargins
+		left 5
+		right 8
+		top 4
+		bottom 8
+	contentMargins
+		left 2
+		right 2
+		top 2
+		bottom 2
+	Disabled
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 584 , 54 , 38 ]
+	Pressed
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 674 , 54 , 38 ]
+	CursorOver
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 629 , 54 , 38 ]
+	Focused
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 539 , 54 , 38 ]
+	Normal
+		fileName "Buttons_Backgrounds"
+		pixelBox [ 474 , 494 , 54 , 38 ]
+brush
+	name "ActionGridSlotBackdropAsuran"
 	content "MarginsAndStates"
 	stretchMargins
 		left 5
@@ -73,7 +101,7 @@ brush
 		fileName "Buttons_Backgrounds"
 		pixelBox [ 474 , 494 , 54 , 38 ]
 brush
-	name "ActionGridSlotBackdropPsi"
+	name "ActionGridSlotBackdropHuman"
 	content "MarginsAndStates"
 	stretchMargins
 		left 5
@@ -101,7 +129,7 @@ brush
 		fileName "Buttons_Backgrounds"
 		pixelBox [ 474 , 494 , 54 , 38 ]
 brush
-	name "ActionGridSlotBackdropPhase"
+	name "ActionGridSlotBackdropWraith"
 	content "MarginsAndStates"
 	stretchMargins
 		left 5
@@ -154,9 +182,14 @@ brush
 	fileName "fog"
 	pixelBox [ 0 , 0 , 512 , 384 ]
 brush
-	name "BottomWindowBackdropTech"
+	name "BottomWindowBackdropAsgard"
 	content "Simple"
-	fileName "Human_GUI_Skin"
+	fileName "Asgard_GUI_Skin"
+	pixelBox [ 0 , 384 , 1024 , 128 ]
+brush
+	name "BottomWindowBackdropAsuran"
+	content "Simple"
+	fileName "Asuran_GUI_Skin"
 	pixelBox [ 0 , 384 , 1024 , 128 ]
 brush
 	name "BottomWindowBackdropGoauld"
@@ -164,19 +197,24 @@ brush
 	fileName "Goauld_GUI_Skin"
 	pixelBox [ 0 , 384 , 1024 , 128 ]
 brush
-	name "BottomWindowBackdropPsi"
-	content "Simple"
-	fileName "Skin_Psi"
-	pixelBox [ 0 , 384 , 1024 , 128 ]
-brush
-	name "BottomWindowBackdropPhase"
-	content "Simple"
-	fileName "Asuran_GUI_Skin"
-	pixelBox [ 0 , 384 , 1024 , 128 ]
-brush
-	name "BottomWindowOverlayTech"
+	name "BottomWindowBackdropHuman"
 	content "Simple"
 	fileName "Human_GUI_Skin"
+	pixelBox [ 0 , 384 , 1024 , 128 ]
+brush
+	name "BottomWindowBackdropWraith"
+	content "Simple"
+	fileName "Wraith_GUI_Skin"
+	pixelBox [ 0 , 384 , 1024 , 128 ]
+brush
+	name "BottomWindowOverlayAsgard"
+	content "Simple"
+	fileName "Asgard_GUI_Skin"
+	pixelBox [ 0 , 255 , 1024 , 128 ]
+brush
+	name "BottomWindowOverlayAsuran"
+	content "Simple"
+	fileName "Asuran_GUI_Skin"
 	pixelBox [ 0 , 255 , 1024 , 128 ]
 brush
 	name "BottomWindowOverlayGoauld"
@@ -184,14 +222,14 @@ brush
 	fileName "Goauld_GUI_Skin"
 	pixelBox [ 0 , 255 , 1024 , 128 ]
 brush
-	name "BottomWindowOverlayPsi"
+	name "BottomWindowOverlayHuman"
 	content "Simple"
-	fileName "Skin_Psi"
+	fileName "Human_GUI_Skin"
 	pixelBox [ 0 , 255 , 1024 , 128 ]
 brush
-	name "BottomWindowOverlayPhase"
+	name "BottomWindowOverlayWraith"
 	content "Simple"
-	fileName "Asuran_GUI_Skin"
+	fileName "Wraith_GUI_Skin"
 	pixelBox [ 0 , 255 , 1024 , 128 ]
 brush
 	name "BottomWindowButtonZoomIn"
@@ -936,20 +974,35 @@ brush
 	fileName "smallicons"
 	pixelBox [ 5 , 1 , 22 , 22 ]
 brush
-	name "InfoCardAttachedToBottomBackdropTech"
+	name "InfoCardAttachedToBottomBackdropAsgard"
 	content "Margins"
 	stretchMargins
 		left 0
 		right 0
-		top 19
-		bottom 9
+		top 20
+		bottom 10
 	contentMargins
 		left 32
 		right 32
 		top 14
-		bottom 14
-	fileName "Human_GUI_Skin"
-	pixelBox [ 674 , 224 , 339 , 29 ]
+		bottom 16
+	fileName "Asgard_GUI_Skin"
+	pixelBox [ 674 , 224 , 339 , 32 ]
+brush
+	name "InfoCardAttachedToBottomBackdropAsuran"
+	content "Margins"
+	stretchMargins
+		left 0
+		right 0
+		top 20
+		bottom 10
+	contentMargins
+		left 32
+		right 32
+		top 14
+		bottom 15
+	fileName "Asuran_GUI_Skin"
+	pixelBox [ 675 , 224 , 339 , 31 ]
 brush
 	name "InfoCardAttachedToBottomBackdropGoauld"
 	content "Margins"
@@ -964,39 +1017,24 @@ brush
 		top 14
 		bottom 14
 	fileName "Goauld_GUI_Skin"
+	pixelBox [ 674 , 224 , 339 , 30 ]
+brush
+	name "InfoCardAttachedToBottomBackdropHuman"
+	content "Margins"
+	stretchMargins
+		left 0
+		right 0
+		top 19
+		bottom 9
+	contentMargins
+		left 32
+		right 32
+		top 14
+		bottom 14
+	fileName "Human_GUI_Skin"
 	pixelBox [ 674 , 224 , 339 , 29 ]
 brush
-	name "InfoCardAttachedToScreenEdgeBackdropTech"
-	content "Margins"
-	stretchMargins
-		left 10
-		right 20
-		top 20
-		bottom 20
-	contentMargins
-		left 32
-		right 32
-		top 14
-		bottom 22
-	fileName "BackdropInGame_SGI"
-	pixelBox [ 2016 , 11 , 29 , 295 ]
-brush
-	name "InfoCardAttachedToScreenEdgeBackdropGoauld"
-	content "Margins"
-	stretchMargins
-		left 10
-		right 20
-		top 20
-		bottom 20
-	contentMargins
-		left 32
-		right 32
-		top 14
-		bottom 22
-	fileName "BackdropInGame_SGI"
-	pixelBox [ 2016 , 11 , 29 , 295 ]
-brush
-	name "InfoCardAttachedToBottomBackdropPsi"
+	name "InfoCardAttachedToBottomBackdropWraith"
 	content "Margins"
 	stretchMargins
 		left 0
@@ -1008,40 +1046,10 @@ brush
 		right 32
 		top 14
 		bottom 14
-	fileName "Skin_Psi"
-	pixelBox [ 716 , 225 , 297 , 29 ]
-brush
-	name "InfoCardAttachedToScreenEdgeBackdropPsi"
-	content "Margins"
-	stretchMargins
-		left 10
-		right 20
-		top 20
-		bottom 20
-	contentMargins
-		left 32
-		right 32
-		top 14
-		bottom 22
-	fileName "BackdropInGame_SGI"
-	pixelBox [ 2016 , 11 , 29 , 295 ]
-brush
-	name "InfoCardAttachedToBottomBackdropPhase"
-	content "Margins"
-	stretchMargins
-		left 0
-		right 0
-		top 20
-		bottom 10
-	contentMargins
-		left 32
-		right 32
-		top 14
-		bottom 14
-	fileName "Asuran_GUI_Skin"
+	fileName "Wraith_GUI_Skin"
 	pixelBox [ 674 , 224 , 339 , 29 ]
 brush
-	name "InfoCardAttachedToScreenEdgeBackdropPhase"
+	name "InfoCardAttachedToScreenEdgeBackdrop"
 	content "Margins"
 	stretchMargins
 		left 10
@@ -1388,9 +1396,14 @@ brush
 	fileName "Races_Unit_Main"
 	pixelBox [ 391 , 271 , 28 , 28 ]
 brush
-	name "EmpireWindowOptionsWindowBackdropTech"
+	name "EmpireWindowOptionsWindowBackdropAsgard"
 	content "Simple"
-	fileName "Human_GUI_Skin"
+	fileName "Asgard_GUI_Skin"
+	pixelBox [ 294 , 216 , 228 , 39 ]
+brush
+	name "EmpireWindowOptionsWindowBackdropAsuran"
+	content "Simple"
+	fileName "Asuran_GUI_Skin"
 	pixelBox [ 294 , 216 , 228 , 39 ]
 brush
 	name "EmpireWindowOptionsWindowBackdropGoauld"
@@ -1398,9 +1411,24 @@ brush
 	fileName "Goauld_GUI_Skin"
 	pixelBox [ 294 , 216 , 228 , 39 ]
 brush
-	name "EmpireWindowOptionsWindowHighResBackdropTech"
+	name "EmpireWindowOptionsWindowBackdropHuman"
 	content "Simple"
 	fileName "Human_GUI_Skin"
+	pixelBox [ 294 , 216 , 228 , 39 ]
+brush
+	name "EmpireWindowOptionsWindowBackdropWraith"
+	content "Simple"
+	fileName "Wraith_GUI_Skin"
+	pixelBox [ 294 , 216 , 228 , 39 ]
+brush
+	name "EmpireWindowOptionsWindowHighResBackdropAsgard"
+	content "Simple"
+	fileName "Asgard_GUI_Skin"
+	pixelBox [ 0 , 216 , 228 , 39 ]
+brush
+	name "EmpireWindowOptionsWindowHighResBackdropAsuran"
+	content "Simple"
+	fileName "Asuran_GUI_Skin"
 	pixelBox [ 0 , 216 , 228 , 39 ]
 brush
 	name "EmpireWindowOptionsWindowHighResBackdropGoauld"
@@ -1408,24 +1436,14 @@ brush
 	fileName "Goauld_GUI_Skin"
 	pixelBox [ 0 , 216 , 228 , 39 ]
 brush
-	name "EmpireWindowOptionsWindowBackdropPsi"
+	name "EmpireWindowOptionsWindowHighResBackdropHuman"
 	content "Simple"
-	fileName "Skin_Psi"
-	pixelBox [ 294 , 216 , 228 , 39 ]
-brush
-	name "EmpireWindowOptionsWindowHighResBackdropPsi"
-	content "Simple"
-	fileName "Skin_Psi"
+	fileName "Human_GUI_Skin"
 	pixelBox [ 0 , 216 , 228 , 39 ]
 brush
-	name "EmpireWindowOptionsWindowBackdropPhase"
+	name "EmpireWindowOptionsWindowHighResBackdropWraith"
 	content "Simple"
-	fileName "Asuran_GUI_Skin"
-	pixelBox [ 294 , 216 , 228 , 39 ]
-brush
-	name "EmpireWindowOptionsWindowHighResBackdropPhase"
-	content "Simple"
-	fileName "Asuran_GUI_Skin"
+	fileName "Wraith_GUI_Skin"
 	pixelBox [ 0 , 216 , 228 , 39 ]
 brush
 	name "EmpireWindowOptionsWindowSelectionMenuOpenButton"
@@ -2068,9 +2086,14 @@ brush
 		fileName "Buttons_Screens_Normal_SGI"
 		pixelBox [ 4 , 577 , 65 , 38 ]
 brush
-	name "TopWindowBackdropTech"
+	name "TopWindowBackdropAsgard"
 	content "Simple"
-	fileName "Human_GUI_Skin"
+	fileName "Asgard_GUI_Skin"
+	pixelBox [ 0 , 0 , 1024 , 50 ]
+brush
+	name "TopWindowBackdropAsuran"
+	content "Simple"
+	fileName "Asuran_GUI_Skin"
 	pixelBox [ 0 , 0 , 1024 , 50 ]
 brush
 	name "TopWindowBackdropGoauld"
@@ -2078,19 +2101,24 @@ brush
 	fileName "Goauld_GUI_Skin"
 	pixelBox [ 0 , 0 , 1024 , 50 ]
 brush
-	name "TopWindowBackdropPsi"
-	content "Simple"
-	fileName "Skin_Psi"
-	pixelBox [ 0 , 0 , 1024 , 50 ]
-brush
-	name "TopWindowBackdropPhase"
-	content "Simple"
-	fileName "Asuran_GUI_Skin"
-	pixelBox [ 0 , 0 , 1024 , 50 ]
-brush
-	name "TopWindowOverlayTech"
+	name "TopWindowBackdropHuman"
 	content "Simple"
 	fileName "Human_GUI_Skin"
+	pixelBox [ 0 , 0 , 1024 , 50 ]
+brush
+	name "TopWindowBackdropWraith"
+	content "Simple"
+	fileName "Wraith_GUI_Skin"
+	pixelBox [ 0 , 0 , 1024 , 50 ]
+brush
+	name "TopWindowOverlayAsgard"
+	content "Simple"
+	fileName "Asgard_GUI_Skin"
+	pixelBox [ 0 , 51 , 1024 , 50 ]
+brush
+	name "TopWindowOverlayAsuran"
+	content "Simple"
+	fileName "Asuran_GUI_Skin"
 	pixelBox [ 0 , 51 , 1024 , 50 ]
 brush
 	name "TopWindowOverlayGoauld"
@@ -2098,95 +2126,115 @@ brush
 	fileName "Goauld_GUI_Skin"
 	pixelBox [ 0 , 51 , 1024 , 50 ]
 brush
-	name "TopWindowOverlayPsi"
-	content "Simple"
-	fileName "Skin_Psi"
-	pixelBox [ 0 , 51 , 1024 , 50 ]
-brush
-	name "TopWindowOverlayPhase"
-	content "Simple"
-	fileName "Asuran_GUI_Skin"
-	pixelBox [ 0 , 51 , 1024 , 50 ]
-brush
-	name "TopWindowLeftCapLowResTech"
+	name "TopWindowOverlayHuman"
 	content "Simple"
 	fileName "Human_GUI_Skin"
-	pixelBox [ 0 , 101 , 300 , 39 ]
+	pixelBox [ 0 , 51 , 1024 , 50 ]
+brush
+	name "TopWindowOverlayWraith"
+	content "Simple"
+	fileName "Wraith_GUI_Skin"
+	pixelBox [ 0 , 51 , 1024 , 50 ]
+brush
+	name "TopWindowLeftCapLowResAsgard"
+	content "Simple"
+	fileName "Asgard_GUI_Skin"
+	pixelBox [ 0 , 101 , 300 , 40 ]
+brush
+	name "TopWindowLeftCapLowResAsuran"
+	content "Simple"
+	fileName "Asuran_GUI_Skin"
+	pixelBox [ 0 , 101 , 300 , 40 ]
 brush
 	name "TopWindowLeftCapLowResGoauld"
 	content "Simple"
 	fileName "Goauld_GUI_Skin"
 	pixelBox [ 0 , 101 , 300 , 39 ]
 brush
-	name "TopWindowLeftCapHighResTech"
+	name "TopWindowLeftCapLowResHuman"
 	content "Simple"
 	fileName "Human_GUI_Skin"
+	pixelBox [ 0 , 101 , 300 , 39 ]
+brush
+	name "TopWindowLeftCapLowResWraith"
+	content "Simple"
+	fileName "Wraith_GUI_Skin"
+	pixelBox [ 0 , 101 , 300 , 40 ]
+brush
+	name "TopWindowLeftCapHighResAsgard"
+	content "Simple"
+	fileName "Asgard_GUI_Skin"
 	pixelBox [ 0 , 146 , 224 , 39 ]
 brush
-	name "TopWindowRightCapLowResTech"
+	name "TopWindowLeftCapHighResAsuran"
 	content "Simple"
-	fileName "Human_GUI_Skin"
-	pixelBox [ 713 , 101 , 310 , 39 ]
-brush
-	name "TopWindowRightCapHighResTech"
-	content "Simple"
-	fileName "Human_GUI_Skin"
-	pixelBox [ 979 , 146 , 45 , 39 ]
+	fileName "Asuran_GUI_Skin"
+	pixelBox [ 0 , 146 , 224 , 40 ]
 brush
 	name "TopWindowLeftCapHighResGoauld"
 	content "Simple"
 	fileName "Goauld_GUI_Skin"
 	pixelBox [ 0 , 146 , 224 , 39 ]
 brush
+	name "TopWindowLeftCapHighResHuman"
+	content "Simple"
+	fileName "Human_GUI_Skin"
+	pixelBox [ 0 , 146 , 224 , 39 ]
+brush
+	name "TopWindowLeftCapHighResWraith"
+	content "Simple"
+	fileName "Wraith_GUI_Skin"
+	pixelBox [ 0 , 146 , 224 , 40 ]
+brush
+	name "TopWindowRightCapLowResAsgard"
+	content "Simple"
+	fileName "Asgard_GUI_Skin"
+	pixelBox [ 713 , 101 , 310 , 40 ]
+brush
+	name "TopWindowRightCapLowResAsuran"
+	content "Simple"
+	fileName "Asuran_GUI_Skin"
+	pixelBox [ 713 , 101 , 310 , 40 ]
+brush
 	name "TopWindowRightCapLowResGoauld"
 	content "Simple"
 	fileName "Goauld_GUI_Skin"
 	pixelBox [ 713 , 101 , 310 , 39 ]
+brush
+	name "TopWindowRightCapLowResHuman"
+	content "Simple"
+	fileName "Human_GUI_Skin"
+	pixelBox [ 713 , 101 , 310 , 39 ]
+brush
+	name "TopWindowRightCapLowResWraith"
+	content "Simple"
+	fileName "Wraith_GUI_Skin"
+	pixelBox [ 713 , 101 , 310 , 40 ]
+brush
+	name "TopWindowRightCapHighResAsgard"
+	content "Simple"
+	fileName "Asgard_GUI_Skin"
+	pixelBox [ 979 , 146 , 45 , 40 ]
+brush
+	name "TopWindowRightCapHighResAsuran"
+	content "Simple"
+	fileName "Asuran_GUI_Skin"
+	pixelBox [ 979 , 146 , 45 , 40 ]
+brush
+	name "TopWindowRightCapHighResHuman"
+	content "Simple"
+	fileName "Human_GUI_Skin"
+	pixelBox [ 979 , 146 , 45 , 39 ]
 brush
 	name "TopWindowRightCapHighResGoauld"
 	content "Simple"
 	fileName "Goauld_GUI_Skin"
 	pixelBox [ 979 , 146 , 45 , 39 ]
 brush
-	name "TopWindowLeftCapLowResPsi"
+	name "TopWindowRightCapHighResWraith"
 	content "Simple"
-	fileName "Skin_Psi"
-	pixelBox [ 0 , 101 , 300 , 39 ]
-brush
-	name "TopWindowLeftCapHighResPsi"
-	content "Simple"
-	fileName "Skin_Psi"
-	pixelBox [ 0 , 146 , 224 , 39 ]
-brush
-	name "TopWindowRightCapLowResPsi"
-	content "Simple"
-	fileName "Skin_Psi"
-	pixelBox [ 713 , 101 , 310 , 39 ]
-brush
-	name "TopWindowRightCapHighResPsi"
-	content "Simple"
-	fileName "Skin_Psi"
+	fileName "Wraith_GUI_Skin"
 	pixelBox [ 979 , 146 , 45 , 39 ]
-brush
-	name "TopWindowLeftCapLowResPhase"
-	content "Simple"
-	fileName "Asuran_GUI_Skin"
-	pixelBox [ 0 , 101 , 300 , 40 ]
-brush
-	name "TopWindowLeftCapHighResPhase"
-	content "Simple"
-	fileName "Asuran_GUI_Skin"
-	pixelBox [ 0 , 146 , 224 , 40 ]
-brush
-	name "TopWindowRightCapLowResPhase"
-	content "Simple"
-	fileName "Asuran_GUI_Skin"
-	pixelBox [ 713 , 101 , 310 , 40 ]
-brush
-	name "TopWindowRightCapHighResPhase"
-	content "Simple"
-	fileName "Asuran_GUI_Skin"
-	pixelBox [ 979 , 146 , 45 , 40 ]
 brush
 	name "QuickMarketBuyButtonMetal"
 	content "States"
@@ -2280,12 +2328,12 @@ brush
 	fileName "Buttons_Interface2"
 	pixelBox [ 291 , 147 , 284 , 119 ]
 brush
-	name "QuickMarketBackdropPsi"
+	name "QuickMarketBackdropAsgard"
 	content "Simple"
 	fileName "Buttons_Interface2"
 	pixelBox [ 5 , 337 , 279 , 171 ]
 brush
-	name "QuickMarketBackdropNoPiratesPsi"
+	name "QuickMarketBackdropNoPiratesAsgard"
 	content "Simple"
 	fileName "Buttons_Interface2"
 	pixelBox [ 5 , 337 , 279 , 102 ]
@@ -2299,6 +2347,16 @@ brush
 	content "Simple"
 	fileName "Buttons_Interface2"
 	pixelBox [ 5 , 155 , 284 , 104 ]
+brush
+	name "QuickMarketBackdropWraith"
+	content "Simple"
+	fileName "Buttons_Interface2"
+	pixelBox [ 291 , 337 , 279 , 171 ]
+brush
+	name "QuickMarketBackdropNoPiratesWraith"
+	content "Simple"
+	fileName "Buttons_Interface2"
+	pixelBox [ 291 , 337 , 279 , 102 ]
 brush
 	name "QuickPirateIncreaseBountyOnHighestEnemyButton"
 	content "States"

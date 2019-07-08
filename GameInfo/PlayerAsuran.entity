@@ -571,19 +571,19 @@ hudSkinData
 	fleetIcon "MainViewIconFleetPhase9"
 	Bandbox "BANDBOX"
 	FogOfWar "FogOfWar"
-	ActionGridSlotBackdrop "ActionGridSlotBackdropPhase"
-	BottomWindowBackdrop "BottomWindowBackdropPhase"
-	BottomWindowOverlay "BottomWindowOverlayPhase"
-	TopWindowBackdrop "TopWindowBackdropPhase"
-	TopWindowOverlay "TopWindowOverlayPhase"
-	InfoCardAttachedToBottomBackdrop "InfoCardAttachedToBottomBackdropPhase"
-	InfoCardAttachedToScreenEdgeBackdrop "InfoCardAttachedToScreenEdgeBackdropPhase"
-	TopWindowLeftCapLowRes "TopWindowLeftCapLowResPhase"
-	TopWindowLeftCapHighRes "TopWindowLeftCapHighResPhase"
-	TopWindowRightCapLowRes "TopWindowRightCapLowResPhase"
-	TopWindowRightCapHighRes "TopWindowRightCapHighResPhase"
-	EmpireWindowBackdrop "EmpireWindowOptionsWindowBackdropPhase"
-	EmpireWindowHighResBackdrop "EmpireWindowOptionsWindowHighResBackdropPhase"
+	ActionGridSlotBackdrop "ActionGridSlotBackdropAsuran"
+	BottomWindowBackdrop "BottomWindowBackdropAsuran"
+	BottomWindowOverlay "BottomWindowOverlayAsuran"
+	TopWindowBackdrop "TopWindowBackdropAsuran"
+	TopWindowOverlay "TopWindowOverlayAsuran"
+	InfoCardAttachedToBottomBackdrop "InfoCardAttachedToBottomBackdropAsuran"
+	InfoCardAttachedToScreenEdgeBackdrop "InfoCardAttachedToScreenEdgeBackdrop"
+	TopWindowLeftCapLowRes "TopWindowLeftCapLowResAsuran"
+	TopWindowLeftCapHighRes "TopWindowLeftCapHighResAsuran"
+	TopWindowRightCapLowRes "TopWindowRightCapLowResAsuran"
+	TopWindowRightCapHighRes "TopWindowRightCapHighResAsuran"
+	EmpireWindowBackdrop "EmpireWindowOptionsWindowBackdropAsuran"
+	EmpireWindowHighResBackdrop "EmpireWindowOptionsWindowHighResBackdropAsuran"
 	QuickMarketBackdrop "QuickMarketBackdropAsuran"
 	QuickMarketBackdropNoPirates "QuickMarketBackdropNoPiratesAsuran"
 	UnknownPlanetHUDIcon "HUDICON_PLANET_UNKNOWN"
@@ -909,50 +909,25 @@ raceRelationsModifier
 	raceNameID "IDS_PLAYERRACENAME_GOAULD"
 	modifierMin -1.500000
 	modifierMax -1.000000
-	factionRelationsModCount 1
-	factionRelationsModifier
-		factionNameID "IDS_PLAYERFACTIONNAME_REBEL"
-		otherFactionNameID "IDS_PLAYERFACTIONNAME_REBEL"
-		modifierMin -0.500000
-		modifierMax 0.000000
+	factionRelationsModCount 0
 raceRelationsModifier
 	raceNameID "IDS_PLAYERRACENAME_HUMAN"
-	modifierMin -1.500000
-	modifierMax -1.000000
-	factionRelationsModCount 1
-	factionRelationsModifier
-		factionNameID "IDS_PLAYERFACTIONNAME_REBEL"
-		otherFactionNameID "IDS_PLAYERFACTIONNAME_LOYALIST"
-		modifierMin 0.250000
-		modifierMax 0.500000
+	modifierMin -2.250000
+	modifierMax -2.000000
+	factionRelationsModCount 0
 raceRelationsModifier
 	raceNameID "IDS_PLAYERRACENAME_ASGARD"
 	modifierMin -1.000000
 	modifierMax -0.500000
-	factionRelationsModCount 1
-	factionRelationsModifier
-		factionNameID "IDS_PLAYERFACTIONNAME_REBEL"
-		otherFactionNameID "IDS_PLAYERFACTIONNAME_REBEL"
-		modifierMin 0.000000
-		modifierMax 0.250000
+	factionRelationsModCount 0
 raceRelationsModifier
 	raceNameID "IDS_PLAYERRACENAME_ASURAN"
 	modifierMin 0.100000
 	modifierMax 1.000000
-	factionRelationsModCount 1
-	factionRelationsModifier
-		factionNameID "IDS_PLAYERFACTIONNAME_REBEL"
-		otherFactionNameID "IDS_PLAYERFACTIONNAME_REBEL"
-		modifierMin 0.500000
-		modifierMax 1.000000
+	factionRelationsModCount 0
 raceRelationsModifier
 	raceNameID "IDS_PLAYERRACENAME_WRAITH"
-	modifierMin 0.100000
-	modifierMax 1.000000
-	factionRelationsModCount 1
-	factionRelationsModifier
-		factionNameID "IDS_PLAYERFACTIONNAME_REBEL"
-		otherFactionNameID "IDS_PLAYERFACTIONNAME_LOYALIST"
-		modifierMin -5.000000
-		modifierMax -5.000000
-defaultFactionNameID "IDS_PLAYERFACTIONNAME_REBEL"
+	modifierMin -6.000000
+	modifierMax -3.100000
+	factionRelationsModCount 0
+defaultFactionNameID ""
