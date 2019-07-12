@@ -763,61 +763,61 @@ researchScreenData
 			area [ 50 , 49 , 690 , 193 ]
 			backdrop "ResearchScreenBlockBackdropCombat0Phase"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat0Phase"
-			title "IDSResearchScreenBlockTitleCombat0Phase"
-			picture "ResearchScreenBlockPictureCombat0Phase"
+			title "IDSResearchScreenBlockTitleCombat0Asuran"
+			picture "ResearchScreenBlockPictureCombat0Asuran"
 		block
 			area [ 50 , 252 , 690 , 236 ]
 			backdrop "ResearchScreenBlockBackdropCombat1Phase"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Phase"
-			title "IDSResearchScreenBlockTitleCombat1Phase"
-			picture "ResearchScreenBlockPictureCombat1Phase"
+			title "IDSResearchScreenBlockTitleCombat1Asuran"
+			picture "ResearchScreenBlockPictureCombat1Asuran"
 		block
 			area [ 50 , 498 , 690 , 192 ]
 			backdrop "ResearchScreenBlockBackdropCombat2Phase"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat2Phase"
-			title "IDSResearchScreenBlockTitleCombat2Phase"
-			picture "ResearchScreenBlockPictureCombat2Phase"
+			title "IDSResearchScreenBlockTitleCombat2Asuran"
+			picture "ResearchScreenBlockPictureCombat2Asuran"
 	Defense
 		blockCount 1
 		block
 			area [ 50 , 93 , 690 , 530 ]
 			backdrop "ResearchScreenBlockBackdropDefense0Phase"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorDefense0Phase"
-			title "IDSResearchScreenBlockTitleDefense0Phase"
-			picture "ResearchScreenBlockPictureDefense0Phase"
+			title "IDSResearchScreenBlockTitleDefense0Asuran"
+			picture "ResearchScreenBlockPictureDefense0Asuran"
 	NonCombat
 		blockCount 3
 		block
 			area [ 50 , 53 , 690 , 200 ]
 			backdrop "ResearchScreenBlockBackdropNonCombat0Phase"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Phase"
-			title "IDSResearchScreenBlockTitleNonCombat0Phase"
-			picture "ResearchScreenBlockPictureNonCombat0Phase"
+			title "IDSResearchScreenBlockTitleNonCombat0Asuran"
+			picture "ResearchScreenBlockPictureNonCombat0Asuran"
 		block
 			area [ 50 , 263 , 690 , 202 ]
 			backdrop "ResearchScreenBlockBackdropNonCombat1Phase"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat1Phase"
-			title "IDSResearchScreenBlockTitleNonCombat1Phase"
-			picture "ResearchScreenBlockPictureNonCombat1Phase"
+			title "IDSResearchScreenBlockTitleNonCombat1Asuran"
+			picture "ResearchScreenBlockPictureNonCombat1Asuran"
 		block
 			area [ 50 , 475 , 690 , 202 ]
 			backdrop "ResearchScreenBlockBackdropNonCombat2Phase"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat2Phase"
-			title "IDSResearchScreenBlockTitleNonCombat2Phase"
-			picture "ResearchScreenBlockPictureNonCombat2Phase"
+			title "IDSResearchScreenBlockTitleNonCombat2Asuran"
+			picture "ResearchScreenBlockPictureNonCombat2Asuran"
 	Diplomacy
 		blockCount 1
 		block
 			area [ 50 , 93 , 690 , 288 ]
 			backdrop "ResearchScreenBlockBackdropCombat0Phase"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat0Phase"
-			title "IDSResearchScreenBlockTitleDiplomacy0Phase"
-			picture "ResearchScreenBlockPictureDiplomacyPhase"
+			title "IDSResearchScreenBlockTitleDiplomacy0Asuran"
+			picture "ResearchScreenBlockPictureDiplomacyAsuran"
 	Artifact
 		blockCount 1
 		block
 			area [ 9 , 49 , 776 , 631 ]
-			backdrop "ResearchScreenBlockBackdropArtifact0Phase"
+			backdrop "ResearchScreenBlockBackdropArtifact0Asuran"
 			tierIndicatorBackdrop ""
 			title ""
 			picture ""
@@ -827,13 +827,13 @@ researchScreenData
 			area [ 7 , 62 , 784 , 328 ]
 			backdrop "ResearchScreenBlockBackdropFleet0Phase"
 			tierIndicatorBackdrop ""
-			title "IDSResearchScreenBlockTitleFleet0Phase"
+			title "IDSResearchScreenBlockTitleFleet0"
 			picture ""
 		block
 			area [ 7 , 348 , 784 , 328 ]
 			backdrop "ResearchScreenBlockBackdropFleet1Phase"
 			tierIndicatorBackdrop ""
-			title "IDSResearchScreenBlockTitleFleet1Phase"
+			title "IDSResearchScreenBlockTitleFleet1"
 			picture ""
 	capitalShipSlotLevelPicture-0 "ResearchScreenCapitalShipSlotLevelPicture0Phase"
 	capitalShipSlotLevelPicture-1 "ResearchScreenCapitalShipSlotLevelPicture1Phase"
@@ -896,12 +896,12 @@ aiNameData
 raceNameParsePrefix "PHASE"
 raceNameParsePrefixFallback "TECH"
 numResearchFields 6
-field "IDS_PHASE_RESEARCHFIELD_COMBAT"
-field "IDS_PHASE_RESEARCHFIELD_DEFENSE"
-field "IDS_PHASE_RESEARCHFIELD_EMPIRE"
-field "IDS_PHASE_RESEARCHFIELD_DIPLOMACY"
-field "IDS_PHASE_RESEARCHFIELD_ARTIFACT"
-field "IDS_PHASE_RESEARCHFIELD_FLEET"
+field "IDS_ASURAN_RESEARCHFIELD_COMBAT"
+field "IDS_ASURAN_RESEARCHFIELD_DEFENSE"
+field "IDS_ASURAN_RESEARCHFIELD_EMPIRE"
+field "IDS_ASURAN_RESEARCHFIELD_DIPLOMACY"
+field "IDS_ASURAN_RESEARCHFIELD_ARTIFACT"
+field "IDS_ASURAN_RESEARCHFIELD_FLEET"
 playerThemeGroupName "PlayerAsuran"
 playerPictureGroupName "PlayerAsuran"
 raceRelationsModCount 5

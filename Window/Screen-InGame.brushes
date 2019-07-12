@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 353
+brushCount 361
 brush
 	name "EscapeMenuScreenCloseButton"
 	content "States"
@@ -2760,7 +2760,87 @@ brush
 	fileName "Interface0"
 	pixelBox [ 924 , 930 , 20 , 20 ]
 brush
-	name "ResearchScreenBlockBackdropArtifact0Phase"
+	name "ResearchScreenBlockPictureCombat0Asgard"
+	content "Simple"
+	fileName "Research_Artifact_Images"
+	pixelBox [ 1852 , 5 , 153 , 129 ]
+brush
+	name "ResearchScreenBlockPictureCombat1Asgard"
+	content "Simple"
+	fileName "Research_Artifact_Images"
+	pixelBox [ 940 , 636 , 153 , 172 ]
+brush
+	name "ResearchScreenBlockPictureCombat2Asgard"
+	content "Simple"
+	fileName "Research_Artifact_Images"
+	pixelBox [ 1852 , 140 , 153 , 129 ]
+brush
+	name "ResearchScreenBlockPictureDefense0Asgard"
+	content "Simple"
+	fileName "Research_Defense"
+	pixelBox [ 600 , 0 , 150 , 500 ]
+brush
+	name "ResearchScreenBlockPictureNonCombat0Asgard"
+	content "Simple"
+	fileName "Research_Artifact_Images"
+	pixelBox [ 940 , 810 , 153 , 129 ]
+brush
+	name "ResearchScreenBlockPictureNonCombat1Asgard"
+	content "Simple"
+	fileName "Research_Artifact_Images"
+	pixelBox [ 159 , 267 , 153 , 81 ]
+brush
+	name "ResearchScreenBlockPictureNonCombat2Asgard"
+	content "Simple"
+	fileName "Research_Artifact_Images"
+	pixelBox [ 159 , 483 , 153 , 81 ]
+brush
+	name "ResearchScreenBlockPictureDiplomacyAsgard"
+	content "Simple"
+	fileName "Research_Artifact_Images"
+	pixelBox [ 1852 , 275 , 153 , 172 ]
+brush
+	name "ResearchScreenBlockPictureCombat0Asuran"
+	content "Simple"
+	fileName "Research_Artifact_Images"
+	pixelBox [ 315 , 3 , 153 , 129 ]
+brush
+	name "ResearchScreenBlockPictureCombat1Asuran"
+	content "Simple"
+	fileName "Research_Artifact_Images"
+	pixelBox [ 315 , 135 , 153 , 81 ]
+brush
+	name "ResearchScreenBlockPictureCombat2Asuran"
+	content "Simple"
+	fileName "Research_Artifact_Images"
+	pixelBox [ 315 , 219 , 153 , 129 ]
+brush
+	name "ResearchScreenBlockPictureDefense0Asuran"
+	content "Simple"
+	fileName "Research_Defense"
+	pixelBox [ 150 , 0 , 150 , 500 ]
+brush
+	name "ResearchScreenBlockPictureNonCombat0Asuran"
+	content "Simple"
+	fileName "Research_Artifact_Images"
+	pixelBox [ 315 , 351 , 153 , 129 ]
+brush
+	name "ResearchScreenBlockPictureNonCombat1Asuran"
+	content "Simple"
+	fileName "Research_Artifact_Images"
+	pixelBox [ 315 , 615 , 153 , 81 ]
+brush
+	name "ResearchScreenBlockPictureNonCombat2Asuran"
+	content "Simple"
+	fileName "Research_Artifact_Images"
+	pixelBox [ 315 , 483 , 153 , 129 ]
+brush
+	name "ResearchScreenBlockPictureDiplomacyAsuran"
+	content "Simple"
+	fileName "Research_Artifact_Images"
+	pixelBox [ 784 , 810 , 153 , 172 ]
+brush
+	name "ResearchScreenBlockBackdropArtifact0Asuran"
 	content "Simple"
 	fileName "Research_Artifact_Images"
 	pixelBox [ 471 , 0 , 776 , 631 ]
@@ -2798,7 +2878,7 @@ brush
 	name "ResearchScreenBlockPictureNonCombat0Goauld"
 	content "Simple"
 	fileName "Research_Artifact_Images"
-	pixelBox [ 159 , 178 , 153 , 129 ]
+	pixelBox [ 159 , 135 , 153 , 129 ]
 brush
 	name "ResearchScreenBlockPictureNonCombat1Goauld"
 	content "Simple"
@@ -2815,125 +2895,85 @@ brush
 	fileName "Research_Artifact_Images"
 	pixelBox [ 629 , 810 , 153 , 172 ]
 brush
-	name "ResearchScreenBlockPictureCombat0Tech"
+	name "ResearchScreenBlockPictureCombat0Human"
 	content "Simple"
 	fileName "Research_Artifact_Images"
 	pixelBox [ 3 , 3 , 153 , 129 ]
 brush
-	name "ResearchScreenBlockPictureCombat1Tech"
+	name "ResearchScreenBlockPictureCombat1Human"
 	content "Simple"
 	fileName "Research_Artifact_Images"
 	pixelBox [ 315 , 700 , 153 , 129 ]
 brush
-	name "ResearchScreenBlockPictureCombat2Tech"
+	name "ResearchScreenBlockPictureCombat2Human"
 	content "Simple"
 	fileName "Research_Artifact_Images"
 	pixelBox [ 3 , 219 , 153 , 129 ]
 brush
-	name "ResearchScreenBlockPictureDefense0Tech"
+	name "ResearchScreenBlockPictureDefense0Human"
 	content "Simple"
 	fileName "Research_Defense"
 	pixelBox [ 0 , 0 , 150 , 500 ]
 brush
-	name "ResearchScreenBlockPictureNonCombat0Tech"
+	name "ResearchScreenBlockPictureNonCombat0Human"
 	content "Simple"
 	fileName "Research_Artifact_Images"
 	pixelBox [ 3 , 351 , 153 , 129 ]
 brush
-	name "ResearchScreenBlockPictureNonCombat1Tech"
+	name "ResearchScreenBlockPictureNonCombat1Human"
 	content "Simple"
 	fileName "Research_Artifact_Images"
 	pixelBox [ 3 , 567 , 153 , 129 ]
 brush
-	name "ResearchScreenBlockPictureNonCombat2Tech"
+	name "ResearchScreenBlockPictureNonCombat2Human"
 	content "Simple"
 	fileName "Research_Artifact_Images"
 	pixelBox [ 3 , 483 , 153 , 81 ]
 brush
-	name "ResearchScreenBlockPictureDiplomacyTech"
+	name "ResearchScreenBlockPictureDiplomacyHuman"
 	content "Simple"
 	fileName "Research_Artifact_Images"
 	pixelBox [ 629 , 636 , 153 , 172 ]
 brush
-	name "ResearchScreenBlockPictureDiplomacyPsi"
+	name "ResearchScreenBlockPictureCombat0Wraith"
 	content "Simple"
 	fileName "Research_Artifact_Images"
-	pixelBox [ 629 , 810 , 153 , 172 ]
+	pixelBox [ 1095 , 768 , 153 , 129 ]
 brush
-	name "ResearchScreenBlockPictureDiplomacyPhase"
+	name "ResearchScreenBlockPictureCombat1Wraith"
 	content "Simple"
 	fileName "Research_Artifact_Images"
-	pixelBox [ 784 , 810 , 153 , 172 ]
+	pixelBox [ 1095 , 636 , 153 , 129 ]
 brush
-	name "ResearchScreenBlockPictureCombat0Psi"
+	name "ResearchScreenBlockPictureCombat2Wraith"
+	content "Simple"
+	fileName "Research_Artifact_Images"
+	pixelBox [ 159 , 351 , 153 , 129 ]
+brush
+	name "ResearchScreenBlockPictureDefense0Wraith"
+	content "Simple"
+	fileName "Research_Defense"
+	pixelBox [ 450 , 0 , 150 , 500 ]
+brush
+	name "ResearchScreenBlockPictureNonCombat0Wraith"
 	content "Simple"
 	fileName "Research_Artifact_Images"
 	pixelBox [ 159 , 3 , 153 , 172 ]
 brush
-	name "ResearchScreenBlockPictureCombat1Psi"
+	name "ResearchScreenBlockPictureNonCombat1Wraith"
 	content "Simple"
 	fileName "Research_Artifact_Images"
-	pixelBox [ 159 , 178 , 153 , 129 ]
+	pixelBox [ 3 , 135 , 153 , 81 ]
 brush
-	name "ResearchScreenBlockPictureCombat2Psi"
+	name "ResearchScreenBlockPictureNonCombat2Wraith"
 	content "Simple"
 	fileName "Research_Artifact_Images"
-	pixelBox [ 159 , 310 , 153 , 36 ]
+	pixelBox [ 1095 , 901 , 153 , 81 ]
 brush
-	name "ResearchScreenBlockPictureDefense0Psi"
+	name "ResearchScreenBlockPictureDiplomacyWraith"
 	content "Simple"
 	fileName "Research_Artifact_Images"
-	pixelBox [ 939 , 636 , 153 , 172 ]
-brush
-	name "ResearchScreenBlockPictureNonCombat0Psi"
-	content "Simple"
-	fileName "Research_Artifact_Images"
-	pixelBox [ 159 , 349 , 153 , 129 ]
-brush
-	name "ResearchScreenBlockPictureNonCombat1Psi"
-	content "Simple"
-	fileName "Research_Artifact_Images"
-	pixelBox [ 159 , 481 , 153 , 81 ]
-brush
-	name "ResearchScreenBlockPictureNonCombat2Psi"
-	content "Simple"
-	fileName "Research_Artifact_Images"
-	pixelBox [ 159 , 565 , 153 , 129 ]
-brush
-	name "ResearchScreenBlockPictureCombat0Phase"
-	content "Simple"
-	fileName "Research_Artifact_Images"
-	pixelBox [ 315 , 3 , 153 , 129 ]
-brush
-	name "ResearchScreenBlockPictureCombat1Phase"
-	content "Simple"
-	fileName "Research_Artifact_Images"
-	pixelBox [ 315 , 135 , 153 , 81 ]
-brush
-	name "ResearchScreenBlockPictureCombat2Phase"
-	content "Simple"
-	fileName "Research_Artifact_Images"
-	pixelBox [ 315 , 219 , 153 , 129 ]
-brush
-	name "ResearchScreenBlockPictureDefense0Phase"
-	content "Simple"
-	fileName "Research_Defense"
-	pixelBox [ 150 , 0 , 150 , 500 ]
-brush
-	name "ResearchScreenBlockPictureNonCombat0Phase"
-	content "Simple"
-	fileName "Research_Artifact_Images"
-	pixelBox [ 315 , 351 , 153 , 129 ]
-brush
-	name "ResearchScreenBlockPictureNonCombat1Phase"
-	content "Simple"
-	fileName "Research_Artifact_Images"
-	pixelBox [ 315 , 615 , 153 , 81 ]
-brush
-	name "ResearchScreenBlockPictureNonCombat2Phase"
-	content "Simple"
-	fileName "Research_Artifact_Images"
-	pixelBox [ 315 , 483 , 153 , 129 ]
+	pixelBox [ 784 , 636 , 153 , 172 ]
 brush
 	name "ResearchScreenCapitalShipSlotLevelPicture0Tech"
 	content "Simple"
