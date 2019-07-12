@@ -1,5 +1,5 @@
 ﻿TXT
-NumStrings 8044
+NumStrings 8050
 StringInfo
 	ID "IDS_GDPRDIALOG_CANCELBUTTON"
 	Value "Decline"
@@ -11764,15 +11764,6 @@ StringInfo
 	ID "IDS_RACESELECTDIALOG_NEXTRACE"
 	Value "Next Race"
 StringInfo
-	ID "IDS_PLAYERFACTIONNAME_NEUTRAL"
-	Value "Neutral"
-StringInfo
-	ID "IDS_PLAYERFACTIONNAME_LOYALIST"
-	Value "Loyalist"
-StringInfo
-	ID "IDS_PLAYERFACTIONNAME_REBEL"
-	Value "Rebel"
-StringInfo
 	ID "IDS_PLANETBONUS_ABANDNANITEFACTORY_NAME"
 	Value "Abandoned Nanite Factory"
 StringInfo
@@ -17746,22 +17737,40 @@ StringInfo
 	ID "IDS_NETWORKERROR_SAVEDGAMENOTFOUND"
 	Value "Saved game is not found: %s"
 StringInfo
-	ID "IDS_TECH_RESEARCHFIELD_COMBAT"
+	ID "IDS_ASGARD_RESEARCHFIELD_COMBAT"
 	Value "Military"
 StringInfo
-	ID "IDS_TECH_RESEARCHFIELD_DEFENSE"
-	Value "Security"
+	ID "IDS_ASGARD_RESEARCHFIELD_DEFENSE"
+	Value "Defense"
 StringInfo
-	ID "IDS_TECH_RESEARCHFIELD_EMPIRE"
-	Value "Civilian"
+	ID "IDS_ASGARD_RESEARCHFIELD_EMPIRE"
+	Value "Harmony"
 StringInfo
-	ID "IDS_TECH_RESEARCHFIELD_DIPLOMACY"
-	Value "Diplomacy"
-StringInfo
-	ID "IDS_TECH_RESEARCHFIELD_ARTIFACT"
+	ID "IDS_ASGARD_RESEARCHFIELD_ARTIFACT"
 	Value "Artifacts"
 StringInfo
-	ID "IDS_TECH_RESEARCHFIELD_FLEET"
+	ID "IDS_ASGARD_RESEARCHFIELD_DIPLOMACY"
+	Value "Influence"
+StringInfo
+	ID "IDS_ASGARD_RESEARCHFIELD_FLEET"
+	Value "Fleet Command"
+StringInfo
+	ID "IDS_ASURAN_RESEARCHFIELD_COMBAT"
+	Value "Hostility"
+StringInfo
+	ID "IDS_ASURAN_RESEARCHFIELD_DEFENSE"
+	Value "Resistance"
+StringInfo
+	ID "IDS_ASURAN_RESEARCHFIELD_EMPIRE"
+	Value "Collective"
+StringInfo
+	ID "IDS_ASURAN_RESEARCHFIELD_ARTIFACT"
+	Value "Artifacts"
+StringInfo
+	ID "IDS_ASURAN_RESEARCHFIELD_DIPLOMACY"
+	Value "Influence"
+StringInfo
+	ID "IDS_ASURAN_RESEARCHFIELD_FLEET"
 	Value "Fleet Logistics"
 StringInfo
 	ID "IDS_GOAULD_RESEARCHFIELD_COMBAT"
@@ -17782,41 +17791,41 @@ StringInfo
 	ID "IDS_GOAULD_RESEARCHFIELD_FLEET"
 	Value "Fleet Logistics"
 StringInfo
-	ID "IDS_PSI_RESEARCHFIELD_COMBAT"
+	ID "IDS_HUMAN_RESEARCHFIELD_COMBAT"
+	Value "Military"
+StringInfo
+	ID "IDS_HUMAN_RESEARCHFIELD_DEFENSE"
+	Value "Security"
+StringInfo
+	ID "IDS_HUMAN_RESEARCHFIELD_EMPIRE"
+	Value "Civilian"
+StringInfo
+	ID "IDS_HUMAN_RESEARCHFIELD_DIPLOMACY"
+	Value "Diplomacy"
+StringInfo
+	ID "IDS_HUMAN_RESEARCHFIELD_ARTIFACT"
+	Value "Artifacts"
+StringInfo
+	ID "IDS_HUMAN_RESEARCHFIELD_FLEET"
+	Value "Fleet Logistics"
+StringInfo
+	ID "IDS_WRAITH_RESEARCHFIELD_COMBAT"
 	Value "Warfare"
 StringInfo
-	ID "IDS_PSI_RESEARCHFIELD_DEFENSE"
+	ID "IDS_WRAITH_RESEARCHFIELD_DEFENSE"
 	Value "Fortification"
 StringInfo
-	ID "IDS_PSI_RESEARCHFIELD_EMPIRE"
-	Value "Harmony"
+	ID "IDS_WRAITH_RESEARCHFIELD_EMPIRE"
+	Value "Culling"
 StringInfo
-	ID "IDS_PSI_RESEARCHFIELD_ARTIFACT"
+	ID "IDS_WRAITH_RESEARCHFIELD_ARTIFACT"
 	Value "Artifacts"
 StringInfo
-	ID "IDS_PSI_RESEARCHFIELD_DIPLOMACY"
-	Value "Understanding"
+	ID "IDS_WRAITH_RESEARCHFIELD_DIPLOMACY"
+	Value "Faction"
 StringInfo
-	ID "IDS_PSI_RESEARCHFIELD_FLEET"
-	Value "Fleet Logistics"
-StringInfo
-	ID "IDS_PHASE_RESEARCHFIELD_COMBAT"
-	Value "Hostility"
-StringInfo
-	ID "IDS_PHASE_RESEARCHFIELD_DEFENSE"
-	Value "Resistance"
-StringInfo
-	ID "IDS_PHASE_RESEARCHFIELD_EMPIRE"
-	Value "Collective"
-StringInfo
-	ID "IDS_PHASE_RESEARCHFIELD_ARTIFACT"
-	Value "Artifacts"
-StringInfo
-	ID "IDS_PHASE_RESEARCHFIELD_DIPLOMACY"
-	Value "Influence"
-StringInfo
-	ID "IDS_PHASE_RESEARCHFIELD_FLEET"
-	Value "Fleet Logistics"
+	ID "IDS_WRAITH_RESEARCHFIELD_FLEET"
+	Value "Hive Logistics"
 StringInfo
 	ID "IDS_GameStat_CreditIncomeRate"
 	Value "Credit income rate"
@@ -20959,32 +20968,65 @@ StringInfo
 	ID "IDSResearchScreenCloseButton"
 	Value "Close"
 StringInfo
-	ID "IDSResearchScreenBlockTitleCombat0Tech"
-	Value "Weapons"
-StringInfo
-	ID "IDSResearchScreenBlockTitleCombat1Tech"
+	ID "IDSResearchScreenBlockTitleCombat0Asgard"
 	Value "Designs"
 StringInfo
-	ID "IDSResearchScreenBlockTitleCombat2Tech"
+	ID "IDSResearchScreenBlockTitleCombat1Asgard"
+	Value "Upgrades"
+StringInfo
+	ID "IDSResearchScreenBlockTitleCombat2Asgard"
+	Value "Technology"
+StringInfo
+	ID "IDSResearchScreenBlockTitleDefense0Asgard"
+	Value "Security"
+StringInfo
+	ID "IDSResearchScreenBlockTitleDiplomacy0Asgard"
+	Value "Understanding"
+StringInfo
+	ID "IDSResearchScreenBlockTitleNonCombat0Asgard"
+	Value "Supplies"
+StringInfo
+	ID "IDSResearchScreenBlockTitleNonCombat1Asgard"
+	Value "Travel"
+StringInfo
+	ID "IDSResearchScreenBlockTitleNonCombat2Asgard"
+	Value "High Council"
+StringInfo
+	ID "IDSResearchScreenBlockTitleCombat0Asuran"
+	Value "Prototypes"
+StringInfo
+	ID "IDSResearchScreenBlockTitleCombat1Asuran"
+	Value "Assault"
+StringInfo
+	ID "IDSResearchScreenBlockTitleCombat2Asuran"
+	Value "Support"
+StringInfo
+	ID "IDSResearchScreenBlockTitleDefense0Asuran"
+	Value "Resistance"
+StringInfo
+	ID "IDSResearchScreenBlockTitleDiplomacy0Asuran"
+	Value "Manipulation"
+StringInfo
+	ID "IDSResearchScreenBlockTitleNonCombat0Asuran"
+	Value "Nanotechnology"
+StringInfo
+	ID "IDSResearchScreenBlockTitleNonCombat1Asuran"
+	Value "Phase Mastery"
+StringInfo
+	ID "IDSResearchScreenBlockTitleNonCombat2Asuran"
+	Value "Oppression"
+StringInfo
+	ID "IDSResearchScreenBlockTitleCombat0Goauld"
+	Value "Weapons"
+StringInfo
+	ID "IDSResearchScreenBlockTitleCombat1Goauld"
+	Value "Designs"
+StringInfo
+	ID "IDSResearchScreenBlockTitleCombat2Goauld"
 	Value "Subsystems"
 StringInfo
-	ID "IDSResearchScreenBlockTitleCombat3Tech"
-	Value "Mega-Engineering"
-StringInfo
-	ID "IDSResearchScreenBlockTitleDefense0Tech"
+	ID "IDSResearchScreenBlockTitleDefense0Goauld"
 	Value "Defense"
-StringInfo
-	ID "IDSResearchScreenBlockTitleNonCombat0Tech"
-	Value "Industry"
-StringInfo
-	ID "IDSResearchScreenBlockTitleNonCombat1Tech"
-	Value "Exploration"
-StringInfo
-	ID "IDSResearchScreenBlockTitleNonCombat2Tech"
-	Value "Policy"
-StringInfo
-	ID "IDSResearchScreenBlockTitleDiplomacy0Tech"
-	Value "Diplomacy"
 StringInfo
 	ID "IDSResearchScreenBlockTitleNonCombat0Goauld"
 	Value "Jaffa Workforce"
@@ -20998,88 +21040,61 @@ StringInfo
 	ID "IDSResearchScreenBlockTitleDiplomacy0Goauld"
 	Value "Resistance"
 StringInfo
-	ID "IDSResearchScreenBlockTitleFaction0Tech"
-	Value "Loyalist"
+	ID "IDSResearchScreenBlockTitleCombat0Human"
+	Value "Weapons"
 StringInfo
-	ID "IDSResearchScreenBlockTitleFaction1Tech"
-	Value "Rebel"
+	ID "IDSResearchScreenBlockTitleCombat1Human"
+	Value "Designs"
 StringInfo
-	ID "IDSResearchScreenBlockTitleFleet0Tech"
-	Value ""
+	ID "IDSResearchScreenBlockTitleCombat2Human"
+	Value "Subsystems"
 StringInfo
-	ID "IDSResearchScreenBlockTitleFleet1Tech"
-	Value ""
+	ID "IDSResearchScreenBlockTitleCombat3Human"
+	Value "Mega-Engineering"
 StringInfo
-	ID "IDSResearchScreenBlockTitleCombat0Psi"
+	ID "IDSResearchScreenBlockTitleDefense0Human"
+	Value "Defense"
+StringInfo
+	ID "IDSResearchScreenBlockTitleNonCombat0Human"
+	Value "Industry"
+StringInfo
+	ID "IDSResearchScreenBlockTitleNonCombat1Human"
+	Value "Exploration"
+StringInfo
+	ID "IDSResearchScreenBlockTitleNonCombat2Human"
+	Value "Policy"
+StringInfo
+	ID "IDSResearchScreenBlockTitleDiplomacy0Human"
+	Value "Diplomacy"
+StringInfo
+	ID "IDSResearchScreenBlockTitleCombat0Wraith"
 	Value "Energy"
 StringInfo
-	ID "IDSResearchScreenBlockTitleCombat1Psi"
-	Value "Ascension"
+	ID "IDSResearchScreenBlockTitleCombat1Wraith"
+	Value "Biodesign"
 StringInfo
-	ID "IDSResearchScreenBlockTitleCombat2Psi"
-	Value "Substance"
+	ID "IDSResearchScreenBlockTitleCombat2Wraith"
+	Value "Immunity"
 StringInfo
-	ID "IDSResearchScreenBlockTitleDefense0Psi"
-	Value "Security"
+	ID "IDSResearchScreenBlockTitleDefense0Wraith"
+	Value "Protection"
 StringInfo
-	ID "IDSResearchScreenBlockTitleNonCombat0Psi"
-	Value "PsiTech"
+	ID "IDSResearchScreenBlockTitleNonCombat0Wraith"
+	Value "Resources"
 StringInfo
-	ID "IDSResearchScreenBlockTitleNonCombat1Psi"
-	Value "Perception"
+	ID "IDSResearchScreenBlockTitleNonCombat1Wraith"
+	Value "Hunting Grounds"
 StringInfo
-	ID "IDSResearchScreenBlockTitleNonCombat2Psi"
-	Value "Materialism"
+	ID "IDSResearchScreenBlockTitleNonCombat2Wraith"
+	Value "Royal Decree"
 StringInfo
-	ID "IDSResearchScreenBlockTitleDiplomacy0Psi"
-	Value "Understanding"
+	ID "IDSResearchScreenBlockTitleDiplomacy0Wraith"
+	Value "Domination"
 StringInfo
-	ID "IDSResearchScreenBlockTitleFaction0Psi"
-	Value "Loyalist"
-StringInfo
-	ID "IDSResearchScreenBlockTitleFaction1Psi"
-	Value "Rebel"
-StringInfo
-	ID "IDSResearchScreenBlockTitleFleet0Psi"
+	ID "IDSResearchScreenBlockTitleFleet0"
 	Value ""
 StringInfo
-	ID "IDSResearchScreenBlockTitleFleet1Psi"
-	Value ""
-StringInfo
-	ID "IDSResearchScreenBlockTitleCombat0Phase"
-	Value "Prototypes"
-StringInfo
-	ID "IDSResearchScreenBlockTitleCombat1Phase"
-	Value "Assault"
-StringInfo
-	ID "IDSResearchScreenBlockTitleCombat2Phase"
-	Value "Support"
-StringInfo
-	ID "IDSResearchScreenBlockTitleDefense0Phase"
-	Value "Resistance"
-StringInfo
-	ID "IDSResearchScreenBlockTitleNonCombat0Phase"
-	Value "Nanotechnology"
-StringInfo
-	ID "IDSResearchScreenBlockTitleNonCombat1Phase"
-	Value "Phase Mastery"
-StringInfo
-	ID "IDSResearchScreenBlockTitleNonCombat2Phase"
-	Value "Oppression"
-StringInfo
-	ID "IDSResearchScreenBlockTitleDiplomacy0Phase"
-	Value "Manipulation"
-StringInfo
-	ID "IDSResearchScreenBlockTitleFaction0Phase"
-	Value "Loyalist"
-StringInfo
-	ID "IDSResearchScreenBlockTitleFaction1Phase"
-	Value "Rebel"
-StringInfo
-	ID "IDSResearchScreenBlockTitleFleet0Phase"
-	Value ""
-StringInfo
-	ID "IDSResearchScreenBlockTitleFleet1Phase"
+	ID "IDSResearchScreenBlockTitleFleet1"
 	Value ""
 StringInfo
 	ID "IDSResearchScreenCurrentCapitalShipMaxSlots"

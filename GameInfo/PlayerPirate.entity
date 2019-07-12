@@ -393,13 +393,13 @@ hudSkinData
 	fleetIcon "MainViewIconFleetTech9"
 	Bandbox "BANDBOX"
 	FogOfWar "FogOfWar"
-	ActionGridSlotBackdrop "ActionGridSlotBackdropTech"
-	BottomWindowBackdrop "BottomWindowBackdropTech"
-	BottomWindowOverlay "BottomWindowOverlayTech"
-	TopWindowBackdrop "TopWindowBackdropTech"
-	TopWindowOverlay "TopWindowOverlayTech"
-	InfoCardAttachedToBottomBackdrop "InfoCardAttachedToBottomBackdropTech"
-	InfoCardAttachedToScreenEdgeBackdrop "InfoCardAttachedToScreenEdgeBackdropTech"
+	ActionGridSlotBackdrop "ActionGridSlotBackdropHuman"
+	BottomWindowBackdrop "BottomWindowBackdropHuman"
+	BottomWindowOverlay "BottomWindowOverlayHuman"
+	TopWindowBackdrop "TopWindowBackdropHuman"
+	TopWindowOverlay "TopWindowOverlayHuman"
+	InfoCardAttachedToBottomBackdrop "InfoCardAttachedToBottomBackdropHuman"
+	InfoCardAttachedToScreenEdgeBackdrop "InfoCardAttachedToScreenEdgeBackdrop"
 	TopWindowLeftCapLowRes ""
 	TopWindowLeftCapHighRes ""
 	TopWindowRightCapLowRes ""
@@ -585,56 +585,56 @@ researchScreenData
 			area [ 50 , 93 , 690 , 192 ]
 			backdrop "ResearchScreenBlockBackdropCombat0Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat0Tech"
-			title "IDSResearchScreenBlockTitleCombat0Tech"
-			picture "ResearchScreenBlockPictureCombat0Tech"
+			title "IDSResearchScreenBlockTitleCombat0Human"
+			picture "ResearchScreenBlockPictureCombat0Human"
 		block
 			area [ 50 , 295 , 690 , 144 ]
 			backdrop "ResearchScreenBlockBackdropCombat1Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Tech"
-			title "IDSResearchScreenBlockTitleCombat1Tech"
-			picture "ResearchScreenBlockPictureCombat1Tech"
+			title "IDSResearchScreenBlockTitleCombat1Human"
+			picture "ResearchScreenBlockPictureCombat1Human"
 		block
 			area [ 50 , 449 , 690 , 192 ]
 			backdrop "ResearchScreenBlockBackdropCombat2Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat2Tech"
-			title "IDSResearchScreenBlockTitleCombat2Tech"
-			picture "ResearchScreenBlockPictureCombat2Tech"
+			title "IDSResearchScreenBlockTitleCombat2Human"
+			picture "ResearchScreenBlockPictureCombat2Human"
 	Defense
 		blockCount 1
 		block
 			area [ 50 , 93 , 690 , 192 ]
 			backdrop "ResearchScreenBlockBackdropDefense0Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorDefense0Tech"
-			title "IDSResearchScreenBlockTitleDefense0Tech"
-			picture "ResearchScreenBlockPictureDefense0Tech"
+			title "IDSResearchScreenBlockTitleDefense0Human"
+			picture "ResearchScreenBlockPictureDefense0Human"
 	NonCombat
 		blockCount 3
 		block
 			area [ 50 , 93 , 690 , 192 ]
 			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
-			title "IDSResearchScreenBlockTitleNonCombat0Tech"
-			picture "ResearchScreenBlockPictureNonCombat0Tech"
+			title "IDSResearchScreenBlockTitleNonCombat0Human"
+			picture "ResearchScreenBlockPictureNonCombat0Human"
 		block
 			area [ 50 , 295 , 690 , 192 ]
 			backdrop "ResearchScreenBlockBackdropNonCombat1Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat1Tech"
-			title "IDSResearchScreenBlockTitleNonCombat1Tech"
-			picture "ResearchScreenBlockPictureNonCombat1Tech"
+			title "IDSResearchScreenBlockTitleNonCombat1Human"
+			picture "ResearchScreenBlockPictureNonCombat1Human"
 		block
 			area [ 50 , 497 , 690 , 144 ]
 			backdrop "ResearchScreenBlockBackdropNonCombat2Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat2Tech"
-			title "IDSResearchScreenBlockTitleNonCombat2Tech"
-			picture "ResearchScreenBlockPictureNonCombat2Tech"
+			title "IDSResearchScreenBlockTitleNonCombat2Human"
+			picture "ResearchScreenBlockPictureNonCombat2Human"
 	Diplomacy
 		blockCount 1
 		block
 			area [ 7 , 62 , 784 , 328 ]
 			backdrop "ResearchScreenBlockBackdropFleet0Phase"
 			tierIndicatorBackdrop ""
-			title "IDSResearchScreenBlockTitleDiplomacy0Phase"
-			picture "ResearchScreenBlockPictureNonCombat2Tech"
+			title "IDSResearchScreenBlockTitleDiplomacy0Human"
+			picture "ResearchScreenBlockPictureNonCombat2Human"
 	Artifact
 		blockCount 1
 		block
@@ -649,13 +649,13 @@ researchScreenData
 			area [ 7 , 62 , 784 , 328 ]
 			backdrop "ResearchScreenBlockBackdropFleet0Tech"
 			tierIndicatorBackdrop ""
-			title "IDSResearchScreenBlockTitleFleet0Tech"
+			title "IDSResearchScreenBlockTitleFleet0"
 			picture ""
 		block
 			area [ 7 , 384 , 784 , 328 ]
 			backdrop "ResearchScreenBlockBackdropFleet1Tech"
 			tierIndicatorBackdrop ""
-			title "IDSResearchScreenBlockTitleFleet1Tech"
+			title "IDSResearchScreenBlockTitleFleet1"
 			picture ""
 	capitalShipSlotLevelPicture-0 "ResearchScreenCapitalShipSlotLevelPicture0Tech"
 	capitalShipSlotLevelPicture-1 "ResearchScreenCapitalShipSlotLevelPicture1Tech"
@@ -718,13 +718,13 @@ aiNameData
 raceNameParsePrefix "TECH"
 raceNameParsePrefixFallback "TECH"
 numResearchFields 7
-field "IDS_TECH_RESEARCHFIELD_COMBAT"
-field "IDS_TECH_RESEARCHFIELD_DEFENSE"
-field "IDS_TECH_RESEARCHFIELD_EMPIRE"
-field "IDS_TECH_RESEARCHFIELD_DIPLOMACY"
-field "IDS_TECH_RESEARCHFIELD_DIPLOMACY"
-field "IDS_TECH_RESEARCHFIELD_ARTIFACT"
-field "IDS_TECH_RESEARCHFIELD_FLEET"
+field "IDS_HUMAN_RESEARCHFIELD_COMBAT"
+field "IDS_HUMAN_RESEARCHFIELD_DEFENSE"
+field "IDS_HUMAN_RESEARCHFIELD_EMPIRE"
+field "IDS_HUMAN_RESEARCHFIELD_DIPLOMACY"
+field "IDS_HUMAN_RESEARCHFIELD_DIPLOMACY"
+field "IDS_HUMAN_RESEARCHFIELD_ARTIFACT"
+field "IDS_HUMAN_RESEARCHFIELD_FLEET"
 playerThemeGroupName "NPC"
 playerPictureGroupName "NPC"
 raceRelationsModCount 0

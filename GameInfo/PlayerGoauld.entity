@@ -584,7 +584,7 @@ hudSkinData
 	TopWindowBackdrop "TopWindowBackdropGoauld"
 	TopWindowOverlay "TopWindowOverlayGoauld"
 	InfoCardAttachedToBottomBackdrop "InfoCardAttachedToBottomBackdropGoauld"
-	InfoCardAttachedToScreenEdgeBackdrop "InfoCardAttachedToScreenEdgeBackdropGoauld"
+	InfoCardAttachedToScreenEdgeBackdrop "InfoCardAttachedToScreenEdgeBackdrop"
 	TopWindowLeftCapLowRes "TopWindowLeftCapLowResGoauld"
 	TopWindowLeftCapHighRes "TopWindowLeftCapHighResGoauld"
 	TopWindowRightCapLowRes "TopWindowRightCapLowResGoauld"
@@ -770,19 +770,19 @@ researchScreenData
 			area [ 50 , 60 , 690 , 150 ]
 			backdrop "ResearchScreenBlockBackdropCombat0Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat0Tech"
-			title "IDSResearchScreenBlockTitleCombat0Tech"
+			title "IDSResearchScreenBlockTitleCombat0Goauld"
 			picture "ResearchScreenBlockPictureCombat0Goauld"
 		block
 			area [ 50 , 220 , 690 , 200 ]
 			backdrop "ResearchScreenBlockBackdropCombat1Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Tech"
-			title "IDSResearchScreenBlockTitleCombat1Tech"
+			title "IDSResearchScreenBlockTitleCombat1Goauld"
 			picture "ResearchScreenBlockPictureCombat1Goauld"
 		block
 			area [ 50 , 430 , 690 , 240 ]
 			backdrop "ResearchScreenBlockBackdropCombat2Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat2Tech"
-			title "IDSResearchScreenBlockTitleCombat2Tech"
+			title "IDSResearchScreenBlockTitleCombat2Goauld"
 			picture "ResearchScreenBlockPictureCombat2Goauld"
 	Defense
 		blockCount 1
@@ -790,7 +790,7 @@ researchScreenData
 			area [ 50 , 93 , 690 , 530 ]
 			backdrop "ResearchScreenBlockBackdropDefense0Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorDefense0Tech"
-			title "IDSResearchScreenBlockTitleDefense0Tech"
+			title "IDSResearchScreenBlockTitleDefense0Goauld"
 			picture "ResearchScreenBlockPictureDefense0Goauld"
 	NonCombat
 		blockCount 3
@@ -834,13 +834,13 @@ researchScreenData
 			area [ 7 , 62 , 784 , 328 ]
 			backdrop "ResearchScreenBlockBackdropFleet0Tech"
 			tierIndicatorBackdrop ""
-			title "IDSResearchScreenBlockTitleFleet0Tech"
+			title "IDSResearchScreenBlockTitleFleet0"
 			picture ""
 		block
 			area [ 7 , 348 , 784 , 328 ]
 			backdrop "ResearchScreenBlockBackdropFleet1Tech"
 			tierIndicatorBackdrop ""
-			title "IDSResearchScreenBlockTitleFleet1Tech"
+			title "IDSResearchScreenBlockTitleFleet1"
 			picture ""
 	capitalShipSlotLevelPicture-0 "ResearchScreenCapitalShipSlotLevelPicture0Tech"
 	capitalShipSlotLevelPicture-1 "ResearchScreenCapitalShipSlotLevelPicture1Tech"
@@ -916,51 +916,25 @@ raceRelationsModifier
 	raceNameID "IDS_PLAYERRACENAME_GOAULD"
 	modifierMin 0.100000
 	modifierMax 1.000000
-	factionRelationsModCount 1
-	factionRelationsModifier
-		factionNameID "IDS_PLAYERFACTIONNAME_REBEL"
-		otherFactionNameID "IDS_PLAYERFACTIONNAME_REBEL"
-		modifierMin 0.250000
-		modifierMax 0.500000
+	factionRelationsModCount 0
 raceRelationsModifier
 	raceNameID "IDS_PLAYERRACENAME_HUMAN"
-	modifierMin 0.100000
-	modifierMax 1.000000
-	factionRelationsModCount 1
-	factionRelationsModifier
-		factionNameID "IDS_PLAYERFACTIONNAME_REBEL"
-		otherFactionNameID "IDS_PLAYERFACTIONNAME_LOYALIST"
-		modifierMin -5.000000
-		modifierMax -5.000000
+	modifierMin -1.000000
+	modifierMax -0.500000
+	factionRelationsModCount 0
 raceRelationsModifier
 	raceNameID "IDS_PLAYERRACENAME_ASGARD"
-	modifierMin -1.500000
-	modifierMax -1.000000
-	factionRelationsModCount 1
-	factionRelationsModifier
-		factionNameID "IDS_PLAYERFACTIONNAME_REBEL"
-		otherFactionNameID "IDS_PLAYERFACTIONNAME_REBEL"
-		modifierMin -10.000000
-		modifierMax -10.000000
+	modifierMin -6.000000
+	modifierMax -3.100000
+	factionRelationsModCount 0
 raceRelationsModifier
 	raceNameID "IDS_PLAYERRACENAME_ASURAN"
-	modifierMin -2.250000
-	modifierMax -2.000000
-	factionRelationsModCount 1
-	factionRelationsModifier
-		factionNameID "IDS_PLAYERFACTIONNAME_REBEL"
-		otherFactionNameID "IDS_PLAYERFACTIONNAME_REBEL"
-		modifierMin -10.000000
-		modifierMax -10.000000
+	modifierMin -1.500000
+	modifierMax -1.000000
+	factionRelationsModCount 0
 raceRelationsModifier
 	raceNameID "IDS_PLAYERRACENAME_WRAITH"
 	modifierMin -2.250000
 	modifierMax -2.000000
-	factionRelationsModCount 1
-	factionRelationsModifier
-		factionNameID "IDS_PLAYERFACTIONNAME_REBEL"
-		otherFactionNameID "IDS_PLAYERFACTIONNAME_LOYALIST"
-		modifierMin -10.000000
-		modifierMax -10.000000
-defaultFactionNameID "IDS_PLAYERFACTIONNAME_REBEL"
-
+	factionRelationsModCount 0
+defaultFactionNameID ""
