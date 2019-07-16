@@ -1,0 +1,218 @@
+﻿TXT
+entityType "StarBase"
+ability:0 "Asuran_AbilityStarBase_DebrisVacuum"
+ability:1 "Asuran_AbilityStarBase_DestabilizeHyperspace"
+ability:2 "Asuran_AbilityStarBase_DirectionalShield"
+ability:3 "Asuran_AbilityStarBase_Stargate"
+ability:4 ""
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+numRandomDebrisLarge 12
+numRandomDebrisSmall 24
+numSpecificDebris 0
+armorType "Module"
+hudIcon "HUDICON_ASURAN_STARBASEOFFENSE_GAIA"
+smallHudIcon "HUDICONSMALL_ASURAN_STARBASEOFFENSE_GAIA"
+infoCardIcon "MAINVIEWICON_ASURAN_STARBASEOFFENSE_GAIA"
+minZoomDistanceMult 1.500000
+NumWeapons 3
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "PHASEMISSILE"
+	DamagePerBank:FRONT 650.000000
+	DamagePerBank:BACK 650.000000
+	DamagePerBank:LEFT 650.000000
+	DamagePerBank:RIGHT 650.000000
+	Range 10500.000000
+	PreBuffCooldownTime 10.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.080000
+	TravelSpeed 1500.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 7
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalMissileStarbase_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalMissileStarbase_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		missileTravelEffectName "Weapon_AsuranCapitalDroneUltra_Travel"
+		missileStartTurningDistance 250.000000
+		missileSlowTurnRate 2.708997
+		missileMaxSlowTurnTime 6.000000
+Weapon
+	WeaponType "Beam"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "OVERTIME"
+		DamageType "ENERGY"
+		WeaponClassType "BEAM"
+	DamagePerBank:FRONT 560.000000
+	DamagePerBank:BACK 560.000000
+	DamagePerBank:LEFT 560.000000
+	DamagePerBank:RIGHT 560.000000
+	Range 10500.000000
+	PreBuffCooldownTime 7.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.500000
+	TravelSpeed 0.000000
+	Duration 4.000000
+	fireConstraintType "StarBaseUpgradeLevel"
+	requiredStarBaseWeaponLevel 1
+	WeaponEffects
+		weaponType "Beam"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalPlanetBombing_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound ""
+		hitEffectName "Weapon_PsiCapitalBeamHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound ""
+		hitShieldsEffectSounds
+			soundCount 1
+			sound ""
+		beamEffectSounds
+			soundCount 1
+			sound "WEAPON_PSICAPITALBEAMHEAVY_TRAVEL"
+		beamGlowTextureName "PhaseCapitalBombingBeam_Glow"
+		beamCoreTextureName "PhaseCapitalBombingBeam_Core"
+		beamWidth 30.000000
+		beamGlowColor ffffffff
+		beamCoreColor ffffffff
+		beamTilingRate 3.000000
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIMEDIUM"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PULSEGUN"
+	DamagePerBank:FRONT 264.000000
+	DamagePerBank:BACK 264.000000
+	DamagePerBank:LEFT 264.000000
+	DamagePerBank:RIGHT 264.000000
+	Range 8000.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.300000
+	TravelSpeed 1200.000000
+	Duration 0.000000
+	fireConstraintType "StarBaseUpgradeLevel"
+	requiredStarBaseWeaponLevel 2
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 4
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Human_Muzzle"
+		muzzleSoundMinRespawnTime 0.770000
+		muzzleSounds
+			soundCount 1
+			sound "Asuran_PulseCannon_Firing"
+		hitEffectName "Weapon_Tech_AutoCannonCapShip_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_AsuranCapitalLaserLight_Travel"
+m_weaponIndexForRange 2
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 4
+TargetCountPerBank:BACK 4
+TargetCountPerBank:LEFT 4
+TargetCountPerBank:RIGHT 4
+canOnlyTargetStructures FALSE
+ShieldMeshName "Asuran_Shield_StarbaseOffense_Gaia"
+renderShield TRUE
+squadTypeEntityDef:0 "Asuran_SquadCombat_Jumper"
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 "Asuran_SquadBomber_Raptor"
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+mainViewIcon "MAINVIEWICON_ASURAN_STARBASEOFFENSE_GAIA"
+experiencePointsForDestroying 150.000000
+nameStringID "IDS_ASURAN_STARBASEOFFENSE_GAIA_NAME"
+picture "PICTURE_ASURAN_STARBASEOFFENSE_GAIA"
+statCountType "StarBase"
+creationSourceAbility "Asgard_AbilityCruiser_DeployStarbase"
+maxUpgradeLevelCount 8
+UpgradeTypeCount 9
+UpgradeType "Asuran_StarBaseUpgradeWeapons"
+UpgradeType "Asuran_StarBaseUpgradeToughness"
+UpgradeType "Asuran_StarBaseUpgradeHangar"
+UpgradeType "Asuran_StarBaseUpgradeTradePort"
+UpgradeType "Asuran_StarBaseUpgradeBlockColonize"
+UpgradeType "Asuran_StarBaseUpgradeCityPopulation"
+UpgradeType "Asuran_StarBaseUpgradeDebrisVacuum"
+UpgradeType "Asuran_StarBaseUpgradeDirectionalShield"
+UpgradeType "Asuran_StarBaseUpgradeStarGate"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Asuran_StarbaseOffense_Gaia"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+NumSoundsFor:ONATTACKORDERISSUED 0
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 0
+NumSoundsFor:ONSELECTED 1
+SoundID "STARBASE_PHASE_ONSELECTED"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+ExplosionName "StarBase1"
+formationRank 3
+minShadow 0.000000
+maxShadow 0.300000
+cargoShipType "Asuran_ModuleTradeShip_Aurum"
+maxCargoShipCount 5
+cargoShipRespawnTime 25.000000
+baseBuildTime 180.000000
+buildEffectName ""
+angularSpeed 0.500000
+rotateSoundName ""
+rotateFacingType "None"
+rotateConstantly FALSE
+maxAccelerationLinear 40.000000
+maxAccelerationStrafe 4.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 0.500000
+maxDecelerationAngular 9.999996
+maxSpeedLinear 325.000000
+maxRollRate 1.000000
+maxRollAngle 15.000000
+mass 10000.000000
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
