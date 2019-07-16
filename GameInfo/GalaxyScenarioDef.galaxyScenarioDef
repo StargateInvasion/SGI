@@ -841,7 +841,7 @@ orbitBodyType
 	typeName "Occupied"
 	entityDefName "OccupiedPlanet"
 	defaultTemplateName "Template:OccupiedPlanet"
-planetItemTypeCount 249
+planetItemTypeCount 250
 planetItemType
 	designName "Asuran:Orbital:MineExplosive"
 	entityDefName "Asuran_DeepSpaceMine"
@@ -914,6 +914,9 @@ planetItemType
 planetItemType
 	designName "Asuran:Cruiser:Heavy"
 	entityDefName "Asuran_CruiserHeavy_Atropos"
+planetItemType
+	designName "Asuran:Cruiser:StarbaseConstructor"
+	entityDefName "Asuran_CruiserStarBaseConstructor_Rhea"
 planetItemType
 	designName "Asuran:Frigate:Light"
 	entityDefName "Asuran_FrigateLight_Ceres"
