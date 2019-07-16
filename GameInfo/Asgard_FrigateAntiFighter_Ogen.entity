@@ -1,0 +1,227 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "AntiFighter"
+statCountType "FrigateAntiFighter"
+mainViewIcon "MAINVIEWICON_ASURAN_FRIGATEANTIFIGHTER_OGEN"
+picture "PICTURE_ASURAN_FRIGATEANTIFIGHTER_OGEN"
+NameStringID "IDS_ASURAN_FRIGATEANTIFIGHTER_OGEN_NAME"
+DescriptionStringID "IDS_ASURAN_FRIGATEANTIFIGHTER_OGEN_DESCRIPTION"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIFIGHTER"
+basePrice
+	credits 350.000000
+	metal 250.000000
+	crystal 150.000000
+slotCount 12.000000
+BuildTime 50.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 7.000000
+MaxHullPoints 400.000000
+MaxShieldPoints 3000.000000
+HullPointRestoreRate 1.000000
+ShieldPointRestoreRate 5.000000
+BaseArmorPoints 3.000000
+maxMitigation 0.000000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_FrigateAntiFighter_Ogen"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 4
+numSpecificDebris 0
+armorType "Light"
+hudIcon "HUDICON_ASURAN_FRIGATEANTIFIGHTER_OGEN"
+smallHudIcon "HUDICONSMALL_ASURAN_FRIGATEANTIFIGHTER_OGEN"
+infoCardIcon "MAINVIEWICON_ASURAN_FRIGATEANTIFIGHTER_OGEN"
+minZoomDistanceMult 4.000000
+NumWeapons 3
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIVERYLIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PULSEGUN"
+	DamagePerBank:FRONT 25.000000
+	DamagePerBank:BACK 25.000000
+	DamagePerBank:LEFT 25.000000
+	DamagePerBank:RIGHT 25.000000
+	Range 4000.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.200000
+	TravelSpeed 1200.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_AsuranCapitalLaserLight_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
+		muzzleSounds
+			soundCount 1
+			sound "Asuran_PulseCannon_Firing"
+		hitEffectName "Weapon_AsuranAutoCannonCapShip_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+		projectileTravelEffectName "Weapon_AsuranCapitalLaserLight_Travel"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIVERYLIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PULSEGUN"
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 30.000000
+	DamagePerBank:LEFT 30.000000
+	DamagePerBank:RIGHT 30.000000
+	Range 4000.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.200000
+	TravelSpeed 1200.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_AsuranCapitalLaserLight_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
+		muzzleSounds
+			soundCount 1
+			sound "Asuran_PulseCannon_Firing"
+		hitEffectName "Weapon_AsuranAutoCannonCapShip_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+		projectileTravelEffectName "Weapon_AsuranCapitalLaserLight_Travel"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTILIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PULSEGUN"
+	DamagePerBank:FRONT 45.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4000.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.200000
+	TravelSpeed 1200.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_AsuranCapitalLaserLight_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE"
+			sound "WEAPON_PHASECAPITALPULSEGUNMEDIUM_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalPulseGunMedium_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYMEDIUM_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICMEDIUM_HITSHIELDS"
+		projectileTravelEffectName "Weapon_AsuranCapitalLaserLight_Travel"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 1
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1100.000000
+ShieldMeshName "Asuran_Shield_FrigateAntiFighter_Ogen"
+renderShield TRUE
+maxAccelerationLinear 377.000000
+maxAccelerationStrafe 400.000000
+maxDecelerationLinear 404.000000
+maxAccelerationAngular 26.000000
+maxDecelerationAngular 42.000000
+maxSpeedLinear 539.000000
+maxRollRate 27.000000
+maxRollAngle 63.999996
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 1
+SoundID "Asuran_FrigateAntiFighterAttack"
+NumSoundsFor:ONCREATION 1
+SoundID "Asuran_FrigateAntiFighterCreation"
+NumSoundsFor:ONGENERALORDERISSUED 1
+SoundID "Asuran_FrigateAntiFighterGeneral"
+NumSoundsFor:ONSELECTED 1
+SoundID "Asuran_FrigateAntiFighterSelection"
+NumSoundsFor:ONSTARTPHASEJUMP 3
+SoundID "Asuran_Hyperspace_engaging0"
+SoundID "Asuran_Hyperspace_engaging1"
+SoundID "Asuran_Hyperspace_engaging2"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Asuran_FrigateAntiFighter_Ogen"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_FrigatePhaseAntiFighter"
+ExplosionName "Frigate1"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_PHASECAPITALSHIP"
+ability:0 "Asuran_AbilityFrigate_SelfRepairLight"
+ability:1 "Asuran_AbilityFrigate_AntiFighterDroneSwarm"
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 155.000000
+AntiMatterRestoreRate 0.500000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 1
+minShadow 0.000000
+maxShadow 1.500000
+allegianceDecreasePerRoundtrip 0.000000

@@ -1,0 +1,271 @@
+﻿TXT
+entityType "CapitalShip"
+ability:0 "Asuran_AbilityCapital_Colonize"
+ability:1 "Asuran_AbilityCapital_Observation"
+ability:2 "Asuran_AbilityCapital_HeavyTurret"
+ability:3 "Asuran_AbilityCapital_OnboardStargate"
+ability:4 ""
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 45.000000
+basePopulationKilled 1.750000
+bombingFreqTime 10.000000
+baseRange 5000.000000
+bombTransitTime 10.000000
+bombEffectCount 1
+bombEffectAngleVariance 2.500000
+bombEffectsDef
+	weaponType "Projectile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_TechCapitalPlanetBombing_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound ""
+	hitEffectName "Weapon_TechFrigatePlanetBombing_Hit"
+	hitHullEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	hitShieldsEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	projectileTravelEffectName "Weapon_AsuranCapitalDroneUltra_Travel"
+mainViewIcon "MAINVIEWICON_ASURAN_CAPITALCOLONY_DESTINY"
+basePrice
+	credits 2500.000000
+	metal 1500.000000
+	crystal 750.000000
+slotCount 60.000000
+BuildTime 120.000000
+MaxHullPoints
+	StartValue 4000.000000
+	ValueIncreasePerLevel 200.000000
+MaxShieldPoints
+	StartValue 10000.000000
+	ValueIncreasePerLevel 1000.000000
+HullPointRestoreRate
+	StartValue 5.000000
+	ValueIncreasePerLevel 5.000000
+ShieldPointRestoreRate
+	StartValue 20.000000
+	ValueIncreasePerLevel 5.000000
+ArmorPointsFromExperience
+	StartValue 2.000000
+	ValueIncreasePerLevel 0.500000
+maxMitigation
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.030000
+MaxAntiMatter
+	StartValue 350.000000
+	ValueIncreasePerLevel 75.000000
+AntiMatterRestoreRate
+	StartValue 1.100000
+	ValueIncreasePerLevel 0.200000
+CultureProtectRate
+	StartValue 0.300000
+	ValueIncreasePerLevel 0.050000
+NameStringID "IDS_ASURAN_CAPITALCOLONY_DESTINY_NAME"
+DescriptionStringID "IDS_ASURAN_CAPITALCOLONY_DESTINY_DESCRIPTION"
+picture "PICTURE_ASURAN_CAPITALCOLONY_DESTINY"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+roleType "COLONY"
+statCountType "CapitalShipUtility2"
+numRandomDebrisLarge 5
+numRandomDebrisSmall 19
+numSpecificDebris 1
+specificDebrisMeshName "DebrisPhaseCapitalShipColony"
+armorType "VeryHeavy"
+hudIcon "HUDICON_ASURAN_CAPITALCOLONY_DESTINY"
+smallHudIcon "HUDICONSMALL_ASURAN_CAPITALCOLONY_DESTINY"
+infoCardIcon "MAINVIEWICON_ASURAN_CAPITALCOLONY_DESTINY"
+minZoomDistanceMult 1.500000
+NumWeapons 3
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTILIGHT"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PULSEGUN"
+	DamagePerBank:FRONT 80.000000
+	DamagePerBank:BACK 80.000000
+	DamagePerBank:LEFT 80.000000
+	DamagePerBank:RIGHT 80.000000
+	Range 5500.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.300000
+	TravelSpeed 1200.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 2
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_AsuranCapitalLaserLight_Muzzle"
+		muzzleSoundMinRespawnTime 0.770000
+		muzzleSounds
+			soundCount 1
+			sound "Asuran_PulseCannon_Firing"
+		hitEffectName "Weapon_AsuranAutoCannonCapShip_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_AsuranCapitalLaserLight_Travel"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PULSEGUN"
+	DamagePerBank:FRONT 65.000000
+	DamagePerBank:BACK 65.000000
+	DamagePerBank:LEFT 65.000000
+	DamagePerBank:RIGHT 65.000000
+	Range 5000.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.300000
+	TravelSpeed 1200.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 2
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_AsuranCapitalLaserLight_Muzzle"
+		muzzleSoundMinRespawnTime 0.770000
+		muzzleSounds
+			soundCount 1
+			sound "Asuran_PulseCannon_Firing"
+		hitEffectName "Weapon_AsuranAutoCannonCapShip_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_AsuranCapitalLaserLight_Travel"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIVERYHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PULSEGUN"
+	DamagePerBank:FRONT 150.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4750.000000
+	PreBuffCooldownTime 5.500000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.080000
+	TravelSpeed 1200.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 2
+		burstDelay 1.00000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_AsuranCapitalLaserLight_Muzzle"
+		muzzleSoundMinRespawnTime 2.000000
+		muzzleSounds
+			soundCount 1
+			sound "Asuran_PulseCannon_Firing"
+		hitEffectName "Weapon_AsuranAutoCannonCapShip_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_GoauldPlasmaMedium_Travel"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 1
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+mass 3045.000000
+ShieldMeshName "Asuran_Shield_CapitalColony_Destiny"
+renderShield TRUE
+maxAccelerationLinear 180.000000
+maxAccelerationStrafe 100.000000
+maxDecelerationLinear 150.000000
+maxAccelerationAngular 8.000000
+maxDecelerationAngular 12.000000
+maxSpeedLinear 386.000000
+maxRollRate 8.000000
+maxRollAngle 65.000000
+squadTypeEntityDef:0 "Asuran_SquadCombat_Jumper"
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 "Asuran_SquadBomber_Raptor"
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+NumSoundsFor:ONATTACKORDERISSUED 1
+SoundID "Asuran_CapitalColonyAttack"
+NumSoundsFor:ONCREATION 1
+SoundID "Asuran_CapitalColonyCreation"
+NumSoundsFor:ONGENERALORDERISSUED 1
+SoundID "Asuran_CapitalColonyGeneral"
+NumSoundsFor:ONSELECTED 1
+SoundID "Asuran_CapitalColonySelection"
+NumSoundsFor:ONSTARTPHASEJUMP 3
+SoundID "Asuran_Hyperspace_engaging0"
+SoundID "Asuran_Hyperspace_engaging1"
+SoundID "Asuran_Hyperspace_engaging2"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Asuran_CapitalColony_Destiny"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_PhaseColony"
+ExplosionName "CapitalShip0"
+CommandPoints
+	StartValue 2.000000
+	ValueIncreasePerLevel 0.500000
+weaponCooldownDecreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.020000
+weaponDamageIncreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.090000
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_PHASECAPITALSHIP"
+formationRank 0
+minShadow 0.000000
+maxShadow 0.500000

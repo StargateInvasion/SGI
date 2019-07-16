@@ -1,0 +1,244 @@
+﻿TXT
+entityType "CapitalShip"
+ability:0 "Asuran_AbilityCapital_Cloak"
+ability:1 "Asuran_AbilityCapital_DroneFrenzy"
+ability:2 "Asuran_AbilityCapital_AdvancedTargetingSensors"
+ability:3 "Asuran_AbilityCapital_Talus"
+ability:4 ""
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire FALSE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 45.000000
+basePopulationKilled 1.750000
+bombingFreqTime 10.000000
+baseRange 5000.000000
+bombTransitTime 10.000000
+bombEffectCount 1
+bombEffectAngleVariance 2.500000
+bombEffectsDef
+	weaponType "Projectile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_PsiCapitalPlanetBombing_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "WEAPON_PSI_PLANETBOMB_MUZZLE"
+	hitEffectName "Weapon_PsiCapitalPlanetBombing_Hit"
+	hitHullEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	hitShieldsEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	projectileTravelEffectName "Weapon_PsiCapitalPlanetBombing_Travel"
+mainViewIcon "MAINVIEWICON_ASURAN_CAPITALBATTLESHIP_ORION"
+basePrice
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+slotCount 50.000000
+BuildTime 0.000000
+MaxHullPoints
+	StartValue 10000.000000
+	ValueIncreasePerLevel 500.000000
+MaxShieldPoints
+	StartValue 22000.000000
+	ValueIncreasePerLevel 1000.000000
+HullPointRestoreRate
+	StartValue 10.000000
+	ValueIncreasePerLevel 6.300000
+ShieldPointRestoreRate
+	StartValue 50.000000
+	ValueIncreasePerLevel 20.000000
+ArmorPointsFromExperience
+	StartValue 5.000000
+	ValueIncreasePerLevel 0.450000
+maxMitigation
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.040000
+MaxAntiMatter
+	StartValue 625.000000
+	ValueIncreasePerLevel 20.000000
+AntiMatterRestoreRate
+	StartValue 1.350000
+	ValueIncreasePerLevel 0.200000
+CultureProtectRate
+	StartValue 0.300000
+	ValueIncreasePerLevel 0.050000
+NameStringID "IDS_ASURAN_CAPITALHERO_TALUS_NAME"
+DescriptionStringID "IDS_ASURAN_CAPITALHERO_TALUS_DESCRIPTION"
+picture "PICTURE_ASURAN_CAPITALHERO_TALUS"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_Hero_Talus"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+roleType "Invalid"
+statCountType "CapitalShipBattleship"
+numRandomDebrisLarge 4
+numRandomDebrisSmall 17
+numSpecificDebris 1
+specificDebrisMeshName "DebrisAdventLarge"
+armorType "CapitalShip"
+hudIcon "HUDICON_ASURAN_CAPITALHERO_TALUS"
+smallHudIcon "HUDICONSMALL_ASURAN_CAPITALHERO_TALUS"
+infoCardIcon "MAINVIEWICON_ASURAN_CAPITALHERO_TALUS"
+minZoomDistanceMult 1.850000
+NumWeapons 2
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "TITAN"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "PHASEMISSILE"
+	DamagePerBank:FRONT 700.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 6500.000000
+	PreBuffCooldownTime 4.500000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.080000
+	TravelSpeed 900.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 5
+		burstDelay 0.020000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalMissileHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		missileTravelEffectName "Weapon_AsuranCapitalDroneUltra_Travel"
+		missileStartTurningDistance 20.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 3.000000
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PULSEGUN"
+	DamagePerBank:FRONT 350.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 300.000000
+	DamagePerBank:RIGHT 300.000000
+	Range 6000.000000
+	PreBuffCooldownTime 4.500000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.300000
+	TravelSpeed 1200.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 2
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Human_Muzzle"
+		muzzleSoundMinRespawnTime 0.770000
+		muzzleSounds
+			soundCount 1
+			sound "Asuran_PulseCannon_Firing"
+		hitEffectName "Weapon_HumanRailguns_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_AsuranCapitalLaserLight_Travel"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+mass 7135.000000
+ShieldMeshName "Asuran_Shield_CapitalBattleship_Aurora"
+renderShield TRUE
+maxAccelerationLinear 130.000000
+maxAccelerationStrafe 65.000000
+maxDecelerationLinear 100.000000
+maxAccelerationAngular 5.000000
+maxDecelerationAngular 9.999998
+maxSpeedLinear 525.000000
+maxRollRate 4.000000
+maxRollAngle 40.000000
+squadTypeEntityDef:0 "Asuran_SquadCombat_Jumper"
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 "Asuran_SquadBomber_Raptor"
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "CAPITALSHIP_PSIBATTLESHIP_ONATTACKORDERISSUED_0"
+SoundID "CAPITALSHIP_PSIBATTLESHIP_ONATTACKORDERISSUED_1"
+SoundID "CAPITALSHIP_PSIBATTLESHIP_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 1
+SoundID "CAPITALSHIP_PSIBATTLESHIP_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "CAPITALSHIP_PSIBATTLESHIP_ONGENERALORDERISSUED_0"
+SoundID "CAPITALSHIP_PSIBATTLESHIP_ONGENERALORDERISSUED_1"
+SoundID "CAPITALSHIP_PSIBATTLESHIP_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "CAPITALSHIP_PSIBATTLESHIP_ONSELECTED_0"
+SoundID "CAPITALSHIP_PSIBATTLESHIP_ONSELECTED_1"
+SoundID "CAPITALSHIP_PSIBATTLESHIP_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "CAPITALSHIP_PSIBATTLESHIP_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Asuran_CapitalBattleship_Orion"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_PsiBattleship"
+ExplosionName "CapitalShip0"
+CommandPoints
+	StartValue 3.000000
+	ValueIncreasePerLevel 0.250000
+weaponCooldownDecreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.030000
+weaponDamageIncreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.065000
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_PSICAPITALSHIP"
+formationRank 0
+minShadow 0.000000
+maxShadow 0.400000

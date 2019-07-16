@@ -1059,7 +1059,7 @@ GameplayConstants
 		planetCultureRepelAdditiveBonus 1.5
 		spawnTime 600
 		spawnTimeVariance 120
-		minorFactionPlayerDefCount 17
+		minorFactionPlayerDefCount 19
 		minorFactionPlayerDef
 			name "DefaultHuman"
 			planetAbilities
@@ -1075,6 +1075,22 @@ GameplayConstants
 				ability:1 "AbilityMinorFactionTradeCrystalForCredits"
 				ability:2 "Asuran_AbilityMinorFactionSpawn_DefenseRaid"
 				ability:3 "Asuran_AbilityMinorFactionSpawn_AttackRaid"
+				ability:4 ""
+		minorFactionPlayerDef
+			name "DefaultAsgard"
+			planetAbilities
+				ability:0 "AbilityMinorFactionRepairShips"
+				ability:1 "AbilityMinorFactionTradeMetalForCredits"
+				ability:2 "AbilityMinorFactionFarSight"
+				ability:3 "AbilityMinorFactionSpeedBonus"
+				ability:4 ""
+		minorFactionPlayerDef
+			name "DefaultWraith"
+			planetAbilities
+				ability:0 "AbilityMinorFactionArmorBonus"
+				ability:1 "AbilityMinorFactionRepairShips"
+				ability:2 "AbilityMinorFactionTradeCreditsForMetal"
+				ability:3 "AbilityMinorFactionTradeCrystalForCredits"
 				ability:4 ""
 		minorFactionPlayerDef
 			name "DefaultGoauld"
