@@ -841,7 +841,7 @@ orbitBodyType
 	typeName "Occupied"
 	entityDefName "OccupiedPlanet"
 	defaultTemplateName "Template:OccupiedPlanet"
-planetItemTypeCount 350
+planetItemTypeCount 348
 planetItemType
 	designName "Asgard:Orbital:MineExplosive"
 	entityDefName "Asgard_DeepSpaceMine"
@@ -1320,9 +1320,6 @@ planetItemType
 	designName "Goauld:CapitalShip:Transport"
 	entityDefName "Goauld_CapitalTransport_Amduat"
 planetItemType
-	designName "Goauld:Cruiser:AntiModule"
-	entityDefName "Goauld_CruiserAntiModule_Thoth"
-planetItemType
 	designName "Goauld:Cruiser:Carrier"
 	entityDefName "Goauld_CruiserCarrier_Hokkesh"
 planetItemType
@@ -1337,9 +1334,6 @@ planetItemType
 planetItemType
 	designName "Goauld:Cruiser:Utility0"
 	entityDefName "Goauld_CruiserUtility0_Jantak"
-planetItemType
-	designName "Goauld:Cruiser:Utility1"
-	entityDefName "Goauld_CruiserUtility1_Akhet"
 planetItemType
 	designName "Goauld:Frigate:AntiFighter"
 	entityDefName "Goauld_FrigateAntiFighter_Duat"
@@ -4099,7 +4093,7 @@ player
 	startingMetal 0
 	startingCrystal 0
 	playerType "NPCMadVasari"
-	themeGroup "PlayerAsuran"
+	themeGroup "NPCOri"
 	themeIndex 15
 	pictureGroup "PlayerAsuran"
 	pictureIndex 15

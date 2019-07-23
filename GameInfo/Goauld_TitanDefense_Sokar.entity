@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "Titan"
-ability:0 ""
+ability:0 "Goauld_AbilityTitan_FuriousDefense"
 ability:1 "Goauld_AbilityTitan_DeployAG3Turret"
 ability:2 "Goauld_AbilityTitan_Repossession"
 ability:3 "Goauld_AbilityTitan_Sokar"
@@ -82,12 +82,13 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"
-UpgradeTypeCount 5
+UpgradeTypeCount 6
 UpgradeType "Goauld_Titan_Sokar_AbilityC"
 UpgradeType "Goauld_Titan_Sokar_AbilityD"
 UpgradeType "Goauld_Titan_Sokar_Durability"
 UpgradeType "Goauld_Titan_Sokar_Weapons"
 UpgradeType "Goauld_Titan_Sokar_Abilities"
+UpgradeType "Goauld_Titan_Sokar_AbilityB"
 numRandomDebrisLarge 80
 numRandomDebrisSmall 30
 numSpecificDebris 0
