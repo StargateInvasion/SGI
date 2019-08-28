@@ -1,0 +1,59 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelfNoRange"
+instantActionTriggerType "AlwaysPerform"
+buffType "Wraith_BuffOrbital_Cannon"
+targetFilter
+	numOwnerships 3
+	ownership "Enemy"
+	ownership "Friendly"
+	ownership "NoOwner"
+	numObjects 1
+	object "Planet"
+	numSpaces 1
+	space "Normal"
+	numConstraints 2
+	constraint "IsExplored"
+	constraint "HasPopulation"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "Wraith_Research_Orbital_Cannon"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 200.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 560.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_PSIORBITALCANNON_NAME"
+descStringID "IDS_ABILITY_PSIORBITALCANNON_DESC"
+hudIcon "HUDICON_ABILITY_PSIORBITALCANNON"
+smallHudIcon "HUDICON_ABILITY_PSIORBITALCANNON"
+infoCardIcon ""

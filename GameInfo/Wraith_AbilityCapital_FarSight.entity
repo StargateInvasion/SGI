@@ -1,0 +1,62 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetNoRange"
+instantActionTriggerType "AlwaysPerform"
+buffType "Wraith_BuffCapital_FarSight"
+targetFilter
+	numOwnerships 3
+	ownership "Friendly"
+	ownership "Enemy"
+	ownership "NoOwner"
+	numObjects 1
+	object "Planet"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+effectInfo
+	effectAttachInfo
+		attachType "Ability"
+		abilityIndex 2
+	smallEffectName "CapitalAbility_FarSightActivate"
+	mediumEffectName "CapitalAbility_FarSightActivate"
+	largeEffectName "CapitalAbility_FarSightActivate"
+	soundID "EFFECT_FARSIGHT"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 0.000000
+aiUseTime "NotInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget TRUE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 70.000000
+	Level:1 60.000000
+	Level:2 50.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 15.000000
+	Level:1 15.000000
+	Level:2 15.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_FARSIGHT_NAME"
+descStringID "IDS_ABILITY_FARSIGHT_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_FARSIGHT"
+smallHudIcon "HUDICON_ABILITY_FARSIGHT"
+infoCardIcon ""

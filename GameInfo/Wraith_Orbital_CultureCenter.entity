@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "PlanetModuleStandard"
-minZoomDistanceMult 3.250000
+minZoomDistanceMult 2.200000
 ability:0 ""
 ability:1 ""
 ability:2 ""
@@ -8,27 +8,27 @@ ability:3 ""
 ability:4 ""
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000
-numRandomDebrisLarge 5
-numRandomDebrisSmall 19
+numRandomDebrisLarge 3
+numRandomDebrisSmall 18
 numSpecificDebris 0
 armorType "Module"
-hudIcon "HUDICON_ASURAN_ORBITAL_CULTURECENTER"
-smallHudIcon "HUDICONSMALL_ASURAN_ORBITAL_CULTURECENTER"
-infoCardIcon "MAINVIEWICON_ASURAN_ORBITAL_CULTURECENTER"
+hudIcon "HUDICON_PLANETMODULE_WRAITHORBITALCULTURECENTER"
+smallHudIcon "HUDICONSMALL_PLANETMODULE_WRAITHORBITALCULTURECENTER"
+infoCardIcon "INFOCARDICON_PLANETMODULE_WRAITHORBITALCULTURECENTER"
 planetUpgradeSlotType "Civilian"
 planetUpgradeSlotCount 4.000000
 basePrice
 	credits 900.000000
 	metal 100.000000
 	crystal 150.000000
-NameStringID "IDS_ASURAN_ORBITAL_CULTURECENTER_NAME"
-DescriptionStringID "IDS_ASURAN_ORBITAL_CULTURECENTER_DESCRIPTION"
+NameStringID "IDS_PLANETMODULE_PSIORBITALCULTURECENTER_NAME"
+DescriptionStringID "IDS_PLANETMODULE_PSIORBITALCULTURECENTER_DESCRIPTION"
 planetModuleRoleType "CULTURE"
 statCountType "ModuleCultureCenter"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Asuran_Research_Orbital_CultureCenter"
+		Subject "Wraith_Research_Orbital_CultureCenter"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -37,12 +37,12 @@ HullPointRestoreRate 2.000000
 BaseArmorPoints 6.000000
 MaxShieldPoints 0.000000
 ShieldPointRestoreRate 0.000000
-maxShieldMitigation 0.000000
+maxShieldMitigation 0.600000
 ExperiencePointsForDestroying 25.000000
 resourceExtractionType "Invalid"
 cultureSpreadRate 1.000000
 isAffectedBySimilarModuleCostResearch FALSE
-placementRadius 600.000000
+placementRadius 1025.000000
 nearPlacementDistOffset 0.000000
 farPlacementDistOffset 9000.000000
 spawnCount 1
@@ -57,19 +57,19 @@ NumSoundsFor:ONATTACKORDERISSUED 0
 NumSoundsFor:ONCREATION 0
 NumSoundsFor:ONGENERALORDERISSUED 0
 NumSoundsFor:ONSELECTED 1
-SoundID "PLANETMODULE_PHASEORBITALCULTURECENTER_ONSELECTION_0"
+SoundID "PLANETMODULE_PSIORBITALCULTURECENTER_ONSELECTION_0"
 NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Asuran_Orbital_CultureCenter"
+	meshName "PlanetModule_PsiOrbitalCultureCenter"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleSmall"
-mainViewIcon "MAINVIEWICON_ASURAN_ORBITAL_CULTURECENTER"
-picture "PICTURE_ASURAN_ORBITAL_CULTURECENTER"
+mainViewIcon "MAINVIEWICON_PLANETMODULE_WRAITHORBITALCULTURECENTER"
+picture "PLANETMODULEPICTURE_WRAITHORBITALCULTURECENTER"
 minShadow 0.000000
-maxShadow 0.900000
+maxShadow 0.300000
 formationRank 3
 baseBuildTime 60.000000
 buildEffectName ""

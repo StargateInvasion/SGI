@@ -1,0 +1,42 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_CAPITALSHIP_WRAITHCARRIER"
+smallHudIcon "HUDICONSMALL_CAPITALSHIP_WRAITHCARRIER"
+infoCardIcon ""
+NameStringID "IDS_CAPITALSHIP_WRAITHBATTLESHIP_NAME"
+DescriptionStringID "IDS_CAPITALSHIP_WRAITHBATTLESHIP_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 7 , 2 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Wraith_Research_ZPMAccess"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 240.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 3500.000000
+	metal 1500.000000
+	crystal 1500.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 7
+onlyWorksIfTierLabsExist TRUE
+MaxNumResearchLevels 1
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "TitanConstructionCap"
+	baseValue 1.000000
+	perLevelValue 0.250000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

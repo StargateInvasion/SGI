@@ -1,0 +1,102 @@
+﻿TXT
+entityType "StarBaseUpgrade"
+stageCount 4
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "IDS_STARBASEUPGRADEWRAITHCULTURE_NAME"
+	descStringID "IDS_STARBASEUPGRADEWRAITHCULTURE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradeWraithCulture0"
+	smallHudIcon "HUDIconStarBaseUpgradeWraithCulture0"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1800.000000
+		metal 275.000000
+		crystal 150.000000
+	upgradeTime 60.000000
+	nameStringID "IDS_STARBASEUPGRADEWRAITHCULTURE_NAME"
+	descStringID "IDS_STARBASEUPGRADEWRAITHCULTURE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "Wraith_Research_StarbaseUpgrade_Culture"
+			Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradeWraithCulture0"
+	smallHudIcon "HUDIconStarBaseUpgradeWraithCulture0"
+	infoCardIcon ""
+	upgradePropertyCount 3
+	upgradeProperty
+		propertyType "CultureSpreadRate"
+		value 1.750000
+	upgradeProperty
+		propertyType "EnemyCultureRepelRate"
+		value 0.500000
+	upgradeProperty
+		propertyType "CultureMeshLevel"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1800.000000
+		metal 275.000000
+		crystal 150.000000
+	upgradeTime 60.000000
+	nameStringID "IDS_STARBASEUPGRADEWRAITHCULTURE_NAME"
+	descStringID "IDS_STARBASEUPGRADEWRAITHCULTURE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradeWraithCulture1"
+	smallHudIcon "HUDIconStarBaseUpgradeWraithCulture1"
+	infoCardIcon ""
+	upgradePropertyCount 3
+	upgradeProperty
+		propertyType "CultureSpreadRate"
+		value 3.500000
+	upgradeProperty
+		propertyType "EnemyCultureRepelRate"
+		value 1.000000
+	upgradeProperty
+		propertyType "CultureMeshLevel"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1800.000000
+		metal 275.000000
+		crystal 150.000000
+	upgradeTime 60.000000
+	nameStringID "IDS_STARBASEUPGRADEWRAITHCULTURE_NAME"
+	descStringID "IDS_STARBASEUPGRADEWRAITHCULTURE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradeWraithCulture2"
+	smallHudIcon "HUDIconStarBaseUpgradeWraithCulture2"
+	infoCardIcon ""
+	upgradePropertyCount 3
+	upgradeProperty
+		propertyType "CultureSpreadRate"
+		value 5.250000
+	upgradeProperty
+		propertyType "EnemyCultureRepelRate"
+		value 1.500000
+	upgradeProperty
+		propertyType "CultureMeshLevel"
+		value 1.000000
+	upgradeBoolPropertyCount 0
+xpModifier 25.000000

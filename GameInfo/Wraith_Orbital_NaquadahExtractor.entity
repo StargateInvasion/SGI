@@ -1,6 +1,6 @@
 ﻿TXT
 entityType "PlanetModuleStandard"
-minZoomDistanceMult 6.000000
+minZoomDistanceMult 3.000000
 ability:0 ""
 ability:1 ""
 ability:2 ""
@@ -12,17 +12,17 @@ numRandomDebrisLarge 4
 numRandomDebrisSmall 16
 numSpecificDebris 0
 armorType "Module"
-hudIcon "HUDICON_ASURAN_ORBITAL_NAQUADAHEXTRACTOR"
-smallHudIcon "HUDICONSMALL_ASURAN_ORBITAL_NAQUADAHEXTRACTOR"
-infoCardIcon "MAINVIEWICON_ASURAN_ORBITAL_NAQUADAHEXTRACTOR"
+hudIcon "HUDICON_PLANETMODULE_WRAITHORBITALCRYSTALEXTRACTOR"
+smallHudIcon "HUDICONSMALL_PLANETMODULE_WRAITHORBITALCRYSTALEXTRACTOR"
+infoCardIcon "INFOCARDICON_PLANETMODULE_WRAITHORBITALCRYSTALEXTRACTOR"
 planetUpgradeSlotType "Civilian"
 planetUpgradeSlotCount 0.000000
 basePrice
 	credits 250.000000
 	metal 0.000000
 	crystal 0.000000
-NameStringID "IDS_ASURAN_ORBITAL_NAQUADAHEXTRACTOR_NAME"
-DescriptionStringID "IDS_ASURAN_ORBITAL_NAQUADAHEXTRACTOR_DESCRIPTION"
+NameStringID "IDS_PLANETMODULE_PSIORBITALCRYSTALEXTRACTOR_NAME"
+DescriptionStringID "IDS_PLANETMODULE_PSIORBITALCRYSTALEXTRACTOR_DESC"
 planetModuleRoleType "CRYSTALEXTRACTOR"
 statCountType "ModuleCrystalExtractor"
 Prerequisites
@@ -34,12 +34,12 @@ HullPointRestoreRate 2.000000
 BaseArmorPoints 4.000000
 MaxShieldPoints 0.000000
 ShieldPointRestoreRate 0.000000
-maxShieldMitigation 0.000000
+maxShieldMitigation 0.600000
 ExperiencePointsForDestroying 20.000000
 resourceExtractionType "Crystal"
 cultureSpreadRate 0.000000
 isAffectedBySimilarModuleCostResearch FALSE
-placementRadius 400.000000
+placementRadius 375.000000
 nearPlacementDistOffset 0.000000
 farPlacementDistOffset 9000.000000
 spawnCount 1
@@ -54,19 +54,19 @@ NumSoundsFor:ONATTACKORDERISSUED 0
 NumSoundsFor:ONCREATION 0
 NumSoundsFor:ONGENERALORDERISSUED 0
 NumSoundsFor:ONSELECTED 1
-SoundID "PLANETMODULE_PHASEORBITALEXTRACTOR_ONSELECTION_0"
+SoundID "PLANETMODULE_PSIORBITALEXTRACTOR_ONSELECTION_0"
 NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "PlanetModule_PhaseOrbitalExtractor"
+	meshName "PlanetModule_PsiOrbitalExtractor"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleSmall"
-mainViewIcon "MAINVIEWICON_PLANETMODULE_PHASEORBITALCRYSTALEXTRACTOR"
-picture "PICTURE_ASURAN_ORBITAL_NAQUADAHEXTRACTOR"
+mainViewIcon "MAINVIEWICON_PLANETMODULE_WRAITHORBITALCRYSTALEXTRACTOR"
+picture "PLANETMODULEPICTURE_WRAITHORBITALCRYSTALEXTRACTOR"
 minShadow 0.000000
-maxShadow 1.500000
+maxShadow 0.300000
 formationRank 3
 baseBuildTime 40.000000
 buildEffectName ""

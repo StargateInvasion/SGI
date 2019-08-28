@@ -1,0 +1,154 @@
+﻿TXT
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire FALSE
+usesFighterAttack TRUE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Support"
+statCountType "FrigateUtility0"
+mainViewIcon "MAINVIEWICON_FRIGATE_WRAITHUTILITY0"
+picture "PICTURE_FRIGATE_WRAITHUTILITY0"
+NameStringID "IDS_FRIGATE_WRAITHUTILITY0_NAME"
+DescriptionStringID "IDS_FRIGATE_WRAITHUTILITY0_DESCRIPTION"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
+basePrice
+	credits 400.000000
+	metal 80.000000
+	crystal 80.000000
+slotCount 4.000000
+BuildTime 30.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 20.000000
+MaxHullPoints 1550.000000
+MaxShieldPoints 0.000000
+HullPointRestoreRate 2.500000
+ShieldPointRestoreRate 0.000000
+BaseArmorPoints 3.000000
+maxMitigation 0.000000
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Wraith_Research_CruiserUtility0_Bonewhite"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 1
+numRandomDebrisSmall 5
+numSpecificDebris 0
+armorType "Heavy"
+hudIcon "HUDICON_FRIGATE_WRAITHUTILITY0"
+smallHudIcon "HUDICONSMALL_FRIGATE_WRAITHUTILITY0"
+infoCardIcon "INFOCARDICON_FRIGATE_WRAITHUTILITY0"
+minZoomDistanceMult 2.000000
+NumWeapons 1
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 78.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4000.000000
+	PreBuffCooldownTime 7.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.300000
+	TravelSpeed 2000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 2
+		burstDelay 0.200000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PsiCapitalLaserLight_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 3
+			sound "WEAPON_PSICAPITALLASERLIGHT_MUZZLE"
+			sound "WEAPON_PSICAPITALLASERLIGHT_MUZZLE_ALT1"
+			sound "WEAPON_PSICAPITALLASERLIGHT_MUZZLE_ALT2"
+		hitEffectName "Weapon_PsiCapitalLaserLight_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_WraithPlasmaLight_Travel"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 2
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1235.000000
+ShieldMeshName ""
+renderShield FALSE
+maxAccelerationLinear 273.000000
+maxAccelerationStrafe 225.000000
+maxDecelerationLinear 250.000000
+maxAccelerationAngular 18.000000
+maxDecelerationAngular 28.999998
+maxSpeedLinear 455.000000
+maxRollRate 18.000000
+maxRollAngle 35.000000
+squadTypeEntityDef:0 ""
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 0
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "FRIGATE_PSIBALANCE_ONATTACKORDERISSUED_0"
+SoundID "FRIGATE_PSIBALANCE_ONATTACKORDERISSUED_1"
+SoundID "FRIGATE_PSIBALANCE_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 1
+SoundID "FRIGATE_PSIBALANCE_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "FRIGATE_PSIBALANCE_ONGENERALORDERISSUED_0"
+SoundID "FRIGATE_PSIBALANCE_ONGENERALORDERISSUED_1"
+SoundID "FRIGATE_PSIBALANCE_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "FRIGATE_PSIBALANCE_ONSELECTED_0"
+SoundID "FRIGATE_PSIBALANCE_ONSELECTED_1"
+SoundID "FRIGATE_PSIBALANCE_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "FRIGATE_PSIBALANCE_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Frigate_WraithExperimental"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_FrigatePsiUtility0"
+ExplosionName "Frigate0"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_PSICAPITALSHIP"
+ability:0 "Wraith_AbilityCruiser_Suppression"
+ability:1 "Wraith_AbilityCruiser_StealAntiMatter"
+ability:2 "Wraith_AbilityCruiser_DisableImmune"
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 350.000000
+AntiMatterRestoreRate 1.000000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 2
+minShadow 0.200000
+maxShadow 1.000000
+allegianceDecreasePerRoundtrip 0.000000

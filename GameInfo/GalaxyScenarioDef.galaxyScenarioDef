@@ -841,7 +841,7 @@ orbitBodyType
 	typeName "Occupied"
 	entityDefName "OccupiedPlanet"
 	defaultTemplateName "Template:OccupiedPlanet"
-planetItemTypeCount 348
+planetItemTypeCount 350
 planetItemType
 	designName "Asgard:Orbital:MineExplosive"
 	entityDefName "Asgard_DeepSpaceMine"
@@ -897,7 +897,7 @@ planetItemType
 	designName "Asgard:Orbital:ShieldGenerator"
 	entityDefName "Asgard_Orbital_ShieldGenerator"
 planetItemType
-	designName "Asgard:Orbital:Spacegate"
+	designName "Asgard:Orbital:Stargate"
 	entityDefName "Asgard_Orbital_Stargate"
 planetItemType
 	designName "Asgard:Orbital:TitanFactory"
@@ -936,8 +936,11 @@ planetItemType
 	designName "Asgard:Frigate:Utility1"
 	entityDefName "Asgard_CruiserUtility1_Kreios"
 planetItemType
-	designName "Asgard:Frigate:Constructor"
+	designName "Asgard:Module:Constructor"
 	entityDefName "Asgard_ModuleConstructor_Ouranos"
+planetItemType
+	designName "Asgard:Module:RefineryShip"
+	entityDefName "Asgard_ModuleRefineryShip_Servile"
 planetItemType
 	designName "Asgard:CapitalHero:Koracen"
 	entityDefName "Asgard_CapitalHero_Koracen"
@@ -1041,7 +1044,7 @@ planetItemType
 	designName "Asuran:Orbital:ShieldGenerator"
 	entityDefName "Asuran_Orbital_ShieldGenerator"
 planetItemType
-	designName "Asuran:Orbital:Spacegate"
+	designName "Asuran:Orbital:Stargate"
 	entityDefName "Asuran_Orbital_Stargate"
 planetItemType
 	designName "Asuran:Orbital:TitanFactory"
@@ -1080,8 +1083,11 @@ planetItemType
 	designName "Asuran:Frigate:Utility1"
 	entityDefName "Asuran_CruiserUtility1_Kreios"
 planetItemType
-	designName "Asuran:Frigate:Constructor"
+	designName "Asuran:Module:Constructor"
 	entityDefName "Asuran_ModuleConstructor_Ouranos"
+planetItemType
+	designName "Asuran:Module:RefineryShip"
+	entityDefName "Asuran_ModuleRefineryShip_Servile"
 planetItemType
 	designName "Asuran:CapitalHero:Koracen"
 	entityDefName "Asuran_CapitalHero_Koracen"
@@ -1452,6 +1458,12 @@ planetItemType
 	designName "Pirate:Frigate:AntiFighter"
 	entityDefName "Human_FrigateAntiFighter_Claudius"
 planetItemType
+	designName "Pirate:Module:HangarDefense"
+	entityDefName "Human_Orbital_HangarDefense"
+planetItemType
+	designName "Pirate:Module:RepairPlatform"
+	entityDefName "Human_Orbital_RepairPlatform"
+planetItemType
 	designName "Wraith:Orbital:MineExplosive"
 	entityDefName "Wraith_DeepSpaceMine"
 planetItemType
@@ -1503,50 +1515,50 @@ planetItemType
 	designName "Wraith:Orbital:HeavyDefense"
 	entityDefName "Wraith_Orbital_HeavyDefense"
 planetItemType
-	designName "Wraith:Orbital:ShieldGenerator"
-	entityDefName "Wraith_Orbital_ShieldGenerator"
-planetItemType
-	designName "Wraith:Orbital:Spacegate"
-	entityDefName "Wraith_Orbital_Stargate"
+	designName "Wraith:Orbital:AntimatterCharger"
+	entityDefName "Wraith_Orbital_AntiMatterCharger"
 planetItemType
 	designName "Wraith:Orbital:TitanFactory"
 	entityDefName "Wraith_Orbital_TitanFactory"
 planetItemType
 	designName "Wraith:Frigate:AntiFighter"
-	entityDefName "Wraith_FrigateAntiFighter_Ogen"
+	entityDefName "Wraith_FrigateAntiFighter_Precision"
 planetItemType
 	designName "Wraith:Frigate:Carrier"
-	entityDefName "Wraith_CruiserCarrier_Caelus"
+	entityDefName "Wraith_CruiserCarrier_Lilin"
 planetItemType
 	designName "Wraith:Frigate:Colony"
-	entityDefName "Wraith_FrigateColony_Seedship"
+	entityDefName "Wraith_FrigateColony_Iratus"
 planetItemType
 	designName "Wraith:Cruiser:Heavy"
-	entityDefName "Wraith_CruiserHeavy_Atropos"
+	entityDefName "Wraith_CruiserHeavy_Cruiser"
 planetItemType
 	designName "Wraith:Cruiser:StarbaseConstructor"
-	entityDefName "Wraith_CruiserStarBaseConstructor_Rhea"
+	entityDefName "Wraith_CruiserStarBaseConstructor_Daimos"
 planetItemType
 	designName "Wraith:Frigate:Light"
-	entityDefName "Wraith_FrigateLight_Ceres"
+	entityDefName "Wraith_FrigateLight_Eternal"
 planetItemType
 	designName "Wraith:Frigate:LongRange"
-	entityDefName "Wraith_FrigateLongRange_Erinyes"
+	entityDefName "Wraith_FrigateLongRange_Scar"
 planetItemType
 	designName "Wraith:Frigate:Scout"
-	entityDefName "Wraith_FrigateScout_Polus"
+	entityDefName "Wraith_FrigateScout_Guide"
 planetItemType
 	designName "Wraith:Frigate:Siege"
-	entityDefName "Wraith_FrigateSiege_GateSatellite"
+	entityDefName "Wraith_FrigateSiege_Death"
 planetItemType
 	designName "Wraith:Frigate:Utility0"
-	entityDefName "Wraith_CruiserUtility0_Figaro"
+	entityDefName "Wraith_CruiserUtility0_Bonewhite"
 planetItemType
 	designName "Wraith:Frigate:Utility1"
-	entityDefName "Wraith_CruiserUtility1_Kreios"
+	entityDefName "Wraith_CruiserUtility1_Lastlight"
 planetItemType
-	designName "Wraith:Frigate:Constructor"
-	entityDefName "Wraith_ModuleConstructor_Ouranos"
+	designName "Wraith:Module:Constructor"
+	entityDefName "Wraith_ModuleConstructor_Zenana"
+planetItemType
+	designName "Wraith:Module:RefineryShip"
+	entityDefName "Wraith_ModuleRefineryShip_Lathan"
 planetItemType
 	designName "Wraith:CapitalHero:Koracen"
 	entityDefName "Wraith_CapitalHero_Koracen"
@@ -1564,37 +1576,37 @@ planetItemType
 	entityDefName "Wraith_CapitalHero_Weir"
 planetItemType
 	designName "Wraith:CapitalShip:BattleShip"
-	entityDefName "Wraith_CapitalBattleship_Orion"
+	entityDefName "Wraith_CapitalBattleship_Coldamber"
 planetItemType
 	designName "Wraith:CapitalShip:Support"
-	entityDefName "Wraith_CapitalSupport_Origin"
+	entityDefName "Wraith_CapitalSupport_Steelflower"
 planetItemType
 	designName "Wraith:CapitalShip:Carrier"
-	entityDefName "Wraith_CapitalCarrier_Alastor"
+	entityDefName "Wraith_CapitalCarrier_Hive"
 planetItemType
 	designName "Wraith:CapitalShip:Colony"
-	entityDefName "Wraith_CapitalColony_Destiny"
+	entityDefName "Wraith_CapitalColony_Keeper"
 planetItemType
 	designName "Wraith:CapitalShip:Transport"
-	entityDefName "Wraith_CapitalTransport_Romulus"
+	entityDefName "Wraith_CapitalTransport_Primary"
 planetItemType
 	designName "Wraith:CapitalShip:Siege"
-	entityDefName "Wraith_CapitalSiege_Anteus"
+	entityDefName "Wraith_CapitalSiege_Nightwind"
 planetItemType
 	designName "Wraith:Titan:Defense"
-	entityDefName "Wraith_TitanDefense_Atlantis"
+	entityDefName "Wraith_TitanDefense_Quicksilver"
 planetItemType
 	designName "Wraith:Titan:Offense"
-	entityDefName "Wraith_TitanOffense_Epheus"
+	entityDefName "Wraith_TitanOffense_Superhive"
 planetItemType
 	designName "Wraith:Frigate:Corvette"
-	entityDefName "Wraith_FrigateCorvette_Nemesis"
+	entityDefName "Wraith_FrigateCorvette_Hound"
 planetItemType
 	designName "Wraith:Frigate:Envoy"
-	entityDefName "Wraith_CruiserEnvoy_Mercury"
+	entityDefName "Wraith_CruiserEnvoy_Ninlil"
 planetItemType
 	designName "Wraith:StarBase"
-	entityDefName "Wraith_StarBaseOffense_Gaia"
+	entityDefName "Wraith_StarBaseOffense_Alabaster"
 planetItemType
 	designName "Bonus:FW:AbandonedNaniteFactory"
 	entityDefName "PlanetBonusAbandonedNaniteFactory"
@@ -1875,17 +1887,11 @@ planetItemType
 	designName "Cosmetic:Titan:Offense"
 	entityDefName "Human_TitanOffense_Tartarus_Cosmetic"
 planetItemType
-	designName "Pirate:Module:HangarDefense"
-	entityDefName "Human_Orbital_HangarDefense"
-planetItemType
-	designName "Pirate:Module:RepairPlatform"
-	entityDefName "Human_Orbital_RepairPlatform"
-planetItemType
 	designName "Cosmetic:TitanWraithOffense"
-	entityDefName "Wraith_TitanOffense_EpheusCosmetic"
+	entityDefName "Wraith_TitanOffense_SuperhiveCosmetic"
 planetItemType
 	designName "Cosmetic:TitanWraithDefense"
-	entityDefName "Wraith_TitanDefense_AtlantisCosmetic"
+	entityDefName "Wraith_TitanDefense_QuicksilverCosmetic"
 playerTypeCount 6
 playerType
 	designName "Asgard"
@@ -1994,10 +2000,10 @@ planetItemsTemplate
 				param "Asuran"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 17
+			items 18
 				item "Asuran:Orbital:HeadQuarters"
-				item "Asuran:Frigate:Constructor"
-				item "Asuran:Frigate:Constructor"
+				item "Asuran:Module:Constructor"
+				item "Asuran:Module:Constructor"
 				item "Asuran:Orbital:MetalExtractor"
 				item "Asuran:Orbital:MetalExtractor"
 				item "Asuran:Orbital:CrystalExtractor"
@@ -2012,19 +2018,21 @@ planetItemsTemplate
 				item "Asuran:Orbital:HangarDefense"
 				item "Asuran:Orbital:RepairPlatform"
 				item "Asuran:Orbital:ShieldGenerator"
+				item "Asuran:Orbital:Stargate"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
 				param "Asuran"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 33
+			items 34
 				item "Asuran:Orbital:HeadQuarters"
-				item "Asuran:Frigate:Constructor"
-				item "Asuran:Frigate:Constructor"
+				item "Asuran:Module:Constructor"
+				item "Asuran:Module:Constructor"
 				item "Asuran:Orbital:MetalExtractor"
 				item "Asuran:Orbital:MetalExtractor"
 				item "Asuran:Orbital:CrystalExtractor"
+				item "Asuran:Orbital:Stargate"
 				item "Asuran:CapitalShip:Colony"
 				item "Asuran:Frigate:Corvette"
 				item "Asuran:Frigate:LongRange"
@@ -2058,10 +2066,10 @@ planetItemsTemplate
 				param "Asgard"
 			owner "PlanetOwner"
 			colonizeChance 1
-			items 17
+			items 18
 				item "Asgard:Orbital:HeadQuarters"
-				item "Asgard:Frigate:Constructor"
-				item "Asgard:Frigate:Constructor"
+				item "Asgard:Module:Constructor"
+				item "Asgard:Module:Constructor"
 				item "Asgard:Orbital:MetalExtractor"
 				item "Asgard:Orbital:MetalExtractor"
 				item "Asgard:Orbital:CrystalExtractor"
@@ -2076,6 +2084,7 @@ planetItemsTemplate
 				item "Asgard:Orbital:HangarDefense"
 				item "Asgard:Orbital:RepairPlatform"
 				item "Asgard:Orbital:ShieldGenerator"
+				item "Asuran:Orbital:Stargate"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
@@ -2084,8 +2093,8 @@ planetItemsTemplate
 			colonizeChance 1
 			items 33
 				item "Asgard:Orbital:HeadQuarters"
-				item "Asgard:Frigate:Constructor"
-				item "Asgard:Frigate:Constructor"
+				item "Asgard:Module:Constructor"
+				item "Asgard:Module:Constructor"
 				item "Asgard:Orbital:MetalExtractor"
 				item "Asgard:Orbital:MetalExtractor"
 				item "Asgard:Orbital:CrystalExtractor"
@@ -2124,8 +2133,8 @@ planetItemsTemplate
 			colonizeChance 1
 			items 17
 				item "Wraith:Orbital:HeadQuarters"
-				item "Wraith:Frigate:Constructor"
-				item "Wraith:Frigate:Constructor"
+				item "Wraith:Module:Constructor"
+				item "Wraith:Module:Constructor"
 				item "Wraith:Orbital:MetalExtractor"
 				item "Wraith:Orbital:MetalExtractor"
 				item "Wraith:Orbital:CrystalExtractor"
@@ -2139,7 +2148,7 @@ planetItemsTemplate
 				item "Wraith:Orbital:HangarDefense"
 				item "Wraith:Orbital:HangarDefense"
 				item "Wraith:Orbital:RepairPlatform"
-				item "Wraith:Orbital:ShieldGenerator"
+				item "Wraith:Orbital:AntimatterCharger"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
@@ -2148,8 +2157,8 @@ planetItemsTemplate
 			colonizeChance 1
 			items 33
 				item "Wraith:Orbital:HeadQuarters"
-				item "Wraith:Frigate:Constructor"
-				item "Wraith:Frigate:Constructor"
+				item "Wraith:Module:Constructor"
+				item "Wraith:Module:Constructor"
 				item "Wraith:Orbital:MetalExtractor"
 				item "Wraith:Orbital:MetalExtractor"
 				item "Wraith:Orbital:CrystalExtractor"
@@ -2177,7 +2186,7 @@ planetItemsTemplate
 				item "Wraith:Orbital:HangarDefense"
 				item "Wraith:Orbital:HangarDefense"
 				item "Wraith:Orbital:RepairPlatform"
-				item "Wraith:Orbital:ShieldGenerator"
+				item "Wraith:Orbital:AntimatterCharger"
 				item "Wraith:Orbital:Cannon"
 				item "Wraith:Orbital:Cannon"
 		group
@@ -2267,8 +2276,8 @@ planetItemsTemplate
 			items 4
 				item "Asuran:Orbital:FrigateFactory"
 				item "Asuran:Orbital:FrigateFactory"
-				item "Asuran:Frigate:Constructor"
-				item "Asuran:Frigate:Constructor"
+				item "Asuran:Module:Constructor"
+				item "Asuran:Module:Constructor"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
@@ -2278,8 +2287,8 @@ planetItemsTemplate
 			items 4
 				item "Asgard:Orbital:FrigateFactory"
 				item "Asgard:Orbital:FrigateFactory"
-				item "Asgard:Frigate:Constructor"
-				item "Asgard:Frigate:Constructor"
+				item "Asgard:Module:Constructor"
+				item "Asgard:Module:Constructor"
 		group
 			condition
 				type "PlanetOwnerIsRaceNormalStart"
@@ -2289,8 +2298,8 @@ planetItemsTemplate
 			items 4
 				item "Wraith:Orbital:FrigateFactory"
 				item "Wraith:Orbital:FrigateFactory"
-				item "Wraith:Frigate:Constructor"
-				item "Wraith:Frigate:Constructor"
+				item "Wraith:Module:Constructor"
+				item "Wraith:Module:Constructor"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
@@ -2321,8 +2330,8 @@ planetItemsTemplate
 				item "Asuran:Orbital:MetalExtractor"
 				item "Asuran:Orbital:MetalExtractor"
 				item "Asuran:Orbital:CrystalExtractor"
-				item "Asuran:Frigate:Constructor"
-				item "Asuran:Frigate:Constructor"
+				item "Asuran:Module:Constructor"
+				item "Asuran:Module:Constructor"
 				item "Asuran:Frigate:Scout"
 				item "Asuran:Frigate:Scout"
 		group
@@ -2338,8 +2347,8 @@ planetItemsTemplate
 				item "Asgard:Orbital:MetalExtractor"
 				item "Asgard:Orbital:MetalExtractor"
 				item "Asgard:Orbital:CrystalExtractor"
-				item "Asgard:Frigate:Constructor"
-				item "Asgard:Frigate:Constructor"
+				item "Asgard:Module:Constructor"
+				item "Asgard:Module:Constructor"
 				item "Asgard:Frigate:Scout"
 				item "Asgard:Frigate:Scout"
 		group
@@ -2355,8 +2364,8 @@ planetItemsTemplate
 				item "Wraith:Orbital:MetalExtractor"
 				item "Wraith:Orbital:MetalExtractor"
 				item "Wraith:Orbital:CrystalExtractor"
-				item "Wraith:Frigate:Constructor"
-				item "Wraith:Frigate:Constructor"
+				item "Wraith:Module:Constructor"
+				item "Wraith:Module:Constructor"
 				item "Wraith:Frigate:Scout"
 				item "Wraith:Frigate:Scout"
 		group
@@ -3518,8 +3527,8 @@ planetItemsTemplate
 				item "Asuran:Frigate:LongRange"
 				item "Asuran:Frigate:AntiFighter"
 				item "Asuran:Cruiser:Heavy"
-				item "Asuran:Frigate:Constructor"
-				item "Asuran:Frigate:Constructor"
+				item "Asuran:Module:Constructor"
+				item "Asuran:Module:Constructor"
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
@@ -3547,8 +3556,8 @@ planetItemsTemplate
 				item "Asgard:Frigate:LongRange"
 				item "Asgard:Frigate:AntiFighter"
 				item "Asgard:Cruiser:Heavy"
-				item "Asgard:Frigate:Constructor"
-				item "Asgard:Frigate:Constructor"
+				item "Asgard:Module:Constructor"
+				item "Asgard:Module:Constructor"
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
@@ -3576,8 +3585,8 @@ planetItemsTemplate
 				item "Wraith:Frigate:LongRange"
 				item "Wraith:Frigate:AntiFighter"
 				item "Wraith:Cruiser:Heavy"
-				item "Wraith:Frigate:Constructor"
-				item "Wraith:Frigate:Constructor"
+				item "Wraith:Module:Constructor"
+				item "Wraith:Module:Constructor"
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
@@ -3855,8 +3864,8 @@ planetItemsTemplate
 				item "Asuran:Frigate:LongRange"
 				item "Asuran:Frigate:AntiFighter"
 				item "Asuran:Cruiser:Heavy"
-				item "Asuran:Frigate:Constructor"
-				item "Asuran:Frigate:Constructor"
+				item "Asuran:Module:Constructor"
+				item "Asuran:Module:Constructor"
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
@@ -3885,8 +3894,8 @@ planetItemsTemplate
 				item "Asuran:Frigate:LongRange"
 				item "Asuran:Frigate:AntiFighter"
 				item "Asuran:Cruiser:Heavy"
-				item "Asuran:Frigate:Constructor"
-				item "Asuran:Frigate:Constructor"
+				item "Asuran:Module:Constructor"
+				item "Asuran:Module:Constructor"
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
@@ -3914,8 +3923,8 @@ planetItemsTemplate
 				item "Asuran:Frigate:LongRange"
 				item "Asuran:Frigate:AntiFighter"
 				item "Asuran:Cruiser:Heavy"
-				item "Asuran:Frigate:Constructor"
-				item "Asuran:Frigate:Constructor"
+				item "Asuran:Module:Constructor"
+				item "Asuran:Module:Constructor"
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"
@@ -3946,8 +3955,8 @@ planetItemsTemplate
 				item "Asuran:Frigate:AntiFighter"
 				item "Asuran:Cruiser:Heavy"
 				item "Asuran:Cruiser:Heavy"
-				item "Asuran:Frigate:Constructor"
-				item "Asuran:Frigate:Constructor"
+				item "Asuran:Module:Constructor"
+				item "Asuran:Module:Constructor"
 		group
 			condition
 				type "PlanetOwnerIsMinorFactionWithFactionName"

@@ -1,0 +1,50 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Wraith_BuffCruiser_RepulsionFieldCaster"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID "EFFECT_REPULSIONFIELD"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "Wraith_Research_Ability_RepulsionField"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 90.000000
+	Level:1 90.000000
+	Level:2 90.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 20.000000
+	Level:1 20.000000
+	Level:2 20.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Wraith_Research_Ability_RepulsionField"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_REPULSIONFIELD_NAME"
+descStringID "IDS_ABILITY_REPULSIONFIELD_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_REPULSIONFIELD"
+smallHudIcon "HUDICON_ABILITY_REPULSIONFIELD_ACTIVE"
+infoCardIcon ""

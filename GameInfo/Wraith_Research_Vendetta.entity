@@ -1,0 +1,37 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_VENDETTA"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_VENDETTA"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_VENDETTA_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_VENDETTA_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 1 , 1 ]
+ResearchField "Diplomacy"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 45.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 600.000000
+	metal 50.000000
+	crystal 100.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 1
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 1
+researchModifier
+	modifierType "AllowMissionOffers"
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

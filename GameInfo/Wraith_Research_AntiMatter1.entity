@@ -1,0 +1,46 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_ANTIMATTERPSI1"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_ANTIMATTERPSI1"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_ANTIMATTERPSI1_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_ANTIMATTERPSI1_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 4 , 4 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Wraith_Research_AntiMatter0"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 75.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1000.000000
+	metal 100.000000
+	crystal 325.000000
+PerLevelCostIncrease
+	credits 0.000000
+	metal 50.000000
+	crystal 75.000000
+Tier 4
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "AntimatterCapacityAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
+researchModifier
+	modifierType "AntimatterRegenAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

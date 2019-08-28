@@ -1,0 +1,51 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Wraith_BuffCapital_StunPulseFiring"
+effectInfo
+	effectAttachInfo
+		attachType "Aura"
+	smallEffectName "Ability_MeteorStorm_self"
+	mediumEffectName "Ability_MeteorStorm_self"
+	largeEffectName "Ability_MeteorStorm_self"
+	soundID "EFFECT_METEORATTACK"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 0.000000
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 150.000000
+	Level:1 125.000000
+	Level:2 100.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 100.000000
+	Level:1 90.000000
+	Level:2 85.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_WRAITHSTUNPULSE_NAME"
+descStringID "IDS_ABILITY_WRAITHSTUNPULSE_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_MASSDISORIENTATION"
+smallHudIcon "HUDICON_ABILITY_MASSDISORIENTATION"
+infoCardIcon ""

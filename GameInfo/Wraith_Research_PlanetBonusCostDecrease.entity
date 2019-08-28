@@ -1,0 +1,45 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_PLANETBONUSCOSTDECREASE"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_PLANETBONUSCOSTDECREASE"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_PLANETBONUSCOSTDECREASE_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_PLANETBONUSCOSTDECREASE_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 2 , 1 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 50.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 800.000000
+	metal 100.000000
+	crystal 175.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 2
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "PlanetUpgradeBuildRateAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.400000
+	linkedPlanetUpgradeType "ArtifactLevel"
+researchModifier
+	modifierType "PlanetUpgradeCostAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.250000
+	linkedPlanetUpgradeType "ArtifactLevel"
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

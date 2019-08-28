@@ -1,0 +1,220 @@
+﻿TXT
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+autoJoinFleetDefault FALSE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 31.000000
+basePopulationKilled 2.800000
+bombingFreqTime 10.000000
+baseRange 3000.000000
+bombTransitTime 7.000000
+bombEffectCount 3
+bombEffectAngleVariance 8.000000
+bombEffectsDef
+	weaponType "Projectile"
+	burstCount 6
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_PsiCapitalPlanetBombing_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "WEAPON_TECHCAPITALMISSILEHEAVY_MUZZLE"
+	hitEffectName "Weapon_PsiCapitalPlanetBombing_Hit"
+	hitHullEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	hitShieldsEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	projectileTravelEffectName "Weapon_WraithPlasmaLight_Travel"
+typeCount 2
+frigateRoleType "Carrier"
+frigateRoleType "Siege"
+statCountType "FrigateSiege"
+mainViewIcon "MAINVIEWICON_FRIGATE_WRAITHSIEGE"
+picture "PICTURE_FRIGATE_WRAITHSIEGE"
+NameStringID "IDS_FRIGATE_WRAITHSIEGE_NAME"
+DescriptionStringID "IDS_FRIGATE_WRAITHSIEGE_DESCRIPTION"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
+basePrice
+	credits 750.000000
+	metal 175.000000
+	crystal 150.000000
+slotCount 16.000000
+BuildTime 50.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 10.000000
+MaxHullPoints 2250.000000
+MaxShieldPoints 0.000000
+HullPointRestoreRate 4.500000
+ShieldPointRestoreRate 0.000000
+BaseArmorPoints 4.000000
+maxMitigation 0.000000
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Wraith_Research_FrigateSiege_Death"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 6
+numSpecificDebris 0
+armorType "Heavy"
+hudIcon "HUDICON_FRIGATE_WRAITHSIEGE"
+smallHudIcon "HUDICONSMALL_FRIGATE_WRAITHSIEGE"
+infoCardIcon "INFOCARDICON_FRIGATE_WRAITHSIEGE"
+minZoomDistanceMult 2.000000
+NumWeapons 2
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 200.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4500.000000
+	PreBuffCooldownTime 5.500000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.200000
+	TravelSpeed 2000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.300000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PsiCapitalPlasmaLight_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_PSICAPITALPLASMALIGHT_MUZZLE"
+		hitEffectName "Weapon_PsiCapitalPlasmaLight_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_WraithPlasmaLight_Travel"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIMEDIUM"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 100.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 50.000000
+	DamagePerBank:RIGHT 50.000000
+	Range 4500.000000
+	PreBuffCooldownTime 6.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.200000
+	TravelSpeed 1800.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 3
+		burstDelay 0.300000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PsiCapitalPlasmaLight_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_PSICAPITALPLASMALIGHT_MUZZLE"
+		hitEffectName "Weapon_PsiCapitalPlasmaLight_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_WraithPlasmaLight_Travel"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1235.000000
+ShieldMeshName ""
+renderShield FALSE
+maxAccelerationLinear 350.000000
+maxAccelerationStrafe 370.000000
+maxDecelerationLinear 375.000000
+maxAccelerationAngular 25.000000
+maxDecelerationAngular 39.000000
+maxSpeedLinear 499.000000
+maxRollRate 25.000000
+maxRollAngle 45.000000
+squadTypeEntityDef:0 "Wraith_SquadCombat_Dart"
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 1
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "FRIGATE_PSISIEGE_ONATTACKORDERISSUED_0"
+SoundID "FRIGATE_PSISIEGE_ONATTACKORDERISSUED_1"
+SoundID "FRIGATE_PSISIEGE_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 1
+SoundID "FRIGATE_PSISIEGE_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "FRIGATE_PSISIEGE_ONGENERALORDERISSUED_0"
+SoundID "FRIGATE_PSISIEGE_ONGENERALORDERISSUED_1"
+SoundID "FRIGATE_PSISIEGE_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 2
+SoundID "FRIGATE_PSISIEGE_ONSELECTED_0"
+SoundID "FRIGATE_PSISIEGE_ONSELECTED_1"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "FRIGATE_PSISIEGE_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Frigate_WraithSiege"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_FrigatePsiSiege"
+ExplosionName "Frigate1"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_PSICAPITALSHIP"
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 200.000000
+AntiMatterRestoreRate 0.500000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 1
+minShadow 0.200000
+maxShadow 1.800000
+allegianceDecreasePerRoundtrip 0.000000

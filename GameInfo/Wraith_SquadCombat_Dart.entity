@@ -1,0 +1,45 @@
+﻿TXT
+entityType "Squad"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+hudIcon "HUDICON_SQUADWRAITHCOMBAT"
+smallHudIcon "HUDICONSMALL_SQUADWRAITHCOMBAT"
+infoCardIcon "INFOCARDICON_SQUADWRAITHCOMBAT"
+fighterEntityDef "Wraith_FighterCombat_Dart"
+fighterIllusionEntityDef "Wraith_FighterCombat_Dart"
+scuttleTime 8.000000
+fighterConstructionTime 12.600000
+decayWithoutOwnerRate 5.000000
+baseMaxNumFighters 8
+role "Combat"
+statCountType "SquadCombat"
+mainViewIcon "MAINVIEWICON_SQUADWRAITHCOMBAT"
+picture "PICTURE_SQUADWRAITHCOMBAT"
+launchIcon "HUDICONLAUNCH_SQUADWRAITHCOMBAT"
+dockIcon "HUDICONDOCK_SQUADWRAITHCOMBAT"
+nameStringID "IDS_SQUADWRAITHCOMBAT_NAME"
+descriptionStringID "IDS_SQUADWRAITHCOMBAT_DESC"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+NumSoundsFor:ONATTACKORDERISSUED 2
+SoundID "Wraith_SquadCombat_OnAttackOrderIssued_0"
+SoundID "Wraith_SquadCombat_OnAttackOrderIssued_1"
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 2
+SoundID "Wraith_SquadCombat_OnGeneralOrderIssued_0"
+SoundID "Wraith_SquadCombat_OnGeneralOrderIssued_1"
+NumSoundsFor:ONSELECTED 2
+SoundID "Wraith_SquadCombat_OnSelected_0"
+SoundID "Wraith_SquadCombat_OnSelected_1"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+minShadow 0.000000
+maxShadow 0.000000
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""

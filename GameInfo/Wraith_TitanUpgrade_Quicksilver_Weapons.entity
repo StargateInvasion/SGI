@@ -1,0 +1,80 @@
+﻿TXT
+entityType "TitanUpgrade"
+stageCount 5
+stage
+	nameStringID "IDS_TITANUPGRADE_WRAITHASSAULT_WEAPONS_NAME"
+	descStringID "IDS_TITANUPGRADE_WRAITHASSAULT_WEAPONS_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement -1
+	hudIcon "HUDIconTitanWraithAssaultWeaponUpgrade0"
+	smallHudIcon "HUDIconTitanWraithAssaultWeaponUpgrade0"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_WRAITHASSAULT_WEAPONS_NAME"
+	descStringID "IDS_TITANUPGRADE_WRAITHASSAULT_WEAPONS_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 0
+	hudIcon "HUDIconTitanWraithAssaultWeaponUpgrade0"
+	smallHudIcon "HUDIconTitanWraithAssaultWeaponUpgrade0"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "WeaponDamage"
+		value 0.150000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_WRAITHASSAULT_WEAPONS_NAME"
+	descStringID "IDS_TITANUPGRADE_WRAITHASSAULT_WEAPONS_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 2
+	hudIcon "HUDIconTitanWraithAssaultWeaponUpgrade1"
+	smallHudIcon "HUDIconTitanWraithAssaultWeaponUpgrade1"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "WeaponDamage"
+		value 0.250000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_WRAITHASSAULT_WEAPONS_NAME"
+	descStringID "IDS_TITANUPGRADE_WRAITHASSAULT_WEAPONS_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 4
+	hudIcon "HUDIconTitanWraithAssaultWeaponUpgrade2"
+	smallHudIcon "HUDIconTitanWraithAssaultWeaponUpgrade2"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "WeaponDamage"
+		value 0.350000
+	upgradeBoolPropertyCount 0
+stage
+	nameStringID "IDS_TITANUPGRADE_WRAITHASSAULT_WEAPONS_NAME"
+	descStringID "IDS_TITANUPGRADE_WRAITHASSAULT_WEAPONS_DESCRIPTION"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+		RequiredFactionNameID ""
+		RequiredCompletedResearchSubjects 0
+	levelRequirement 6
+	hudIcon "HUDIconTitanWraithAssaultWeaponUpgrade3"
+	smallHudIcon "HUDIconTitanWraithAssaultWeaponUpgrade3"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "WeaponDamage"
+		value 0.450000
+	upgradeBoolPropertyCount 0

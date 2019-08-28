@@ -1,0 +1,63 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Wraith_BuffStarbase_MeteorStrikeShipsSpawn"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 4
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 15000.000000
+	Level:1 15000.000000
+	Level:2 15000.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "Ability_MeteorStorm_self"
+	mediumEffectName "Ability_MeteorStorm_self"
+	largeEffectName "Ability_MeteorStorm_self"
+	soundID "EFFECT_METEORATTACK"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 2
+levelSourceType "StarBaseUpgradeLevel"
+sourcePropertyType "AbilityBLevel"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 125.000000
+	Level:1 125.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 30.000000
+	Level:1 30.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_METEORSTRIKESHIPS_NAME"
+descStringID "IDS_ABILITY_METEORSTRIKESHIPS_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_METEORSTRIKESHIPS"
+smallHudIcon "HUDICON_ABILITY_METEORSTRIKESHIPS"
+infoCardIcon ""

@@ -1,28 +1,28 @@
 ﻿TXT
 entityType "PlanetModuleShipFactory"
-minZoomDistanceMult 2.250000
-ability:0 "Asuran_AbilityOrbital_ProtectedShutdown"
-ability:1 "Asuran_AbilityOrbital_ArtifactZPM_ZPMResupply"
-ability:2 "Asuran_AbilityOrbital_Capital_Upkeep"
+minZoomDistanceMult 1.750000
+ability:0 "Wraith_AbilityOrbital_RepairPlatform"
+ability:1 ""
+ability:2 ""
 ability:3 ""
 ability:4 ""
-MaxAntiMatter 0.000000
-AntiMatterRestoreRate 0.000000
-numRandomDebrisLarge 3
-numRandomDebrisSmall 18
+MaxAntiMatter 900.000000
+AntiMatterRestoreRate 1.000000
+numRandomDebrisLarge 5
+numRandomDebrisSmall 19
 numSpecificDebris 0
 armorType "Module"
-hudIcon "HUDICON_ASURAN_ORBITAL_CAPITALSHIPFACTORY"
-smallHudIcon "HUDICONSMALL_ASURAN_ORBITAL_CAPITALSHIPFACTORY"
-infoCardIcon "MAINVIEWICON_ASURAN_ORBITAL_CAPITALSHIPFACTORY"
+hudIcon "HUDICON_PLANETMODULE_WRAITHORBITALCAPITALSHIPFACTORY"
+smallHudIcon "HUDICONSMALL_PLANETMODULE_WRAITHORBITALCAPITALSHIPFACTORY"
+infoCardIcon "INFOCARDICON_PLANETMODULE_WRAITHORBITALCAPITALSHIPFACTORY"
 planetUpgradeSlotType "Civilian"
 planetUpgradeSlotCount 4.000000
 basePrice
 	credits 1000.000000
 	metal 250.000000
 	crystal 100.000000
-NameStringID "IDS_ASURAN_ORBITAL_CAPITALSHIPFACTORY_NAME"
-DescriptionStringID "IDS_ASURAN_ORBITAL_CAPITALSHIPFACTORY_DESCRIPTION"
+NameStringID "IDS_PLANETMODULE_PSIORBITALCAPITALSHIPFACTORY_NAME"
+DescriptionStringID "IDS_PLANETMODULE_PSIORBITALCAPITALSHIPFACTORY_DESCRIPTION"
 planetModuleRoleType "CAPITALSHIPFACTORY"
 statCountType "ModuleCapitalShipFactory"
 Prerequisites
@@ -39,7 +39,7 @@ ExperiencePointsForDestroying 25.000000
 resourceExtractionType "Invalid"
 cultureSpreadRate 0.000000
 isAffectedBySimilarModuleCostResearch FALSE
-placementRadius 750.000000
+placementRadius 1150.000000
 nearPlacementDistOffset 0.000000
 farPlacementDistOffset 9000.000000
 spawnCount 1
@@ -54,19 +54,19 @@ NumSoundsFor:ONATTACKORDERISSUED 0
 NumSoundsFor:ONCREATION 0
 NumSoundsFor:ONGENERALORDERISSUED 0
 NumSoundsFor:ONSELECTED 1
-SoundID "PLANETMODULE_PHASEORBITALCAPITALSHIPFACTORY_ONSELECTION_0"
+SoundID "PLANETMODULE_PSIORBITALCAPITALSHIPFACTORY_ONSELECTION_0"
 NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Asuran_Orbital_CapitalShipFactory"
+	meshName "PlanetModule_PsiOrbitalCapitalShipFactory"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleLarge"
-mainViewIcon "MAINVIEWICON_ASURAN_ORBITAL_CAPITALSHIPFACTORY"
-picture "PICTURE_ASURAN_ORBITAL_CAPITALSHIPFACTORY"
+mainViewIcon "MAINVIEWICON_PLANETMODULE_WRAITHORBITALCAPITALSHIPFACTORY"
+picture "PLANETMODULEPICTURE_WRAITHORBITALCAPITALSHIPFACTORY"
 minShadow 0.000000
-maxShadow 1.000000
+maxShadow 0.300000
 formationRank 3
 baseBuildTime 60.000000
 buildEffectName ""

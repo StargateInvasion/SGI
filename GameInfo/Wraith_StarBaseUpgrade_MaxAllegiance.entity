@@ -1,0 +1,64 @@
+﻿TXT
+entityType "StarBaseUpgrade"
+stageCount 3
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "IDS_STARBASEUPGRADEWRAITHMAXALLEGIANCE_NAME"
+	descStringID "IDS_STARBASEUPGRADEWRAITHMAXALLEGIANCE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradeWraithMaxAllegiance0"
+	smallHudIcon "HUDIconStarBaseUpgradeWraithMaxAllegiance0"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1800.000000
+		metal 275.000000
+		crystal 150.000000
+	upgradeTime 60.000000
+	nameStringID "IDS_STARBASEUPGRADEWRAITHMAXALLEGIANCE_NAME"
+	descStringID "IDS_STARBASEUPGRADEWRAITHMAXALLEGIANCE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "Wraith_Research_StarbaseUpgrade_MaxAllegiance"
+			Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradeWraithMaxAllegiance0"
+	smallHudIcon "HUDIconStarBaseUpgradeWraithMaxAllegiance0"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "MaxAllegianceBonus"
+		value 0.150000
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1800.000000
+		metal 275.000000
+		crystal 150.000000
+	upgradeTime 60.000000
+	nameStringID "IDS_STARBASEUPGRADEWRAITHMAXALLEGIANCE_NAME"
+	descStringID "IDS_STARBASEUPGRADEWRAITHMAXALLEGIANCE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradeWraithMaxAllegiance1"
+	smallHudIcon "HUDIconStarBaseUpgradeWraithMaxAllegiance1"
+	infoCardIcon ""
+	upgradePropertyCount 1
+	upgradeProperty
+		propertyType "MaxAllegianceBonus"
+		value 0.300000
+	upgradeBoolPropertyCount 0
+xpModifier 25.000000

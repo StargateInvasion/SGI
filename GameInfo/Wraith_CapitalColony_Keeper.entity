@@ -1,0 +1,198 @@
+﻿TXT
+entityType "CapitalShip"
+ability:0 "Wraith_AbilityCapital_Colonize"
+ability:1 "Wraith_AbilityCapital_SpreadWeaponDamage"
+ability:2 "Wraith_AbilityCapital_SirenCall"
+ability:3 "Wraith_AbilityCapital_Resurrection"
+ability:4 ""
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 40.000000
+basePopulationKilled 1.550000
+bombingFreqTime 10.000000
+baseRange 3000.000000
+bombTransitTime 12.000000
+bombEffectCount 3
+bombEffectAngleVariance 15.000000
+bombEffectsDef
+	weaponType "Projectile"
+	burstCount 5
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_PsiCapitalPlanetBombing_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "WEAPON_PSI_PLANETBOMB_MUZZLE"
+	hitEffectName "Weapon_PsiCapitalPlanetBombing_Hit"
+	hitHullEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	hitShieldsEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	projectileTravelEffectName "Weapon_WraithCapitalPlasmaHeavy_Travel"
+mainViewIcon "MAINVIEWICON_CAPITALSHIP_WRAITHCOLONY"
+basePrice
+	credits 2500.000000
+	metal 400.000000
+	crystal 250.000000
+slotCount 40.000000
+BuildTime 100.000000
+MaxHullPoints
+	StartValue 5500.000000
+	ValueIncreasePerLevel 550.000000
+MaxShieldPoints
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
+HullPointRestoreRate
+	StartValue 27.500000
+	ValueIncreasePerLevel 5.500000
+ShieldPointRestoreRate
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
+ArmorPointsFromExperience
+	StartValue 5.000000
+	ValueIncreasePerLevel 0.333400
+maxMitigation
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
+MaxAntiMatter
+	StartValue 450.000000
+	ValueIncreasePerLevel 30.000000
+AntiMatterRestoreRate
+	StartValue 0.850000
+	ValueIncreasePerLevel 0.090000
+CultureProtectRate
+	StartValue 0.300000
+	ValueIncreasePerLevel 0.050000
+NameStringID "IDS_CAPITALSHIP_WRAITHCOLONY_NAME"
+DescriptionStringID "IDS_CAPITALSHIP_WRAITHCOLONY_DESCRIPTION"
+picture "CAPITALSHIPPICTURE_WRAITHCOLONY"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+roleType "COLONY"
+statCountType "CapitalShipUtility0"
+numRandomDebrisLarge 4
+numRandomDebrisSmall 18
+numSpecificDebris 0
+armorType "CapitalShip"
+hudIcon "HUDICON_CAPITALSHIP_WRAITHCARRIER"
+smallHudIcon "HUDICONSMALL_CAPITALSHIP_WRAITHCARRIER"
+infoCardIcon "INFOCARDICON_CAPITALSHIP_WRAITHCOLONY"
+minZoomDistanceMult 2.500000
+NumWeapons 1
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 200.000000
+	DamagePerBank:BACK 200.000000
+	DamagePerBank:LEFT 400.000000
+	DamagePerBank:RIGHT 400.000000
+	Range 5000.000000
+	PreBuffCooldownTime 3.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.500000
+	TravelSpeed 4000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_WraithCapitalPlasma_Muzzle"
+		muzzleSoundMinRespawnTime 0.500000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_WRAITHCAPITALPLASMA_MUZZLE"
+		hitEffectName "Weapon_WraithCapitalPlasma_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_WraithCapitalPlasma_Travel"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 1
+TargetCountPerBank:LEFT 2
+TargetCountPerBank:RIGHT 2
+canOnlyTargetStructures FALSE
+mass 4500.000000
+ShieldMeshName ""
+renderShield FALSE
+maxAccelerationLinear 244.000000
+maxAccelerationStrafe 170.000000
+maxDecelerationLinear 171.000000
+maxAccelerationAngular 15.999999
+maxDecelerationAngular 26.000000
+maxSpeedLinear 428.000000
+maxRollRate 0.500001
+maxRollAngle 12.000002
+squadTypeEntityDef:0 "Wraith_SquadCombat_Dart"
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 "Wraith_SquadBomber"
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "CAPITALSHIP_PSICOLONY_ONATTACKORDERISSUED_0"
+SoundID "CAPITALSHIP_PSICOLONY_ONATTACKORDERISSUED_1"
+SoundID "CAPITALSHIP_PSICOLONY_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 1
+SoundID "CAPITALSHIP_PSICOLONY_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "CAPITALSHIP_PSICOLONY_ONGENERALORDERISSUED_0"
+SoundID "CAPITALSHIP_PSICOLONY_ONGENERALORDERISSUED_1"
+SoundID "CAPITALSHIP_PSICOLONY_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "CAPITALSHIP_PSICOLONY_ONSELECTED_0"
+SoundID "CAPITALSHIP_PSICOLONY_ONSELECTED_1"
+SoundID "CAPITALSHIP_PSICOLONY_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "CAPITALSHIP_PSICOLONY_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "CapitalShip_WraithSubhive"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_PsiColony"
+ExplosionName "CapitalShip0"
+CommandPoints
+	StartValue 4.250000
+	ValueIncreasePerLevel 0.250000
+weaponCooldownDecreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.030000
+weaponDamageIncreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.050000
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_PSICAPITALSHIP"
+formationRank 2
+minShadow 0.000000
+maxShadow 0.500000

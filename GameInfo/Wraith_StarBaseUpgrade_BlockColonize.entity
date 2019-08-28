@@ -1,0 +1,43 @@
+﻿TXT
+entityType "StarBaseUpgrade"
+stageCount 2
+stage
+	price
+		credits 0.000000
+		metal 0.000000
+		crystal 0.000000
+	upgradeTime 0.000000
+	nameStringID "IDS_STARBASEUPGRADEWRAITHBLOCKCOLONIZE_NAME"
+	descStringID "IDS_STARBASEUPGRADEWRAITHBLOCKCOLONIZE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradeWraithBlockColonize0"
+	smallHudIcon "HUDIconStarBaseUpgradeWraithBlockColonize0"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 0
+stage
+	price
+		credits 1800.000000
+		metal 275.000000
+		crystal 150.000000
+	upgradeTime 60.000000
+	nameStringID "IDS_STARBASEUPGRADEWRAITHBLOCKCOLONIZE_NAME"
+	descStringID "IDS_STARBASEUPGRADEWRAITHBLOCKCOLONIZE_DESC"
+	researchPrerequisites
+		NumResearchPrerequisites 1
+		ResearchPrerequisite
+			Subject "Wraith_Research_StarbaseUpgrade_BlockColonize"
+			Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+	hudIcon "HUDIconStarBaseUpgradeWraithBlockColonize0"
+	smallHudIcon "HUDIconStarBaseUpgradeWraithBlockColonize0"
+	infoCardIcon ""
+	upgradePropertyCount 0
+	upgradeBoolPropertyCount 2
+	upgradeBoolProperty "CanPreventEnemyColonize"
+	upgradeBoolProperty "CanPreventPlanetLossByBombing"
+xpModifier 25.000000

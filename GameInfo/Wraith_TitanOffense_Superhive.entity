@@ -1,0 +1,242 @@
+﻿TXT
+entityType "Titan"
+ability:0 "Wraith_AbilityTitan_SuicideDarts"
+ability:1 "Wraith_AbilityTitan_SirenCall"
+ability:2 ""
+ability:3 ""
+ability:4 ""
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 43.000000
+basePopulationKilled 1.700000
+bombingFreqTime 10.000000
+baseRange 3000.000000
+bombTransitTime 12.000000
+bombEffectCount 3
+bombEffectAngleVariance 15.000000
+bombEffectsDef
+	weaponType "Projectile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_PsiCapitalPlanetBombing_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "WEAPON_PSI_PLANETBOMB_MUZZLE"
+	hitEffectName "Weapon_PsiCapitalPlanetBombing_Hit"
+	hitHullEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	hitShieldsEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	projectileTravelEffectName "Weapon_PsiCapitalPlanetBombing_Travel"
+mainViewIcon "MAINVIEWICON_TITAN_WRAITHSUPERHIVE"
+basePrice
+	credits 9500.000000
+	metal 1200.000000
+	crystal 750.000000
+slotCount 150.000000
+BuildTime 450.000000
+MaxHullPoints
+	StartValue 15000.000000
+	ValueIncreasePerLevel 322.000000
+MaxShieldPoints
+	StartValue 5000.000000
+	ValueIncreasePerLevel 684.250000
+HullPointRestoreRate
+	StartValue 2.700000
+	ValueIncreasePerLevel 0.450000
+ShieldPointRestoreRate
+	StartValue 5.400000
+	ValueIncreasePerLevel 0.850000
+ArmorPointsFromExperience
+	StartValue 8.000000
+	ValueIncreasePerLevel 0.544000
+maxMitigation
+	StartValue 0.650000
+	ValueIncreasePerLevel 0.011110
+MaxAntiMatter
+	StartValue 320.000000
+	ValueIncreasePerLevel 40.000000
+AntiMatterRestoreRate
+	StartValue 0.900000
+	ValueIncreasePerLevel 0.160000
+CultureProtectRate
+	StartValue 0.300000
+	ValueIncreasePerLevel 0.050000
+NameStringID "IDS_TITAN_WRAITHSUPERHIVE_NAME"
+DescriptionStringID "IDS_TITAN_WRAITHSUPERHIVE_DESCRIPTION"
+picture "TITANPICTURE_WRAITHSUPERHIVE"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+statCountType "Titan"
+UpgradeTypeCount 5
+UpgradeType "Wraith_TitanUpgrade_SuperHive_Abilities"
+UpgradeType "Wraith_TitanUpgrade_SuperHive_AbilityA"
+UpgradeType "Wraith_TitanUpgrade_SuperHive_AbilityB"
+UpgradeType "Wraith_TitanUpgrade_SuperHive_Durability"
+UpgradeType "Wraith_TitanUpgrade_SuperHive_Weapons"
+numRandomDebrisLarge 80
+numRandomDebrisSmall 30
+numSpecificDebris 1
+specificDebrisMeshName "DebrisAdventLarge"
+armorType "Titan"
+hudIcon "HUDICON_RESEARCHSUBJECT_TITAN_WRAITHSUPERHIVE"
+smallHudIcon "HUDICONSMALL_TITAN_WRAITHSUPERHIVE"
+infoCardIcon "INFOCARDICON_TITAN_WRAITHSUPERHIVE"
+minZoomDistanceMult 1.030000
+NumWeapons 2
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 300.000000
+	DamagePerBank:BACK 300.000000
+	DamagePerBank:LEFT 500.000000
+	DamagePerBank:RIGHT 500.000000
+	Range 5000.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.400000
+	TravelSpeed 1500.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.900000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PsiCapitalPlasmaHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_WRAITHCAPITALPLASMA_MUZZLE"
+		hitEffectName "Weapon_TechCapitalAutoCannonHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_WraithCapitalPlasmaHeavy_Travel"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 200.000000
+	DamagePerBank:BACK 200.000000
+	DamagePerBank:LEFT 300.000000
+	DamagePerBank:RIGHT 300.000000
+	Range 5000.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.500000
+	TravelSpeed 1500.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.600000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PsiCapitalPlasmaHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_WRAITHCAPITALPLASMA_MUZZLE"
+		hitEffectName "Weapon_TechCapitalAutoCannonHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_WraithCapitalPlasmaHeavy_Travel"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 2
+TargetCountPerBank:BACK 2
+TargetCountPerBank:LEFT 3
+TargetCountPerBank:RIGHT 3
+canOnlyTargetStructures FALSE
+mass 75000.000000
+ShieldMeshName "Shield_Titan_Wraith_SuperHive"
+renderShield FALSE
+maxAccelerationLinear 100.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 500.000000
+maxAccelerationAngular 1.000000
+maxDecelerationAngular 9.999996
+maxSpeedLinear 450.000000
+maxRollRate 1.650000
+maxRollAngle 1.000000
+squadTypeEntityDef:0 "Wraith_SquadCombat_Dart"
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 "Wraith_SquadBomber"
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "CAPITALSHIP_PSIBATTLESHIP_ONATTACKORDERISSUED_0"
+SoundID "CAPITALSHIP_PSIBATTLESHIP_ONATTACKORDERISSUED_1"
+SoundID "CAPITALSHIP_PSIBATTLESHIP_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 1
+SoundID "CAPITALSHIP_PSIBATTLESHIP_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "CAPITALSHIP_PSIBATTLESHIP_ONGENERALORDERISSUED_0"
+SoundID "CAPITALSHIP_PSIBATTLESHIP_ONGENERALORDERISSUED_1"
+SoundID "CAPITALSHIP_PSIBATTLESHIP_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "CAPITALSHIP_PSIBATTLESHIP_ONSELECTED_0"
+SoundID "CAPITALSHIP_PSIBATTLESHIP_ONSELECTED_1"
+SoundID "CAPITALSHIP_PSIBATTLESHIP_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "CAPITALSHIP_PSIBATTLESHIP_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Titan_Wraith_SuperHive"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_PsiLoyalistTitan"
+ExplosionName "StarBase1"
+CommandPoints
+	StartValue 3.250000
+	ValueIncreasePerLevel 0.500000
+weaponCooldownDecreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.030000
+weaponDamageIncreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.050000
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_TECHCAPITALSHIP"
+formationRank 0
+minShadow 0.000000
+maxShadow 1.000000

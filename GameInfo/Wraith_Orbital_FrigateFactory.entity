@@ -1,28 +1,28 @@
 ﻿TXT
 entityType "PlanetModuleShipFactory"
-minZoomDistanceMult 3.000000
-ability:0 "Asuran_AbilityOrbital_ProtectedShutdown"
-ability:1 "Asuran_AbilityOrbital_ArtifactZPM_ZPMResupply"
-ability:2 "Asuran_AbilityOrbital_Frigate_Cruiser_Upkeep"
+minZoomDistanceMult 1.800000
+ability:0 "Wraith_AbilityOrbital_RepairPlatform"
+ability:1 ""
+ability:2 ""
 ability:3 ""
 ability:4 ""
-MaxAntiMatter 0.000000
+MaxAntiMatter 900.000000
 AntiMatterRestoreRate 0.000000
 numRandomDebrisLarge 4
 numRandomDebrisSmall 13
 numSpecificDebris 0
 armorType "Module"
-hudIcon "HUDICON_ASURAN_ORBITAL_FRIGATEFACTORY"
-smallHudIcon "HUDICONSMALL_ASURAN_ORBITAL_FRIGATEFACTORY"
-infoCardIcon "MAINVIEWICON_ASURAN_ORBITAL_FRIGATEFACTORY"
+hudIcon "HUDICON_PLANETMODULE_WRAITHORBITALFRIGATEFACTORY"
+smallHudIcon "HUDICONSMALL_PLANETMODULE_WRAITHORBITALFRIGATEFACTORY"
+infoCardIcon "INFOCARDICON_PLANETMODULE_WRAITHORBITALFRIGATEFACTORY"
 planetUpgradeSlotType "Civilian"
 planetUpgradeSlotCount 4.000000
 basePrice
 	credits 600.000000
 	metal 80.000000
 	crystal 80.000000
-NameStringID "IDS_ASURAN_ORBITAL_FRIGATEFACTORY_NAME"
-DescriptionStringID "IDS_ASURAN_ORBITAL_FRIGATEFACTORY_DESCRIPTION"
+NameStringID "IDS_PLANETMODULE_PSIORBITALFRIGATEFACTORY_NAME"
+DescriptionStringID "IDS_PLANETMODULE_PSIORBITALFRIGATEFACTORY_DESCRIPTION"
 planetModuleRoleType "FRIGATEFACTORY"
 statCountType "ModuleFrigateFactory"
 Prerequisites
@@ -34,12 +34,12 @@ HullPointRestoreRate 2.000000
 BaseArmorPoints 6.000000
 MaxShieldPoints 0.000000
 ShieldPointRestoreRate 0.000000
-maxShieldMitigation 0.000000
+maxShieldMitigation 0.600000
 ExperiencePointsForDestroying 25.000000
 resourceExtractionType "Invalid"
 cultureSpreadRate 0.000000
 isAffectedBySimilarModuleCostResearch FALSE
-placementRadius 550.000000
+placementRadius 525.000000
 nearPlacementDistOffset 0.000000
 farPlacementDistOffset 9000.000000
 spawnCount 1
@@ -54,19 +54,19 @@ NumSoundsFor:ONATTACKORDERISSUED 0
 NumSoundsFor:ONCREATION 0
 NumSoundsFor:ONGENERALORDERISSUED 0
 NumSoundsFor:ONSELECTED 1
-SoundID "PLANETMODULE_PHASEORBITALFRIGATEFACTORY_ONSELECTION_0"
+SoundID "PLANETMODULE_PSIORBITALFRIGATEFACTORY_ONSELECTION_0"
 NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Asuran_Orbital_FrigateFactory"
+	meshName "PlanetModule_WraithOrbitalFrigateFactory"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleSmall"
-mainViewIcon "MAINVIEWICON_ASURAN_ORBITAL_FRIGATEFACTORY"
-picture "PICTURE_ASURAN_ORBITAL_FRIGATEFACTORY"
+mainViewIcon "MAINVIEWICON_PLANETMODULE_WRAITHORBITALFRIGATEFACTORY"
+picture "PLANETMODULEPICTURE_WRAITHORBITALFRIGATEFACTORY"
 minShadow 0.000000
-maxShadow 1.500000
+maxShadow 0.300000
 formationRank 3
 baseBuildTime 60.000000
 buildEffectName ""

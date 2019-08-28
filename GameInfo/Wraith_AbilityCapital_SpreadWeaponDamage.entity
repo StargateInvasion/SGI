@@ -1,0 +1,68 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTarget"
+instantActionTriggerType "AlwaysPerform"
+buffType "Wraith_BuffCapital_SpreadWeaponDamageSpawn"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 4
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 8000.000000
+	Level:1 8000.000000
+	Level:2 8000.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	smallEffectName "Ability_SpreadWeaponDamageActivate"
+	mediumEffectName "Ability_SpreadWeaponDamageActivate"
+	largeEffectName "Ability_SpreadWeaponDamageActivate"
+	soundID "EFFECT_MALICE"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 3
+levelSourceType "Intrinsic"
+minExperienceLevelRequired
+	Level:0 0.000000
+	Level:1 2.000000
+	Level:2 4.000000
+	Level:3 0.000000
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 50.000000
+	Level:1 50.000000
+	Level:2 50.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 10.000000
+	Level:1 10.000000
+	Level:2 10.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_SPREADWEAPONDAMAGE_NAME"
+descStringID "IDS_ABILITY_SPREADWEAPONDAMAGE_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_SPREADWEAPONDAMAGE"
+smallHudIcon "HUDICON_ABILITY_SPREADWEAPONDAMAGE"
+infoCardIcon ""

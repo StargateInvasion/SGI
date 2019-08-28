@@ -1,0 +1,60 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Wraith_BuffStarbase_MeteorStrikePlanetSelf"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 1
+	object "Planet"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 40000.000000
+	Level:1 40000.000000
+	Level:2 0.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID "EFFECT_METEORATTACK"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 2
+levelSourceType "StarBaseUpgradeLevel"
+sourcePropertyType "AbilityCLevel"
+aiUseTime "OnlyWhenOrbitingEnemyPlanet"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 150.000000
+	Level:1 150.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 60.000000
+	Level:1 60.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_METEORSTRIKEPLANET_NAME"
+descStringID "IDS_ABILITY_METEORSTRIKEPLANET_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_METEORSTRIKEPLANET"
+smallHudIcon "HUDICON_ABILITY_METEORSTRIKEPLANET"
+infoCardIcon ""

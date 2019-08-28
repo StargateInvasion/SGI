@@ -1,0 +1,42 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_PACTUNLOCK_ARMOR"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_PACT_ARMOR_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_PACT_ARMOR_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 7 , 1 ]
+ResearchField "Diplomacy"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Wraith_Research_TruthAndReconciliation"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 105.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1600.000000
+	metal 300.000000
+	crystal 475.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 0.000000
+	crystal 25.000000
+Tier 7
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 1
+researchModifier
+	modifierType "UnlockPact"
+	allianceType "ArmorPact"
+	pactUnlockEntityDefName "Wraith_Research_PactBonus_Armor"
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

@@ -1,0 +1,239 @@
+﻿TXT
+entityType "CapitalShip"
+ability:0 "Wraith_AbilityCruiser_ShipCripple"
+ability:1 "Wraith_AbilityCapital_Vengeance"
+ability:2 "Wraith_AbilityCapital_BattleMeditation"
+ability:3 "Wraith_AbilityCapital_Domination"
+ability:4 ""
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 43.000000
+basePopulationKilled 1.650000
+bombingFreqTime 10.000000
+baseRange 3000.000000
+bombTransitTime 12.000000
+bombEffectCount 3
+bombEffectAngleVariance 15.000000
+bombEffectsDef
+	weaponType "Projectile"
+	burstCount 5
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_PsiCapitalPlanetBombing_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "WEAPON_PSI_PLANETBOMB_MUZZLE"
+	hitEffectName "Weapon_PsiCapitalPlanetBombing_Hit"
+	hitHullEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	hitShieldsEffectSounds
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	projectileTravelEffectName "Weapon_WraithCapitalPlasmaHeavy_Travel"
+mainViewIcon "MAINVIEWICON_CAPITALSHIP_WRAITHBATTLEPSIONIC"
+basePrice
+	credits 4500.000000
+	metal 600.000000
+	crystal 400.000000
+slotCount 55.000000
+BuildTime 180.000000
+MaxHullPoints
+	StartValue 10000.000000
+	ValueIncreasePerLevel 890.000000
+MaxShieldPoints
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
+HullPointRestoreRate
+	StartValue 50.000000
+	ValueIncreasePerLevel 8.900000
+ShieldPointRestoreRate
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
+ArmorPointsFromExperience
+	StartValue 6.000000
+	ValueIncreasePerLevel 0.889000
+maxMitigation
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
+MaxAntiMatter
+	StartValue 5270.000000
+	ValueIncreasePerLevel 30.000000
+AntiMatterRestoreRate
+	StartValue 0.850000
+	ValueIncreasePerLevel 0.090000
+CultureProtectRate
+	StartValue 0.300000
+	ValueIncreasePerLevel 0.050000
+NameStringID "IDS_CAPITALSHIP_WRAITHBATTLEPSIONIC_NAME"
+DescriptionStringID "IDS_CAPITALSHIP_WRAITHBATTLEPSIONIC_DESCRIPTION"
+picture "CAPITALSHIPPICTURE_WRAITHBATTLEPSIONIC"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Wraith_Research_CapitalSiege_Nightwind"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+roleType "Invalid"
+statCountType "CapitalShipUtility1"
+numRandomDebrisLarge 3
+numRandomDebrisSmall 18
+numSpecificDebris 0
+armorType "CapitalShip"
+hudIcon "HUDICON_CAPITALSHIP_WRAITHCARRIER"
+smallHudIcon "HUDICONSMALL_CAPITALSHIP_WRAITHCARRIER"
+infoCardIcon "INFOCARDICON_CAPITALSHIP_WRAITHBATTLEPSIONIC"
+minZoomDistanceMult 1.250000
+NumWeapons 2
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 250.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 200.000000
+	Range 5000.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.400000
+	TravelSpeed 1500.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.900000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PsiCapitalPlasmaHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_WRAITHCAPITALPLASMA_MUZZLE"
+		hitEffectName "Weapon_TechCapitalAutoCannonHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_WraithCapitalPlasmaHeavy_Travel"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 250.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 200.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 5000.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.500000
+	TravelSpeed 1500.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.600000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PsiCapitalPlasmaHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_WRAITHPLASMA_MUZZLE"
+		hitEffectName "Weapon_TechCapitalAutoCannonHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_WraithCapitalPlasmaHeavy_Travel"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+mass 3500.000000
+ShieldMeshName ""
+renderShield FALSE
+maxAccelerationLinear 244.000000
+maxAccelerationStrafe 170.000000
+maxDecelerationLinear 171.000000
+maxAccelerationAngular 15.999999
+maxDecelerationAngular 26.000000
+maxSpeedLinear 408.000000
+maxRollRate 0.000001
+maxRollAngle 0.000002
+squadTypeEntityDef:0 "Wraith_SquadCombat_Dart"
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 "Wraith_SquadBomber"
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "CAPITALSHIP_PSIBATTLEPSIONIC_ONATTACKORDERISSUED_0"
+SoundID "CAPITALSHIP_PSIBATTLEPSIONIC_ONATTACKORDERISSUED_1"
+SoundID "CAPITALSHIP_PSIBATTLEPSIONIC_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 1
+SoundID "CAPITALSHIP_PSIBATTLEPSIONIC_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "CAPITALSHIP_PSIBATTLEPSIONIC_ONGENERALORDERISSUED_0"
+SoundID "CAPITALSHIP_PSIBATTLEPSIONIC_ONGENERALORDERISSUED_1"
+SoundID "CAPITALSHIP_PSIBATTLEPSIONIC_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "CAPITALSHIP_PSIBATTLEPSIONIC_ONSELECTED_0"
+SoundID "CAPITALSHIP_PSIBATTLEPSIONIC_ONSELECTED_1"
+SoundID "CAPITALSHIP_PSIBATTLEPSIONIC_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "CAPITALSHIP_PSIBATTLEPSIONIC_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "CapitalShip_WraithCarrier"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_PsiBattlePsionic"
+ExplosionName "CapitalShip0"
+CommandPoints
+	StartValue 4.250000
+	ValueIncreasePerLevel 0.550000
+weaponCooldownDecreasePerc
+	StartValue 0.200000
+	ValueIncreasePerLevel 0.030000
+weaponDamageIncreasePerc
+	StartValue 0.200000
+	ValueIncreasePerLevel 0.035000
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_PSICAPITALSHIP"
+formationRank 1
+minShadow 0.100000
+maxShadow 0.400000

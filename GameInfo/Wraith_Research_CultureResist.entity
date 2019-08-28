@@ -1,0 +1,42 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_CULTURERESIST"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_CULTURERESIST"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_CULTURERESIST_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_CULTURERESIST_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 4 , 2 ]
+ResearchField "NonCombat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Wraith_Research_CultureRate1"
+		Level 2
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 75.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1200.000000
+	metal 200.000000
+	crystal 325.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 4
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "CultureResistPercent"
+	baseValue 0.000000
+	perLevelValue 0.200000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

@@ -1,0 +1,191 @@
+﻿TXT
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack TRUE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 2
+frigateRoleType "Carrier"
+frigateRoleType "Lrm"
+statCountType "FrigateLongRange"
+mainViewIcon "MAINVIEWICON_FRIGATE_WRAITHLONGRANGE"
+picture "PICTURE_FRIGATE_WRAITHLONGRANGE"
+NameStringID "IDS_FRIGATE_WRAITHLONGRANGE_NAME"
+DescriptionStringID "IDS_FRIGATE_WRAITHLONGRANGE_DESCRIPTION"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LONGRANGE"
+basePrice
+	credits 500.000000
+	metal 115.000000
+	crystal 115.000000
+slotCount 10.000000
+BuildTime 30.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 6.000000
+MaxHullPoints 1700.000000
+MaxShieldPoints 0.000000
+HullPointRestoreRate 3.400000
+ShieldPointRestoreRate 0.000000
+BaseArmorPoints 4.000000
+maxMitigation 0.000000
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Wraith_Research_FrigateLongRange_Scar"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 0
+numRandomDebrisSmall 7
+numSpecificDebris 0
+armorType "Medium"
+hudIcon "HUDICON_FRIGATE_WRAITHLONGRANGE"
+smallHudIcon "HUDICONSMALL_FRIGATE_WRAITHLONGRANGE"
+infoCardIcon "INFOCARDICON_FRIGATE_WRAITHLONGRANGE"
+minZoomDistanceMult 2.000000
+NumWeapons 2
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "CAPITALSHIP"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 80.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 4000.000000
+	PreBuffCooldownTime 3.500000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.400000
+	TravelSpeed 2500.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.900000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PsiCapitalPlasmaHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 1.000000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_WRAITHCRUISERPLASMA_MUZZLE"
+		hitEffectName "Weapon_TechCapitalAutoCannonHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_WraithPlasmaLight_Travel"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 65.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 20.000000
+	DamagePerBank:RIGHT 20.000000
+	Range 4000.000000
+	PreBuffCooldownTime 4.500000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.500000
+	TravelSpeed 2500.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.600000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PsiCapitalPlasmaHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_WRAITHCRUISERPLASMA_MUZZLE"
+		hitEffectName "Weapon_TechCapitalAutoCannonHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_WraithPlasmaLight_Travel"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 1
+TargetCountPerBank:RIGHT 1
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 750.000000
+ShieldMeshName ""
+renderShield FALSE
+maxAccelerationLinear 419.000000
+maxAccelerationStrafe 450.000000
+maxDecelerationLinear 449.000000
+maxAccelerationAngular 28.999998
+maxDecelerationAngular 47.000000
+maxSpeedLinear 599.500000
+maxRollRate 30.000000
+maxRollAngle 80.000000
+squadTypeEntityDef:0 "Wraith_SquadCombat_Dart"
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 ""
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 1
+NumSoundsFor:ONATTACKORDERISSUED 3
+SoundID "FRIGATE_PSILONGRANGE_ONATTACKORDERISSUED_0"
+SoundID "FRIGATE_PSILONGRANGE_ONATTACKORDERISSUED_1"
+SoundID "FRIGATE_PSILONGRANGE_ONATTACKORDERISSUED_2"
+NumSoundsFor:ONCREATION 1
+SoundID "FRIGATE_PSILONGRANGE_ONCREATION"
+NumSoundsFor:ONGENERALORDERISSUED 3
+SoundID "FRIGATE_PSILONGRANGE_ONGENERALORDERISSUED_0"
+SoundID "FRIGATE_PSILONGRANGE_ONGENERALORDERISSUED_1"
+SoundID "FRIGATE_PSILONGRANGE_ONGENERALORDERISSUED_2"
+NumSoundsFor:ONSELECTED 3
+SoundID "FRIGATE_PSILONGRANGE_ONSELECTED_0"
+SoundID "FRIGATE_PSILONGRANGE_ONSELECTED_1"
+SoundID "FRIGATE_PSILONGRANGE_ONSELECTED_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "FRIGATE_PSILONGRANGE_ONSTARTPHASEJUMP_0"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Frigate_WraithLongRange"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_FrigatePsiHeavy"
+ExplosionName "Frigate1"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_PSICAPITALSHIP"
+ability:0 "Wraith_AbilityFrigate_IllusionSelfCopy"
+ability:1 "Wraith_AbilityCruiser_BoardingParty"
+ability:2 ""
+ability:3 ""
+ability:4 ""
+MaxAntiMatter 250.000000
+AntiMatterRestoreRate 0.700000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 2
+minShadow 0.000000
+maxShadow 0.600000
+allegianceDecreasePerRoundtrip 0.000000

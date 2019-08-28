@@ -1,0 +1,49 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_HULLPSI1"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_HULLPSI1"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_HULLPSI1_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_HULLPSI1_DESCRIPTION"
+researchWindowLocation
+	block 2
+	pos [ 2 , 0 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 2
+	ResearchPrerequisite
+		Subject "Wraith_Research_Hull0"
+		Level 1
+	ResearchPrerequisite
+		Subject "Wraith_Research_CapitalCarrier_Hive"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 50.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 800.000000
+	metal 250.000000
+	crystal 150.000000
+PerLevelCostIncrease
+	credits 200.000000
+	metal 100.000000
+	crystal 50.000000
+Tier 2
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "HullPointsMaxAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.125000
+researchModifier
+	modifierType "HullPointsRegenAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.250000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

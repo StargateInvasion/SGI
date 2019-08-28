@@ -1,0 +1,65 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Wraith_BuffCruiser_TransferAntiMatterCaster"
+targetFilter
+	numOwnerships 1
+	ownership "Friendly"
+	numObjects 4
+	object "Frigate"
+	object "CapitalShip"
+	object "PlanetModule"
+	object "StarBase"
+	numSpaces 1
+	space "Normal"
+	numConstraints 2
+	constraint "HasAntiMatterShortage"
+	constraint "NotSelf"
+range
+	Level:0 5000.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID "EFFECT_TRANSFERANTIMATTER"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "Wraith_Research_Ability_StealAntimatter"
+aiUseTime "Anytime"
+aiUseTargetCondition "IsDifferentRoleType"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 100.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 30.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_TRANSFERANTIMATTER_NAME"
+descStringID "IDS_ABILITY_TRANSFERANTIMATTER_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_TRANSFERANTIMATTER"
+smallHudIcon "HUDICON_ABILITY_TRANSFERANTIMATTER"
+infoCardIcon ""

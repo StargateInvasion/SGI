@@ -1,0 +1,42 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_COSTDECREASECREDITS"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_COSTDECREASECREDITS"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_COSTDECREASECREDITS_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_COSTDECREASECREDITS_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 3 , 2 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Wraith_Research_CloneDevelopment"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 50.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 500.000000
+	metal 100.000000
+	crystal 250.000000
+PerLevelCostIncrease
+	credits 500.000000
+	metal 200.000000
+	crystal 250.000000
+Tier 3
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "ShipBuildRateAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

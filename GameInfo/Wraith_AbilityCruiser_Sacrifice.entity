@@ -1,0 +1,45 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Wraith_BuffCruiser_SacrificeSelf"
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "SelfSacrifice"
+	mediumEffectName "SelfSacrifice"
+	largeEffectName "SelfSacrifice"
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "Wraith_Research_Ability_Sacrifice"
+aiUseTime "OnlyWhenAboutToDie"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "None"
+cooldownTime
+	Level:0 180.000000
+	Level:1 180.000000
+	Level:2 180.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Wraith_Research_Ability_Sacrifice"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_SACRIFICE_NAME"
+descStringID "IDS_ABILITY_SACRIFICE_DESCRIPTION"
+hudIcon "HUDICON_RESEARCHSUBJECT_SACRIFICE"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_SACRIFICE"
+infoCardIcon ""

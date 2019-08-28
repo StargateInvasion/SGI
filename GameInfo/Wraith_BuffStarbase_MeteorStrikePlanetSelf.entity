@@ -1,0 +1,81 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling TRUE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "Ability_MeteorAssault_Self"
+		mediumEffectName "Ability_MeteorAssault_Self"
+		largeEffectName "Ability_MeteorAssault_Self"
+		soundID ""
+numPeriodicActions 1
+periodicAction
+	actionCountType "Finite"
+	actionCount
+		Level:0 4.000000
+		Level:1 8.000000
+		Level:2 0.000000
+		Level:3 0.000000
+	actionIntervalTime
+		Level:0 5.000000
+		Level:1 5.000000
+		Level:2 0.000000
+		Level:3 0.000000
+	buffInstantActionType "ApplyBuffToTargetWithTravelNoFilterNoRange"
+	instantActionTriggerType "AlwaysPerform"
+	buffType "Wraith_BuffStarbase_MeteorStrikePlanetPlanet"
+	travelSpeed 3000.000000
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Target"
+	targetCentricEffectPointSpawnInfo
+		spawnType "CompletelyRandom"
+		minRadius 7500.000000
+		maxRadius 10000.000000
+	weaponEffectImpactOffsetType "CenterOffsetBySpatialRadius"
+	canWeaponEffectHitHull TRUE
+	canWeaponEffectHitShields TRUE
+	weaponEffectsDef
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "CapitalBuff_Null"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "EFFECT_METEORFALL"
+		hitEffectName "Ability_MeteorStrikePlanetImpact"
+		hitHullEffectSounds
+			soundCount 3
+			sound "EXPLOSION_SUB4"
+			sound "EXPLOSION_SUB4_ALT1"
+			sound "EXPLOSION_SUB4_ALT2"
+		hitShieldsEffectSounds
+			soundCount 3
+			sound "EXPLOSION_SUB4"
+			sound "EXPLOSION_SUB4_ALT1"
+			sound "EXPLOSION_SUB4_ALT2"
+		projectileTravelEffectName "Ability_MeteorStrikePlanetTravel"
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 4
+finishCondition
+	finishConditionType "AllPeriodicActionsDone"
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "TargetOwnerIsNeutral"
+finishCondition
+	finishConditionType "TargetOwnerIsFriendly"

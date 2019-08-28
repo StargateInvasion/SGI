@@ -1,0 +1,42 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_PACTUNLOCK_STRIKECRAFT"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_PACTUNLOCK_STRIKECRAFT"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_PACT_MASS_REDUCTION_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_PACT_MASS_REDUCTION_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 5 , 3 ]
+ResearchField "Diplomacy"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Wraith_Research_PactUnlock_AntiMatter"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 90.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1400.000000
+	metal 250.000000
+	crystal 400.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 5
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 1
+researchModifier
+	modifierType "UnlockPact"
+	allianceType "MassReductionPact"
+	pactUnlockEntityDefName "Wraith_Research_PactBonus_MassReduction"
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "PlanetModuleStandard"
-minZoomDistanceMult 3.000000
-ability:0 "Asuran_AbilityOrbital_FleetBeacon"
-ability:1 "Asuran_AbilityOrbital_SpaceGateModule"
-ability:2 "Asuran_AbilityOrbital_Stargate_ResourceAcquisition"
+minZoomDistanceMult 2.000000
+ability:0 ""
+ability:1 "Wraith_AbilityOrbital_Stargate"
+ability:2 ""
 ability:3 ""
 ability:4 ""
 MaxAntiMatter 0.000000
@@ -12,23 +12,23 @@ numRandomDebrisLarge 4
 numRandomDebrisSmall 10
 numSpecificDebris 0
 armorType "Module"
-hudIcon "HUDICON_ASURAN_ORBITAL_STARGATE"
-smallHudIcon "HUDICONSMALL_ASURAN_ORBITAL_STARGATE"
-infoCardIcon "MAINVIEWICON_ASURAN_ORBITAL_STARGATE"
+hudIcon "HUDICON_PLANETMODULE_ASURANORBITALPHASEGATE"
+smallHudIcon "HUDICONSMALL_PLANETMODULE_ASURANORBITALPHASEGATE"
+infoCardIcon "INFOCARDICON_PLANETMODULE_ASURANORBITALPHASEGATE"
 planetUpgradeSlotType "Tactical"
 planetUpgradeSlotCount 10.000000
 basePrice
 	credits 1500.000000
 	metal 200.000000
 	crystal 300.000000
-NameStringID "IDS_ASURAN_ORBITAL_STARGATE_NAME"
-DescriptionStringID "IDS_ASURAN_ORBITAL_STARGATE_DESCRIPTION"
+NameStringID "IDS_PLANETMODULE_PHASEORBITALPHASEGATE_NAME"
+DescriptionStringID "IDS_PLANETMODULE_PHASEORBITALPHASEGATE_DESCRIPTION"
 planetModuleRoleType "PHASEGATE"
 statCountType "ModuleUtility"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Asuran_Research_Orbital_Stargate"
+		Subject "Wraith_Research_Orbital_Stargate"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -61,13 +61,13 @@ SoundID "PLANETMODULE_PHASEORBITALPHASEGATE_ONSELECTION_0"
 NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Asuran_Orbital_Stargate"
+	meshName "PlanetModule_Stargate"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleSmall"
-mainViewIcon "MAINVIEWICON_ASURAN_ORBITAL_STARGATE"
-picture "PICTURE_ASURAN_ORBITAL_STARGATE"
+mainViewIcon "MAINVIEWICON_PLANETMODULE_ASURANORBITALPHASEGATE"
+picture "PLANETMODULEPICTURE_ASURANORBITALPHASEGATE"
 minShadow 0.000000
 maxShadow 1.000000
 formationRank 3

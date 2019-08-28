@@ -1,0 +1,55 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling TRUE
+numInstantActions 3
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Ability"
+			abilityIndex 1
+		smallEffectName "CapitalAbility_PlanetManiaChargeUp"
+		mediumEffectName "CapitalAbility_PlanetManiaChargeUp"
+		largeEffectName "CapitalAbility_PlanetManiaChargeUp"
+		soundID "EFFECT_PLANETMANIACHARGING"
+instantAction
+	buffInstantActionType "ApplyTargettedBuffToSelfNoFilterNoRange"
+	instantActionTriggerType "OnBuffFinish"
+	buffType "Wraith_BuffCapital_PlanetManiaActivated"
+	effectInfo
+		effectAttachInfo
+			attachType "Invalid"
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToTargetNoFilterNoRange"
+	instantActionTriggerType "OnBuffFinish"
+	buffType "Wraith_BuffCapital_PlanetManiaOnPlanet"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 4
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 5.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "TargetOwnerIsNeutral"
+finishCondition
+	finishConditionType "TargetOwnerIsFriendly"

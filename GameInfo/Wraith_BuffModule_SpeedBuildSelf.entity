@@ -1,0 +1,50 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling TRUE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Ability"
+			abilityIndex 0
+		smallEffectName "Buff_TechModuleConstruction"
+		mediumEffectName "Buff_TechModuleConstruction"
+		largeEffectName "Buff_TechModuleConstruction"
+		soundID ""
+instantAction
+	buffInstantActionType "ApplyBuffToTargetNoFilterNoRange"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "Wraith_BuffModule_SpeedBuildTarget"
+numPeriodicActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "DoModuleConstruction"
+	buildRate
+		Level:0 0.500000
+		Level:1 0.500000
+		Level:2 0.500000
+		Level:3 0.000000
+	moduleCostFraction
+		Level:0 0.333333
+		Level:1 0.333333
+		Level:2 0.333333
+		Level:3 0.000000
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 3
+finishCondition
+	finishConditionType "TargetIsConstructed"
+finishCondition
+	finishConditionType "TargetNoLongerActivelyBeingConstructed"
+finishCondition
+	finishConditionType "OwnerChanged"

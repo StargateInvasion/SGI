@@ -1,0 +1,39 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_QUESTDIFFICULTY"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_QUESTDIFFICULTY"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_WRAITH_EVOLUTION_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_WRAITH_EVOLUTION_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 0 , 3 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 60.000000
+PerLevelUpgradeTime 30.000000
+BaseCost
+	credits 750.000000
+	metal 0.000000
+	crystal 100.000000
+PerLevelCostIncrease
+	credits 250.000000
+	metal 0.000000
+	crystal 150.000000
+Tier 0
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 2
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 1
+researchModifier
+	modifierType "ResearchBuildRateAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.150000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

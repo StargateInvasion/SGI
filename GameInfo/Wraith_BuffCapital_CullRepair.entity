@@ -1,0 +1,40 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling TRUE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "CapitalBuff_NanoHullRepair"
+		mediumEffectName "CapitalBuff_NanoHullRepair"
+		largeEffectName "CapitalBuff_NanoHullRepair"
+		soundID "EFFECT_SHIPCRIPPLE_LOOP"
+numPeriodicActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "RestoreHull"
+	hullRestoreRate
+		Level:0 500.000000
+		Level:1 700.000000
+		Level:2 1000.000000
+		Level:3 0.000000
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 30.000000
+		Level:1 30.000000
+		Level:2 30.000000
+		Level:3 0.000000

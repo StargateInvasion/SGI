@@ -1,0 +1,43 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Above"
+		smallEffectName "Buff_VengeanceSmall"
+		mediumEffectName "Buff_VengeanceLarge"
+		largeEffectName "Buff_VengeanceLarge"
+		soundID ""
+instantAction
+	buffInstantActionType "RetaliateDamage"
+	instantActionTriggerType "OnDamageTaken"
+	damageRetaliationPerc
+		Level:0 0.650000
+		Level:1 1.300000
+		Level:2 2.000000
+		Level:3 0.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 20.000000
+		Level:1 30.000000
+		Level:2 40.000000
+		Level:3 0.000000
+finishCondition
+	finishConditionType "OwnerChanged"

@@ -1,0 +1,65 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_QUESTDIFFICULTY"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_QUESTDIFFICULTY"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_WRAITH_ANCIENTPOWERRESEARCH_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_WRAITH_ANCIENTPOWERRESEARCH_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 4 , 1 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 120.000000
+PerLevelUpgradeTime 30.000000
+BaseCost
+	credits 2500.000000
+	metal 500.000000
+	crystal 1000.000000
+PerLevelCostIncrease
+	credits 500.000000
+	metal 0.000000
+	crystal 0.000000
+Tier 4
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 7
+researchModifier
+	modifierType "HyperspaceInSystemSpeedAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.250000
+researchModifier
+	modifierType "HyperspaceBetweenSystemSpeedAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.500000
+researchModifier
+	modifierType "WeaponDamageAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
+	linkedWeaponClass "PLASMA"
+researchModifier
+	modifierType "WeaponRateOfFireAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.100000
+	linkedWeaponClass "PLASMA"
+researchModifier
+	modifierType "HullPointsRegenAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.250000
+researchModifier
+	modifierType "AntimatterCapacityAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.150000
+researchModifier
+	modifierType "AntimatterRegenAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.150000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

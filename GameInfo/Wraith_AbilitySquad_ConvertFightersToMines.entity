@@ -1,0 +1,43 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ConvertSquadMembersToMines"
+instantActionTriggerType "AlwaysPerform"
+spaceMineType "Wraith_DeepSpaceMine"
+expiryTime
+	Level:0 -1.000000
+	Level:1 -1.000000
+	Level:2 -1.000000
+	Level:3 0.000000
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "OnlyWithNoOrder"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Resources"
+resourceCost
+	credits 530.000000
+	metal 120.000000
+	crystal 65.000000
+cooldownTime
+	Level:0 50.000000
+	Level:1 50.000000
+	Level:2 50.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_CONVERTFIGHTERSTOMINES_NAME"
+descStringID "IDS_ABILITY_CONVERTFIGHTERSTOMINES_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_CONVERTFIGHTERSTOMINES"
+smallHudIcon "HUDICON_ABILITY_CONVERTFIGHTERSTOMINES"
+infoCardIcon ""

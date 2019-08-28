@@ -1,28 +1,28 @@
 ﻿TXT
 entityType "PlanetModuleShipFactory"
-minZoomDistanceMult 2.000000
-ability:0 "Asuran_AbilityOrbital_ProtectedShutdown"
-ability:1 "Asuran_AbilityOrbital_ArtifactZPM_ZPMResupply"
+minZoomDistanceMult 1.500000
+ability:0 ""
+ability:1 ""
 ability:2 ""
 ability:3 ""
 ability:4 ""
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000
-numRandomDebrisLarge 3
-numRandomDebrisSmall 18
+numRandomDebrisLarge 5
+numRandomDebrisSmall 19
 numSpecificDebris 0
 armorType "Module"
-hudIcon "HUDICON_ASURAN_ORBITAL_TITANFACTORY"
-smallHudIcon "HUDICONSMALL_ASURAN_ORBITAL_TITANFACTORY"
-infoCardIcon "MAINVIEWICON_ASURAN_ORBITAL_TITANFACTORY"
+hudIcon "HUDICON_WRAITH_TITAN_FOUNDRY"
+smallHudIcon "HUDICONSMALL_PLANETMODULE_WRAITHORBITALTITANFACTORY"
+infoCardIcon "INFOCARDICON_PLANETMODULE_WRAITHORBITALTITANFACTORY"
 planetUpgradeSlotType "Tactical"
 planetUpgradeSlotCount 12.000000
 basePrice
 	credits 2000.000000
 	metal 500.000000
 	crystal 200.000000
-NameStringID "IDS_ASURAN_ORBITAL_TITANFACTORY_NAME"
-DescriptionStringID "IDS_ASURAN_ORBITAL_TITANFACTORY_DESCRIPTION"
+NameStringID "IDS_PLANETMODULE_WRAITHORBITALTITANFACTORY_NAME"
+DescriptionStringID "IDS_PLANETMODULE_WRAITHORBITALTITANFACTORY_DESCRIPTION"
 planetModuleRoleType "TITANFACTORY"
 statCountType "ModuleCapitalShipFactory"
 Prerequisites
@@ -39,7 +39,7 @@ ExperiencePointsForDestroying 50.000000
 resourceExtractionType "Invalid"
 cultureSpreadRate 0.000000
 isAffectedBySimilarModuleCostResearch TRUE
-placementRadius 3500.000000
+placementRadius 2300.000000
 nearPlacementDistOffset 0.000000
 farPlacementDistOffset 9000.000000
 spawnCount 1
@@ -49,22 +49,22 @@ rotateSoundName ""
 rotateFacingType "None"
 rotateConstantly FALSE
 ShieldMeshName ""
-renderShield FALSE
+renderShield TRUE
 NumSoundsFor:ONATTACKORDERISSUED 0
 NumSoundsFor:ONCREATION 0
 NumSoundsFor:ONGENERALORDERISSUED 0
 NumSoundsFor:ONSELECTED 1
-SoundID "PLANETMODULE_PHASEORBITALCAPITALSHIPFACTORY_ONSELECTION_0"
+SoundID "PLANETMODULE_PSIORBITALCAPITALSHIPFACTORY_ONSELECTION_0"
 NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Asuran_Orbital_TitanFactory"
+	meshName "PlanetModule_PsiOrbitalCapitalShipFactory"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleLarge"
-mainViewIcon "MAINVIEWICON_ASURAN_ORBITAL_TITANFACTORY"
-picture "PICTURE_ASURAN_ORBITAL_TITANFACTORY"
+mainViewIcon "MAINVIEWICON_PLANETMODULE_WRAITHORBITALTITANFACTORY"
+picture "PLANETMODULEPICTURE_WRAITHORBITALTITANFACTORY"
 minShadow 0.000000
 maxShadow 0.200000
 formationRank 3

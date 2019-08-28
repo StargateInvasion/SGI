@@ -1,0 +1,82 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "NotExclusive"
+isInterruptable TRUE
+isChannelling TRUE
+numInstantActions 4
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "Ability_WraithStun"
+		mediumEffectName "Ability_WraithStun"
+		largeEffectName "Ability_WraithStun"
+		soundID ""
+instantAction
+	buffInstantActionType "InitializeRandomMotion"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	minRandomAngularSpeed 0.150000
+	maxRandomAngularSpeed 0.500000
+	minRandomLinearSpeed 15.000000
+	maxRandomLinearSpeed 30.000000
+instantAction
+	buffInstantActionType "DoDamage"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	damage
+		Level:0 300.000000
+		Level:1 500.000000
+		Level:2 700.000000
+		Level:3 0.000000
+	damageAffectType "AFFECTS_SHIELDS_AND_HULL"
+	damageType "ENERGY"
+	isDamageShared TRUE
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 1.500000
+	effectInfo
+		effectAttachInfo
+			attachType "Aura"
+		smallEffectName "Ability_MassDisorientationfinitesmall"
+		mediumEffectName "Ability_MassDisorientationfinitesmall"
+		largeEffectName "Ability_MassDisorientationfinitesmall"
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "DrainAntiMatter"
+	drainAntiMatterRate
+		Level:0 50.000000
+		Level:1 75.000000
+		Level:2 100.000000
+		Level:3 0.000000
+numEntityModifiers 0
+numEntityBoolModifiers 7
+entityBoolModifier "DisableModuleFunctionality"
+entityBoolModifier "DisableRegeneration"
+entityBoolModifier "DisableAbilities"
+entityBoolModifier "DisableWeapons"
+entityBoolModifier "DisablePhaseJump"
+entityBoolModifier "DisableLinearEngines"
+entityBoolModifier "DisableAngularEngines"
+numFinishConditions 3
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 5.000000
+		Level:1 7.000000
+		Level:2 11.000000
+		Level:3 0.000000
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "OutOfRange"

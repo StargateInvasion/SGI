@@ -1,0 +1,69 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 3
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "Buff_SpreadWeaponDamageSmall"
+		mediumEffectName "Buff_SpreadWeaponDamageLarge"
+		largeEffectName "Buff_SpreadWeaponDamageLarge"
+		soundID ""
+instantAction
+	buffInstantActionType "RecordDamage"
+	instantActionTriggerType "OnDamageTaken"
+instantAction
+	buffInstantActionType "PropagateWeaponDamageReceivedToTargetsInRadius"
+	instantActionTriggerType "OnBuffFinish"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 4
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "StarBase"
+		numSpaces 1
+		space "Normal"
+		numConstraints 2
+		constraint "CanSpreadWeaponDamage"
+		constraint "NotSelf"
+	range
+		Level:0 5000.000000
+		Level:1 5000.000000
+		Level:2 5000.000000
+		Level:3 0.000000
+	maxTargetCount
+		Level:0 8.000000
+		Level:1 16.000000
+		Level:2 24.000000
+		Level:3 0.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "PropagateWeaponDamagePerc"
+	value
+		Level:0 0.300000
+		Level:1 0.300000
+		Level:2 0.300000
+		Level:3 0.000000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 10.000000
+		Level:1 10.000000
+		Level:2 10.000000
+		Level:3 0.000000

@@ -1,0 +1,39 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Wraith_BuffModule_RevengeBounty"
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 2
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "Wraith_Research_Ability_RevengeBounty"
+aiUseTime "Invalid"
+aiUseTargetCondition "Invalid"
+isAutoCastAvailable FALSE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "Passive"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Wraith_Research_Ability_RevengeBounty"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_REVENGEBOUNTY_NAME"
+descStringID "IDS_ABILITY_REVENGEBOUNTY_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_REVENGEBOUNTY"
+smallHudIcon "HUDICON_ABILITY_REVENGEBOUNTY"
+infoCardIcon ""

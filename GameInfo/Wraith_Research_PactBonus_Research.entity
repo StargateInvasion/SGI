@@ -1,0 +1,43 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon ""
+smallHudIcon ""
+infoCardIcon ""
+NameStringID ""
+DescriptionStringID ""
+researchWindowLocation
+	block 1
+	pos [ 0 , 1 ]
+ResearchField "PactBonus"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 40.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 400.000000
+	metal 0.000000
+	crystal 25.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 0.000000
+	crystal 25.000000
+Tier 0
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "ResearchBuildRateAdjustment"
+	baseValue 0.000000
+	perLevelValue 0.150000
+researchModifier
+	modifierType "ResearchCostAdjustment"
+	baseValue 0.000000
+	perLevelValue -0.050000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

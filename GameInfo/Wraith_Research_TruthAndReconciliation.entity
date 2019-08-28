@@ -1,0 +1,37 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_TRUTH_AND_RECONCILIATION"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_TRUTH_AND_RECONCILIATION"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_TRUTH_AND_RECONCILIATION_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_TRUTH_AND_RECONCILIATION_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 6 , 1 ]
+ResearchField "Diplomacy"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 105.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1600.000000
+	metal 300.000000
+	crystal 475.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 6
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 1
+researchModifier
+	modifierType "RemoveRacialRelationPenalty"
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

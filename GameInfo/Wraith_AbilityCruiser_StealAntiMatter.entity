@@ -1,0 +1,66 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTarget"
+instantActionTriggerType "AlwaysPerform"
+buffType "Wraith_BuffCruiser_StealAntiMatter"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 2
+	object "Frigate"
+	object "PlanetModule"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "HasAntiMatterPool"
+range
+	Level:0 6000.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Ability"
+		abilityIndex 0
+	smallEffectName "Ability_StealAntiMatterActivate"
+	mediumEffectName "Ability_StealAntiMatterActivate"
+	largeEffectName "Ability_StealAntiMatterActivate"
+	soundID "EFFECT_STEALANTIMATTER"
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "Wraith_Research_Ability_StealAntimatter"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 10.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONATTACKORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Wraith_Research_Ability_StealAntimatter"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_STEALANTIMATTER_NAME"
+descStringID "IDS_ABILITY_STEALANTIMATTER_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_STEALANTIMATTER"
+smallHudIcon "HUDICON_ABILITY_STEALANTIMATTER"
+infoCardIcon ""

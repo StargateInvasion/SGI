@@ -1,34 +1,34 @@
 ﻿TXT
 entityType "PlanetModuleTradePort"
-minZoomDistanceMult 2.500000
-ability:0 ""
+minZoomDistanceMult 1.400000
+ability:0 "Wraith_AbilityOrbital_BoostResourceExtraction"
 ability:1 ""
 ability:2 ""
 ability:3 ""
 ability:4 ""
 MaxAntiMatter 0.000000
 AntiMatterRestoreRate 0.000000
-numRandomDebrisLarge 5
-numRandomDebrisSmall 16
+numRandomDebrisLarge 4
+numRandomDebrisSmall 13
 numSpecificDebris 0
 armorType "Module"
-hudIcon "HUDICON_ASURAN_ORBITAL_TRADEPORT"
-smallHudIcon "HUDICONSMALL_ASURAN_ORBITAL_TRADEPORT"
-infoCardIcon "MAINVIEWICON_ASURAN_ORBITAL_TRADEPORT"
+hudIcon "HUDICON_PLANETMODULE_WRAITHORBITALTRADEPORT"
+smallHudIcon "HUDICONSMALL_PLANETMODULE_WRAITHORBITALTRADEPORT"
+infoCardIcon "INFOCARDICON_PLANETMODULE_WRAITHORBITALTRADEPORT"
 planetUpgradeSlotType "Civilian"
 planetUpgradeSlotCount 4.000000
 basePrice
-	credits 900.000000
-	metal 175.000000
-	crystal 150.000000
-NameStringID "IDS_ASURAN_ORBITAL_TRADEPORT_NAME"
-DescriptionStringID "IDS_ASURAN_ORBITAL_TRADEPORT_DESCRIPTION"
+	credits 750.000000
+	metal 100.000000
+	crystal 125.000000
+NameStringID "IDS_PLANETMODULE_PSIORBITALTRADEPORT_NAME"
+DescriptionStringID "IDS_PLANETMODULE_PSIORBITALTRADEPORT_DESCRIPTION"
 planetModuleRoleType "TRADEPORT"
 statCountType "ModuleTradePort"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Asuran_Research_Orbital_TradePort"
+		Subject "Wraith_Research_Orbital_Market"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -42,7 +42,7 @@ ExperiencePointsForDestroying 25.000000
 resourceExtractionType "Invalid"
 cultureSpreadRate 0.000000
 isAffectedBySimilarModuleCostResearch FALSE
-placementRadius 1125.000000
+placementRadius 1120.000000
 nearPlacementDistOffset 0.000000
 farPlacementDistOffset 9000.000000
 spawnCount 1
@@ -57,23 +57,23 @@ NumSoundsFor:ONATTACKORDERISSUED 0
 NumSoundsFor:ONCREATION 0
 NumSoundsFor:ONGENERALORDERISSUED 0
 NumSoundsFor:ONSELECTED 1
-SoundID "PLANETMODULE_PHASEORBITALTRADEPORT_ONSELECTION_0"
+SoundID "PLANETMODULE_PSIORBITALTRADEPORT_ONSELECTION_0"
 NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Asuran_Orbital_TradePort"
+	meshName "PlanetModule_PsiOrbitalTradePort"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleLarge"
-mainViewIcon "MAINVIEWICON_PLANETMODULE_PHASEORBITALTRADEPORT"
-picture "PICTURE_ASURAN_ORBITAL_TRADEPORT"
+mainViewIcon "MAINVIEWICON_PLANETMODULE_WRAITHORBITALTRADEPORT"
+picture "PLANETMODULEPICTURE_WRAITHORBITALTRADEPORT"
 minShadow 0.000000
-maxShadow 0.400000
+maxShadow 0.300000
 formationRank 3
 baseBuildTime 50.000000
 buildEffectName ""
-cargoShipType "Asuran_ModuleTradeShip_Aurum"
+cargoShipType "Wraith_ModuleTradeShip_Hooper"
 maxCargoShipCount 5
-cargoShipRespawnTime 30.000000
-baseTradeIncomeRate 0.600000
+cargoShipRespawnTime 25.000000
+baseTradeIncomeRate 1.000000

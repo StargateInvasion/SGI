@@ -1,0 +1,43 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_VOICE_OF_THE_UNITY"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_VOICE_OF_THE_UNITY"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_VOICE_OF_THE_UNITY_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_VOICE_OF_THE_UNITY_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 0 , 3 ]
+ResearchField "Diplomacy"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 40.000000
+PerLevelUpgradeTime 5.000000
+BaseCost
+	credits 400.000000
+	metal 0.000000
+	crystal 25.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 0
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "RelationshipBonus"
+	baseValue 0.000000
+	perLevelValue 0.200000
+researchModifier
+	modifierType "SelfRelationshipBonus"
+	baseValue 0.000000
+	perLevelValue 0.300000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

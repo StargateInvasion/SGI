@@ -1,0 +1,78 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit -1
+buffExclusivityForAIType "NotExclusive"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "ApplyBuffToTargetsInRadiusOfTargetWithTravel"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "Wraith_BuffStarbase_MeteorStrikeShipsAction"
+	targetFilter
+		numOwnerships 1
+		ownership "Enemy"
+		numObjects 4
+		object "CapitalShip"
+		object "Frigate"
+		object "PlanetModule"
+		object "StarBase"
+		numSpaces 1
+		space "Normal"
+		numConstraints 0
+	range
+		Level:0 4000.000000
+		Level:1 5000.000000
+		Level:2 0.000000
+		Level:3 0.000000
+	maxTargetCount
+		Level:0 -1.000000
+		Level:1 -1.000000
+		Level:2 -1.000000
+		Level:3 0.000000
+	travelSpeed 2500.000000
+	effectStaggerDelay 0.300000
+	hasWeaponEffects TRUE
+	weaponEffectOriginType "Target"
+	targetCentricEffectPointSpawnInfo
+		spawnType "RandomFromUp"
+		minRadius 7500.000000
+		maxRadius 10000.000000
+		angleVariance 10.000000
+	weaponEffectImpactOffsetType "Center"
+	canWeaponEffectHitHull FALSE
+	canWeaponEffectHitShields FALSE
+	weaponEffectsDef
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.000000
+		fireDelay 0.000000
+		muzzleEffectName "CapitalBuff_Null"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "EFFECT_METEORFALL"
+		hitEffectName "Ability_MeteorStrikeShipsImpact"
+		hitHullEffectSounds
+			soundCount 4
+			sound "EXPLOSION_SUB0"
+			sound "EXPLOSION_SUB1"
+			sound "EXPLOSION_SUB5"
+			sound "EXPLOSION_SUB6"
+		hitShieldsEffectSounds
+			soundCount 4
+			sound "EXPLOSION_SUB0"
+			sound "EXPLOSION_SUB1"
+			sound "EXPLOSION_SUB5"
+			sound "EXPLOSION_SUB6"
+		projectileTravelEffectName "Ability_MeteorStrikeShipsTravel"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

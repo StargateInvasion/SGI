@@ -1,0 +1,46 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_ADVANCED_VOICE_OF_THE_UNITY"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_ADVANCED_VOICE_OF_THE_UNITY"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_ADVANCED_VOICE_OF_THE_UNITY_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_ADVANCED_VOICE_OF_THE_UNITY_DESCRIPTION"
+researchWindowLocation
+	block 0
+	pos [ 2 , 3 ]
+ResearchField "Diplomacy"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Wraith_Research_VoiceOfTheQueen1"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 75.000000
+PerLevelUpgradeTime 15.000000
+BaseCost
+	credits 1200.000000
+	metal 250.000000
+	crystal 250.000000
+PerLevelCostIncrease
+	credits 300.000000
+	metal 100.000000
+	crystal 100.000000
+Tier 2
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 0.000000
+researchBoolModifiers 0
+researchFloatModifiers 2
+researchModifier
+	modifierType "RelationshipBonus"
+	baseValue 0.000000
+	perLevelValue 0.200000
+researchModifier
+	modifierType "SelfRelationshipBonus"
+	baseValue 0.000000
+	perLevelValue 0.300000
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

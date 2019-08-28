@@ -1,0 +1,42 @@
+﻿TXT
+entityType "Squad"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+hudIcon "HUDICON_SQUADWRAITHBOMBER"
+smallHudIcon "HUDICONSMALL_SQUADWRAITHBOMBER"
+infoCardIcon "INFOCARDICON_SQUADWRAITHBOMBER"
+fighterEntityDef "Wraith_FighterBomber"
+fighterIllusionEntityDef "Wraith_FighterBomber"
+scuttleTime 9.000000
+fighterConstructionTime 15.000000
+decayWithoutOwnerRate 5.000000
+baseMaxNumFighters 5
+role "Bomber"
+statCountType "SquadBomber"
+mainViewIcon "MAINVIEWICON_SQUADWRAITHBOMBER"
+picture "PICTURE_SQUADWRAITHBOMBER"
+launchIcon "HUDICONLAUNCH_SQUADWRAITHBOMBER"
+dockIcon "HUDICONDOCK_SQUADWRAITHBOMBER"
+nameStringID "IDS_SQUADWRAITHBOMBER_NAME"
+descriptionStringID "IDS_SQUADWRAITHBOMBER_DESC"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+NumSoundsFor:ONATTACKORDERISSUED 1
+SoundID "SQUAD_PSIBOMBER_ONATTACKORDERISSUED"
+NumSoundsFor:ONCREATION 0
+NumSoundsFor:ONGENERALORDERISSUED 1
+SoundID "SQUAD_PSIBOMBER_ONGENERALORDERISSUED"
+NumSoundsFor:ONSELECTED 1
+SoundID "SQUAD_PSIBOMBER_ONSELECTED"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+minShadow 0.000000
+maxShadow 0.000000
+ability:0 ""
+ability:1 ""
+ability:2 ""
+ability:3 ""
+ability:4 ""

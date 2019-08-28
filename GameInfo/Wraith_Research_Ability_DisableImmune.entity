@@ -1,0 +1,38 @@
+﻿TXT
+entityType "ResearchSubject"
+hudIcon "HUDICON_RESEARCHSUBJECT_ABILITYACCESS_DISABLEIMMUNE"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_ABILITYACCESS_DISABLEIMMUNE"
+infoCardIcon ""
+NameStringID "IDS_RESEARCHSUBJECT_ABILITYACCESS_DISABLEIMMUNE_NAME"
+DescriptionStringID "IDS_RESEARCHSUBJECT_ABILITYACCESS_DISABLEIMMUNE_DESCRIPTION"
+researchWindowLocation
+	block 1
+	pos [ 7 , 0 ]
+ResearchField "Combat"
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Wraith_Research_Ability_RepulsionField"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+MinimumArtifactLevel -1
+BaseUpgradeTime 90.000000
+PerLevelUpgradeTime 10.000000
+BaseCost
+	credits 1400.000000
+	metal 250.000000
+	crystal 400.000000
+PerLevelCostIncrease
+	credits 100.000000
+	metal 25.000000
+	crystal 25.000000
+Tier 7
+onlyWorksIfTierLabsExist FALSE
+MaxNumResearchLevels 1
+priority 1.000000
+researchBoolModifiers 0
+researchFloatModifiers 0
+artifactPicture ""
+uniqueOverlayBrush ""
+dlcId 204880

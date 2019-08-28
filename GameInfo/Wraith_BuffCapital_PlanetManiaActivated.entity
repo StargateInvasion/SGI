@@ -1,0 +1,64 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable TRUE
+isChannelling TRUE
+numInstantActions 2
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Ability"
+			abilityIndex 1
+		smallEffectName "CapitalAbility_PlanetManiaActivate"
+		mediumEffectName "CapitalAbility_PlanetManiaActivate"
+		largeEffectName "CapitalAbility_PlanetManiaActivate"
+		soundID ""
+instantAction
+	buffInstantActionType "PlayAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Ability"
+			abilityIndex 0
+		smallEffectName ""
+		mediumEffectName ""
+		largeEffectName ""
+		soundID "EFFECT_PLANETMANIA_ACTIVATED"
+numPeriodicActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "DoPercOfMaxDamageToPlanet"
+	damageRate
+		Level:0 0.010000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+	populationKillRate
+		Level:0 0.007500
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 4
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 40.000000
+		Level:1 0.000000
+		Level:2 0.000000
+		Level:3 0.000000
+finishCondition
+	finishConditionType "OwnerChanged"
+finishCondition
+	finishConditionType "TargetOwnerIsNeutral"
+finishCondition
+	finishConditionType "TargetOwnerIsFriendly"

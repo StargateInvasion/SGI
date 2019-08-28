@@ -1,0 +1,58 @@
+﻿TXT
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTarget"
+instantActionTriggerType "AlwaysPerform"
+buffType "Wraith_BuffCruiser_QuellUnrestPlanet"
+targetFilter
+	numOwnerships 1
+	ownership "AlliedOrEnemy"
+	numObjects 1
+	object "Planet"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 2000.000000
+	Level:1 2000.000000
+	Level:2 2000.000000
+	Level:3 0.000000
+effectInfo
+	effectAttachInfo
+		attachType "Center"
+	smallEffectName "GrantAmnesty"
+	mediumEffectName "GrantAmnesty"
+	largeEffectName "GrantAmnesty"
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "ResearchWithoutBase"
+improveSourceResearchSubject "Wraith_Research_Ability_QuellUnrest"
+aiUseTime "OnlyWhenOrbitingEnemyOrAlliedPlanet"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "None"
+cooldownTime
+	Level:0 180.000000
+	Level:1 180.000000
+	Level:2 180.000000
+	Level:3 0.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Wraith_Research_Ability_QuellUnrest"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_QUELLUNREST_NAME"
+descStringID "IDS_ABILITY_QUELLUNREST_DESCRIPTION"
+hudIcon "HUDICON_RESEARCHSUBJECT_UNITY_INFLUENCE"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_UNITY_INFLUENCE"
+infoCardIcon ""

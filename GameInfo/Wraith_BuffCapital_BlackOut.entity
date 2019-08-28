@@ -1,0 +1,65 @@
+﻿TXT
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeNewBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 3
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "CapitalBuff_BlackOutSmall"
+		mediumEffectName "CapitalBuff_BlackOutLarge"
+		largeEffectName "CapitalBuff_BlackOutLarge"
+		soundID "EFFECT_BLACKOUT"
+instantAction
+	buffInstantActionType "DoInterrupt"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+instantAction
+	buffInstantActionType "ForceAttackersToRepickAttackTarget"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "ChanceToBeNotOptimallyTargetted"
+	value
+		Level:0 1.000000
+		Level:1 1.000000
+		Level:2 1.000000
+		Level:3 0.000000
+numEntityBoolModifiers 7
+entityBoolModifier "DisableAbilities"
+entityBoolModifier "DisableConstruction"
+entityBoolModifier "DisablePhaseJump"
+entityBoolModifier "DisableLinearEngines"
+entityBoolModifier "DisableAngularEngines"
+entityBoolModifier "DisableRegeneration"
+entityBoolModifier "DisableWeapons"
+numFinishConditions 3
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 20.000000
+		Level:1 30.000000
+		Level:2 40.000000
+		Level:3 0.000000
+finishCondition
+	finishConditionType "DamageTaken"
+	damageNeeded
+		Level:0 200.000000
+		Level:1 300.000000
+		Level:2 400.000000
+		Level:3 0.000000
+	typeOfDamageNeeded "AFFECTS_SHIELDS_AND_HULL"
+finishCondition
+	finishConditionType "OwnerChanged"
