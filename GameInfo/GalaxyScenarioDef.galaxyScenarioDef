@@ -1911,7 +1911,7 @@ playerType
 playerType
 	designName "Wraith"
 	entityDefName "PlayerWraith"
-planetItemsTemplateCount 62
+planetItemsTemplateCount 60
 planetItemsTemplate
 	templateName "Empty"
 	subTemplates 0
@@ -3311,7 +3311,7 @@ planetItemsTemplate
 planetItemsTemplate
 	templateName "Template:OccupiedPlanet"
 	subTemplates 0
-	groups 1
+	groups 3
 		group
 			condition
 				type "Always"
@@ -3361,10 +3361,6 @@ planetItemsTemplate
 				item "Asuran:Cruiser:Heavy"
 				item "Asuran:Cruiser:Heavy"
 				item "Asuran:Cruiser:Heavy"
-planetItemsTemplate
-	templateName "Template:OccupiedPlanet"
-	subTemplates 0
-	groups 1
 		group
 			condition
 				type "Always"
@@ -3414,10 +3410,6 @@ planetItemsTemplate
 				item "Asgard:Cruiser:Heavy"
 				item "Asgard:Cruiser:Heavy"
 				item "Asgard:Cruiser:Heavy"
-planetItemsTemplate
-	templateName "Template:OccupiedPlanet"
-	subTemplates 0
-	groups 1
 		group
 			condition
 				type "Always"

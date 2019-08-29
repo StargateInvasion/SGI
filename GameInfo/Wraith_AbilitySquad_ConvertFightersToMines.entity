@@ -22,15 +22,26 @@ pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
 useCostType "Resources"
-resourceCost
-	credits 530.000000
-	metal 120.000000
-	crystal 65.000000
+creditCost
+	Level:0 530.000000
+	Level:1 530.000000
+	Level:2 530.000000
+	Level:3 530.000000
+metalCost
+	Level:0 120.000000
+	Level:1 120.000000
+	Level:2 120.000000
+	Level:3 120.000000
+crystalCost
+	Level:0 65.000000
+	Level:1 65.000000
+	Level:2 65.000000
+	Level:3 65.000000
 cooldownTime
 	Level:0 50.000000
 	Level:1 50.000000
 	Level:2 50.000000
-	Level:3 0.000000
+	Level:3 50.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0

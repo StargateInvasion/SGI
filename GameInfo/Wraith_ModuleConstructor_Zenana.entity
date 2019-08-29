@@ -12,7 +12,7 @@ statCountType "FrigateConstructor"
 mainViewIcon "MAINVIEWICON_FRIGATE_WRAITHMODULECONSTRUCTOR"
 picture "PICTURE_FRIGATE_WRAITHMODULECONSTRUCTOR"
 NameStringID "IDS_WRAITH_FRIGATEMODULECONSTRUCTOR_NAME"
-DescriptionStringID "IDS_WRAITH_FRIGATEMODULECONSTRUCTOR_DESC"
+DescriptionStringID "IDS_WRAITH_FRIGATEMODULECONSTRUCTOR_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
 	credits 0.000000
@@ -28,6 +28,7 @@ HullPointRestoreRate 0.012000
 ShieldPointRestoreRate 0.000000
 BaseArmorPoints 0.000000
 maxMitigation 0.000000
+relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""

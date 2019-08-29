@@ -12,7 +12,7 @@ statCountType "FrigateStarBaseConstructor"
 mainViewIcon "MAINVIEWICON_FRIGATE_WRAITHSTARBASECONSTRUCTOR"
 picture "PICTURE_FRIGATE_WRAITHSTARBASECONSTRUCTOR"
 NameStringID "IDS_WRAITH_FRIGATESTARBASECONSTRUCTOR_NAME"
-DescriptionStringID "IDS_WRAITH_FRIGATESTARBASECONSTRUCTOR_DESC"
+DescriptionStringID "IDS_WRAITH_FRIGATESTARBASECONSTRUCTOR_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
 basePrice
 	credits 2000.000000
@@ -28,6 +28,7 @@ HullPointRestoreRate 2.500000
 ShieldPointRestoreRate 0.000000
 BaseArmorPoints 3.000000
 maxMitigation 0.000000
+relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
