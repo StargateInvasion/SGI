@@ -1,5 +1,5 @@
 ﻿TXT
-NumStrings 8517
+NumStrings 8529
 StringInfo
 	ID "IDS_GDPRDIALOG_CANCELBUTTON"
 	Value "Decline"
@@ -23755,40 +23755,40 @@ StringInfo
 	ID "IDS_RESEARCHSUBJECT_ARTIFACT_WORMHOLETRAVEL_DESCRIPTION"
 	Value "Powerful Hyperspace stabilization technology protects your ships' Naquadria reserves during Hyperspace travel, reducing the amount wasted in transit."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MINORFACTIONABILITYLEVELPHASE0_NAME"
+	ID "IDS_ASURAN_RESEARCH_MINORFACTIONABILITYLEVEL0_NAME"
 	Value "Coerced Rewards"
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MINORFACTIONABILITYLEVELPHASE0_DESCRIPTION"
+	ID "IDS_ASURAN_RESEARCH_MINORFACTIONABILITYLEVEL0_DESCRIPTION"
 	Value "Improves the effect of Minor Faction planet abilities."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MINORFACTIONABILITYLEVELPHASE1_NAME"
+	ID "IDS_ASURAN_RESEARCH_MINORFACTIONABILITYLEVEL1_NAME"
 	Value "Dominate the Weak"
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MINORFACTIONABILITYLEVELPHASE1_DESCRIPTION"
+	ID "IDS_ASURAN_RESEARCH_MINORFACTIONABILITYLEVEL1_DESCRIPTION"
 	Value "Improves the effect of Minor Faction planet abilities."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MINORFACTIONABILITYLEVELPSI0_NAME"
+	ID "IDS_GOAULD_RESEARCH_MINORFACTIONABILITYLEVEL0_NAME"
 	Value "Aligned Interests"
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MINORFACTIONABILITYLEVELPSI0_DESCRIPTION"
+	ID "IDS_GOAULD_RESEARCH_MINORFACTIONABILITYLEVEL0_DESCRIPTION"
 	Value "Improves the effect of Minor Faction planet abilities."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MINORFACTIONABILITYLEVELPSI1_NAME"
+	ID "IDS_GOAULD_RESEARCH_MINORFACTIONABILITYLEVEL1_NAME"
 	Value "Harmonious Relations"
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MINORFACTIONABILITYLEVELPSI1_DESCRIPTION"
+	ID "IDS_GOAULD_RESEARCH_MINORFACTIONABILITYLEVEL1_DESCRIPTION"
 	Value "Improves the effect of Minor Faction planet abilities."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MINORFACTIONABILITYLEVELTECH0_NAME"
+	ID "IDS_HUMAN_RESEARCH_MINORFACTIONABILITYLEVEL0_NAME"
 	Value "Brokered Trust"
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MINORFACTIONABILITYLEVELTECH0_DESCRIPTION"
+	ID "IDS_HUMAN_RESEARCH_MINORFACTIONABILITYLEVEL0_DESCRIPTION"
 	Value "Improves the effect of Minor Faction planet abilities."
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MINORFACTIONABILITYLEVELTECH1_NAME"
+	ID "IDS_HUMAN_RESEARCH_MINORFACTIONABILITYLEVEL1_NAME"
 	Value "Earned Loyalty"
 StringInfo
-	ID "IDS_RESEARCHSUBJECT_MINORFACTIONABILITYLEVELTECH1_DESCRIPTION"
+	ID "IDS_HUMAN_RESEARCH_MINORFACTIONABILITYLEVEL1_DESCRIPTION"
 	Value "Improves the effect of Minor Faction planet abilities."
 StringInfo
 	ID "IDS_RESEARCHSUBJECT_PACT_ARMOR_NAME"
@@ -24875,16 +24875,34 @@ StringInfo
 	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_ARMOR0_NAME"
-	Value "Advanced Composites"
+	Value "Armor Exoskeleton"
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_ARMOR0_DESCRIPTION"
-	Value "New techniques in combining hull materials increase the armor strength of ships and orbital structures."
+	Value "Chitin forms around the hull, increasing the armor strength of ships and orbital structures."
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_ARMOR1_NAME"
-	Value "Telekinetic Protection"
+	Value "Improved Exoskeleton"
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_ARMOR1_DESCRIPTION"
-	Value "The molecules of the hull are held together more tightly by telekinetic forces projected from PsiTech Adepts, yielding an effective increase in armor."
+	Value "The durability of the chitin around the hull improves, increasing the armor strength of ships and orbital structures."
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_ARMOR2_NAME"
+	Value "Reinforced Exoskeleton"
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_ARMOR2_DESCRIPTION"
+	Value "Additional layers of chitin grow around the hull, reinforcing the armor strength of ships and orbital structures."
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_ARMOR3_NAME"
+	Value "Advanced Exoskeleton"
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_ARMOR3_DESCRIPTION"
+	Value "Formation and secretion of chitinases by epidermal cells reinforces the hull to increase the armor strength of ships and orbital structures."
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_ARMOR4_NAME"
+	Value "Repairing Exoskeleton"
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_ARMOR4_DESCRIPTION"
+	Value "Damaged chitin is absorbed by the hull and may be recycled to serve for biosynthesis of the new chitin, yielding an effective increase in armor efficiency."
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_WEAPONDAMAGE_PLASMA0_NAME"
 	Value "Refined Plasma Cannons"
@@ -25289,22 +25307,28 @@ StringInfo
 	Value "A fast attack corvette heavily armed design mainly used to boost fleet firepower."
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_HULL0_NAME"
-	Value "Refined Frameworks"
+	Value "Organic Hull"
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_HULL0_DESCRIPTION"
-	Value "The level of craftsmanship in ship and structure construction is greatly improved, increasing the maximum hull points and passive repair rate of all hulls."
+	Value "Organic hull density and regeneration is greatly improved, increasing the maximum hull points and passive repair rate of all hulls."
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_HULL1_NAME"
-	Value "Elegant Hull Design"
+	Value "Reinforced Bio-Hull"
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_HULL1_DESCRIPTION"
-	Value "New stronger designs for the structural frame of ships and structures are devised, further increasing the maximum hull points and passive repair rate of all hulls."
+	Value "Organic hull density is reinforced and regeneration accelerated, further increasing the maximum hull points and passive repair rate of all hulls."
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_HULL2_NAME"
-	Value "Supreme Architecture"
+	Value "Advanced Bio-Hull"
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_HULL2_DESCRIPTION"
-	Value "Truly enlightened improvements to the designs of ships and structures are made by the Unity's brightest minds, further increasing the maximum hull points and passive repair rate of all hulls."
+	Value "Organic hull fibers are strenthened and regeneration acceleration enhanced, further increasing the maximum hull points and passive repair rate of all hulls."
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_HULL3_NAME"
+	Value "Evolved Bio-Hull"
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_HULL3_DESCRIPTION"
+	Value "Biological evolution leads to a superior cellular structure, further increasing the maximum hull points and passive repair rate of all hulls."
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_WEAPONDAMAGE_DART0_NAME"
 	Value "Augmented Launchers"
@@ -25343,22 +25367,22 @@ StringInfo
 	Value "Grants the ability to offer missions to other factions."
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_VOICE_OF_THE_QUEEN_NAME"
-	Value "Voice of the Unity"
+	Value "Voice of the Queen"
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_VOICE_OF_THE_QUEEN_DESCRIPTION"
-	Value "The Unity's influence becomes empathically attuned to opposing factions, affording your empire a relationship bonus when dealing with them."
+	Value "The Hive Queen's influence becomes empathically attuned to opposing factions, affording your empire a relationship bonus when dealing with them."
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_IMPROVED_VOICE_OF_THE_QUEEN_NAME"
-	Value "Call of the Unity"
+	Value "Call of the Queen"
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_IMPROVED_VOICE_OF_THE_QUEEN_DESCRIPTION"
-	Value "The Unity's influence becomes empathically attuned to opposing factions, affording your empire an improved relationship bonus when dealing with them."
+	Value "The Hive Queen's influence becomes empathically attuned to opposing factions, affording your empire an improved relationship bonus when dealing with them."
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_ADVANCED_VOICE_OF_THE_QUEEN_NAME"
-	Value "Song of the Unity"
+	Value "Song of the Queen"
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_ADVANCED_VOICE_OF_THE_QUEEN_DESCRIPTION"
-	Value "The Unity's influence becomes empathically attuned to opposing factions, affording your empire a greatly improved relationship bonus when dealing with them."
+	Value "The Hive Queen's influence becomes empathically attuned to opposing factions, affording your empire a greatly improved relationship bonus when dealing with them."
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_TRUTH_AND_RECONCILIATION_NAME"
 	Value "Truth and Reconciliation"
@@ -25551,3 +25575,15 @@ StringInfo
 StringInfo
 	ID "IDS_WRAITH_ORBITAL_ABILITY_REPAIR_DESCRIPTION"
 	Value "Restores Hull Points to friendly ships and structures over time."
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_MINORFACTIONABILITYLEVEL0_NAME"
+	Value "Coerced Rewards"
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_MINORFACTIONABILITYLEVEL0_DESCRIPTION"
+	Value "Improves the effect of Minor Faction planet abilities."
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_MINORFACTIONABILITYLEVEL1_NAME"
+	Value "Dominate the Weak"
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_MINORFACTIONABILITYLEVEL1_DESCRIPTION"
+	Value "Improves the effect of Minor Faction planet abilities."

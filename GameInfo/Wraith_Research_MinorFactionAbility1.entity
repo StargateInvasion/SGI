@@ -3,8 +3,8 @@ entityType "ResearchSubject"
 hudIcon "HUDICON_RESEARCHSUBJECT_MINORFACTIONABILITYLEVEL1"
 smallHudIcon "HUDICON_RESEARCHSUBJECT_MINORFACTIONABILITYLEVEL1"
 infoCardIcon ""
-NameStringID "IDS_ASURAN_RESEARCH_MINORFACTIONABILITYLEVEL1_NAME"
-DescriptionStringID "IDS_ASURAN_RESEARCH_MINORFACTIONABILITYLEVEL1_DESCRIPTION"
+NameStringID "IDS_WRAITH_RESEARCH_MINORFACTIONABILITYLEVEL1_NAME"
+DescriptionStringID "IDS_WRAITH_RESEARCH_MINORFACTIONABILITYLEVEL1_DESCRIPTION"
 researchWindowLocation
 	block 0
 	pos [ 5 , 5 ]
@@ -12,7 +12,7 @@ ResearchField "Diplomacy"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Asuran_Research_MinorFactionAbility0"
+		Subject "Wraith_Research_MinorFactionAbility0"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
