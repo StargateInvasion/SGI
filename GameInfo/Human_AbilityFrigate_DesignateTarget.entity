@@ -32,7 +32,7 @@ moveThruTarget FALSE
 isUltimateAbility FALSE
 maxNumLevels 1
 levelSourceType "ResearchWithoutBase"
-improveSourceResearchSubject "Human_Research_Ability_DesignateTarget"
+improveSourceResearchSubject "Human_Research_AsgardTech0"
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
@@ -55,7 +55,7 @@ orderAcknowledgementType "ONATTACKORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Human_Research_Ability_DesignateTarget"
+		Subject "Human_Research_AsgardTech0"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
