@@ -1,5 +1,5 @@
 ﻿TXT
-NumStrings 8525
+NumStrings 8535
 StringInfo
 	ID "IDS_GDPRDIALOG_CANCELBUTTON"
 	Value "Decline"
@@ -21008,13 +21008,13 @@ StringInfo
 	Value "Protection"
 StringInfo
 	ID "IDSResearchScreenBlockTitleNonCombat0Wraith"
-	Value "Resources"
+	Value "Royal Decree"
 StringInfo
 	ID "IDSResearchScreenBlockTitleNonCombat1Wraith"
 	Value "Hunting Grounds"
 StringInfo
 	ID "IDSResearchScreenBlockTitleNonCombat2Wraith"
-	Value "Royal Decree"
+	Value "Resources"
 StringInfo
 	ID "IDSResearchScreenBlockTitleDiplomacy0Wraith"
 	Value "Domination"
@@ -24863,34 +24863,52 @@ StringInfo
 	Value "Increases the maximum fleet capacity your empire is able to sustain at once."
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_ARMOR0_NAME"
-	Value "Armor Exoskeleton"
+	Value "Dense Skin"
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_ARMOR0_DESCRIPTION"
-	Value "Chitin forms around the hull, increasing the armor strength of ships and orbital structures."
+	Value "A dense skin forms around the hull, increasing the armor strength of ships and orbital structures."
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_ARMOR1_NAME"
-	Value "Improved Exoskeleton"
+	Value "Thick Skin"
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_ARMOR1_DESCRIPTION"
-	Value "The durability of the chitin around the hull improves, increasing the armor strength of ships and orbital structures."
+	Value "The thickness of the hull skin increases, reinforcing the armor strength of ships and orbital structures."
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_ARMOR2_NAME"
-	Value "Reinforced Exoskeleton"
+	Value "Hardened Skin"
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_ARMOR2_DESCRIPTION"
-	Value "Additional layers of chitin grow around the hull, reinforcing the armor strength of ships and orbital structures."
+	Value "The durability of the hull skin improves, increasing the armor strength of ships and orbital structures."
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_ARMOR3_NAME"
-	Value "Advanced Exoskeleton"
+	Value "Evolved Skin"
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_ARMOR3_DESCRIPTION"
-	Value "Formation and secretion of chitinases by epidermal cells reinforces the hull to increase the armor strength of ships and orbital structures."
+	Value "Radiation from stars has mutated bioship skin to further protect itself, providing increased armor strength of ships and orbital structures."
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_ARMOR4_NAME"
-	Value "Repairing Exoskeleton"
+	Value "Chitin Formation"
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_ARMOR4_DESCRIPTION"
-	Value "Damaged chitin is absorbed by the hull and may be recycled to serve for biosynthesis of the new chitin, yielding an effective increase in armor efficiency."
+	Value "Secreations by the skin form a chitin layer, yielding an effective increase in armor efficiency."
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_WEAPONDAMAGE_DART0_NAME"
+	Value "Augmented Launchers"
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_WEAPONDAMAGE_DART0_DESCRIPTION"
+	Value "Increases the damage of Wraith planet bombardment."
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_WEAPONDAMAGE_DART1_NAME"
+	Value "PsiTech Propelled Bolts"
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_WEAPONDAMAGE_DART1_DESCRIPTION"
+	Value "Further increases the damage of Wraith planet bombardment."
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_WEAPONDAMAGE_DART2_NAME"
+	Value "Divine Launcher Arrays"
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_WEAPONDAMAGE_DART2_DESCRIPTION"
+	Value "Further increases the damage of Wraith planet bombardment."
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_WEAPONDAMAGE_PLASMA0_NAME"
 	Value "Refined Plasma Cannons"
@@ -24909,6 +24927,36 @@ StringInfo
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_WEAPONDAMAGE_PLASMA2_DESCRIPTION"
 	Value "Further increases the damage of all Plasma weapons."
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_WEAPONDAMAGE_PLASMA3_NAME"
+	Value "Refined Plasma Cannons II"
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_WEAPONDAMAGE_PLASMA3_DESCRIPTION"
+	Value "Increases the damage of all Plasma weapons."
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_WEAPONDAMAGE_PLASMA4_NAME"
+	Value "Burst Modulated Plasma II"
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_WEAPONDAMAGE_PLASMA4_DESCRIPTION"
+	Value "Further increases the damage of all Plasma weapons."
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_WEAPONDAMAGE_PLASMA5_NAME"
+	Value "Lifeforce Powered Plasma II"
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_WEAPONDAMAGE_PLASMA5_DESCRIPTION"
+	Value "Further increases the damage of all Plasma weapons."
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_WEAPONCOOLDOWN_PLASMA0_NAME"
+	Value "Plasma weapon cooldown"
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_WEAPONCOOLDOWN_PLASMA0_DESCRIPTION"
+	Value "Decreases the cooldown of the plasma weapons."
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_WEAPONCOOLDOWN_PLASMA1_NAME"
+	Value "Plasma weapon cooldown"
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_WEAPONCOOLDOWN_PLASMA1_DESCRIPTION"
+	Value "Further decreases the cooldown of the plasma weapons."
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_ORBITAL_CULTURECENTER_NAME"
 	Value "Wraith Indoctrination"
@@ -25070,7 +25118,7 @@ StringInfo
 	Value "Ancient Power Generation"
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_ANCIENTPOWERRESEARCH_DESCRIPTION"
-	Value "By stealing Ancient power generation designs and learning their secrets, the Wraith are able to improve their ships in nearly every way and create ship designs never thought possible. "	
+	Value "By finding an Ancient ZPM Artifact and learning its secrets, the Wraith are able to improve their ships in nearly every way and create ship designs never thought possible. "	
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_CLONEDEVELOPMENT_NAME"
 	Value "Clone Development"
@@ -25191,6 +25239,12 @@ StringInfo
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_POPULATIONCAPTERRAN0_DESCRIPTION"
 	Value "The grace of the Hive Queen sparks new breakthroughs in civic design, increasing the population cap on Terran planets under your empire's control."
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_POPULATIONCAPGREENHOUSE0_NAME"
+	Value "Homeworld Prophecy"
+StringInfo
+	ID "IDS_WRAITH_RESEARCH_POPULATIONCAPGREENHOUSE0_DESCRIPTION"
+	Value "Knowledge of Iratus bug's origins is rediscovered, inspiring many to flock to these types of planets."
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_HYPERSPACE_WORMHOLETRAVEL_NAME"
 	Value "Wormhole Passage"
@@ -25317,30 +25371,6 @@ StringInfo
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_HULL3_DESCRIPTION"
 	Value "Biological evolution leads to a superior cellular structure, further increasing the maximum hull points and passive repair rate of all hulls."
-StringInfo
-	ID "IDS_WRAITH_RESEARCH_WEAPONDAMAGE_DART0_NAME"
-	Value "Augmented Launchers"
-StringInfo
-	ID "IDS_WRAITH_RESEARCH_WEAPONDAMAGE_DART0_DESCRIPTION"
-	Value "Increases the damage of Wraith planet bombardment."
-StringInfo
-	ID "IDS_WRAITH_RESEARCH_WEAPONDAMAGE_DART1_NAME"
-	Value "PsiTech Propelled Bolts"
-StringInfo
-	ID "IDS_WRAITH_RESEARCH_WEAPONDAMAGE_DART1_DESCRIPTION"
-	Value "Further increases the damage of Wraith planet bombardment."
-StringInfo
-	ID "IDS_WRAITH_RESEARCH_WEAPONDAMAGE_DART2_NAME"
-	Value "Divine Launcher Arrays"
-StringInfo
-	ID "IDS_WRAITH_RESEARCH_WEAPONDAMAGE_DART2_DESCRIPTION"
-	Value "Further increases the damage of Wraith planet bombardment."
-StringInfo
-	ID "IDS_WRAITH_RESEARCH_WEAPONCOOLDOWN_PLASMA_NAME"
-	Value "Plasma weapon cooldown"
-StringInfo
-	ID "IDS_WRAITH_RESEARCH_WEAPONCOOLDOWN_PLASMA_DESCRIPTION"
-	Value "Decreases the cooldown of the plasma weapons."
 StringInfo
 	ID "IDS_WRAITH_RESEARCH_COSTDECREASECREDITS_NAME"
 	Value "Enslaved Labor"

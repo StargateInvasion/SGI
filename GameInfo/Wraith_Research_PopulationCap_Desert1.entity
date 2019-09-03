@@ -1,18 +1,18 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_POPULATIONCAPDESERTPSI1"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_POPULATIONCAPDESERTPSI1"
+hudIcon "HUDICON_RESEARCHSUBJECT_POPULATIONCAPDESERT1"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_POPULATIONCAPDESERT1"
 infoCardIcon ""
 NameStringID "IDS_WRAITH_RESEARCH_POPULATIONCAPDESERT1_NAME"
 DescriptionStringID "IDS_WRAITH_RESEARCH_POPULATIONCAPDESERT1_DESCRIPTION"
 researchWindowLocation
-	block 2
+	block 1
 	pos [ 1 , 2 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Wraith_Research_PopulationCapDesert0"
+		Subject "Wraith_Research_PopulationCap_Desert0"
 		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

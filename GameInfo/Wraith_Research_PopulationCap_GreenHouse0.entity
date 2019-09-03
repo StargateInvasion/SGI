@@ -1,33 +1,33 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_POPULATIONCAPICE0"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_POPULATIONCAPICE0"
+hudIcon "HUDICON_RESEARCHSUBJECT_POPULATIONCAPTERRAN1"
+smallHudIcon "HUDICON_RESEARCHSUBJECT_POPULATIONCAPTERRAN1"
 infoCardIcon ""
-NameStringID "IDS_HUMAN_RESEARCH_POPULATIONCAPICE0_NAME"
-DescriptionStringID "IDS_HUMAN_RESEARCH_POPULATIONCAPICE0_DESCRIPTION"
+NameStringID "IDS_WRAITH_RESEARCH_POPULATIONCAPGREENHOUSE0_NAME"
+DescriptionStringID "IDS_WRAITH_RESEARCH_POPULATIONCAPGREENHOUSE0_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 3 , 0 ]
+	pos [ 4 , 2 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Human_Research_Planet_Ice"
+		Subject "Wraith_Research_Planet_GreenHouse"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 60.000000
-PerLevelUpgradeTime 5.000000
+BaseUpgradeTime 75.000000
+PerLevelUpgradeTime 10.000000
 BaseCost
-	credits 1000.000000
-	metal 150.000000
-	crystal 250.000000
+	credits 1200.000000
+	metal 200.000000
+	crystal 325.000000
 PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 3
+Tier 4
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 2
 priority 0.000000
@@ -37,7 +37,7 @@ researchModifier
 	modifierType "PlanetPopulationCapAdjustment"
 	baseValue 0.000000
 	perLevelValue 0.075000
-	linkedPlanetType "Ice"
+	linkedPlanetType "Oceanic"
 artifactPicture ""
 uniqueOverlayBrush ""
-dlcId 204880
+dlcId 228601

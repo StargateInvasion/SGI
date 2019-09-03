@@ -7,7 +7,7 @@ NameStringID "IDS_WRAITH_FRIGATECORVETTE_NAME"
 DescriptionStringID "IDS_WRAITH_FRIGATECORVETTE_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 1 , 4 ]
+	pos [ 0 , 1 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 0
@@ -24,7 +24,7 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 1
+Tier 0
 onlyWorksIfTierLabsExist TRUE
 MaxNumResearchLevels 1
 priority 0.000000

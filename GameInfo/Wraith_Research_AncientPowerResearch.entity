@@ -1,16 +1,22 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_QUESTDIFFICULTY"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_QUESTDIFFICULTY"
+hudIcon "HUDICON_WRAITH_RESEARCH_ANCIENTPOWERRESEARCH"
+smallHudIcon "HUDICON_WRAITH_RESEARCH_ANCIENTPOWERRESEARCH"
 infoCardIcon ""
 NameStringID "IDS_WRAITH_RESEARCH_ANCIENTPOWERRESEARCH_NAME"
 DescriptionStringID "IDS_WRAITH_RESEARCH_ANCIENTPOWERRESEARCH_DESCRIPTION"
 researchWindowLocation
-	block 1
-	pos [ 4 , 1 ]
+	block 0
+	pos [ 7 , 2 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 2
+	ResearchPrerequisite
+		Subject "Wraith_Research_AntiMatter2"
+		Level 2
+	ResearchPrerequisite
+		Subject "RESEARCHSUBJECT_ARTIFACT_PASSIVEREGENANTIMATTER"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
@@ -24,7 +30,7 @@ PerLevelCostIncrease
 	credits 500.000000
 	metal 0.000000
 	crystal 0.000000
-Tier 4
+Tier 7
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000

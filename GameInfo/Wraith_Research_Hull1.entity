@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_HULLPSI1"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_HULLPSI1"
+hudIcon "HUDICON_WRAITH_RESEARCH_HULL1"
+smallHudIcon "HUDICON_WRAITH_RESEARCH_HULL1"
 infoCardIcon ""
 NameStringID "IDS_WRAITH_RESEARCH_HULL1_NAME"
 DescriptionStringID "IDS_WRAITH_RESEARCH_HULL1_DESCRIPTION"
@@ -10,12 +10,9 @@ researchWindowLocation
 	pos [ 2 , 0 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 2
+	NumResearchPrerequisites 1
 	ResearchPrerequisite
 		Subject "Wraith_Research_Hull0"
-		Level 1
-	ResearchPrerequisite
-		Subject "Wraith_Research_CapitalCarrier_Hive"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0

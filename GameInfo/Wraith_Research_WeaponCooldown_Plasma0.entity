@@ -1,18 +1,18 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_WEAPONCOOLDOWN_PLASMA"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_WEAPONCOOLDOWN_PLASMA"
+hudIcon "HUDICON_WRAITH_RESEARCH_WEAPONCOOLDOWN_PLASMA0"
+smallHudIcon "HUDICON_WRAITH_RESEARCH_WEAPONCOOLDOWN_PLASMA0"
 infoCardIcon ""
-NameStringID "IDS_WRAITH_RESEARCH_WEAPONCOOLDOWN_PLASMA_NAME"
-DescriptionStringID "IDS_WRAITH_RESEARCH_WEAPONCOOLDOWN_PLASMA_DESCRIPTION"
+NameStringID "IDS_WRAITH_RESEARCH_WEAPONCOOLDOWN_PLASMA0_NAME"
+DescriptionStringID "IDS_WRAITH_RESEARCH_WEAPONCOOLDOWN_PLASMA0_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 7 , 0 ]
+	pos [ 4 , 0 ]
 ResearchField "Combat"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Wraith_Research_WeaponDamage_Plasma5"
+		Subject "Wraith_Research_WeaponDamage_Plasma3"
 		Level 2
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -27,7 +27,7 @@ PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
 	crystal 25.000000
-Tier 7
+Tier 4
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 3
 priority 1.000000

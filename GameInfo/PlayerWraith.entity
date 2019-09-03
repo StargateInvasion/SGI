@@ -69,7 +69,7 @@ entities
 			entityDefName "Wraith_ModuleTradeShip_Hooper"
 			entityDefName "Wraith_ModuleRefineryShip_Lathan"
 	researchInfo
-		count 144
+		count 149
 		entityDefName "Wraith_Research_Ability_CulturalAssistance"
 		entityDefName "Wraith_Research_Ability_DamageOverTimeAura"
 		entityDefName "Wraith_Research_Ability_DisableImmune"
@@ -137,8 +137,11 @@ entities
 		entityDefName "Wraith_Research_Hyperspace_GalaxyTravel"
 		entityDefName "Wraith_Research_Hyperspace_WormholeTravel"
 		entityDefName "Wraith_Research_Inspired"
-		entityDefName "Wraith_Research_PlanetAccessIce"
-		entityDefName "Wraith_Research_PlanetAccessVolcanic"
+		entityDefName "Wraith_Research_Planet_GreenHouse"
+		entityDefName "Wraith_Research_Planet_Ice"
+		entityDefName "Wraith_Research_Planet_Iron"
+		entityDefName "Wraith_Research_Planet_Ocean"
+		entityDefName "Wraith_Research_Planet_Volcanic"
 		entityDefName "Wraith_Research_PlanetBonusCostDecrease"
 		entityDefName "Wraith_Research_Orbital_AntiMatterCharger0"
 		entityDefName "Wraith_Research_Orbital_AntiMatterCharger1"
@@ -183,9 +186,10 @@ entities
 		entityDefName "Wraith_Research_PactUnlock_Strikecraft"
 		entityDefName "Wraith_Research_PactUnlock_MassReduction"
 		entityDefName "Wraith_Research_PactUnlock_Armor"
-		entityDefName "Wraith_Research_PopulationCapDesert0"
-		entityDefName "Wraith_Research_PopulationCapDesert1"
-		entityDefName "Wraith_Research_PopulationCapTerran0"
+		entityDefName "Wraith_Research_PopulationCap_Desert0"
+		entityDefName "Wraith_Research_PopulationCap_Desert1"
+		entityDefName "Wraith_Research_PopulationCap_Terran0"
+		entityDefName "Wraith_Research_PopulationCap_GreenHouse0"
 		entityDefName "Wraith_Research_QuestDifficulty"
 		entityDefName "Wraith_Research_ResearchRateIncrease"
 		entityDefName "Wraith_Research_ShipBuildRateIncrease0"
@@ -203,7 +207,8 @@ entities
 		entityDefName "Wraith_Research_VoiceOfTheQueen0"
 		entityDefName "Wraith_Research_VoiceOfTheQueen1"
 		entityDefName "Wraith_Research_VoiceOfTheQueen2"
-		entityDefName "Wraith_Research_WeaponCooldown_Plasma"
+		entityDefName "Wraith_Research_WeaponCooldown_Plasma0"
+		entityDefName "Wraith_Research_WeaponCooldown_Plasma1"
 		entityDefName "Wraith_Research_WeaponDamage_Dart0"
 		entityDefName "Wraith_Research_WeaponDamage_Dart1"
 		entityDefName "Wraith_Research_WeaponDamage_Dart2"
@@ -750,14 +755,14 @@ researchScreenData
 			picture "ResearchScreenBlockPictureCombat0Wraith"
 		block
 			area [ 50 , 245 , 690 , 240 ]
-			backdrop "ResearchScreenBlockBackdropCombat1Tech"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Tech"
+			backdrop "ResearchScreenBlockBackdropCombat2Tech"
+			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat2Tech"
 			title "IDSResearchScreenBlockTitleCombat1Wraith"
 			picture "ResearchScreenBlockPictureCombat1Wraith"
 		block
 			area [ 50 , 495 , 690 , 195 ]
-			backdrop "ResearchScreenBlockBackdropCombat2Tech"
-			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat2Tech"
+			backdrop "ResearchScreenBlockBackdropCombat1Tech"
+			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorCombat1Tech"
 			title "IDSResearchScreenBlockTitleCombat2Wraith"
 			picture "ResearchScreenBlockPictureCombat2Wraith"
 	Defense
@@ -771,19 +776,19 @@ researchScreenData
 	NonCombat
 		blockCount 3
 		block
-			area [ 50 , 73 , 690 , 192 ]
+			area [ 50 , 48 , 690 , 192 ]
 			backdrop "ResearchScreenBlockBackdropNonCombat0Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat0Tech"
 			title "IDSResearchScreenBlockTitleNonCombat0Wraith"
 			picture "ResearchScreenBlockPictureNonCombat0Wraith"
 		block
-			area [ 50 , 275 , 690 , 192 ]
+			area [ 50 , 250 , 690 , 240 ]
 			backdrop "ResearchScreenBlockBackdropNonCombat1Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat1Tech"
 			title "IDSResearchScreenBlockTitleNonCombat1Wraith"
 			picture "ResearchScreenBlockPictureNonCombat1Wraith"
 		block
-			area [ 50 , 477 , 690 , 192 ]
+			area [ 50 , 500 , 690 , 192 ]
 			backdrop "ResearchScreenBlockBackdropNonCombat2Tech"
 			tierIndicatorBackdrop "ResearchScreenBlockTierIndicatorNonCombat2Tech"
 			title "IDSResearchScreenBlockTitleNonCombat2Wraith"
