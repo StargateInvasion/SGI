@@ -41,7 +41,7 @@ bombEffectsDef
 		sound "EXPLOSION_SUB4_ALT1"
 		sound "EXPLOSION_SUB4_ALT2"
 	projectileTravelEffectName "Weapon_WraithCapitalPlasmaHeavy_Travel"
-mainViewIcon "MAINVIEWICON_CAPITALSHIP_WRAITHBATTLESHIP"
+mainViewIcon "MAINVIEWICON_WRAITH_CAPITALBATTLESHIP"
 basePrice
 	credits 3000.000000
 	metal 400.000000
@@ -77,7 +77,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_WRAITH_CAPITALSHIPBATTLESHIP_NAME"
 DescriptionStringID "IDS_WRAITH_CAPITALSHIPBATTLESHIP_DESCRIPTION"
-picture "CAPITALSHIPPICTURE_WRAITHBATTLESHIP"
+picture "PICTURE_WRAITH_CAPITALBATTLESHIP"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -91,9 +91,9 @@ numRandomDebrisLarge 4
 numRandomDebrisSmall 17
 numSpecificDebris 0
 armorType "CapitalShip"
-hudIcon "HUDICON_CAPITALSHIP_WRAITHCARRIER"
-smallHudIcon "HUDICONSMALL_CAPITALSHIP_WRAITHCARRIER"
-infoCardIcon "INFOCARDICON_CAPITALSHIP_WRAITHBATTLESHIP"
+hudIcon "HUDICON_WRAITH_CAPITALBATTLESHIP"
+smallHudIcon "HUDICONSMALL_WRAITH_CAPITALBATTLESHIP"
+infoCardIcon "INFOCARDICON_WRAITH_CAPITALBATTLESHIP"
 minZoomDistanceMult 1.250000
 NumWeapons 1
 Weapon

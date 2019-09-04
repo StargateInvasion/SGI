@@ -10,7 +10,7 @@ defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
-mainViewIcon "MAINVIEWICON_TITAN_WRAITHASSAULT"
+mainViewIcon "MAINVIEWICON_WRAITH_TITAN_QUICKSILVER"
 basePrice
 	credits 9500.000000
 	metal 1200.000000
@@ -46,7 +46,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_WRAITH_TITAN_QUICKSILVER_NAME"
 DescriptionStringID "IDS_WRAITH_TITAN_QUICKSILVER_DESCRIPTION"
-picture "TITANPICTURE_WRAITHASSAULT"
+picture "PICTURE_WRAITH_TITAN_QUICKSILVER"
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
@@ -61,9 +61,9 @@ numRandomDebrisSmall 30
 numSpecificDebris 1
 specificDebrisMeshName "DebrisAdventLarge"
 armorType "Titan"
-hudIcon "HUDICON_RESEARCHSUBJECT_TITAN_WRAITHASSAULT"
-smallHudIcon "HUDICONSMALL_TITAN_WRAITHASSAULT"
-infoCardIcon "INFOCARDICON_TITAN_WRAITHASSAULT"
+hudIcon "HUDICON_WRAITH_TITANDEFENSE_QUICKSILVER"
+smallHudIcon "HUDICONSMALL_WRAITH_TITAN_QUICKSILVER"
+infoCardIcon "INFOCARDICON_WRAITH_TITAN_QUICKSILVER"
 minZoomDistanceMult 1.030000
 NumWeapons 2
 Weapon

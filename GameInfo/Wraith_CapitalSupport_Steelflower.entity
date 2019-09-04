@@ -41,7 +41,7 @@ bombEffectsDef
 		sound "EXPLOSION_SUB4_ALT1"
 		sound "EXPLOSION_SUB4_ALT2"
 	projectileTravelEffectName "Weapon_WraithCapitalPlasmaHeavy_Travel"
-mainViewIcon "MAINVIEWICON_ASURAN_CAPITALSUPPORT_ORIGIN"
+mainViewIcon "MAINVIEWICON_WRAITH_CAPITALSUPPORT"
 basePrice
 	credits 3000.000000
 	metal 2000.000000
@@ -77,7 +77,7 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_WRAITH_CAPITALSHIPSUPPORT_NAME"
 DescriptionStringID "IDS_WRAITH_CAPITALSHIPSUPPORT_DESCRIPTION"
-picture "PICTURE_ASURAN_CAPITALSUPPORT_ORIGIN"
+picture "PICTURE_WRAITH_CAPITALSUPPORT"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
@@ -92,9 +92,9 @@ numRandomDebrisSmall 12
 numSpecificDebris 1
 specificDebrisMeshName "DebrisPhaseCapitalShipCarrier"
 armorType "CapitalShip"
-hudIcon "HUDICON_ASURAN_CAPITALSUPPORT_ORIGIN"
-smallHudIcon "HUDICONSMALL_ASURAN_CAPITALSUPPORT_ORIGIN"
-infoCardIcon "MAINVIEWICON_ASURAN_CAPITALSUPPORT_ORIGIN"
+hudIcon "HUDICON_WRAITH_CAPITALSUPPORT"
+smallHudIcon "HUDICONSMALL_WRAITH_CAPITALSUPPORT"
+infoCardIcon "INFOCARDICON_WRAITH_CAPITALSUPPORT"
 minZoomDistanceMult 2.500000
 NumWeapons 1
 Weapon

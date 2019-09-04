@@ -41,7 +41,7 @@ bombEffectsDef
 		sound "EXPLOSION_SUB4_ALT1"
 		sound "EXPLOSION_SUB4_ALT2"
 	projectileTravelEffectName "Weapon_PsiCapitalPlanetBombing_Travel"
-mainViewIcon "MAINVIEWICON_TITAN_WRAITHSUPERHIVE"
+mainViewIcon "MAINVIEWICON_WRAITH_TITAN_SUPERHIVE"
 basePrice
 	credits 9500.000000
 	metal 1200.000000
@@ -77,9 +77,12 @@ CultureProtectRate
 	ValueIncreasePerLevel 0.050000
 NameStringID "IDS_WRAITH_TITAN_SUPERHIVE_NAME"
 DescriptionStringID "IDS_WRAITH_TITAN_SUPERHIVE_DESCRIPTION"
-picture "TITANPICTURE_WRAITHSUPERHIVE"
+picture "PICTURE_WRAITH_TITAN_SUPERHIVE"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Wraith_Research_Titan_SuperHive"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"
@@ -94,9 +97,9 @@ numRandomDebrisSmall 30
 numSpecificDebris 1
 specificDebrisMeshName "DebrisAdventLarge"
 armorType "Titan"
-hudIcon "HUDICON_RESEARCHSUBJECT_TITAN_WRAITHSUPERHIVE"
-smallHudIcon "HUDICONSMALL_TITAN_WRAITHSUPERHIVE"
-infoCardIcon "INFOCARDICON_TITAN_WRAITHSUPERHIVE"
+hudIcon "HUDICON_WRAITH_TITANOFFENSE_SUPERHIVE"
+smallHudIcon "HUDICONSMALL_WRAITH_TITAN_SUPERHIVE"
+infoCardIcon "INFOCARDICON_WRAITH_TITAN_SUPERHIVE"
 minZoomDistanceMult 1.030000
 NumWeapons 2
 Weapon

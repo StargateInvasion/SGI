@@ -1,31 +1,13 @@
 TXT
 onlyLoadOnDemand FALSE
-brushCount 292
+brushCount 281
 brush
-	name "HUDICON_FRIGATE_WRAITHHEAVY"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_Disabled"
-		pixelBox [ 55 , 364 , 47 , 33 ]
-	Pressed
-		fileName "Unit_Hud_Pressed"
-		pixelBox [ 55 , 364 , 47 , 33 ]
-	CursorOver
-		fileName "Unit_Hud_CursorOver"
-		pixelBox [ 55 , 364 , 47 , 33 ]
-	Focused
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 55 , 364 , 47 , 33 ]
-	Normal
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 55 , 364 , 47 , 33 ]
-brush
-	name "HUDICONSMALL_FRIGATE_WRAITHHEAVY"
+	name "HUDICONSMALL_WRAITH_FRIGATEHEAVY"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 31 , 211 , 28 , 28 ]
 brush
-	name "INFOCARDICON_FRIGATE_WRAITHHEAVY"
+	name "INFOCARDICON_WRAITH_FRIGATEHEAVY"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 24 , 162 , 22 , 22 ]
@@ -135,63 +117,27 @@ brush
 		fileName "Buttons_Research2_Normal"
 		pixelBox [ 619 , 411 , 47 , 33 ]
 brush
-	name "HUDICON_WRAITH_FRIGATE_ENVOY"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_Disabled"
-		pixelBox [ 447 , 469 , 47 , 33 ]
-	Pressed
-		fileName "Unit_Hud_Pressed"
-		pixelBox [ 447 , 469 , 47 , 33 ]
-	CursorOver
-		fileName "Unit_Hud_CursorOver"
-		pixelBox [ 447 , 469 , 47 , 33 ]
-	Focused
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 447 , 469 , 47 , 33 ]
-	Normal
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 447 , 469 , 47 , 33 ]
-brush
-	name "MAINVIEWICON_FRIGATE_WRAITHSCOUT"
+	name "MAINVIEWICON_WRAITH_FRIGATESCOUT"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 121 , 211 , 28 , 28 ]
 brush
-	name "PICTURE_FRIGATE_WRAITHSCOUT"
+	name "PICTURE_WRAITH_FRIGATESCOUT"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 682 , 704 , 167 , 75 ]
 brush
-	name "HUDICON_FRIGATE_WRAITHSCOUT"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_Disabled"
-		pixelBox [ 202 , 364 , 47 , 33 ]
-	Pressed
-		fileName "Unit_Hud_Pressed"
-		pixelBox [ 202 , 364 , 47 , 33 ]
-	CursorOver
-		fileName "Unit_Hud_CursorOver"
-		pixelBox [ 202 , 364 , 47 , 33 ]
-	Focused
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 202 , 364 , 47 , 33 ]
-	Normal
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 202 , 364 , 47 , 33 ]
-brush
-	name "HUDICONSMALL_FRIGATE_WRAITHSCOUT"
+	name "HUDICONSMALL_WRAITH_FRIGATESCOUT"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 121 , 211 , 28 , 28 ]
 brush
-	name "INFOCARDICON_FRIGATE_WRAITHSCOUT"
+	name "INFOCARDICON_WRAITH_FRIGATESCOUT"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 93 , 162 , 22 , 22 ]
 brush
-	name "HUDICON_SQUADWRAITHCOMBAT"
+	name "HUDICON_WRAITH_SQUADCOMBAT"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_Disabled"
@@ -209,17 +155,17 @@ brush
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 300 , 259 , 47 , 33 ]
 brush
-	name "HUDICONSMALL_SQUADWRAITHCOMBAT"
+	name "HUDICONSMALL_WRAITH_SQUADCOMBAT"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 181 , 121 , 28 , 28 ]
 brush
-	name "INFOCARDICON_SQUADWRAITHCOMBAT"
+	name "INFOCARDICON_WRAITH_SQUADCOMBAT"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 139 , 93 , 22 , 22 ]
 brush
-	name "HUDICON_PLANETMODULE_WRAITHORBITALCULTURECENTER"
+	name "HUDICON_WRAITH_ORBITAL_CULTURECENTER"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_Disabled"
@@ -237,27 +183,27 @@ brush
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 300 , 154 , 47 , 33 ]
 brush
-	name "HUDICONSMALL_PLANETMODULE_WRAITHORBITALCULTURECENTER"
+	name "HUDICONSMALL_WRAITH_ORBITAL_CULTURECENTER"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 181 , 31 , 28 , 28 ]
 brush
-	name "INFOCARDICON_PLANETMODULE_WRAITHORBITALCULTURECENTER"
+	name "INFOCARDICON_WRAITH_ORBITAL_CULTURECENTER"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 139 , 24 , 22 , 22 ]
 brush
-	name "MAINVIEWICON_PLANETMODULE_WRAITHORBITALCULTURECENTER"
+	name "MAINVIEWICON_WRAITH_ORBITAL_CULTURECENTER"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 181 , 31 , 28 , 28 ]
 brush
-	name "PLANETMODULEPICTURE_WRAITHORBITALCULTURECENTER"
+	name "PICTURE_WRAITH_ORBITAL_CULTURECENTER"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 1022 , 158 , 167 , 75 ]
 brush
-	name "HUDICON_PLANETMODULE_WRAITHORBITALCRYSTALEXTRACTOR"
+	name "HUDICON_WRAITH_ORBITAL_CRYSTALEXTRACTOR"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_Disabled"
@@ -275,45 +221,52 @@ brush
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 447 , 49 , 47 , 33 ]
 brush
-	name "HUDICONSMALL_PLANETMODULE_WRAITHORBITALCRYSTALEXTRACTOR"
+	name "HUDICONSMALL_WRAITH_ORBITAL_CRYSTALEXTRACTOR"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 391 , 31 , 28 , 28 ]
 brush
-	name "INFOCARDICON_PLANETMODULE_WRAITHORBITALCRYSTALEXTRACTOR"
+	name "INFOCARDICON_WRAITH_ORBITAL_CRYSTALEXTRACTOR"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 300 , 24 , 22 , 22 ]
 brush
-	name "MAINVIEWICON_PLANETMODULE_WRAITHORBITALCRYSTALEXTRACTOR"
+	name "MAINVIEWICON_WRAITH_ORBITAL_CRYSTALEXTRACTOR"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 391 , 31 , 28 , 28 ]
 brush
-	name "PLANETMODULEPICTURE_WRAITHORBITALCRYSTALEXTRACTOR"
+	name "PICTURE_WRAITH_ORBITAL_CRYSTALEXTRACTOR"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 512 , 236 , 167 , 75 ]
 brush
-	name "HUDICON_CAPITALSHIP_WRAITHCARRIER"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_Disabled"
-		pixelBox [ 104 , 259 , 47 , 33 ]
-	Pressed
-		fileName "Unit_Hud_Pressed"
-		pixelBox [ 104 , 259 , 47 , 33 ]
-	CursorOver
-		fileName "Unit_Hud_CursorOver"
-		pixelBox [ 104 , 259 , 47 , 33 ]
-	Focused
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 104 , 259 , 47 , 33 ]
-	Normal
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 104 , 259 , 47 , 33 ]
+	name "HUDICONSMALL_WRAITH_CAPITALCARRIER"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 61 , 121 , 28 , 28 ]
 brush
-	name "HUDICONSMALL_CAPITALSHIP_WRAITHCARRIER"
+	name "HUDICONSMALL_WRAITH_CAPITALTRANSPORT"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 61 , 121 , 28 , 28 ]
+brush
+	name "HUDICONSMALL_WRAITH_CAPITALSIEGE"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 61 , 121 , 28 , 28 ]
+brush
+	name "HUDICONSMALL_WRAITH_CAPITALSUPPORT"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 61 , 121 , 28 , 28 ]
+brush
+	name "HUDICONSMALL_WRAITH_CAPITALBATTLESHIP"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 61 , 121 , 28 , 28 ]
+brush
+	name "HUDICONSMALL_WRAITH_CAPITALCOLONY"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 61 , 121 , 28 , 28 ]
@@ -336,22 +289,22 @@ brush
 		fileName "Unit_Hud2_Normal"
 		pixelBox [ 153 , 41 , 47 , 33 ]
 brush
-	name "HUDICONSMALL_PLANETMODULE_WRAITHORBITALTITANFACTORY"
+	name "HUDICONSMALL_WRAITH_ORBITAL_TITANFACTORY"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 441 , 959 , 28 , 28 ]
 brush
-	name "INFOCARDICON_PLANETMODULE_WRAITHORBITALTITANFACTORY"
+	name "INFOCARDICON_WRAITH_ORBITAL_TITANFACTORY"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 373 , 208 , 22 , 22 ]
 brush
-	name "MAINVIEWICON_PLANETMODULE_WRAITHORBITALTITANFACTORY"
+	name "MAINVIEWICON_WRAITH_ORBITAL_TITANFACTORY"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 435 , 511 , 30 , 46 ]
 brush
-	name "PLANETMODULEPICTURE_WRAITHORBITALTITANFACTORY"
+	name "PICTURE_WRAITH_ORBITAL_TITANFACTORY"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 1872 , 618 , 167 , 75 ]
@@ -394,37 +347,37 @@ brush
 	fileName "Unit_Infocard"
 	pixelBox [ 116 , 162 , 22 , 22 ]
 brush
-	name "MAINVIEWICON_CAPITALSHIP_WRAITHBATTLESHIP"
+	name "MAINVIEWICON_WRAITH_CAPITALBATTLESHIP"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 31 , 121 , 28 , 28 ]
 brush
-	name "CAPITALSHIPPICTURE_WRAITHCARRIER"
+	name "PICTURE_WRAITH_CAPITALCARRIER"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 342 , 626 , 167 , 75 ]
 brush
-	name "INFOCARDICON_CAPITALSHIP_WRAITHCARRIER"
+	name "INFOCARDICON_WRAITH_CAPITALCARRIER"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 47 , 93 , 22 , 22 ]
 brush
-	name "MAINVIEWICON_CAPITALSHIP_WRAITHBATTLEPSIONIC"
+	name "MAINVIEWICON_WRAITH_CAPITALTRANSPORT"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 91 , 121 , 28 , 28 ]
 brush
-	name "CAPITALSHIPPICTURE_WRAITHBATTLEPSIONIC"
+	name "PICTURE_WRAITH_CAPITALTRANSPORT"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 512 , 626 , 167 , 75 ]
 brush
-	name "INFOCARDICON_CAPITALSHIP_WRAITHBATTLEPSIONIC"
+	name "INFOCARDICON_WRAITH_CAPITALTRANSPORT"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 70 , 93 , 22 , 22 ]
 brush
-	name "HUDICON_PLANETMODULE_WRAITHORBITALJUMPBLOCKER"
+	name "HUDICON_WRAITH_ORBITAL_JUMPBLOCKER"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_Disabled"
@@ -442,27 +395,27 @@ brush
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 104 , 154 , 47 , 33 ]
 brush
-	name "HUDICONSMALL_PLANETMODULE_WRAITHORBITALJUMPBLOCKER"
+	name "HUDICONSMALL_WRAITH_ORBITAL_JUMPBLOCKER"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 61 , 31 , 28 , 28 ]
 brush
-	name "INFOCARDICON_PLANETMODULE_WRAITHORBITALJUMPBLOCKER"
+	name "INFOCARDICON_WRAITH_ORBITAL_JUMPBLOCKER"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 47 , 24 , 22 , 22 ]
 brush
-	name "MAINVIEWICON_PLANETMODULE_WRAITHORBITALJUMPBLOCKER"
+	name "MAINVIEWICON_WRAITH_ORBITAL_JUMPBLOCKER"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 61 , 31 , 28 , 28 ]
 brush
-	name "PLANETMODULEPICTURE_WRAITHORBITALJUMPBLOCKER"
+	name "PICTURE_WRAITH_ORBITAL_JUMPBLOCKER"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 342 , 158 , 167 , 75 ]
 brush
-	name "HUDICON_SQUADWRAITHBOMBER"
+	name "HUDICON_WRAITH_SQUADBOMBER"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_Disabled"
@@ -480,12 +433,12 @@ brush
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 251 , 259 , 47 , 33 ]
 brush
-	name "HUDICONSMALL_SQUADWRAITHBOMBER"
+	name "HUDICONSMALL_WRAITH_SQUADBOMBER"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 151 , 121 , 28 , 28 ]
 brush
-	name "INFOCARDICON_SQUADWRAITHBOMBER"
+	name "INFOCARDICON_WRAITH_SQUADBOMBER"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 116 , 93 , 22 , 22 ]
@@ -536,17 +489,32 @@ brush
 		fileName "Buttons_Main_Normal"
 		pixelBox [ 311 , 142 , 47 , 33 ]
 brush
-	name "MAINVIEWICON_CAPITALSHIP_WRAITHPLANETPSIONIC"
+	name "MAINVIEWICON_WRAITH_CAPITALSIEGE"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 121 , 121 , 28 , 28 ]
 brush
-	name "CAPITALSHIPPICTURE_WRAITHPLANETPSIONIC"
+	name "PICTURE_WRAITH_CAPITALSIEGE"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 682 , 626 , 167 , 75 ]
 brush
-	name "INFOCARDICON_CAPITALSHIP_WRAITHPLANETPSIONIC"
+	name "INFOCARDICON_WRAITH_CAPITALSIEGE"
+	content "Simple"
+	fileName "Unit_Infocard"
+	pixelBox [ 93 , 93 , 22 , 22 ]
+brush
+	name "MAINVIEWICON_WRAITH_CAPITALSUPPORT"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 121 , 121 , 28 , 28 ]
+brush
+	name "PICTURE_WRAITH_CAPITALSUPPORT"
+	content "Simple"
+	fileName "Unit_Picture"
+	pixelBox [ 682 , 626 , 167 , 75 ]
+brush
+	name "INFOCARDICON_WRAITH_CAPITALSUPPORT"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 93 , 93 , 22 , 22 ]
@@ -623,45 +591,27 @@ brush
 		fileName "Buttons_Research_Normal"
 		pixelBox [ 770 , 31 , 47 , 33 ]
 brush
-	name "MAINVIEWICON_FRIGATE_WRAITHMODULECONSTRUCTOR"
+	name "MAINVIEWICON_WRAITH_FRIGATEMODULECONSTRUCTOR"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 181 , 211 , 28 , 28 ]
 brush
-	name "PICTURE_FRIGATE_WRAITHMODULECONSTRUCTOR"
+	name "PICTURE_WRAITH_FRIGATEMODULECONSTRUCTOR"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 1022 , 704 , 167 , 75 ]
 brush
-	name "HUDICON_FRIGATE_WRAITHMODULECONSTRUCTOR"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_Disabled"
-		pixelBox [ 300 , 364 , 47 , 33 ]
-	Pressed
-		fileName "Unit_Hud_Pressed"
-		pixelBox [ 300 , 364 , 47 , 33 ]
-	CursorOver
-		fileName "Unit_Hud_CursorOver"
-		pixelBox [ 300 , 364 , 47 , 33 ]
-	Focused
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 300 , 364 , 47 , 33 ]
-	Normal
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 300 , 364 , 47 , 33 ]
-brush
-	name "HUDICONSMALL_FRIGATE_WRAITHMODULECONSTRUCTOR"
+	name "HUDICONSMALL_WRAITH_FRIGATEMODULECONSTRUCTOR"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 181 , 211 , 28 , 28 ]
 brush
-	name "INFOCARDICON_FRIGATE_WRAITHMODULECONSTRUCTOR"
+	name "INFOCARDICON_WRAITH_FRIGATEMODULECONSTRUCTOR"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 139 , 162 , 22 , 22 ]
 brush
-	name "HUDICON_PLANETMODULE_WRAITHORBITALMETALEXTRACTOR"
+	name "HUDICON_WRAITH_ORBITAL_METALEXTRACTOR"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_Disabled"
@@ -679,22 +629,22 @@ brush
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 398 , 49 , 47 , 33 ]
 brush
-	name "HUDICONSMALL_PLANETMODULE_WRAITHORBITALMETALEXTRACTOR"
+	name "HUDICONSMALL_WRAITH_ORBITAL_METALEXTRACTOR"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 361 , 31 , 28 , 28 ]
 brush
-	name "INFOCARDICON_PLANETMODULE_WRAITHORBITALMETALEXTRACTOR"
+	name "INFOCARDICON_WRAITH_ORBITAL_METALEXTRACTOR"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 277 , 24 , 22 , 22 ]
 brush
-	name "MAINVIEWICON_PLANETMODULE_WRAITHORBITALMETALEXTRACTOR"
+	name "MAINVIEWICON_WRAITH_ORBITAL_METALEXTRACTOR"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 361 , 31 , 28 , 28 ]
 brush
-	name "PLANETMODULEPICTURE_WRAITHORBITALMETALEXTRACTOR"
+	name "PICTURE_WRAITH_ORBITAL_METALEXTRACTOR"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 342 , 236 , 167 , 75 ]
@@ -809,40 +759,22 @@ brush
 	fileName "Unit_Main"
 	pixelBox [ 301 , 31 , 28 , 28 ]
 brush
-	name "MAINVIEWICON_FRIGATE_WRAITHCARRIER"
+	name "MAINVIEWICON_WRAITH_FRIGATECARRIER"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 211 , 211 , 28 , 28 ]
 brush
-	name "PICTURE_FRIGATE_WRAITHCARRIER"
+	name "PICTURE_WRAITH_FRIGATECARRIER"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 1192 , 704 , 167 , 75 ]
 brush
-	name "HUDICON_FRIGATE_WRAITHCARRIER"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_Disabled"
-		pixelBox [ 349 , 364 , 47 , 33 ]
-	Pressed
-		fileName "Unit_Hud_Pressed"
-		pixelBox [ 349 , 364 , 47 , 33 ]
-	CursorOver
-		fileName "Unit_Hud_CursorOver"
-		pixelBox [ 349 , 364 , 47 , 33 ]
-	Focused
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 349 , 364 , 47 , 33 ]
-	Normal
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 349 , 364 , 47 , 33 ]
-brush
-	name "HUDICONSMALL_FRIGATE_WRAITHCARRIER"
+	name "HUDICONSMALL_WRAITH_FRIGATECARRIER"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 211 , 211 , 28 , 28 ]
 brush
-	name "INFOCARDICON_FRIGATE_WRAITHCARRIER"
+	name "INFOCARDICON_WRAITH_FRIGATECARRIER"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 162 , 162 , 22 , 22 ]
@@ -883,7 +815,7 @@ brush
 		fileName "Buttons_Research_Normal"
 		pixelBox [ 821 , 179 , 47 , 33 ]
 brush
-	name "HUDICON_PLANETMODULE_WRAITHORBITALCOMBATLABORATORY"
+	name "HUDICON_WRAITH_ORBITAL_COMBATLABORATORY"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_Disabled"
@@ -901,103 +833,72 @@ brush
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 349 , 49 , 47 , 33 ]
 brush
-	name "HUDICONSMALL_PLANETMODULE_WRAITHORBITALCOMBATLABORATORY"
+	name "HUDICONSMALL_WRAITH_ORBITAL_COMBATLABORATORY"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 211 , 121 , 28 , 28 ]
 brush
-	name "INFOCARDICON_PLANETMODULE_WRAITHORBITALCOMBATLABORATORY"
+	name "INFOCARDICON_WRAITH_ORBITAL_COMBATLABORATORY"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 162 , 93 , 22 , 22 ]
 brush
-	name "MAINVIEWICON_PLANETMODULE_WRAITHORBITALCOMBATLABORATORY"
+	name "MAINVIEWICON_WRAITH_ORBITAL_COMBATLABORATORY"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 211 , 121 , 28 , 28 ]
 brush
-	name "PLANETMODULEPICTURE_WRAITHORBITALCOMBATLABORATORY"
+	name "PICTURE_WRAITH_ORBITAL_COMBATLABORATORY"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 1192 , 236 , 167 , 75 ]
 brush
-	name "MAINVIEWICON_TITAN_WRAITHSUPERHIVE"
+	name "MAINVIEWICON_WRAITH_TITAN_SUPERHIVE"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 452 , 190 , 24 , 47 ]
 brush
-	name "TITANPICTURE_WRAITHASSAULT"
+	name "MAINVIEWICON_WRAITH_TITAN_QUICKSILVER"
+	content "Simple"
+	fileName "Unit_Main"
+	pixelBox [ 452 , 190 , 24 , 47 ]
+brush
+	name "PICTURE_WRAITH_TITAN_QUICKSILVER"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 1532 , 236 , 167 , 75 ]
 brush
-	name "HUDICON_RESEARCHSUBJECT_TITAN_WRAITHASSAULT"
-	content "States"
-	Disabled
-		fileName "Unit_Hud2_Disabled"
-		pixelBox [ 55 , 76 , 47 , 33 ]
-	Pressed
-		fileName "Unit_Hud2_Pressed"
-		pixelBox [ 55 , 76 , 47 , 33 ]
-	CursorOver
-		fileName "Unit_Hud2_CursorOver"
-		pixelBox [ 55 , 76 , 47 , 33 ]
-	Focused
-		fileName "Unit_Hud2_Normal"
-		pixelBox [ 55 , 76 , 47 , 33 ]
-	Normal
-		fileName "Unit_Hud2_Normal"
-		pixelBox [ 55 , 76 , 47 , 33 ]
-brush
-	name "HUDICONSMALL_TITAN_WRAITHASSAULT"
+	name "HUDICONSMALL_WRAITH_TITAN_QUICKSILVER"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 477 , 773 , 28 , 28 ]
 brush
-	name "INFOCARDICON_TITAN_WRAITHASSAULT"
+	name "INFOCARDICON_WRAITH_TITAN_QUICKSILVER"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 326 , 119 , 22 , 22 ]
 brush
-	name "MAINVIEWICON_FRIGATE_WRAITHSTARBASECONSTRUCTOR"
+	name "MAINVIEWICON_WRAITH_FRIGATESTARBASECONSTRUCTOR"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 391 , 211 , 28 , 28 ]
 brush
-	name "PICTURE_FRIGATE_WRAITHSTARBASECONSTRUCTOR"
+	name "PICTURE_WRAITH_FRIGATESTARBASECONSTRUCTOR"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 1532 , 626 , 167 , 75 ]
 brush
-	name "HUDICON_FRIGATE_WRAITHSTARBASECONSTRUCTOR"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_Disabled"
-		pixelBox [ 55 , 469 , 47 , 33 ]
-	Pressed
-		fileName "Unit_Hud_Pressed"
-		pixelBox [ 55 , 469 , 47 , 33 ]
-	CursorOver
-		fileName "Unit_Hud_CursorOver"
-		pixelBox [ 55 , 469 , 47 , 33 ]
-	Focused
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 55 , 469 , 47 , 33 ]
-	Normal
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 55 , 469 , 47 , 33 ]
-brush
-	name "HUDICONSMALL_FRIGATE_WRAITHSTARBASECONSTRUCTOR"
+	name "HUDICONSMALL_WRAITH_FRIGATESTARBASECONSTRUCTOR"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 391 , 211 , 28 , 28 ]
 brush
-	name "INFOCARDICON_FRIGATE_WRAITHSTARBASECONSTRUCTOR"
+	name "INFOCARDICON_WRAITH_FRIGATESTARBASECONSTRUCTOR"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 300 , 162 , 22 , 22 ]
 brush
-	name "HUDICON_PLANETMODULE_WRAITHORBITALBEAMDEFENSE"
+	name "HUDICON_WRAITH_ORBITAL_BEAMDEFENSE"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_Disabled"
@@ -1015,22 +916,22 @@ brush
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 6 , 154 , 47 , 33 ]
 brush
-	name "HUDICONSMALL_PLANETMODULE_WRAITHORBITALBEAMDEFENSE"
+	name "HUDICONSMALL_WRAITH_ORBITAL_BEAMDEFENSE"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 1 , 31 , 28 , 28 ]
 brush
-	name "INFOCARDICON_PLANETMODULE_WRAITHORBITALBEAMDEFENSE"
+	name "INFOCARDICON_WRAITH_ORBITAL_BEAMDEFENSE"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 1 , 24 , 22 , 22 ]
 brush
-	name "MAINVIEWICON_PLANETMODULE_WRAITHORBITALBEAMDEFENSE"
+	name "MAINVIEWICON_WRAITH_ORBITAL_BEAMDEFENSE"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 1 , 31 , 28 , 28 ]
 brush
-	name "PLANETMODULEPICTURE_WRAITHORBITALBEAMDEFENSE"
+	name "PICTURE_WRAITH_ORBITAL_BEAMDEFENSE"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 2 , 158 , 167 , 75 ]
@@ -1089,7 +990,7 @@ brush
 		fileName "Buttons_Research2_Normal"
 		pixelBox [ 5 , 335 , 47 , 33 ]
 brush
-	name "HUDICON_PLANETMODULE_WRAITHORBITALANTIMATTERRECHARGER"
+	name "HUDICON_WRAITH_ORBITAL_ANTIMATTERRECHARGER"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_Disabled"
@@ -1107,22 +1008,22 @@ brush
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 251 , 49 , 47 , 33 ]
 brush
-	name "HUDICONSMALL_PLANETMODULE_WRAITHORBITALANTIMATTERRECHARGER"
+	name "HUDICONSMALL_WRAITH_ORBITAL_ANTIMATTERRECHARGER"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 421 , 31 , 28 , 28 ]
 brush
-	name "INFOCARDICON_PLANETMODULE_WRAITHORBITALANTIMATTERRECHARGER"
+	name "INFOCARDICON_WRAITH_ORBITAL_ANTIMATTERRECHARGER"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 323 , 24 , 22 , 22 ]
 brush
-	name "MAINVIEWICON_PLANETMODULE_WRAITHORBITALANTIMATTERRECHARGER"
+	name "MAINVIEWICON_WRAITH_ORBITAL_ANTIMATTERRECHARGER"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 421 , 31 , 28 , 28 ]
 brush
-	name "PLANETMODULEPICTURE_WRAITHORBITALANTIMATTERRECHARGER"
+	name "PICTURE_WRAITH_ORBITAL_ANTIMATTERRECHARGER"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 682 , 236 , 167 , 75 ]
@@ -1201,35 +1102,17 @@ brush
 	fileName "Unit_Picture"
 	pixelBox [ 682 , 392 , 167 , 75 ]
 brush
-	name "HUDICONSMALL_FRIGATE_WRAITHENVOY"
+	name "HUDICONSMALL_WRAITH_FRIGATEENVOY"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 331 , 91 , 28 , 28 ]
 brush
-	name "PICTURE_FRIGATE_WRAITHENVOY"
+	name "PICTURE_WRAITH_FRIGATEENVOY"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 1192 , 626 , 167 , 75 ]
 brush
-	name "HUDICON_FRIGATE_WRAITHENVOY"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_Disabled"
-		pixelBox [ 349 , 469 , 47 , 33 ]
-	Pressed
-		fileName "Unit_Hud_Pressed"
-		pixelBox [ 349 , 469 , 47 , 33 ]
-	CursorOver
-		fileName "Unit_Hud_CursorOver"
-		pixelBox [ 349 , 469 , 47 , 33 ]
-	Focused
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 349 , 469 , 47 , 33 ]
-	Normal
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 349 , 469 , 47 , 33 ]
-brush
-	name "INFOCARDICON_FRIGATE_WRAITHENVOY"
+	name "INFOCARDICON_WRAITH_FRIGATEENVOY"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 254 , 70 , 22 , 22 ]
@@ -1303,17 +1186,17 @@ brush
 	fileName "Unit_Main"
 	pixelBox [ 42 , 871 , 39 , 39 ]
 brush
-	name "MAINVIEWICON_CAPITALSHIP_WRAITHCOLONY"
+	name "MAINVIEWICON_WRAITH_CAPITALCOLONY"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 1 , 121 , 28 , 28 ]
 brush
-	name "CAPITALSHIPPICTURE_WRAITHCOLONY"
+	name "PICTURE_WRAITH_CAPITALCOLONY"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 2 , 626 , 167 , 75 ]
 brush
-	name "INFOCARDICON_CAPITALSHIP_WRAITHCOLONY"
+	name "INFOCARDICON_WRAITH_CAPITALCOLONY"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 1 , 93 , 22 , 22 ]
@@ -1498,7 +1381,7 @@ brush
 		fileName "Buttons_Research2_Normal"
 		pixelBox [ 670 , 411 , 47 , 33 ]
 brush
-	name "HUDICON_SQUADWRAITHMINELAYER"
+	name "HUDICON_WRAITH_SQUADMINELAYER"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_Disabled"
@@ -1516,12 +1399,12 @@ brush
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 300 , 49 , 47 , 33 ]
 brush
-	name "HUDICONSMALL_SQUADWRAITHMINELAYER"
+	name "HUDICONSMALL_WRAITH_SQUADMINELAYER"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 451 , 31 , 28 , 28 ]
 brush
-	name "INFOCARDICON_SQUADWRAITHMINELAYER"
+	name "INFOCARDICON_WRAITH_SQUADMINELAYER"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 346 , 24 , 22 , 22 ]
@@ -1572,78 +1455,42 @@ brush
 		fileName "Buttons_Main_Normal"
 		pixelBox [ 413 , 216 , 47 , 33 ]
 brush
-	name "MAINVIEWICON_FRIGATE_WRAITHLIGHT"
+	name "MAINVIEWICON_WRAITH_FRIGATELIGHT"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 241 , 211 , 28 , 28 ]
 brush
-	name "PICTURE_FRIGATE_WRAITHLIGHT"
+	name "PICTURE_WRAITH_FRIGATELIGHT"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 1362 , 704 , 167 , 75 ]
 brush
-	name "HUDICON_FRIGATE_WRAITHLIGHT"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_Disabled"
-		pixelBox [ 398 , 364 , 47 , 33 ]
-	Pressed
-		fileName "Unit_Hud_Pressed"
-		pixelBox [ 398 , 364 , 47 , 33 ]
-	CursorOver
-		fileName "Unit_Hud_CursorOver"
-		pixelBox [ 398 , 364 , 47 , 33 ]
-	Focused
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 398 , 364 , 47 , 33 ]
-	Normal
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 398 , 364 , 47 , 33 ]
-brush
-	name "HUDICONSMALL_FRIGATE_WRAITHLIGHT"
+	name "HUDICONSMALL_WRAITH_FRIGATELIGHT"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 241 , 211 , 28 , 28 ]
 brush
-	name "INFOCARDICON_FRIGATE_WRAITHLIGHT"
+	name "INFOCARDICON_WRAITH_FRIGATELIGHT"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 185 , 162 , 22 , 22 ]
 brush
-	name "MAINVIEWICON_FRIGATE_WRAITHUTILITY0"
+	name "MAINVIEWICON_WRAITH_FRIGATEUTILITY0"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 331 , 211 , 28 , 28 ]
 brush
-	name "PICTURE_FRIGATE_WRAITHUTILITY0"
+	name "PICTURE_WRAITH_FRIGATEUTILITY0"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 1702 , 236 , 167 , 75 ]
 brush
-	name "HUDICON_FRIGATE_WRAITHUTILITY0"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_Disabled"
-		pixelBox [ 55 , 49 , 47 , 33 ]
-	Pressed
-		fileName "Unit_Hud_Pressed"
-		pixelBox [ 55 , 49 , 47 , 33 ]
-	CursorOver
-		fileName "Unit_Hud_CursorOver"
-		pixelBox [ 55 , 49 , 47 , 33 ]
-	Focused
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 55 , 49 , 47 , 33 ]
-	Normal
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 55 , 49 , 47 , 33 ]
-brush
-	name "HUDICONSMALL_FRIGATE_WRAITHUTILITY0"
+	name "HUDICONSMALL_WRAITH_FRIGATEUTILITY0"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 331 , 211 , 28 , 28 ]
 brush
-	name "INFOCARDICON_FRIGATE_WRAITHUTILITY0"
+	name "INFOCARDICON_WRAITH_FRIGATEUTILITY0"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 254 , 162 , 22 , 22 ]
@@ -1810,30 +1657,12 @@ brush
 		fileName "Buttons_Research_Normal"
 		pixelBox [ 821 , 105 , 47 , 33 ]
 brush
-	name "HUDICON_FRIGATE_WRAITHANTIFIGHTER"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_Disabled"
-		pixelBox [ 153 , 364 , 47 , 33 ]
-	Pressed
-		fileName "Unit_Hud_Pressed"
-		pixelBox [ 153 , 364 , 47 , 33 ]
-	CursorOver
-		fileName "Unit_Hud_CursorOver"
-		pixelBox [ 153 , 364 , 47 , 33 ]
-	Focused
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 153 , 364 , 47 , 33 ]
-	Normal
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 153 , 364 , 47 , 33 ]
-brush
-	name "HUDICONSMALL_FRIGATE_WRAITHANTIFIGHTER"
+	name "HUDICONSMALL_WRAITH_FRIGATEANTIFIGHTER"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 91 , 211 , 28 , 28 ]
 brush
-	name "INFOCARDICON_FRIGATE_WRAITHANTIFIGHTER"
+	name "INFOCARDICON_WRAITH_FRIGATEANTIFIGHTER"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 70 , 162 , 22 , 22 ]
@@ -1874,35 +1703,17 @@ brush
 		fileName "Buttons_Research_Normal"
 		pixelBox [ 821 , 68 , 47 , 33 ]
 brush
-	name "TITANPICTURE_WRAITHSUPERHIVE"
+	name "PICTURE_WRAITH_TITAN_SUPERHIVE"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 1022 , 238 , 167 , 75 ]
 brush
-	name "HUDICON_RESEARCHSUBJECT_TITAN_WRAITHSUPERHIVE"
-	content "States"
-	Disabled
-		fileName "Unit_Hud2_Disabled"
-		pixelBox [ 153 , 76 , 47 , 33 ]
-	Pressed
-		fileName "Unit_Hud2_Pressed"
-		pixelBox [ 153 , 76 , 47 , 33 ]
-	CursorOver
-		fileName "Unit_Hud2_CursorOver"
-		pixelBox [ 153 , 76 , 47 , 33 ]
-	Focused
-		fileName "Unit_Hud2_Normal"
-		pixelBox [ 153 , 76 , 47 , 33 ]
-	Normal
-		fileName "Unit_Hud2_Normal"
-		pixelBox [ 153 , 76 , 47 , 33 ]
-brush
-	name "HUDICONSMALL_TITAN_WRAITHSUPERHIVE"
+	name "HUDICONSMALL_WRAITH_TITAN_SUPERHIVE"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 445 , 740 , 28 , 28 ]
 brush
-	name "INFOCARDICON_TITAN_WRAITHSUPERHIVE"
+	name "INFOCARDICON_WRAITH_TITAN_SUPERHIVE"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 318 , 93 , 22 , 22 ]
@@ -1943,159 +1754,87 @@ brush
 		fileName "Buttons_Research2_Normal"
 		pixelBox [ 158 , 2 , 47 , 33 ]
 brush
-	name "MAINVIEWICON_FRIGATE_WRAITHUTILITY1"
+	name "MAINVIEWICON_WRAITH_FRIGATEUTILITY1"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 361 , 211 , 28 , 28 ]
 brush
-	name "PICTURE_FRIGATE_WRAITHUTILITY1"
+	name "PICTURE_WRAITH_FRIGATEUTILITY1"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 1872 , 236 , 167 , 75 ]
 brush
-	name "HUDICON_FRIGATE_WRAITHUTILITY1"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_Disabled"
-		pixelBox [ 104 , 49 , 47 , 33 ]
-	Pressed
-		fileName "Unit_Hud_Pressed"
-		pixelBox [ 104 , 49 , 47 , 33 ]
-	CursorOver
-		fileName "Unit_Hud_CursorOver"
-		pixelBox [ 104 , 49 , 47 , 33 ]
-	Focused
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 104 , 49 , 47 , 33 ]
-	Normal
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 104 , 49 , 47 , 33 ]
-brush
-	name "HUDICONSMALL_FRIGATE_WRAITHUTILITY1"
+	name "HUDICONSMALL_WRAITH_FRIGATEUTILITY1"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 361 , 211 , 28 , 28 ]
 brush
-	name "INFOCARDICON_FRIGATE_WRAITHUTILITY1"
+	name "INFOCARDICON_WRAITH_FRIGATEUTILITY1"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 277 , 162 , 22 , 22 ]
 brush
-	name "MAINVIEWICON_FRIGATE_WRAITHCORVETTE"
+	name "MAINVIEWICON_WRAITH_FRIGATECORVETTE"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 361 , 211 , 28 , 28 ]
 brush
-	name "PICTURE_FRIGATE_WRAITHCORVETTE"
+	name "PICTURE_WRAITH_FRIGATECORVETTE"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 1872 , 236 , 167 , 75 ]
 brush
-	name "HUDICON_FRIGATE_WRAITHCORVETTE"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_Disabled"
-		pixelBox [ 104 , 49 , 47 , 33 ]
-	Pressed
-		fileName "Unit_Hud_Pressed"
-		pixelBox [ 104 , 49 , 47 , 33 ]
-	CursorOver
-		fileName "Unit_Hud_CursorOver"
-		pixelBox [ 104 , 49 , 47 , 33 ]
-	Focused
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 104 , 49 , 47 , 33 ]
-	Normal
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 104 , 49 , 47 , 33 ]
-brush
-	name "HUDICONSMALL_FRIGATE_WRAITHCORVETTE"
+	name "HUDICONSMALL_WRAITH_FRIGATECORVETTE"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 361 , 211 , 28 , 28 ]
 brush
-	name "INFOCARDICON_FRIGATE_WRAITHCORVETTE"
+	name "INFOCARDICON_WRAITH_FRIGATECORVETTE"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 277 , 162 , 22 , 22 ]
 brush
-	name "MAINVIEWICON_FRIGATE_WRAITHLONGRANGE"
+	name "MAINVIEWICON_WRAITH_FRIGATELONGRANGE"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 271 , 211 , 28 , 28 ]
 brush
-	name "PICTURE_FRIGATE_WRAITHLONGRANGE"
+	name "PICTURE_WRAITH_FRIGATELONGRANGE"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 1532 , 704 , 167 , 75 ]
 brush
-	name "HUDICON_FRIGATE_WRAITHLONGRANGE"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_Disabled"
-		pixelBox [ 447 , 364 , 47 , 33 ]
-	Pressed
-		fileName "Unit_Hud_Pressed"
-		pixelBox [ 447 , 364 , 47 , 33 ]
-	CursorOver
-		fileName "Unit_Hud_CursorOver"
-		pixelBox [ 447 , 364 , 47 , 33 ]
-	Focused
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 447 , 364 , 47 , 33 ]
-	Normal
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 447 , 364 , 47 , 33 ]
-brush
-	name "HUDICONSMALL_FRIGATE_WRAITHLONGRANGE"
+	name "HUDICONSMALL_WRAITH_FRIGATELONGRANGE"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 271 , 211 , 28 , 28 ]
 brush
-	name "INFOCARDICON_FRIGATE_WRAITHLONGRANGE"
+	name "INFOCARDICON_WRAITH_FRIGATELONGRANGE"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 208 , 162 , 22 , 22 ]
 brush
-	name "MAINVIEWICON_FRIGATE_WRAITHANTIMODULE"
+	name "MAINVIEWICON_WRAITH_FRIGATEANTIMODULE"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 421 , 211 , 28 , 28 ]
 brush
-	name "PICTURE_FRIGATE_WRAITHANTIMODULE"
+	name "PICTURE_WRAITH_FRIGATEANTIMODULE"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 1702 , 626 , 167 , 75 ]
 brush
-	name "HUDICON_FRIGATE_WRAITHANTIMODULE"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_Disabled"
-		pixelBox [ 202 , 469 , 47 , 33 ]
-	Pressed
-		fileName "Unit_Hud_Pressed"
-		pixelBox [ 202 , 469 , 47 , 33 ]
-	CursorOver
-		fileName "Unit_Hud_CursorOver"
-		pixelBox [ 202 , 469 , 47 , 33 ]
-	Focused
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 202 , 469 , 47 , 33 ]
-	Normal
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 202 , 469 , 47 , 33 ]
-brush
-	name "HUDICONSMALL_FRIGATE_WRAITHANTIMODULE"
+	name "HUDICONSMALL_WRAITH_FRIGATEANTIMODULE"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 421 , 211 , 28 , 28 ]
 brush
-	name "INFOCARDICON_FRIGATE_WRAITHANTIMODULE"
+	name "INFOCARDICON_WRAITH_FRIGATEANTIMODULE"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 323 , 162 , 22 , 22 ]
 brush
-	name "HUDICON_PLANETMODULE_WRAITHORBITALTRADEPORT"
+	name "HUDICON_WRAITH_ORBITAL_TRADEPORT"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_Disabled"
@@ -2113,60 +1852,42 @@ brush
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 398 , 154 , 47 , 33 ]
 brush
-	name "HUDICONSMALL_PLANETMODULE_WRAITHORBITALTRADEPORT"
+	name "HUDICONSMALL_WRAITH_ORBITAL_TRADEPORT"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 241 , 31 , 28 , 28 ]
 brush
-	name "INFOCARDICON_PLANETMODULE_WRAITHORBITALTRADEPORT"
+	name "INFOCARDICON_WRAITH_ORBITAL_TRADEPORT"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 185 , 24 , 22 , 22 ]
 brush
-	name "MAINVIEWICON_PLANETMODULE_WRAITHORBITALTRADEPORT"
+	name "MAINVIEWICON_WRAITH_ORBITAL_TRADEPORT"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 241 , 31 , 28 , 28 ]
 brush
-	name "PLANETMODULEPICTURE_WRAITHORBITALTRADEPORT"
+	name "PICTURE_WRAITH_ORBITAL_TRADEPORT"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 1362 , 158 , 167 , 75 ]
 brush
-	name "MAINVIEWICON_FRIGATE_WRAITHSIEGE"
+	name "MAINVIEWICON_WRAITH_FRIGATESIEGE"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 61 , 211 , 28 , 28 ]
 brush
-	name "PICTURE_FRIGATE_WRAITHSIEGE"
+	name "PICTURE_WRAITH_FRIGATESIEGE"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 342 , 704 , 167 , 75 ]
 brush
-	name "HUDICON_FRIGATE_WRAITHSIEGE"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_Disabled"
-		pixelBox [ 104 , 364 , 47 , 33 ]
-	Pressed
-		fileName "Unit_Hud_Pressed"
-		pixelBox [ 104 , 364 , 47 , 33 ]
-	CursorOver
-		fileName "Unit_Hud_CursorOver"
-		pixelBox [ 104 , 364 , 47 , 33 ]
-	Focused
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 104 , 364 , 47 , 33 ]
-	Normal
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 104 , 364 , 47 , 33 ]
-brush
-	name "HUDICONSMALL_FRIGATE_WRAITHSIEGE"
+	name "HUDICONSMALL_WRAITH_FRIGATESIEGE"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 61 , 211 , 28 , 28 ]
 brush
-	name "INFOCARDICON_FRIGATE_WRAITHSIEGE"
+	name "INFOCARDICON_WRAITH_FRIGATESIEGE"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 47 , 162 , 22 , 22 ]
@@ -2209,7 +1930,7 @@ brush
 	fileName "Unit_Infocard"
 	pixelBox [ 231 , 162 , 22 , 22 ]
 brush
-	name "HUDICON_PLANETMODULE_WRAITHORBITALCANNON"
+	name "HUDICON_WRAITH_ORBITAL_CANNON"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_Disabled"
@@ -2227,22 +1948,22 @@ brush
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 447 , 154 , 47 , 33 ]
 brush
-	name "HUDICONSMALL_PLANETMODULE_WRAITHORBITALCANNON"
+	name "HUDICONSMALL_WRAITH_ORBITAL_CANNON"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 271 , 31 , 28 , 28 ]
 brush
-	name "INFOCARDICON_PLANETMODULE_WRAITHORBITALCANNON"
+	name "INFOCARDICON_WRAITH_ORBITAL_CANNON"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 208 , 24 , 22 , 22 ]
 brush
-	name "MAINVIEWICON_PLANETMODULE_WRAITHORBITALCANNON"
+	name "MAINVIEWICON_WRAITH_ORBITAL_CANNON"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 271 , 31 , 28 , 28 ]
 brush
-	name "PLANETMODULEPICTURE_WRAITHORBITALCANNON"
+	name "PICTURE_WRAITH_ORBITAL_CANNON"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 1532 , 158 , 167 , 75 ]
@@ -2265,17 +1986,17 @@ brush
 		fileName "Buttons_Research2_Normal"
 		pixelBox [ 5 , 335 , 47 , 33 ]
 brush
-	name "MAINVIEWICON_FRIGATE_WRAITHANTIFIGHTER"
+	name "MAINVIEWICON_WRAITH_FRIGATEANTIFIGHTER"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 91 , 211 , 28 , 28 ]
 brush
-	name "PICTURE_FRIGATE_WRAITHANTIFIGHTER"
+	name "PICTURE_WRAITH_FRIGATEANTIFIGHTER"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 512 , 704 , 167 , 75 ]
 brush
-	name "HUDICON_PLANETMODULE_WRAITHORBITALCAPITALSHIPFACTORY"
+	name "HUDICON_WRAITH_ORBITAL_CAPITALSHIPFACTORY"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_Disabled"
@@ -2293,78 +2014,55 @@ brush
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 202 , 154 , 47 , 33 ]
 brush
-	name "HUDICONSMALL_PLANETMODULE_WRAITHORBITALCAPITALSHIPFACTORY"
+	name "HUDICONSMALL_WRAITH_ORBITAL_CAPITALSHIPFACTORY"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 121 , 31 , 28 , 28 ]
 brush
-	name "INFOCARDICON_PLANETMODULE_WRAITHORBITALCAPITALSHIPFACTORY"
+	name "INFOCARDICON_WRAITH_ORBITAL_CAPITALSHIPFACTORY"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 93 , 24 , 22 , 22 ]
 brush
-	name "MAINVIEWICON_PLANETMODULE_WRAITHORBITALCAPITALSHIPFACTORY"
+	name "MAINVIEWICON_WRAITH_ORBITAL_CAPITALSHIPFACTORY"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 121 , 31 , 28 , 28 ]
 brush
-	name "PLANETMODULEPICTURE_WRAITHORBITALCAPITALSHIPFACTORY"
+	name "PICTURE_WRAITH_ORBITAL_CAPITALSHIPFACTORY"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 682 , 158 , 167 , 75 ]
 brush
-	name "CAPITALSHIPPICTURE_WRAITHBATTLESHIP"
+	name "PICTURE_WRAITH_CAPITALBATTLESHIP"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 172 , 626 , 167 , 75 ]
 brush
-	name "INFOCARDICON_CAPITALSHIP_WRAITHBATTLESHIP"
+	name "INFOCARDICON_WRAITH_CAPITALBATTLESHIP"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 24 , 93 , 22 , 22 ]
 brush
-	name "MAINVIEWICON_FRIGATE_WRAITHCOLONY"
+	name "MAINVIEWICON_WRAITH_FRIGATECOLONY"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 1 , 211 , 28 , 28 ]
 brush
-	name "PICTURE_FRIGATE_WRAITHCOLONY"
+	name "PICTURE_WRAITH_FRIGATECOLONY"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 2 , 704 , 167 , 75 ]
 brush
-	name "HUDICON_FRIGATE_WRAITHCOLONY"
-	content "States"
-	Disabled
-		fileName "Unit_Hud_Disabled"
-		pixelBox [ 6 , 364 , 47 , 33 ]
-	Pressed
-		fileName "Unit_Hud_Pressed"
-		pixelBox [ 6 , 364 , 47 , 33 ]
-	CursorOver
-		fileName "Unit_Hud_CursorOver"
-		pixelBox [ 6 , 364 , 47 , 33 ]
-	Focused
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 6 , 364 , 47 , 33 ]
-	Normal
-		fileName "Unit_Hud_Normal"
-		pixelBox [ 6 , 364 , 47 , 33 ]
-brush
-	name "HUDICONSMALL_FRIGATE_WRAITHCOLONY"
+	name "HUDICONSMALL_WRAITH_FRIGATECOLONY"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 1 , 211 , 28 , 28 ]
 brush
-	name "INFOCARDICON_FRIGATE_WRAITHCOLONY"
+	name "INFOCARDICON_WRAITH_FRIGATECOLONY"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 1 , 162 , 22 , 22 ]
-brush
-	name "MAINVIEWICON_TITAN_WRAITHASSAULT"
-	content "Simple"
-	fileName "Unit_Main"
-	pixelBox [ 478 , 220 , 32 , 46 ]
 brush
 	name "HUDIconStarBaseUpgradeWraithWeapons0"
 	content "States"
@@ -2520,17 +2218,17 @@ brush
 		fileName "Buttons_Research2_Normal"
 		pixelBox [ 568 , 411 , 47 , 33 ]
 brush
-	name "MAINVIEWICON_FRIGATE_WRAITHHEAVY"
+	name "MAINVIEWICON_WRAITH_FRIGATEHEAVY"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 31 , 211 , 28 , 28 ]
 brush
-	name "PICTURE_FRIGATE_WRAITHHEAVY"
+	name "PICTURE_WRAITH_FRIGATEHEAVY"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 172 , 704 , 167 , 75 ]
 brush
-	name "HUDICON_PLANETMODULE_WRAITHORBITALNONCOMBATLABORATORY"
+	name "HUDICON_WRAITH_ORBITAL_NONCOMBATLABORATORY"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_Disabled"
@@ -2548,22 +2246,22 @@ brush
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 349 , 154 , 47 , 33 ]
 brush
-	name "HUDICONSMALL_PLANETMODULE_WRAITHORBITALNONCOMBATLABORATORY"
+	name "HUDICONSMALL_WRAITH_ORBITAL_NONCOMBATLABORATORY"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 211 , 31 , 28 , 28 ]
 brush
-	name "INFOCARDICON_PLANETMODULE_WRAITHORBITALNONCOMBATLABORATORY"
+	name "INFOCARDICON_WRAITH_ORBITAL_NONCOMBATLABORATORY"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 162 , 24 , 22 , 22 ]
 brush
-	name "MAINVIEWICON_PLANETMODULE_WRAITHORBITALNONCOMBATLABORATORY"
+	name "MAINVIEWICON_WRAITH_ORBITAL_NONCOMBATLABORATORY"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 211 , 31 , 28 , 28 ]
 brush
-	name "PLANETMODULEPICTURE_WRAITHORBITALNONCOMBATLABORATORY"
+	name "PICTURE_WRAITH_ORBITAL_NONCOMBATLABORATORY"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 1192 , 158 , 167 , 75 ]
@@ -2586,7 +2284,7 @@ brush
 		fileName "Buttons_Research_Normal"
 		pixelBox [ 413 , 290 , 47 , 33 ]
 brush
-	name "HUDICON_PLANETMODULE_WRAITHORBITALFRIGATEFACTORY"
+	name "HUDICON_WRAITH_ORBITAL_FRIGATEFACTORY"
 	content "States"
 	Disabled
 		fileName "Unit_Hud_Disabled"
@@ -2604,22 +2302,22 @@ brush
 		fileName "Unit_Hud_Normal"
 		pixelBox [ 153 , 154 , 47 , 33 ]
 brush
-	name "HUDICONSMALL_PLANETMODULE_WRAITHORBITALFRIGATEFACTORY"
+	name "HUDICONSMALL_WRAITH_ORBITAL_FRIGATEFACTORY"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 91 , 31 , 28 , 28 ]
 brush
-	name "INFOCARDICON_PLANETMODULE_WRAITHORBITALFRIGATEFACTORY"
+	name "INFOCARDICON_WRAITH_ORBITAL_FRIGATEFACTORY"
 	content "Simple"
 	fileName "Unit_Infocard"
 	pixelBox [ 70 , 24 , 22 , 22 ]
 brush
-	name "MAINVIEWICON_PLANETMODULE_WRAITHORBITALFRIGATEFACTORY"
+	name "MAINVIEWICON_WRAITH_ORBITAL_FRIGATEFACTORY"
 	content "Simple"
 	fileName "Unit_Main"
 	pixelBox [ 91 , 31 , 28 , 28 ]
 brush
-	name "PLANETMODULEPICTURE_WRAITHORBITALFRIGATEFACTORY"
+	name "PICTURE_WRAITH_ORBITAL_FRIGATEFACTORY"
 	content "Simple"
 	fileName "Unit_Picture"
 	pixelBox [ 512 , 158 , 167 , 75 ]
