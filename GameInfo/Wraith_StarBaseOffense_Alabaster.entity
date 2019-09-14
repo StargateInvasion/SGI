@@ -13,9 +13,9 @@ numRandomDebrisLarge 12
 numRandomDebrisSmall 24
 numSpecificDebris 0
 armorType "Module"
-hudIcon "HUDICON_STARBASE_WRAITH"
-smallHudIcon "HUDICONSMALL_STARBASE_WRAITH"
-infoCardIcon "INFOCARDICON_STARBASE_WRAITH"
+hudIcon "HUDICON_WRAITH_STARBASEOFFENSE_ALABASTER"
+smallHudIcon "HUDICONSMALL_WRAITH_STARBASEOFFENSE_ALABASTER"
+infoCardIcon "MAINVIEWICON_WRAITH_STARBASEOFFENSE_ALABASTER"
 minZoomDistanceMult 2.000000
 NumWeapons 2
 Weapon
@@ -111,10 +111,10 @@ squadTypeEntityDef:2 ""
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
-mainViewIcon "MainViewIconStarBaseWraith"
+mainViewIcon "MAINVIEWICON_WRAITH_STARBASEOFFENSE_ALABASTER"
 experiencePointsForDestroying 400.000000
 nameStringID "IDS_WRAITH_STARBASEOFFENSE_NAME"
-picture "PICTURE_STARBASEWRAITH"
+picture "PICTURE_WRAITH_STARBASEOFFENSE_ALABASTER"
 statCountType "StarBase"
 creationSourceAbility "Wraith_AbilityCruiser_DeployStarbase"
 maxUpgradeLevelCount 8

@@ -10,8 +10,8 @@ canBomb FALSE
 typeCount 1
 frigateRoleType "AntiModule"
 statCountType "FrigateAntiModule"
-mainViewIcon "MAINVIEWICON_WRAITH_FRIGATEANTIMODULE"
-picture "PICTURE_WRAITH_FRIGATEANTIMODULE"
+mainViewIcon "MAINVIEWICON_WRAITH_CRUISERANTIMODULE"
+picture "PICTURE_WRAITH_CRUISERANTIMODULE"
 NameStringID "IDS_WRAITH_FRIGATEANTIMODULE_NAME"
 DescriptionStringID "IDS_WRAITH_FRIGATEANTIMODULE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_ANTIMODULE"
@@ -42,8 +42,8 @@ numRandomDebrisSmall 9
 numSpecificDebris 0
 armorType "Light"
 hudIcon "HUDICON_WRAITH_CRUISERANTIMODULE"
-smallHudIcon "HUDICONSMALL_WRAITH_FRIGATEANTIMODULE"
-infoCardIcon "INFOCARDICON_WRAITH_FRIGATEANTIMODULE"
+smallHudIcon "HUDICONSMALL_WRAITH_CRUISERANTIMODULE"
+infoCardIcon "MAINVIEWICON_WRAITH_CRUISERANTIMODULE"
 minZoomDistanceMult 1.500000
 NumWeapons 1
 Weapon
@@ -134,7 +134,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "FRIGATE_PSIANTIMODULE_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Wraith_Frigate_Siege"
+	meshName "Wraith_FrigateSiege_Death"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

@@ -12,9 +12,9 @@ numRandomDebrisLarge 4
 numRandomDebrisSmall 16
 numSpecificDebris 0
 armorType "Module"
-hudIcon "HUDICON_ASURAN_ORBITAL_REFINERY"
-smallHudIcon "HUDICONSMALL_ASURAN_ORBITAL_REFINERY"
-infoCardIcon "MAINVIEWICON_ASURAN_ORBITAL_REFINERY"
+hudIcon "HUDICON_WRAITH_ORBITAL_REFINERY"
+smallHudIcon "HUDICONSMALL_WRAITH_ORBITAL_REFINERY"
+infoCardIcon "MAINVIEWICON_WRAITH_ORBITAL_REFINERY"
 planetUpgradeSlotType "Civilian"
 planetUpgradeSlotCount 4.000000
 basePrice
@@ -28,7 +28,7 @@ statCountType "ModuleRefinery"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Asuran_Research_Orbital_Refinery"
+		Subject "Wraith_Research_Orbital_Refinery"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -66,13 +66,13 @@ MeshNameInfo
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleLarge"
-mainViewIcon "MAINVIEWICON_ASURAN_ORBITAL_REFINERY"
-picture "PICTURE_ASURAN_ORBITAL_REFINERY"
+mainViewIcon "MAINVIEWICON_WRAITH_ORBITAL_REFINERY"
+picture "PICTURE_WRAITH_ORBITAL_REFINERY"
 minShadow 0.100000
 maxShadow 0.800000
 formationRank 3
 baseBuildTime 90.000000
 buildEffectName ""
-cargoShipType "Asuran_ModuleRefineryShip_Servile"
+cargoShipType "Wraith_ModuleRefineryShip_Lathan"
 maxCargoShipCount 10
 cargoShipRespawnTime 30.000000

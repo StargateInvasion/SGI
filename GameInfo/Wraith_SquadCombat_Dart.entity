@@ -4,9 +4,9 @@ defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
-hudIcon "HUDICON_WRAITH_SQUADCOMBAT"
+hudIcon "HUDICON_WRAITH_FIGHTERSQUADCOMBAT"
 smallHudIcon "HUDICONSMALL_WRAITH_SQUADCOMBAT"
-infoCardIcon "INFOCARDICON_WRAITH_SQUADCOMBAT"
+infoCardIcon "MAINVIEWICON_WRAITH_SQUADCOMBAT"
 fighterEntityDef "Wraith_FighterCombat_Dart"
 fighterIllusionEntityDef "Wraith_FighterCombat_Dart"
 scuttleTime 8.000000
@@ -15,10 +15,10 @@ decayWithoutOwnerRate 5.000000
 baseMaxNumFighters 8
 role "Combat"
 statCountType "SquadCombat"
-mainViewIcon "MAINVIEWICON_SQUADWRAITHCOMBAT"
-picture "PICTURE_SQUADWRAITHCOMBAT"
+mainViewIcon "MAINVIEWICON_WRAITH_SQUADCOMBAT"
+picture "PICTURE_WRAITH_SQUADCOMBAT"
 launchIcon "HUDICONLAUNCH_SQUADWRAITHCOMBAT"
-dockIcon "HUDICONDOCK_SQUADWRAITHCOMBAT"
+dockIcon "HUDICONDOCK_SQUADCOMBAT"
 nameStringID "IDS_WRAITH_SQUADCOMBAT_NAME"
 descriptionStringID "IDS_WRAITH_SQUADCOMBAT_DESC"
 researchPrerequisites

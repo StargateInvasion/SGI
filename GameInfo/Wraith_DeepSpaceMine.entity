@@ -9,17 +9,17 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 2
 numSpecificDebris 0
 armorType "Module"
-hudIcon "HUDIconSpaceMineWraith"
-smallHudIcon "HUDIconSmallSpaceMineWraith"
-infoCardIcon "InfoCardIconSpaceMineWraith"
-picture "PictureSpaceMineWraith"
-mainViewIcon "MainViewIconSpaceMineWraith"
+hudIcon "HUDICON_WRAITH_ORBITAL_SPACEMINE"
+smallHudIcon "HUDICONSMALL_WRAITH_ORBITAL_SPACEMINE"
+infoCardIcon "MAINVIEWICON_WRAITH_ORBITAL_SPACEMINE"
+picture "PICTURE_WRAITH_ORBITAL_SPACEMINE"
+mainViewIcon "MAINVIEWICON_WRAITH_ORBITAL_SPACEMINE"
 minZoomDistanceMult 1.000000
 MeshName "SupportShip_PsiMine"
 spawnActivationDelay 30.000000
 targetStartFollowRange 4500.000000
 targetMaxFollowRange 6000.000000
-nameStringID "IDS_WRAITH_SPACEMINE_NAME"
+nameStringID "IDS_WRAITH_ORBITAL_SPACEMINE_NAME"
 scuttleValue
 	credits 90.625000
 	metal 21.250000
