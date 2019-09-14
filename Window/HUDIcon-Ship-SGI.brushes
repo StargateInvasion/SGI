@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 282
+brushCount 283
 brush
 	name "HUDICON_ASGARD_TITANOFFENSE"
 	content "States"
@@ -5077,3 +5077,21 @@ brush
 	Normal
 		fileName "Unit_Hud_SGI"
 		pixelBox [ 506 , 1760 , 46 , 32 ]
+brush
+	name "HUDICON_WRAITH_CANNONSHELL"
+	content "States"
+	Disabled
+		fileName "Unit_Hud_Disabled"
+		pixelBox [ 447 , 259 , 47 , 33 ]
+	Pressed
+		fileName "Unit_Hud_Pressed"
+		pixelBox [ 447 , 259 , 47 , 33 ]
+	CursorOver
+		fileName "Unit_Hud_CursorOver"
+		pixelBox [ 447 , 259 , 47 , 33 ]
+	Focused
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 447 , 259 , 47 , 33 ]
+	Normal
+		fileName "Unit_Hud_Normal"
+		pixelBox [ 447 , 259 , 47 , 33 ]
