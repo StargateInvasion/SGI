@@ -1,0 +1,194 @@
+﻿TXT2
+SinsArchiveVersion 193
+entityType "Frigate"
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb FALSE
+typeCount 1
+frigateRoleType "Carrier"
+statCountType "FrigateCarrier"
+mainViewIcon "MAINVIEWICON_ASURAN_CAPITALHERO_KORACEN"
+picture "PICTURE_ASURAN_CAPITALHERO_KORACEN"
+NameStringID "IDS_ASURAN_CAPITALHERO_KORACEN_NAME"
+DescriptionStringID "IDS_ASURAN_CAPITALHERO_KORACEN_DESCRIPTION"
+counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
+basePrice
+	credits 0.000000
+	metal 0.000000
+	crystal 0.000000
+slotCount 15.000000
+BuildTime 0.000000
+hasLevels FALSE
+ExperiencePointsForDestroying 40.000000
+MaxHullPoints 2750.000000
+MaxShieldPoints 9500.000000
+HullPointRestoreRate 2.500000
+ShieldPointRestoreRate 12.000000
+BaseArmorPoints 4.000000
+maxMitigation 0.350000
+relationshipChangeRate 0.000000
+Prerequisites
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Asuran_Research_Hero_Koracen"
+		Level 1
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+numRandomDebrisLarge 1
+numRandomDebrisSmall 10
+numSpecificDebris 0
+armorType "VeryHeavy"
+hudIcon "HUDICON_ASURAN_CAPITALHERO_KORACEN"
+smallHudIcon "HUDICONSMALL_ASURAN_CAPITALHERO_KORACEN"
+infoCardIcon "MAINVIEWICON_ASURAN_CAPITALHERO_KORACEN"
+minZoomDistanceMult 2.000000
+NumWeapons 2
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "ANTIMEDIUM"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PULSEGUN"
+	DamagePerBank:FRONT 220.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 5500.000000
+	PreBuffCooldownTime 4.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting TRUE
+	PointStaggerDelay 0.300000
+	TravelSpeed 1000.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 2
+		burstDelay 0.350000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Human_Muzzle"
+		muzzleSoundMinRespawnTime 0.770000
+		muzzleSounds
+			soundCount 1
+			sound "Asuran_PulseCannon_Firing"
+		hitEffectName "Weapon_HumanRailguns_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYLIGHT_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICLIGHT_HITSHIELDS"
+		projectileTravelEffectName "Weapon_AsuranCapitalLaserLight_Travel"
+Weapon
+	WeaponType "Missile"
+	damageEnums
+		AttackType "ANTIHEAVY"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "PHASEMISSILE"
+	DamagePerBank:FRONT 400.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 6000.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.080000
+	TravelSpeed 950.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Missile"
+		burstCount 10
+		burstDelay 0.500000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalMissileHeavy_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE"
+			sound "WEAPON_PHASECAPITALMISSILEHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalMissileHeavy_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_PHASEMISSILEHEAVY_HITGENERIC"
+		missileTravelEffectName "Weapon_AsuranCapitalDroneUltra_Travel"
+		missileStartTurningDistance 5.000000
+		missileSlowTurnRate 0.708997
+		missileMaxSlowTurnTime 3.000000
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 0
+TargetCountPerBank:LEFT 0
+TargetCountPerBank:RIGHT 0
+canOnlyTargetStructures FALSE
+hasWeaponLevels FALSE
+mass 1655.000000
+ShieldMeshName ""
+renderShield TRUE
+maxAccelerationLinear 422.000000
+maxAccelerationStrafe 400.000000
+maxDecelerationLinear 395.000000
+maxAccelerationAngular 51.000000
+maxDecelerationAngular 64.000000
+maxSpeedLinear 637.000000
+maxRollRate 30.000000
+maxRollAngle 65.000000
+squadTypeEntityDef:0 "Asuran_SquadCombat_Jumper"
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 "Asuran_SquadBomber_Raptor"
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 "Asuran_SquadCombat_Jumper-2"
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 "Asuran_SquadBomber_Raptor-2"
+squadAntiMatterCost:3 0.000000
+maxNumCommandPoints 8
+NumSoundsFor:ONATTACKORDERISSUED 2
+SoundID "Asuran_CruiserCarrier_Attack_0"
+SoundID "Asuran_CruiserCarrier_Attack_1"
+NumSoundsFor:ONCREATION 2
+SoundID "Asuran_CruiserCarrier_Creation_0"
+SoundID "Asuran_CruiserCarrier_Creation_2"
+NumSoundsFor:ONGENERALORDERISSUED 2
+SoundID "Asuran_CruiserCarrier_General_0"
+SoundID "Asuran_CruiserCarrier_General_2"
+NumSoundsFor:ONSELECTED 2
+SoundID "Asuran_CruiserCarrier_Selection_0"
+SoundID "Asuran_CruiserCarrier_Selection_2"
+NumSoundsFor:ONSTARTPHASEJUMP 1
+SoundID "Asuran_CruiserCarrier_Hyperspace_1"
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Wraith_CapitalHero_Todd"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_FrigatePhaseCarrier"
+ExplosionName "CapitalShip0"
+HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
+HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
+EngineSoundID "ENGINE_PHASECAPITALSHIP"
+ability:0 "Asuran_AbilityCruiser_SelfRepairHeavy"
+ability:1 "Asuran_AbilityCruiser_Cloak"
+ability:2 ""
+ability:3 "Wraith_AbilityCapital_HiveQueen"
+ability:4 ""
+MaxAntiMatter 500.000000
+AntiMatterRestoreRate 1.400000
+cargoType "Invalid"
+maxCargoCapacity 0.000000
+formationRank 2
+minShadow 0.100000
+maxShadow 1.500000
+allegianceDecreasePerRoundtrip 0.000000

@@ -1,0 +1,80 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyTargettedBuffToSelf"
+instantActionTriggerType "AlwaysPerform"
+buffType "Wraith_BuffOrbital_HeroSpawnHiveQueenSelf"
+targetFilter
+	numOwnerships 1
+	ownership "Player"
+	numObjects 1
+	object "Planet"
+	numSpaces 1
+	space "Normal"
+	numConstraints 0
+range
+	Level:0 -1.000000
+	Level:1 -1.000000
+	Level:2 -1.000000
+	Level:3 -1.000000
+effectInfo
+	effectAttachInfo
+		attachType "Invalid"
+	smallEffectName ""
+	mediumEffectName ""
+	largeEffectName ""
+	soundID ""
+needsToFaceTarget FALSE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 1
+levelSourceType "FixedLevel0"
+aiUseTime "Anytime"
+aiUseTargetCondition "Any"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault FALSE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "ResourcesAndMustHaveCapitalCrew"
+creditCost
+	Level:0 1250.000000
+	Level:1 1250.000000
+	Level:2 1250.000000
+	Level:3 1250.000000
+metalCost
+	Level:0 125.000000
+	Level:1 125.000000
+	Level:2 125.000000
+	Level:3 125.000000
+crystalCost
+	Level:0 50.000000
+	Level:1 50.000000
+	Level:2 50.000000
+	Level:3 50.000000
+requiredShipSlots
+	Level:0 15.000000
+	Level:1 15.000000
+	Level:2 15.000000
+	Level:3 15.000000
+requiredCapitalShipSlots
+	Level:0 0.000000
+	Level:1 0.000000
+	Level:2 0.000000
+	Level:3 0.000000
+cooldownTime
+	Level:0 100.000000
+	Level:1 100.000000
+	Level:2 100.000000
+	Level:3 100.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_WRAITH_HERO_HIVEQUEEN_NAME"
+descStringID "IDS_WRAITH_HERO_HIVEQUEEN_DESCRIPTION"
+hudIcon "HUDICON_WRAITH_HERO_HIVEQUEEN"
+smallHudIcon "HUDICONSMALL_WRAITH_HERO_HIVEQUEEN"
+infoCardIcon ""

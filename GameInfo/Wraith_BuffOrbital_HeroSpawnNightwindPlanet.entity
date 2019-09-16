@@ -1,0 +1,41 @@
+TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusivePerPlayer"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "SpawnShipsAtPlanet"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	spawnShipsLevelCount 1
+	spawnShips
+		minFleetPoints 30.000000
+		maxFleetPoints 31.000000
+		requiredShipCount 1
+		requiredShip
+			type "Wraith_CapitalHero_Nightwind"
+			minCount 1
+			maxCount 1
+		randomShipCount 0
+	spawnShipsArrivalDelayTime 1.000000
+	spawnShipsHyperspaceSpawnType "FleetBeacon"
+	shouldAdoptFirstSpawnersMinorFactionState FALSE
+	spawnShipsMinStartingHullPerc 1.0
+	spawnShipsMaxStartingHullPerc 1.0
+instantAction
+	buffInstantActionType "ApplyBuffToLastSpawnerWithTravelNoFilterNoRange"
+	instantActionTriggerType "OnBuffFinish"
+	buffType "Wraith_BuffOrbital_HeroNightwindRemove"
+	travelSpeed 900000.000000
+	hasWeaponEffects FALSE
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 0
