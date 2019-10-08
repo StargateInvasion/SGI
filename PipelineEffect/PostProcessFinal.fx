@@ -3,7 +3,7 @@
 //#define PUREVANILLA
 #define CHROMATICABBERATION
 #define VIGNETTE
-//#define TONEMAP
+#define TONEMAP
 #define BLUR
 #define GRAIN
 #define MICROBLOOM
