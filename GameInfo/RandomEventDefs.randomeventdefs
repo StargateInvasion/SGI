@@ -69,18 +69,18 @@ randomEventDefCount 13
 		spawnWeight 0.1
 	randomEventDef
 		id "PIRATETITAN"
-		nameID "IDS_RANDOMEVENT_PIRATETITAN_NAME"
+		nameID "IDS_RANDOMEVENT_REPLICATOR_TITAN_NAME"
 		warningID "IDS_GAMEMESSAGE_RANDOMEVENTDETECTEDPIRATETITAN"
 		spawnType "BuffAtLocation"
 		spawnEntity "RandomEventPirateTitan"
-		playerOwnerType "MadVasari"
+		playerOwnerType "Pirate"
 		spawnLocation "RandomStar"
 		excludedSpawnLocationCount 0
 		spawnRequirement "Timer"
 		respawnCount 0
 		nextSpawnTimeMin 300.0
 		nextSpawnTimeMax 1200.0
-		spawnWeight 0.01
+		spawnWeight 0.025
 	randomEventDef
 		id "ORIFLEET"
 		nameID "IDS_ORIFLEET_DETECTED_NAME"

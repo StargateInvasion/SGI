@@ -1,0 +1,273 @@
+﻿TXT2
+SinsArchiveVersion 194
+entityType "Titan"
+ability:0 "Replicator_AbilityTitan_EnergyAbsorb"
+ability:1 "Replicator_AbilityTitan_RegenBoost"
+ability:2 "Replicator_AbilityTitan_TakeOver"
+ability:3 "Replicator_AbilityTitan_ReplicateFromPlanet"
+ability:4 ""
+defaultAutoAttackRange "GravityWell"
+defaultAutoAttackOn TRUE
+prefersToFocusFire TRUE
+usesFighterAttack FALSE
+autoJoinFleetDefault TRUE
+canBomb TRUE
+hasBombingLevels FALSE
+baseDamage 43.000000
+basePopulationKilled 1.700000
+bombingFreqTime 10.000000
+baseRange 3000.000000
+bombTransitTime 12.000000
+bombEffectCount 3
+bombEffectAngleVariance 15.000000
+bombEffectsDef
+	weaponType "Projectile"
+	burstCount 1
+	burstDelay 0.250000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_PhaseCapitalMissileStarbase_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "WEAPON_PSICAPITALSPIRIT_MUZZLE"
+	hitEffectName "Weapon_PhaseCapitalMissileStarbase_Hit"
+	hitHullEffectSounds
+		soundCount 1
+		sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+	hitShieldsEffectSounds
+		soundCount 1
+		sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+	projectileTravelEffectName "Weapon_PhaseCapitalMissileStarbase_Travel"
+mainViewIcon "MAINVIEWICON_REPLICATOR_TITAN_BATTLECRUISER"
+basePrice
+	credits 30000.000000
+	metal 3500.000000
+	crystal 2600.000000
+slotCount 500.000000
+BuildTime 1000.000000
+MaxHullPoints
+	StartValue 20000.000000
+	ValueIncreasePerLevel 1250.000000
+MaxShieldPoints
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
+HullPointRestoreRate
+	StartValue 20.000000
+	ValueIncreasePerLevel 2.000000
+ShieldPointRestoreRate
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
+ArmorPointsFromExperience
+	StartValue 15.000000
+	ValueIncreasePerLevel 1.000000
+maxMitigation
+	StartValue 0.700000
+	ValueIncreasePerLevel 0.011111
+MaxAntiMatter
+	StartValue 500.000000
+	ValueIncreasePerLevel 100.000000
+AntiMatterRestoreRate
+	StartValue 1.500000
+	ValueIncreasePerLevel 0.250000
+CultureProtectRate
+	StartValue 0.500000
+	ValueIncreasePerLevel 0.100000
+NameStringID "IDS_REPLICATOR_TITAN_BATTLECRUISER_NAME"
+DescriptionStringID "IDS_REPLICATOR_TITAN_BATTLECRUISER_DESCRIPTION"
+picture "PICTURE_REPLICATOR_TITAN_BATTLECRUISER"
+Prerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+statCountType "Titan"
+UpgradeTypeCount 7
+UpgradeType ""
+UpgradeType ""
+UpgradeType ""
+UpgradeType ""
+UpgradeType "Replicator_TitanUpgrade_Durability"
+UpgradeType "Replicator_TitanUpgrade_Weapons"
+UpgradeType "Replicator_TitanUpgrade_Abilities"
+numRandomDebrisLarge 80
+numRandomDebrisSmall 30
+numSpecificDebris 1
+specificDebrisMeshName "DebrisAdventLarge"
+armorType "Titan"
+hudIcon "HUDICON_REPLICATOR_TITAN_BATTLECRUISER"
+smallHudIcon "HUDICONSMALL_REPLICATOR_TITAN_BATTLECRUISER"
+infoCardIcon "MAINVIEWICON_REPLICATOR_TITAN_BATTLECRUISER"
+minZoomDistanceMult 1.500000
+NumWeapons 3
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "TITAN"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 800.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 0.000000
+	DamagePerBank:RIGHT 0.000000
+	Range 7000.000000
+	PreBuffCooldownTime 5.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.500000
+	TravelSpeed 2500.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.250000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalMissileStarbase_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 1
+			sound "WEAPON_PSICAPITALSPIRIT_MUZZLE"
+		hitEffectName "Weapon_PhaseCapitalMissileStarbase_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_PhaseCapitalMissileStarbase_Travel"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "TITAN"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "ENERGY"
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 0.000000
+	DamagePerBank:BACK 120.000000
+	DamagePerBank:LEFT 240.000000
+	DamagePerBank:RIGHT 240.000000
+	Range 6000.000000
+	PreBuffCooldownTime 4.000000
+	CanFireAtFighter TRUE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.500000
+	TravelSpeed 2500.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.250000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_PhaseCapitalMissileUltra_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PULSEWAVE_MUZZLE"
+			sound "WEAPON_PULSEWAVE_MUZZLE_ALT1"
+		hitEffectName "Weapon_PhaseCapitalMissileUltra_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_PhaseCapitalMissileUltra_Travel"
+Weapon
+	WeaponType "Projectile"
+	damageEnums
+		AttackType "COMPOSITE"
+		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
+		DamageApplyType "BACKLOADED"
+		DamageType "PHYSICAL"
+		WeaponClassType "RAILGUN"
+	DamagePerBank:FRONT 320.000000
+	DamagePerBank:BACK 0.000000
+	DamagePerBank:LEFT 240.000000
+	DamagePerBank:RIGHT 240.000000
+	Range 6000.000000
+	PreBuffCooldownTime 16.000000
+	CanFireAtFighter FALSE
+	SynchronizedTargeting FALSE
+	PointStaggerDelay 0.500000
+	TravelSpeed 2500.000000
+	Duration 0.000000
+	fireConstraintType "CanAlwaysFire"
+	WeaponEffects
+		weaponType "Projectile"
+		burstCount 1
+		burstDelay 0.250000
+		fireDelay 0.000000
+		muzzleEffectName "Weapon_Psi_PlasmaStarbase_Muzzle"
+		muzzleSoundMinRespawnTime 0.100000
+		muzzleSounds
+			soundCount 2
+			sound "WEAPON_PHASECAPITALWAVEHEAVY_MUZZLE"
+			sound "WEAPON_PHASECAPITALWAVEHEAVY_MUZZLE_ALT1"
+		hitEffectName "Weapon_Psi_PlasmaStarbase_Hit"
+		hitHullEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		hitShieldsEffectSounds
+			soundCount 1
+			sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+		projectileTravelEffectName "Weapon_Psi_PlasmaStarbase_Travel"
+m_weaponIndexForRange 0
+firingAlignmentType "Default"
+TargetCountPerBank:FRONT 1
+TargetCountPerBank:BACK 1
+TargetCountPerBank:LEFT 2
+TargetCountPerBank:RIGHT 2
+canOnlyTargetStructures FALSE
+mass 50000.000000
+ShieldMeshName ""
+renderShield FALSE
+maxAccelerationLinear 200.000000
+maxAccelerationStrafe 10.000000
+maxDecelerationLinear 750.000000
+maxAccelerationAngular 2.000000
+maxDecelerationAngular 9.999996
+maxSpeedLinear 750.000000
+maxRollRate 3.999999
+maxRollAngle 34.999996
+useCustomHyperspaceEffects FALSE
+squadTypeEntityDef:0 "Human_FighterSquad_F302"
+squadAntiMatterCost:0 0.000000
+squadTypeEntityDef:1 "Human_FighterSquad_F312"
+squadAntiMatterCost:1 0.000000
+squadTypeEntityDef:2 ""
+squadAntiMatterCost:2 0.000000
+squadTypeEntityDef:3 ""
+squadAntiMatterCost:3 0.000000
+NumSoundsFor:ONATTACKORDERISSUED 1
+SoundID "EFFECT_NANOHULLREPAIR"
+NumSoundsFor:ONCREATION 1
+SoundID "EFFECT_NANOHULLREPAIR"
+NumSoundsFor:ONGENERALORDERISSUED 1
+SoundID "EFFECT_NANOHULLREPAIR"
+NumSoundsFor:ONSELECTED 1
+SoundID "EFFECT_NANOHULLREPAIR"
+NumSoundsFor:ONSTARTPHASEJUMP 0
+MeshNameInfoCount 1
+MeshNameInfo
+	meshName "Replicator_Titan_Battlecruiser"
+	criteriaType "None"
+meshNameIncreasedEffectName ""
+meshNameDecreasedEffectName ""
+ExhaustParticleSystemName "Exhaust_PhaseBattleship"
+ExplosionName "StarBase1"
+CommandPoints
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
+weaponCooldownDecreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.034500
+weaponDamageIncreasePerc
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.060000
+EngineSoundID "ENGINE_PHASECAPITALSHIP"
+formationRank 0
+minShadow 0.000000
+maxShadow 0.800000

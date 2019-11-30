@@ -11,14 +11,13 @@ randomStarBaseNamePrefix "IDS_STARBASENAME_TECH"
 entities
 	planetModuleInfo
 		Page:0
-			count 9
+			count 8
 			entityDefName "Human_Orbital_MetalExtractor"
 			entityDefName "Human_Orbital_FrigateFactory"
 			entityDefName "Human_Orbital_CombatLaboratory"
 			entityDefName "Human_Orbital_TradePort"
 			entityDefName "Human_Orbital_CultureCenter"
 			entityDefName "Human_Orbital_CrystalExtractor"
-			entityDefName "Human_Orbital_CapitalFactory"
 			entityDefName "Human_Orbital_NonCombatLaboratory"
 			entityDefName "Human_Orbital_Refinery"
 		Page:1
@@ -34,20 +33,12 @@ entities
 			count 0
 	capitalShipInfo
 		Page:0
-			count 5
-			entityDefName "Human_CapitalBattleship_Achilles"
-			entityDefName "Human_CapitalCarrier_Poseidon"
-			entityDefName "Human_CapitalColony_Destiny"
-			entityDefName "Human_CapitalSupport_Scorpion"
-			entityDefName "Human_CapitalSiege_Excalibur"
+			count 0
 	frigateInfo
 		Page:0
-			count 5
-			entityDefName "FrigatePirateMedium"
-			entityDefName "FrigatePirateScout"
-			entityDefName "FrigatePirateSiege"
-			entityDefName "FrigatePirateHeavy"
-			entityDefName "FrigatePirateAntiFighter"
+			count 2
+			entityDefName "Replicator_Frigate_Spider"
+			entityDefName "Replicator_Frigate_Siege"
 		Page:1
 			count 0
 		NotOnPage
@@ -76,7 +67,7 @@ entities
 		entityDefName "Replicator_Research_Final_Upgrade"
 	starBaseInfo
 		count 0
-	flagship "FrigatePirateHeavy"
+	flagship "Replicator_Frigate_Spider"
 debrisData
 	numRandomMeshNamesLarge 8
 	randomMeshName "DebrisTechGenericLarge0"

@@ -841,7 +841,7 @@ orbitBodyType
 	typeName "Occupied"
 	entityDefName "OccupiedPlanet"
 	defaultTemplateName "Template:OccupiedPlanet"
-planetItemTypeCount 350
+planetItemTypeCount 347
 planetItemType
 	designName "Asgard:Orbital:MineExplosive"
 	entityDefName "Asgard_DeepSpaceMine"
@@ -1443,20 +1443,11 @@ planetItemType
 	designName "Pirate:Module:GaussDefense"
 	entityDefName "Human_Orbital_WeaponsPlatform"
 planetItemType
-	designName "Pirate:Frigate:Medium"
-	entityDefName "Human_FrigateLight_X303"
-planetItemType
-	designName "Pirate:Frigate:Scout"
-	entityDefName "Human_FrigateScout_Fenrir"
-planetItemType
 	designName "Pirate:Frigate:Siege"
-	entityDefName "Human_FrigateSiege_Zephyr"
+	entityDefName "Replicator_Frigate_Siege"
 planetItemType
 	designName "Pirate:Cruiser:Heavy"
-	entityDefName "Human_CruiserHeavy_BC304"
-planetItemType
-	designName "Pirate:Frigate:AntiFighter"
-	entityDefName "Human_FrigateAntiFighter_Claudius"
+	entityDefName "Replicator_Frigate_Spider"
 planetItemType
 	designName "Pirate:Module:HangarDefense"
 	entityDefName "Human_Orbital_HangarDefense"
@@ -2713,9 +2704,9 @@ planetItemsTemplate
 			owner "Pirate"
 			colonizeChance 1
 			items 3
-				item "Pirate:Frigate:Scout"
-				item "Pirate:Frigate:AntiFighter"
-				item "Pirate:Frigate:Medium"
+				item "Pirate:Cruiser:Heavy"
+				item "Pirate:Frigate:Siege"
+				item "Pirate:Cruiser:Heavy"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaVeryWeakUncolonizable"
 	subTemplates 0
@@ -2727,8 +2718,8 @@ planetItemsTemplate
 			owner "Pirate"
 			colonizeChance 1
 			items 2
-				item "Pirate:Frigate:Scout"
-				item "Pirate:Frigate:AntiFighter"
+				item "Pirate:Cruiser:Heavy"
+				item "Pirate:Frigate:Siege"
 planetItemsTemplate
 	templateName "Template:LocalMilitiaWeak"
 	subTemplates 0
@@ -3201,7 +3192,7 @@ planetItemsTemplate
 				param ""
 			owner "Pirate"
 			colonizeChance 1
-			items 106
+			items 102
 				item "Pirate:Cruiser:Heavy"
 				item "Pirate:Cruiser:Heavy"
 				item "Pirate:Cruiser:Heavy"
@@ -3216,34 +3207,30 @@ planetItemsTemplate
 				item "Pirate:Cruiser:Heavy"
 				item "Pirate:Cruiser:Heavy"
 				item "Pirate:Cruiser:Heavy"
-				item "Pirate:Frigate:Scout"
-				item "Pirate:Frigate:Scout"
-				item "Pirate:Frigate:Scout"
-				item "Pirate:Frigate:Scout"
-				item "Pirate:Frigate:Scout"
-				item "Pirate:Frigate:Scout"
-				item "Pirate:Frigate:Scout"
-				item "Pirate:Frigate:Scout"
-				item "Pirate:Frigate:Scout"
-				item "Pirate:Frigate:Scout"
+				item "Pirate:Cruiser:Heavy"
+				item "Pirate:Cruiser:Heavy"
+				item "Pirate:Cruiser:Heavy"
+				item "Pirate:Cruiser:Heavy"
+				item "Pirate:Cruiser:Heavy"
+				item "Pirate:Cruiser:Heavy"
+				item "Pirate:Cruiser:Heavy"
+				item "Pirate:Cruiser:Heavy"
+				item "Pirate:Cruiser:Heavy"
+				item "Pirate:Cruiser:Heavy"
+				item "Pirate:Cruiser:Heavy"
+				item "Pirate:Cruiser:Heavy"
+				item "Pirate:Cruiser:Heavy"
+				item "Pirate:Cruiser:Heavy"
 				item "Pirate:Frigate:Siege"
 				item "Pirate:Frigate:Siege"
 				item "Pirate:Frigate:Siege"
-				item "Pirate:Frigate:AntiFighter"
-				item "Pirate:Frigate:AntiFighter"
-				item "Pirate:Frigate:AntiFighter"
-				item "Pirate:Frigate:AntiFighter"
-				item "Pirate:Frigate:AntiFighter"
-				item "Pirate:Frigate:AntiFighter"
-				item "Pirate:Frigate:AntiFighter"
-				item "Pirate:Frigate:AntiFighter"
-				item "Pirate:Frigate:AntiFighter"
-				item "Pirate:Frigate:Medium"
-				item "Pirate:Frigate:Medium"
-				item "Pirate:Frigate:Medium"
-				item "Pirate:Frigate:Medium"
-				item "Pirate:Frigate:Medium"
-				item "Pirate:Frigate:Medium"
+				item "Pirate:Frigate:Siege"
+				item "Pirate:Frigate:Siege"
+				item "Pirate:Frigate:Siege"
+				item "Pirate:Frigate:Siege"
+				item "Pirate:Frigate:Siege"
+				item "Pirate:Frigate:Siege"
+				item "Pirate:Frigate:Siege"
 				item "Pirate:Module:GaussDefense"		
 				item "Pirate:Module:GaussDefense"
 				item "Pirate:Module:GaussDefense"

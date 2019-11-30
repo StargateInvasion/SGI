@@ -1,5 +1,5 @@
 ﻿TXT
-NumStrings 8543
+NumStrings 8560
 StringInfo
 	ID "IDS_GDPRDIALOG_CANCELBUTTON"
 	Value "Decline"
@@ -19774,6 +19774,24 @@ StringInfo
 	ID "IDS_TITANUPGRADE_TECHREBEL_WEAPONS_DESCRIPTION"
 	Value "The Ragnarov's weapon mounts are upgraded with superior composite alloys, greatly improving their firepower."
 StringInfo
+	ID "IDS_TITANUPGRADE_TECHLOYALIST_ABILITIES_NAME"
+	Value "Antimatter Funnelling"
+StringInfo
+	ID "IDS_TITANUPGRADE_TECHLOYALIST_ABILITIES_DESCRIPTION"
+	Value "Refinements to the Ankylon's antimatter storage unit grant the ship superior antimatter capacity and use."
+StringInfo
+	ID "IDS_TITANUPGRADE_TECHLOYALIST_DURABILITY_NAME"
+	Value "Fortified Superstructure"
+StringInfo
+	ID "IDS_TITANUPGRADE_TECHLOYALIST_DURABILITY_DESCRIPTION"
+	Value "Improves the Ankylon's superstructure, greatly adding to the survivability of the ship."
+StringInfo
+	ID "IDS_TITANUPGRADE_TECHLOYALIST_WEAPONS_NAME"
+	Value "Superior Gunnery"
+StringInfo
+	ID "IDS_TITANUPGRADE_TECHLOYALIST_WEAPONS_DESCRIPTION"
+	Value "Gun crews aboard the Ankylon go through combat drills, improving the ship's weapon damage."
+StringInfo
 	ID "IDS_TITANUPGRADE_PSILOYALIST_WEAPONS_NAME"
 	Value "Adaptive Weapons"
 StringInfo
@@ -22228,9 +22246,6 @@ StringInfo
 	ID "IDSScenarioPlayerNameOccupation"
 	Value "Eta Sector Remnants"
 StringInfo
-	ID "IDSScenarioPlayerNameMadVasari"
-	Value "Mad Dark Fleet Remnants"
-StringInfo
 	ID "IDSScenarioPlayerNameMilitia0"
 	Value "Aluxian Refugees"
 StringInfo
@@ -23971,8 +23986,8 @@ StringInfo
 	ID "IDS_RANDOMEVENT_PLASMASTORM_DESC"
 	Value "Violent fields of energy ebb and flow throughout this storm. Squadrons are grounded until more favorable conditions exist."
 StringInfo
-	ID "IDS_RANDOMEVENT_PIRATETITAN_NAME"
-	Value "Mad Dark Fleet Titan"
+	ID "IDS_RANDOMEVENT_REPLICATOR_TITAN_NAME"
+	Value "Replicator Titan"
 StringInfo
 	ID "IDS_RANDOMEVENT_PARTISANS_NAME"
 	Value "Partisans"
@@ -23998,11 +24013,41 @@ StringInfo
 	ID "IDS_FRIGATE_TURRETCOMBAT_COUNTERDESC"
 	Value "Strong vs. light frigates."
 StringInfo
+	ID "IDS_REPLICATOR_ABILITY_ENERGYABSORB_NAME"
+	Value "Absorb Energy"
+StringInfo
+	ID "IDS_REPLICATOR_ABILITY_ENERGYABSORB_DESCRIPTION"
+	Value "Energy weapons that strike the ship also restore antimatter."
+StringInfo
+	ID "IDS_REPLICATOR_ABILITY_REGENBOOST_NAME"
+	Value "Regeneration"
+StringInfo
+	ID "IDS_REPLICATOR_ABILITY_REGENBOOST_DESCRIPTION"
+	Value "Use antimatter to fuel greatly increased hull regeneration."
+StringInfo
+	ID "IDS_REPLICATOR_ABILITY_TAKEOVER_NAME"
+	Value "Seize Control"
+StringInfo
+	ID "IDS_REPLICATOR_ABILITY_TAKEOVER_DESCRIPTION"
+	Value "Chance for replicators to penetrate the chip and seize control of the target."
+StringInfo
+	ID "IDS_REPLICATOR_ABILITY_REPLICATEFROMPLANET_NAME"
+	Value "Replicate from Resources"
+StringInfo
+	ID "IDS_REPLICATOR_ABILITY_REPLICATEFROMPLANET_DESCRIPTION"
+	Value "Harvest materials from the target planet in order to replicate a new ship."
+StringInfo
 	ID "IDS_REPLICATOR_FRIGATESCOUT_NAME"
 	Value "Replicator Scout"
 StringInfo
 	ID "IDS_REPLICATOR_FRIGATESCOUT_DESCRIPTION"
 	Value "A light replicator raider ship, no trade ship is safe!"
+StringInfo
+	ID "IDS_REPLICATOR_FRIGATESPIDER_NAME"
+	Value "Replicator Spider"
+StringInfo
+	ID "IDS_REPLICATOR_FRIGATESPIDER_DESCRIPTION"
+	Value "A heavy replicator ship."
 StringInfo
 	ID "IDS_REPLICATOR_RESEARCH_WEAPONDAMAGE_AUTOCANNON0_NAME"
 	Value "Ferro-Uranite Rounds"
@@ -24045,6 +24090,12 @@ StringInfo
 StringInfo
 	ID "IDS_REPLICATOR_RESEARCH_ABILITY_TIMEDCHARGES_DESCRIPTION"
 	Value "Grants the Timed Explosives ability to Arcova Scout Frigates, allow them to effectively assault structures."
+StringInfo
+	ID "IDS_REPLICATOR_TITAN_BATTLECRUISER_NAME"
+	Value "Replicator Titan Battlecruiser"
+StringInfo
+	ID "IDS_REPLICATOR_TITAN_BATTLECRUISER_DESCRIPTION"
+	Value "A massive Replicator ship of great power."
 StringInfo
 	ID "IDSGalaxyScenarioTypePlanetAntimatterFountain"
 	Value "Antimatter Fountain"
