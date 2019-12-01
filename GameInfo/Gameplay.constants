@@ -400,21 +400,12 @@ GameplayConstants
 				minFleetPoints 200
 				maxFleetPoints 300
 				requiredShipCount 0
-				randomShipCount 5
+				randomShipCount 2
 				randomShip
-					type "FrigatePirateScout"
+					type "Replicator_Frigate_Siege"
 					weight 3
 				randomShip
-					type "FrigatePirateMedium"
-					weight 3
-				randomShip
-					type "FrigatePirateHeavy"
-					weight 3
-				randomShip
-					type "FrigatePirateAntiFighter"
-					weight 3
-				randomShip
-					type "FrigatePirateSiege"
+					type "Replicator_Frigate_Spider"
 					weight 3
 	VisibilityDistanceData
 		capitalShipRadiusMultiplier 100
@@ -464,99 +455,99 @@ GameplayConstants
 		pirateRaidComposition:0
 			requiredShipCount 3
 			requiredShip
-				type "FrigatePirateAntiFighter"
+				type "Replicator_Frigate_Siege"
 				minCount 1
 				maxCount 2
 			requiredShip				
-				type "FrigatePirateScout"
+				type "Replicator_Frigate_Spider"
 				minCount 5
 				maxCount 6
 			requiredShip
-				type "FrigatePirateMedium"
+				type "Replicator_Frigate_Spider"
 				minCount 5
 				maxCount 6
 			randomShipCount 0
 		pirateRaidComposition:1
 			requiredShipCount 3
 			requiredShip
-				type "FrigatePirateScout"
+				type "Replicator_Frigate_Spider"
 				minCount 10
 				maxCount 11
 			requiredShip
-				type "FrigatePirateMedium"
+				type "Replicator_Frigate_Spider"
 				minCount 10
 				maxCount 11
 			requiredShip
-				type "FrigatePirateAntiFighter"
+				type "Replicator_Frigate_Siege"
 				minCount 2
 				maxCount 3
 			randomShipCount 0
 		pirateRaidComposition:2
 			requiredShipCount 5
 			requiredShip
-				type "FrigatePirateScout"
+				type "Replicator_Frigate_Spider"
 				minCount 12
 				maxCount 13
 			requiredShip
-				type "FrigatePirateMedium"
+				type "Replicator_Frigate_Spider"
 				minCount 11
 				maxCount 12
 			requiredShip
-				type "FrigatePirateHeavy"
+				type "Replicator_Frigate_Spider"
 				minCount 5
 				maxCount 6
 			requiredShip
-				type "FrigatePirateAntiFighter"
+				type "Replicator_Frigate_Siege"
 				minCount 4
 				maxCount 5
 			requiredShip
-				type "FrigatePirateSiege"
+				type "Replicator_Frigate_Siege"
 				minCount 3
 				maxCount 4
 			randomShipCount 0
 		pirateRaidComposition:3
 			requiredShipCount 5
 			requiredShip
-				type "FrigatePirateScout"
+				type "Replicator_Frigate_Spider"
 				minCount 18
 				maxCount 19
 			requiredShip
-				type "FrigatePirateMedium"
+				type "Replicator_Frigate_Spider"
 				minCount 15
 				maxCount 16
 			requiredShip
-				type "FrigatePirateHeavy"
+				type "Replicator_Frigate_Spider"
 				minCount 7
 				maxCount 8
 			requiredShip
-				type "FrigatePirateAntiFighter"
+				type "Replicator_Frigate_Siege"
 				minCount 8
 				maxCount 9
 			requiredShip
-				type "FrigatePirateSiege"
+				type "Replicator_Frigate_Siege"
 				minCount 5
 				maxCount 6
 			randomShipCount 0
 		pirateRaidComposition:4
 			requiredShipCount 5
 			requiredShip
-				type "FrigatePirateScout"
+				type "Replicator_Frigate_Spider"
 				minCount 18
 				maxCount 19
 			requiredShip
-				type "FrigatePirateMedium"
+				type "Replicator_Frigate_Spider"
 				minCount 19
 				maxCount 20
 			requiredShip
-				type "FrigatePirateHeavy"
+				type "Replicator_Frigate_Spider"
 				minCount 10
 				maxCount 11
 			requiredShip
-				type "FrigatePirateAntiFighter"
+				type "Replicator_Frigate_Siege"
 				minCount 12
 				maxCount 13
 			requiredShip
-				type "FrigatePirateSiege"
+				type "Replicator_Frigate_Siege"
 				minCount 8
 				maxCount 9
 			randomShipCount 0
@@ -1005,16 +996,16 @@ GameplayConstants
 				requiredShipCount 0
 				randomShipCount 4
 				randomShip
-					type "FrigatePirateScout"
+					type "Replicator_Frigate_Spider"
 					weight 4
 				randomShip
-					type "FrigatePirateMedium"
+					type "Replicator_Frigate_Spider"
 					weight 5
 				randomShip
-					type "FrigatePirateHeavy"
+					type "Replicator_Frigate_Spider"
 					weight 6
 				randomShip
-					type "FrigatePirateAntiFighter"
+					type "Replicator_Frigate_Siege"
 					weight 3
 		baseFleetCapacity 20.0
 		maxFleetSupplyPerPlanetPopulation .025
