@@ -56,20 +56,10 @@ NumSoundsFor:ONGENERALORDERISSUED 0
 NumSoundsFor:ONSELECTED 1
 SoundID "PLANETMODULE_TECHORBITALGAUSSDEFENSE_ONSELECTION_0"
 NumSoundsFor:ONSTARTPHASEJUMP 0
-MeshNameInfoCount 2
+MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Goauld_Orbital_WeaponsPlatform1"
+	meshName "Goauld_Orbital_WeaponsPlatform"
 	criteriaType "None"
-MeshNameInfo
-	meshName "Goauld_Orbital_WeaponsPlatform2"
-	criteriaType "Research"
-	prerequisites
-		NumResearchPrerequisites 1
-		ResearchPrerequisite
-			Subject "Goauld_Research_Ability_Synergy"
-			Level 1
-		RequiredFactionNameID ""
-		RequiredCompletedResearchSubjects 0
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleSmall"
