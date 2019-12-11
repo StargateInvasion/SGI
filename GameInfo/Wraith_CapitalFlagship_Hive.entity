@@ -1,9 +1,9 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "Asuran_AbilityCapital_Cloak"
-ability:1 "Asuran_AbilityCapital_DroneFrenzy"
-ability:2 "Asuran_AbilityCapital_AdvancedTargetingSensors"
-ability:3 "Asuran_AbilityCapital_LightSpeed"
+ability:0 "Wraith_AbilityCapital_SpaceGate"
+ability:1 "Wraith_AbilityCapital_Cull"
+ability:2 "Wraith_AbilityCapital_SirenCall"
+ability:3 "Wraith_AbilityCapital_StunPulse"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -41,7 +41,7 @@ bombEffectsDef
 		sound "EXPLOSION_SUB4_ALT1"
 		sound "EXPLOSION_SUB4_ALT2"
 	projectileTravelEffectName "Weapon_PsiCapitalPlanetBombing_Travel"
-mainViewIcon "MAINVIEWICON_ASURAN_CAPITALBATTLESHIP_ORION"
+mainViewIcon "MAINVIEWICON_WRAITH_CAPITALCARRIER_HIVE"
 basePrice
 	credits 0.000000
 	metal 0.000000
@@ -75,9 +75,9 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_ASURAN_CAPITALFLAGSHIP_AURORA_NAME"
-DescriptionStringID "IDS_ASURAN_CAPITALFLAGSHIP_AURORA_DESCRIPTION"
-picture "PICTURE_ASURAN_CAPITALBATTLESHIP_ORION"
+NameStringID "IDS_WRAITH_CAPITALFLAGSHIP_HIVE_NAME"
+DescriptionStringID "IDS_WRAITH_CAPITALFLAGSHIP_HIVE_DESCRIPTION"
+picture "PICTURE_WRAITH_CAPITALCARRIER"
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
@@ -89,9 +89,9 @@ numRandomDebrisSmall 17
 numSpecificDebris 1
 specificDebrisMeshName "DebrisAdventLarge"
 armorType "CapitalShip"
-hudIcon "HUDICON_ASURAN_CAPITALBATTLESHIP_ORION"
-smallHudIcon "HUDICONSMALL_ASURAN_CAPITALBATTLESHIP_ORION"
-infoCardIcon "MAINVIEWICON_ASURAN_CAPITALBATTLESHIP_ORION"
+hudIcon "HUDICON_WRAITH_CAPITALCARRIER"
+smallHudIcon "HUDICONSMALL_WRAITH_CAPITALCARRIER"
+infoCardIcon "MAINVIEWICON_WRAITH_CAPITALCARRIER_HIVE"
 minZoomDistanceMult 1.850000
 NumWeapons 2
 Weapon
