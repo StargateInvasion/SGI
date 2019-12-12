@@ -841,7 +841,7 @@ orbitBodyType
 	typeName "Occupied"
 	entityDefName "OccupiedPlanet"
 	defaultTemplateName "Template:OccupiedPlanet"
-planetItemTypeCount 347
+planetItemTypeCount 346
 planetItemType
 	designName "Asgard:Orbital:MineExplosive"
 	entityDefName "Asgard_DeepSpaceMine"
@@ -1506,9 +1506,6 @@ planetItemType
 	designName "Wraith:Orbital:HeavyDefense"
 	entityDefName "Wraith_Orbital_BeamDefense"
 planetItemType
-	designName "Wraith:Orbital:AntimatterCharger"
-	entityDefName "Wraith_Orbital_AntiMatterCharger"
-planetItemType
 	designName "Wraith:Orbital:TitanFactory"
 	entityDefName "Wraith_Orbital_TitanFactory"
 planetItemType
@@ -2139,7 +2136,7 @@ planetItemsTemplate
 				item "Wraith:Orbital:HangarDefense"
 				item "Wraith:Orbital:HangarDefense"
 				item "Wraith:Orbital:RepairPlatform"
-				item "Wraith:Orbital:AntimatterCharger"
+				item "Wraith:Orbital:RepairPlatform"
 		group
 			condition
 				type "PlanetOwnerIsRaceQuickStart"
@@ -2177,7 +2174,7 @@ planetItemsTemplate
 				item "Wraith:Orbital:HangarDefense"
 				item "Wraith:Orbital:HangarDefense"
 				item "Wraith:Orbital:RepairPlatform"
-				item "Wraith:Orbital:AntimatterCharger"
+				item "Wraith:Orbital:RepairPlatform"
 				item "Wraith:Orbital:Cannon"
 				item "Wraith:Orbital:Cannon"
 		group

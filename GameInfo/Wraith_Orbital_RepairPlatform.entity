@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "PlanetModuleStandard"
 minZoomDistanceMult 2.000000
-ability:0 "Asuran_AbilityOrbital_RepairPlatform"
+ability:0 "Wraith_AbilityOrbital_RepairPlatform"
 ability:1 ""
 ability:2 ""
 ability:3 ""
@@ -12,9 +12,9 @@ numRandomDebrisLarge 4
 numRandomDebrisSmall 12
 numSpecificDebris 0
 armorType "Module"
-hudIcon "HUDICON_ASURAN_ORBITAL_REPAIRPLATFORM"
-smallHudIcon "HUDICONSMALL_ASURAN_ORBITAL_REPAIRPLATFORM"
-infoCardIcon "MAINVIEWICON_ASURAN_ORBITAL_REPAIRPLATFORM"
+hudIcon "HUDICON_WRAITH_ORBITAL_REPAIRPLATFORM"
+smallHudIcon "HUDICONSMALL_WRAITH_ORBITAL_REPAIRPLATFORM"
+infoCardIcon "MAINVIEWICON_WRAITH_ORBITAL_REPAIRPLATFORM"
 planetUpgradeSlotType "Tactical"
 planetUpgradeSlotCount 2.000000
 basePrice
@@ -28,7 +28,7 @@ statCountType "ModuleRepair"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Asuran_Research_Orbital_Repairplatform"
+		Subject "Wraith_Research_Orbital_RepairPlatform"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -61,13 +61,13 @@ SoundID "PLANETMODULE_TECHORBITALREPAIRPLATFORM_ONSELECTION_0"
 NumSoundsFor:ONSTARTPHASEJUMP 0
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Asuran_Orbital_RepairPlatform"
+	meshName "Wraith_Orbital_RepairPlatform"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
 ExplosionName "PlanetModuleSmall"
-mainViewIcon "MAINVIEWICON_ASURAN_ORBITAL_REPAIRPLATFORM"
-picture "PICTURE_ASURAN_ORBITAL_REPAIRPLATFORM"
+mainViewIcon "MAINVIEWICON_WRAITH_ORBITAL_REPAIRPLATFORM"
+picture "PICTURE_WRAITH_ORBITAL_REPAIRPLATFORM"
 minShadow 0.000000
 maxShadow 0.200000
 formationRank 3
