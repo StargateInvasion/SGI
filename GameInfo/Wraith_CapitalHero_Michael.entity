@@ -45,7 +45,7 @@ bombEffectsDef
 	beamGlowColor ffffffff
 	beamCoreColor ffffffff
 	beamTilingRate 3.000000
-mainViewIcon "MAINVIEWICON_ASURAN_TITANDEFENSE_ATLANTIS"
+mainViewIcon "MAINVIEWICON_WRAITH_HERO_MICHAEL"
 basePrice
 	credits 0.000000
 	metal 0.000000
@@ -79,13 +79,13 @@ AntiMatterRestoreRate
 CultureProtectRate
 	StartValue 0.300000
 	ValueIncreasePerLevel 0.050000
-NameStringID "IDS_ASURAN_CAPITALHERO_OBEROTH_NAME"
-DescriptionStringID "IDS_ASURAN_CAPITALHERO_OBEROTH_DESCRIPTION"
-picture "PICTURE_ASURAN_CAPITALHERO_OBEROTH"
+NameStringID "IDS_WRAITH_HERO_MICHAEL_NAME"
+DescriptionStringID "IDS_WRAITH_HERO_MICHAEL_DESCRIPTION"
+picture "PICTURE_WRAITH_HERO_MICHAEL"
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Asuran_Research_Hero_Oberoth"
+		Subject "Wraith_Research_Hero_Michael"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -96,9 +96,9 @@ numRandomDebrisSmall 30
 numSpecificDebris 1
 specificDebrisMeshName "DebrisPhaseCapitalShipBattleship"
 armorType "Titan"
-hudIcon "HUDICON_ASURAN_TITANDEFENSE_ATLANTIS"
-smallHudIcon "HUDICONSMALL_ASURAN_TITANDEFENSE_ATLANTIS"
-infoCardIcon "MAINVIEWICON_ASURAN_TITANDEFENSE_ATLANTIS"
+hudIcon "HUDICON_WRAITH_HERO_MICHAEL"
+smallHudIcon "HUDICONSMALL_WRAITH_HERO_MICHAEL"
+infoCardIcon "MAINVIEWICON_WRAITH_HERO_MICHAEL"
 minZoomDistanceMult 1.850000
 NumWeapons 2
 Weapon

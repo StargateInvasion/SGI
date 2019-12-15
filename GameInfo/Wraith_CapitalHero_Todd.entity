@@ -41,7 +41,7 @@ bombEffectsDef
 		sound "EXPLOSION_SUB4_ALT1"
 		sound "EXPLOSION_SUB4_ALT2"
 	projectileTravelEffectName "Weapon_PsiCapitalPlanetBombing_Travel"
-mainViewIcon "MAINVIEWICON_ASURAN_CAPITALHERO_WEIR"
+mainViewIcon "MAINVIEWICON_WRAITH_HERO_TODD"
 basePrice
 	credits 0.000000
 	metal 0.000000
@@ -79,7 +79,10 @@ NameStringID "IDS_WRAITH_HERO_TODD_NAME"
 DescriptionStringID "IDS_WRAITH_HERO_TODD_DESCRIPTION"
 picture "PICTURE_WRAITH_HERO_TODD"
 Prerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Wraith_Research_Hero_Todd"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 roleType "Invalid"

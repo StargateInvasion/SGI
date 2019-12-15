@@ -40,10 +40,10 @@ bombEffectsDef
 typeCount 1
 frigateRoleType "Heavy"
 statCountType "FrigateHeavy"
-mainViewIcon "MAINVIEWICON_ASURAN_CAPITALHERO_NIAM"
-picture "PICTURE_ASURAN_CAPITALHERO_NIAM"
-NameStringID "IDS_ASURAN_CAPITALHERO_NIAM_NAME"
-DescriptionStringID "IDS_ASURAN_CAPITALHERO_NIAM_DESCRIPTION"
+mainViewIcon "MAINVIEWICON_WRAITH_HERO_NIGHTWIND"
+picture "PICTURE_WRAITH_HERO_NIGHTWIND"
+NameStringID "IDS_WRAITH_HERO_NIGHTWIND_NAME"
+DescriptionStringID "IDS_WRAITH_HERO_NIGHTWIND_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_HEAVY"
 basePrice
 	credits 0.000000
@@ -63,7 +63,7 @@ relationshipChangeRate 0.000000
 Prerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Asuran_Research_Hero_Niam"
+		Subject "Wraith_Research_Hero_Nightwind"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
@@ -71,9 +71,9 @@ numRandomDebrisLarge 1
 numRandomDebrisSmall 10
 numSpecificDebris 0
 armorType "Heavy"
-hudIcon "HUDICON_ASURAN_CAPITALHERO_NIAM"
-smallHudIcon "HUDICONSMALL_ASURAN_CAPITALHERO_NIAM"
-infoCardIcon "MAINVIEWICON_ASURAN_CAPITALHERO_NIAM"
+hudIcon "HUDICON_WRAITH_HERO_NIGHTWIND"
+smallHudIcon "HUDICONSMALL_WRAITH_HERO_NIGHTWIND"
+infoCardIcon "MAINVIEWICON_WRAITH_HERO_NIGHTWIND"
 minZoomDistanceMult 4.000000
 NumWeapons 2
 Weapon
