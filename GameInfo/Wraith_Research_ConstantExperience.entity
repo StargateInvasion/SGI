@@ -7,13 +7,10 @@ NameStringID "IDS_WRAITH_RESEARCH_CONSTANTEXPERIENCE_NAME"
 DescriptionStringID "IDS_WRAITH_RESEARCH_CONSTANTEXPERIENCE_DESCRIPTION"
 researchWindowLocation
 	block 1
-	pos [ 6 , 1 ]
+	pos [ 6 , 4 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "Wraith_Research_CapitalSiege_Nightwind"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
