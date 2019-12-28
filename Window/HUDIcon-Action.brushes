@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 100
+brushCount 104
 brush
 	name "ActionIconOpenEscapeMenuScreen"
 	content "States"
@@ -714,7 +714,7 @@ brush
 		fileName "Buttons_Main_Normal"
 		pixelBox [ 158 , 31 , 47 , 33 ]
 brush
-	name "ACTIONICON_PLANET_OPENTITANMANAGEMENT_TECHLOYALIST"
+	name "ACTIONICON_PLANET_OPENTITANMANAGEMENT_HUMAN"
 	content "States"
 	Disabled
 		fileName "Buttons_Main_Disabled"
@@ -731,6 +731,24 @@ brush
 	Normal
 		fileName "Buttons_Main_Normal"
 		pixelBox [ 57 , 143 , 46 , 32 ]
+brush
+	name "ACTIONICON_PLANET_OPENTITANMANAGEMENT_WRAITH"
+	content "States"
+	Disabled
+		fileName "Buttons_Main_Disabled"
+		pixelBox [ 57 , 179 , 46 , 32 ]
+	Pressed
+		fileName "Buttons_Main_Pressed"
+		pixelBox [ 57 , 179 , 46 , 32 ]
+	CursorOver
+		fileName "Buttons_Main_Normal"
+		pixelBox [ 108 , 179 , 46 , 32 ]
+	Focused
+		fileName "Buttons_Main_Normal"
+		pixelBox [ 57 , 179 , 46 , 32 ]
+	Normal
+		fileName "Buttons_Main_Normal"
+		pixelBox [ 57 , 179 , 46 , 32 ]
 brush
 	name "ACTIONICON_PLANET_OPENTITANMANAGEMENT_TECHREBEL"
 	content "States"
@@ -858,6 +876,24 @@ brush
 		fileName "Buttons_Main_Normal"
 		pixelBox [ 158 , 364 , 47 , 33 ]
 brush
+	name "ACTIONICON_PLANET_OPENCAPITALSHIPMANAGEMENT_WRAITH"
+	content "States"
+	Disabled
+		fileName "Buttons_Main_Disabled"
+		pixelBox [ 158 , 179 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Main_Pressed"
+		pixelBox [ 158 , 179 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Main_Normal"
+		pixelBox [ 209 , 179 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Main_Normal"
+		pixelBox [ 158 , 179 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Main_Normal"
+		pixelBox [ 158 , 179 , 47 , 33 ]
+brush
 	name "ACTIONICON_PLANET_OPENCAPITALSHIPMANAGEMENTPSI"
 	content "States"
 	Disabled
@@ -965,6 +1001,42 @@ brush
 	Normal
 		fileName "Buttons_Main_Normal"
 		pixelBox [ 158 , 475 , 47 , 33 ]
+brush
+	name "ACTIONICON_PLANET_OPENFRIGATEMANAGEMENT0_WRAITH"
+	content "States"
+	Disabled
+		fileName "Buttons_Main_Disabled"
+		pixelBox [ 464 , 179 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Main_Pressed"
+		pixelBox [ 464 , 179 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Main_Normal"
+		pixelBox [ 464 , 216 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Main_Normal"
+		pixelBox [ 464 , 179 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Main_Normal"
+		pixelBox [ 464 , 179 , 47 , 33 ]
+brush
+	name "ACTIONICON_PLANET_OPENFRIGATEMANAGEMENT1_WRAITH"
+	content "States"
+	Disabled
+		fileName "Buttons_Main_Disabled"
+		pixelBox [ 158 , 142 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Main_Pressed"
+		pixelBox [ 158 , 142 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Main_Normal"
+		pixelBox [ 209 , 142 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Main_Normal"
+		pixelBox [ 158 , 142 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Main_Normal"
+		pixelBox [ 158 , 142 , 47 , 33 ]
 brush
 	name "ACTIONICON_PLANET_OPENFRIGATEMANAGEMENTPSI0"
 	content "States"
