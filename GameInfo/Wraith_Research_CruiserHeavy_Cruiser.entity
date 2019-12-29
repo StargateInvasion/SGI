@@ -10,19 +10,16 @@ researchWindowLocation
 	pos [ 1 , 3 ]
 ResearchField "Combat"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "Wraith_Research_Evolution"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 75.000000
-PerLevelUpgradeTime 10.000000
+BaseUpgradeTime 45.000000
+PerLevelUpgradeTime 5.000000
 BaseCost
 	credits 600.000000
-	metal 200.000000
-	crystal 125.000000
+	metal 50.000000
+	crystal 100.000000
 PerLevelCostIncrease
 	credits 100.000000
 	metal 25.000000
