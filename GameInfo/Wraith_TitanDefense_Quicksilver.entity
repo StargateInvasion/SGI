@@ -1,7 +1,7 @@
 ﻿TXT
 entityType "Titan"
-ability:0 ""
-ability:1 ""
+ability:0 "Wraith_AbilityTitan_SuicideDarts"
+ability:1 "Wraith_AbilityTitan_SirenCall"
 ability:2 ""
 ability:3 ""
 ability:4 ""
@@ -86,9 +86,10 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"
-UpgradeTypeCount 4
-UpgradeType "Wraith_TitanUpgrade_Quicksilver_AbilityB"
+UpgradeTypeCount 5
 UpgradeType "Wraith_TitanUpgrade_Quicksilver_Abilities"
+UpgradeType "Wraith_TitanUpgrade_Quicksilver_AbilityA"
+UpgradeType "Wraith_TitanUpgrade_Quicksilver_AbilityB"
 UpgradeType "Wraith_TitanUpgrade_Quicksilver_Durability"
 UpgradeType "Wraith_TitanUpgrade_Quicksilver_Weapons"
 numRandomDebrisLarge 80
