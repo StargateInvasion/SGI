@@ -52,9 +52,8 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"
-UpgradeTypeCount 4
+UpgradeTypeCount 3
 UpgradeType "Wraith_TitanUpgrade_SuperHive_Abilities"
-UpgradeType "Wraith_TitanUpgrade_SuperHive_AbilityB"
 UpgradeType "Wraith_TitanUpgrade_SuperHive_Durability"
 UpgradeType "Wraith_TitanUpgrade_SuperHive_Weapons"
 numRandomDebrisLarge 80
@@ -186,7 +185,7 @@ meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_PsiLoyalistTitan"
 ExplosionName "StarBase1"
 CommandPoints
-	StartValue 3.250000
+	StartValue 5.250000
 	ValueIncreasePerLevel 0.500000
 weaponCooldownDecreasePerc
 	StartValue 0.000000
