@@ -2,8 +2,8 @@
 entityType "Titan"
 ability:0 "Wraith_AbilityTitan_SuicideDarts"
 ability:1 "Wraith_AbilityTitan_SirenCall"
-ability:2 ""
-ability:3 ""
+ability:2 "Wraith_AbilityTitan_FuriousDefense"
+ability:3 "Wraith_AbilityTitan_UnyieldingWill"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
@@ -52,16 +52,16 @@ MaxHullPoints
 	StartValue 15000.000000
 	ValueIncreasePerLevel 322.000000
 MaxShieldPoints
-	StartValue 5000.000000
-	ValueIncreasePerLevel 684.250000
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
 HullPointRestoreRate
 	StartValue 2.700000
 	ValueIncreasePerLevel 0.450000
 ShieldPointRestoreRate
-	StartValue 5.400000
-	ValueIncreasePerLevel 0.850000
+	StartValue 0.000000
+	ValueIncreasePerLevel 0.000000
 ArmorPointsFromExperience
-	StartValue 8.000000
+	StartValue 12.000000
 	ValueIncreasePerLevel 0.544000
 maxMitigation
 	StartValue 0.650000
@@ -86,10 +86,12 @@ Prerequisites
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 statCountType "Titan"
-UpgradeTypeCount 5
+UpgradeTypeCount 7
 UpgradeType "Wraith_TitanUpgrade_Quicksilver_Abilities"
 UpgradeType "Wraith_TitanUpgrade_Quicksilver_AbilityA"
 UpgradeType "Wraith_TitanUpgrade_Quicksilver_AbilityB"
+UpgradeType "Wraith_TitanUpgrade_Quicksilver_AbilityC"
+UpgradeType "Wraith_TitanUpgrade_Quicksilver_AbilityD"
 UpgradeType "Wraith_TitanUpgrade_Quicksilver_Durability"
 UpgradeType "Wraith_TitanUpgrade_Quicksilver_Weapons"
 numRandomDebrisLarge 80

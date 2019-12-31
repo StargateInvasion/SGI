@@ -1,0 +1,45 @@
+﻿TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Center"
+		smallEffectName "TitanAbility_Psi_SuppressionAura_TargetBuff_Small"
+		mediumEffectName "TitanAbility_Psi_SuppressionAura_TargetBuff_Medium"
+		largeEffectName "TitanAbility_Psi_SuppressionAura_TargetBuff_Large"
+		soundID ""
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 2
+entityModifier
+	buffEntityModifierType "DamageAsDamageDealer"
+	value
+		Level:0 -0.250000
+		Level:1 -0.300000
+		Level:2 -0.350000
+		Level:3 -0.400000
+entityModifier
+	buffEntityModifierType "LinearMaxSpeed"
+	value
+		Level:0 -0.330000
+		Level:1 -0.430000
+		Level:2 -0.540000
+		Level:3 -0.670000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "OutOfRange"
+finishCondition
+	finishConditionType "OwnerChanged"

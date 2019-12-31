@@ -1,5 +1,5 @@
 ﻿TXT
-NumStrings 8556
+NumStrings 8558
 StringInfo
 	ID "IDS_GDPRDIALOG_CANCELBUTTON"
 	Value "Decline"
@@ -87,6 +87,12 @@ StringInfo
 StringInfo
 	ID "IDS_ABILITY_EXPLOSIVESHOT_DESCRIPTION"
 	Value "The Titan fires an explosive shell at the target ship which explodes, dealing damage and knocking back nearby enemies."
+StringInfo
+	ID "IDS_ABILITY_FURIOUSDEFENSE_NAME"
+	Value "Furious Defense"
+StringInfo
+	ID "IDS_ABILITY_FURIOUSDEFENSE_DESCRIPTION"
+	Value "Greatly increases the titan's weapon damage and hull repair rate. The effect is greater when the titan is in a friendly gravity well."
 StringInfo
 	ID "IDS_ABILITY_GRAVITYPULSE_NAME"
 	Value "Gravity Pulse"
@@ -488,7 +494,7 @@ StringInfo
 	Value "Suppression Aura"
 StringInfo
 	ID "IDS_ABILITY_SUPPRESSIONAURA_DESCRIPTION"
-	Value "Nearby enemy ships are telekinetically suppressed, lowering weapon damage and movement speed."
+	Value "The crew of nearby enemy ships are telekinetically invaided by the Wraith, lowering weapon damage and movement speed."
 StringInfo
 	ID "IDS_ABILITY_TECHMODULECONSTRUCTION_NAME"
 	Value "Construction"
@@ -24179,7 +24185,7 @@ StringInfo
 	 Value "Energy Manipulation"
 StringInfo
 	 ID "IDS_WRAITH_TITANUPGRADE_QUICKSILVER_WEAPONS_DESCRIPTION"
-	 Value "By adjusting the frequencies of the Eradica's weapons, greater damage can be inflicted upon the enemy."
+	 Value "By adjusting the frequencies of the Quicksilver's weapons, greater damage can be inflicted upon the enemy."
 StringInfo
 	 ID "IDS_WRAITH_ABILITY_ABILITYGUIDANCE_NAME"
 	 Value "Guidance"
@@ -24257,10 +24263,10 @@ StringInfo
 	 Value "More hangar bays and dart stations are installed in the star base, allowing it to field greater numbers of drone strike craft."
 StringInfo
 	 ID "IDS_WRAITH_TITANUPGRADE_SUPERHIVE_ABILITIES_NAME"
-	 Value "Psi-Containment"
+	 Value "Bio-Containment"
 StringInfo
 	 ID "IDS_WRAITH_TITANUPGRADE_SUPERHIVE_ABILITIES_DESCRIPTION"
-	 Value "The Coronata is upgraded with the latest advances in antimatter containment, increasing its efficiency."
+	 Value "The Superhive is upgraded with the latest advances in antimatter containment, increasing its efficiency."
 StringInfo
 	 ID "IDS_WRAITH_STARBASEUPGRADEMAXALLEGIANCE_NAME"
 	 Value "Induced Reverence"
@@ -24359,10 +24365,10 @@ StringInfo
 	 Value "The hive dispatches a boarding party to secure and takeover enemy ships and stations"
 StringInfo
 	 ID "IDS_WRAITH_STARBASEUPGRADECULTURE_NAME"
-	 Value "Evangelization Nodes"
+	 Value "Worship Nodes"
 StringInfo
 	 ID "IDS_WRAITH_STARBASEUPGRADECULTURE_DESC"
-	 Value "PsiTech telepathy equipment is installed into the star base, allowing it to broadcast your empire's culture and repel enemy culture."
+	 Value "Wraith telepathy equipment is installed into the star base, allowing it to broadcast your empire's culture and repel enemy culture."
 StringInfo
 	 ID "IDS_WRAITH_STARBASEUPGRADETOUGHNESS_NAME"
 	 Value "Enhanced Preservation"
@@ -24374,7 +24380,7 @@ StringInfo
 	 Value "Reactive Containment"
 StringInfo
 	 ID "IDS_WRAITH_TITANUPGRADE_QUICKSILVER_ABILITIES_DESCRIPTION"
-	 Value "The Eradica is upgraded with a new reactive containment system, giving it greater antimatter capacity."
+	 Value "The Quicksilver is upgraded with a new reactive containment system, giving it greater antimatter capacity."
 StringInfo
 	 ID "IDS_WRAITH_ABILITY_TRANSFERANTIMATTER_NAME"
 	 Value "Transfer Antimatter"
@@ -24386,7 +24392,7 @@ StringInfo
 	 Value "Increased Hull Growth"
 StringInfo
 	 ID "IDS_WRAITH_TITANUPGRADE_SUPERHIVE_DURABILITY_DESCRIPTION"
-	 Value "Better Integration of the Zero Point Modules allow a stronger hull and a faster hull regeneration among other advantages"
+	 Value "Better cell absorbtion of power allows for a stronger hull and a faster hull regeneration among other advantages"
 StringInfo
 	 ID "IDS_WRAITH_ABILITY_CONVERTFIGHTERSTOMINES_NAME"
 	 Value "Deploy Fighter Mines"
@@ -24416,7 +24422,7 @@ StringInfo
 	 Value "Adaptive Weapons"
 StringInfo
 	 ID "IDS_WRAITH_TITANUPGRADE_SUPERHIVE_WEAPONS_DESCRIPTION"
-	 Value "The Coronata's psintegrat take over the ship's weapons, giving them greater destructive power."
+	 Value "These upgrades to the Superhive weapons systems increase the damage output."
 StringInfo
 	 ID "IDS_WRAITH_ABILITY_FINALATTACK_NAME"
 	 Value "Martyrdom"
@@ -24527,7 +24533,7 @@ StringInfo
 	 Value "Increased Hull Growth"
 StringInfo
 	 ID "IDS_WRAITH_TITANUPGRADE_QUICKSILVER_DURABILITY_DESCRIPTION"
-	 Value "Better Integration of the Zero Point Modules allow a stronger hull and a faster hull regeneration among other advantages"
+	 Value "Better cell absorbtion of power allows for a stronger hull and a faster hull regeneration among other advantages"
 StringInfo
 	 ID "IDS_WRAITH_ABILITY_REPULSIONFIELD_NAME"
 	 Value "Repulsion"

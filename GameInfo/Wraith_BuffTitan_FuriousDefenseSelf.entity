@@ -1,0 +1,46 @@
+﻿TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 2
+instantAction
+	buffInstantActionType "ApplyBuffToSelfWithFilter"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "Wraith_BuffTitan_FuriousDefenseFriendly"
+	targetFilter
+		numOwnerships 1
+		ownership "Player"
+		numObjects 1
+		object "Titan"
+		numSpaces 1
+		space "Normal"
+		numConstraints 1
+		constraint "IsInFriendlyGravityWell"
+instantAction
+	buffInstantActionType "ApplyBuffToSelfWithFilter"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	buffType "Wraith_BuffTitan_FuriousDefenseNonFriendly"
+	targetFilter
+		numOwnerships 1
+		ownership "Player"
+		numObjects 1
+		object "Titan"
+		numSpaces 1
+		space "Normal"
+		numConstraints 1
+		constraint "IsInNonFriendlyGravityWell"
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 0
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "AllOnDelayInstantActionsDone"

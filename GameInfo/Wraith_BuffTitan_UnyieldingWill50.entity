@@ -1,0 +1,46 @@
+﻿TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 0
+numPeriodicActions 0
+numOverTimeActions 0
+numEntityModifiers 3
+entityModifier
+	buffEntityModifierType "AbilityCooldownRate"
+	value
+		Level:0 0.250000
+		Level:1 0.500000
+		Level:2 0.000000
+		Level:3 0.000000
+entityModifier
+	buffEntityModifierType "AntimatterRestoreRate"
+	value
+		Level:0 2.000000
+		Level:1 4.000000
+		Level:2 0.000000
+		Level:3 0.000000
+entityModifier
+	buffEntityModifierType "DamageAsDamageTarget"
+	value
+		Level:0 -0.050000
+		Level:1 -0.100000
+		Level:2 -0.000000
+		Level:3 -0.000000
+numEntityBoolModifiers 0
+numFinishConditions 2
+finishCondition
+	finishConditionType "OwnerHullAbovePerc"
+	hullPercent
+		Level:0 0.500000
+		Level:1 0.500000
+		Level:2 0.000000
+		Level:3 0.000000
+finishCondition
+	finishConditionType "OwnerChanged"

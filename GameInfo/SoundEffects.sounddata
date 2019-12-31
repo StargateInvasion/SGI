@@ -1,5 +1,5 @@
 TXT
-numEffects 418
+numEffects 419
 effect
     name "EFFECT_REPOSSESSION"
     fileName "Effect_Repossession.ogg"
@@ -195,6 +195,21 @@ effect
     fadeInTime 0.0
     fadeOutTime 0.0
     alternateGroup ""
+effect
+	name "EFFECT_UNYIELDINGWILL"
+	fileName "Effect_UnyieldingWill.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 50000.000000
+	minAttenuationDist 20000.000000
+	maxNumPlayingSimultaneously 5
+	isLooping FALSE
+	isResident FALSE
+	minRespawnTime 0.1
+	fadeInTime 0.0
+	fadeOutTime 0.0
+	alternateGroup ""
 effect
     name "EFFECT_STRIPPEDTOTHECORE"
     fileName "Effect_StrippedToTheCore.ogg"

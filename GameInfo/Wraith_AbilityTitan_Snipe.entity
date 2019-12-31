@@ -1,0 +1,86 @@
+﻿TXT2
+SinsArchiveVersion 193
+entityType "Ability"
+buffInstantActionType "ApplyBuffToTargetWithTravel"
+instantActionTriggerType "AlwaysPerform"
+buffType "Wraith_BuffTitan_SnipeTarget"
+targetFilter
+	numOwnerships 1
+	ownership "Enemy"
+	numObjects 5
+	object "CapitalShip"
+	object "Frigate"
+	object "PlanetModule"
+	object "StarBase"
+	object "Titan"
+	numSpaces 1
+	space "Normal"
+	numConstraints 1
+	constraint "NotInvulnerable"
+range
+	Level:0 18000.000000
+	Level:1 18000.000000
+	Level:2 18000.000000
+	Level:3 18000.000000
+travelSpeed 7000.000000
+hasWeaponEffects TRUE
+weaponEffectOriginType "Targetter"
+weaponEffectAttachInfo
+	attachType "Ability"
+	abilityIndex 0
+weaponEffectImpactOffsetType "RandomMesh"
+canWeaponEffectHitHull TRUE
+canWeaponEffectHitShields TRUE
+weaponEffectsDef
+	weaponType "Projectile"
+	burstCount 1
+	burstDelay 0.000000
+	fireDelay 0.000000
+	muzzleEffectName "Weapon_WraithTitanPlasma_Muzzle"
+	muzzleSoundMinRespawnTime 0.100000
+	muzzleSounds
+		soundCount 1
+		sound "EFFECT_SNIPE"
+	hitEffectName "Weapon_WraithTitanPlasma_Hit"
+	hitHullEffectSounds
+		soundCount 1
+		sound "WEAPONIMPACT_PHYSICALHEAVY_HITHULL"
+	hitShieldsEffectSounds
+		soundCount 1
+		sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
+	projectileTravelEffectName "Weapon_WraithTitanPlasma_Travel"
+needsToFaceTarget TRUE
+canCollideWithTarget TRUE
+moveThruTarget FALSE
+isUltimateAbility FALSE
+maxNumLevels 4
+levelSourceType "TitanUpgradeLevel"
+sourcePropertyType "AbilityCLevel"
+aiUseTime "OnlyInCombat"
+aiUseTargetCondition "IsCapitalShipOrStarbaseOrTitan"
+isAutoCastAvailable TRUE
+isAutoCastOnByDefault TRUE
+pickRandomPlanetToExploreForAutoCastTarget FALSE
+ignoreNonCombatShipsForAutoCastTarget TRUE
+onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
+useCostType "AntiMatter"
+antiMatterCost
+	Level:0 70.000000
+	Level:1 70.000000
+	Level:2 70.000000
+	Level:3 70.000000
+cooldownTime
+	Level:0 11.000000
+	Level:1 10.000000
+	Level:2 9.000000
+	Level:3 8.000000
+orderAcknowledgementType "ONGENERALORDERISSUED"
+researchPrerequisites
+	NumResearchPrerequisites 0
+	RequiredFactionNameID ""
+	RequiredCompletedResearchSubjects 0
+nameStringID "IDS_ABILITY_SNIPE_NAME"
+descStringID "IDS_ABILITY_SNIPE_DESCRIPTION"
+hudIcon "HUDICON_ABILITY_SNIPE"
+smallHudIcon "HUDICON_ABILITY_SNIPE"
+infoCardIcon ""

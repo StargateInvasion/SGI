@@ -1,0 +1,49 @@
+﻿TXT2
+SinsArchiveVersion 193
+entityType "Buff"
+onReapplyDuplicateType "PrioritizeOldBuffs"
+buffStackingLimitType "ForAllPlayers"
+stackingLimit 1
+allowFirstSpawnerToStack FALSE
+buffExclusivityForAIType "ExclusiveForAllPlayers"
+isInterruptable FALSE
+isChannelling FALSE
+numInstantActions 1
+instantAction
+	buffInstantActionType "PlayPersistantAttachedEffect"
+	instantActionTriggerType "OnDelay"
+	delayTime 0.000000
+	effectInfo
+		effectAttachInfo
+			attachType "Ability"
+			abilityIndex 0
+		smallEffectName "TitanAbility_FuriousDefenseActivate"
+		mediumEffectName "TitanAbility_FuriousDefenseActivate"
+		largeEffectName "TitanAbility_FuriousDefenseActivate"
+		soundID "EFFECT_FURIOUSDEFENSE_ACTIVATE"
+numPeriodicActions 0
+numOverTimeActions 1
+overTimeAction
+	buffOverTimeActionType "RestoreHull"
+	hullRestoreRate
+		Level:0 30.000000
+		Level:1 40.000000
+		Level:2 50.000000
+		Level:3 60.000000
+numEntityModifiers 1
+entityModifier
+	buffEntityModifierType "DamageAsDamageDealer"
+	value
+		Level:0 0.350000
+		Level:1 0.450000
+		Level:2 0.550000
+		Level:3 0.650000
+numEntityBoolModifiers 0
+numFinishConditions 1
+finishCondition
+	finishConditionType "TimeElapsed"
+	time
+		Level:0 60.000000
+		Level:1 60.000000
+		Level:2 60.000000
+		Level:3 60.000000
