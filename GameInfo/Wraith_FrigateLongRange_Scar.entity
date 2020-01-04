@@ -4,7 +4,7 @@ entityType "Frigate"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
-usesFighterAttack TRUE
+usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 2
@@ -59,7 +59,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
-	Range 4000.000000
+	Range 6000.000000
 	PreBuffCooldownTime 3.500000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
@@ -97,7 +97,7 @@ Weapon
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 20.000000
 	DamagePerBank:RIGHT 20.000000
-	Range 4000.000000
+	Range 6000.000000
 	PreBuffCooldownTime 4.500000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
