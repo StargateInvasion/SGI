@@ -12,23 +12,23 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb TRUE
 hasBombingLevels FALSE
-baseDamage 43.000000
-basePopulationKilled 1.650000
-bombingFreqTime 10.000000
-baseRange 3000.000000
-bombTransitTime 12.000000
-bombEffectCount 3
-bombEffectAngleVariance 15.000000
+baseDamage 30.000000
+basePopulationKilled 0.500000
+bombingFreqTime 5.000000
+baseRange 4000.000000
+bombTransitTime 3.000000
+bombEffectCount 10
+bombEffectAngleVariance 30.000000
 bombEffectsDef
 	weaponType "Projectile"
-	burstCount 5
-	burstDelay 0.000000
+	burstCount 1
+	burstDelay 0.200000
 	fireDelay 0.000000
-	muzzleEffectName "Weapon_PsiCapitalPlanetBombing_Muzzle"
+	muzzleEffectName "Weapon_WraithCapitalPlasma_Muzzle"
 	muzzleSoundMinRespawnTime 0.100000
 	muzzleSounds
 		soundCount 1
-		sound "WEAPON_PSI_PLANETBOMB_MUZZLE"
+		sound "WEAPON_WRAITHCAPITALPLASMA_MUZZLE"
 	hitEffectName "Weapon_PsiCapitalPlanetBombing_Hit"
 	hitHullEffectSounds
 		soundCount 3
@@ -40,7 +40,7 @@ bombEffectsDef
 		sound "EXPLOSION_SUB4"
 		sound "EXPLOSION_SUB4_ALT1"
 		sound "EXPLOSION_SUB4_ALT2"
-	projectileTravelEffectName "Weapon_WraithCapitalPlasmaHeavy_Travel"
+	projectileTravelEffectName "Weapon_WraithCapitalPlasma_Travel"
 mainViewIcon "MAINVIEWICON_WRAITH_CAPITALBATTLESHIP"
 basePrice
 	credits 3000.000000

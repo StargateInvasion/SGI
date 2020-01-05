@@ -4,7 +4,7 @@ entityType "Frigate"
 defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
-usesFighterAttack TRUE
+usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb FALSE
 typeCount 2
@@ -64,15 +64,15 @@ Weapon
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
 	PointStaggerDelay 0.400000
-	TravelSpeed 4000.000000
+	TravelSpeed 3000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
 		burstCount 2
-		burstDelay 0.500000
+		burstDelay 0.700000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_WraithFrigatePlasma_Muzzle"
+		muzzleEffectName "Weapon_WraithCruiserPlasma_Muzzle"
 		muzzleSoundMinRespawnTime 0.500000
 		muzzleSounds
 			soundCount 1

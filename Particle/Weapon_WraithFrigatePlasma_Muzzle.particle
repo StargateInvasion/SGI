@@ -1,8 +1,9 @@
-﻿TXT
+﻿TXT2
+SinsArchiveVersion 194
 ParticleSimulation
 	HasInfiniteLifeTime FALSE
 	TotalLifeTime 10.000000
-	NumEmitters 1
+	NumEmitters 2
 	EmitterType "Point"
 	EmitterContents
 		Name "ball"
@@ -21,9 +22,9 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
-		ParticleStartColor ffffffff
-		ParticleWidth 80.000000
-		ParticleHeight 80.000000
+		ParticleStartColor ffbea0ff
+		ParticleWidth 5.000000
+		ParticleHeight 5.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -41,7 +42,55 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "Wraith_Weapons_Plasma_Muzzle"
+		textureName "C:\Users\vikin\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.85 Dev\SGI\Textures\Wraith_Weapons_Plasma_Muzzle.dds"
+		textureName ""
+		textureAnimationName ""
+		textureAnimationSpawnType "RandomFrames"
+		textureAnimationOnParticleFPS 0.000000
+		ParticlesRotate FALSE
+		MeshParticleRotationAxisType 0
+		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
+		RotationDirectionType 0
+		AngleVariance 3.141593
+	EmitterType "Point"
+	EmitterContents
+		Name "(copy) ball-1"
+		Enabled TRUE
+		EmitRate 1.000000
+		HasInfiniteEmitCount FALSE
+		MaxEmitCount 1
+		hasEmitIntervals FALSE
+		emitIntervalRunDuration 0.000000
+		emitIntervalWaitDuration 0.000000
+		ParticleLifeTime 0.400000
+		ParticleMinStartLinearSpeed 0.000000
+		ParticleMaxStartLinearSpeed 0.000000
+		ParticleMinStartAngularSpeed 0.000000
+		ParticleMaxStartAngularSpeed 0.000000
+		ParticleMinStartRotation 0.000000
+		ParticleMaxStartRotation 0.000000
+		ParticleStartMass 1.000000
+		ParticleStartColor ff500aff
+		ParticleWidth 5.000000
+		ParticleHeight 5.000000
+		MeshName ""
+		Position [ 0.000000 0.000000 0.000000 ]
+		Orientation
+			 [ 1.000000 0.000000 0.000000 ]
+			 [ 0.000000 1.000000 0.000000 ]
+			 [ 0.000000 0.000000 1.000000 ]
+		RotateAboutForward 0.000000
+		RotateAboutUp 0.000000
+		RotateAboutCross 0.000000
+		StartTime 0.000000
+		HasInfiniteLifeTime FALSE
+		TotalLifeTime 7.000000
+		BillboardAnchor 0
+		ParticleFacing 0
+		PipelineEffectID "Particle_Additive.fx"
+		AreParticlesAttached TRUE
+		numTextures 2
+		textureName "C:\Users\vikin\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.85 Dev\SGI\Textures\Wraith_Weapons_Plasma_Muzzle.dds"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -64,8 +113,9 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 1
+		numAttachedEmitters 2
 		attachedEmitterName "ball"
+		attachedEmitterName "(copy) ball-1"
 		WidthInflateRate 50.000000
 		HeightInflateRate 50.000000
 	AffectorType "LinearForceToPoint"
@@ -80,8 +130,9 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 1
+		numAttachedEmitters 2
 		attachedEmitterName "ball"
+		attachedEmitterName "(copy) ball-1"
 		MinForce 1.000000
 		MaxForce 500.000000
 		Point [ 0.000000 0.000000 0.000000 ]
@@ -97,8 +148,9 @@ ParticleSimulation
 		UseOldParticleAffectThreshold FALSE
 		OldParticleAffectThreshold 0.000000
 		AffectAttachedParticles TRUE
-		numAttachedEmitters 1
+		numAttachedEmitters 2
 		attachedEmitterName "ball"
+		attachedEmitterName "(copy) ball-1"
 		DoFadeOut TRUE
 		FadeOutTime 0.400000
 		DoFadeIn TRUE

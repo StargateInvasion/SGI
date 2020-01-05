@@ -1,4 +1,5 @@
-﻿TXT
+﻿TXT2
+SinsArchiveVersion 194
 ParticleSimulation
 	HasInfiniteLifeTime TRUE
 	TotalLifeTime 20.000000
@@ -21,9 +22,9 @@ ParticleSimulation
 		ParticleMinStartRotation 0.000000
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 1.000000
-		ParticleStartColor ff8080ff
-		ParticleWidth 3.000000
-		ParticleHeight 12.000000
+		ParticleStartColor ffffffff
+		ParticleWidth 7.000000
+		ParticleHeight 10.000000
 		MeshName ""
 		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
@@ -41,9 +42,9 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
+		textureName "C:\Users\vikin\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.85 Dev\SGI\Textures\Wraith_Weapons_Plasma.dds"
 		textureName ""
-		textureName ""
-		textureAnimationName "Wraith_Plasma_Heavy.texanim"
+		textureAnimationName ""
 		textureAnimationSpawnType "SequentialFrames"
 		textureAnimationOnParticleFPS 12.000000
 		ParticlesRotate FALSE
@@ -70,10 +71,10 @@ ParticleSimulation
 		ParticleMaxStartRotation 0.000000
 		ParticleStartMass 0.000000
 		ParticleStartColor ffffffff
-		ParticleWidth 3.000000
-		ParticleHeight 5.000000
+		ParticleWidth 1.000000
+		ParticleHeight 2.000000
 		MeshName ""
-		Position [ 0.000000 0.000000 15.000000 ]
+		Position [ 0.000000 0.000000 0.000000 ]
 		Orientation
 			 [ 1.000000 0.000000 0.000000 ]
 			 [ 0.000000 1.000000 0.000000 ]
@@ -89,7 +90,7 @@ ParticleSimulation
 		PipelineEffectID "Particle_Additive.fx"
 		AreParticlesAttached TRUE
 		numTextures 2
-		textureName "psifighterplasma-front.dds"
+		textureName "C:\Users\vikin\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.85 Dev\SGI\Textures\Wraith_Weapons_Plasma_Front.dds"
 		textureName ""
 		textureAnimationName ""
 		textureAnimationSpawnType "RandomFrames"
@@ -99,25 +100,5 @@ ParticleSimulation
 		MeshParticleRotationAxis [ 0.000000 0.100000 0.000000 ]
 		RotationDirectionType 0
 		AngleVariance 0.000000
-	NumAffectors 1
-	AffectorType "SizeOscillator"
-	AffectorContents
-		Name "(new) SizeOscillator-1"
-		Enabled TRUE
-		StartTime 0.000000
-		HasInfiniteLifeTime TRUE
-		TotalLifeTime 0.000000
-		UseYoungParticleAffectThreshold FALSE
-		YoungParticleAffectThreshold 0.000000
-		UseOldParticleAffectThreshold FALSE
-		OldParticleAffectThreshold 0.000000
-		AffectAttachedParticles TRUE
-		numAttachedEmitters 2
-		attachedEmitterName "laserbolt"
-		attachedEmitterName "end point"
-		TransitionPeriod 0.200000
-		BeginSizeX 5.000000
-		BeginSizeY 5.000000
-		EndSizeX 5.000000
-		EndSizeY 20.000000
+	NumAffectors 0
 	length 0.000000
