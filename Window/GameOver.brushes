@@ -17,47 +17,47 @@ brush
 	fileName "GameOver"
 	pixelBox [ 0 , 0 , 0 , 0 ]
 brush
-	name "GameOverDialogHasWonPictureTech"
+	name "GameOverDialogHasWonPictureHuman"
 	content "Simple"
-	fileName "GameOverTechWin"
+	fileName "GameOverHumanWin"
 	pixelBox [ 0 , 0 , 1024 , 768 ]
 brush
-	name "GameOverDialogHasLostPictureTech"
+	name "GameOverDialogHasLostPictureHuman"
 	content "Simple"
-	fileName "GameOverTechLoss"
+	fileName "GameOverGoauldLoss"
 	pixelBox [ 0 , 0 , 1024 , 768 ]
 brush
-	name "GameOverDialogPlayerThemeBackdropTech"
+	name "GameOverDialogHasWonPictureGoauld"
 	content "Simple"
-	fileName "GameOver"
-	pixelBox [ 0 , 0 , 0 , 0 ]
-brush
-	name "GameOverDialogHasWonPicturePsi"
-	content "Simple"
-	fileName "GameOverPsiWin"
+	fileName "GameOverGoauldWin"
 	pixelBox [ 0 , 0 , 1024 , 768 ]
 brush
-	name "GameOverDialogHasLostPicturePsi"
+	name "GameOverDialogHasLostPictureGoauld"
 	content "Simple"
-	fileName "GameOverPsiLoss"
+	fileName "GameOverHumanLoss"
 	pixelBox [ 0 , 0 , 1024 , 768 ]
 brush
-	name "GameOverDialogPlayerThemeBackdropPsi"
+	name "GameOverDialogHasWonPictureWraith"
 	content "Simple"
-	fileName "GameOver"
-	pixelBox [ 0 , 0 , 0 , 0 ]
-brush
-	name "GameOverDialogHasWonPicturePhase"
-	content "Simple"
-	fileName "GameOverPhaseWin"
+	fileName "GameOverWraithWin"
 	pixelBox [ 0 , 0 , 1024 , 768 ]
 brush
-	name "GameOverDialogHasLostPicturePhase"
+	name "GameOverDialogHasLostPictureWraith"
 	content "Simple"
-	fileName "GameOverPhaseLoss"
+	fileName "GameOverWraithLoss"
 	pixelBox [ 0 , 0 , 1024 , 768 ]
 brush
-	name "GameOverDialogPlayerThemeBackdropPhase"
+	name "GameOverDialogHasWonPictureAsuran"
+	content "Simple"
+	fileName "GameOverAsuranWin"
+	pixelBox [ 0 , 0 , 1024 , 768 ]
+brush
+	name "GameOverDialogHasLostPictureAsuran"
+	content "Simple"
+	fileName "GameOverAsuranLoss"
+	pixelBox [ 0 , 0 , 1024 , 768 ]
+brush
+	name "GameOverDialogPlayerThemeBackdrop"
 	content "Simple"
 	fileName "GameOver"
 	pixelBox [ 0 , 0 , 0 , 0 ]
