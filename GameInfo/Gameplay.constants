@@ -987,26 +987,132 @@ GameplayConstants
 			xOffset 0
 			yOffset -52
 		outlawSpawnShipsType "MatchPlayerRace"
-		numOutlawSpawnShipsOptionsCount 1
+		numOutlawSpawnShipsOptionsCount 5
+		outlawSpawnShipsOptions
+			raceEntityName "PlayerAsgard"
+			spawnShips
+				minFleetPoints 20.000000
+				maxFleetPoints 20.000000
+				requiredShipCount 0
+				randomShipCount 6
+				randomShip
+					type "Asgard_FrigateLight_Ceres"
+					weight 4
+				randomShip
+					type "Asgard_FrigateLongRange_Erinyes"
+					weight 5
+				randomShip
+					type "Asgard_CruiserHeavy_Atropos"
+					weight 6
+				randomShip
+					type "Asgard_FrigateAntiFighter_Ogen"
+					weight 3
+				randomShip
+					type "Asgard_FrigateCorvette_Nemesis"
+					weight 2
+				randomShip
+					type "Asgard_CruiserCarrier_Caelus"
+					weight 1
+		outlawSpawnShipsOptions
+			raceEntityName "PlayerAsuran"
+			spawnShips
+				minFleetPoints 20.000000
+				maxFleetPoints 20.000000
+				requiredShipCount 0
+				randomShipCount 6
+				randomShip
+					type "Asuran_FrigateLight_Ceres"
+					weight 4
+				randomShip
+					type "Asuran_FrigateLongRange_Erinyes"
+					weight 5
+				randomShip
+					type "Asuran_CruiserHeavy_Atropos"
+					weight 6
+				randomShip
+					type "Asuran_FrigateAntiFighter_Ogen"
+					weight 3
+				randomShip
+					type "Asuran_FrigateCorvette_Nemesis"
+					weight 2
+				randomShip
+					type "Asuran_CruiserCarrier_Caelus"
+					weight 1
+		outlawSpawnShipsOptions
+			raceEntityName "PlayerGoauld"
+			spawnShips
+				minFleetPoints 20.000000
+				maxFleetPoints 20.000000
+				requiredShipCount 0
+				randomShipCount 6
+				randomShip
+					type "Goauld_FrigateLight_Ammit"
+					weight 4
+				randomShip
+					type "Goauld_FrigateLongRange_Osiris"
+					weight 5
+				randomShip
+					type "Goauld_CruiserHeavy_Maat"
+					weight 6
+				randomShip
+					type "Goauld_FrigateAntiFighter_Duat"
+					weight 3
+				randomShip
+					type "Goauld_FrigateCorvette_Horus"
+					weight 2
+				randomShip
+					type "Goauld_CruiserCarrier_Hokkesh"
+					weight 1
 		outlawSpawnShipsOptions
 			raceEntityName "PlayerHuman"
 			spawnShips
 				minFleetPoints 20.000000
 				maxFleetPoints 20.000000
 				requiredShipCount 0
-				randomShipCount 4
+				randomShipCount 6
 				randomShip
-					type "Replicator_Frigate_Spider"
+					type "Human_FrigateLight_X303"
 					weight 4
 				randomShip
-					type "Replicator_Frigate_Spider"
+					type "Human_FrigateLongRange_Tempest"
 					weight 5
 				randomShip
-					type "Replicator_Frigate_Spider"
+					type "Human_CruiserHeavy_BC304"
 					weight 6
 				randomShip
-					type "Replicator_Frigate_Siege"
+					type "Human_FrigateAntiFighter_Claudius"
 					weight 3
+				randomShip
+					type "Human_FrigateCorvette_Morpheus"
+					weight 2
+				randomShip
+					type "Human_CruiserCarrier_Cerberus"
+					weight 1
+		outlawSpawnShipsOptions
+			raceEntityName "PlayerWraith"
+			spawnShips
+				minFleetPoints 20.000000
+				maxFleetPoints 20.000000
+				requiredShipCount 0
+				randomShipCount 6
+				randomShip
+					type "Wraith_FrigateLight_Eternal"
+					weight 4
+				randomShip
+					type "Wraith_FrigateLongRange_Scar"
+					weight 5
+				randomShip
+					type "Wraith_CruiserHeavy_Cruiser"
+					weight 6
+				randomShip
+					type "Wraith_FrigateAntiFighter_Precision"
+					weight 3
+				randomShip
+					type "Wraith_FrigateCorvette_Hound"
+					weight 2
+				randomShip
+					type "Wraith_CruiserCarrier_Lilin"
+					weight 1
 		baseFleetCapacity 20.0
 		maxFleetSupplyPerPlanetPopulation .025
 		fleetSupplyMin 100.0
