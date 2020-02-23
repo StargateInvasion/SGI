@@ -8,9 +8,9 @@ numRandomDebrisLarge 0
 numRandomDebrisSmall 0
 numSpecificDebris 0
 armorType "VeryLight"
-hudIcon "HUDICON_WRAITH_FIGHTERMINELAYER"
-smallHudIcon "HUDICONSMALL_WRAITH_SQUADMINELAYER"
-infoCardIcon "MAINVIEWICON_WRAITH_SQUADMINELAYER"
+hudIcon "HUDICON_WRAITH_FIGHTERBOMBER"
+smallHudIcon "HUDICONSMALL_WRAITH_SQUADBOMBER"
+infoCardIcon "MAINVIEWICON_WRAITH_SQUADBOMBER"
 minZoomDistanceMult 5.000000
 nameStringID "IDS_FIGHTERWRAITHMINELAYER_NAME"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_NONCOMBAT"
@@ -33,7 +33,7 @@ TargetCountPerBank:BACK 0
 TargetCountPerBank:LEFT 0
 TargetCountPerBank:RIGHT 0
 canOnlyTargetStructures FALSE
-meshName "SupportShip_PsiMine"
+meshName "Wraith_FighterBomber"
 exhaustParticleSystemName "ExhaustSmall"
 ExplosionName "Fighter0"
 exhaustTrailTextureName "ExhaustTrail"

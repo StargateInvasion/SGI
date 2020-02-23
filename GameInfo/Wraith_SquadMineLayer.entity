@@ -4,9 +4,9 @@ defaultAutoAttackRange "GravityWell"
 defaultAutoAttackOn TRUE
 prefersToFocusFire TRUE
 usesFighterAttack FALSE
-hudIcon "HUDICON_WRAITH_FIGHTERMINELAYER"
-smallHudIcon "HUDICONSMALL_WRAITH_SQUADMINELAYER"
-infoCardIcon "MAINVIEWICON_WRAITH_SQUADMINELAYER"
+hudIcon "HUDICON_WRAITH_FIGHTERBOMBER"
+smallHudIcon "HUDICONSMALL_WRAITH_SQUADBOMBER"
+infoCardIcon "MAINVIEWICON_WRAITH_SQUADBOMBER"
 fighterEntityDef "Wraith_FighterMineLayer"
 fighterIllusionEntityDef "Wraith_FighterMineLayer"
 scuttleTime 8.000000
@@ -15,10 +15,10 @@ decayWithoutOwnerRate 0.010000
 baseMaxNumFighters 3
 role "MineLayer"
 statCountType "SquadMineLayer"
-mainViewIcon "MAINVIEWICON_WRAITH_SQUADMINELAYER"
-picture "PICTURE_WRAITH_SQUADMINELAYER"
-launchIcon "HUDICONLAUNCH_SQUADWRAITHMINELAYER"
-dockIcon "HUDICONDOCK_SQUADMINELAYER"
+mainViewIcon "MAINVIEWICON_WRAITH_SQUADBOMBER"
+picture "PICTURE_WRAITH_SQUADBOMBER"
+launchIcon "HUDICONLAUNCH_SQUADWRAITHBOMBER"
+dockIcon "HUDICONDOCK_SQUADBOMBER"
 nameStringID "IDS_WRAITH_SQUADMINELAYER_NAME"
 descriptionStringID "IDS_WRAITH_SQUADMINELAYER_DESC"
 researchPrerequisites
