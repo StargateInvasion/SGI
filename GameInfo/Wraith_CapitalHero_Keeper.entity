@@ -1,8 +1,8 @@
 ﻿TXT
 entityType "CapitalShip"
-ability:0 "Asuran_AbilityCapital_Cloak"
-ability:1 "Asuran_AbilityCapital_DroneFrenzy"
-ability:2 "Asuran_AbilityCapital_AdvancedTargetingSensors"
+ability:0 "Wraith_AbilityCapital_PlasmaPulse"
+ability:1 "Wraith_AbilityCapital_StunPulse"
+ability:2 "Wraith_AbilityCapital_Domination"
 ability:3 "Wraith_AbilityCapital_Keeper"
 ability:4 ""
 defaultAutoAttackRange "GravityWell"
@@ -55,7 +55,7 @@ MaxShieldPoints
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.000000
 HullPointRestoreRate
-	StartValue 10.000000
+	StartValue 15.000000
 	ValueIncreasePerLevel 6.300000
 ShieldPointRestoreRate
 	StartValue 0.000000
@@ -221,7 +221,7 @@ NumSoundsFor:ONSTARTPHASEJUMP 1
 SoundID "CAPITALSHIP_PSIBATTLESHIP_ONSTARTPHASEJUMP_0"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Wraith_CapitalHero_Todd"
+	meshName "Wraith_CapitalColony_Keeper"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""

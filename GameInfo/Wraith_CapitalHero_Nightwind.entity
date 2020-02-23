@@ -172,15 +172,15 @@ maxDecelerationAngular 90.999996
 maxSpeedLinear 700.000000
 maxRollRate 15.000000
 maxRollAngle 35.000000
-squadTypeEntityDef:0 ""
+squadTypeEntityDef:0 "Wraith_SquadCombat_Dart"
 squadAntiMatterCost:0 0.000000
-squadTypeEntityDef:1 ""
+squadTypeEntityDef:1 "Wraith_SquadBomber"
 squadAntiMatterCost:1 0.000000
 squadTypeEntityDef:2 ""
 squadAntiMatterCost:2 0.000000
 squadTypeEntityDef:3 ""
 squadAntiMatterCost:3 0.000000
-maxNumCommandPoints 0
+maxNumCommandPoints 4
 NumSoundsFor:ONATTACKORDERISSUED 1
 SoundID "Asuran_CruiserHeavyAttack"
 NumSoundsFor:ONCREATION 1
@@ -195,7 +195,7 @@ SoundID "Asuran_Hyperspace_engaging1"
 SoundID "Asuran_Hyperspace_engaging2"
 MeshNameInfoCount 1
 MeshNameInfo
-	meshName "Wraith_CapitalHero_Todd"
+	meshName "Wraith_CapitalColony_Keeper"
 	criteriaType "None"
 meshNameIncreasedEffectName ""
 meshNameDecreasedEffectName ""
@@ -204,9 +204,9 @@ ExplosionName "Frigate0"
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
-ability:0 "Asuran_AbilityCruiser_DroneFrenzy"
-ability:1 "Asuran_AbilityCruiser_Cloak"
-ability:2 "Asuran_AbilityCruiser_SelfRepairHeavy"
+ability:0 "Wraith_AbilityCruiser_PlasmaPulse"
+ability:1 "Wraith_AbilityCruiser_StealAntiMatter"
+ability:2 "Wraith_AbilityCruiser_Suppression"
 ability:3 "Wraith_AbilityCapital_Nightwind"
 ability:4 ""
 MaxAntiMatter 300.000000

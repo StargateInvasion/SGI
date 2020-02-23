@@ -24,11 +24,11 @@ slotCount 7.000000
 BuildTime 40.000000
 hasLevels FALSE
 ExperiencePointsForDestroying 20.000000
-MaxHullPoints 925.000000
+MaxHullPoints 1000.000000
 MaxShieldPoints 0.000000
 HullPointRestoreRate 1.000000
 ShieldPointRestoreRate 0.000000
-BaseArmorPoints 0.000000
+BaseArmorPoints 2.000000
 maxMitigation 0.000000
 relationshipChangeRate 0.000000
 Prerequisites
@@ -51,11 +51,11 @@ Weapon
 		DamageAffectType "AFFECTS_SHIELDS_AND_HULL"
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
-		WeaponClassType "LASERPSI"
-	DamagePerBank:FRONT 40.000000
-	DamagePerBank:BACK 40.000000
-	DamagePerBank:LEFT 40.000000
-	DamagePerBank:RIGHT 40.000000
+		WeaponClassType "PLASMA"
+	DamagePerBank:FRONT 35.000000
+	DamagePerBank:BACK 35.000000
+	DamagePerBank:LEFT 35.000000
+	DamagePerBank:RIGHT 35.000000
 	Range 2500.000000
 	PreBuffCooldownTime 8.000000
 	CanFireAtFighter FALSE

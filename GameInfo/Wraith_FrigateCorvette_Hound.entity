@@ -16,16 +16,16 @@ NameStringID "IDS_WRAITH_FRIGATECORVETTE_NAME"
 DescriptionStringID "IDS_WRAITH_FRIGATECORVETTE_DESCRIPTION"
 counterDescriptionStringID "IDS_COUNTERDESC_FRIGATE_LIGHT"
 basePrice
-	credits 600.000000
-	metal 250.000000
-	crystal 175.000000
-slotCount 10.000000
-BuildTime 20.000000
+	credits 300.000000
+	metal 25.000000
+	crystal 17.000000
+slotCount 5.000000
+BuildTime 10.000000
 hasLevels FALSE
-ExperiencePointsForDestroying 10.000000
-MaxHullPoints 2600.000000
+ExperiencePointsForDestroying 3.000000
+MaxHullPoints 1000.000000
 MaxShieldPoints 0.000000
-HullPointRestoreRate 1.000000
+HullPointRestoreRate 2.000000
 ShieldPointRestoreRate 0.000000
 BaseArmorPoints 4.000000
 maxMitigation 0.000000
@@ -54,7 +54,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 30.000000
+	DamagePerBank:FRONT 20.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -94,7 +94,7 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 30.000000
+	DamagePerBank:FRONT 20.000000
 	DamagePerBank:BACK 0.000000
 	DamagePerBank:LEFT 0.000000
 	DamagePerBank:RIGHT 0.000000
@@ -181,13 +181,13 @@ ExplosionName "Frigate1"
 HyperspaceChargingSoundID "HYPERSPACE_CHARGEUP"
 HyperspaceTravelSoundID "HYPERSPACE_TRAVEL"
 EngineSoundID "ENGINE_PHASECAPITALSHIP"
-ability:0 "Asuran_AbilityFrigate_DroneFrenzy"
-ability:1 "Asuran_AbilityFrigate_Cloak"
+ability:0 ""
+ability:1 ""
 ability:2 ""
 ability:3 ""
 ability:4 ""
-MaxAntiMatter 130.000000
-AntiMatterRestoreRate 0.500000
+MaxAntiMatter 0.000000
+AntiMatterRestoreRate 0.000000
 cargoType "Invalid"
 maxCargoCapacity 0.000000
 formationRank 0
