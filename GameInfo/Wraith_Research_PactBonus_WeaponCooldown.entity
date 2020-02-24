@@ -29,19 +29,11 @@ onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
 researchBoolModifiers 0
-researchFloatModifiers 3
+researchFloatModifiers 1
 researchModifier
-	modifierType "ArmorBaseAdjustment"
+	modifierType "WeaponTargetsPerBankAdjustmentCapitalShipsOrStarbases"
 	baseValue 0.000000
-	perLevelValue 2.000000
-researchModifier
-	modifierType "HullPointsMaxBonusPerArmorPoint"
-	baseValue 0.000000
-	perLevelValue 20.000000
-researchModifier
-	modifierType "HullPointsMaxBonusPerArmorPointMax"
-	baseValue 0.000000
-	perLevelValue 200.000000
+	perLevelValue 1.000000
 artifactPicture ""
 uniqueOverlayBrush ""
 dlcId 204880

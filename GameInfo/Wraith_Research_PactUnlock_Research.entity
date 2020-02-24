@@ -7,13 +7,10 @@ NameStringID "IDS_RESEARCHSUBJECT_PACT_RESEARCH_NAME"
 DescriptionStringID "IDS_RESEARCHSUBJECT_PACT_RESEARCH_DESCRIPTION"
 researchWindowLocation
 	block 0
-	pos [ 3 , 4 ]
+	pos [ 3 , 3 ]
 ResearchField "Diplomacy"
 Prerequisites
-	NumResearchPrerequisites 1
-	ResearchPrerequisite
-		Subject "Wraith_Research_PactUnlock_Culture"
-		Level 1
+	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
