@@ -12,23 +12,23 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb TRUE
 hasBombingLevels FALSE
-baseDamage 45.000000
-basePopulationKilled 1.750000
-bombingFreqTime 10.000000
-baseRange 5000.000000
-bombTransitTime 10.000000
-bombEffectCount 1
-bombEffectAngleVariance 3.000000
+baseDamage 30.000000
+basePopulationKilled 0.500000
+bombingFreqTime 5.000000
+baseRange 3000.000000
+bombTransitTime 3.000000
+bombEffectCount 10
+bombEffectAngleVariance 30.000000
 bombEffectsDef
 	weaponType "Projectile"
-	burstCount 2
-	burstDelay 0.000000
+	burstCount 1
+	burstDelay 0.200000
 	fireDelay 0.000000
-	muzzleEffectName "Weapon_PsiCapitalPlanetBombing_Muzzle"
+	muzzleEffectName "Weapon_WraithCapitalPlasma_Muzzle"
 	muzzleSoundMinRespawnTime 0.100000
 	muzzleSounds
 		soundCount 1
-		sound "WEAPON_PSI_PLANETBOMB_MUZZLE"
+		sound "WEAPON_WRAITHCAPITALPLASMA_MUZZLE"
 	hitEffectName "Weapon_PsiCapitalPlanetBombing_Hit"
 	hitHullEffectSounds
 		soundCount 3
@@ -40,17 +40,17 @@ bombEffectsDef
 		sound "EXPLOSION_SUB4"
 		sound "EXPLOSION_SUB4_ALT1"
 		sound "EXPLOSION_SUB4_ALT2"
-	projectileTravelEffectName "Weapon_WraithCapitalPlasmaHeavy_Travel"
+	projectileTravelEffectName "Weapon_WraithCapitalPlasma_Travel"
 mainViewIcon "MAINVIEWICON_WRAITH_CAPITALSUPPORT"
 basePrice
 	credits 3000.000000
-	metal 2000.000000
-	crystal 750.000000
+	metal 1000.000000
+	crystal 950.000000
 slotCount 80.000000
 BuildTime 175.000000
 MaxHullPoints
-	StartValue 4500.000000
-	ValueIncreasePerLevel 100.000000
+	StartValue 6000.000000
+	ValueIncreasePerLevel 200.000000
 MaxShieldPoints
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.000000
@@ -62,7 +62,7 @@ ShieldPointRestoreRate
 	ValueIncreasePerLevel 0.000000
 ArmorPointsFromExperience
 	StartValue 6.000000
-	ValueIncreasePerLevel 0.340000
+	ValueIncreasePerLevel 0.300000
 maxMitigation
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.035000
@@ -113,14 +113,14 @@ Weapon
 	PreBuffCooldownTime 3.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.500000
+	PointStaggerDelay 0.550000
 	TravelSpeed 4000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 1
-		burstDelay 0.000000
+		burstCount 2
+		burstDelay 0.250000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_WraithCapitalPlasma_Muzzle"
 		muzzleSoundMinRespawnTime 0.500000
@@ -144,7 +144,7 @@ TargetCountPerBank:RIGHT 1
 canOnlyTargetStructures FALSE
 mass 6000.000000
 ShieldMeshName ""
-renderShield TRUE
+renderShield FALSE
 maxAccelerationLinear 139.000000
 maxAccelerationStrafe 70.000000
 maxDecelerationLinear 107.000000

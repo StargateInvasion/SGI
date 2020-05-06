@@ -12,31 +12,35 @@ usesFighterAttack FALSE
 autoJoinFleetDefault TRUE
 canBomb TRUE
 hasBombingLevels FALSE
-baseDamage 40.000000
-basePopulationKilled 1.425000
-bombingFreqTime 1.000000
-baseRange 5000.000000
-bombTransitTime 2.000000
-bombEffectCount 5
-bombEffectAngleVariance 10.000000
+baseDamage 30.000000
+basePopulationKilled 0.500000
+bombingFreqTime 5.000000
+baseRange 3000.000000
+bombTransitTime 3.000000
+bombEffectCount 10
+bombEffectAngleVariance 30.000000
 bombEffectsDef
 	weaponType "Projectile"
-	burstCount 5
-	burstDelay 0.500000
+	burstCount 1
+	burstDelay 0.200000
 	fireDelay 0.000000
-	muzzleEffectName "Weapon_PsiCapitalPlasmaHeavy_Muzzle"
+	muzzleEffectName "Weapon_WraithCapitalPlasma_Muzzle"
 	muzzleSoundMinRespawnTime 0.100000
 	muzzleSounds
 		soundCount 1
 		sound "WEAPON_WRAITHCAPITALPLASMA_MUZZLE"
-	hitEffectName "Weapon_TechCapitalAutoCannonHeavy_Hit"
+	hitEffectName "Weapon_PsiCapitalPlanetBombing_Hit"
 	hitHullEffectSounds
-		soundCount 1
-		sound "WEAPONIMPACT_ENERGYHEAVY_HITHULL"
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
 	hitShieldsEffectSounds
-		soundCount 1
-		sound "WEAPONIMPACT_GENERICHEAVY_HITSHIELDS"
-	projectileTravelEffectName "Weapon_PsiCapitalPlasmaHeavy_Travel"
+		soundCount 3
+		sound "EXPLOSION_SUB4"
+		sound "EXPLOSION_SUB4_ALT1"
+		sound "EXPLOSION_SUB4_ALT2"
+	projectileTravelEffectName "Weapon_WraithCapitalPlasma_Travel"
 mainViewIcon "MAINVIEWICON_WRAITH_CAPITALCARRIER_HIVE"
 basePrice
 	credits 4000.000000
@@ -45,20 +49,20 @@ basePrice
 slotCount 55.000000
 BuildTime 180.000000
 MaxHullPoints
-	StartValue 10000.000000
-	ValueIncreasePerLevel 890.000000
+	StartValue 6000.000000
+	ValueIncreasePerLevel 500.000000
 MaxShieldPoints
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.000000
 HullPointRestoreRate
-	StartValue 50.000000
-	ValueIncreasePerLevel 8.900000
+	StartValue 35.000000
+	ValueIncreasePerLevel 5.000000
 ShieldPointRestoreRate
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.000000
 ArmorPointsFromExperience
 	StartValue 6.000000
-	ValueIncreasePerLevel 0.889000
+	ValueIncreasePerLevel 1.000000
 maxMitigation
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.000000
@@ -100,22 +104,22 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 200.000000
-	DamagePerBank:BACK 200.000000
-	DamagePerBank:LEFT 400.000000
-	DamagePerBank:RIGHT 400.000000
+	DamagePerBank:FRONT 100.000000
+	DamagePerBank:BACK 100.000000
+	DamagePerBank:LEFT 100.000000
+	DamagePerBank:RIGHT 100.000000
 	Range 5000.000000
 	PreBuffCooldownTime 3.000000
 	CanFireAtFighter FALSE
 	SynchronizedTargeting FALSE
-	PointStaggerDelay 0.500000
+	PointStaggerDelay 0.550000
 	TravelSpeed 4000.000000
 	Duration 0.000000
 	fireConstraintType "CanAlwaysFire"
 	WeaponEffects
 		weaponType "Projectile"
-		burstCount 1
-		burstDelay 0.000000
+		burstCount 2
+		burstDelay 0.25000
 		fireDelay 0.000000
 		muzzleEffectName "Weapon_WraithCapitalPlasma_Muzzle"
 		muzzleSoundMinRespawnTime 0.500000
@@ -181,7 +185,7 @@ meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_PsiCarrier"
 ExplosionName "CapitalShip0"
 CommandPoints
-	StartValue 10.000000
+	StartValue 6.000000
 	ValueIncreasePerLevel 1.000000
 weaponCooldownDecreasePerc
 	StartValue 0.200000

@@ -43,26 +43,26 @@ bombEffectsDef
 	projectileTravelEffectName "Weapon_WraithCapitalPlasma_Travel"
 mainViewIcon "MAINVIEWICON_WRAITH_CAPITALBATTLESHIP"
 basePrice
-	credits 3000.000000
-	metal 400.000000
-	crystal 250.000000
+	credits 5000.000000
+	metal 1400.000000
+	crystal 1250.000000
 slotCount 200.000000
 BuildTime 300.000000
 MaxHullPoints
 	StartValue 12500.000000
-	ValueIncreasePerLevel 3500.000000
+	ValueIncreasePerLevel 500.000000
 MaxShieldPoints
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.000000
 HullPointRestoreRate
-	StartValue 50.500000
-	ValueIncreasePerLevel 10.000000
+	StartValue 20.000000
+	ValueIncreasePerLevel 5.000000
 ShieldPointRestoreRate
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.000000
 ArmorPointsFromExperience
-	StartValue 10.000000
-	ValueIncreasePerLevel 1.120000
+	StartValue 5.000000
+	ValueIncreasePerLevel 1.000000
 maxMitigation
 	StartValue 0.000000
 	ValueIncreasePerLevel 0.000000
@@ -104,10 +104,10 @@ Weapon
 		DamageApplyType "BACKLOADED"
 		DamageType "ENERGY"
 		WeaponClassType "PLASMA"
-	DamagePerBank:FRONT 200.000000
-	DamagePerBank:BACK 200.000000
-	DamagePerBank:LEFT 400.000000
-	DamagePerBank:RIGHT 400.000000
+	DamagePerBank:FRONT 50.000000
+	DamagePerBank:BACK 50.000000
+	DamagePerBank:LEFT 100.000000
+	DamagePerBank:RIGHT 100.000000
 	Range 5000.000000
 	PreBuffCooldownTime 3.000000
 	CanFireAtFighter FALSE
@@ -185,7 +185,7 @@ meshNameDecreasedEffectName ""
 ExhaustParticleSystemName "Exhaust_PsiBattleship"
 ExplosionName "CapitalShip0"
 CommandPoints
-	StartValue 8.800000
+	StartValue 4.000000
 	ValueIncreasePerLevel 0.500000
 weaponCooldownDecreasePerc
 	StartValue 0.035000
