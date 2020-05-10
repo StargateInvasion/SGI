@@ -2,7 +2,7 @@
 entityType "Ability"
 buffInstantActionType "ApplyTargettedBuffToSelfNoRange"
 instantActionTriggerType "AlwaysPerform"
-buffType "Goauld_BuffTitanOffense_Tartarus_UpkeepActivated"
+buffType "Wraith_BuffTitanDefense_Quicksilver_UpkeepActivated"
 targetFilter
 	numOwnerships 1
 	ownership "Friendly"
@@ -35,12 +35,12 @@ useCostType "Passive"
 researchPrerequisites
 	NumResearchPrerequisites 1
 	ResearchPrerequisite
-		Subject "Goauld_Research_MaxShips0"
+		Subject "Wraith_Research_MaxShipSlots0"
 		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
-nameStringID "IDS_GOAULD_ABILITYUPKEEP_NAME"
-descStringID "IDS_GOAULD_ABILITYUPKEEP_DESCRIPTION"
+nameStringID "IDS_WRAITH_ABILITYUPKEEP_NAME"
+descStringID "IDS_WRAITH_ABILITYUPKEEP_DESCRIPTION"
 hudIcon "HUDICON_ABILITY_RESOURCEDRAIN"
 smallHudIcon "HUDICON_ABILITY_RESOURCEDRAIN"
 infoCardIcon ""

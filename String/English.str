@@ -1,5 +1,5 @@
 ﻿TXT
-NumStrings 8565
+NumStrings 8571
 StringInfo
 	ID "IDS_GDPRDIALOG_CANCELBUTTON"
 	Value "Decline"
@@ -4856,13 +4856,13 @@ StringInfo
 	Value "Frigate Logistics"
 StringInfo
 	ID "IDS_GOAULD_ABILITYORBITAL_FRIGATE_CRUISER_UPKEEP_DESCRIPTION"
-	Value "This orbital facility provides all human Frigates and Cruisers with logistics support. Resources are transferred from the economy and provided to each ship of the associated class. Constructing more ships increases the drain on resources. Be mindful of your fleet size or your economy will inevitably drift into the red!"
+	Value "This orbital facility provides all Goa'uld Frigates and Cruisers with logistics support. Resources are transferred from the economy and provided to each ship of the associated class. Constructing more ships increases the drain on resources. Be mindful of your fleet size or your economy will inevitably drift into the red!"
 StringInfo
 	ID "IDS_GOAULD_ABILITYORBITAL_CAPITAL_UPKEEP_NAME"
 	Value "Capital Logistics"
 StringInfo
 	ID "IDS_GOAULD_ABILITYORBITAL_CAPITAL_UPKEEP_DESCRIPTION"
-	Value "This orbital facility provides all human Capital Ships with logistics support. Resources are transferred from the economy and provided to each ship in this class. Constructing more ships increases the drain on resources. Be mindful of your fleet size or your economy will inevitably drift into the red!"
+	Value "This orbital facility provides all Goa'uld Capital Ships with logistics support. Resources are transferred from the economy and provided to each ship in this class. Constructing more ships increases the drain on resources. Be mindful of your fleet size or your economy will inevitably drift into the red!"
 StringInfo
 	ID "IDS_GOAULD_ABILITYSTARBASE_DESTABILIZEHYPERSPACE_NAME"
 	Value "Hyperdrive Disruption"
@@ -24267,6 +24267,24 @@ StringInfo
 StringInfo
 	 ID "IDS_WRAITH_ABILITY_SPREADWEAPONDAMAGE_DESCRIPTION"
 	 Value "Causes affected enemies to suffer damage whenever any one of them is damaged by weapons fire."
+StringInfo
+	ID "IDS_WRAITH_ABILITYORBITAL_FRIGATE_CRUISER_UPKEEP_NAME"
+	Value "'Queen Logistics"
+StringInfo
+	ID "IDS_WRAITH_ABILITYORBITAL_FRIGATE_CRUISER_UPKEEP_DESCRIPTION"
+	Value "This orbital facility provides all Wraith Frigates and Cruisers with logistics support from the Queen. Resources are transferred from the economy and provided to each ship of the associated class. Constructing more ships increases the drain on resources. Be mindful of your fleet size or your economy will inevitably drift into the red!"
+StringInfo
+	ID "IDS_WRAITH_ABILITYORBITAL_CAPITAL_UPKEEP_NAME"
+	Value "Queen Logistics"
+StringInfo
+	ID "IDS_WRAITH_ABILITYORBITAL_CAPITAL_UPKEEP_DESCRIPTION"
+	Value "This orbital facility provides all Wraith Capital Ships with logistics support from the Queen. Resources are transferred from the economy and provided to each ship in this class. Constructing more ships increases the drain on resources. Be mindful of your fleet size or your economy will inevitably drift into the red!"
+StringInfo
+	ID "IDS_WRAITH_ABILITYUPKEEP_NAME"
+	Value "Upkeep"
+StringInfo
+	ID "IDS_WRAITH_ABILITYUPKEEP_DESCRIPTION"
+	Value "Upkeep"
 StringInfo
 	 ID "IDS_WRAITH_STARBASEUPGRADEHANGAR_NAME"
 	 Value "Drone Capacity"
