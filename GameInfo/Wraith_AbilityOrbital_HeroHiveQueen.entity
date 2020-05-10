@@ -70,7 +70,10 @@ cooldownTime
 	Level:3 100.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
-	NumResearchPrerequisites 0
+	NumResearchPrerequisites 1
+	ResearchPrerequisite
+		Subject "Wraith_Research_Hero_HiveQueen"
+		Level 1
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 nameStringID "IDS_WRAITH_HERO_HIVEQUEEN_NAME"
