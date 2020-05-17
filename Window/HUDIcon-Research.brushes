@@ -1,6 +1,6 @@
 ﻿TXT
 onlyLoadOnDemand FALSE
-brushCount 660
+brushCount 661
 brush
 	name "HUDICON_RESEARCHSUBJECT_PLACEHOLDER"
 	content "States"
@@ -3073,6 +3073,24 @@ brush
 	Normal
 		fileName "Buttons_Research_SGI"
 		pixelBox [ 50 , 818 , 47 , 33 ]
+brush
+	name "HUDICON_ASURAN_RESEARCH_SPEEDBUILD"
+	content "States"
+	Disabled
+		fileName "Buttons_Research_Disabled"
+		pixelBox [ 260 , 438 , 47 , 33 ]
+	Pressed
+		fileName "Buttons_Research_Pressed"
+		pixelBox [ 260 , 438 , 47 , 33 ]
+	CursorOver
+		fileName "Buttons_Research_CursorOver"
+		pixelBox [ 260 , 438 , 47 , 33 ]
+	Focused
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 260 , 438 , 47 , 33 ]
+	Normal
+		fileName "Buttons_Research_Normal"
+		pixelBox [ 260 , 438 , 47 , 33 ]
 brush
 	name "HUDICON_RESEARCHSUBJECT_ARMORGOAULD0"
 	content "States"

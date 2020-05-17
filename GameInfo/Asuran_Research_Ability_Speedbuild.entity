@@ -1,30 +1,30 @@
 ﻿TXT
 entityType "ResearchSubject"
-hudIcon "HUDICON_RESEARCHSUBJECT_ABILITYACCESS_SPEEDBUILDMODULE"
-smallHudIcon "HUDICON_RESEARCHSUBJECT_ABILITYACCESS_SPEEDBUILDMODULE"
+hudIcon "HUDICON_ASURAN_RESEARCH_SPEEDBUILD"
+smallHudIcon "HUDICON_ASURAN_RESEARCH_SPEEDBUILD"
 infoCardIcon ""
-NameStringID "IDS_WRAITH_RESEARCH_ABILITY_SPEEDBUILDMODULE_NAME"
-DescriptionStringID "IDS_WRAITH_RESEARCH_ABILITY_SPEEDBUILDMODULE_DESCRIPTION"
+NameStringID "IDS_ASURAN_RESEARCH_ABILITY_SPEEDBUILDMODULE_NAME"
+DescriptionStringID "IDS_ASURAN_RESEARCH_ABILITY_SPEEDBUILDMODULE_DESCRIPTION"
 researchWindowLocation
-	block 2
-	pos [ 1 , 1 ]
+	block 0
+	pos [ 0 , 1 ]
 ResearchField "NonCombat"
 Prerequisites
 	NumResearchPrerequisites 0
 	RequiredFactionNameID ""
 	RequiredCompletedResearchSubjects 0
 MinimumArtifactLevel -1
-BaseUpgradeTime 45.000000
+BaseUpgradeTime 40.000000
 PerLevelUpgradeTime 5.000000
 BaseCost
-	credits 600.000000
-	metal 50.000000
-	crystal 100.000000
+	credits 400.000000
+	metal 0.000000
+	crystal 25.000000
 PerLevelCostIncrease
 	credits 100.000000
-	metal 25.000000
+	metal 0.000000
 	crystal 25.000000
-Tier 1
+Tier 0
 onlyWorksIfTierLabsExist FALSE
 MaxNumResearchLevels 1
 priority 1.000000
