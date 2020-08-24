@@ -1,5 +1,5 @@
 TXT
-numEffects 420
+numEffects 421
 effect
     name "EFFECT_REPOSSESSION"
     fileName "Effect_Repossession.ogg"
@@ -5999,6 +5999,21 @@ effect
 	minRespawnTime 0.5
 	fadeInTime 0.0
 	fadeOutTime 0.0
+	alternateGroup ""
+effect
+	name "Asuran_GateSatellite_Firing"
+	fileName "Asuran_GateSatellite_Firing.ogg"
+	type "Effect"
+	is3D TRUE
+	priority 5
+	threshold 22000.000000
+	minAttenuationDist 450.000000
+	maxNumPlayingSimultaneously 5
+	isLooping TRUE
+	isResident TRUE
+	minRespawnTime 0.1
+	fadeInTime 0.2
+	fadeOutTime 0.5
 	alternateGroup ""
 effect
 	name "WEAPON_ASURANDRONESFIRING_MUZZLE"

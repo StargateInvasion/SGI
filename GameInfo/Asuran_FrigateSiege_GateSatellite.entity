@@ -20,7 +20,7 @@ bombEffectsDef
 	burstCount 1
 	burstDelay 0.000000
 	fireDelay 0.000000
-	muzzleEffectName "Weapon_PhaseCapitalPlanetBombing_Muzzle"
+	muzzleEffectName "Weapon_AsuranGateSatellite_Muzzle"
 	muzzleSoundMinRespawnTime 0.100000
 	muzzleSounds
 		soundCount 1
@@ -34,7 +34,7 @@ bombEffectsDef
 		sound ""
 	beamEffectSounds
 		soundCount 1
-		sound "WEAPON_PHASEPLANETBOMB_LOOP"
+		sound "Asuran_GateSatellite_Firing"
 	beamGlowTextureName "PhaseCapitalBombingBeam_Glow"
 	beamCoreTextureName "PhaseCapitalBombingBeam_Core"
 	beamWidth 10.000000
@@ -105,7 +105,7 @@ Weapon
 		burstCount 1
 		burstDelay 0.000000
 		fireDelay 0.000000
-		muzzleEffectName "Weapon_PhaseCapitalPlanetBombing_Muzzle"
+		muzzleEffectName "Weapon_AsuranGateSatellite_Muzzle"
 		muzzleSoundMinRespawnTime 0.100000
 		muzzleSounds
 			soundCount 1
@@ -119,7 +119,7 @@ Weapon
 			sound ""
 		beamEffectSounds
 			soundCount 1
-			sound "WEAPON_PSICAPITALBEAMHEAVY_TRAVEL"
+			sound "Asuran_GateSatellite_Firing"
 		beamGlowTextureName "PhaseCapitalBombingBeam_Glow"
 		beamCoreTextureName "PhaseCapitalBombingBeam_Core"
 		beamWidth 10.000000
