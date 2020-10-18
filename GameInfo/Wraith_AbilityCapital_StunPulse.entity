@@ -14,17 +14,17 @@ needsToFaceTarget FALSE
 canCollideWithTarget TRUE
 moveThruTarget FALSE
 isUltimateAbility FALSE
-maxNumLevels 3
+maxNumLevels 4
 levelSourceType "Intrinsic"
 minExperienceLevelRequired
 	Level:0 0.000000
 	Level:1 2.000000
 	Level:2 4.000000
-	Level:3 0.000000
+	Level:3 6.000000
 aiUseTime "OnlyInCombat"
 aiUseTargetCondition "Any"
 isAutoCastAvailable TRUE
-isAutoCastOnByDefault FALSE
+isAutoCastOnByDefault TRUE
 pickRandomPlanetToExploreForAutoCastTarget FALSE
 ignoreNonCombatShipsForAutoCastTarget TRUE
 onlyAutoCastWhenDamageTakenExceedsPerc 0.000000
@@ -33,12 +33,12 @@ antiMatterCost
 	Level:0 150.000000
 	Level:1 125.000000
 	Level:2 100.000000
-	Level:3 0.000000
+	Level:3 75.000000
 cooldownTime
 	Level:0 100.000000
 	Level:1 90.000000
 	Level:2 85.000000
-	Level:3 0.000000
+	Level:3 80.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
 	NumResearchPrerequisites 0
