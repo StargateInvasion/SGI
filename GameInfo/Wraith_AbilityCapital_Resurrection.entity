@@ -15,7 +15,7 @@ targetFilter
 range
 	Level:0 5000.000000
 	Level:1 6500.000000
-	Level:2 0.000000
+	Level:2 8000.000000
 	Level:3 0.000000
 effectInfo
 	effectAttachInfo
@@ -32,8 +32,8 @@ maxNumLevels 2
 levelSourceType "Intrinsic"
 minExperienceLevelRequired
 	Level:0 5.000000
-	Level:1 8.000000
-	Level:2 0.000000
+	Level:1 7.000000
+	Level:2 9.000000
 	Level:3 0.000000
 aiUseTime "Anytime"
 aiUseTargetCondition "Any"
@@ -46,12 +46,12 @@ useCostType "AntiMatter"
 antiMatterCost
 	Level:0 100.000000
 	Level:1 100.000000
-	Level:2 0.000000
+	Level:2 100.000000
 	Level:3 0.000000
 cooldownTime
 	Level:0 120.000000
 	Level:1 100.000000
-	Level:2 0.000000
+	Level:2 80.000000
 	Level:3 0.000000
 orderAcknowledgementType "ONGENERALORDERISSUED"
 researchPrerequisites
