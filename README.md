@@ -8,7 +8,7 @@ Please see our [installation page](https://github.com/StargateInvasion/SGI/wiki/
 The intellectual property depicted in this mod, including the brand "stargate", is not affiliated with or endorsed by the original rights holders. This software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 
 ## License
-Editorial uses of this mod are allowed as long as credit for the work is provided, but other uses (such as within for profit computer games) may require legal clearances from third party intellectual property owners. 
+Reprofuction of art or sound elements of this mod without express permission is strictly prohibitted.
 
 ## Credit
 _If you feel your work is represented in the mod and should be credited, please contact us on [Discord](https://discordapp.com/channels/322849121956528139/322856260280254464)
